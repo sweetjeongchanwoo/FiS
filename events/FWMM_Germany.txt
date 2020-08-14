@@ -1,0 +1,84 @@
+﻿###############################################################################################################
+# FWMM German Events ##################################################################################
+###############################################################################################################
+
+add_namespace = FWMM_germany
+
+###############################################################################################################
+# RK's and Satellits ##########################################################################################
+###############################################################################################################
+
+# Neuschwabenland
+country_event = {
+	id = FWMM_germany.1
+	title = FWMM_germany.1.t
+	desc = FWMM_germany.1.d
+	picture = GFX_report_event_fwmm_neuschwabenland
+
+	is_triggered_only = yes
+	
+	option = { #Create
+		name = FWMM_germany.1.a
+		ai_chance = { factor = 40 }
+		NSL = {		
+			transfer_state = 849
+			transfer_state = 850
+			transfer_state = 851
+			transfer_state = 852
+			transfer_state = 853	
+			transfer_state = 812
+			transfer_state = 861
+			transfer_state = 845
+			transfer_state = 853
+			transfer_state = 818
+			transfer_state = 846
+			transfer_state = 819
+			transfer_state = 847
+			transfer_state = 851
+			transfer_state = 850
+			transfer_state = 820
+			transfer_state = 884
+			transfer_state = 847
+			transfer_state = 860	
+			transfer_state = 848	
+			add_state_core = 849
+			add_state_core = 850
+			add_state_core = 851
+			add_state_core = 852
+			add_state_core = 853	
+			add_state_core = 812
+			add_state_core = 861
+			add_state_core = 845
+			add_state_core = 853
+			add_state_core = 818
+			add_state_core = 846
+			add_state_core = 819
+			add_state_core = 847
+			add_state_core = 851
+			add_state_core = 850
+			add_state_core = 820
+			add_state_core = 884
+			add_state_core = 847
+			add_state_core = 860	
+			add_state_core = 848
+			set_capital = 853				
+			GER = {
+				set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat }
+			}			
+			hidden_effect = {			
+				inherit_technology = GER
+				create_country_leader = {
+					name = "Alfred Ritscher"
+					desc = "POLITICS_ALFRED_RITSCHER_DESC"
+					picture = "gfx/leaders/NSL/Alfred_Ritscher.dds"
+					expire = "1965.1.1"
+					ideology = nazism				
+				}
+			}
+		}		
+	}
+	option = { #No need
+		name = FWMM_germany.1.b
+		ai_chance = { factor = 60 }		 
+	}
+}

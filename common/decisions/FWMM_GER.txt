@@ -1,0 +1,71 @@
+#############################################################################################################
+# RK's ########################################################################################################
+###############################################################################################################
+
+GER_reichskommissariats = {
+	#### Neuschwabenland
+	GER_reichskommissariat_neuschwabenland = {
+
+		icon = ger_reichskommissariats
+		
+		fire_only_once = no
+		cost = 0
+
+		allowed = {
+			tag = GER
+		}
+		
+		available = {	
+			controls_state = 64
+
+		}
+		
+		visible = {	
+			has_completed_focus = GER_form_the_reichskommissariats
+			NOT = { NSL = { is_subject_of = GER } }
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+		
+
+		complete_effect = { 
+			country_event = { id = FWMM_germany.1 }	
+	}
+
+			NSL = {
+				transfer_state = 847
+				transfer_state = 848
+				transfer_state = 849
+				transfer_state = 860
+				transfer_state = 845
+				transfer_state = 846
+				transfer_state = 812
+				transfer_state = 861
+				transfer_state = 853
+				transfer_state = 818
+				transfer_state = 819
+				transfer_state = 851
+				transfer_state = 850
+				transfer_state = 820	
+				transfer_state = 884
+				847 = { add_core_of = GER }
+				848 = { add_core_of = GER }
+				849 = { add_core_of = GER }
+				860 = { add_core_of = GER }
+				845 = { add_core_of = GER }
+				846 = { add_core_of = GER }
+				812 = { add_core_of = GER }
+				861 = { add_core_of = GER }
+				853 = { add_core_of = GER }
+				818 = { add_core_of = GER }
+				819 = { add_core_of = GER }
+				851 = { add_core_of = GER }
+				850 = { add_core_of = GER }
+				820 = { add_core_of = GER }
+				884 = { add_core_of = GER }	
+				set_capital = 848
+			}
+		}
+	}

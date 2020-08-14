@@ -1,0 +1,4 @@
+ANT = "countries/ANT - Antarctica.txt"
+NSL = "countries/GER - Neuschwabenland.txt"
+GDA = "countries/GDA.txt"
+NCR = "countries/NCR.txt"

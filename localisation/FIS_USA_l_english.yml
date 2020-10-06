@@ -1,6 +1,6 @@
 ﻿l_english:
 
-united_kingdom_focus:0 "미합중국 중점 계통도"
+united_state_focus:0 "미합중국 중점 계통도"
 
 ### Cosmetic Tags ###
 USA_accelerationism:0 "북아메리카 우주국"
@@ -43,10 +43,10 @@ USA_fascism_party:0 "아메리카 은빛 군단"
 USA_fascism_party_long:0 "아메리카 은빛 군단"
 USA_authoritarian_democrat_party:0 "미국 제일당"
 USA_authoritarian_democrat_party_long:0 "미국 제일당"
-USA_liberal_democrat_party:0 "공화당"
-USA_liberal_democrat_party_long:0 "미국 공화당"
-USA_social_democrat_party:0 "민주당"
-USA_social_democrat_party_long:0 "미국 민주당"
+USA_liberal_democrat_party:0 "공화민주당"
+USA_liberal_democrat_party_long:0 "미국 공화민주당"
+USA_social_democrat_party:0 "진보당"
+USA_social_democrat_party_long:0 "미국 진보당"
 USA_syndicalist_party:0 "CSA 온건파"
 USA_syndicalist_party_long:0 "미국 사회당 온건파"
 USA_communism_party:0 "CSA 과격파"

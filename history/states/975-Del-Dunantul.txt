@@ -1,0 +1,30 @@
+state={
+	id=975
+	name="STATE_975"
+	
+	history={
+		owner = HUN
+		1945.1.1 = {
+			controller = SOV
+		}
+		1946.1.1 = {
+			owner = HUN
+			controller = HUN
+		}
+		victory_points = {
+			11610 3
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = HUN
+	}
+	
+	provinces={
+		682 3680 6685 9624 9643 11610 
+	}
+	manpower=371110
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

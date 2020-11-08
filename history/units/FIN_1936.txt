@@ -1,0 +1,272 @@
+﻿division_template = {
+	name = "Jalkaväkidivisioona"		# Infantry Division 
+	division_names_group = FIN_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		bicycle_battalion = { x = 3 y = 0 } # Jager battalion
+		artillery_battalion = { x = 4 y = 0 }	# Each artillery regiment had only one battalion
+    }
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		anti_air = { x = 0 y = 3 }
+	}
+}
+division_template = {
+	name = "Ratsuväkiprikaati"  		# Cavalry Brigade
+	division_names_group = FIN_CAV_01
+
+	regiments = {
+        cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+        cavalry = { x = 1 y = 1 }
+        medium_armor = { x = 2 y = 0 } # The Separate Tank Company (Erillinen Hyökkäysvaunukomppania - Did not use the 'panzer' name until 1937) was a detached formation of the Cavalry Brigade
+		bicycle_battalion = { x = 3 y = 0 } # Jager battalion
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+
+units = {
+    division = {
+        name = "Ratsuväenprikatii"
+        location = 6082 # Lappeenranta 
+        division_template = "Ratsuväkiprikaati"
+        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_equipment_factor = 0.7 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
+		force_equipment_variants = { Light_Tank_equipment_1917 = { owner = "FIN" creator = "FRA" amount = 34 } } #34 Renault FT-17
+		acclimatization={
+			cold_climate=6420.000
+			max_acclimatization=6420.000
+		}
+    }
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+        location = 11105 # Helsinki
+        division_template = "Jalkaväkidivisioona"
+        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_equipment_factor = 0.7 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
+		acclimatization={
+			cold_climate=11920.000
+			max_acclimatization=11920.000
+		}
+    }
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+        location = 3083 # Turku
+        division_template = "Jalkaväkidivisioona"
+        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_equipment_factor = 0.7 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
+ 		acclimatization={
+			cold_climate=11920.000
+			max_acclimatization=11920.000
+		}
+   }
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+        location = 3137 # Tampere
+        division_template = "Jalkaväkidivisioona"
+        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_equipment_factor = 0.7 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
+		acclimatization={
+			cold_climate=11920.000
+			max_acclimatization=11920.000
+		}
+    }
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+        location = 9038 # Seinäjoki
+        division_template = "Jalkaväkidivisioona"
+        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_equipment_factor = 0.7 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
+		acclimatization={
+			cold_climate=11920.000
+			max_acclimatization=11920.000
+		}
+    }
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+        location = 3122 # Vaasa
+        division_template = "Jalkaväkidivisioona"
+        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_equipment_factor = 0.7 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
+ 		acclimatization={
+			cold_climate=11920.000
+			max_acclimatization=11920.000
+		}
+   }
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+        location = 9056 # Jyväskylä
+        division_template = "Jalkaväkidivisioona"
+        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_equipment_factor = 0.7 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
+ 		acclimatization={
+			cold_climate=11920.000
+			max_acclimatization=11920.000
+		}
+   }
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+        location = 3061 # Kotka
+        division_template = "Jalkaväkidivisioona"
+        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_equipment_factor = 0.7 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
+ 		acclimatization={
+			cold_climate=11920.000
+			max_acclimatization=11920.000
+		}
+   }
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+        location = 9061 # Joensuu
+        division_template = "Jalkaväkidivisioona"
+        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_equipment_factor = 0.7 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
+		acclimatization={
+			cold_climate=11920.000
+			max_acclimatization=11920.000
+		}
+    }
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+        location = 165 # Mikkeli
+        division_template = "Jalkaväkidivisioona"
+        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_equipment_factor = 0.7 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
+		acclimatization={
+			cold_climate=11920.000
+			max_acclimatization=11920.000
+		}
+    }
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Suomen Laivasto"
+		naval_base = 11105 # Helsinki
+		task_force = {
+			name = "Suomen Laivasto"
+			location = 11105 # Helsinki
+			ship = { name = "Ilmarinen" definition = heavy_cruiser equipment = { CA_equipment_1933 = { amount = 1 owner = FIN } } }				
+			ship = { name = "Väinämöinen" definition = heavy_cruiser equipment = { CA_equipment_1933 = { amount = 1 owner = FIN } } }
+		}
+		task_force = {
+			name = "I. Laivasto"
+			location =  11105 # Helsinki
+			ship = { name = "1. Sukellusvenelaivue" definition = submarine equipment = { SS_equipment_1916 = { amount = 1 owner = FIN } } }
+		}
+	}			
+}
+	
+air_wings = {
+	111 = {
+		# Lentorykmentti 1
+		Tactical_Bomber_Equipment_1933 = { # 3rd gen. Short range Bomber
+			owner = "FIN"
+			amount = 45
+		}
+		# Lentorykmentti 2
+		Fighter_Equipment_1933 = { # Gloster Gamecock
+			owner = "FIN"
+			amount = 45
+		}
+		# Lentorykmentti 4
+		Tactical_Bomber_Equipment_1933 = { # Interwar Tactical Bomber
+			owner = "FIN"
+			amount = 45
+		}
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+    add_equipment_production = {
+        equipment = {
+            type = Small_Arms_equipment_1936
+            creator = "FIN"
+        }
+        requested_factories = 1
+        progress = 0.72
+        efficiency = 100
+    }
+
+    add_equipment_production = {
+        equipment = {
+            type = artillery_equipment_1
+            creator = "FIN"
+        }
+        requested_factories = 1
+        progress = 0.5
+        efficiency = 100
+    }
+
+    add_equipment_production = {
+        equipment = {
+            type = Anti_Aircraft_Gun_equipment_1935
+            creator = "FIN"
+        }
+        requested_factories = 1
+        progress = 0.46
+        efficiency = 100
+    }
+
+    add_equipment_production = {
+        equipment = {
+            type = SS_equipment_1922
+            creator = "FIN"
+        }
+        requested_factories = 1
+		progress = 0.4
+		amount = 8
+    }
+}

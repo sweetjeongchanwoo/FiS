@@ -1,0 +1,115 @@
+﻿#########################################################################
+# Shanxi - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 615
+	oob = "SHX_1936"
+	#######################
+	# Research
+	#######################	
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+	}
+	#######################
+	# Politics
+	#######################	
+	add_ideas = {
+		# Cabinet
+		CSX_HoG_HH_Kung
+	}
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 100
+		democratic = 0
+		socialist = 0
+		communist = 0
+	}
+	#######################
+	# Leaders
+	#######################	
+	create_country_leader = {
+		name = "Yan Xishan"
+		desc = ""
+		picture = "P_A_Yan_Xishan.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = {
+			POSITION_Civil_Governor
+			SUBIDEOLOGY_Authoritarian_Democracy
+			HoS_Model_Governor
+		}
+	}
+	#######################
+	# Generals
+	#######################
+	create_field_marshal = {
+		name = "Yan Xishan"
+		picture = "P_A_Yan_Xishan.tga"
+		traits = { defensive_doctrine }
+		skill = 4
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 2
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Fu Zuoyi"
+		picture = "M_Fu_Zuoyi.tga"
+		traits = { offensive_doctrine }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 2
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Xu Yongchang"
+		picture = "Xu_Yongchang.tga"
+		traits = { }
+		skill = 2
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Yang Aiyuan"
+		picture = "Yang_Aiyuan.tga"
+		traits = { }
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Shang Zhen"
+		picture = "M_Shang_Zhen.tga"
+		traits = { }
+		skill = 1
+		attack_skill = 3
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 2
+	}
+}

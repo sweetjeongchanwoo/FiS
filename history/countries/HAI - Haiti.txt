@@ -1,0 +1,66 @@
+﻿#########################################################################
+# Haiti - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 318
+	set_convoys = 5
+	oob = "HAI_1933"
+	#######################
+	# Research
+	#######################	
+	set_technology = {
+		Small_Arms_1916 = 1
+	}
+	#######################
+	# Politics
+	#######################	
+	set_country_flag = monroe_doctrine
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 23
+		democratic = 72
+		socialist = 5
+		communist = 0
+	}
+	#######################
+	# Leaders
+	#######################	
+	# Democracy
+	create_country_leader = {
+		name = "Sténio Vincent"
+		desc = "POLITICS_STENIO_VINCENT_DESC"
+		picture = "P_D_Stenio_Vincent.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism HoS_Pig_Headed_Isolationist }
+	}
+}
+#########################################################################
+# Haiti - 1936
+#########################################################################
+1936.1.1 = {
+	oob = "HAI_1936"
+}
+#########################################################################
+# Haiti - 1941
+#########################################################################
+1941.6.22 = {
+	#######################
+	# Leaders
+	#######################	
+	# Democracy
+	create_country_leader = {
+		name = "Élie Lescot"
+		desc = ""
+		picture = "P_D_Elie_Lescot.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism HoS_Resigned_Generalissimo }
+	}
+}

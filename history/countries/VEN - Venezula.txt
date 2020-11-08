@@ -1,0 +1,143 @@
+﻿#########################################################################
+# Venezula - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 307
+	set_convoys = 10
+	oob = "VEN_1933"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Artillery_1910 = 1
+		Fighter_1933 = 1
+		
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		DD_1922 = 1
+		DD_1933 = 1	
+		
+		SS_1895 = 1
+		SS_1912 = 1
+	}
+	#######################
+	# Politics
+	#######################	
+	set_country_flag = monroe_doctrine	
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 65
+		democratic = 20
+		socialist = 15
+		communist = 0
+	}
+	#######################
+	# Leaders
+	#######################	
+	# Autocracy
+	create_country_leader = {
+		name = "Juan Vicente Gómez"
+		desc = ""
+		picture = "P_A_Juan_Vicente_Gomez.tga"
+		expire = "1965.1.1"
+		ideology = military_dictatorship
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Military_Dictatorship
+			HoS_Stern_Imperialist
+		}
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Isaías Medina Angarita"
+		desc = ""
+		picture = "P_D_Romulo_Betancourt.tga"
+		expire = "1965.1.1"
+		ideology = social_democracy
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Social_Democracy
+			HoS_Autocratic_Charmer
+			# The Father of Venezuelan Democracy
+		}
+	}	
+}
+#################################################
+# Venezula - 1936
+#################################################
+1936.1.1 = {
+	oob = "VEN_1936"
+	#######################
+	# Leaders
+	#######################	
+	# Autocracy
+	create_country_leader = {
+		name = "Eleazar Contreras"
+		desc = ""
+		picture = "P_A_Elezar_Lopez_Contreras.tga"
+		expire = "1965.1.1"
+		ideology = military_dictatorship
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Military_Dictatorship
+			HoS_Barking_Buffoon
+		}
+	}
+}
+#################################################
+# Venezula - 1941
+#################################################
+1941.6.22 = {
+	#######################
+	# Leaders
+	#######################	
+	# Autocracy
+	create_country_leader = {
+		name = "Isaías Medina Angarita"
+		desc = ""
+		picture = "P_A_Isaias_Medina_Angarita.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Authoritarian_Democracy
+			HoS_Resigned_Generalissimo
+		}
+	}
+}
+#################################################
+# Venezula - 1944
+#################################################
+1944.6.20 = {
+	#######################
+	# Politics
+	#######################		
+	set_party_name = {
+		ideology = authoritarian
+		name = VEN_authoritarian_1943_party
+		long_name = VEN_authoritarian_1943_party_long
+	}
+}
+#################################################
+# Venezula - 1946
+#################################################
+1946.1.1 = {
+	#######################
+	# Politics
+	#######################		
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}	
+}

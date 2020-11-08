@@ -1,0 +1,135 @@
+﻿#####################################
+# Switzerland - 1933
+#####################################
+1933.1.1 = {
+	capital = 151
+	set_stability = 0.85
+	set_research_slots = 3
+	oob = "SWI_1933"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Artillery_1910 = 1
+		Anti_Aircraft_Gun_1935 = 1
+		tech_mountaineers = 1
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		Fighter_1933 = 1
+		CAS_1936 = 1
+		# Armour Tech
+		truck_1936 = 1
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+	}
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1935.10.27"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 0
+		democratic = 97
+		socialist = 2
+		communist = 1
+	}
+	add_ideas = {
+		neutrality_idea
+		one_year_service
+		#Cabinet 
+		SWI_HoG_Edmond_Schulthess
+	}
+	####################################################
+	# Swiss Leaders
+	####################################################
+	# National Socialism
+	create_country_leader = {
+		name = "Jakob Schaffner"
+		desc = ""
+		picture = "Germany_NS_Adolf_Hitler.tga"
+		expire = "1965.1.1"
+		ideology = national_socialism
+		traits = {
+		}
+	}
+	# Fascism
+	create_country_leader = {
+		name = "Georges Oltramare"
+		desc = ""
+		picture = "Germany_FA_Ludwig_Beck.tga"
+		expire = "1965.1.1"
+		ideology = fascism
+		traits = {
+		}
+	}
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Eugen Bircher"
+		desc = ""
+		picture = "Germany_PA_Wilhelm_II.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = {
+		}
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Federal Council"
+		desc = ""
+		picture = "P_Federal_Council.tga"
+		expire = "1965.1.1"
+		ideology = market_liberalism
+		traits = {
+		}
+	}
+	# Left-Wing Radicalism
+	create_country_leader = {
+		name = "Jules Humbert Droz"
+		desc = ""
+		picture = "P_LWR_Jules_Humbert_Droz.tga"
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {
+		}
+	}
+	# Marxism-Leninism
+	create_country_leader = {
+		name = "Fritz Platten"
+		desc = ""
+		picture = "Germany_ST_Ludwig_Renn.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = {
+		}
+	}
+	####################################################
+	# Swiss General staff 
+	####################################################
+	create_corps_commander = {
+		name = "Henri Guisan"
+		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+		traits = {
+			winter_specialist
+		}
+		skill = 3
+	}
+}
+
+#####################################
+# Switzerland - 1936
+#####################################
+1936.1.1 = {
+	oob = "SWI_1936"
+	set_technology = {
+		Small_Arms_1935 = 1
+		Artillery_1910 = 1
+		Anti_Aircraft_Gun_1935 = 1
+	}
+	add_ideas = {
+		SWI_HoG_Albert_Meyer
+	}
+}

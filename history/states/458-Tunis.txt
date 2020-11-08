@@ -1,0 +1,56 @@
+
+state={
+	id=458
+	name="STATE_458"
+	resources={
+		steel=6.000
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			7180 10 
+		}
+		victory_points = {
+			11921 3 
+		}
+		victory_points = {
+			7162 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 8
+
+		}
+		add_core_of = TUN
+		1941.6.22 = {
+			owner = VIC
+			controller = VIC
+
+		}
+		1942.11.22 = {
+			owner = FRA
+			controller = ITA
+
+		}
+		1943.7.26 = {
+			owner = FRA
+			controller = FRA
+
+		}
+		1960.1.1 = {
+			owner = TUN
+			controller = TUN
+
+		}
+
+	}
+
+	provinces={
+		7162 7180 10026 10091 11921 
+	}
+	manpower=1982940
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,163 @@
+﻿#########################################################################
+# Afghanistan - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 267
+	set_stability = 0.5
+	set_war_support = 0.3
+	oob = "AFG_1933"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Arty Tech
+		Artillery_1910 = 1		
+		### Armor Tech
+		Armored_Car_1911 = 1
+		### Land Doctrine Tech
+		Twentieth_Century_Warfare = 1
+		Leading_by_Order = 1
+		Strongpoint = 1
+		Mass_Charge = 1
+		Static_Defence = 1
+		Counterattack = 1
+		Defence_In_Depth = 1
+		Separate_Arms_Force = 1
+		Combined_Arms_Effort = 1
+		Specialized_Branch_Tactical_Experience = 1		
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1933.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 60
+		democratic = 25
+		socialist = 10
+		communist = 5
+	}
+	add_ideas = {
+		AFG_Graveyard_of_Empires
+		# Cabinet
+		AFG_HoG_Muhammed_Hashim
+		AFG_FM_Haji_Faiz_Muhammed_Zikeria
+		AFG_AM_Abdul_Majid_Zabuli
+		AFG_MoS_Muhammed_Hashim
+		AFG_HoI_Shah_Mahmud_Ghazi
+		# Military Staff
+		AFG_CoStaff_Mohammed_Daoud
+		AFG_CoArmy_Mohammed_Daoud
+		AFG_CoNavy_Muhammed_Zahir
+		AFG_CoAir_Mohammed_Daoud
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Muhammed Hashim"
+		desc = ""
+		picture = "P_F_Muhammad_Hashim.tga"
+		expire = "1943.1.11"
+		ideology = fascism
+		traits = {
+			POSITION_Prime_Minister
+			SUBIDEOLOGY_Fascism
+			HoG_Happy_Amateur
+		}
+	}
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Mohammed Nadir"
+		desc = "Mohammed_Nadir_desc"
+		picture = "P_A_Muhammed_Nadir.tga"
+		expire = "1965.1.1"
+		ideology = monarchism
+		traits = {
+			POSITION_Shah
+			SUBIDEOLOGY_Monarchism
+			HoS_Die_Hard_Reformer
+		}
+	}
+	# Conservatism
+	create_country_leader = {
+		name = "Mohammed Daoud Khan"
+		desc = ""
+		picture = "P_D_Mohammed_Daoud_Khan.tga"
+		expire = "1965.1.11"
+		ideology = social_conservatism
+		traits = {
+			POSITION_Prime_Minister
+			SUBIDEOLOGY_Conservatism
+			HoG_Happy_Amateur
+		}
+	}
+	# Marxism-Leninism
+	create_country_leader = {
+		name = "Nur Muhammad Taraki"
+		desc = ""
+		picture = "P_C_Nur_Muhammad_Taraki.tga"
+		expire = "1965.1.11"
+		ideology = marxism_leninism
+		traits = {
+			POSITION_General_Secretary
+			SUBIDEOLOGY_Marxism_Leninism
+			HoS_PowerHungry_Demagogue
+		}
+	}
+}
+
+#########################################################################
+# 1936 Start Date
+#########################################################################
+1936.1.1 = {
+	capital = 267
+	set_stability = 0.5
+	set_war_support = 0.3
+	oob = "AFG_1936"
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Mohammed Zahir"
+		desc = "Mohammed_Zahir_desc"
+		picture = "P_A_Muhammed_Zahir.tga"
+		expire = "1965.1.1"
+		ideology = monarchism
+		traits = {
+			POSITION_Shah
+			SUBIDEOLOGY_Monarchism
+			HoS_Autocratic_Charmer
+		}
+	}
+}
+
+#######################
+# Generals
+#######################
+create_corps_commander = {
+	name = "Sardar Shah Wali Khan"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = {
+		desert_fox
+	}
+	skill = 4
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}

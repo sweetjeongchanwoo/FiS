@@ -1,0 +1,49 @@
+﻿l_english:
+ ### Rockets and Missiles
+ guided_missile_equipment:0 "Guided Missile"
+ 
+ guided_missile_equipment_1:0 "Flying Bomb"
+ guided_missile_equipment_1_short:0 "Flying Bomb"
+ guided_missile_equipment_1_desc:0 "The Flying Bomb is a pilotless aircraft powered by an early jet engine, designed to deliver a payload of explosives to an area target. It is slower than a rocket or missile, which means that it can be intercepted and shot down by enemy fighters."
+ 
+ guided_missile_equipment_2:0 "Strategic Rockets"
+ guided_missile_equipment_2_short:0 "Strategic Rockets"
+ guided_missile_equipment_2_desc:0 "Decent unmanned flying bomb"
+ 
+ guided_missile_equipment_3:0 "Ballistic Missiles"
+ guided_missile_equipment_3_short:0 "Ballistic Missiles"
+ guided_missile_equipment_3_desc:0 "Better unmanned flying bomb"
+ 
+ guided_missile_equipment_4:0 "Intercontinental ballistic missile"
+ guided_missile_equipment_4_short:0 "ICBM"
+ guided_missile_equipment_4_desc:0 "Best unmanned flying bomb"
+ 
+ ### Germany
+ GER_guided_missile_equipment_1:0 "V-1"
+ GER_guided_missile_equipment_2:0 "V-2"
+ GER_guided_missile_equipment_3:0 "V-8"
+ GER_guided_missile_equipment_4:0 "V-12"
+
+ ### United States
+ USA_guided_missile_equipment_1:0 "Republic-Ford JB-2"
+ USA_guided_missile_equipment_2:0 "PGM-11 Redstone"
+ USA_guided_missile_equipment_3:0 "PGM-17 Thor"
+ USA_guided_missile_equipment_4:0 "SM-65 Atlas-D"
+
+ ### Soviet Union
+ SOV_guided_missile_equipment_1:0 "10Kh"
+ SOV_guided_missile_equipment_2:0 "R-1"
+ SOV_guided_missile_equipment_3:0 "R-5 Pobeda"
+ SOV_guided_missile_equipment_4:0 "R-7 Semyorka" 
+ 
+ ### United Kingdom
+ ENG_guided_missile_equipment_3:0 "Thor"
+ ENG_guided_missile_equipment_4:0 "Blue Streak"
+ 
+ ### People's Republic of China
+ PRC_guided_missile_equipment_2:0 "Dongfeng SS-1"
+ PRC_guided_missile_equipment_2:0 "Dongfeng SS-2"
+ PRC_guided_missile_equipment_3:0 "Dongfeng CSS-1"
+ PRC_guided_missile_equipment_4:0 "Dongfeng CSS-3" 
+ 
+

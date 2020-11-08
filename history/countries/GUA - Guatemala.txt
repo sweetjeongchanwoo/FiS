@@ -1,0 +1,101 @@
+﻿#########################################################################
+# Guatemala - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 313
+	set_convoys = 5
+	oob = "GUA_1933"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Artillery_1910 = 1
+		Anti_Aircraft_Gun_1935 = 1
+		Fighter_1933 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_country_flag = monroe_doctrine
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1931.2.8"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 70
+		democratic = 30
+		socialist = 0
+		communist = 0
+	}
+	add_ideas = {
+		GUA_Concessions_to_UFC
+	}
+	#######################
+	# Leaders
+	#######################
+	# Autocracy
+	create_country_leader = {
+		name = "Jorge Ubico Castaneda"
+		desc = "POLITICS_JORGE_UBICO_DESC"
+		picture = "P_A_Jorge_Castaneda.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = { POSITION_President SUBIDEOLOGY_Authoritarian_Democracy HoS_Pig_Headed_Isolationist }
+	}
+	#######################
+	# Generals
+	#######################	
+}
+#########################################################################
+# Guatemala - 1936
+#########################################################################
+1936.1.1 = {
+	oob = "GUA_1936"
+}
+#########################################################################
+# Guatemala - 1944
+#########################################################################
+1944.6.20 = {
+	#######################
+	# Leaders
+	#######################
+	# Autocracy
+	create_country_leader = {
+		name = "Juan Federico Ponce Vaides"
+		desc = ""
+		picture = "P_A_Jorge_Castaneda.tga"
+		expire = "1965.1.1"
+		ideology = military_dictatorship
+		traits = { POSITION_President SUBIDEOLOGY_Military_Dictatorship HoS_Resigned_Generalissimo }
+	}	
+}
+#########################################################################
+# Guatemala - 1945
+#########################################################################
+1945.1.1 = {
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1931.2.8"
+		election_frequency = 48
+		elections_allowed = no
+	}	
+	#######################
+	# Leaders
+	#######################
+	# Autocracy
+	create_country_leader = {
+		name = "Juan José Arévalo"
+		desc = ""
+		picture = "P_D_Juan_Jose_Arevalo.tga"
+		expire = "1965.1.1"
+		ideology = social_democracy
+		traits = { POSITION_President SUBIDEOLOGY_Social_Democracy HoS_Resigned_Generalissimo }
+	}
+}

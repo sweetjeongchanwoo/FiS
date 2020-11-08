@@ -1,0 +1,163 @@
+﻿#########################################################################
+# Manchucko
+#########################################################################
+1933.1.1 = {
+	capital = 328
+	oob = "MAN_1933"
+	set_convoys = 5
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		tech_support = 1		
+		tech_recon = 1
+		tech_engineers = 1
+		marines  = 1
+		Artillery_1910 = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		Light_Tank_1926 = 1
+	}
+
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = fascist
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 48
+		authoritarian = 9
+		democratic = 10
+		socialist = 0
+		communist = 33
+	}	
+	set_cosmetic_tag = MAN_REP
+	add_ideas = {
+		# National Spirits 
+		
+		# Cabinet
+			MAN_HoG_Chang_Chinghui
+	}
+
+}
+
+1936.1.1 = {
+	capital = 328
+	oob = "MAN_1936"
+	set_convoys = 5
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		tech_support = 1		
+		tech_recon = 1
+		tech_engineers = 1
+		truck_1936 = 1
+		marines  = 1
+		Artillery_1910 = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		Light_Tank_1926 = 1
+		Light_Tank_1934 = 1
+	}
+
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = fascist
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 88
+		authoritarian = 10
+		democratic = 0
+		socialist = 0
+		communist = 2
+	}	
+	drop_cosmetic_tag = yes
+	add_ideas = {
+		# National Spirits 
+			
+		# Cabinet
+			MAN_HoG_Chang_Chinghui
+	}
+
+}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Aisin Gioro Puyi"	
+		picture = "P_A_Pu_Yi.tga"
+		expire = "1960.1.1"
+		ideology = fascism
+		traits = { POSITION_Emperor }
+	}
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Aisin Gioro Puyi"	
+		picture = "P_A_Pu_Yi.tga"
+		expire = "1960.1.1"
+		ideology = authoritarian_democracy
+		traits = { POSITION_Emperor }
+	}
+	
+	#######################
+	# Generals
+	#######################
+	create_field_marshal = {
+		name = "Zhang Jinghui"
+		picture = "P_A_Zhang_Jinghui.tga"
+		traits = { infantry_officer }
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Yu Zhishan"
+		picture = "Portrait_Manchukuo_Yu_Zhishan.dds"
+		traits = { }
+		skill = 2
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 2   
+	}
+
+	create_corps_commander = {
+		name = "Urjin Garmaev"
+		picture = "Portrait_Manchukuo_Urjin_Garmaev.dds"
+		traits = { offensive_doctrine }
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Yoshiko Kawashima"
+		gfx = "GFX_portrait_man_yoshiko_kawashima"
+		traits = { cavalry_officer }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+		female = yes
+	}

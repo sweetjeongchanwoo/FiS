@@ -1,0 +1,787 @@
+﻿l_english:
+#########################################################################
+# Romania Events
+#########################################################################
+ DH_Romania.1.t:0 "Pick which path you want"
+ DH_Romania.1.d:0 "Pick which patch you want"
+ DH_Romania.1.A:0 "Prince Micheal"
+ DH_Romania.1.B:0 "A New Constitution"
+
+ DH_Romania.2.t:0 "Green Shirts March"
+ DH_Romania.2.d:0 "Green Shirts March"
+ DH_Romania.2.A:0 "They be marchin"
+
+ DH_Romania.3.t:0 "Let's Join the Axis"
+ DH_Romania.3.d:0 "Let's get Germany to let us into the axis my dude."
+ DH_Romania.3.A:0 "Hell Ya"
+ DH_Romania.3.B:0 "Maybe we shouldn't dude"
+
+ DH_Romania.4.t:0 "Romania want's in the Axis"
+ DH_Romania.4.d:0 "Should we let these dudes into the Axis?"
+ DH_Romania.4.A:0 "Hell Ya"
+ DH_Romania.4.B:0 "Maybe we shouldn't dude"
+
+ DH_Romania.5.t:0 "Germany says No"
+ DH_Romania.5.d:0 "Those losers in Germany said no my dude."
+ DH_Romania.5.A:0 "I'll make my own Axis!"
+
+ DH_Romania.6.t:0 "Germany Said Yes"
+ DH_Romania.6.d:0 "Yoo those totally righteous dudes in the Axis said yes my dude."
+ DH_Romania.6.A:0 "Rock on Dude!"
+
+ DH_Romania.7.t:0 "Let's Join the Axis"
+ DH_Romania.7.d:0 "Let's get Germany to let us into the axis my dude."
+ DH_Romania.7.A:0 "Hell Ya"
+ DH_Romania.7.B:0 "Maybe we shouldn't dude"
+
+ DH_Romania.8.t:0 "Romania want's in the Axis"
+ DH_Romania.8.d:0 "Should we let these dudes into the Axis?"
+ DH_Romania.8.A:0 "Hell Ya"
+ DH_Romania.8.B:0 "Maybe we shouldn't dude"
+
+ DH_Romania.9.t:0 "Germany says No"
+ DH_Romania.9.d:0 "Those losers in Germany said no my dude."
+ DH_Romania.9.A:0 "I'll make my own Axis!"
+
+ DH_Romania.10.t:0 "Germany Said Yes"
+ DH_Romania.10.d:0 "Yoo those totally righteous dudes in the Germany said yes my dude."
+ DH_Romania.10.A:0 "Rock on Dude!"
+
+ DH_Romania.11.t:0 "Romania help with tanks"
+ DH_Romania.11.d:0 "Romania Asks for helps with learning about tanks. Should we do it?"
+ DH_Romania.11.A:0 "Hell Ya"
+ DH_Romania.11.B:0 "Maybe we shouldn't dude"
+
+ DH_Romania.12.t:0 "Germany Said Yes"
+ DH_Romania.12.d:0 "Yoo those totally righteous dudes in the Germany said yes my dude."
+ DH_Romania.12.A:0 "Rock on Dude!"
+
+ DH_Romania.13.t:0 "Germany Said No"
+ DH_Romania.13.d:0 "Those losers in Germany said no my dude."
+ DH_Romania.13.A:0 "Dude that sucks!"
+
+ DH_Romania.14.t:0 "Romania Wants Transylvania Back"
+ DH_Romania.14.d:0 "Romania demands we give Transyvania back to them. Should we do it?"
+ DH_Romania.14.A:0 "Hell Ya"
+ DH_Romania.14.B:0 "Maybe we shouldn't dude"
+
+ DH_Romania.15.t:0 "Hungary Said Yes"
+ DH_Romania.15.d:0 "Yoo those totally righteous dudes in the Hungary said yes my dude."
+ DH_Romania.15.A:0 "Rock on Dude!"
+
+ DH_Romania.16.t:0 "Hungary Said No"
+ DH_Romania.16.d:0 "Those losers in Hungary said no my dude."
+ DH_Romania.16.A:0 "Dude that sucks!"
+
+ DH_Romania.17.t:0 "Romania Tactical Bomber License"
+ DH_Romania.17.d:0 "Romania Asks for licenses to produce German Tac Bombers. Should we do it?"
+ DH_Romania.17.A:0 "Hell Ya"
+ DH_Romania.17.B:0 "Maybe we shouldn't dude"
+
+ DH_Romania.18.t:0 "Germany Said Yes"
+ DH_Romania.18.d:0 "Yoo those totally righteous dudes in the Germany said yes my dude."
+ DH_Romania.18.A:0 "Rock on Dude!"
+
+ DH_Romania.19.t:0 "Germany Said No"
+ DH_Romania.19.d:0 "Those losers in Germany said no my dude."
+ DH_Romania.19.A:0 "Dude that sucks!"
+
+#########################################################################
+# Romania Focuses
+#########################################################################
+ ROM_The_Manipulative_King:0 "The Manipulative King"
+ ROM_The_Manipulative_King_desc:0 ""
+
+ ROM_PNL_Victory_Landslide:0 "PNL Victory Landslide"
+ ROM_PNL_Victory_Landslide_desc:0 ""
+
+ ROM_The_Hedonist_King:0 "The Hedonist King"
+ ROM_The_Hedonist_King_desc:0 ""
+
+ ROM_Institute_Straja_Tarii:0 "Institute Straja Tarii"
+ ROM_Institute_Straja_Tarii_desc:0 ""
+
+ ROM_The_Romanian_Academy_of_Sciences:0 "The Romanian Academy of Sciences"
+ ROM_The_Romanian_Academy_of_Sciences_desc:0 ""
+
+ ROM_The_Pompous_King:0 "The Pompous King"
+ ROM_The_Pompous_King_desc:0 ""
+
+ ROM_Cult_of_Personality:0 "Cult of Personality"
+ ROM_Cult_of_Personality_desc:0 ""
+
+ ROM_The_Royal_Camarilla:0 "The Royal Camarilla"
+ ROM_The_Royal_Camarilla_desc:0 ""
+
+ ROM_On_a_New_Path:0 "On a New Path"
+ ROM_On_a_New_Path_desc:0 ""
+
+ ROM_Prince_Michael:0 "Prince Micheal"
+ ROM_Prince_Michael_desc:0 ""
+
+ ROM_The_People_and_the_king:0 "The People and The King"
+ ROM_The_People_and_the_king_desc:0 ""
+
+ ROM_Seek_Support_from_Intellectual_Circles:0 "Seek Support From Intellectual Circles"
+ ROM_Seek_Support_from_Intellectual_Circles_desc:0 ""
+
+ ROM_To_Fight_against_Tyrants:0 "To fight against Tyrants"
+ ROM_To_Fight_against_Tyrants_desc:0 ""
+
+ ROM_The_True_King:0 "The True King"
+ ROM_The_True_King_desc:0 ""
+
+ ROM_1937_General_Elections:0 "1937 General Elections"
+ ROM_1937_General_Elections_desc:0 ""
+
+ ROM_National_Christian_Government:0 "National Christian Government"
+ ROM_National_Christian_Government_desc:0 ""
+
+ ROM_Deal_with_the_Iron_Guard:0 "Make a Deal with the Iron Guard"
+ ROM_Deal_with_the_Iron_Guard_desc:0 ""
+
+ ROM_Proclaim_Martial_Law:0 "Proclaim Martial Law"
+ ROM_Proclaim_Martial_Law_desc:0 ""
+
+ ROM_Revise_the_Constitution:0 "Revise the Constitution"
+ ROM_Revise_the_Constitution_desc:0 ""
+
+ ROM_Decapitate_the_Iron_Guard:0 "Decapitate the Iron guard"
+ ROM_Decapitate_the_Iron_Guard_desc:0 ""
+
+ ROM_National_Renaissance_Front:0 "National Renaissance Front"
+ ROM_National_Renaissance_Front_desc:0 ""
+
+ ROM_The_Legionary_State:0 "The National Legionary State"
+ ROM_The_Legionary_State_desc:0 ""
+
+ ROM_Ousting_the_Autocrat:0 "Ousting the Autocrat"
+ ROM_Ousting_the_Autocrat_desc:0 ""
+
+ ROM_Encroaching_on_the_parliament:0 "Encroaching on the Parliament"
+ ROM_Encroaching_on_the_parliament_desc:0 ""
+
+ ROM_Codreanu_Supreme_Leader:0 "Declare Codreanu the Supreme Leader"
+ ROM_Codreanu_Supreme_Leader_desc:0 ""
+
+ ROM_Conducatorul_Ion_Antonesco:0 "Conducatorul Ion Antonescu"
+ ROM_Conducatorul_Ion_Antonesco_desc:0 ""
+
+ ROM_Crush_Legionary_Influence:0 "Crush Legionary Influence"
+ ROM_Crush_Legionary_Influence_desc:0 ""
+
+ ROM_Reorganize_the_SSI:0 "Reorganize the S.S.I."
+ ROM_Reorganize_the_SSI_desc:0 ""
+
+ ROM_Squeezing_the_Earth:0 "Squeezing the Earth"
+ ROM_Squeezing_the_Earth_desc:0 ""
+
+ ROM_Expand_National_Industrial_Parks:0 "Expand National Industrial Parks"
+ ROM_Expand_National_Industrial_Parks_desc:0 ""
+
+ ROM_Disciplined_State:0 "Disciplined State"
+ ROM_Disciplined_State_desc:0 ""
+
+ ROM_National_and_Social_State_of_Romania:0 "National and Social State of Romania"
+ ROM_National_and_Social_State_of_Romania_desc:0 ""
+
+ ROM_Tighten_the_Grip_on_the_Media:0 "Tighten The Grip On the Media"
+ ROM_Tighten_the_Grip_on_the_Media_desc:0 ""
+
+ ROM_Establish_the_SIR:0 "Establish the S.I.R."
+ ROM_Establish_the_SIR_desc:0 ""
+
+ ROM_Diplomatic_Offers_to_the_Axis:0 "Diplomatic Offers to the Axis"
+ ROM_Diplomatic_Offers_to_the_Axis_desc:0 ""
+
+ ROM_The_Little_Axis:0 "The Little Axis"
+ ROM_The_Little_Axis_desc:0 ""
+
+ ROM_Getting_Ready_to_Take_Back_the_Ardeal:0 "Getting Ready to Take Back the Ardeal"
+ ROM_Getting_Ready_to_Take_Back_the_Ardeal_desc:0 ""
+
+ ROM_Latin_Axis:0 "Latin Axis"
+ ROM_Latin_Axis_desc:0 ""
+
+ ROM_Getting_Ready_for_the_Fight:0 "Getting Ready for the Fight"
+ ROM_Getting_Ready_for_the_Fight_desc:0 ""
+
+ ROM_Cooperate_with_our_allies:0 "Cooperate with our allies"
+ ROM_Cooperate_with_our_allies_desc:0 ""
+
+ ROM_Codreanus_Spectre:0 "Codreanus Spctre"
+ ROM_Codreanus_Spectre_desc:0 ""
+
+ ROM_Puppeting_the_King:0 "Puppeting the King"
+ ROM_Puppeting_the_King_desc:0 ""
+
+ ROM_Massacring_the_traitors:0 "Massacring the Traitors"
+ ROM_Massacring_the_traitors_desc:0 ""
+
+ ROM_Driving_off_the_Thieves:0 "Driving off the Thieves"
+ ROM_Driving_off_the_Thieves_desc:0 ""
+
+ ROM_Honouring_the_Captain:0 "Honouring the Captain"
+ ROM_Honouring_the_Captain_desc:0 ""
+
+ ROM_Officializing_the_Legionary_Workers:0 "Officializing The Legionary Workers'"
+ ROM_Officializing_the_Legionary_Workers_desc:0 ""
+
+ ROM_One_Nation_One_Industry_One_Purpose:0 "One Nation, One Industry, One Purpose"
+ ROM_One_Nation_One_Industry_One_Purpose_desc:0 ""
+
+ ROM_Mobilizing_All_Romanians:0 "Mobilizing All Romanians"
+ ROM_Mobilizing_All_Romanians_desc:0 ""
+
+ ROM_To_Fight_Against_Giants:0 "To Fight Against Giants"
+ ROM_To_Fight_Against_Giants_desc:0 ""
+
+ ROM_Talks_of_Steel:0 "Talks of Steel"
+ ROM_Talks_of_Steel_desc:0 ""
+
+ ROM_Together_Against_the_Bolsheviks:0 "Together Against the Bolsheviks"
+ ROM_Together_Against_the_Bolsheviks_desc:0 ""
+
+ ROM_Acquire_Axis_Tank_Designs:0 "Acquire Axis Tank Designs"
+ ROM_Acquire_Axis_Tank_Designs_desc:0 ""
+
+ ROM_Adopt_German_Infantry_Tactics:0 "Adopt German Infantry Tactics"
+ ROM_Adopt_German_Infantry_Tactics_desc:0 ""
+
+ ROM_Industrial_Aid:0 "Industrial Aid"
+ ROM_Industrial_Aid_desc:0 ""
+
+ ROM_Walking_the_Path_of_our_Ancestors:0 "Walking the Path of our Ancestors"
+ ROM_Walking_the_Path_of_our_Ancestors_desc:0 ""
+
+ ROM_We_Havent_Forgotten:0 "We Haven't Forgotten"
+ ROM_We_Havent_Forgotten_desc:0 ""
+
+ ROM_We_Shall_Return_One_Day:0 "We Shall Return One Day..."
+ ROM_We_Shall_Return_One_Day_desc:0 ""
+
+ ROM_And_That_Day_is_Today:0 "...And that Day is Today!"
+ ROM_And_That_Day_is_Today_desc:0 ""
+
+ ROM_Spreading_the_Legionary_Word:0 "Spreading the Legionary Word"
+ ROM_Spreading_the_Legionary_Word_desc:0 ""
+
+ ROM_Moves_in_the_Balkans:0 "Look to the Powder Keg"
+ ROM_Moves_in_the_Balkans_desc:0 ""
+
+ ROM_Pull_on_the_Balkans:0 "Pull On The Balkan Reins"
+ ROM_Pull_on_the_Balkans_desc:0 ""
+
+ ROM_The_Bucharest_Accords:0 "The Bucharest Accords"
+ ROM_The_Bucharest_Accords_desc:0 ""
+
+ ROM_The_Red_Degenerates:0 "The Red Degenerates"
+ ROM_The_Red_Degenerates_desc:0 ""
+
+ ROM_Romanian_Navy:0 "A Territorial Navy"
+ ROM_Romanian_Navy_desc:0 ""
+
+ ROM_Expand_the_Constanta_Naval_Yards:0 "Expand the Constanta Naval Yards"
+ ROM_Expand_the_Constanta_Naval_Yards_desc:0 ""
+
+ ROM_Defend_the_Coasts:0 "Defend the Coasts"
+ ROM_Defend_the_Coasts_desc:0 ""
+
+ ROM_Black_Sea_Destroyers:0 "Black Sea Destroyers"
+ ROM_Black_Sea_Destroyers_desc:0 ""
+
+ ROM_Under_the_Sea_Navy:0 "Under the Sea Navy"
+ ROM_Under_the_Sea_Navy_desc:0 ""
+
+ ROM_Dobrogea_Costal_Guns:0 "Dobrogea Coastal Guns"
+ ROM_Dobrogea_Costal_Guns_desc:0 ""
+
+ ROM_Mistress_of_the_Black_Sea:0 "Romania, Mistress of the Black Sea"
+ ROM_Mistress_of_the_Black_Sea_desc:0 ""
+
+ ROM_Native_Cruisers:0 "Native Cruisers"
+ ROM_Native_Cruisers_desc:0 ""
+
+ ROM_A_Romanian_Heavy_Cruiser:0 "A Romanian Heavy Cruiser"
+ ROM_A_Romanian_Heavy_Cruiser_desc:0 ""
+
+ ROM_Cerarea_Alba:0 "Cerarea Alba"
+ ROM_Cerarea_Alba_desc:0 ""
+
+ ROM_Defenders_of_the_Danube:0 "Defenders of the Danube"
+ ROM_Defenders_of_the_Danube_desc:0 ""
+
+ ROM_Romanian_Airforce:0 "Expansion of the RMA"
+ ROM_Romanian_Airforce_desc:0 ""
+
+ ROM_Defense_of_National_Skies:0 "Defense of National Skies"
+ ROM_Defense_of_National_Skies_desc:0 ""
+
+ ROM_IAR_SET_Dive_Bomber_Project:0 "IAR-SET Dive Bomber Project"
+ ROM_IAR_SET_Dive_Bomber_Project_desc:0 ""
+
+ ROM_Romanian_Fighter_Designs:0 "Romanian Fighter Designs"
+ ROM_Romanian_Fighter_Designs_desc:0 ""
+
+ ROM_the_IAR_80:0 "The IAR 80"
+ ROM_the_IAR_80_desc:0 ""
+
+ ROM_Air_Domination:0 "Air Domination"
+ ROM_Air_Domination_desc:0 ""
+
+ ROM_Foreign_fighter_Imports:0 "Foreign Fighter Imports"
+ ROM_Foreign_fighter_Imports_desc:0 ""
+
+ ROM_German_Bomber_Licenses:0 "German Bomber Licenses"
+ ROM_German_Bomber_Licenses_desc:0 ""
+
+ ROM_ICAR_Coordinated_License_Production:0 "ICAR Coordinated License Production"
+ ROM_ICAR_Coordinated_License_Production_desc:0 ""
+
+ ROM_Modernize_the_Baneasa_Airfield:0 "Modernize the Baneasa Airfield"
+ ROM_Modernize_the_Baneasa_Airfield_desc:0 ""
+
+ ROM_New_Flight_Colleges:0 "New Flight Colleges"
+ ROM_New_Flight_Colleges_desc:0 ""
+
+ ROM_Transylvanian_Military_Runways:0 "Transylvanian Military Runways"
+ ROM_Transylvanian_Military_Runways_desc:0 ""
+
+ ROM_Henri_Coandas_Designs:0 "Henri Coanda's Designs"
+ ROM_Henri_Coandas_Designs_desc:0 ""
+
+ ROM_Romanian_Eagles:0 "Romanian Eagles"
+ ROM_Romanian_Eagles_desc:0 ""
+
+ ROM_Romanian_Forces:0 "The State of the Romanian Forces"
+ ROM_Romanian_Forces_desc:0 ""
+
+ ROM_General_Staff_Reorganization:0 "General Staff Reorganization"
+ ROM_General_Staff_Reorganization_desc:0 ""
+
+ ROM_Shift_Towards_Home_Small_Arms_Production:0 "Shift Towards Home Small Arms Production"
+ ROM_Shift_Towards_Home_Small_Arms_Production_desc:0 ""
+
+ ROM_Shift_Towards_Foreign_Small_Arms_Production:0 "Shift Towards Foreign Small Arms Production"
+ ROM_Shift_Towards_Foreign_Small_Arms_Production_desc:0 ""
+
+ ROM_The_Vz_24:0 "The Vz. 24"
+ ROM_The_Vz_24_desc:0 ""
+
+ ROM_Push_For_Modern_Artillery:0 "Push for Modern Artillery"
+ ROM_Push_For_Modern_Artillery_desc:0 ""
+
+ ROM_Comission_UDR_Cannons:0 "Comission UDR Cannons"
+ ROM_Comission_UDR_Cannons_desc:0 ""
+
+ ROM_License_For_German_Submachineguns:0 "License For German Submachineguns"
+ ROM_License_For_German_Submachineguns_desc:0 ""
+
+ ROM_The_Cugir_Pusca_Md:0 "The Cugir Pusca Md."
+ ROM_The_Cugir_Pusca_Md_desc:0 ""
+
+ ROM_Motorization_Effort:0 "Motorized Effort"
+ ROM_Motorization_Effort_desc:0 ""
+
+ ROM_Mechanize_Our_Armies:0 "Mechanize our Armies"
+ ROM_Mechanize_Our_Armies_desc:0 ""
+
+ ROM_Armour_Our_Armies:0 "Armour our Armies"
+ ROM_Armour_Our_Armies_desc:0 ""
+
+ ROM_All_Romanian_Orita_M1941:0 "All Romanian Orita M1941"
+ ROM_All_Romanian_Orita_M1941_desc:0 ""
+
+ ROM_Ardeal_and_Bassarabia_Wargames:0 "Ardeal and Bassarabia Wargames"
+ ROM_Ardeal_and_Bassarabia_Wargames_desc:0 ""
+
+ ROM_Live_Ammo_Drills:0 "Live Ammo Drills"
+ ROM_Live_Ammo_Drills_desc:0 ""
+
+ ROM_Ground_Forces_Combined_Arms_exercise:0 "Ground Forces Combined Arms Exercise"
+ ROM_Ground_Forces_Combined_Arms_exercise_desc:0 ""
+
+ ROM_Mobile_Warfare_Experiments:0 "Mobile Warfare Experiments"
+ ROM_Mobile_Warfare_Experiments_desc:0 ""
+
+ ROM_New_Air_Wings_Integration:0 "New Air Wings Integration"
+ ROM_New_Air_Wings_Integration_desc:0 ""
+
+ ROM_Pioneer_Brigades:0 "Pioneer Brigades"
+ ROM_Pioneer_Brigades_desc:0 ""
+
+ ROM_Found_the_IOR:0 "Found the I.O.R."
+ ROM_Found_the_IOR_desc:0 ""
+
+ ROM_Division_Support_Groups:0 "Division Support Groups"
+ ROM_Division_Support_Groups_desc:0 ""
+
+ ROM_Vanatorii_de_Munte_Corps:0 "Vanatorii de Munte Corps"
+ ROM_Vanatorii_de_Munte_Corps_desc:0 ""
+
+ ROM_Berthelots_Military_Mission:0 "Berthelots Military Mission"
+ ROM_Berthelots_Military_Mission_desc:0 ""
+
+ ROM_Lay_down_Trenches_on_the_Dnestr:0 "Lay down Trenches on the Dnestr"
+ ROM_Lay_down_Trenches_on_the_Dnestr_desc:0 ""
+
+ ROM_Forts_on_the_Prut:0 "Forts on the Prut"
+ ROM_Forts_on_the_Prut_desc:0 ""
+
+ ROM_Fortress_Iasi:0 "Fortress Iasi"
+ ROM_Fortress_Iasi_desc:0 ""
+
+ ROM_Crisana_Banat_Defensive_Line:0 "Crisana-Banat Defensive Line"
+ ROM_Crisana_Banat_Defensive_Line_desc:0 ""
+
+ ROM_Forts_on_the_Carpathians:0 "Forts on the Carpathians"
+ ROM_Forts_on_the_Carpathians_desc:0 ""
+
+ ROM_Fortress_Brasov:0 "Fortress Brasov"
+ ROM_Fortress_Brasov_desc:0 ""
+
+ ROM_A_Modern_Fighter_Force:0 "A Modern Fighting Force"
+ ROM_A_Modern_Fighter_Force_desc:0 ""
+
+ ROM_Post_Great_Depression_National_Review:0 "Post Great Depression National Review"
+ ROM_Post_Great_Depression_National_Review_desc:0 ""
+
+ ROM_End_Forced_Agricultural_Exports:0 "End Forced Agricultural Exports"
+ ROM_End_Forced_Agricultural_Exports_desc:0 ""
+ rom_reduce_agrarian_society_debuff_tt:0 "§GThis focus will reduce the debuffs from the§! §YAgrarian Society§! §Gnational spirit§!"
+
+ ROM_Call_on_Foreign_Farming_Specialists:0 "Call on Foreign Farming Specialists"
+ ROM_Call_on_Foreign_Farming_Specialists_desc:0 ""
+
+ ROM_Buy_the_Excess_Crops:0 "Buy the Excess Crops"
+ ROM_Buy_the_Excess_Crops_desc:0 ""
+
+ ROM_Incentivize_Better_Farming_Equipment:0 "Incentivize Better Farming Equipment"
+ ROM_Incentivize_Better_Farming_Equipment_desc:0 ""
+
+ ROM_Local_Arms_Factories:0 "Local Arms Factories"
+ ROM_Local_Arms_Factories_desc:0 ""
+
+ ROM_Prioritize_Export_of_Petroleum:0 "Prioritize Export of Petroleum"
+ ROM_Prioritize_Export_of_Petroleum_desc:0 ""
+
+ ROM_Subsidize_CFR:0 "Subsidize CFR"
+ ROM_Subsidize_CFR_desc:0 ""
+
+ ROM_Expand_the_Rosia_Poieni_Copper_Mines:0 "Expand the Rosia Poieni Copper Mines"
+ ROM_Expand_the_Rosia_Poieni_Copper_Mines_desc:0 ""
+
+ ROM_Construct_More_Public_Schools:0 "Construct More Public Schools"
+ ROM_Construct_More_Public_Schools_desc:0 ""
+
+ ROM_Revise_The_Curriculum:0 "Revise the Curriculum"
+ ROM_Revise_The_Curriculum_desc:0 ""
+
+ ROM_State_Sponsored_Higher_Education:0 "State Sponsored Higher Education"
+ ROM_State_Sponsored_Higher_Education_desc:0 ""
+
+ ROM_Economical_Revival_on_All_Fronts:0 "Economical Revival on All Fronts"
+ ROM_Economical_Revival_on_All_Fronts_desc:0 ""
+
+ ROM_Encourage_Cash_and_Industrial_Corps:0 "Encourage Cash and Industrial Corps"
+ ROM_Encourage_Cash_and_Industrial_Corps_desc:0 ""
+
+ ROM_Encourage_Mechanization_of_Agriculture:0 "Encourafe Mechanization of Agriculture"
+ ROM_Encourage_Mechanization_of_Agriculture_desc:0 ""
+
+ ROM_to_Secure_Greater_Romania:0 "To Secure Greater Romania"
+ ROM_to_Secure_Greater_Romania_desc:0 ""
+
+ ROM_Investments_in_Malaxa:0 "Investments in Malaxa"
+ ROM_Investments_in_Malaxa_desc:0 ""
+
+ ROM_Expand_the_Ploiesti_Oilfields:0 "Expand the Ploiesti Oilfields"
+ ROM_Expand_the_Ploiesti_Oilfields_desc:0 ""
+
+ ROM_Fund_the_Slatina_Aluminium_Factory:0 "Fund the Slatina Aluminium Factory"
+ ROM_Fund_the_Slatina_Aluminium_Factory_desc:0 ""
+
+ ROM_National_Siderurgical_Plants:0 "National Siderurgical Plants"
+ ROM_National_Siderurgical_Plants_desc:0 ""
+
+ ROM_Subsidize_the_IAR:0 "Subsidize the IAR"
+ ROM_Subsidize_the_IAR_desc:0 ""
+
+ ROM_UDR_Military_Industrial_Complex:0 "UDA Military-Industrial Complex"
+ ROM_UDR_Military_Industrial_Complex_desc:0 ""
+
+ ROM_Up_to_European_Standards:0 "Up to European Standards"
+ ROM_Up_to_European_Standards_desc:0 ""
+
+ ROM_Enlarge_The_University_of_Bucharest:0 "Enlarge The University of Bucharest"
+ ROM_Enlarge_The_University_of_Bucharest_desc:0 ""
+
+ ROM_Totul_Pentru_Tara:0 "Totul Pentru Tara"
+ ROM_Totul_Pentru_Tara_desc:0 ""
+
+ ROM_Aruncat_e_Zarul_sorti:0 "Aruncat e Zarul Sorti"
+ ROM_Aruncat_e_Zarul_sorti_desc:0 ""
+
+ ROM_Welfare_Fund_for_Our_Peasants:0 "Welfare Funds for Our Peasants"
+ ROM_Welfare_Fund_for_Our_Peasants_desc:0 ""
+
+ ROM_Corpul_Muncitoresc_Legionar:0 "Corpul Muncitoresc Legionar"
+ ROM_Corpul_Muncitoresc_Legionar_desc:0 ""
+
+ ROM_Un_Cuib_in_Fiecare_Oras:0 "Un Cuib in Fiecare Oras"
+ ROM_Un_Cuib_in_Fiecare_Oras_desc:0 ""
+
+ ROM_the_Backbone_of_the_Legion:0 "The Backbone of the Legion"
+ ROM_the_Backbone_of_the_Legion_desc:0 ""
+
+ ROM_Legionarii_Nu_Mor:0 "Legionarii Nu Mor"
+ ROM_Legionarii_Nu_Mor_desc:0 ""
+
+ ROM_Ostasi_Lui_Stegan_Cel_Mare:0 "Ostasi Lui Stegan Cel Mare"
+ ROM_Ostasi_Lui_Stegan_Cel_Mare_desc:0 ""
+
+ ROM_Ori_Invingem_Ori_Murim:0 "Ori Invingem Ori Murim"
+ ROM_Ori_Invingem_Ori_Murim_desc:0 ""
+
+ ROM_Our_Land_Our_Blood_Our_dead:0 "Our Land, Our Blood, Our Dead"
+ ROM_Our_Land_Our_Blood_Our_dead_desc:0 ""
+
+ ROM_Establish_Contact_With_Fascist_Nations:0 "Establish Contact with Fascist Nations"
+ ROM_Establish_Contact_With_Fascist_Nations_desc:0 ""
+
+ ROM_A_League_of_Brothers_Against_Bolshevism:0 "A League of Brothers Against Bolshevism"
+ ROM_A_League_of_Brothers_Against_Bolshevism_desc:0 ""
+
+ ROM_Establish_Permanent_Embassy_in_allied_territories:0 "Establish Permanent Embassy in allied territories"
+ ROM_Establish_Permanent_Embassy_in_allied_territories_desc:0 ""
+
+ ROM_Ask_Italy_for_Naval_Guidance:0 "Ask italy for Naval Guidance"
+ ROM_Ask_Italy_for_Naval_Guidance_desc:0 ""
+
+ ROM_Ask_Germany_For_Tanks:0 "Ask Germany for Tanks"
+ ROM_Ask_Germany_For_Tanks_desc:0 ""
+
+ ROM_Ask_For_Germany_Military_Expertise:0 "Ask for Germany Military Expertise"
+ ROM_Ask_For_Germany_Military_Expertise_desc:0 ""
+
+ ROM_Taking_Back_Whats_Ours:0 "Taking Back What's Ours"
+ ROM_Taking_Back_Whats_Ours_desc:0 ""
+
+ ROM_Deal_with_Nazi_Sympathisers:0 "Deal with Nazi Sympathisers"
+ ROM_Deal_with_Nazi_Sympathisers_desc:0 ""
+
+ ROM_Promote_Nationalism_in_the_Balkans:0 "Promote Nationalism in the Balkans"
+ ROM_Promote_Nationalism_in_the_Balkans_desc:0 ""
+
+ ROM_The_Iron_Bloc:0 "The Iron Bloc"
+ ROM_The_Iron_Bloc_desc:0 ""
+
+ ROM_The_Timocka_Krajina_Vlachs:0 "The Timocka Krajina Vlachs"
+ ROM_The_Timocka_Krajina_Vlachs_desc:0 ""
+
+ ROM_The_Bucharest_Circle:0 "The Bucharest Circle"
+ ROM_The_Bucharest_Circle_desc:0 ""
+
+ ROM_Coordinate_Military_Efforts:0 "Coordinate Military Efforts"
+ ROM_Coordinate_Military_Efforts_desc:0 ""
+
+ ROM_Dealing_with_the_traitors:0 "Dealing with the Traitors"
+ ROM_Dealing_with_the_traitors_desc:0 ""
+
+ ROM_Deport_the_Hungarians:0 "Deport the Hungarians"
+ ROM_Deport_the_Hungarians_desc:0 ""
+
+ ROM_Population_Exchange_with_Hungary:0 "Population Exchange with Hungary"
+ ROM_Population_Exchange_with_Hungary_desc:0 ""
+
+ ROM_Get_Rid_of_the_Internationalists:0 "Get Rid of the Internationalists"
+ ROM_Get_Rid_of_the_Internationalists_desc:0 ""
+
+ ROM_Seize_Control_of_the_Media:0 "Seize Control of the Media"
+ ROM_Seize_Control_of_the_Media_desc:0 ""
+
+ ROM_Legion_of_the_Archangel_Micheal:0 "Legion of the Archangel Micheal"
+ ROM_Legion_of_the_Archangel_Micheal_desc:0 ""
+
+ ROM_Capitanul:0 "Capitanul"
+ ROM_Capitanul_desc:0 ""
+
+ ROM_Echipa_Mortii:0 "Echipa Mortii"
+ ROM_Echipa_Mortii_desc:0 ""
+
+#########################################################################
+# Romanian Ideas
+#########################################################################
+ ROM_malaxa_investments:0 "MALAXA Investments"
+ ROM_local_development:0 "Local Fighter Production"
+
+ ROM_institute_straja_tarii_idea:0 "Institute Straja Tarii"
+ ROM_institute_straja_tarii_idea_desc:0 ""
+
+ ROM_Agrarian_Society:0 "Agrarian Society"
+ ROM_Agrarian_Society_desc:0 "The 1930 census shows us that a stunning 78.9% of our population live in rural villages, one of the highest rates in Europe, meaning that a massive portion of the population still live by working the fields and living in self-contained  village economies in the same way their ancestors have for centuries before them... This in turn is harming the growth of our industrial output, our administrative efficiency while also making it hard to set up proper education in all 15000 of our villages."
+
+ ROM_Agrarian_Society_1:0 "Agrarian Society"
+ ROM_Agrarian_Society_1_desc:0 "The 1930 census shows us that a stunning 78.9% of our population live in rural villages, one of the highest rates in Europe, meaning that a massive portion of the population still live by working the fields and living in self-contained  village economies in the same way their ancestors have for centuries before them... This in turn is harming the growth of our industrial output, our administrative efficiency while also making it hard to set up proper education in all 15000 of our villages."
+
+ ROM_Agrarian_Society_2:0 "Agrarian Society"
+ ROM_Agrarian_Society_2_desc:0 "The 1930 census shows us that a stunning 78.9% of our population live in rural villages, one of the highest rates in Europe, meaning that a massive portion of the population still live by working the fields and living in self-contained  village economies in the same way their ancestors have for centuries before them... This in turn is harming the growth of our industrial output, our administrative efficiency while also making it hard to set up proper education in all 15000 of our villages."
+
+ ROM_Agrarian_Society_3:0 "Agrarian Society"
+ ROM_Agrarian_Society_3_desc:0 "The 1930 census shows us that a stunning 78.9% of our population live in rural villages, one of the highest rates in Europe, meaning that a massive portion of the population still live by working the fields and living in self-contained  village economies in the same way their ancestors have for centuries before them... This in turn is harming the growth of our industrial output, our administrative efficiency while also making it hard to set up proper education in all 15000 of our villages."
+
+ ROM_Agrarian_Society_4:0 "Agrarian Society"
+ ROM_Agrarian_Society_4_desc:0 "The 1930 census shows us that a stunning 78.9% of our population live in rural villages, one of the highest rates in Europe, meaning that a massive portion of the population still live by working the fields and living in self-contained  village economies in the same way their ancestors have for centuries before them... This in turn is harming the growth of our industrial output, our administrative efficiency while also making it hard to set up proper education in all 15000 of our villages."
+
+ ROM_Shockwaves_of_the_Depression:0 "Shockwaves of The Depression"
+ ROM_Shockwaves_of_the_Depression_desc:0 "Romania’s economy, following the American stock market, has had a significant relapse that put an end to the interwar modernizations. The years after the crash saw an ever increasing amount of economical recession peaking in 1931 with the Romanian banking crisis which saw many of the leading private banks in Romania closing, meanwhile the main Romanian export, agricultural products, saw a severe loss in value on the global market which in turn increased the value of bread by four times. The industry on the other hand was hit as well  but not as severely due to its small size and the fact that most of its market was targeted for Romanian consumption but any further industrial developments will be halted as the rest of the economy will need to recover in order for the country to function."
+
+ ROM_Shockwaves_of_the_Depression_1:0 "Shockwaves of The Depression"
+ ROM_Shockwaves_of_the_Depression_1_desc:0 "Romania’s economy, following the American stock market, has had a significant relapse that put an end to the interwar modernizations. The years after the crash saw an ever increasing amount of economical recession peaking in 1931 with the Romanian banking crisis which saw many of the leading private banks in Romania closing, meanwhile the main Romanian export, agricultural products, saw a severe loss in value on the global market which in turn increased the value of bread by four times. The industry on the other hand was hit as well  but not as severely due to its small size and the fact that most of its market was targeted for Romanian consumption but any further industrial developments will be halted as the rest of the economy will need to recover in order for the country to function."
+
+ ROM_Unequal_Education:0 "Regional Education Standards"
+ ROM_Unequal_Education_desc:0 "Due to the recent reunion of all Romanians under one state and due to previous historical separation the Romanian education system is riddled with administrative and didactic inconsistencies across the territory which has made us lag behind in our literacy growth and intellectual output. Recent statistics show that, on average, only 57% of the population above the age of 7 can read with the lowest average being in Basarabia and the highest in Transilvania."
+
+ ROM_Unequal_Education_1:0 "Regional Education Standards"
+ ROM_Unequal_Education_1_desc:0 "Due to the recent reunion of all Romanians under one state and due to previous historical separation the Romanian education system is riddled with administrative and didactic inconsistencies across the territory which has made us lag behind in our literacy growth and intellectual output. Recent statistics show that, on average, only 57% of the population above the age of 7 can read with the lowest average being in Basarabia and the highest in Transilvania."
+
+ ROM_Unequal_Education_2:0 "Regional Education Standards"
+ ROM_Unequal_Education_2_desc:0 "Due to the recent reunion of all Romanians under one state and due to previous historical separation the Romanian education system is riddled with administrative and didactic inconsistencies across the territory which has made us lag behind in our literacy growth and intellectual output. Recent statistics show that, on average, only 57% of the population above the age of 7 can read with the lowest average being in Basarabia and the highest in Transilvania."
+
+ ROM_Unequal_Education_3:0 "Regional Education Standards"
+ ROM_Unequal_Education_3_desc:0 "Due to the recent reunion of all Romanians under one state and due to previous historical separation the Romanian education system is riddled with administrative and didactic inconsistencies across the territory which has made us lag behind in our literacy growth and intellectual output. Recent statistics show that, on average, only 57% of the population above the age of 7 can read with the lowest average being in Basarabia and the highest in Transilvania."
+
+ ROM_carols_extravagance:0 "Carol's Extravagance"
+ ROM_carols_extravagance_desc:0 "Due to the recent reunion of all Romanians under one state and due to previous historical separation the Romanian education system is riddled with administrative and didactic inconsistencies across the territory which has made us lag behind in our literacy growth and intellectual output. Recent statistics show that, on average, only 57% of the population above the age of 7 can read with the lowest average being in Basarabia and the highest in Transilvania."
+
+ ROM_carols_extravagance_1:0 "Carol's Extravagance"
+ ROM_carols_extravagance_1_desc:0 "Due to the recent reunion of all Romanians under one state and due to previous historical separation the Romanian education system is riddled with administrative and didactic inconsistencies across the territory which has made us lag behind in our literacy growth and intellectual output. Recent statistics show that, on average, only 57% of the population above the age of 7 can read with the lowest average being in Basarabia and the highest in Transilvania."
+
+ ROM_the_popmous_king_idea:0 "Carol's Corruption"
+ ROM_the_popmous_king_idea_desc:0 ""
+
+ ROM_on_a_new_path_idea:0 "On a New Path"
+ ROM_on_a_new_path_idea_desc:0 ""
+
+ ROM_Reorganize_the_SSI_idea:0 "Reorganize the S.S.I."
+ ROM_Reorganize_the_SSI_idea_desc:0 ""
+
+ ROM_squeezing_the_earth_idea:0 "Squeezing the Earth"
+ ROM_squeezing_the_earth_idea_desc:0 ""
+
+ ROM_establish_the_sir_idea:0 "Establish the S.I.R."
+ ROM_establish_the_sir_idea_desc:0 ""
+
+ ROM_Expand_National_Industrial_Parks_idea:0 "Expand National Industrial Parks"
+ ROM_Expand_National_Industrial_Parks_idea_desc:0 ""
+
+ ROM_disciplined_state_idea:0 "Disciplined State"
+ ROM_disciplined_state_idea_desc:0 ""
+
+ ROM_tighten_grip_on_media_fascist_support:0 "Tightening The Grip on the Media"
+ ROM_tighten_grip_on_media_fascist_support_desc:0 ""
+
+ ROM_tighten_grip_on_media_stability:0 "Tightening The Grip on the Media"
+ ROM_tighten_grip_on_media_stability_desc:0 ""
+
+ ROM_cross_the_prut_idea:0 "Cross the Prut"
+ ROM_cross_the_prut_idea_desc:0 ""
+
+ ROM_holy_war_against_bolshevism_idea:0 "Holy War Against Bolshevism"
+ ROM_holy_war_against_bolshevism_idea_desc:0 ""
+
+ ROM_we_shall_return_one_day_idea:0 "We Shall Return One Day..."
+ ROM_we_shall_return_one_day_idea_desc:0 ""
+
+ ROM_We_Havent_Forgotten_idea:0 "We Haven't Forgotten"
+ ROM_We_Havent_Forgotten_idea_desc:0 ""
+
+ ROM_defenders_of_the_danube_idea:0 "Defenders of the Danube"
+ ROM_defenders_of_the_danube_idea_desc:0 ""
+
+ ROM_puppeting_the_king_idea:0 "Puppeting the King"
+ ROM_puppeting_the_king_idea_desc:0 ""
+
+ ROM_driving_off_the_thieves_idea:0 "Driving off the Thieves"
+ ROM_driving_off_the_thieves_idea_desc:0 ""
+
+ ROM_massacring_the_traitors_idea:0 "Massacring the Traitors"
+ ROM_massacring_the_traitors_idea_desc:0 ""
+
+ ROM_officializing_the_legion_worker_idea:0 "Officializing the Legion Workers"
+ ROM_officializing_the_legion_worker_idea_desc:0 ""
+
+ ROM_mobilizing_all_romanians_idea:0 "Mobilizing all Romanians"
+ ROM_mobilizing_all_romanians_idea_desc:0 ""
+
+ ROM_to_fight_against_giants_idea:0 "To Fight Against Giants"
+ ROM_to_fight_against_giants_idea_desc:0 ""
+
+ ROM_romanian_fighter_designs_idea:0 "Romanian Fighter Designs"
+ ROM_romanian_fighter_designs_idea_desc:0 ""
+
+ ROM_icar_corrdincated_license_production_idea:0 "ICAR Coordinated License Production"
+ ROM_icar_corrdincated_license_production_idea_desc:0 ""
+
+ ROM_license_german_submachineguns_idea:0 "License German Submachineguns"
+ ROM_license_german_submachineguns_idea_desc:0 ""
+
+ ROM_comission_udr_cannons_idea:0 "Comission UDR Cannons"
+ ROM_comission_udr_cannons_idea_desc:0 ""
+
+ ROM_berthelots_military_mission_idea:0 "Berthelot's Military Mission"
+ ROM_berthelots_military_mission_idea_desc:0 ""
+
+ ROM_a_modern_fighting_force_idea:0 "A Modern Fighting Force"
+ ROM_a_modern_fighting_force_idea_desc:0 ""
+
+ ROM_subsidize_cfr_idea:0 "Subsidize CFR"
+ ROM_subsidize_cfr_idea_desc:0 ""
+
+ ROM_state_sponsored_higher_education_idea:0 "State Sponsored Higher Education"
+ ROM_state_sponsored_higher_education_idea_desc:0 ""
+
+ ROM_economical_revival_idea:0 "Economical Revival on All Fronts"
+ ROM_economical_revival_idea_desc:0 ""
+
+ ROM_encourage_mechanization_of_agriculture_idea:0 "Encourage Mechanization of Agriculture"
+ ROM_encourage_mechanization_of_agriculture_idea_desc:0 ""
+
+ ROM_subsidize_the_iar_idea:0 "Subsidize the IAR"
+ ROM_subsidize_the_iar_idea_desc:0 ""
+
+ ROM_standardized_education:0 "Standardized Education"
+ ROM_standardized_education_desc:0 ""
+
+ ROM_standardized_education_1:0 "Standardized Education"
+ ROM_standardized_education_1_desc:0 ""
+
+ ROM_totul_pentru_tara_idea:0 "Totul Pentru Tara"
+ ROM_totul_pentru_tara_idea_desc:0 ""
+
+ ROM_corpul_muncitoresc_legionar_idea:0 "Corpul Muncitoresc Legionar"
+ ROM_corpul_muncitoresc_legionar_idea_desc:0 ""
+
+ ROM_un_cuib_in_fiecare_oras_idea:0 "Un Cuib in Fiecare Oras"
+ ROM_un_cuib_in_fiecare_oras_idea_desc:0 ""
+
+ ROM_the_backbone_of_the_legion:0 "Homonym Spirit"
+ ROM_the_backbone_of_the_legion_desc:0 ""
+
+ ROM_ostasi_lui_stegan_cel_mare_idea:0 "Ostasi Lui Stegan Cel Mare"
+ ROM_ostasi_lui_stegan_cel_mare_idea_desc:0 ""
+
+ ROM_ori_invingem_ori_murim_idea_1:0 "Ori Invingem Ori Murim"
+ ROM_ori_invingem_ori_murim_idea_1_desc:0 ""
+
+ ROM_ori_invingem_ori_murim_idea_2:0 "Ori Invingem Ori Murim"
+ ROM_ori_invingem_ori_murim_idea_2_desc:0 ""
+
+ ROM_get_rid_of_the_internationalists_idea:0 "Get Rid of the Internationalists"
+ ROM_get_rid_of_the_internationalists_idea_desc:0 ""
+
+ ROM_seize_control_of_the_media_idea:0 "Seize Control of the Media"
+ ROM_seize_control_of_the_media_idea_desc:0 ""
+
+ ROM_legion_of_the_archangel_micheal_idea:0 "Legion of the Archangel Micheal"
+ ROM_legion_of_the_archangel_micheal_idea_desc:0 ""

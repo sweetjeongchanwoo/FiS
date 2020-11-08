@@ -1,0 +1,271 @@
+﻿#########################################################################
+# Czechoslovakia - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 9
+	oob = "CZE_1933"
+	set_research_slots = 3
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+		tech_support = 1
+		tech_recon = 1
+		tech_mountaineers = 1
+		Artillery_1910 = 1
+		Anti_Aircraft_Gun_1935 = 1
+		
+		Fighter_1933 = 1
+		Fighter_Bomber_1933 = 1
+		Tactical_Bomber_1933 = 1
+		CAS_1936 = 1
+		Strategic_Bomber_1933 = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		Light_Tank_1926 = 1
+		Light_Tank_1934 = 1
+		Light_Tank_1936 = 0
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1935.5.19"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 3
+		authoritarian = 5
+		democratic = 73
+		socialist = 9
+		communist = 10
+	}
+	### Great Depression/Unemployment
+	set_variable = { unemployment_value_modifier = 2.00 }
+	set_variable = { current_unemployment = 0.18 }
+	clamp_variable = {
+		var = current_unemployment
+		min = 0
+		max = 1
+	}
+	update_unemployment_modifier = yes	
+	add_ideas = {
+		CZE_Sudeten_Crisis
+		CZE_Slovak_Problem
+		CZE_Extremism_on_Rise
+		CZE_French_Bunker_Expertise
+	# Cabinet
+		CZE_HoG_Jan_Malypetr
+		CZE_FM_Edouard_Benes
+		CZE_AM_Josef_Kalfus #Karel Trapl
+		CZE_MoS_Ivan_Derer #Alfréd Meissner (33 only)
+		CZE_HoI_Frantisek_Machnik # Bohumír Bradáč (33 only)
+	# Military Staff
+		CZE_CoStaff_Frantisek_Machnik # Ludvik_Krejci
+		CZE_CoArmy_Ludvik_Krejci
+		CZE_CoNavy_Antonin_Hasal
+		CZE_CoAir_Emil_Janouska
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Radola Gajda"
+		desc = ""
+		picture = "P_F_Radola_Gajda.tga"
+		expire = "1965.1.1"
+		ideology = fascism
+		traits = { POSITION_President SUBIDEOLOGY_Fascism HoS_Autocratic_Charmer }
+	}
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Jan Syrovy"
+		desc = ""
+		picture = "P_A_Jan_Syrovy.tga"
+		expire = "1965.1.1"
+		ideology = military_dictatorship
+		traits = { POSITION_President SUBIDEOLOGY_Military_Dictatorship HoS_Resigned_Generalissimo }
+	}
+
+	# Conservatism
+	create_country_leader = {
+		name = "Tomás Garrigue Masaryk"
+		desc = ""
+		picture = "P_D_Tomas_Garrigue_Masaryk.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism HoS_Popular_Figurehead }
+	}
+	# Left-Wing Radicalism
+	create_country_leader = {
+		name = "Václav Klofáč"
+		desc = ""
+		picture = "P_S_Vaclav_Klofac.tga"
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = { POSITION_President SUBIDEOLOGY_Socialism HoG_Happy_Amateur }
+	}
+	# Marxism-Leninism
+	create_country_leader = {
+		name = "Klement Gottwald"
+		desc = ""
+		picture = "P_C_Klement_Gottwald.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = { POSITION_General_Secretary SUBIDEOLOGY_Marxism_Leninism HoS_Barking_Buffoon }
+	}
+	#######################
+	# Generals
+	#######################
+	create_field_marshal = {
+		name = "Vojtěch Luža"
+		gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"
+		traits = { fast_planner offensive_doctrine }
+		skill = 3
+		attack_skill = 4
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 1
+	}
+
+	create_field_marshal = {
+		name = "Josef Šnejdárek"
+		gfx = "GFX_Portrait_czechoslovakia_josef_snejdarek"
+		traits = { thorough_planner defensive_doctrine }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 2
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Richard Tesařík"
+		gfx = "GFX_Portrait_czechoslovakia_richard_tesarik"
+		traits = { armor_officer }
+		skill = 2
+		attack_skill = 4
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Sergej Vojcechovský"
+		gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
+		traits = { winter_specialist }
+		skill = 3
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 1
+	}
+}
+#########################################################################
+# Czechoslovakia - 1936
+#########################################################################	
+1936.1.1 = {
+	oob = "CZE_1936"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		tech_support = 1
+		tech_recon = 1
+		tech_mountaineers = 1
+		Artillery_1910 = 1
+		Anti_Aircraft_Gun_1935 = 1
+		
+		Fighter_1933 = 1
+		Tactical_Bomber_1933 = 1
+		CAS_1936 = 1
+		Strategic_Bomber_1933 = 1
+	# Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		Light_Tank_1926 = 1
+		Light_Tank_1934 = 1
+		Light_Tank_1936 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1935.5.19"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 3
+		authoritarian = 5
+		democratic = 73
+		socialist = 9
+		communist = 10
+	}
+	remove_ideas = {
+		CZE_French_Bunker_Expertise
+	}
+	add_ideas = {
+		CZE_Reditelstvi_Opevnovacich_Praci
+		# Cabinet
+		CZE_HoG_Milan_Hodza
+		CZE_FM_Edouard_Benes
+		CZE_AM_Josef_Kalfus
+		CZE_MoS_Ivan_Derer
+		CZE_HoI_Frantisek_Machnik
+		# Military Staff
+		CZE_CoStaff_Frantisek_Machnik
+		CZE_CoArmy_Ludvik_Krejci
+		CZE_CoNavy_Antonin_Hasal
+		CZE_CoAir_Emil_Janouska
+	}
+	#######################
+	# Leaders
+	#######################
+	# Conservatism
+	create_country_leader = {
+		name = "Edouard Benes"
+		desc = ""
+		picture = "P_D_Edvard_Benes.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism HoS_Pig_Headed_Isolationist }
+	}
+}
+
+#########################################################################
+# Czechoslovakia - 1950
+#########################################################################
+1950.1.1 = {
+	#######################
+	# Leaders
+	#######################
+	# Marxism-Leninism
+	create_country_leader = {
+		name = "Klement Gottwald"
+		desc = ""
+		picture = "P_C_Klement_Gottwald.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = { POSITION_General_Secretary SUBIDEOLOGY_Marxism_Leninism HoS_Barking_Buffoon }
+	}
+}

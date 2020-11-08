@@ -1,0 +1,445 @@
+﻿division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Militia Brigade with Artillery"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+        militia = { x = 1 y = 0 }
+		artillery_battalion = { x = 1 y = 1 }
+		artillery_battalion = { x = 1 y = 2 }
+    }
+    priority = 0
+}
+
+division_template = {
+	name = "Militia Brigade"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+        militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+    }
+    priority = 0
+}
+
+division_template = {
+	name = "Garrison Division"
+
+	regiments = {
+		garrison = { x = 0 y = 0 }
+		garrison = { x = 0 y = 1 }
+		garrison = { x = 0 y = 2 }
+        garrison = { x = 1 y = 0 }
+		garrison = { x = 1 y = 1 }
+		garrison = { x = 1 y = 2 }
+    }
+    priority = 0
+}
+
+units = {
+    ##### Southern Command #####
+    division = {
+        name = "4th Indian Division"
+        location = 12182 # Poona
+        division_template = "Infantry Division"
+        start_experience_factor = 0.2
+    }
+
+    division = {
+        name = "4th Indian Cavalry Brigade"
+        location = 12182 # Poona
+        division_template = "Cavalry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+    ##### Madras District #####
+    division = {
+        name = "Madras Brigade"
+        location = 10278 # Madras
+        division_template = "Militia Brigade with Artillery"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+    ##### Bombay District #####
+    division = {
+        name = "Mhow Brigade"
+        location = 1349 # Bombay
+        division_template = "Militia Brigade with Artillery"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+    ##### Deccan District #####
+    division = {
+        name = "Deccan Brigade"
+        location = 10190 # Mangalore
+        division_template = "Militia Brigade with Artillery"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+    ##### Poona Brigade Area #####
+    division = {
+        name = "Poona Brigade"
+        location = 12182 # Poona
+        division_template = "Garrison Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+    ##### Eastern Command #####
+    division = {
+        name = "3rd Indian Division"
+        location = 7106 # Dehradun
+        division_template = "Infantry Division"
+        start_experience_factor = 0.2
+    }
+
+    division = {
+        name = "3rd Indian Cavalry Brigade"
+        location = 7106 # Dehradun
+        division_template = "Cavalry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+    ##### Presidency & Assam District #####
+    division = {
+        name = "Eastern Bengal Brigade"
+        location = 4245 # Calcutta
+        division_template = "Militia Brigade with Artillery"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+
+    division = {
+        name = "Assam Brigade"
+        location = 4245 # Calcutta
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+    ##### Lucnow District #####
+    division = {
+        name = "Allahabad Brigade"
+        location = 12137 # Lucknow
+        division_template = "Militia Brigade with Artillery"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+
+    division = {
+        name = "Lucknow Brigade"
+        location = 12137 # Lucknow
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+    ##### Delhi Brigade Area #####
+    division = {
+        name = "Delhi Brigade"
+        location = 2086 # Delhi
+        division_template = "Garrison Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+    ##### Meerut District #####
+    division = {
+        name = "Meerut Brigade"
+        location = 11955 # Merath
+        division_template = "Militia Brigade with Artillery"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+    ##### Zhob Brigade Area #####
+    division = {
+        name = "Zhob Brigade"
+        location = 5105 # Quetta
+        division_template = "Garrison Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+    ##### Baluchistan District #####
+    division = {
+        name = "Quetta Brigade"
+        location = 5105 # Quetta
+        division_template = "Militia Brigade with Artillery"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+
+    division = {
+        name = "Khojak Brigade"
+        location = 5105 # Quetta
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+    ##### Sind Brigade Area #####
+    division = {
+        name = "Sind Brigade"
+        location = 3456 # Karachi
+        division_template = "Garrison Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+    ##### Northern Command #####
+    division = {
+        name = "1st Indian Division"
+        location = 10173 # Rawalpindi
+        division_template = "Infantry Division"
+        start_experience_factor = 0.2
+    }
+
+    division = {
+        name = "2nd Indian Division"
+        location = 10173 # Rawalpindi
+        division_template = "Infantry Division"
+        start_experience_factor = 0.2
+    }
+
+    division = {
+        name = "2nd Indian Cavalry Brigade"
+        location = 10173 # Rawalpindi
+        division_template = "Cavalry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+    ##### Lahore District #####
+    division = {
+        name = "Sialkot Brigade"
+        location = 10066 # Lahore
+        division_template = "Militia Brigade with Artillery"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+
+    division = {
+        name = "Ferozepore Brigade"
+        location = 10066 # Lahore
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+
+    division = {
+        name = "Jullundur Brigade"
+        location = 10066 # Lahore
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+
+    division = {
+        name = "Lahore Brigade"
+        location = 10066 # Lahore
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+
+    division = {
+        name = "Ambala Brigade"
+        location = 10066 # Lahore
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+    ##### Waziristan District #####
+    division = {
+        name = "Razmak Brigade"
+        location = 12717 # Peshawar
+        division_template = "Militia Brigade with Artillery"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+
+    division = {
+        name = "Bannu Brigade"
+        location = 12717 # Peshawar
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+
+    division = {
+        name = "Wana Brigade"
+        location = 12717 # Peshawar
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+    ##### Kohat District #####
+    division = {
+        name = "Thal Brigade"
+        location = 4998 # Peshawar
+        division_template = "Militia Brigade with Artillery"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8 
+    }
+
+    division = {
+        name = "Kohat Brigade"
+        location = 4998 # Peshawar
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+    ##### Peshawar District #####
+    division = {
+        name = "Landikotal Brigade"
+        location = 12763 # Peshawar
+        division_template = "Militia Brigade with Artillery"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8 
+    }
+
+    division = {
+        name = "Peshawar Brigade"
+        location = 12763 # Peshawar
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8 
+    }
+
+    division = {
+        name = "Nowshera Brigade"
+        location = 12763 # Peshawar
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8
+    }
+
+    division = {
+        name = "1st Indian Cavalry Brigade"
+        location = 12717 # Peshawar
+        division_template = "Cavalry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+    ##### Rawalpindi District #####
+    division = {
+        name = "Rawalpindi Brigade"
+        location = 10173 # Rawalpindi
+        division_template = "Militia Brigade with Artillery"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8 
+    }
+    ##### Jammu & Kashmir State Forces #####
+    division = {
+        name = "Jammu Brigade"
+        location = 3989 # Srinagar
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+    }
+
+    division = {
+        name = "Kashmir Brigade"
+        location = 3989 # Srinagar
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+    }
+    ##### Gwalior State Forces #####
+    division = {
+        name = "Gwalior Cavalry Brigade"
+        location = 1949 # Gwalior
+        division_template = "Cavalry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.45
+    }
+
+    division = {
+        name = "Gwalior Infantry Brigade"
+        location = 1949 # Gwalior
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+    }
+    ##### Hyderabad State Forces #####
+    division = {
+        name = "Hyderabad State Forces"
+        location = 8087 # Hyderabad
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+    }
+    ##### Bikaner State Forces #####
+    division = {
+        name = "Bikaner State Forces"
+        location = 12876 # Bikaner
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8 
+    }
+    ##### Patiala State Forces #####
+    division = {
+        name = "Patiala State Forces"
+        location = 10729 # Ludhiana
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8 
+    }
+    ##### Mysore State Forces #####
+    division = {
+        name = "Mysore State Forces"
+        location = 4344 # Mysore
+        division_template = "Militia Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8 
+    }
+    ##### Burma Independent District #####
+    division = {
+        name = "Burma Brigade"
+        location = 1330 # Rangoon
+        division_template = "Militia Brigade with Artillery"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.8 
+    }
+}
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1900
+			creator = "RAJ"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 100
+    }
+    
+    add_equipment_production = {
+        equipment = {
+            type = artillery_equipment_1
+            creator = "RAJ"
+        }
+        requested_factories = 1
+        progress = 0.1
+        efficiency = 100
+    }
+}

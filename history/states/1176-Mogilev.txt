@@ -1,0 +1,37 @@
+state={
+	id=1176
+	name="STATE_1176"
+	
+	history={
+		owner = SOV
+		victory_points = {
+			11271 3
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SOV
+		add_core_of = BLR
+		1942.11.22 = {
+			owner = SOV
+			controller = GER
+		}
+		1944.6.20 = {
+			owner = SOV
+			controller = SOV			
+		}
+		2000.1.1 = {
+			owner = BLR
+
+		}
+
+	}
+	
+	provinces={
+		289 6233 6344 6354 9247 9371 9396 11230 11271 11355 11383 
+	}
+	manpower=374644
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,26 @@
+﻿l_english:
+#########################################################################
+#  Canada Events
+#########################################################################
+ DH_Canada_Elections.1.t:0 "Canadian federal elections, 1940"
+ DH_Canada_Elections.1.A:0 "Elect National Socialists"
+ DH_Canada_Elections.1.B:0 "Elect Fascists"
+ DH_Canada_Elections.1.C:0 "Elect Paternal Autocrats"
+ DH_Canada_Elections.1.D:0 "Elect Social Conservatives"
+ DH_Canada_Elections.1.E:0 "Elect Social Liberals"
+ DH_Canada_Elections.1.F:0 "Elect Social Democrats"
+ DH_Canada_Elections.1.G:0 "Elect Left Wing Nationalists"
+ 
+ CAN_SC_1940_Candidate:0 "§YCandidate§! : Mackenzie King"
+ CAN_SD_1940_Candidate:0 "§YCandidate§! : J. S. Woodsworth"
+ 
+ DH_Canada_Elections.2.t:0 "Canadian federal elections, 1945"
+ DH_Canada_Elections.2.A:0 "Elect National Socialists"
+ DH_Canada_Elections.2.B:0 "Elect Fascists"
+ DH_Canada_Elections.2.C:0 "Elect Paternal Autocrats"
+ DH_Canada_Elections.2.D:0 "Elect Social Conservatives"
+ DH_Canada_Elections.2.E:0 "Elect Social Liberals"
+ DH_Canada_Elections.2.F:0 "Elect Social Democrats"
+ DH_Canada_Elections.2.G:0 "Elect Left Wing Nationalists"
+ 
+ CAN_SC_1945_Candidate:0 "§YCandidate§! : Mackenzie King"

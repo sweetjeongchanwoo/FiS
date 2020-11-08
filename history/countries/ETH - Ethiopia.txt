@@ -1,0 +1,150 @@
+﻿#################################
+# Ethiopia - 1933
+#################################
+1933.1.1 = {
+	capital = 271
+	set_convoys = 5
+	oob = "ETH_1933"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+		tech_mountaineers = 1
+	}
+	
+	add_ideas = {
+	#National Spirit
+		ETH_Lion_of_Africa
+		ETH_Stain_of_Slavery
+		ETH_Illiteracy_Problem
+		ETH_Pre_Industrial_Society
+	#Cabinet
+		ETH_HoG_Tafari_Makonnen
+	}
+	
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 60
+		democratic = 40
+		socialist = 0
+		communist = 0
+	}
+	#######################
+	# Leaders
+	#######################
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Haile Selassie"
+		desc = "POLITICS_HAILE_SELASSIE_DESC"
+		picture = "P_A_Haile_Selassie_I.tga"
+		expire = "1965.1.1"
+		ideology = monarchism
+		traits = { POSITION_Emperor SUBIDEOLOGY_Monarchism HoS_Stern_Imperialist }
+	}
+	#######################
+	# Generals
+	#######################
+	create_field_marshal = {
+		name = "Haile Selassie"
+		picture = "M_Haile_Selassie.tga"
+		traits = { logistics_wizard }
+		skill = 2
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Seyoum Mengesha"
+		picture = "M_Seyoum_Mengesha.tga"
+		traits = { logistics_wizard }
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 2
+	}
+	
+	create_corps_commander = {
+		name = "Desta Damtew"
+		picture = "M_Desta_Damtew.tga"
+		traits = { defensive_doctrine }
+		skill = 1
+		attack_skill = 1
+		defense_skill = 3
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	
+	create_corps_commander = {
+		name = "Imru Haile Selassie"
+		picture = "M_Imru_Haile_Selassie.tga"
+		traits = { }
+		skill = 1
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	
+	create_corps_commander = {
+		name = "Kassa Haile Darge"
+		picture = "M_Kassa_Haile_Darge.tga"
+		traits = { offensive_doctrine }
+		skill = 1
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 1
+	}
+	
+	create_corps_commander = {
+		name = "Mulugeta Yeggazu"
+		picture = "M_Mulugeta_Yeggazu.tga"
+		traits = { defensive_doctrine old_guard }
+		skill = 2
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	
+	create_corps_commander = {
+		name = "Nasibu Zeamanuel"
+		picture = "M_Nasibu_Zeamanuel.tga"
+		traits = { desert_fox }
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 1
+	}
+}
+#################################
+# Ethiopia - 1936
+################################# 
+1936.1.1 = {
+	oob = "ETH_1936"
+}
+

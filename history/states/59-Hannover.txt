@@ -1,0 +1,61 @@
+
+state={
+	id=59
+	name="STATE_59"
+	resources={
+		oil=4.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			6377 10 
+		}
+		victory_points = {
+			3326 5 
+		}
+		victory_points = {
+			526 3
+		}
+		victory_points = {
+			6513 2
+		}
+		victory_points = {
+			6325 2
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 2
+
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				air_base = 6
+				arms_factory = 4
+				industrial_complex = 3
+				dockyard = 3
+
+			}
+
+		}
+		1946.1.1 = {
+			owner = ENG
+
+		}
+		1950.1.1 = {
+			owner = FRG
+
+		}
+
+	}
+
+	provinces={
+		374 526 3271 3326 3395 6218 6263 6298 6325 6349 6377 6513 9238 9264 9375 11402 11493 
+	}
+	manpower=2798286
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,36 @@
+state={
+	id=1140
+	name="STATE_1140"
+	
+	history={
+		owner = FRA
+		victory_points = {
+			989 2
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = MOR
+		1941.6.22 = {
+			owner = VIC
+
+		}
+		1942.11.22 = {
+			owner = FRA
+
+		}
+		1960.1.1 = {
+			owner = MOR
+
+		}
+
+	}
+	
+	provinces={
+		989 1111 4154 7116 7958 13669 
+	}
+	manpower=494252
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

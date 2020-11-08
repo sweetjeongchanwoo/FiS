@@ -1,0 +1,23 @@
+﻿division_template = {
+	name = "Militia Division"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+}
+
+units = {
+    ##### South African Army #####
+    division = {
+        name = "South African Militia Division"
+        location = 4879 # Johannesburg (Praetoria)
+        division_template = "Militia Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+}

@@ -1,0 +1,197 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			CHI = {
+				# Populate array with factions
+				clear_array = active_factions_array
+				set_temp_variable = { faction_id = 1 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 2 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 3 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 4 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 5 }
+				add_active_faction = yes
+				# Set random loyalty and influence values
+				set_temp_variable = { total_influence = 100 }
+				for_each_loop = {
+					array = active_factions_array
+					value = v
+					meta_effect = {
+						text = {
+							set_variable = { faction_loyalty_[FACTION] = random }
+							multiply_variable = { faction_loyalty_[FACTION] = 100 }
+							set_temp_variable = { influence = random }
+							divide_temp_variable = { influence = 2 }
+							multiply_temp_variable = { influence = 100 }
+							if = {
+								limit = {
+									NOT = { check_variable = { total_influence < influence } }
+								}
+								set_variable = { faction_influence_[FACTION] = influence }
+								subtract_from_temp_variable = { total_influence = influence }
+							}
+							else = {
+								set_variable = { faction_influence_[FACTION] = total_influence }
+								set_temp_variable = { total_influence = 0 }
+							}
+						}
+						FACTION = "[?v]"
+					}
+				}
+			}
+			JAP = {
+				# Populate array with factions
+				clear_array = active_factions_array
+			#	set_temp_variable = { faction_id = 6 }
+			#	add_active_faction = yes
+				set_temp_variable = { faction_id = 7 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 8 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 9 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 10 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 25 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 26 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 27 }
+				add_active_faction = yes
+			#	set_temp_variable = { faction_id = 28 }
+			#	add_active_faction = yes
+				# Set loyalty and influence values
+				## NUC (Civilian?)
+			#	set_variable = { faction_loyalty_6 = 89 } #Opinion
+			#	set_variable = { faction_influence_6 = 21 } #Influence
+				## Kodoha (IJA)
+				set_variable = { faction_loyalty_7 = 3 }
+				set_variable = { faction_influence_7 = 46 }
+				## Toseiha (IJA)
+				set_variable = { faction_loyalty_8 = 15 }
+				set_variable = { faction_influence_8 = 18 }
+				## Kentai-ha (IJN - Fleet Faction)
+				set_variable = { faction_loyalty_9 = 67 }
+				set_variable = { faction_influence_9 = 10 }
+				## Johaku-ya (IJN - Treaty Faction)
+				set_variable = { faction_loyalty_10 = 77 }
+				set_variable = { faction_influence_10 = 5 }
+				## Party Politician
+				set_variable = { faction_loyalty_25 = 50 }
+				set_variable = { faction_influence_25 = 0 }
+				## Party Bureaucrat
+				set_variable = { faction_loyalty_26 = 50 }
+				set_variable = { faction_influence_26 = 0 }
+				## Court Noble
+				set_variable = { faction_loyalty_27 = 50 }
+				set_variable = { faction_influence_27 = 0 }
+			}
+			GER = {
+				# Populate array with factions
+				clear_array = active_factions_array
+				set_temp_variable = { faction_id = 18 }
+				add_active_faction = yes
+				# Set faction influence
+				set_variable = { faction_influence_18 = 100 }
+				# Set random loyalty and influence values
+				set_variable = { faction_loyalty_18 = random }
+				multiply_variable = { faction_loyalty_18 = 100 }
+			}
+			TUR = {
+				# Populate array with factions
+				clear_array = active_factions_array
+				set_temp_variable = { faction_id = 11 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 12 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 13 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 14 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 15 }
+				add_active_faction = yes
+				# CHP decrease variable
+				set_variable = { tur_chp_influence_decrease_var = rebelliousness_of_the_minorities_var }
+				multiply_variable = { tur_chp_influence_decrease_var = -1 }
+				divide_variable = { tur_chp_influence_decrease_var = 100 }
+				# Set loyalty and influence values
+				set_variable = { faction_loyalty_11 = 100 }
+				set_variable = { faction_influence_11 = 68 }
+				set_variable = { faction_loyalty_12 = 10 }
+				set_variable = { faction_influence_12 = 8 }
+				set_variable = { faction_loyalty_13 = 10 }
+				set_variable = { faction_influence_13 = 9 }
+				set_variable = { faction_loyalty_14 = 30 }
+				set_variable = { faction_influence_14 = 4 }
+				set_variable = { faction_loyalty_15 = 100 }
+				set_variable = { faction_influence_15 = 11 }
+				change_faction_influence = yes
+			}
+			IRQ = {
+				# Populate array with factions
+				clear_array = active_factions_array
+				set_temp_variable = { faction_id = 20 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 21 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 22 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 23 }
+				add_active_faction = yes
+				set_temp_variable = { faction_id = 24 }
+				add_active_faction = yes
+				# Set loyalty and influence values
+				set_variable = { faction_loyalty_20 = 75 }
+				set_variable = { faction_influence_20 = 40 }
+				set_variable = { faction_loyalty_21 = 63 }
+				set_variable = { faction_influence_21 = 37 }
+				set_variable = { faction_loyalty_22 = 62 }
+				set_variable = { faction_influence_22 = 7 }
+				set_variable = { faction_loyalty_23 = 13 }
+				set_variable = { faction_influence_23 = 6 }
+				set_variable = { faction_loyalty_24 = 56 }
+				set_variable = { faction_influence_24 = 10 }
+				change_faction_influence = yes
+			}
+		}
+	}
+
+	on_weekly = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = { active_factions_array^num > 0 }
+				}
+				# weekly influence changes from modifiers
+				for_each_loop = {
+					array = active_factions_array
+					value = v
+					set_temp_variable = { faction_id = v }
+					if = {
+						limit = {
+							calculate_weekly_faction_influence_change = yes
+						}
+						set_temp_variable = { influence_to_add = weekly_faction_influence_change }
+						change_faction_influence = yes
+					}
+				}
+				# weekly loyalty changes from modifiers
+				for_each_loop = {
+					array = active_factions_array
+					value = v
+					set_temp_variable = { faction_id = v }
+					if = {
+						limit = {
+							calculate_weekly_faction_loyalty_change = yes
+						}
+						set_temp_variable = { loyalty_to_add = weekly_faction_loyalty_change }
+						change_faction_loyalty = yes
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+﻿units = {
+	division= {
+		name = "SS-Gebirgs-Division „Nord“"
+		location = 11445 # Wildflecken
+		division_template = "SS-Gebirgsjäger-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 1.0 
+	}
+}

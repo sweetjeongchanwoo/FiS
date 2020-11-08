@@ -1,0 +1,68 @@
+
+state={
+	id=762
+	name="STATE_762"
+	resources={
+		steel=56.000
+		aluminium=11.000
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			11483 10 
+		}
+		victory_points = {
+			11548 15 
+		}
+		victory_points = {
+			575 5 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 4
+			air_base = 10
+			575 = {
+				naval_base = 6
+			}
+			11606 = {
+				bunker = 1
+			}
+			11483 = {
+				bunker = 1
+			}
+			575 = {
+				bunker = 1
+			}
+		}
+		add_core_of = FRA
+		1941.6.22 = {
+			owner = FRA
+			controller = GER
+			add_core_of = VIC
+
+		}
+		1945.1.1 = {
+			owner = FRA
+			controller = FRA
+			GER = {
+				set_province_controller = 575
+
+			}
+
+		}
+		1946.1.1 = {
+			controller = FRA
+			remove_core_of = VIC
+
+		}
+
+	}
+
+	provinces={
+		575 3536 6504 11483 11548 11606 
+	}
+	manpower=3243748
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

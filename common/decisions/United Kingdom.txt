@@ -1,0 +1,743 @@
+#########################################################################
+#  British Political Decisions
+#########################################################################
+political_actions = {
+	
+	###########################
+	# Ramsay's Term
+	###########################
+	ENG_Ramsays_Term = {
+		allowed = { 
+			tag = ENG
+		}
+		available = {
+			always = no
+		}
+		activation = {
+			tag = ENG
+		}
+		days_mission_timeout = 820
+		timeout_effect = { 
+			country_event = { id = DH_Britain_Politics.3 }
+		}
+		complete_effect = { 
+
+		}
+	}
+	###########################
+	# Baldwin's Term
+	###########################
+	ENG_Baldwins_Term = {
+		allowed = { 
+			always = no
+		}
+		available = {
+			always = no
+		}
+		activation = {
+			tag = ENG
+		}
+		days_mission_timeout = 820
+		timeout_effect = { 
+		
+		}
+		complete_effect = {
+			news_event = { id = DH_Britain_Politics.1 }
+		}
+	}
+	###########################
+	# Baldwin's Term
+	###########################
+	ENG_Broadcast_Anti_German_Speeches = {
+		icon = generic_political_discourse
+		
+		allowed = {
+			tag = ENG
+		}
+		
+		available = {
+			is_democratic = yes
+			has_completed_focus = ENG_Anti_German_Speeches
+		}
+		
+		cost = 50
+		
+		visible = {
+			tag = ENG
+			is_democratic = yes
+			has_war_support < 0.8
+			NOT = { has_country_flag = ENG_anti_german_speeches_flag }
+			has_completed_focus = ENG_Anti_German_Speeches
+		}
+		modifier = {
+			war_support_weekly = 0.002
+	   }
+		days_remove = 50
+	    remove_effect = {
+			set_country_flag = { flag = ENG_anti_german_speeches_flag days = 50 }
+	    }
+   }
+	###########################
+	# 'Blood Toil and Tears' Speech
+	###########################
+	hold_blood_toil_tears_sweat_speech = {
+		icon = generic_political_discourse
+		
+		allowed = {
+			tag = ENG
+		}
+		
+		available = {
+			is_democratic = yes
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+			has_war_with = GER
+		}
+		
+		cost = 50
+		
+		fire_only_once = yes
+		
+		visible = {
+			tag = ENG
+			is_democratic = yes
+			has_war_with = GER
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+		}
+		
+		complete_effect = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			USA = { set_country_flag = blood_toil_tears_sweat_speech }
+			set_country_flag = blood_toil_tears_sweat_speech
+		}
+		
+		ai_will_do = {
+			factor = 100 #Gotta allow the Americans to help
+		}
+	}
+	###########################
+	# 'Fight on the Beaches' Speech
+	###########################
+	hold_fight_on_the_beaches_speech = {
+		icon = generic_political_discourse
+		
+		allowed = {
+			tag = ENG
+		}
+		
+		available = {
+			is_democratic = yes
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+			has_war_with = GER
+			is_in_faction_with = FRA
+			FRA = {
+				surrender_progress > 0.2
+			}
+		}
+		
+		cost = 50
+		
+		fire_only_once = yes
+		
+		visible = {
+			tag = ENG
+			is_democratic = yes
+			has_war_with = GER
+			has_country_flag = blood_toil_tears_sweat_speech
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+		}
+		
+		complete_effect = {
+			add_war_support = 0.05
+			USA = { set_country_flag = fight_on_the_beaches_speech }
+			set_country_flag = fight_on_the_beaches_speech
+		}
+		
+		ai_will_do = {
+			factor = 100 #Gotta allow the Americans to help
+		}
+	}
+	
+	###########################
+	# Their Finest Hour
+	###########################
+	hold_this_was_their_finest_hour_speech = {
+		icon = generic_political_discourse
+		
+		allowed = {
+			tag = ENG
+		}
+		
+		available = {
+			is_democratic = yes
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+			has_war_with = GER
+			is_in_faction_with = FRA
+			FRA = { has_capitulated = yes }
+		}
+		
+		cost = 50
+		
+		fire_only_once = yes
+		
+		visible = {
+			tag = ENG
+			is_democratic = yes
+			has_war_with = GER
+			has_country_flag = fight_on_the_beaches_speech
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+		}
+		
+		complete_effect = {
+			add_war_support = 0.05
+			USA = { set_country_flag = this_was_their_finest_hour_speech }
+			set_country_flag = this_was_their_finest_hour_speech
+		}
+		
+		ai_will_do = {
+			factor = 100 #Gotta allow the Americans to help
+		}
+	}
+	
+	###########################
+	# MacDonald Proposal
+	###########################
+	macdonald_proposal = {
+		
+		allowed = {
+			tag = ENG
+		}
+		
+		available = {
+			tag = ENG
+			is_democratic = yes
+			has_war_with = GER
+			IRE = { exists = yes }
+			NOT = { is_in_faction_with = IRE }
+			NOR = { has_capitulated = yes }
+			is_in_faction_with = NOR
+			FRA = { has_capitulated = yes }
+			is_in_faction_with = FRA
+		}
+		
+		cost = 50
+		
+		visible = {
+			tag = ENG
+			is_democratic = yes
+			has_war_with = GER
+			IRE = { exists = yes }
+		}
+		
+		complete_effect = {
+			IRE = { country_event = { id = wtt_britain.24 } }
+			add_popularity = { ideology = democratic popularity = 0.03 }
+			add_popularity = { ideology = democratic popularity = 0.03 }
+			add_popularity = { ideology = democratic popularity = 0.03 }
+			add_stability = -0.05
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	###########################
+	# Invoke the Alliance of 1373
+	###########################
+	ENG_invoke_the_alliance_of_1373 = {
+		icon = generic_prepare_civil_war
+		
+		allowed = {
+			tag = ENG
+		}
+		
+		available = {
+			has_war = yes
+			POR = {
+				OR = {
+					has_government = ROOT
+					has_government = authoritarian
+				}
+			}
+			POR = { is_in_faction = no }
+		}
+		
+		cost = 100
+		
+		visible = {
+			has_war = yes
+			NOT = { has_war_with = POR }
+		}
+		
+		complete_effect = {
+			POR = { country_event = generic.5 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					any_other_country = {
+						original_tag = SPR
+						has_war_with = ROOT
+					}
+				}
+			}
+		}
+	}
+	###########################
+	# Request Azores Lease
+	###########################
+	ENG_request_azores_lease = {
+		allowed = {
+			tag = ENG
+		}
+		
+		available = {
+			has_war = yes
+			POR = {
+				has_full_control_of_state = 698
+				OR = {
+					has_government = ROOT
+					has_government = authoritarian
+				}
+			}
+			POR = { is_in_faction = no }
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		visible = {
+			has_war = yes
+			POR = {
+				has_full_control_of_state = 698
+				NOT = { has_war_with = ROOT }
+			}
+		}
+		
+		complete_effect = {
+			POR = { country_event = wtt_britain_lease_azores.1 }
+		}
+	}
+	
+}
+#########################################################################
+#  British Operations
+#########################################################################
+operations = {
+	###########################
+	# Operation Fork
+	###########################
+	operation_fork = {
+		icon = generic_operation
+		
+		allowed = {
+			tag = ENG
+		}
+		
+		available = {
+			tag = ENG
+			is_democratic = yes
+			has_war_with = GER
+			ICE = { exists = yes }
+			NOR = { has_capitulated = yes }
+			is_in_faction_with = NOR
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			tag = ENG
+			has_war_with = GER
+			ICE = { exists = yes }
+			NOT = { ICE = { is_in_faction_with = ROOT } }
+		}
+		
+		complete_effect = {
+			declare_war_on = { target = ICE type = puppet_wargoal_focus }
+			add_popularity = { ideology = democratic popularity = -0.05 }
+			add_popularity = { ideology = democratic popularity = -0.05 }
+			add_popularity = { ideology = democratic popularity = -0.05 }
+		}
+	}
+	###########################
+	# Invade Ireland
+	###########################	
+	invade_ireland = {
+		
+		icon = generic_operation
+		
+		allowed = {
+			tag = ENG
+		}
+		
+		available = {
+			tag = ENG
+			is_democratic = yes
+			has_war_with = GER
+			IRE = { exists = yes }
+			NOT = { is_in_faction_with = IRE }
+			NOR = { has_capitulated = yes }
+			is_in_faction_with = NOR
+			FRA = { has_capitulated = yes }
+			is_in_faction_with = FRA
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				any_enemy_country = {
+					has_attache_from = IRE
+				}
+			}
+			modifier = {
+				add = 1
+				has_opinion = { target = IRE value < -50 }
+			}
+			modifier = {
+				add = 1
+				IRE = { has_added_tension_amount > 0.05 }
+			}
+		}
+		
+		visible = {
+			tag = ENG
+			has_war_with = GER
+			IRE = { exists = yes }
+		}
+		
+		complete_effect = {
+			declare_war_on = { target = IRE type = annex_everything }
+			add_popularity = { ideology = democratic popularity = -0.03 }
+			add_popularity = { ideology = democratic popularity = -0.03 }
+			add_popularity = { ideology = democratic popularity = -0.03 }
+		}
+	}
+	###########################
+	# Mers El Kebir Raid
+	###########################	
+	mers_el_kebir_raid = {
+		icon = generic_naval
+		
+		allowed = {
+			tag = ENG
+		}
+		
+		available = {
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+			tag = ENG
+			is_democratic = yes
+			has_war_with = GER
+			country_exists = VIC
+		}
+		
+		cost = 100
+		
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+			tag = ENG
+			is_democratic = yes
+			has_war_with = GER
+			OR = {
+				AND = {
+					is_in_faction_with = FRA
+					FRA = { surrender_progress > 0.2 }
+				}
+				any_country = {
+					original_tag = FRA
+					has_government = fascist
+				}
+			}
+		}
+		
+		complete_effect = {
+			random_other_country = {
+				limit = {
+					original_tag = FRA
+					has_government = fascist
+				}
+				country_event = { id = wtt_britain.25 hours = 5 }
+			}
+		}
+	}
+	###########################
+	# Operation Browery
+	###########################	
+	ENG_Operation_Bowery = {
+		icon = placeholder
+		fire_only_once = yes
+		allowed = {
+			original_tag = ENG
+		}
+		visible = {
+			has_war = yes
+			has_tech = fighter_1940
+			116 = {
+				is_owned_and_controlled_by = ROOT
+				non_damaged_building_level = {
+					building = dockyard
+					level < 10
+				}
+				non_damaged_building_level = {
+					building = air_base
+					level < 10
+				}
+			}
+		}
+		available = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = Fighter_equipment_1940
+				amount = 61
+				producer = ENG
+			}
+		}
+	}
+	###########################
+	# Operation Ironclad
+	###########################	
+	ENG_Operation_Ironclad = {
+		icon = placeholder
+		fire_only_once = yes
+		allowed = {
+			original_tag = ENG
+		}
+		visible = {
+			has_war_with = JAP
+			1061 = {
+				owner = {
+					OR = {
+						original_tag = ENG
+						ROOT = {
+							is_ally_with = PREV
+						}
+					}
+				}
+			}
+		}
+		available = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			1061 = {
+				create_unit = {
+					division = "division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+					prioritize_location = 5222
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+					prioritize_location = 5222
+					owner = ROOT
+				}
+			}
+		}
+	}
+	###########################
+	# Operation Alphabet
+	###########################	
+	ENG_Operation_Alphabet = {
+		icon = placeholder
+		fire_only_once = yes
+		allowed = {
+			original_tag = ENG
+		}
+		visible = {
+			is_ally_with = NOR
+			has_war = yes
+			NOR = {
+				surrender_progress > 0.7
+				has_capitulated = no
+			}
+		}
+		available = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			#LordVarangian can add the idea later
+		}
+	}
+	###########################
+	# Operation Catapult
+	###########################	
+	ENG_Operation_Catapult = {
+		icon = placeholder
+		fire_only_once = yes
+		allowed = {
+			original_tag = ENG
+		}
+		visible = {
+			has_war = yes
+			country_exists = VIC
+			VIC = {
+				has_navy_size = {
+					size > 0
+				}
+			}
+		}
+		available = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			country_event = {
+				id = DH_Britain_Raid_On_Mers_El_Kebir.3
+				days = 2
+			}
+		}
+	}
+	###########################
+	# Operation Countenance
+	###########################	
+	ENG_Operation_Countenance = {
+		icon = placeholder
+		fire_only_once = yes
+		allowed = {
+			original_tag = ENG
+		}
+		visible = {
+			has_war_with = GER
+			country_exists = SOV
+			country_exists = PER
+		}
+		available = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			create_wargoal = {
+				target = PER
+				type = puppet_wargoal_focus
+			}
+			SOV = {
+				create_wargoal = {
+					target = PER
+					type = puppet_wargoal_focus
+				}
+			}
+		}
+	}
+	###########################
+	# Raid on Tripitz
+	###########################	
+	ENG_Raid_on_Tripitz = {
+		icon = placeholder
+		fire_only_once = yes
+		allowed = {
+			original_tag = ENG
+		}
+		visible = {
+			has_war_with = GER
+			110 = {
+				controller = {
+					OR = {
+						original_tag = GER
+						is_ally_with = GER
+					}
+				}
+			}
+			NOR = {
+				has_capitulated = yes
+				is_ally_with = ENG
+			}
+		}
+		available = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			random_list = {
+				50 = {
+					110 = {
+						damage_building = {
+							type = naval_base
+							damage = 1
+							province = 6115
+						}
+					}
+				}
+				50 = {
+					1126 = {
+						damage_building = {
+							type = naval_base
+							damage = 1
+							province = 9296
+						}
+					}
+				}
+			}
+		}
+	}
+	###########################
+	# Hit Hamburg
+	###########################	
+	ENG_Hit_Hamburg = {
+		icon = placeholder
+		fire_only_once = yes
+		allowed = {
+			original_tag = ENG
+		}
+		visible = {
+			has_war_with = GER
+		}
+		available = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			1183 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 2
+				}
+				damage_building = {
+					type = arms_factory
+					damage = 2
+				}
+			}
+		}
+	}
+}
+#########################################################################
+#  British Diplomactic Decisions
+#########################################################################
+foreign_politics = {
+	###########################
+	# Propose Naval Treaty to Germany(
+	###########################
+
+}

@@ -1,0 +1,133 @@
+﻿#########################################################################
+# Sinkiang 1933
+#########################################################################
+1933.1.1 = {
+	capital = 864
+	oob = "SIK_1933"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Artillery_1910 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 35
+		democratic = 15
+		socialist = 30
+		communist = 20
+	}	
+	add_ideas = {
+		# Spirits
+		SIK_Opium_Stimulated_Army
+		SIK_Collapsing_Economic_Monopoly
+		SIK_Restless_Turkic_Population
+		SIK_Overwhelming_Illiterracy
+		# Laws and Policies
+		limited_exports
+		one_year_service
+		partial_economic_mobilisation
+		# Cabinet
+		SIK_HoG_Sheng_Shicai
+	}	
+	#######################
+	# Leaders
+	#######################
+	# Authoritarian
+	create_country_leader = {
+		name = "Jin Shuren"
+		desc = "POLITICS_JIN_SHUREN_DESC"
+		picture = "P_A_Jin_Shuren.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = {
+			POSITION_Civil_Governor
+			SUBIDEOLOGY_Authoritarian_Democracy
+			HoS_Stern_Imperialist
+		}
+	}
+	#######################
+	# Generals
+	#######################
+	create_corps_commander = {
+		name = "Jin Shuren"
+		picture = "P_A_Jin_Shuren.tga"
+		traits = { }
+		skill = 3
+		attack_skill = 4
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	
+}
+#########################################################################
+# Sinkiang 1936
+#########################################################################
+1936.1.1 = {
+	capital = 864
+	oob = "SIK_1936"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 50
+		democratic = 0
+		socialist = 10
+		communist = 40
+	}
+
+	#######################
+	# Leaders
+	#######################
+	# Marxism-Leninism
+	create_country_leader = {
+		name = "Sheng Shicai"
+		desc = "POLITICS_SHENG_SHICAI_DESC"
+		picture = "P_C_Sheng_Shicai.tga"
+		expire = "1965.1.1"
+		ideology = military_dictatorship
+		traits = {
+			POSITION_Civil_Governor
+			SUBIDEOLOGY_Authoritarian_Democracy	
+			HoS_Resigned_Generalissimo
+		}
+	}
+	#######################
+	# Generals
+	#######################
+	create_corps_commander = {
+		name = "Sheng Shicai"
+		picture = "P_C_Sheng_Shicai.tga"
+		traits = { }
+		skill = 3
+		attack_skill = 4
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	
+}

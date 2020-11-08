@@ -1,0 +1,128 @@
+﻿###########################
+# Darkest Hour Election Events : Argentina
+###########################
+add_namespace = DH_Argentina_Elections
+#########################################################################
+#  Argentine general election, 1937
+#########################################################################
+country_event = {
+	id = DH_Argentina_Elections.1
+	title = DH_Argentina_Elections.1.t
+	desc = DH_election.1.d
+	picture = GFX_DH_Generic_Elections
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		original_tag = ARG
+		date > 1937.1.1
+		date < 1938.1.1
+	}
+	# Elect NatSoc
+	option = {
+		name = DH_Argentina_Elections.1.A
+		ai_chance = {
+			factor = 30
+		}
+		trigger = {
+			fascist > 0.4
+			has_country_flag = elections_NS
+		}
+		set_politics = {
+			ruling_party = fascist
+			elections_allowed = yes
+		}
+	}
+	# Elect Fascists
+	option = {
+		name = DH_Argentina_Elections.1.B
+		ai_chance = {
+			factor = 30
+		}
+		trigger = {
+			fascist > 0.4
+			has_country_flag = elections_FA
+		}
+		set_politics = {
+			ruling_party = fascist
+			elections_allowed = yes
+		}
+	}
+	# Elect Paternal Autocrats (Roberto M. Ortiz)
+	option = {
+		name = DH_Argentina_Elections.1.C
+		ai_chance = {
+			factor = 30
+		}
+		trigger = {
+			authoritarian > 0.4
+			OR = {
+				has_country_flag = elections_PA
+				has_government = authoritarian
+			}
+		}
+		set_politics = {
+			ruling_party = authoritarian
+			elections_allowed = yes
+		}
+		kill_country_leader = yes
+		custom_effect_tooltip = ARG_PA_1937_Candidate
+	}
+	# Elect Social Conservatives
+	option = {
+		name = DH_Argentina_Elections.1.D
+		ai_chance = {
+			factor = 60
+		}
+		trigger = {
+			democratic > 0.25
+		}
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+		}
+	}
+	# Elect Social democratics (Marcelo Torcuato de Alvear)
+	option = {
+		name = DH_Argentina_Elections.1.F
+		ai_chance = {
+			factor = 30
+		}
+		trigger = {
+			democratic > 0.25
+		}
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+		}
+		custom_effect_tooltip = ARG_SL_1937_Candidate
+	}
+	# Elect Social Democrats
+	option = {
+		name = DH_Argentina_Elections.1.G
+		ai_chance = {
+			factor = 30
+		}
+		trigger = {
+			democratic > 0.25
+		}
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+		}
+	}
+	# Elect LWRs
+	option = {
+		name = DH_Argentina_Elections.1.H
+		ai_chance = {
+			factor = 30
+		}
+		trigger = {
+			socialist > 0.4
+			has_country_flag = elections_LWR
+		}
+		set_politics = {
+			ruling_party = socialist
+			elections_allowed = yes
+		}
+	}
+}

@@ -1,0 +1,113 @@
+﻿#########################################################################
+# Dominican Republic - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 319
+	set_convoys = 5
+	oob = "DOM_1933"
+	#######################
+	# Research
+	#######################	
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+		Artillery_1910 = 1
+		Anti_Aircraft_Gun_1935 = 1
+	}
+	#######################
+	# Politics
+	#######################		
+	set_country_flag = monroe_doctrine
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1934.5.16"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 50
+		democratic = 45
+		socialist = 5
+		communist = 0
+	}
+	#######################
+	# Leaders
+	#######################	
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Rafael Trujillo"
+		desc = "POLITICS_RAFAEL_TRUJILLO_DESC"
+		picture = "P_A_Rafael_Trujillo.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = { POSITION_President SUBIDEOLOGY_Authoritarian_Democracy HoS_Resigned_Generalissimo }
+	}	
+}
+#########################################################################
+# Dominican Republic - 1936
+#########################################################################
+1936.1.1 = {
+	oob = "DOM_1936"
+}
+#########################################################################
+# Dominican Republic - 1939
+#########################################################################
+1939.9.1 = {
+	#######################
+	# Leaders
+	#######################	
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Jacinto Peynado"
+		desc = ""
+		picture = "P_A_Jacinto_Peynado.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = { POSITION_President SUBIDEOLOGY_Authoritarian_Democracy HoS_Barking_Buffoon }
+	}	
+}
+#########################################################################
+# Dominican Republic - 1940
+#########################################################################
+1940.5.10 = {
+	#######################
+	# Leaders
+	#######################	
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Manuel de Jesús Troncoso"
+		desc = ""
+		picture = "P_A_Manuel_de_Jesus_Troncoso.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = { POSITION_President SUBIDEOLOGY_Authoritarian_Democracy HoS_Benevolent_Gentleman }
+	}
+}
+#########################################################################
+# Dominican Republic - 1942
+#########################################################################
+1942.11.22 = {
+	#######################
+	# Leaders
+	#######################	
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Rafael Trujillo"
+		desc = "POLITICS_RAFAEL_TRUJILLO_DESC"
+		picture = "P_A_Rafael_Trujillo.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = { POSITION_President SUBIDEOLOGY_Authoritarian_Democracy HoS_Barking_Buffoon }
+	}	
+}

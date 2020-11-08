@@ -1,0 +1,38 @@
+
+state={
+	id=821
+	name="STATE_821"
+
+	history={
+		owner = ENG
+		victory_points = {
+			7107 2 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = PAL
+		add_core_of = ISR
+		1950.1.1 = {
+			owner = JOR
+
+		}
+		1972.1.1 = {
+			owner = ISR
+
+		}
+		2000.1.1 = {
+			owner = PAL
+
+		}
+
+	}
+
+	provinces={
+		1 1086 7107 
+	}
+	manpower=97000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

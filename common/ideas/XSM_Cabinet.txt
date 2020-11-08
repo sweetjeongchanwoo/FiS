@@ -1,0 +1,495 @@
+ideas = {
+#################################################
+### Head of Government
+#################################################
+	Head_of_Government = {
+	# Ma Anliang
+		CXB_HoG_Ma_Anliang = {
+			picture = CXB_Ma_Anliang
+			allowed = { tag = XSM }
+			visible = {
+				date > 1912.1.1
+				date < 1919.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Anliang_unavailable }
+			}
+			
+			
+			traits = { ideology_F HoG_Old_General }
+		}
+	# Ma Bufang
+		CXB_HoG_Ma_Bufang = {
+			picture = CXB_Ma_Bufang
+			allowed = { tag = XSM }
+			visible = {
+				date > 1912.1.1
+				date < 1970.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Bufang_unavailable }
+			}
+			
+			
+			traits = { ideology_F HoG_Old_General POSITION_Military_Governor }
+		}
+	# Lu Hongtao
+		CXB_HoG_Lu_Hongtao = {
+			picture = CXB_Lu_Hongtao
+			allowed = { tag = CXB }
+			available = {
+				date > 1919.1.1
+				date < 1933.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Lu_Hongtao_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoG_Old_General }
+		}
+	# Ma Hongkui
+		CXB_HoG_Ma_Hongkui = {
+			picture = CXB_Ma_Hongkui
+			allowed = { tag = NXM }
+			available = {
+				date > 1923.1.1
+				date < 1949.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Hongkui_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoG_Old_Airmarshal }
+		}
+	# Ma Hongbin
+		CXB_HoG_Ma_Hongbin = {
+			picture = CXB_Ma_Hongbin
+			allowed = { tag = NXM }
+			available = {
+				date > 1928.1.1
+				date < 1947.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Hongbin_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoG_Silent_Workhorse POSITION_Deputy_Commander }
+		}
+}
+#################################################
+### Foreign Minister
+#################################################
+	Foreign_Minister = {
+	# Ma Anliang
+		CXB_FM_Ma_Anliang = {
+			picture = CXB_Ma_Anliang
+			allowed = { tag = CXB }
+			available = {
+				date > 1912.1.1
+				date < 1919.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Anliang_unavailable }
+			}
+			
+			
+			traits = { ideology_F FM_The_Cloak_N_Dagger_Schemer }
+		}
+	# Ma Fuxiang
+		CXB_FM_Ma_Fuxiang = {
+			picture = CXB_Ma_Fuxiang
+			allowed = { tag = CXB }
+			available = {
+				date > 1919.1.1
+				date < 1931.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Fuxiang_unavailable }
+			}
+			
+			
+			traits = { ideology_A FM_General_Staffer }
+		}
+	# Fang Jing
+		CXB_FM_Fang_Jing = {
+			picture = CXB_Fang_Jing
+			allowed = { tag = CXB }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Fang_Jing_unavailable }
+			}
+			
+			
+			traits = { ideology_A FM_Great_Compromiser }
+		}
+}
+#################################################
+### Minister of Security
+#################################################
+	Minister_of_Security = {
+	# Ma Anliang
+		CXB_MoS_Ma_Anliang = {
+			picture = CXB_Ma_Anliang
+			allowed = { tag = CXB }
+			available = {
+				date > 1912.1.1
+				date < 1919.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Anliang_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Efficient_Sociopath }
+		}
+	# Lu Hongtao
+		CXB_MoS_Lu_Hongtao = {
+			picture = CXB_Lu_Hongtao
+			allowed = { tag = CXB }
+			available = {
+				date > 1919.1.1
+				date < 1933.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Lu_Hongtao_unavailable }
+			}
+			
+			
+			traits = { ideology_A MoS_Man_Of_The_People }
+		}
+	# Ma Hongkui
+		CXB_MoS_Ma_Hongkui = {
+			picture = CXB_Ma_Hongkui
+			allowed = { tag = CXB }
+			available = {
+				date > 1923.1.1
+				date < 1949.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Hongkui_unavailable }
+			}
+			
+			
+			traits = { ideology_A MoS_Prince_Of_Terror }
+		}
+	# Li Shiqun
+		CXB_MoS_Li_Shiqun = {
+			picture = CXB_Li_Shiqun
+			allowed = { tag = CXB }
+			available = {
+				date > 1932.1.1
+				date < 1944.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Li_Shiqun_unavailable }
+			}
+			
+			
+			traits = { ideology_A MoS_Prince_Of_Terror }
+		}
+}
+#################################################
+### Armaments Minister
+#################################################
+	Armaments_Minister = {
+	# Ma Fuxiang
+		CXB_AM_Ma_Fuxiang = {
+			picture = CXB_Ma_Fuxiang
+			allowed = { tag = CXB }
+			available = {
+				date > 1912.1.1
+				date < 1932.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Fuxiang_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Military_Entrepreneur }
+		}
+	# Ma Hongbin
+		CXB_AM_Ma_Hongbin = {
+			picture = CXB_Ma_Hongbin
+			allowed = { tag = CXB }
+			available = {
+				date > 1919.1.1
+				date < 1947.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Hongbin_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Resource_Industrialist }
+		}
+	# Zi Shen
+		CXB_AM_Zi_Shen = {
+			picture = CXB_Zi_Shen
+			allowed = { tag = CXB }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Zi_Shen_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Corrupt_Kleptocrat }
+		}
+}
+#################################################
+### Head of Intelligence
+#################################################
+	Head_of_Intelligence = {
+	# Li Shiqun
+		CXB_HoI_Li_Shiqun = {
+			picture = CXB_Li_Shiqun
+			allowed = { tag = CXB }
+			available = {
+				date > 1932.1.1
+				date < 1944.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Li_Shiqun_unavailable }
+			}
+			
+			
+			traits = { ideology_F HoI_Double_Agent }
+		}
+	# Ma Qi
+		CXB_HoI_Ma_Qi = {
+			picture = CXB_Ma_Qi
+			allowed = { tag = CXB }
+			available = {
+				date > 1912.1.1
+				date < 1931.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Qi_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoI_Dismal_Enigma }
+		}
+	# Ma Hongbin
+		CXB_HoI_Ma_Hongbin = {
+			picture = CXB_Ma_Hongbin
+			allowed = { tag = CXB }
+			available = {
+				date > 1919.1.1
+				date < 1947.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Hongbin_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoI_Political_Specialist }
+		}
+}
+#################################################
+### Chief of Staff
+#################################################
+	Chief_of_Staff = {
+	# Ma Fushou
+		CXB_CoStaff_Ma_Fushou = {
+			picture = CXB_Ma_Fushou
+			allowed = { tag = CXB }
+			available = {
+				date > 1912.1.1
+				date < 1936.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Fushou_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Psychology }
+		}
+	# Ma Qi
+		CXB_CoStaff_Ma_Qi = {
+			picture = CXB_Ma_Qi
+			allowed = { tag = CXB }
+			available = {
+				date > 1915.1.1
+				date < 1933.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Qi_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Mass_Combat }
+		}
+	# Ma Hongbin
+		CXB_CoStaff_Ma_Hongbin = {
+			picture = CXB_Ma_Hongbin
+			allowed = { tag = CXB }
+			available = {
+				date > 1919.1.1
+				date < 1947.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Hongbin_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Manoeuvre }
+		}
+	# Ma Hongkui
+		CXB_CoStaff_Ma_Hongkui = {
+			picture = CXB_Ma_Hongkui
+			allowed = { tag = CXB }
+			available = {
+				date > 1923.1.1
+				date < 1949.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Hongkui_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Defence }
+		}
+	# Ma Buqing
+		CXB_CoStaff_Ma_Buqing = {
+			picture = CXB_Ma_Buqing
+			allowed = { tag = CXB }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Buqing_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Defence }
+		}
+}
+#################################################
+### Chief of Army
+#################################################
+	Chief_of_Army = {
+	# Ma Fuxiang
+		CXB_CoArmy_Ma_Fuxiang = {
+			picture = CXB_Ma_Fuxiang
+			allowed = { tag = CXB }
+			available = {
+				date > 1912.1.1
+				date < 1932.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Fuxiang_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Decisive_Battle_Doctrine }
+		}
+	# Ma Hongbin
+		CXB_CoArmy_Ma_Hongbin = {
+			picture = CXB_Ma_Hongbin
+			allowed = { tag = CXB }
+			available = {
+				date > 1919.1.1
+				date < 1947.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Hongbin_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Static_Defence_Doctrine }
+		}
+	# Ma Hongkui
+		CXB_CoArmy_Ma_Hongkui = {
+			picture = CXB_Ma_Hongkui
+			allowed = { tag = CXB }
+			available = {
+				date > 1923.1.1
+				date < 1949.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Hongkui_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Guns_And_Butter_Doctrine }
+		}
+	# Ma Buqing
+		CXB_CoArmy_Ma_Buqing = {
+			picture = CXB_Ma_Buqing
+			allowed = { tag = CXB }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Buqing_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Guns_And_Butter_Doctrine }
+		}
+}
+#################################################
+### Chief of Navy
+#################################################
+	Chief_of_Navy = {
+	# Ma Fuxiang
+		CXB_CoNavy_Ma_Fuxiang = {
+			picture = CXB_Ma_Fuxiang
+			allowed = { tag = CXB }
+			available = {
+				date > 1912.1.1
+				date < 1931.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Fuxiang_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoNavy_Open_Seas_Doctrine }
+		}
+	# Ma Hongbin
+		CXB_CoNavy_Ma_Hongbin = {
+			picture = CXB_Ma_Hongbin
+			allowed = { tag = CXB }
+			available = {
+				date > 1919.1.1
+				date < 1947.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Hongbin_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoNavy_Decisive_Naval_Battle_Doctrine }
+		}
+	# Ma Bufang
+		CXB_CoNavy_Ma_Bufang = {
+			picture = CXB_Ma_Bufang
+			allowed = { tag = CXB }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Bufang_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoNavy_Indirect_Approach_Doctrine }
+		}
+}
+#################################################
+### Chief of Airforce
+#################################################
+	Chief_of_Airforce = {
+	# Ma Fushou
+		CXB_CoAir_Ma_Fushou = {
+			picture = CXB_Ma_Fushou
+			allowed = { tag = CXB }
+			available = {
+				date > 1912.1.1
+				date < 1936.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Fushou_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoAir_Army_Aviation_Doctrine }
+		}
+	# Ma Bufang
+		CXB_CoAir_Ma_Bufang = {
+			picture = CXB_Ma_Bufang
+			allowed = { tag = CXB }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Bufang_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoAir_Army_Aviation_Doctrine }
+		}
+	}
+}

@@ -1,0 +1,101 @@
+﻿division_template = {
+	name = "División de infantería con ingenieros"			# Infantry Division with Engineers
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "División de infantería con artillería"			# Infantry Division with Artillery
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_battalion = { x = 2 y = 0 }
+		artillery_battalion = { x = 2 y = 1 }
+	}
+}
+
+units = {
+	##### Ejército del Perú #####
+	division = {
+		name = "1a Div. de Inf. del Peru 'Bolognesi'"
+		location = 12997 # Lima
+		division_template = "División de infantería con ingenieros"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "2a Div. de Infantería del Peru"
+		location = 12997 # Lima
+		division_template = "División de infantería con artillería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "3a Div. de Infantería del Peru"
+		location = 2210 # Arequipa
+		division_template = "División de infantería con artillería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	##### Naval OOB #####
+	fleet = {
+		name = "Marina del Guerra del Peru"
+		naval_base = 12997 # Lima
+		task_force = {
+			name = "Marina del Guerra del Peru"
+			location = 12997 # Lima
+			ship = { name = "ARP Almirante Grau" definition = light_cruiser equipment = { CL_equipment_1900 = { amount = 1 owner = PRU } } }
+			ship = { name = "BAP Coronel Bolognesi" definition = light_cruiser equipment = { CL_equipment_1900 = { amount = 1 owner = PRU } } }
+			ship = { name = "Flotilla Suliana" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = PRU } } }
+		}
+		task_force = {
+			name = "I Flotilla de la Armada"
+			location = 12997 # Lima
+			ship = { name = "Tacna é Flotilla" definition = submarine equipment = { SS_equipment_1912 = { amount = 1 owner = PRU } } }
+		}
+	}							
+}
+
+air_wings = {
+    303 = {
+        # Ala Aérea No.1
+        Fighter_equipment_1933 = { # Caproni Ca.114
+            owner = "PRU"
+            amount = 25
+        }
+    }
+}
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1900
+			creator = "PRU"
+		}
+		requested_factories = 1
+		progress = 0.79
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = Fighter_equipment_1933
+			creator = "PRU"
+		}
+		requested_factories = 1
+		progress = 0.27
+		efficiency = 100
+	}
+}

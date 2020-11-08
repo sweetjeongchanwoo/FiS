@@ -1,0 +1,652 @@
+﻿division_template = {
+	name = "Dywizja Piechoty"
+	division_names_group = POL_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_battalion_light = { x = 3 y = 0 }	#75mm
+		artillery_battalion_light = { x = 3 y = 1 }	#75mm
+		artillery_battalion = { x = 3 y = 2 }	#100mm
+		#artillery_battalion = { x = 3 y = 3 }	#105mm and 155mm 'heavy' howitzer battalion was added in 1937.
+	}	
+	support = {
+		engineer = { x = 0 y = 0 }		# Peacetime composition had a sapper-pioneer unit and a communications company.  All other support units were added during mobilization.
+		signal_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Dywizja Piechoty Górskiej"
+	division_names_group = POL_MTN_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+		artillery_battalion_light = { x = 3 y = 0 }
+		artillery_battalion_light = { x = 3 y = 1 }
+		artillery_battalion_light = { x = 3 y = 2 }
+		#artillery_battalion = { x = 3 y = 3 }	#105mm and 155mm 'heavy' howitzer battalion was added in 1937.
+	}	
+	support = {
+		engineer = { x = 0 y = 0 }		# Peacetime composition had a sapper-pioneer unit and a communications company.  All other support units were added during mobilization.
+		signal_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Dywizja Kawalerii"           # Only the 2nd Cavalry Division.  Structure valid until 1937.
+	division_names_group = POL_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+        cavalry = { x = 1 y = 1 }
+        cavalry = { x = 2 y = 0 }
+        cavalry = { x = 2 y = 1 }
+		artillery_battalion_light = { x = 3 y = 0 } # Horse artillery
+		artillery_battalion_light = { x = 3 y = 1 }	# Horse artillery
+	}
+	support = {
+		armored_car_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Brygada Kawalerii"           # Cavalry Brigades.  These all had minor variations in structure, but this is a good average.
+	division_names_group = POL_CAV_02
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+		artillery_battalion_light = { x = 1 y = 0 } # Horse artillery
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+    ##### Infantry Divisions #####
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3320 # Vilnius
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6416 # Kielce
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6580 # Zamość
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 3295 # Toruń
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 11479 # Lwów
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 9427 # Kraków
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 3586 # Częstochowa
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 6567 # Modlin
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 3521 # Siedlce
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 9508 # Łódź
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 11411 # Stanisławów
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 3483 # Ternopil
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 11543 # Równe
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 6558 # Poznań
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 279 # Bydgoszcz 
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 3295 # Grudziądz
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 3381 # Gniezno
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 11274 # Łomża 
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 3320 # Vilnius
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 11341 # Baranowicze, from Słonim 1 July 1928
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 9412 # Bielsko
+		division_template = "Dywizja Piechoty Górskiej"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 9494 # Przemyśl
+		division_template = "Dywizja Piechoty Górskiej"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 6464 # Katowice
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 11399 # Jarosław
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = 9439 # Kalisz
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 9400 # Skierniewice
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 3412 # Kowel
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = 3544 # Warsaw
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = 3393 # Grodno
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		}
+		location = 11528 # Kobryń
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    ##### Cavalry Divisions #####
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3544 # Warsaw
+		division_template = "Dywizja Kawalerii"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    ##### Cavalry Brigades #####
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3458 # Brody
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3320 # Vilnius
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9427 # Kraków
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 11411 # Stanisławów
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4 # „Suwałki”
+		}
+		location = 13721 # Suwałki
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7 # „Poznań”
+		}
+		location = 6558 # Poznań
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8 # „Równe”
+		}
+		location = 11543 # Równe
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9 # „Baranowicze”
+		}
+		location = 11341 # Baranowicze
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 6522 # Rzeszów
+		division_template = "Brygada Kawalerii" # 10th Cavalry Brigade did not become motorized until 1937
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11 # „Białystok”
+		}
+		location = 11301 # Białystok
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14 #„Toruń” after 1934 15 „Bydgoszcz”
+		}
+		location = 3295 # Toruń
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17 # „Hrubieszów”
+		}
+		location = 6580 # Hrubieszów
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.26 # The full time cadre was actually well trained with a strong legacy of performance in the conflicts following WWI.  There was some room for improvement, mostly due to the general lack of education among recruits.  This number will go down automatically once the conscripts are added as reinforcements.
+		start_equipment_factor = 0.33 # Units were manned at 1/3 during peacetime.
+	}
+
+    ##### navy oob #####
+    fleet = {
+        name = "Marynarka Wojenna"
+        naval_base = 9263 # Gdansk
+        task_force = {
+            name = "Marynarka Wojenna"
+            location = 9263 # Gdansk
+            ship = { name = "Flotylla Niszczycieli" definition = destroyer equipment = { DD_equipment_1916 = { amount = 1 owner = POL } } }
+            ship = { name = "Flotylla Dozorowców" definition = destroyer equipment = { DD_equipment_1912 = { amount = 1 owner = POL } } }
+            ship = { name = "Flotylla Okretów Podwodnych" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = POL } } }
+        }
+    }
+}
+
+air_wings = {
+    10 = {
+        # 3 Korpus Lotnictwa Mysliwskiego
+        Fighter_equipment_1933 = { # PZL P.11
+            owner = "POL"
+            amount = 80
+        }
+        # 4 Korpus Lotnictwa Szturmowego
+        Fighter_equipment_1933 = { # FIAT CR.20
+            owner = "POL"
+            amount = 40
+        }
+        # 15 Dywizja Lotnictwa Bombowego
+        Tactical_Bomber_equipment_1933 = { # Friedrichshafen G.III
+            owner = "POL"
+            amount = 15
+        }
+    }
+}
+### Starting Production ###
+instant_effect = {
+    add_equipment_production = {
+        equipment = {
+            type = Small_Arms_equipment_1900
+            creator = "POL"
+        }
+        requested_factories = 2
+        progress = 0.18
+        efficiency = 100
+    }
+
+    add_equipment_production = {
+        equipment = {
+            type = support_equipment_1
+            creator = "POL"
+        }
+        requested_factories = 1
+        progress = 0.2
+        efficiency = 100
+    }
+    
+    add_equipment_production = {
+        equipment = {
+            type = artillery_equipment_1
+            creator = "POL"
+        }
+        requested_factories = 2
+        progress = 0.16
+        efficiency = 100
+    }
+
+    add_equipment_production = {
+        equipment = {
+            type = Anti_Aircraft_Gun_equipment_1935
+            creator = "POL"
+        }
+        requested_factories = 1
+        progress = 0.14
+        efficiency = 100
+    }
+
+    add_equipment_production = {
+        equipment = {
+            type = Tank_equipment_1926
+            creator = "POL"
+        }
+        requested_factories = 1
+        progress = 0.1
+        efficiency = 100
+    }
+
+    add_equipment_production = {
+        equipment = {
+            type = DD_equipment_1933
+            creator = "POL"
+        }
+        requested_factories = 2
+        progress = 0.11
+        amount = 3
+    }
+}

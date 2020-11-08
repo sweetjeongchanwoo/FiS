@@ -1,0 +1,21 @@
+state={
+	id=906
+	name="STATE_906"
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = BRM
+		add_claim_by = CHI
+		1950.1.1 = {
+			owner = BRM
+		}
+	}
+	provinces={
+		1197 1934 4318 4996 
+	}
+	manpower=722500
+	buildings_max_level_factor=1.000
+	state_category=town
+}

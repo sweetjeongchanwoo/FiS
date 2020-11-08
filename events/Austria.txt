@@ -1,0 +1,242 @@
+﻿###########################
+# Darkest Hour Events : Austria
+###########################
+
+add_namespace = DH_Austria
+add_namespace = DH_Austria_Anschluss
+add_namespace = DH_Austria_Politics
+
+#########################################################################
+# Nazi Terror Wave
+#########################################################################
+news_event = {
+	id = DH_Austria.1
+	title = DH_Austria.1.t
+	desc = DH_Austria.1.d
+	picture = GFX_news_AUS_Austrian_Civil_War
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = AUS
+		date > 1933.3.4
+		has_start_date < 1933.3.4
+	}
+
+	# Keep a close eye on the situation	
+	option = { 
+		name = DH_Austria.1.A
+		add_stability = -0.1
+		GER = {
+			news_event = { 
+				id = DH_GER_AustrianPutsch.1 
+				days = 7
+			} 
+		}
+	}
+}
+#########################################################################
+# Banning the DNSAP
+#########################################################################
+news_event = {
+	id = DH_Austria.2
+	title = DH_Austria.2.t
+	desc = DH_Austria.2.d
+	picture = GFX_report_event_hitler_parade
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	# We need to silence these dissidents!
+	option = { 
+		name = DH_Austria.2.A
+		add_stability = 0.05
+		GER = {
+			country_event = { 
+				id = DH_GER_AustrianPutsch.2
+				hours = 12
+			} 
+		}
+	}
+}
+country_event = {
+	id = DH_Austria.3
+	title = DH_Austria.3.t
+	desc = DH_Austria.3.d
+	picture = GFX_event_picture
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = AUS
+		date > 1933.3.4
+		has_start_date < 1933.3.4
+	}
+	option = {
+		name = DH_Austria.3.A
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = AUS_AUT
+		set_party_name = { ideology = authoritarian long_name = "Engelbert Dollfuss Regierung" name = "EDR" }
+		set_party_name = { ideology = democratic long_name = "Sozialdemokratische Arbeiterpartei Österreichs" name = "SDAPÖ" }
+		set_politics = {
+			ruling_party = authoritarian
+		}
+		add_ideas = AUS_HoS_Wilhelm_Miklas
+		set_popularities = {
+			fascist = 7
+			authoritarian = 40
+			democratic = 45
+			socialist = 7
+			communist = 1
+		}
+		create_country_leader = {
+			name = "Karl Renner"
+			desc = ""
+			picture = "P_D_Karl_Renner.tga"
+			expire = "1950.12.31"
+			ideology = social_democracy
+			traits = {
+				POSITION_Chancellor
+				SUBIDEOLOGY_Social_Democracy
+				HoG_Backroom_Backstabber
+			}
+		}
+		create_country_leader = {
+			name = "Engelbert Dollfuss"
+			desc = ""
+			picture = "P_F_Engelbert_Dollfuss.tga"
+			expire = "1965.1.1"
+			ideology = monarchism
+			traits = {
+				POSITION_Chancellor
+				SUBIDEOLOGY_Authoritarian_Democracy
+				HoG_Flamboyant_Tough_Guy
+			}
+		}
+	}
+}
+country_event = {
+	id = DH_Austria.4
+	title = DH_Austria.4.t
+	desc = DH_Austria.4.d
+	picture = GFX_event_picture
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = AUS
+		date > 1933.5.20
+		has_start_date < 1933.5.20
+	}
+	option = {
+		name = DH_Austria.4.A
+		set_party_name = { ideology = authoritarian long_name = "Vaterländische Front" name = "VF" }
+		set_party_name = { ideology = fascist long_name = "Vaterländische Front" name = "VF" }
+		create_country_leader = {
+			name = "Engelbert Dollfuss"
+			desc = ""
+			picture = "P_F_Engelbert_Dollfuss.tga"
+			expire = "1965.1.1"
+			ideology = fascism
+			traits = {
+				POSITION_Chancellor
+				SUBIDEOLOGY_Paternal_Autocracy
+				HoG_Flamboyant_Tough_Guy
+			}
+		}
+	}
+}
+
+country_event = {
+	id = DH_Austria.5
+	title = DH_Austria.5.t
+	desc = DH_Austria.5.d
+	picture = GFX_event_picture
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = AUS
+		date > 1934.5.1
+		has_start_date < 1934.5.1
+	}
+	option = {
+		name = DH_Austria.5.A
+		set_politics = {
+			ruling_party = fascist
+		}
+		drop_cosmetic_tag = yes
+		set_party_name = { ideology = authoritarian long_name = "Österreichische Legitimistische Bewegung" name = "OLB" }
+		set_popularities = {
+			fascist = 65
+			authoritarian = 3
+			democratic = 24
+			socialist = 7
+			communist = 1
+		}
+		create_country_leader = {
+			name = "Otto I"
+			desc = ""
+			picture = "P_A_Otto_I.tga"
+			expire = "1965.1.1"
+			ideology = monarchism
+			traits = {
+				POSITION_King
+				SUBIDEOLOGY_Clerical_Fascism
+				HoS_Autocratic_Charmer
+			}
+		}
+		hidden_effect = {
+			create_country_leader = {
+				name = "Engelbert Dollfuss"
+				desc = ""
+				picture = "P_F_Engelbert_Dollfuss.tga"
+				expire = "1965.1.1"
+				ideology = fascism
+				traits = {
+					POSITION_Chancellor
+					SUBIDEOLOGY_Paternal_Autocracy
+					HoG_Flamboyant_Tough_Guy
+				}
+			}
+		}
+	}
+}
+
+
+
+#########################################################################
+# Kurt Schuschnigg resigns, Seyss-Inquart named new chancellor 
+#########################################################################
+news_event = {
+	id = DH_Austria_Politics.1
+	title = DH_Austria_Politics.1.t
+	desc = DH_Austria_Politics.1.d
+	picture = GFX_news_AUS_Seyss_Inquart_Cabinet
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = AUS
+		date > 1938.3.10 #10 March 1938
+		has_start_date < 1938.3.10
+	}
+	immediate = {
+		GER = { country_event = { id = DH_GER_Anschluss.1 } }
+		hidden_effect = { set_country_flag = Austrian_Political_Crisis }
+	}
+	
+	# Red White Red, until we're dead
+	option = {
+		name = DH_Austria_Politics.1.A
+		add_stability = -0.10
+		set_politics = { ruling_party = fascist elections_allowed = no }
+		add_ideas = {
+			AUS_HoG_Edmund_GlaiseHorstenau
+			AUS_FM_Wilhelm_Wolff
+			AUS_MoS_Arthur_SeyssInquart
+			AUS_AM_Rudolf_Neumayr
+			AUS_HoI_Wilhelm_Wolff
+			AUS_CoStaff_Emil_Hickmann
+			AUS_CoArmy_Eugen_Beyer
+			AUS_CoNavy_Emil_Hickmann
+			AUS_CoAir_Alexander_Lohr		
+		} 
+	}
+}

@@ -1,0 +1,117 @@
+﻿l_english:
+#Special Idea thing for advisors
+  country_missing_advisors:0 "Missing Advisors"
+###############################################
+## Laws and Policies
+##############################################
+## Foreign Policy
+ idea_group_foreign_policy:0 "Foreign Policy"
+ foreign_policy:0 "Foreign Policy"
+ isolationism:0 "Isolationism"
+ neutrality:0 "Neutrality"
+ cooperation:0 "Cooperation"
+ interventionism:0 "Interventionism"
+ warmonger:0 "Warmonger"
+
+## Recruitment Laws
+ idea_group_recruitment_laws:0 "Recruitment Laws"
+ recruitment_laws:0 "Recruitment Laws"
+ one_year_service:0 "One Year Mandatory Service"
+ two_year_service:0 "Two Year Mandatory Service"
+ three_year_service:0 "Three Year Mandatory Service"
+
+## Mobilization Laws
+ idea_group_mobilization_laws:0 "Mobilization Laws"
+ mobilization_laws:0 "Mobilization Laws"
+
+## Society Policy
+ idea_group_social_policies:0 "Society Policy"
+ social_policies:0 "Society Policy"
+ full_civil_liberties:0 "Full Civil Liberties"
+ limited_civil_liberties:0 "Limited Civil Liberties"
+ police_state:0 "Legalistic Restrictions"
+ martial_law:0 "Martial Law"
+ totalitarian_system:0 "Totalitarian System"
+
+###############################################
+## Economy Policy
+##############################################
+ economic_policy: "Economic Policy"
+## Economic System
+ idea_group_economic_system:0 "Economic System"
+ economic_system:0 "Economic System"
+ EFFECT_CHANGE_LAW_economic_system:0 "Change Economic System Law to '$NAME|Y$' which grants ($DESC$).
+ agrarian_economy:0 "Agrarian Economy"
+ EFFECT_CHANGE_LAW_agrarian_economy:0 "Change Agrarian Economy Law to '$NAME|Y$' which grants ($DESC$).
+ industrializing_economy:0 "Industrializing Economy"
+ EFFECT_CHANGE_LAW_industrializing_economy:0 "Change Industrializing Economy Law to '$NAME|Y$' which grants ($DESC$).
+ free_market_economy:0 "Free Market Economy"
+ EFFECT_CHANGE_LAW_free_market_economy:0 "Change Free Market Economy Law to '$NAME|Y$' which grants ($DESC$).
+ social_market_economy:0 "Social Market Economy"
+ EFFECT_CHANGE_LAW_social_market_economy:0 "Change Social Market Economy Law to '$NAME|Y$' which grants ($DESC$).
+ corporatism:0 "Corporatism"
+ mixed_economy:0 "Mixed Economy"
+ planned_economy:0 "Planned Economy"
+
+## Taxation Policy
+ EFFECT_CHANGE_LAW_taxation_slider_law:0 "Change Taxation Policy to '$NAME|Y$' which grants ($DESC$).
+ taxation_slider_law: "Taxation Policy"
+ taxation_level_1: "Minimal Taxation"
+ taxation_level_2: "Low Taxation"
+ taxation_level_3: "Medium Taxation"
+ taxation_level_4: "Overtaxation"
+ taxation_level_5: "Death and Taxes"
+
+## Social Spending Policy
+ EFFECT_CHANGE_LAW_social_spending_slider_law:0 "Change Social Spending Policy to '$NAME|Y$' which grants ($DESC$).
+ social_spending_slider_law: "Social Spending Policy"
+ social_spending_level_1: "No Social Spending"
+ social_spending_level_2: "Minimal Social Spending"
+ social_spending_level_3: "Low Social Spending"
+ social_spending_level_4: "Generous Social Spending"
+ social_spending_level_5: "Large Social Spending"
+
+## Military Spending Policy
+ EFFECT_CHANGE_LAW_army_spending_slider_law:0 "Change Military Spending Policy to '$NAME|Y$' which grants ($DESC$).
+ army_spending_slider_law: "Military Spending Policy"
+ army_spending_level_1: "Militia Based Army"
+ army_spending_level_2: "Disarmed Nation"
+ army_spending_level_3: "Standing Army"
+ army_spending_level_4: "Increased Army Spending"
+ army_spending_level_5: "Large Army Spending"
+
+## Research and Education Spending Policy
+ EFFECT_CHANGE_LAW_research_spending_slider_law:0 "Change Research and Education Spending Policy to '$NAME|Y$' which grants ($DESC$).
+ research_spending_slider_law: "Research and Education Spending Policy"
+ research_spending_level_1: "Limited Funding"
+ research_spending_level_2: "Subsidies"
+ research_spending_level_3: "Medium Funding"
+ research_spending_level_4: "Extensive Funding"
+ research_spending_level_5: "Massive Spending"
+
+###############################################
+## Cabinet
+##############################################
+## Political Agenda
+ political_agenda:0 "Political Agenda"
+
+ drift_Fascism:0 "Drift to Fascism"
+ drift_Authoritarianism:0 "Drift to Authoritarianism"
+ drift_Democracy:0 "Drift to Democracy"
+ drift_Socialism:0 "Drift to Socialism"
+ drift_Communism:0 "Drift to Communism"
+
+###############################################
+## Research Teams
+##############################################
+## Research Teams
+ research_teams:0 "Research Teams"
+ Research_Team:0 "Research Team"
+
+###############################################
+## Tooltips
+##############################################
+ idea_header_political:0 "£pol_idea_texticon \n"
+ idea_header_military:0 "£army_experience_20x20 \n"
+ idea_header_economy:0 "£industry \n"
+ CANNOT_CHANGE_SLIDER_LAW_MUST_USE_SLIDER: "You cannot change these laws here, use the sliders in the §YEconomy§! view."

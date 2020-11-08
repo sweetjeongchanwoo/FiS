@@ -1,0 +1,20 @@
+state={
+	id=887
+	name="STATE_887"
+	
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+			
+		}
+		add_core_of = TUR
+	}
+	
+	provinces={
+		2133 7454 8134 10403 10472 
+	}
+	manpower=288878
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

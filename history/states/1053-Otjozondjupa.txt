@@ -1,0 +1,26 @@
+state={
+	id=1053
+	name="STATE_1053"
+	
+	history={
+		owner = SAF
+		victory_points = {
+		    10957 1
+		}
+		victory_points = {
+		    13460 1
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = NAM
+    }
+	
+	provinces={
+		7770 10957 12519 13449 13457 13458 13460 13462 13463 13466 
+	}
+	manpower=142400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

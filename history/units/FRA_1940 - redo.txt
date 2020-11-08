@@ -1,0 +1,1368 @@
+##### Division Templates #####
+division_template = {
+	name = "Division d'Infanterie"	
+	division_names_group = FRA_INF_01	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 } 
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+        artillery_battalion = { x = 3 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 } 	
+	}
+}
+division_template = {
+	name = "Division d'Infanterie Motorisée"
+	division_names_group = FRA_MOT_01
+	regiments = { 
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+   		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+  	    motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 1 y = 3 }
+        artillery_battalion = { x = 3 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      
+		artillery = { x = 0 y = 1 }  
+		anti_tank = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Division d'Infanterie Alpine"	
+	division_names_group = FRA_MTN_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }	
+		mountaineers = { x = 2 y = 1 }	
+		mountaineers = { x = 2 y = 2 }	
+		mountaineers = { x = 3 y = 0 }	
+		mountaineers = { x = 3 y = 1 }	
+		mountaineers = { x = 3 y = 2 }	
+	}
+	support = {
+	artillery = { x = 0 y = 0 }
+	recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Division Légère de Cavalerie" 	
+	division_names_group = FRA_DLC_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+        cavalry = { x = 1 y = 0 }
+        cavalry = { x = 1 y = 1 }
+        cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }     
+	}
+}
+division_template = {
+	name = "Division Légère Mécanique" 		
+	division_names_group = FRA_MEC_01
+	regiments = {
+	    light_armor = { x = 0 y = 0 }		
+		light_armor = { x = 0 y = 1 }		
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Division de chars"			# Tank Division
+	division_names_group = FRA_MEC_01
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		medium_armor = { x = 1 y = 2 }
+    }
+}
+division_template = {
+	name = "Division Cuirassée" 			# Division Cuirassée, very elite
+	division_names_group = FRA_ARM_02
+	regiments = {
+		heavy_armor = { x = 0 y = 0 } # B1 Biss heavy tanks
+		heavy_armor = { x = 0 y = 1 }
+		light_armor = { x = 1 y = 0 } # Light tank H39
+		light_armor = { x = 1 y = 1 }    
+		artillery_battalion = { x = 2 y = 0 } #artillery
+		mechanized = { x = 3 y = 0 }
+	}
+	support = {
+		anti_tank = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+		anti_air = { x = 0 y = 3 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Brigade de Chars de Combat"
+	division_names_group = FRA_MEC_01
+	regiments = {
+		heavy_armor = { x = 0 y = 0 }
+		heavy_armor = { x = 0 y = 1 }
+		heavy_armor = { x = 1 y = 0 }
+		heavy_armor = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Division Coloniale"
+	division_names_group = FRA_COL_01
+
+	regiments = {
+        garrison = { x = 0 y = 0 }
+		garrison = { x = 0 y = 1 }
+		garrison = { x = 0 y = 2 }
+		garrison = { x = 1 y = 0 }
+		garrison = { x = 1 y = 1 }
+		garrison = { x = 1 y = 2 }
+		garrison = { x = 2 y = 0 }
+		garrison = { x = 2 y = 1 }
+		garrison = { x = 2 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Division Forteresse"		
+	division_names_group = FRA_GAR_01
+	# Represents: Division d'Infanterie Forteresse
+	# Difference from DI is their equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 2x 155mm battalions
+	}
+	priority = 0
+}
+division_template = {
+	name = "Brigade Coloniale"			# Represents: 2xRgt colonial forces and , usually with old equipment
+	division_names_group = FRA_COL_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Brigade de milice"			# Militia Brigade
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+    }
+    is_locked = yes
+	priority = 0
+}
+
+##### OOB #####
+units = {
+
+		# GQG # CO: Gamelin
+
+	division= {	# "2 Dywizja Strzelców Pieszych" # Polish Division in exile: Translates to Pedestrian Shooters Division
+		name = "2. Dywizja Strzelców Pieszych"
+		location = X # Paris
+		division_template = "Division d'Infanterie" 
+		start_experience_factor = 0.2
+	}
+
+		# Reserve de GQG # Paris 
+
+	division= {	
+		division_name = { # 3e Div. d'Inf. Motorisée
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = X # Paris
+		division_template = "Division d'Infanterie Motorisée" 
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.85
+	}
+	division= {	# 10e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = X # Paris
+		division_template = "Division d'Infanterie" # High quality Division
+		start_experience_factor = 0.22
+	}
+	division= {	# 14e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = X # Paris
+		division_template = "Division d'Infanterie" # High quality Division
+		start_experience_factor = 0.22
+	}
+	division= {	# 23e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = X # Paris
+		division_template = "Division d'Infanterie" # High quality Division
+		start_experience_factor = 0.22
+	}
+
+		# Reserve de GQG # Orleans
+
+	division= {	# 28e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = X # Orleans
+		division_template = "Division d'Infanterie" # Medium quality Division
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.7
+	}
+	division= {	# 29e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = X # Orleans
+		division_template = "Division d'Infanterie" # Medium quality Division
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.8
+	}
+	division= {	# 36e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 36
+		}
+		location = X # Orleans
+		division_template = "Division d'Infanterie" # High quality Division
+		start_experience_factor = 0.24
+	}
+	division= {	# 43e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 43
+		}
+		location = X # Orleans
+		division_template = "Division d'Infanterie" # High quality Division
+		start_experience_factor = 0.23
+	}
+
+			# Reserve de GQG # Orleans
+	
+	division= {	# 1ère Div. d'Inf. Nord-Africaine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 41
+		}
+		location = X # Orleans
+		division_template = "Division Coloniale" 
+		start_experience_factor = 0.21 # Colonial Troops
+	}
+	division= {	# 7e Div. d'Inf. Nord-Africaine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 47
+		}
+		location = X # Orleans
+		division_template = "Division Coloniale" 
+		start_experience_factor = 0.19 # Colonial Troops
+		start_equipment_factor = 0.8
+	}
+	division= {	# 5eme Div. d'Infanterie Coloniale
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = X # Orleans
+		division_template = "Division Coloniale" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Colonial Troops
+		start_equipment_factor = 0.6
+	}
+	division= {	# 7eme Div. d'Infanterie Coloniale
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = X # Orleans
+		division_template = "Division Coloniale" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Colonial Troops
+		start_equipment_factor = 0.6
+	}
+			# 1ère Groupement Cuirassé #
+
+	division= {	
+		division_name = { # 2e Div. Cuirassée de Réserve
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3546 # Reims
+		division_template = "Division Cuirassée" 	# These are some of the best French divisions, commissioned by De Gaulle
+		start_experience_factor = 0.35
+	}
+	division= {	
+		division_name = { # "3e Div. Cuirassée de Réserve"
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3546 # Reims
+		division_template = "Division Cuirassée" 	# These are some of the best French divisions
+		start_experience_factor = 0.35
+	}
+
+			# QG Théâtre d'Opérations Nord-Est # Troyes
+
+	division= {	# 68e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 68
+		}
+		location = X # Troyes
+		division_template = "Division d'Infanterie" # High quality Division
+		start_experience_factor = 0.22
+	}
+				#### QG 1ère Groupe d'Armées #### First Army Group
+			
+			# QG VIIIe Armée # 8th Army # Dunkirk # CO: Giraud
+
+	division= {	# 4e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = X # Dunkirk
+		division_template = "Division d'Infanterie" # High quality Division
+		start_experience_factor = 0.24 # Well trained
+		start_equipment_factor = 0.8
+	}
+	division= {	# 21e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = X # Dunkirk
+		division_template = "Division d'Infanterie" # High quality Division
+		start_experience_factor = 0.25 # Well trained
+	}
+	division= {	# 60e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 60
+		}
+		location = X # Dunkirk
+		division_template = "Division d'Infanterie" # Medium quality Division
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.19 # Basic Trained
+		start_equipment_factor = 0.7
+	}
+	division= {	# 1ère Division Légère Mécanisée
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = X # Dunkirk
+		division_template = "Division Légère Mécanique" # High quality Division
+		force_equipment_variants = { Light_Tank_1939 = { owner = FRA } } # H-39. These are supposed to be H-35, but DH does not have it. REEEEEEEEE
+		start_experience_factor = 0.25 # Well trained
+		start_equipment_factor = 0.85
+	}
+			# Ière Corps d'Armée Motorisé # Dunkirk
+	
+	division= {	
+		division_name = { # 25e Div. d'Inf. Motorisée
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = X # Dunkirk
+		division_template = "Division d'Infanterie Motorisée" 
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.75
+	}
+		# XVIe Corps d'Armée # Dunkirk # CO: Fagalde
+
+	division= {	
+		division_name = { # 9e Div. d'Inf. Motorisée
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = X # Dunkirk
+		division_template = "Division d'Infanterie Motorisée" 
+		start_experience_factor = 0.23 # Well Trained division
+		start_equipment_factor = 0.75
+	}
+	
+		# Secteur Fortifié des Flandres # Border of Flanders
+
+	division= {	
+		name= "Secteur Fortifié des Flandres"
+		location = X # Dunkirk
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.15 # Garrison Division
+		start_equipment_factor = 0.5
+	}
+
+		# QG Ière Armée # Lille # CO: Blanchard
+
+	division= {	
+		division_name = { # 1ere Div. Cuirassée de Réserve
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = X # Lille
+		division_template = "Division Cuirassée" 	# These are some of the best French divisions, commissioned by De Gaulle
+		start_experience_factor = 0.33
+		start_equipment_factor = 0.55 # Still mobilizing. Somua S-35 and Char 2C
+	}
+	division= {	# 32e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}
+		location = X # Lille
+		division_template = "Division d'Infanterie" # Medium quality Division
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.20 # Regular Training
+		start_equipment_factor = 0.8
+	}
+	division= {	#
+		name = "Secteur Fortifié de l'Escaut"
+		location = X # Lille
+		division_template = "Division Forteresse" # Low quality garrison Division
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.17 # Poorly Trained
+		start_equipment_factor = 0.5
+	}
+		# Corps de Cavalerie # CO: Fagalde
+	
+	division= {	
+		division_name = { # 2e Division Légère Mécanisée
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = X # Lille
+		division_template = "Division Légère Mécanique" 
+		force_equipment_variants = { Light_Tank_1939 = { owner = FRA } } # Hotchkiss H-39. I had to use this, although it's supposed to be H-35
+		start_experience_factor = 0.25 # High Training
+		start_equipment_factor = 0.85
+	}
+	division= {	
+		division_name = { # 3e Division Légère Mécanisée
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = X # Lille
+		division_template = "Division Légère Mécanique" 
+		force_equipment_variants = { Light_Tank_1939 = { owner = FRA } } # Hotchkiss H-39. I had to use this, although it's supposed to be H-35
+		start_experience_factor = 0.25 # High Training
+		start_equipment_factor = 0.85
+	}
+
+		# IIIe Corps d'Armee # 
+	
+	division= {	
+		division_name = { # 1ere Div. d'Inf. Motorisée
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = X # Lille
+		division_template = "Division d'Infanterie Motorisée" 
+		start_experience_factor = 0.24 # Well Trained division
+		start_equipment_factor = 0.75
+	}
+	division= {	# 2eme Div. d'Inf. Nord-Africaine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = X # Lille
+		division_template = "Division Coloniale" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Colonial Troops
+		start_equipment_factor = 0.8
+	}
+
+		# IVe Corps d'Armee #
+
+	division= {	
+		division_name = { # 15e Div. d'Inf. Motorisée
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = X # Lille
+		division_template = "Division d'Infanterie Motorisée" 
+		start_experience_factor = 0.22 # Well Trained division
+		start_equipment_factor = 0.75
+	}
+	division= {	
+		division_name = { # 1ère Division Marocaine
+			is_name_ordered = yes
+			name_order = 61
+		}
+		location = X # Lille
+		division_template = "Division d'Infanterie" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Basic Trained division
+		start_equipment_factor = 0.6 # Still Mobilizing
+	}
+
+		# Ve Corps d'Armée # Lille
+
+	division= {	
+		division_name = { # 12e Div. d'Inf. Motorisée
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = X # Lille
+		division_template = "Division d'Infanterie Motorisée" 
+		start_experience_factor = 0.22 # Well Trained division
+		start_equipment_factor = 0.75
+	}
+	division= {	# 5e Div. d'Inf. Nord-Africaine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 45
+		}
+		location = X # Lille
+		division_template = "Division Coloniale" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Colonial Troops
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		division_name = { # 101e Div. d'Inf. de Forteresse
+			is_name_ordered = yes
+			name_order = 101
+		}
+		location = X # Lille
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Garrison Division.
+		# Better equipped than other garrison divisions
+	}
+		# QG IXe Armée # Hirson/ aka Aisne in-game # CO: Corap
+		# Note: Location is directly south of Charleroi.
+
+	division= {	
+		division_name = { # 1ère Div. Légère de Cavalerie
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = X # Hirson
+		division_template = "Division Légère de Cavalerie" 
+		start_experience_factor = 0.23 # Well Trained division
+	}
+	division= {	
+		division_name = { # 4e Div. Légère de Cavalerie
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = X # Hirson
+		division_template = "Division Légère de Cavalerie" 
+		start_experience_factor = 0.22 # Well Trained division
+	}
+	division= {	# 4e Div. d'Inf. Nord-Africaine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 44
+		}
+		location = X # Hirson
+		division_template = "Division Coloniale" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Colonial Troops
+		start_equipment_factor = 0.8
+	}
+	division= {	# 53e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 53
+		}
+		location = X # Hirson
+		division_template = "Division d'Infanterie" # Medium quality Division
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.20 # Regular Training
+		start_equipment_factor = 0.6 # Still Mobilizing
+	}
+
+		# IIe Corps d'Armée # Hirson
+	
+	division= {	
+		division_name = { # 5e Div. d'Inf. Motorisée
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = X # Hirson
+		division_template = "Division d'Infanterie Motorisée" 
+		start_experience_factor = 0.24 # Well Trained division
+		start_equipment_factor = 0.75
+	}
+
+		# XIe Corps d'Armée # Sedan # CO: Martin
+	
+	division= {	# 18e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = X # Sedan
+		division_template = "Division d'Infanterie" # Medium quality Division
+		start_experience_factor = 0.20 # Regular Training
+		start_equipment_factor = 0.8
+	}
+	division= {	# 22e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = X # Sedan
+		division_template = "Division d'Infanterie" # Medium quality Division
+		start_experience_factor = 0.20 # Regular Training
+		start_equipment_factor = 0.8
+	}
+
+		# XLIe Corps d'Armée de Forteresse # Sedan
+
+	division= {	# 61e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 61
+		}
+		location = X # Sedan
+		division_template = "Division d'Infanterie" # Medium quality Division
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Quick Training
+		start_equipment_factor = 0.6 # Still Mobilizing
+	}
+	division= {	
+		division_name = { # 102e Div. d'Inf. de Forteresse
+			is_name_ordered = yes
+			name_order = 102
+		}
+		location = X # Sedan
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Garrison Division.
+		# Better equipped than other garrison divisions
+	}
+
+		# QG IIe Armée # Longwy - Left of Metz, below Luxemburg # CO: Huntzinger
+
+	division= {	
+		division_name = { # 2e Div. Légère de Cavalerie
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = X # Longwy
+		division_template = "Division Légère de Cavalerie" 
+		start_experience_factor = 0.22 # Well Trained division
+	}
+	division= {	
+		division_name = { # 5e Div. Légère de Cavalerie
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = X # Longwy
+		division_template = "Division Légère de Cavalerie" 
+		start_experience_factor = 0.22 # Well Trained division
+	}
+	division= {	# 71e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 71
+		}
+		location = X # Longwy
+		division_template = "Division d'Infanterie" # Medium quality Division
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Quick Training
+		start_equipment_factor = 0.6 # Still Mobilizing
+	}
+
+		# Secteur Fortifié de Montmédy # Longwy
+
+	division= {	
+		name= "Secteur Fortifié de Montmédy"
+		location = X # Longwy
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.15 # Garrison Division
+		start_equipment_factor = 0.5
+	}
+
+		# Xe Corps d'Armée # Longwy # CO: Grandsard
+
+	division= {	# 3e Div. d'Inf. Nord-Africaine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 43
+		}
+		location = X # Longwy
+		division_template = "Division Coloniale" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Colonial Troops
+		start_equipment_factor = 0.8
+	}
+	division= {	# 55e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 55
+		}
+		location = X # Longwy
+		division_template = "Division d'Infanterie" # Medium quality Division
+		start_experience_factor = 0.18 # Quick Training
+		start_equipment_factor = 0.8 
+	}
+
+		# XVIIIe Corps d'Armée # 
+
+	division= {	# 1e Div. d'Inf. Coloniale
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = X # Longwy
+		division_template = "Division Coloniale" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.19 # Colonial Troops
+		start_equipment_factor = 0.6 # Low priority
+	}
+	division= {	# 3e Div. d'Inf. Coloniale
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = X # Longwy
+		division_template = "Division Coloniale" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Colonial Troops
+		start_equipment_factor = 0.6
+	}
+	division= {	# 41e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 41
+		}
+		location = X # Longwy
+		division_template = "Division d'Infanterie" # Medium quality Division
+		start_experience_factor = 0.19 # Quick Training
+		start_equipment_factor = 0.8 
+	}
+			# QG 2e Groupe d'Armées # Verdun # CO: Pretelat
+	
+	division= {	# 4e Div. d'Inf. Coloniale
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = X # Verdun
+		division_template = "Division Coloniale" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Colonial Troops
+		start_equipment_factor = 0.6 # Low equipment priority
+	}
+	division= {	# 87e Div. d'Inf. d'Afrique
+		division_name = {
+			is_name_ordered = yes
+			name_order = 87
+		}
+		location = X # Longwy
+		division_template = "Division d'Infanterie" # Medium quality Division
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Quick Training
+		start_equipment_factor = 0.6
+	}
+
+		# QG IIIe Armée # Metz # CO: Conde
+
+	division= {	
+		division_name = { # 3e Div. Légère de Cavalerie
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = X # Metz
+		division_template = "Division Légère de Cavalerie" 
+		start_experience_factor = 0.22 # Well Trained division
+	}
+	division= {	# 6e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = X # Metz
+		division_template = "Division d'Infanterie" 
+		start_experience_factor = 0.22 # Quality Training
+		start_equipment_factor = 0.8 
+	}
+	division= {	# 7e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = X # Metz
+		division_template = "Division d'Infanterie" 
+		start_experience_factor = 0.22 # Quality Training
+		start_equipment_factor = 0.8 
+	}
+	division= {	# 8e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = X # Metz
+		division_template = "Division d'Infanterie" # Very high quality division
+		start_experience_factor = 0.24 # Quality Training
+	}
+	division= {	# 6e Div. d'Inf. Coloniale
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = X # Metz
+		division_template = "Division Coloniale" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Colonial Troops
+		start_equipment_factor = 0.6 # Low equipment priority
+	}
+	division= {	# 6e Div. d'Inf. Nord-Africaine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}
+		location = X # Longwy
+		division_template = "Division Coloniale" 
+		start_experience_factor = 0.18 # Colonial Troops
+		start_equipment_factor = 0.8
+	}
+
+		# Corps d'Armée Colonial # Metz
+	
+	division= {	# 2e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = X # Metz
+		division_template = "Division d'Infanterie" 
+		start_experience_factor = 0.2 # Quality Training
+		start_equipment_factor = 0.8
+	}
+	division= {	# 56e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 56
+		}
+		location = X # Metz
+		division_template = "Division d'Infanterie" # Very high quality division
+		start_experience_factor = 0.22 # Quality Training
+	}
+
+		# Secteur Fortifié de Thionville # Metz
+
+	division= {	
+		name= "Secteur Fortifié de Thionville"
+		location = X # Metz
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.16 # Garrison Division
+		start_equipment_factor = 0.5
+	}
+
+		# VIe Corps d'Armée # Metz
+	
+	division= {	# 26e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = X # Metz
+		division_template = "Division d'Infanterie" 
+		start_experience_factor = 0.2 # Average Training
+		start_equipment_factor = 0.8
+	}
+	division= {	# 48e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 48
+		}
+		location = X # Metz
+		division_template = "Division d'Infanterie" # Very high quality division
+		start_experience_factor = 0.22 # Quality Training
+	}
+
+		# Secteur Fortifié de Boulay # Metz 
+
+	division= {	
+		name= "Secteur Fortifié de Boulay"
+		location = X # Metz
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.16 # Garrison Division
+		start_equipment_factor = 0.5
+	}
+
+		# XXIVe Corps d'Armée # Metz
+
+	division= {	# 51e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 51
+		}
+		location = X # Metz
+		division_template = "Division d'Infanterie" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.21 # Quality Training
+		start_equipment_factor = 0.6
+	}
+
+		# XLIIe Corps d'Armée de Forteresse # Metz
+
+	division= {	# 28e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = X # Metz
+		division_template = "Division d'Infanterie" 
+		start_experience_factor = 0.18 # Regular Training
+		start_equipment_factor = 0.8
+	}
+	division= {	# 58e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 58
+		}
+		location = X # Metz
+		division_template = "Division d'Infanterie" # bad division
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.6
+	}
+
+		#  QG IVe Armée # Strasbourg # CO: Conde
+
+	division= { # Polish Division in exile
+		name = "1 Dywizja Grenadierów"
+		location = X # Strasbourg
+		division_template = "Division d'Infanterie" 
+		start_experience_factor = 0.21 # well-trained
+	}
+	division= {	# 45e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 45
+		}
+		location = X # Strasbourg
+		division_template = "Division d'Infanterie" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division= {	# 11e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = X # Strasbourg
+		division_template = "Division d'Infanterie" # Excellent division
+		start_experience_factor = 0.24 # A lot of training
+	}
+	division= {	# 47e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 47
+		}
+		location = X # Strasbourg
+		division_template = "Division d'Infanterie" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	} 
+
+		# Secteur Fortifié de Faulquemont # Strasbourg
+
+	division= {	
+		name= "Secteur Fortifié de Faulquemont"
+		location = X # Strasbourg
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Garrison Division
+		start_equipment_factor = 0.5
+	}
+
+		# XXe Corps d'Armée # Strasbourg # CO: Hubert
+	
+	division= {	# 52e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 52
+		}
+		location = X # Strasbourg
+		division_template = "Division d'Infanterie"
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } } 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division= {	# 82e Div. d'Infanterie d'Afrique
+		division_name = {
+			is_name_ordered = yes
+			name_order = 82
+		}
+		location = X # Strasbourg
+		division_template = "Division d'Infanterie" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Basic Training
+		start_equipment_factor = 0.6
+	}
+
+		# Secteur Fortifié de Sarre #
+
+	division= {	
+		name= "Secteur Fortifié de Sarre"
+		location = X # Strasbourg
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Garrison Division
+		start_equipment_factor = 0.5
+	}
+
+		 # QG Ve Armée #
+
+	division= {	# 44e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 44
+		}
+		location = X # Strasbourg
+		division_template = "Division d'Infanterie" # Excellent division
+		start_experience_factor = 0.23 # A lot of training
+	}
+
+		# VIIIe Corps d'Armée # Strasbourg
+
+	division= {	# 24e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = X # Strasbourg
+		division_template = "Division d'Infanterie" 
+		start_experience_factor = 0.2 # Regular Training
+		start_equipment_factor = 0.8
+	}
+	division= {	# 31e Div. d'Inf. Alpine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}
+		location = X # Strasbourg
+		division_template = "Division d'Infanterie Alpine" 
+		start_experience_factor = 0.24 # Advanced Training
+		start_equipment_factor = 0.9
+	}
+
+		# Secteur Fortifié de Rohrbach #
+
+	division= {	
+		name= "Secteur Fortifié de Rohrbach"
+		location = X # Strasbourg
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Garrison Division
+		start_equipment_factor = 0.5
+	}
+
+		# XIIe Corps d'Armée # Strasbourg # CO: Dentz
+
+	division= {	# 16e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = X # Strasbourg
+		division_template = "Division d'Infanterie" 
+		start_experience_factor = 0.2 # Regular Training
+		start_equipment_factor = 0.8
+	}
+	division= {	# 35e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = X # Strasbourg
+		division_template = "Division d'Infanterie" 
+		start_experience_factor = 0.2 # Regular Training
+		start_equipment_factor = 0.8
+	}
+	division= {	# 70e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 70
+		}
+		location = X # Strasbourg
+		division_template = "Division d'Infanterie" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Basic Training
+		start_equipment_factor = 0.6
+	}
+
+		# Secteur Fortifié de Haguenau #
+
+	division= {	
+		name= "Secteur Fortifié de Haguenau"
+		location = X # Strasbourg
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Garrison Division
+		start_equipment_factor = 0.5
+	}
+
+		# XVIIe Corps d'Armée # 
+
+	division= {	# 62e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes	
+			name_order = 62
+		}
+		location = X # Strasbourg
+		division_template = "Division d'Infanterie" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.2 # Basic Training
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		division_name = { # 103e Div. d'Inf. de Forteresse
+			is_name_ordered = yes
+			name_order = 103
+		}
+		location = X # Strasbourg
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.19 # Garrison Division.
+		# Better equipped than other garrison divisions
+	}
+		# XLIIIe Corps d'Armée de Forteresse # Strasbourg
+
+	division= {	# 30e Div. d'Inf. Alpine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		}
+		location = X # Strasbourg
+		division_template = "Division d'Infanterie Alpine" 
+		start_experience_factor = 0.24 # Advanced Training
+		start_equipment_factor = 0.6
+	}
+
+			# QG 3e Groupe d'Armées # Belfort - Southern Maginot, Border of Germany and Switzerland
+		
+		# XLVe Corps d'Armée de Forteresse # Belfort
+
+	division= {	# 57e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes	
+			name_order = 57
+		}
+		location = X # Belfort
+		division_template = "Division d'Infanterie" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.2 # Basic Training
+		start_equipment_factor = 0.6
+	}
+	division= {	# 63e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes	
+			name_order = 63
+		}
+		location = X # Belfort
+		division_template = "Division d'Infanterie" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.2 # Basic Training
+		start_equipment_factor = 0.6
+	}
+
+		# Secteur Fortifié de Jura Central #
+	
+	division= {	
+		name= "Secteur Fortifié de Jura Central"
+		location = X # Strasbourg
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Garrison Division
+		start_equipment_factor = 0.5
+	}
+
+		# QG VIIIe Armée # Colmar #
+
+	division= {	# 13e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes	
+			name_order = 13
+		}
+		location = X # Colmar
+		division_template = "Division d'Infanterie" 
+		start_experience_factor = 0.24 # Good Training
+	}
+	division= {	# 27e Div. d'Inf. Alpine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = X # Colmar
+		division_template = "Division d'Infanterie Alpine" 
+		start_experience_factor = 0.24 # Advanced Training
+		start_equipment_factor = 0.9
+	}
+
+		# XIIIe Corps d'Armée # Colmar #
+
+	division= {	# 19e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes	
+			name_order = 19
+		}
+		location = X # Colmar
+		division_template = "Division d'Infanterie" 
+		start_experience_factor = 0.23 # Good Training
+	}
+	division= {	# 54e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes	
+			name_order = 54
+		}
+		location = X # Colmar
+		division_template = "Division d'Infanterie" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.2 # Average Training
+		start_equipment_factor = 0.65
+	}
+	division= {	
+		division_name = { # 104e Div. d'Inf. de Forteresse
+			is_name_ordered = yes
+			name_order = 104
+		}
+		location = X # Colmar
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.19 # Garrison Division.
+		# Better equipped than other garrison divisions
+	}
+	division= {	
+		division_name = { # 105e Div. d'Inf. de Forteresse
+			is_name_ordered = yes
+			name_order = 105
+		}
+		location = X # Colmar
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.19 # Garrison Division.
+		# Better equipped than other garrison divisions
+	}
+
+		# XLIVe Corps d'Armée de Forteresse #
+	
+	division= {	# 67e Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes	
+			name_order = 67
+		}
+		location = X # Colmar
+		division_template = "Division d'Infanterie" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.2 # Average Training
+		start_equipment_factor = 0.65
+	}
+
+		# Secteur Fortifié d'Altkirch #
+	
+	division= {	
+		name= "Secteur Fortifié  d'Altkirch"
+		location = X # Colmar
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Garrison Division
+		start_equipment_factor = 0.5
+	}
+
+		# Secteur Fortifié de Montbéliard #
+
+	division= {	
+		name= "Secteur Fortifié de Montbeliard"
+		location = X # Colmar
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Garrison Division
+		start_equipment_factor = 0.5
+	}
+
+		# Défense de Belfort #
+	
+	division= {	
+		name= "Défense de Belfort"
+		location = X # Colmar
+		division_template = "Division Forteresse" 
+		force_equipment_variants = { Small_Arms_1935 = { owner = FRA } }
+		start_experience_factor = 0.18 # Garrison Division
+		start_equipment_factor = 0.5
+	}	
+
+			# QG Théâtre d'Opérations Sud-Est #
+
+		# QG Armée des Alpes # 
+
+		
+	
+
+
+	
+
+	
+
+}
+

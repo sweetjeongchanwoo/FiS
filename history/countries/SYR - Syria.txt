@@ -1,0 +1,122 @@
+﻿#########################################################################
+# Syria - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 554
+	set_convoys = 5
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 1
+		democratic = 74
+		socialist = 25
+		communist = 0
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Antun Saadeh"
+		desc = ""
+		picture = "P_F_Antun_Saadeh.tga"
+		ideology = national_socialism
+		traits = { POSITION_Leader SUBIDEOLOGY_National_Socialism HoG_Naive_Optimist }
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Shaykh Taj ad-din al-Hasani"
+		desc = ""
+		picture = "P_D_Shaykh_Taj_addin_alHasani.tga"
+		ideology = social_conservatism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism HoS_Insignificant_Layman }
+	}
+	# Socialism
+	create_country_leader = {
+		name = "Michel Aflaq"
+		desc = ""
+		picture = "P_S_Michel_Aflaq.tga"
+		ideology = arab_socialism
+		traits = { POSITION_President SUBIDEOLOGY_Arab_Socialism HoG_Silent_Workhorse }
+	}
+	# Communism
+	create_country_leader = {
+		name = "Khalid Bakdash"
+		desc = ""
+		picture = "P_C_Khalid_Bakdash.tga"
+		ideology = marxism_leninism
+		traits = { POSITION_General_Secretary SUBIDEOLOGY_Marxism_Leninism HoG_Ambitious_Union_Boss }
+	}
+}
+#########################################################################
+# Syria - 1953
+#########################################################################
+1953.1.1 = {
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Adib al-Shishakli"
+		desc = ""
+		picture = "P_D_Adib_alShishakli.tga"
+		ideology = social_liberalism
+		traits = { POSITION_President SUBIDEOLOGY_Social_Liberalism HoS_PowerHungry_Demagogue }
+	}
+}
+#########################################################################
+# Syria - 1956
+#########################################################################
+1956.1.1 = {
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Shukri al-Kuwaitli"
+		desc = ""
+		picture = "P_D_Shukri_alKuwaitli.tga"
+		ideology = social_liberalism
+		traits = { POSITION_President SUBIDEOLOGY_Social_Liberalism HoS_Benevolent_Gentleman }
+	}
+}
+#########################################################################
+# Syria - 1972
+#########################################################################
+1972.1.1 = {
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = socialist
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}	
+	set_cosmetic_tag = SYR_ARAB_REP
+	#######################
+	# Leaders
+	#######################
+	# Socialism
+	create_country_leader = {
+		name = "Hafez al-Assad"
+		desc = ""
+		picture = "P_S_Hafez_alAssad.tga"
+		ideology = arab_socialism
+		traits = { POSITION_President SUBIDEOLOGY_Arab_Socialism HoS_Stern_Imperialist }
+	}
+}

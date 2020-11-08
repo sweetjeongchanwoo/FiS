@@ -1,0 +1,723 @@
+﻿#########################################################################
+# Darkest Hour Events : SOV Congress
+#########################################################################
+
+add_namespace = DH_SOV_Politburo_Weakened
+add_namespace = DH_SOV_XVII_Congress
+
+#########################################################################
+# Rise of the Stalin Opposition
+#########################################################################
+country_event = {
+	id = DH_SOV_Politburo_Weakened.1
+	title = DH_SOV_Politburo_Weakened.1.t
+	desc = DH_SOV_Politburo_Weakened.1.d
+	picture = GFX_report_SOV_17th_Congress
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	# Maintain the status quo
+	option = {
+		name = DH_SOV_Politburo_Weakened.1.A
+		set_country_flag = strong_politburo
+		custom_effect_tooltip = DH_SOV_Politburo_Weakened.1.A.tt
+	}
+	# Denounce Stalinist Atrocities
+	option = {
+		name = DH_SOV_Politburo_Weakened.1.B
+		random_list = {
+			30 = {
+				country_event = {
+					id = DH_SOV_Politburo_Weakened.2
+					hours = 12
+				}
+			}
+			70 = {
+				country_event = {
+					id = DH_SOV_Politburo_Weakened.3
+					hours = 12
+				}
+			}
+		}
+	}
+}
+#########################################################################
+# The Politiburo Supports the Opposition
+#########################################################################
+country_event = {
+	id = DH_SOV_Politburo_Weakened.2
+	title = DH_SOV_Politburo_Weakened.2.t
+	desc = DH_SOV_Politburo_Weakened.2.d
+	picture = GFX_report_SOV_17th_Congress_vote
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	# Maintain the status quo
+	option = {
+		name = DH_SOV_Politburo_Weakened.2.A
+		set_country_flag = very_strong_politburo
+		custom_effect_tooltip = DH_SOV_Politburo_Weakened.2.A.tt
+		add_political_power = -75
+		add_stability = -0.05
+	}
+}
+#########################################################################
+# Stalin Denounces the Opposition's Plot
+#########################################################################
+country_event = {
+	id = DH_SOV_Politburo_Weakened.3
+	title = DH_SOV_Politburo_Weakened.3.t
+	desc = DH_SOV_Politburo_Weakened.3.d
+	picture = GFX_report_SOV_Stalin_Report
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	# Maintain the status quo
+	option = {
+		name = DH_SOV_Politburo_Weakened.3.A
+		set_country_flag = very_strong_politburo
+		custom_effect_tooltip = DH_SOV_Politburo_Weakened.3.A.tt
+		add_political_power = -100
+		add_stability = -0.075
+	}
+}
+#########################################################################
+# First day of the 17th Congress
+#########################################################################
+news_event = {
+	id = DH_SOV_XVII_Congress.1
+	title = DH_SOV_XVII_Congress.1.t
+	desc = DH_SOV_XVII_Congress.1.d
+	picture = GFX_news_SOV_17th_Congress
+
+	fire_only_once = yes
+
+	trigger = {
+		date > 1934.1.26
+		has_start_date < 1934.1.26
+		original_tag = SOV
+	}
+
+	#The Congress begins
+	option = {
+		name = DH_SOV_XVII_Congress.1.A
+		add_political_power = 25
+		country_event = {
+			id = DH_SOV_XVII_Congress.2
+			hours = 6
+		}
+	}
+}
+
+#########################################################################
+# Stalin's Reports
+#########################################################################
+country_event = {
+	id = DH_SOV_XVII_Congress.2
+	title = DH_SOV_XVII_Congress.2.t
+	desc = DH_SOV_XVII_Congress.2.d
+	picture = GFX_report_SOV_Stalin_Report
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	#Praise the party
+	option = {
+		name = DH_SOV_XVII_Congress.2.A
+		add_political_power = -50
+		add_stability = 0.025
+		country_event = {
+			id = DH_SOV_XVII_Congress.5
+			hours = 12
+		}
+	}
+
+	#Makes neutral discourse
+	option = {
+		name = DH_SOV_XVII_Congress.2.B
+		country_event = {
+			id = DH_SOV_XVII_Congress.5
+			hours = 12
+		}
+	}
+
+	#The Conghress begins
+	option = {
+		name = DH_SOV_XVII_Congress.2.C
+		random_list = {
+			60 = {
+				country_event = {
+					id = DH_SOV_XVII_Congress.3
+					hours = 6
+				}
+			}
+			40 = {
+				country_event = {
+					id = DH_SOV_XVII_Congress.4
+					hours = 6
+				}
+			}
+		}
+	}
+}
+
+#########################################################################
+# The Party Recognizes their failures
+#########################################################################
+country_event = {
+	id = DH_SOV_XVII_Congress.3
+	title = DH_SOV_XVII_Congress.3.t
+	desc = DH_SOV_XVII_Congress.3.d
+	picture = GFX_report_SOV_17th_Congress
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	#The Congress begins
+	option = {
+		name = DH_SOV_XVII_Congress.3.A
+		add_timed_idea = {
+			idea = SOV_Congress_Policies_on_Improvement
+			days = 300
+		}
+		country_event = {
+			id = DH_SOV_XVII_Congress.5
+			hours = 6
+		}
+	}
+}
+
+#########################################################################
+# The Members did not Accept Criticisms
+#########################################################################
+country_event = {
+	id = DH_SOV_XVII_Congress.4
+	title = DH_SOV_XVII_Congress.4.t
+	desc = DH_SOV_XVII_Congress.4.d
+	picture = GFX_report_SOV_17th_Congress
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	#The Congress begins
+	option = {
+		name = DH_SOV_XVII_Congress.4.A
+		add_timed_idea = {
+			idea = SOV_Congress_Disjointed_Politburo
+			days = 300
+		}
+		country_event = {
+			id = DH_SOV_XVII_Congress.5
+			hours = 6
+		}
+	}
+}
+
+#########################################################################
+# The Five Years Plan Debate
+#########################################################################
+country_event = {
+	id = DH_SOV_XVII_Congress.5
+	title = DH_SOV_XVII_Congress.5.t
+	desc = DH_SOV_XVII_Congress.5.d
+	picture = GFX_report_SOV_Second_Five_Year_Plan
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	#Efficiency to improve
+	option = {
+		name = DH_SOV_XVII_Congress.5.A
+		add_political_power = 5
+		country_event = {
+			id = DH_SOV_XVII_Congress.6
+			hours = 12
+		}
+	}
+
+	#Critizie brutal collectivism
+	option = {
+		name = DH_SOV_XVII_Congress.5.B
+		trigger = {
+			OR = {
+				has_country_flag = strong_politburo
+				has_country_flag = very_strong_politburo
+			}
+		}
+		add_political_power = -5
+		add_stability = -0.01
+		set_country_flag = collectiviszation_criticism
+		custom_effect_tooltip = DH_SOV_XVII_Congress.5.B.tt
+		country_event = {
+			id = DH_SOV_XVII_Congress.6
+			hours = 12
+		}
+	}
+}
+
+#########################################################################
+# Organisational issues
+#########################################################################
+country_event = {
+	id = DH_SOV_XVII_Congress.6
+	title = DH_SOV_XVII_Congress.6.t
+	desc = DH_SOV_XVII_Congress.6.d
+	picture = GFX_report_SOV_Stalin_and_Voroshilov
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	#End rabkrin System
+	option = {
+		name = DH_SOV_XVII_Congress.6.A
+		custom_effect_tooltip = DH_SOV_XVII_Congress.6.A.tt
+		add_stability = -0.1
+		add_timed_idea = {
+			idea = SOV_Congress_End_Rabkrin_System
+			days = 400
+		}
+		hidden_effect = {
+			set_country_flag = pcc_overpowered
+		}
+		country_event = {
+			id = DH_SOV_XVII_Congress.7
+			hours = 12
+		}
+	}
+
+	#Reform rabkrin System
+	option = {
+		name = DH_SOV_XVII_Congress.6.B
+		trigger = {
+			OR = {
+				has_country_flag = strong_politburo
+				has_country_flag = very_strong_politburo
+			}
+		}
+		custom_effect_tooltip = DH_SOV_XVII_Congress.6.B.tt
+		add_political_power = -100
+		add_stability = 0.01
+		add_timed_idea = {
+			idea = SOV_Congress_Reform_Rabkrin_System
+			days = 400
+		}
+		hidden_effect = {
+			set_country_flag = rabkrin_overpowered
+		}
+		country_event = {
+			id = DH_SOV_XVII_Congress.7
+			hours = 12
+		}
+	}
+}
+
+#########################################################################
+# Elections to the central organs of the Party
+#########################################################################
+country_event = {
+	id = DH_SOV_XVII_Congress.7
+	title = DH_SOV_XVII_Congress.7.t
+	desc = DH_SOV_XVII_Congress.7.d
+	picture = GFX_report_SOV_17th_Congress_vote
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	# Significant Votes against stalin.
+	option = {
+		name = DH_SOV_XVII_Congress.7.A
+		trigger = {
+			OR = {
+				has_country_flag = strong_politburo
+				has_country_flag = very_strong_politburo
+			}
+		}
+		custom_effect_tooltip = DH_SOV_XVII_Congress.7.A.tt
+		country_event = {
+			id = DH_SOV_XVII_Congress.8
+			hours = 12
+		}
+	}
+
+	#Politburo Votes Against Stalin
+	option = {
+		name = DH_SOV_XVII_Congress.7.B
+		trigger = {
+			has_country_flag = weak_politburo
+		}
+		custom_effect_tooltip = DH_SOV_XVII_Congress.7.B.tt
+		country_event = {
+			id = DH_SOV_XVII_Congress.11
+			hours = 12
+		}
+	}
+}
+
+#########################################################################
+# Poltiburo Votes Against Stalin
+#########################################################################
+country_event = {
+	id = DH_SOV_XVII_Congress.8
+	title = DH_SOV_XVII_Congress.8.t
+	desc = DH_SOV_XVII_Congress.8.d
+	picture = GFX_report_SOV_17th_Congress_vote
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	# Kirov
+	option = {
+		name = DH_SOV_XVII_Congress.8.A
+		custom_effect_tooltip = DH_SOV_XVII_Congress.8.A.tt
+		country_event = {
+			id = DH_SOV_XVII_Congress.10
+			hours = 12
+		}
+	}
+
+	# Bukharin
+	option = {
+		name = DH_SOV_XVII_Congress.8.B
+		trigger = {
+			has_country_flag = very_strong_politburo
+		}
+		custom_effect_tooltip = DH_SOV_XVII_Congress.8.B.tt
+		add_stability = 0.075
+		country_event = {
+			id = DH_SOV_XVII_Congress.9
+			hours = 12
+		}
+	}
+}
+
+#########################################################################
+# The Party calls for a Provisional Government
+#########################################################################
+country_event = {
+	id = DH_SOV_XVII_Congress.9
+	title = DH_SOV_XVII_Congress.9.t
+	desc = DH_SOV_XVII_Congress.9.d
+	picture = GFX_report_SOV_Kirov
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	#Provisional Government
+	option = {
+		name = DH_SOV_XVII_Congress.9.A
+		#create the new leader
+		hidden_effect = {
+			set_country_flag = kirov_path
+			set_country_flag = congress_finished
+		}
+	}
+}
+
+#########################################################################
+# The Party goes with the Opposition
+#########################################################################
+country_event = {
+	id = DH_SOV_XVII_Congress.10
+	title = DH_SOV_XVII_Congress.10.t
+	desc = DH_SOV_XVII_Congress.10.d
+	picture = GFX_report_SOV_Bukharin
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	# Provisional Government
+	option = {
+		name = DH_SOV_XVII_Congress.10.A
+		#create the new leader
+		hidden_effect = {
+			set_country_flag = bukharin_path
+			set_country_flag = congress_finished
+		}
+	}
+}
+
+#########################################################################
+# Politburo votes for Stalin
+#########################################################################
+country_event = {
+	id = DH_SOV_XVII_Congress.11
+	title = DH_SOV_XVII_Congress.11.t
+	desc = DH_SOV_XVII_Congress.11.d
+	picture = GFX_report_SOV_17th_Congress_vote
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	# You there. Get me... Sergei Kirov.
+	option = {
+		name = DH_SOV_XVII_Congress.11.A
+		country_event = {
+			id = DH_SOV_XVII_Congress.12
+			hours = 12
+		}
+	}
+}
+
+
+#########################################################################
+# Kirvos denounces a plot against Stalin
+#########################################################################
+country_event = {
+	id = DH_SOV_XVII_Congress.12
+	title = DH_SOV_XVII_Congress.12.t
+	desc = DH_SOV_XVII_Congress.12.d
+	picture = GFX_report_SOV_Kirov_and_Stalin
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	# Even the sword doesn't cut the head of the one who confesses.
+	option = {
+		name = DH_SOV_XVII_Congress.12.A
+		set_country_flag = congress_finished
+	}
+}
+
+#########################################################################
+# The end of the 17th Congress
+#########################################################################
+news_event = {
+	id = DH_SOV_XVII_Congress.13
+	title = DH_SOV_XVII_Congress.13.t
+	desc = { 
+		text = DH_SOV_XVII_Congress.13.d1
+		trigger = { has_country_flag = kirov_path }
+	}
+	desc = { 
+		text = DH_SOV_XVII_Congress.13.d2
+		trigger = { has_country_flag = bukharin_path }
+	}
+	desc = { 
+		text = DH_SOV_XVII_Congress.13.d
+		trigger = { always = yes }
+	}
+
+	picture = "[THIS.Dynamic_SOV_17th_Congress]"
+
+	fire_only_once = yes
+
+	trigger = {
+		SOV = {
+			has_country_flag = congress_finished
+		}
+		date > 1934.2.10
+	}
+
+	# Order the NKVD Chief to Persecue Kirov
+	option = {
+		name = DH_SOV_XVII_Congress.13.A
+		trigger = {
+			original_tag = SOV
+			NOT = {
+				OR = {
+					has_country_flag = bukharin_path
+					has_country_flag = kirov_path
+				}
+			}
+		}
+		set_country_flag = persecuted_kirov
+		custom_effect_tooltip = DH_SOV_XVII_Congress.13.A.tt
+		add_political_power = 10
+		activate_mission = SOV_Resolve_the_Kirov_Question
+		unlock_national_focus = SOV_XVII_Congress
+		hidden_effect = {
+			create_country_leader = {
+				name = "Iosif V. Stalin"
+				desc = "Joseph_Stalin_desc"
+				picture = "P_C_Joseph_Stalin.tga"
+				expire = "1965.1.1"
+				ideology = stalinism
+				traits = {
+					POSITION_General_Secretary
+					SUBIDEOLOGY_Stalinism
+					HoS_Paranoid_Megalomaniac
+				}
+			}
+		}
+	}
+	# Keep a eye on Kirov
+	option = {
+		name = DH_SOV_XVII_Congress.13.B
+		trigger = {
+			original_tag = SOV
+			NOT = {
+				OR = {
+					has_country_flag = bukharin_path
+					has_country_flag = kirov_path
+				}
+			}
+		}
+		set_country_flag = eye_on_kirov
+		custom_effect_tooltip = DH_SOV_XVII_Congress.13.B.tt
+		activate_mission = SOV_Resolve_the_Kirov_Question
+		unlock_national_focus = SOV_XVII_Congress
+		hidden_effect = {
+			create_country_leader = {
+				name = "Iosif V. Stalin"
+				desc = "Joseph_Stalin_desc"
+				picture = "P_C_Joseph_Stalin.tga"
+				expire = "1965.1.1"
+				ideology = stalinism
+				traits = {
+					POSITION_General_Secretary
+					SUBIDEOLOGY_Stalinism
+					HoS_Paranoid_Megalomaniac
+				}
+			}
+		}		
+	}
+	# Kirov is loyal to the party, we dont need to do nothing about him
+	option = {
+		name = DH_SOV_XVII_Congress.13.C
+		trigger = {
+			original_tag = SOV
+			NOT = {
+				OR = {
+					has_country_flag = bukharin_path
+					has_country_flag = kirov_path
+				}
+			}
+		}
+		set_country_flag = kirov_path
+		custom_effect_tooltip = DH_SOV_XVII_Congress.13.C.tt
+		add_political_power = -25
+		unlock_national_focus = SOV_XVII_Congress
+		hidden_effect = {
+			create_country_leader = {
+				name = "Iosif V. Stalin"
+				desc = "Joseph_Stalin_desc"
+				picture = "P_C_Joseph_Stalin.tga"
+				expire = "1965.1.1"
+				ideology = stalinism
+				traits = {
+					POSITION_General_Secretary
+					SUBIDEOLOGY_Stalinism
+					HoS_Paranoid_Megalomaniac
+				}
+			}
+		}
+	}
+	# (Kirov Path)
+	option = {
+		name = DH_SOV_XVII_Congress.13.D
+		unlock_national_focus = SOV_XVII_Congress
+		trigger = {
+			original_tag = SOV
+			has_country_flag = kirov_path
+		}
+		custom_effect_tooltip = DH_SOV_XVII_Congress.13.D.tt
+		unlock_national_focus = SOV_stalin_outmanuvered
+		create_country_leader = {
+			name = "Sergei Kirov"
+			desc = ""
+			picture = "P_C_Sergey_Kirov.tga"
+			expire = "1965.1.1"
+			ideology = marxism_leninism
+			traits = {
+				POSITION_General_Secretary
+				SUBIDEOLOGY_Marxism_Leninism
+				HoS_Popular_Figurehead
+			}
+		}
+	}
+	# Lenin lives, Bukharin lives
+	option = {
+		name = DH_SOV_XVII_Congress.13.E
+		unlock_national_focus = SOV_XVII_Congress
+		trigger = {
+			original_tag = SOV
+			has_country_flag = bukharin_path
+		}
+		custom_effect_tooltip = DH_SOV_XVII_Congress.13.E.tt
+		unlock_national_focus = SOV_stalin_outmanuvered
+		create_country_leader = {
+			name = "Nikolai Bukharin"
+			desc = ""
+			picture = "P_C_Nikolai_Bukharin.tga"
+			expire = "1965.1.1"
+			ideology = marxism_leninism
+			traits = {
+				POSITION_General_Secretary
+				SUBIDEOLOGY_Marxism_Leninism
+				HoS_Die_Hard_Reformer
+			}
+		}
+	}
+	# Congrats, to Comrade Stalin.
+	option = {
+		name = DH_SOV_XVII_Congress.13.Com_Stalin
+		trigger = {
+			NOT = { original_tag = SOV }
+			SOV = {
+				NOT = {
+					OR = {
+						has_country_flag = bukharin_path
+						has_country_flag = kirov_path
+					}
+				}
+			}
+			OR = {
+				is_puppet_of = SOV
+				is_in_faction_with = SOV
+			}
+		}
+	}	
+	# Congrats, to Comrade Kirov.
+	option = {
+		name = DH_SOV_XVII_Congress.13.Com_Kirov
+		trigger = {
+			NOT = { original_tag = SOV }
+			SOV = {
+				has_country_flag = kirov_path
+			}
+			OR = {
+				is_puppet_of = SOV
+				is_in_faction_with = SOV
+			}
+		}
+	}	
+	# Congrats, to Comrade Bukharin.
+	option = {
+		name = DH_SOV_XVII_Congress.13.Com_Bukharin
+		trigger = {
+			NOT = { original_tag = SOV }
+			SOV = {
+				has_country_flag = bukharin_path
+			}
+			OR = {
+				is_puppet_of = SOV
+				is_in_faction_with = SOV
+			}
+		}
+	}	
+	# Congrats, to Comrade Bukharin.
+	option = {
+		name = DH_SOV_XVII_Congress.13.Fas
+		trigger = {
+			NOT = { original_tag = SOV }
+			OR = {
+				has_government = fascist
+				has_government = authoritarian
+			}
+		}
+	}	
+	# Congrats, to Comrade Bukharin.
+	option = {
+		name = DH_SOV_XVII_Congress.13.Neu
+		trigger = {
+			NOT = { original_tag = SOV }
+			OR = {
+				has_government = democratic
+				has_government = socialist
+			}
+		}
+	}	
+}

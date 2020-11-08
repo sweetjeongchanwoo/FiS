@@ -1,0 +1,229 @@
+﻿###########################
+# Darkest Hour Events : Baltics
+###########################
+#########################################################################
+#  Estonia  
+#########################################################################
+add_namespace = DH_baltics
+# Soviet Basing Rights (Estonia)
+country_event = {
+	id = DH_baltics.1
+	title = DH_baltics.1.t
+	desc = DH_baltics.1.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = DH_baltics.1.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				OR = {
+					has_idea = anti_soviet_pact
+					SOV = { surrender_progress > 0.5 }
+				}
+			}
+		}
+		give_military_access = SOV
+		SOV = { country_event = { days = 1 id = DH_baltics.5 } }
+	}
+	option = { # Refuse
+		name = DH_baltics.1.b
+		ai_chance = {
+			base = 0
+		}
+		SOV = { country_event = { days = 1 id = DH_baltics.4 } }
+		SOV = {
+			create_wargoal = {
+				type = annex_everything
+				target = EST
+			}		
+		}
+	}
+}
+#########################################################################
+#  Latvia
+#########################################################################
+# Soviet Basing Rights (Latvia)
+country_event = {
+	id = DH_baltics.2
+	title = DH_baltics.2.t
+	desc = DH_baltics.2.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = DH_baltics.2.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				OR = {
+					has_idea = anti_soviet_pact
+					SOV = { surrender_progress > 0.5 }
+				}
+			}
+		}
+		give_military_access = SOV
+		SOV = { country_event = { days = 1 id = DH_baltics.7 } }
+	}
+	option = { # Refuse
+		name = DH_baltics.2.b
+		ai_chance = {
+			base = 0
+		}
+		SOV = { country_event = { days = 1 id = DH_baltics.6 } }
+		SOV = {
+			create_wargoal = {
+				type = annex_everything
+				target = EST
+			}		
+		}
+	}
+}
+#########################################################################
+#  Lithuania
+#########################################################################
+# Soviet Basing Rights (Lithuania)
+country_event = {
+	id = DH_baltics.3
+	title = DH_baltics.3.t
+	desc = DH_baltics.3.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = DH_baltics.3.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				OR = {
+					has_idea = anti_soviet_pact
+					SOV = { surrender_progress > 0.5 }
+				}
+			}
+		}
+		give_military_access = SOV
+		SOV = { country_event = { days = 1 id = DH_baltics.9 } }
+	}
+	option = { # Refuse
+		name = DH_baltics.3.b
+		ai_chance = {
+			base = 0
+		}
+		SOV = { country_event = { days = 1 id = DH_baltics.8 } }
+		SOV = {
+			create_wargoal = {
+				type = annex_everything
+				target = EST
+			}		
+		}
+	}
+}
+#########################################################################
+# Soviet Event
+#########################################################################
+# Estonia Accepts
+country_event = {
+	id = DH_baltics.4
+	title = DH_baltics.4.t
+	desc = DH_baltics.4.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_baltics.4.a
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+# Estonia Denies
+country_event = {
+	id = DH_baltics.5
+	title = DH_baltics.5.t
+	desc = DH_baltics.5.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_baltics.5.a
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+#########################################################################
+# Latvia Denies
+country_event = {
+	id = DH_baltics.6
+	title = DH_baltics.6.t
+	desc = DH_baltics.6.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_baltics.6.a
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+# Latvia Allows
+country_event = {
+	id = DH_baltics.7
+	title = DH_baltics.7.t
+	desc = DH_baltics.7.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_baltics.7.a
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+#########################################################################
+# Lithuania Denies
+country_event = {
+	id = DH_baltics.8
+	title = DH_baltics.8.t
+	desc = DH_baltics.8.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_baltics.8.a
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+# Lithuania Allows
+country_event = {
+	id = DH_baltics.9
+	title = DH_baltics.9.t
+	desc = DH_baltics.9.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_baltics.9.a
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+#########################################################################

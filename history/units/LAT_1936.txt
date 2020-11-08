@@ -1,0 +1,158 @@
+﻿division_template = {
+	name = "Kajnieku Divizija"		# Infantry Division
+	division_names_group = LAT_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Kājnieku nodaļa ar inženieriem"		# Infantry Division with Engineers
+	division_names_group = LAT_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+    }
+}
+
+division_template = {
+	name = "Kājnieku divīzija ar motorizētu"		# Infantry Division with motorised (Armoured Cars)
+	division_names_group = LAT_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Kājnieku nodaļa ar artilēriju"		# Infantry Division with Artillery
+	division_names_group = LAT_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_battalion = { x = 2 y = 0 }
+		artillery_battalion = { x = 2 y = 1 }
+		artillery_battalion = { x = 2 y = 2 }
+	}
+}
+
+units = { # Kurzemes Divizija
+	######## LAND OOB ########
+	##### Latvijas Armija #####
+	division = { # Kurzemes Divizija
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9340 # Riga
+		division_template = "Kājnieku nodaļa ar inženieriem"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+
+	division = { # Vidzemes Divizija
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9340 # Riga
+		division_template = "Kājnieku divīzija ar motorizētu"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+
+	
+	division = { # Zemgales Divizija
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9340 # Riga
+		division_template = "Kājnieku nodaļa ar artilēriju"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+
+	division = { # Latgales Divizija
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9340 # Riga
+		division_template = "Kajnieku Divizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+
+
+	##### NAVAL UNITS #####
+	navy = {					
+		name = "Latvijas Juras Speki"				
+		base = 9340
+		location =  9340 # Riga
+		ship = { name = "Ronis" definition = submarine equipment = { SS_equipment_1912 = { amount = 1 owner = LAT } } }
+		ship = { name = "Spidola" definition = submarine equipment = { SS_equipment_1912 = { amount = 1 owner = LAT } } }
+	}					
+}
+
+air_wings = {
+	### Latvijas Gaisa Speki
+	12 = {
+		# Aviacijas Pulka -- Bristol Bulldogs
+		Fighter_equipment_1933 =  {
+			owner = "LAT" 
+			amount = 45
+		}
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+    add_equipment_production = {
+        equipment = {
+            type = Small_Arms_equipment_1936
+            creator = "LAT"
+        }
+        requested_factories = 1
+        progress = 0.3
+        efficiency = 100
+    }
+
+    add_equipment_production = {
+        equipment = {
+            type = SS_equipment_1912
+            creator = "LAT"
+        }
+        requested_factories = 1
+        progress = 0.22
+        efficiency = 100
+    }
+}

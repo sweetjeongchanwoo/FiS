@@ -1,0 +1,17 @@
+﻿air_wings = {
+	219 = {
+		Tactical_Bomber_equipment_1933 =  {
+			owner = "SOV" 
+			amount = 40
+		}
+		name = "588. Night Bomber Regiment"
+		ace = { # Order is important. Ace will be assigned to the wing above (Fighter_equipment_1933).
+			modifier="support_unique"
+			name="Marina"
+			surname="Raskova"
+			callsign="Witch"
+			is_female = yes
+			portrait=1 # Pick random index here, or make special GFX_GER_ace_Erich_Hartmann to override.
+		}
+	}
+}

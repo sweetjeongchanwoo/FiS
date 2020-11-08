@@ -1,0 +1,256 @@
+technologies = {
+### ------------ Nuclear Stuff -----------------------------------------------	
+	atomic_research = {
+
+		research_speed_factor = 0.01
+		
+		path = {
+			leads_to_tech = nuclear_research 
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1936
+		research_cost = 1
+		
+		folder = {
+			name = wmd_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+	}
+	
+	nuclear_research = {
+
+		research_speed_factor = 0.01
+		
+		path = {
+			leads_to_tech = nuclear_fuel 
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1939
+		research_cost = 2
+		
+		folder = {
+			name = wmd_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+
+	}
+
+
+	nuclear_fuel = {
+
+		research_speed_factor = 0.01
+		
+		path = {
+			leads_to_tech = nuclear_reactor 
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1941
+		research_cost = 3
+		
+		folder = {
+			name = wmd_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+	
+
+	}
+	
+	nuclear_reactor = {
+
+		# can build reactors
+		
+		start_year = 1943
+		research_cost = 5
+		
+		folder = {
+			name = wmd_folder
+			position = { x = 0 y = 6 }
+		}
+
+		path = {
+			leads_to_tech = nukes 
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+		enable_building = {
+			building = nuclear_reactor
+			level = 1
+		}
+	}
+
+	### Atomic Bomb
+	nukes = {
+	
+		start_year = 1945
+		research_cost = 5
+		
+		path = {
+			leads_to_tech = hydrogen_nukes 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = nuclear_propulsion 
+			research_cost_coeff = 1
+		}	
+		folder = {
+			name = wmd_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		nuclear_production = 1
+		
+		categories = {
+			nuclear
+		}
+	}
+	
+	hydrogen_nukes = {
+	
+		start_year = 1951
+		research_cost = 6
+		
+		folder = {
+			name = wmd_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+
+		categories = {
+			nuclear
+		}
+		
+		enable_building = {
+			building = nuclear_reactor
+			level = 2
+		}		
+	}	
+	
+	nuclear_propulsion = {
+	
+		start_year = 1954
+		research_cost = 6
+		
+		folder = {
+			name = wmd_folder
+			position = { x = 2 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+
+		desc = "NUCLEAR_PROPULSION"
+
+		on_research_complete = {
+			custom_effect_tooltip = NUCLEAR_PROPULSION_RESEARCHED
+		}
+		
+		categories = {
+			nuclear
+		}
+	}
+}

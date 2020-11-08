@@ -1,0 +1,960 @@
+﻿##############################################
+## German Templates
+##############################################
+division_template = {
+	name = "Infanterie-Division"
+	
+	division_names_group = GER_Inf_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Sicherungs-Division"
+	
+	division_names_group = GER_GAR_01
+	regiments = {
+		garrison = { x = 0 y = 0 }
+		garrison = { x = 0 y = 1 }
+		garrison = { x = 0 y = 2 }
+		garrison = { x = 1 y = 0 }
+		garrison = { x = 1 y = 1 }
+		garrison = { x = 1 y = 2 }
+	}
+	
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Luftwaffen-Feld-Division"
+	division_names_group = GER_Luft_01
+	regiments = { 
+		light_infantry = { x = 0 y = 0 } #Light Jager Infantry
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+
+}
+division_template = {
+	name = "Panzer-Division"
+	
+	division_names_group = GER_Arm_01
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Infanterie-Division (mot.)"
+	
+	division_names_group = GER_MOT_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "SS-Panzergrenadier-Division"
+	
+	division_names_group = GER_SS_01
+	regiments = {
+		SS_mechanized = { x = 0 y = 0 }
+		SS_mechanized = { x = 0 y = 1 }
+		SS_mechanized = { x = 0 y = 2 }
+		
+		SS_mechanized = { x = 1 y = 0 }
+		SS_mechanized = { x = 1 y = 1 }
+		SS_mechanized = { x = 1 y = 2 }
+		
+		SS_mechanized = { x = 2 y = 0 }
+		SS_mechanized = { x = 2 y = 1 }
+		SS_mechanized = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "SS-Infanterie-Division (mot.)"
+	
+	division_names_group = GER_SS_01
+	regiments = {
+		SS_motorized = { x = 0 y = 0 }
+		SS_motorized = { x = 0 y = 1 }
+		SS_motorized = { x = 0 y = 2 }
+		
+		SS_motorized = { x = 1 y = 0 }
+		SS_motorized = { x = 1 y = 1 }
+		SS_motorized = { x = 1 y = 2 }
+		
+		SS_motorized = { x = 2 y = 0 }
+		SS_motorized = { x = 2 y = 1 }
+		SS_motorized = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Gebirgs-Division"						
+	division_names_group = GER_MTN_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Kavallerie-Brigade"
+	
+	division_names_group = GER_Cav_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+##############################################
+## German Land Units
+##############################################
+units = {
+
+	# Narwa Armee
+	division= {	# "58. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 58
+		}
+		location = 4640
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "122. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 122
+		}
+		location = 4640
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "170. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 170
+		}
+		location = 4640
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "225. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 225
+		}
+		location = 11443
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "227. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 227
+		}
+		location = 11057
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "285. Sicherungs-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 285
+		}
+		location = 3152
+		division_template = "Sicherungs-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.4
+		force_equipment_variants = { Small_Arms_equipment_1939 = { owner = "GER" } }
+	}
+	division= {	# "61. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 61
+		}
+		location = 11057
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	
+	# 3. SS Panzerkorps
+	division= {	# "11. SS-Pz.Gr.Freiw.Div 'Nordland'"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 4640
+		division_template = "SS-Panzergrenadier-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { APC_1943 = { owner = "GER" } }
+	}
+	division= {	# "20. Estische SS-Freiw.-Div."
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 11443
+		division_template = "SS-Infanterie-Division (mot.)"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+	}
+	
+	# 18. Armee
+	division= {	# "21. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 11202
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "30. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		}
+		location = 11202
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "126. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 126
+		}
+		location = 11202
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "211. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 212
+		}
+		location = 6324
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "12. Luftwaffen-Feld-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 310
+		division_template = "Luftwaffen-Feld-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.55
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "32. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}
+		location = 6324
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "121. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 121
+		}
+		location = 3310
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "21. Luftwaffen-Feld-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 11302
+		division_template = "Luftwaffen-Feld-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.55
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "87. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 87
+		}
+		location = 3310
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "205. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 205
+		}
+		location = 3310
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "23. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 3310
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "81. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 81
+		}
+		location = 11202
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "329. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 329
+		}
+		location = 11202
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "215. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 215
+		}
+		location = 415
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "329. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 329
+		}
+		location = 415
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "215. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 215
+		}
+		location = 415
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "301. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 301
+		}
+		location = 415
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	
+	# 16. Armee
+	division= {	# "93. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 93
+		}
+		location = 6242
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "15. Estische SS-Freiw.-Div."
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 6242
+		division_template = "SS-Infanterie-Division (mot.)"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+	}
+	division= {	# "19. Estische SS-Freiw.-Div."
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 9353
+		division_template = "SS-Infanterie-Division (mot.)"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+	}
+	division= {	# "263. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 263
+		}
+		location = 9353
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "290. Luftwaffen-Feld-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 290
+		}
+		location = 11259
+		division_template = "Luftwaffen-Feld-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.6
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "389. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 389
+		}
+		location = 9386
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "24. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 6242
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "69. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 69
+		}
+		location = 6242
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "281. Sicherungs-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 93
+		}
+		location = 3333
+		division_template = "Sicherungs-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.4
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	
+	# 3. Panzerarmee
+	division= {	# "83. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 83
+		}
+		location = 6249
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "4. Luftwaffen-Feld-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6371
+		division_template = "Luftwaffen-Feld-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.4
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "6. Luftwaffen-Feld-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 6220
+		division_template = "Luftwaffen-Feld-Divisionn"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.4
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "132. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 132
+		}
+		location = 6249
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "218. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 218
+		}
+		location = 6249
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "197. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 197
+		}
+		location = 9323
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "296. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 93
+		}
+		location = 9323
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "299. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 299
+		}
+		location = 9323
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "93. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 93
+		}
+		location = 9241
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "201. Sicherungs-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 93
+		}
+		location = 3320
+		division_template = "Sicherungs-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.4
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "252. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 252
+		}
+		location = 9241
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "206. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 206
+		}
+		location = 9241
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "246. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 246
+		}
+		location = 3331
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	division= {	# "98. Infanterie-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 98
+		}
+		location = 3331
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+	
+	# 4. Armee
+	division= {	# "286. Sicherungs-Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 98
+		}
+		location = 3331
+		division_template = "Sicherungs-Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.65
+		force_equipment_variants = { Small_Arms_equipment_1942 = { owner = "GER" } }
+	}
+}
+##############################################
+## German Naval Units
+##############################################
+units = {
+	navy = {
+		name = "Reichsmarine"
+		naval_base = 241 # Wilhemshaven
+		task_force = {
+			name = "Reichsmarine"
+			location = 241 # Wilhemshaven
+			ship = { name = "Schlesien" definition = battleship equipment = { BB_equipment_1895 = { amount = 1 owner = GER } } }
+			ship = { name = "Schleswig-Holstein" definition = battleship equipment = { BB_equipment_1895 = { amount = 1 owner = GER } } }	
+			ship = { name = "Hessen" definition = light_cruiser equipment = { BB_equipment_1895 = { amount = 1 owner = GER } } }
+			
+			ship = { name = "Leipzig" definition = light_cruiser equipment = { CL_equipment_1922 = { amount = 1 owner = GER } } }
+			ship = { name = "Königsberg" definition = light_cruiser equipment = { CL_equipment_1922 = { amount = 1 owner = GER } } }
+			ship = { name = "Karlsruhe" definition = light_cruiser equipment = { CL_equipment_1922 = { amount = 1 owner = GER } } }
+			ship = { name = "Köln" definition = light_cruiser equipment = { CL_equipment_1922 = { amount = 1 owner = GER } } }
+			ship = { name = "Emden" definition = light_cruiser equipment = { CL_equipment_1912 = { amount = 1 owner = GER } } }
+			ship = { name = "Berlin" definition = light_cruiser equipment = { CL_equipment_1900 = { amount = 1 owner = GER } } }
+			
+			ship = { name = "1. Torpedobootsflottille" definition = destroyer equipment = { DD_equipment_1900 = { amount = 1 owner = GER } } }
+			ship = { name = "2. Torpedobootsflottille" definition = destroyer equipment = { DD_equipment_1912 = { amount = 1 owner = GER } } }
+			ship = { name = "3. Torpedobootsflottille" definition = destroyer equipment = { DD_equipment_1912 = { amount = 1 owner = GER } } }
+			ship = { name = "4. Torpedobootsflottille" definition = destroyer equipment = { DD_equipment_1916 = { amount = 1 owner = GER } } }
+			ship = { name = "5. Torpedobootsflottille" definition = destroyer equipment = { DD_equipment_1916 = { amount = 1 owner = GER } } }
+			ship = { name = "6. Torpedobootsflottille" definition = destroyer equipment = { DD_equipment_1916 = { amount = 1 owner = GER } } }
+		}
+	}	
+}
+##############################################
+## German Air Units
+##############################################
+air_wings = {	
+	### Kampffliegerschule - Berlin
+	64 = { 
+		# Kampffliegerschule (Fokker D.XIII)	
+		Fighter_equipment_1933 =  {
+			owner = "GER" 
+			amount = 50
+		}
+		name = "Kampffliegerschule"	
+	}
+	### Deutsche Luft Hansa - Berlin
+	64 = { 
+		# Blitzstrecken	(Do 11)	
+		Tactical_Bomber_equipment_1933 = {
+			owner = "GER" 
+			amount = 60
+		}
+		name = Blitzstrecken
+		# Deutsche Luft Hansa (Ju W 34)
+		transport_plane_equipment_1 = {
+			owner = "GER" 
+			amount = 4 
+		}
+		name = "Luft Hansa"		
+	}
+}
+##############################################
+## German Production
+##############################################
+instant_effect = {
+	# Kar 98k
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1900
+			creator = "GER"
+		}
+		requested_factories = 10
+		progress = 0.1
+		efficiency = 50
+	}
+	# Support Equipment
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+	# leFH18
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+	# Pz IIs
+	add_equipment_production = {
+		equipment = {
+			type = Light_Tank_equipment_1933
+			creator = "GER"
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+	# Opel Blitz
+	add_equipment_production = {
+		equipment = {
+			type = truck_equipment_1936
+			creator = "GER"
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+	# Bf-109s
+	add_equipment_production = {
+		equipment = {
+			type = Fighter_equipment_1933
+			creator = "GER"
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+	# Ju-87s
+	add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+	# He-111s
+	add_equipment_production = {
+		equipment = {
+			type = Tactical_Bomber_equipment_1936
+			creator = "GER"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+	
+	#########################################################################
+	#  Ships Under Contruction
+	#########################################################################	
+	## The Formula used is X=100-(100Y)/T ; X= Progress, Y= Time Left, T= Total Building time
+	# CA: "Admiral Graf Spee"
+	add_equipment_production = {
+		equipment = {
+			type = CA_equipment_1933
+			creator = "GER"
+		}
+		name = "Admiral Graf Spee"
+		requested_factories = 2
+		progress = 0.99
+		amount = 1
+	}
+	# CA: "Admiral Hipper"
+	add_equipment_production = {
+		equipment = {
+			type = CA_equipment_1936
+			creator = "GER"
+		}
+		name = "Admiral Hipper"
+		requested_factories = 2
+		progress = 0.05
+		amount = 1
+	}
+	# CA: "Blücher"
+	add_equipment_production = {
+		equipment = {
+			type = CA_equipment_1936
+			creator = "GER"
+		}
+		name = "Blücher"
+		requested_factories = 2
+		progress = 0.00
+		amount = 1
+	}
+	# BC : "Gneisenau"
+	add_equipment_production = {
+		equipment = {
+			type = BC_equipment_1933
+			creator = "GER"
+		}
+		name = "Gneisenau"
+		requested_factories = 3
+		progress = 0.26
+		amount = 1
+	}
+	# BC:  "Scharnhorst"
+	add_equipment_production = {
+		equipment = {
+			type = BC_equipment_1933
+			creator = "GER"
+		}
+		name = "Scharnhorst"
+		requested_factories = 3
+		progress = 0.18
+		amount = 1
+	}
+	# DD: Zerstörergeschwader 7,8 & 9
+	add_equipment_production = {
+		equipment = {
+			type = DD_equipment_1933
+			creator = "GER"
+		}
+		name = "Zerstörergeschwader 7"
+		requested_factories = 1
+		progress = 0.11
+		amount = 3
+	}
+
+}

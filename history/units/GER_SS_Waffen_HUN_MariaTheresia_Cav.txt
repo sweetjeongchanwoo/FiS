@@ -1,0 +1,9 @@
+﻿units = {
+	division= {
+		name = "SS-Freiwilligen-Kavallerie-Division „Maria Theresia“"
+		location = 9676 # Kisbér
+		division_template = "SS Kavallerie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 1.0 
+	}
+}

@@ -1,0 +1,182 @@
+﻿l_english:
+#########################################################################
+#  People's Rep of China Ideas
+#########################################################################
+ # Army Template
+ PRC_peasent_armies:0 "Peasant Division"
+ cavalry_division:0 "Cavalry Division"
+ #Traits
+ hero_of_the_resistance:0 "Hero of the Resistance"
+ HoS_Political_Demoralised:0 "Demoralised"
+ HoS_Political_Demoralised_desc:0 "This leader has lost all hope, and is neither motivated to work to solve the issue, nor motivated to work at all."
+ CoArmy_Army_Demoralised:0 "Demoralised"
+ CoArmy_Army_Demoralised_desc:0 "This General has lost all hope, and is neither motivated to work to solve the issue, nor motivated to work at all."
+ #Ideas
+ PRC_The_Quarantined_State:0 "The Quarantined State"
+ PRC_The_Quarantined_State_desc:0 ""
+ PRC_The_Quarantined_State_1:0 "The Quarantined State"
+ PRC_The_Quarantined_State_1_desc:0 ""
+ PRC_The_Left_Cannot_Be_Wrong:0 "The Left Cannot Be Wrong"
+ PRC_The_Left_Cannot_Be_Wrong_desc:0 ""
+ PRC_Revolution_Of_The_People:0 "The People's Revolution"
+ PRC_Revolution_Of_The_People_desc:0 ""
+ PRC_Revolution_Of_The_People_1:0 "The People's Revolution"
+ PRC_Revolution_Of_The_People_1_desc:0 ""
+ PRC_Conflicted_Military_1:0 "Conflicting Strategies"
+ PRC_Conflicted_Military_1_desc:0 "Mao Zedong's strategy of Mobile Warfare has been used in the last 3 Encirclement Campaigns to great effect and a lot of our field officers, and tactical experts are well versed in his stratagies and military doctrines. However, the arrival of Bo Gu and the Soviet military advisor Otto Braun has caused a rift to appear on the Military Affairs Committee. Bo Gu, Otto Braun and the 28 Bolsheviks are pushing for a new strategy to be adopted that would favour more traditional doctrines, yet many in the command are reluctant and feel we should still use Mao's Mobile Warfare doctrines to reduce casualties."
+ PRC_Conflicted_Military_2:0 "Conflicting Strategies"
+ PRC_Conflicted_Military_2_desc:0 "Despite the Military Affairs Committee and many of its staff still being torn between the strategies of Otto Braun and Mao Zedong, Mao's stratagy of Mobile Warfare has taken root due to the disasterous effects of Bo Gu's and Otto Braun's stratagems. While many are still reluctant to commit to this old, but effective strategy, these critics are nor much more hesitant to oppose it after our defeats and the implementation of its tactics can begin, without opposition, allowing them to be fully and effectively deployed."
+ PRC_Conflicted_Military_3:0 "Conflicting Strategies"
+ PRC_Conflicted_Military_3_desc:0 ""
+
+#########################################################################
+#  People's Rep of China Focuses
+#########################################################################
+ 
+ PRC_The_Old_Way:0 "The Old Way"
+ PRC_The_Old_Way_desc:0 ""
+
+ PRC_A_New_Strategy:0 "A New Strategy"
+ PRC_A_New_Strategy_desc:0 ""
+
+ PRC_28_Bolsheviks:0 "Strengthen the 28 Bolsheviks"
+ PRC_28_Bolsheviks_desc:0 ""
+
+ PRC_Fortify_the_Bases:0 "Fortify the Bases"
+ PRC_Fortify_the_Bases_desc:0 ""
+
+ PRC_Self_Sufficiency:0 "Self Sufficiency"
+ PRC_Self_Sufficiency_desc:0 ""
+
+ PRC_Secure_Appropriate_Arms:0 "Secure Appropriate Arms"
+ PRC_Secure_Appropriate_Arms_desc:0 ""
+
+ PRC_Call_Upon_the_People:0 "Call Upon the People"
+ PRC_Call_Upon_the_People_desc:0 ""
+
+ PRC_Familiar_with_Histories:0 "'Familiar with Histories'"
+ PRC_Familiar_with_Histories_desc:0 ""
+
+ PRC_Braun_in_Command:0 "Soviet Advisors"
+ PRC_Braun_in_Command_desc:0 ""
+
+ PRC_Frunze_Military_Thinking:0 "Frunze Military Thinking"
+ PRC_Frunze_Military_Thinking_desc:0 ""
+
+ PRC_Mitigate_Mobile_Warfare:0 "Mitigate Mobile Warfare"
+ PRC_Mitigate_Mobile_Warfare_desc:0 ""
+
+ PRC_Strategic_Offence_Tactical_Defence:0 "Strategic Offence, Tactical Defence"
+ PRC_Strategic_Offence_Tactical_Defence_desc:0 
+
+ PRC_Tactical_Defence_Strategic_Offence:0 "Strategic Defence, Tactical Offence"
+ PRC_Tactical_Defence_Strategic_Offence_desc:0 ""
+
+ PRC_The_Left_Cannot_Be_Wrong:0 "The Left Cannot be Wrong"
+ PRC_The_Left_Cannot_Be_Wrong_desc:0 ""
+
+ PRC_The_Long_March:0 "The Long March"
+ PRC_The_Long_March_desc:0 ""
+
+ PRC_Call_The_Generals:0 "Call the Generals"
+ PRC_Call_The_Generals_desc:0 ""
+
+ PRC_Call_The_Cadres:0 "Call the Cadres"
+ PRC_Call_The_Cadres_desc:0 ""
+
+ PRC_Revive_Mobile_Warfare:0 "Revive Mobile Warfare"
+ PRC_Revive_Mobile_Warfare_desc:0 ""
+
+ PRC_Through_Deeds_not_Words:0 "Through Deeds not Words"
+ PRC_Through_Deeds_not_Words_desc:0 ""
+
+ PRC_Send_Forward_Parties:0 "Send Forward Parties"
+ PRC_Send_Forward_Parties_desc:0 ""
+
+ PRC_Keep_Calm_Carry_On:0 "Keep Calm, Carry On"
+ PRC_Keep_Calm_Carry_On_desc:0 ""
+
+ PRC_Probe_for_Greed:0 "Probe for Greed"
+ PRC_Probe_for_Greed_desc:0 ""
+
+ PRC_Passage_for_Peace:0 "Passage for Peace"
+ PRC_Passage_for_Peace_desc:0 ""
+
+ PRC_Revolution_Doesnt_Ask_Permission:0 "The Revolution Doesn't Ask Permission"
+ PRC_Revolution_Doesnt_Ask_Permission_desc:0 ""
+
+ PRC_Deal_with_the_Cliques:0 "Deal with the Cliques"
+ PRC_Deal_with_the_Cliques_desc:0 ""
+
+ PRC_8_Points_of_Attention:0 "8 Points of Attention"
+ PRC_8_Points_of_Attention_desc:0 ""
+
+ PRC_Approach_the_Yi:0 "Approach the Yi"
+ PRC_Approach_the_Yi_desc:0 ""
+
+ PRC_Redistribution_on_the_Move:0 "Redistribution on the Move"
+ PRC_Redistribution_on_the_Move_desc:0 ""
+
+ PRC_Like_Wind:0 "Like Wind"
+ PRC_Like_Wind_desc:0 ""
+
+ PRC_Like_Water:0 "Like Water"
+ PRC_Like_Water_desc:0 ""
+
+ PRC_Like_Fire:0 "Like Fire"
+ PRC_Like_Fire_desc:0 ""
+
+ PRC_Like_Stone:0 "Like Stone"
+ PRC_Like_Stone_desc:0 ""
+
+
+#########################################################################
+#  People's Rep of China Events
+#########################################################################
+ ### Wang Ming
+ DH_PRC_CSR_Wang_Ming.1.t:0 "Wang Ming Returns to China"
+ DH_PRC_CSR_Wang_Ming.1.d:0 ""
+ DH_PRC_CSR_Wang_Ming.1.A:0 "Welcome back Comrade"
+
+ ### 4th Encirclement Start
+ DH_PRC_Fourth_Encirclement.1.t:0 "4th Counter-Encirclement Campaign"
+ DH_PRC_Fourth_Encirclement.1.d:0 "Today, the long planned Nationalist offensive on our position has finally begun after months of preperation and anticipation. Our spies and scouts have repoted the Nationalists have amassed a force of around 500,000 and outnumber us 7:1. To only make matters worse, they have crushed one of our major bases in Pengxian and now move on our pocket in Jiangxi among others, seeking to elimate us for good. At this moment in time they surround us, and with their numerically superior force, we will have to make up for our weaker military with brilliant strategic planning and tactics. /n/However, there is a conflict within the military affairs committee. Otto Braun and Bo Gu have assured us they can deal with this invasion by launching surprise counter-attacks and by using traditional doctrines, but many of the generals are unsure and deem this risky new strategy unecessary, instead preffering Mao's doctrine of Mobile Warfare, that has so far seen widespread success."
+ DH_PRC_Fourth_Encirclement.1.A:0 "We will beat them back regardless!"
+
+ ### Strengthen 28 Bolsheviks
+ DH_PRC_CSR_Strengthen_28_Bolsheviks.1.t:0 "28 Bolsheviks Assume Control"
+ DH_PRC_CSR_Strengthen_28_Bolsheviks.1.d:0 ""
+ DH_PRC_CSR_Strengthen_28_Bolsheviks.1.A:0 "This changes things..."
+
+ DH_PRC_CSR_Fortify_the_Bases.1.t:0 "Report on the Fortifications"
+ DH_PRC_CSR_Fortify_the_Bases.1.d:0 ""
+ DH_PRC_CSR_Fortify_the_Bases.1.A:0 "Focus on Jiangxi only"
+ DH_PRC_CSR_Fortify_the_Bases.1.B:0 "Prioritize the main bases"
+ DH_PRC_CSR_Fortify_the_Bases.1.C:0 "Spread them equally"
+
+ DH_PRC_CSR_The_Left_Cannot_Be_Wrong.1.t:0 "28 Bolsheviks are Relived of Command"
+ DH_PRC_CSR_The_Left_Cannot_Be_Wrong.1.d:0 ""
+ DH_PRC_CSR_The_Left_Cannot_Be_Wrong.1.A:0 "We are in dire straits"
+
+ DH_PRC_CSR_The_Long_March.1.t:0 "General Reatreat Called"
+ DH_PRC_CSR_The_Long_March.1.d:0 ""
+ DH_PRC_CSR_The_Long_March.1.A:0 "Onwards we march"
+
+ DH_PRC_CSR_Call_the_Generals.1.t:0 "Tongao Meeting"
+ DH_PRC_CSR_Call_the_Generals.1.d:0 ""
+ DH_PRC_CSR_Call_the_Generals.1.A:0 "We need a clean slate"
+ DH_PRC_CSR_Call_the_Generals.1.B:0 "Make limited change"
+ DH_PRC_CSR_Call_the_Generals.1.C:0 "We must keep them all"
+
+ DH_PRC_CSR_Call_the_Cadres.1.t:0 "Zunyi Conference"
+ DH_PRC_CSR_Call_the_Cadres.1.d:0 ""
+ DH_PRC_CSR_Call_the_Cadres.1.A:0 "They should explain themselves"
+
+#########################################################################
+#  People's Rep of China Decisions
+#########################################################################
+
+### Long March
+PRC_Long_March:0 "The Long March"
+PRC_Long_March_desc:0 "pls help"
+PRC_Move_Army:0 "Move Army"

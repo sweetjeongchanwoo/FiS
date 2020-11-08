@@ -1,0 +1,1099 @@
+#######################################################################
+#Economical Reform
+#######################################################################
+FRA_Economical_Reform_category = {
+    ######################
+    #Administrative Reorganization
+    ######################
+    FRA_Administrative_Reorganization = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+			original_tag = FRA
+		}
+
+        cost = 40
+
+        available = {
+            has_completed_focus = FRA_Relaunching_Fiscal_Austerity
+            set_temp_variable = { total_support_to_check = 0.5 }
+            has_at_least_parliament_total_support = yes
+        }
+
+        ai_will_do = {
+			factor = 1
+		}
+
+        remove_effect = {
+			swap_ideas = {
+                remove_idea = FRA_French_Economic_Reform 
+                add_idea = FRA_French_Economic_Reform2
+            }
+            set_country_flag = FRA_economic_completed_decision_1
+		}
+    }
+
+    ######################
+    #Budget Cuts
+    ######################
+    FRA_Budget_Cuts = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+			original_tag = FRA
+		}
+
+        cost = 10
+
+        days_remove = 30
+
+        available = {
+            has_completed_focus = FRA_Relaunching_Fiscal_Austerity
+            set_temp_variable = { total_support_to_check = 0.5 }
+            has_at_least_parliament_total_support = yes
+        }
+        
+        ai_will_do = {
+			factor = 1
+		}
+        remove_effect = {
+			set_temp_variable = { money_to_gain = 1000 }
+            add_money_with_inflation_included_with_tooltip_effect = yes
+		}
+    }
+    ######################
+    #Tax Increase
+    ######################
+    FRA_Tax_Increase = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+			original_tag = FRA
+		}
+
+        cost = 20
+
+        available = {
+            has_completed_focus = FRA_Relaunching_Fiscal_Austerity
+            has_country_flag = FRA_economic_completed_decision_1
+            set_temp_variable = { total_support_to_check = 0.5 }
+            has_at_least_parliament_total_support = yes
+        }
+        
+        ai_will_do = {
+			factor = 1
+		}
+
+        remove_effect = {
+            swap_ideas = {
+                remove_idea = FRA_French_Economic_Reform2
+                add_idea = FRA_French_Economic_Reform3
+            }
+            set_country_flag = FRA_economic_completed_decision_2
+            if = {
+                limit = {
+                    OR = {
+                        check_variable = { parliament_ruling_party = 1 }
+                        check_variable = { parliament_ruling_party = 2 }
+                    }
+                }
+                add_popularity = {
+                    ideology = fascist
+                    popularity = -0.02
+                }
+            }
+            else_if = {
+                limit = {
+                    check_variable = { parliament_ruling_party = 3 }
+                }
+                add_popularity = {
+                    ideology = authoritarian
+                    popularity = -0.02
+                }
+            }
+            else_if = {
+                limit = {
+                    OR = {
+                        check_variable = { parliament_ruling_party = 4 }
+                        check_variable = { parliament_ruling_party = 5 }
+                        check_variable = { parliament_ruling_party = 6 }
+                        check_variable = { parliament_ruling_party = 7 }
+                    }
+                }
+                add_popularity = {
+                    ideology = democratic
+                    popularity = -0.02
+                }
+            }
+            else_if = {
+                limit = {
+                    check_variable = { parliament_ruling_party = 8 }
+                }
+                add_popularity = {
+                    ideology = socialist
+                    popularity = -0.02
+                }
+            }
+            else_if = {
+                limit = {
+                    check_variable = { parliament_ruling_party = 9 }
+                }
+                add_popularity = {
+                    ideology = communist
+                    popularity = -0.02
+                }
+            }
+        }
+    }
+    ######################
+    #Reorganise the Taxes
+    ######################
+    FRA_Reorganise_the_Taxes = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+			original_tag = FRA
+		}
+        cost = 30
+        visible = {
+            has_completed_focus = FRA_Launch_the_Tax_Reform
+        }
+
+        available = {
+            has_completed_focus = FRA_Relaunching_Fiscal_Austerity
+            has_country_flag = FRA_economic_completed_decision_2
+            set_temp_variable = { total_support_to_check = 0.5 }
+            has_at_least_parliament_total_support = yes
+        }
+        
+        ai_will_do = {
+			factor = 1
+		}
+
+        remove_effect = {
+			swap_ideas = {
+                remove_idea = FRA_French_Economic_Reform3
+                add_idea = FRA_French_Economic_Reform4
+            }
+            set_country_flag = FRA_economic_completed_decision_3
+            
+		}
+    }
+
+     ######################
+    #Strengthen lease control
+    ######################
+   FRA_Strenghthen_lease_control = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+			original_tag = FRA
+		}
+
+        cost = 30
+
+        visible = {
+            has_completed_focus = FRA_Launch_the_Tax_Reform
+        }
+        
+        available = {
+            has_completed_focus = FRA_Relaunching_Fiscal_Austerity
+            has_country_flag = FRA_economic_completed_decision_3
+            set_temp_variable = { total_support_to_check = 0.5 }
+            has_at_least_parliament_total_support = yes
+        }
+        
+        ai_will_do = {
+			factor = 1
+		}
+
+        remove_effect = {
+			swap_ideas = {
+                remove_idea = FRA_French_Economic_Reform4
+                add_idea = FRA_French_Economic_Reform5
+            }
+            
+		}
+    }
+    
+
+    ######################
+    #Transfer of Mining Royalties to local authorities
+    ######################
+    FRA_Transfer_of_Mining_Royalties_to_local_authorities = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+			original_tag = FRA
+		}
+
+        cost = 30
+
+        visible = {
+            has_completed_focus = FRA_Launch_the_Tax_Reform
+        }
+        
+        available = {
+            has_completed_focus = FRA_Relaunching_Fiscal_Austerity
+            has_country_flag = FRA_economic_completed_decision_2
+        }
+        
+        ai_will_do = {
+			factor = 1
+		}
+
+        remove_effect = {
+			set_temp_variable = { money_to_gain = 500 }
+            add_money_with_inflation_included_with_tooltip_effect = yes
+            
+		}
+    }
+
+   
+    
+   
+}
+#######################################################################
+#State Reform
+#######################################################################
+FRA_Reform_of_the_State_category = {
+    ######################
+    #Article 6
+    ######################
+    FRA_Revise_Article_6 = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+			original_tag = FRA
+		}
+
+        days_remove = 50
+
+        visible = {
+        }
+        
+        available = {
+        }
+        
+        ai_will_do = {
+			factor = 1
+		}
+
+        remove_effect = {
+			country_event = {
+    			id = DH_FRA_Reform_of_the_State_Article_6.3
+			}
+            set_country_flag = FRA_Completed_Article_6
+		}
+	}
+    ######################
+    #Article 5
+    ######################
+    FRA_Revise_Article_5 = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+			original_tag = FRA
+		}
+
+        days_remove = 50
+
+        visible = {
+        }
+        
+        available = {
+            has_country_flag = FRA_Completed_Article_6
+        }
+        
+        ai_will_do = {
+			factor = 1
+		}
+
+        remove_effect = {
+			country_event = {
+    			id = DH_FRA_Reform_of_the_State_Article_5.1
+            }
+            set_country_flag = FRA_Completed_Article_5
+		}
+    }
+    ######################
+    #Article 4
+    ######################
+    FRA_Revise_Article_4 = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+			original_tag = FRA
+		}
+
+        days_remove = 50
+
+        visible = {
+        }
+        
+        available = {
+            has_country_flag = FRA_Completed_Article_5
+        }
+        
+        ai_will_do = {
+			factor = 1
+		}
+
+        remove_effect = {
+			country_event = {
+    			id = DH_FRA_Reform_of_the_State_Article_4.1
+			}
+            set_country_flag = FRA_Completed_Article_4
+		}
+    }
+    ######################
+    #Article 8
+    ######################
+    FRA_Revise_Article_8 = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+			original_tag = FRA
+		}
+
+        days_remove = 50
+
+        visible = {
+        }
+        
+        available = {
+            has_country_flag = FRA_Completed_Article_4
+        }
+        
+        ai_will_do = {
+			factor = 1
+		}
+
+        remove_effect = {
+			country_event = {
+    			id = DH_FRA_Reform_of_the_State_Article_8.1
+			}
+		}
+	}
+}
+#######################################################################
+#Negotiations with socialists
+#######################################################################
+FRA_Negotiations_with_Socialists = {
+    ###############################
+    #Bigger Socialist representation in the government?
+    ###############################
+    FRA_Bigger_Socialist_reppresentation_in_the_government = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+			original_tag = FRA
+		}
+
+        visible = {
+            AND = {
+                NOT = {has_country_flag = FRA_Servant_Budget_Refused}
+                NOT = {has_country_flag = FRA_Servant_Budget_Accepted}
+            }
+        }
+        
+        available = {
+        }
+        
+        ai_will_do = {
+			factor = 1
+		}
+
+        remove_effect = {
+            add_stability = -0.05
+            set_temp_variable = { party_id = 8 }
+            set_temp_variable = { support_to_add = 0.05 }
+            change_party_support = yes
+
+            add_to_variable = {
+                var = party_influence_8
+                value = 0.05 
+            }
+            update_parliament_piechart = yes
+		}
+    }
+    ###############################
+    #Temporary improvement of workers rights
+    ###############################
+    FRA_Temporary_imporvement_of_workers_rights = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+			original_tag = FRA
+		}
+
+        visible = {
+            AND = {
+                NOT = {has_country_flag = FRA_Servant_Budget_Refused}
+                NOT = {has_country_flag = FRA_Servant_Budget_Accepted}
+            }
+        }
+        
+        available = {
+        }
+        
+        ai_will_do = {
+			factor = 1
+        }
+        days_remove = 90
+        modifier = {
+            industrial_capacity_factory = -0.1
+            
+		}
+        complete_effect = {
+            set_temp_variable = { party_id = 8 }
+            set_temp_variable = { support_to_add = 0.05 }
+            change_party_support = yes
+        }
+        remove_effect = {
+            
+            
+		}
+    }
+    ###############################
+    #Personal Bribes
+    ###############################
+    FRA_Personal_Bribes = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+            original_tag = FRA
+            OR = {
+                NOT = {has_country_flag = FRA_Servant_Budget_Refused }
+                NOT = {has_country_flag = FRA_Servant_Budget_Accepted }
+            }        
+		}
+
+        visible = {
+            AND = {
+                NOT = {has_country_flag = FRA_Servant_Budget_Refused }
+                NOT = {has_country_flag = FRA_Servant_Budget_Accepted }
+            }
+        }
+        
+        available = {
+            OR = {
+                NOT = {has_country_flag = FRA_Servant_Budget_Refused }
+                NOT = {has_country_flag = FRA_Servant_Budget_Accepted }
+            }
+        }
+        
+        ai_will_do = {
+			factor = 1
+        }
+        days_remove = 365
+        modifier = {
+            money_expenses = -10
+        }
+        complete_effect = {
+            set_temp_variable = { party_id = 8 }
+            set_temp_variable = { support_to_add = 0.05 }
+            change_party_support = yes
+            
+        }
+        remove_effect = {
+            
+		}
+    }
+    
+}
+#######################################################################
+#Barthou Doctrine
+#######################################################################
+FRA_Barthou_Doctrine_category = {
+
+}
+#######################################################################
+#Pacifism
+#######################################################################
+FRA_Pacifism_category = {
+
+}
+#######################################################################
+#Nationalization Program
+#######################################################################
+FRA_Nationalization_Program_category = {
+    FRA_Nationalize_Arms_Industry = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+            original_tag = FRA
+		}
+
+        visible = {
+           
+        }
+        
+        available = {
+        }
+        
+        ai_will_do = {
+			factor = 1
+        }
+        complete_effect = {
+           add_stability = -0.05
+           random_owned_controlled_state = {
+                limit = {
+                    is_core_of = FRA
+                }
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    is_core_of = FRA
+                }
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    is_core_of = FRA
+                }
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    is_core_of = FRA
+                }
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+                add_extra_state_shared_building_slots = 1
+            }
+        }
+    }
+    FRA_Found_the_SNCF = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+            original_tag = FRA
+		}
+
+        visible = {
+           
+        }
+        
+        available = {
+        }
+        
+        ai_will_do = {
+			factor = 1
+        }
+        cost = 150
+        days_remove = 50
+        complete_effect = {
+           
+        }
+        remove_effect = {
+            random_owned_controlled_state = {
+                limit = {
+                    is_core_of = FRA
+                }
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    is_core_of = FRA
+                }
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    is_core_of = FRA
+                }
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    is_core_of = FRA
+                }
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    is_core_of = FRA
+                }
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    is_core_of = FRA
+                }
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+		}
+    }
+}
+#######################################################################
+#Électrifier la France
+#######################################################################
+FRA_Electrify_France_category = {
+    FRA_Electrify_the_North = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+            original_tag = FRA 
+		}
+
+        visible = {
+            
+        }
+        
+        available = {
+            
+        }
+        
+        ai_will_do = {
+			factor = 1
+        }
+        days_remove = 200
+
+        complete_effect = {
+            set_temp_variable = { money_to_gain = -300 }
+            add_money_with_inflation_included_with_tooltip_effect = yes
+        }
+        remove_effect = {
+            set_temp_variable = { unemployment_value = -0.01 }
+			add_unemployment_effect = yes
+            762 = {
+                add_extra_state_shared_building_slots = 2
+            }
+            29 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction  = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+               }
+            }
+            1022 = {
+                add_extra_state_shared_building_slots = 2
+            }
+            1023 = {
+                add_extra_state_shared_building_slots = 2
+            }
+		}
+    }
+    FRA_Electrify_Alsace_Lorraine = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+            original_tag = FRA 
+		}
+
+        visible = {
+            
+        }
+        
+        available = {
+            
+        }
+        
+        ai_will_do = {
+			factor = 1
+        }
+        days_remove = 200
+
+        complete_effect = {
+            set_temp_variable = { money_to_gain = -400 }
+            add_money_with_inflation_included_with_tooltip_effect = yes
+        }
+        remove_effect = {
+            set_temp_variable = { unemployment_value = -0.01 }
+			add_unemployment_effect = yes
+            28 = {
+                add_extra_state_shared_building_slots = 2
+            }
+            763 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction  = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+               }
+            }
+            847= {
+                add_extra_state_shared_building_slots = 2
+            }
+            1169 = {
+                add_extra_state_shared_building_slots = 2
+            }
+		}
+    }
+    FRA_Electrify_Normandie = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+            original_tag = FRA 
+		}
+
+        visible = {
+            
+        }
+        
+        available = {
+            
+        }
+        
+        ai_will_do = {
+			factor = 1
+        }
+        days_remove = 100
+
+        complete_effect = {
+            set_temp_variable = { money_to_gain = -200 }
+            add_money_with_inflation_included_with_tooltip_effect = yes
+        }
+        remove_effect = {
+            set_temp_variable = { unemployment_value = -0.01 }
+			add_unemployment_effect = yes
+            1026 = {
+                add_extra_state_shared_building_slots = 2
+            }
+            15 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction  = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+               }
+            }
+		}
+    }
+    FRA_Electrify_Bretagne_and_Loire = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+            original_tag = FRA 
+		}
+
+        visible = {
+            
+        }
+        
+        available = {
+            
+        }
+        
+        ai_will_do = {
+			factor = 1
+        }
+        days_remove = 100
+
+        complete_effect = {
+            set_temp_variable = { money_to_gain = -200 }
+            add_money_with_inflation_included_with_tooltip_effect = yes
+        }
+        remove_effect = {
+            set_temp_variable = { unemployment_value = -0.01 }
+			add_unemployment_effect = yes
+            14 = {
+                add_extra_state_shared_building_slots = 2
+            }
+            1028 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction  = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+               }
+            }
+            30 = {
+                add_extra_state_shared_building_slots = 2
+            }
+		}
+    }
+    FRA_Electrify_the_Centre = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+            original_tag = FRA 
+		}
+
+        visible = {
+            
+        }
+        
+        available = {
+            
+        }
+        
+        ai_will_do = {
+			factor = 1
+        }
+        days_remove = 100
+
+        complete_effect = {
+            set_temp_variable = { money_to_gain = -200 }
+            add_money_with_inflation_included_with_tooltip_effect = yes
+        }
+        remove_effect = {
+            set_temp_variable = { unemployment_value = -0.01 }
+			add_unemployment_effect = yes
+            33 = {
+                add_extra_state_shared_building_slots = 2
+            }
+            24 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction  = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+               }
+            }
+		}
+    }
+    FRA_Electrify_Bourgogne_Franche_Comte = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+            original_tag = FRA 
+		}
+
+        visible = {
+            
+        }
+        
+        available = {
+            
+        }
+        
+        ai_will_do = {
+			factor = 1
+        }
+        days_remove = 200
+
+        complete_effect = {
+            set_temp_variable = { money_to_gain = -400 }
+            add_money_with_inflation_included_with_tooltip_effect = yes
+        }
+        remove_effect = {
+            set_temp_variable = { unemployment_value = -0.01 }
+			add_unemployment_effect = yes
+            27 = {
+                add_extra_state_shared_building_slots = 2
+            }
+            17 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction  = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+               }
+            }
+            18 = {
+                add_extra_state_shared_building_slots = 2
+            }
+		}
+    }
+    FRA_Electrify_Aquitaine_and_Occitania = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+            original_tag = FRA 
+		}
+
+        visible = {
+            
+        }
+        
+        available = {
+            
+        }
+        
+        ai_will_do = {
+			factor = 1
+        }
+        days_remove = 400
+
+        complete_effect = {
+            set_temp_variable = { money_to_gain = -600 }
+            add_money_with_inflation_included_with_tooltip_effect = yes
+        }
+        remove_effect = {
+            set_temp_variable = { unemployment_value = -0.01 }
+			add_unemployment_effect = yes
+            22 = {
+                add_extra_state_shared_building_slots = 2
+            }
+            31 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction  = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+               }
+            }
+            23 = {
+                add_extra_state_shared_building_slots = 2
+            }
+            25 = {
+                add_extra_state_shared_building_slots = 2
+            }
+		}
+    }
+    FRA_Electrify_Rhone_Alpes = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+            original_tag = FRA 
+		}
+
+        visible = {
+            
+        }
+        
+        available = {
+            
+        }
+        
+        ai_will_do = {
+			factor = 1
+        }
+        days_remove = 300
+
+        complete_effect = {
+            set_temp_variable = { money_to_gain = -400 }
+            add_money_with_inflation_included_with_tooltip_effect = yes
+        }
+        remove_effect = {
+            set_temp_variable = { unemployment_value = -0.01 }
+			add_unemployment_effect = yes
+            735 = {
+                add_extra_state_shared_building_slots = 2
+            }
+            32 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction  = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+               }
+            }
+            764 = {
+                add_extra_state_shared_building_slots = 2
+            }
+            1021 = {
+                add_extra_state_shared_building_slots = 2
+            }
+            1025 = {
+                add_extra_state_shared_building_slots = 2
+            }
+            1029 = {
+                add_extra_state_shared_building_slots = 2
+            }
+		}
+    }
+    FRA_Electrify_Provence = {
+        icon = putIcon
+        fire_only_once = yes
+
+        allowed = {
+            original_tag = FRA 
+		}
+
+        visible = {
+            
+        }
+        
+        available = {
+            
+        }
+        
+        ai_will_do = {
+			factor = 1
+        }
+        days_remove = 200
+
+        complete_effect = {
+            set_temp_variable = { money_to_gain = -300 }
+            add_money_with_inflation_included_with_tooltip_effect = yes
+        }
+        remove_effect = {
+            set_temp_variable = { unemployment_value = -0.01 }
+			add_unemployment_effect = yes
+            21 = {
+                add_extra_state_shared_building_slots = 2
+            }
+            1030 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction  = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+               }
+            }
+            846 = {
+                add_extra_state_shared_building_slots = 2
+            }
+		}
+    }
+}

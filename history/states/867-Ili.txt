@@ -1,0 +1,30 @@
+state={
+	id=867
+	name="STATE_867"
+	
+	history = {
+		owner = SIK
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			12601 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		1946.1.1 = {
+			owner = ETS
+		}
+		1950.1.1 = {
+			owner = PRC
+		}
+	}
+	
+	provinces={
+		7850 7866 12601
+	}
+	manpower=480950
+	buildings_max_level_factor=1.000
+	state_category=town
+}

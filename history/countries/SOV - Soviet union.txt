@@ -1,0 +1,1153 @@
+#########################################################################
+# Soviet Union - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 219
+	set_stability = 0.5
+	set_war_support = 0.8
+	oob = "SOV_1933"
+	set_research_slots = 3
+	set_convoys = 50
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		tech_recon = 1
+		tech_support = 1
+		tech_engineers = 1
+		tech_military_police = 1
+		tech_mountaineers = 1
+		truck_1936 = 1
+		paratroopers = 1
+		Artillery_1910 = 1
+		Fighter_1933 = 1
+		Fighter_Bomber_1933 = 1
+		Fighter_1936 = 1
+		Tactical_Bomber_1933 = 1
+		Strategic_Bomber_1933 = 1
+		Naval_Bomber_1936 = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		Light_Tank_1926 = 1
+		Light_Tank_1934 = 1
+		Light_Tank_1936 = 1
+		#Naval Stuff
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		DD_1922 = 1
+		DD_1933 = 1
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+		CL_1922 = 1
+		CL_1933 = 1
+		CL_1936 = 1
+		CA_1885 = 1
+		CA_1895 = 1
+		CA_1906 = 1
+		CA_1922 = 1
+		CA_1933 = 1
+		CA_1936 = 1
+		SS_1895 = 1
+		SS_1912 = 1
+		SS_1916 = 1
+		SS_1922 = 1
+		SS_1933 = 1
+		BC_1906 = 1
+		BC_1912 = 1
+		BC_1916 = 1
+		BC_1933 = 1
+		BB_1885 = 1
+		BB_1895 = 1
+		BB_1900 = 1
+		BB_1906 = 1
+		BB_1912 = 1
+		BB_1916 = 1
+		BB_1922 = 1
+		CV_1912 = 1
+		transport = 1
+		Mass_Assault = 1
+		fleet_in_being = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = communist
+		last_election = "1933.7.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 2
+		democratic = 8
+		socialist = 10
+		communist = 80
+	}
+	add_ideas = {
+		# National Spirits
+		SOV_The_Great_Soviet_Famine
+		SOV_Aftermath_of_the_Ryutin_Affair
+		SOV_Final_Phase_of_the_Decossackization
+		SOV_Deficient_Economy
+		SOV_Soviet_Collectivization
+		SOV_High_Agricultural_Employment
+		# Laws & Policies
+		isolationism
+		industrializing_economy
+		two_year_service
+		# Cabinet
+		SOV_HoG_Vyacheslav_M_Molotov
+		SOV_FM_Maksim_M_Litvinov
+		SOV_MoS_Vyacheslav_Menzhinsky
+		SOV_AM_Hryhoriy_Hrynko
+		SOV_HoI_Yan_K_Berzin
+		SOV_M_Mikhail_I_Kalinin
+		SOV_M_Lazar_M_Kaganovich
+		# Military Staff
+		SOV_CoStaff_Alexander_Yegorov
+		SOV_CoArmy_Kliment_Y_Voroshilov
+		SOV_CoNavy_Vladimir_M_Orlov
+		SOV_CoAir_Yakov_I_Alksnis
+	}
+	#######################
+	# Diplomacy
+	#######################
+	create_faction = Comintern
+	add_to_faction = SOV
+	add_to_faction = MON
+	add_to_faction = TAN
+	set_autonomy = {
+		target = MON
+		autonomy_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = TAN
+		autonomy_state = autonomy_satellite
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Konstantin Rodzaevsky"
+		desc = ""
+		picture = "P_F_Konstantin_Rodzaevsky.tga"
+		expire = "1965.1.1"
+		ideology = national_socialism
+		traits = {
+		}
+	}
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Kirill Vladimirovich"
+		desc = ""
+		picture = "P_A_Kirill_Vladimirovich.tga"
+		expire = "1938.1.1"
+		ideology = authoritarian_democracy
+		traits = {
+		}
+	}
+	# democratic
+	create_country_leader = {
+		name = "Pavel Milyukov"
+		desc = ""
+		picture = "P_D_Pavel_Milyukov.tga"
+		expire = "1965.1.1"
+		ideology = social_liberalism
+		traits = {
+		}
+	}
+	# Socialism
+	create_country_leader = {
+		name = "Viktor Chernov"
+		desc = ""
+		picture = "P_S_Viktor_Chernov.tga"
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {
+		}
+	}
+	# Communism
+	create_country_leader = {
+		name = "Joseph Stalin"
+		desc = "Joseph_Stalin_desc"
+		picture = "P_C_Joseph_Stalin.tga"
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {
+			POSITION_General_Secretary
+			SUBIDEOLOGY_Stalinism
+			HoS_Paranoid_Megalomaniac
+		}
+	}
+	#######################
+	# Generals
+	#######################
+	add_namespace = {
+		name = "unit_leader_sov"
+		type = unit_leader
+	}
+	create_corps_commander = {
+		name = "Georgy Zhukov"
+		id = 410
+		picture = "M_Georgy_Zhukov.tga"
+		traits = {
+			brilliant_strategist
+			panzer_leader
+			winter_specialist
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Konstantin Rokossovsky"
+		id = 402
+		picture = "M_Konstantin_Rokossovsky.tga"
+		traits = {
+			panzer_leader
+			organizer
+			winter_specialist
+			brilliant_strategist
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Mikhail Katutov"
+		id = 502
+		picture = "M_Mikhail_Katukov.tga"
+		traits = {
+			career_officer
+			armor_officer
+			panzer_leader
+			panzer_expert
+		}
+		skill = 3
+		attack_skill = 4
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 4
+	}
+	create_corps_commander = {
+		name = "Aleksandr Vasilevsky"
+		id = 407
+		picture = "M_Aleksandr_Vasilevsky.tga"
+		traits = {
+			armor_officer
+			trickster
+			organizer
+			skilled_staffer
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 4
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Boris Shaposhnikov"
+		picture = "M_Boris_Shaposhnikov.tga"
+		traits = {
+			winter_specialist
+			skilled_staffer
+			career_officer
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 4
+	}
+	create_corps_commander = {
+		name = "Ivan Konev"
+		id = 408
+		picture = "M_Ivan_Konev.tga"
+		traits = {
+			panzer_leader
+			harsh_leader
+			trickster
+			winter_specialist
+		}
+		skill = 2
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Semyon Timoshenko"
+		id = 504
+		picture = "M_Semyon_Timoshenko.tga"
+		traits = {
+			old_guard
+			politically_connected
+			inflexible_strategist
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Dimitro Pavlov"
+		id = 404
+		picture = "M_Dmitry_Pavlov.tga"
+		traits = {
+			old_guard
+			trait_reckless
+		}
+		skill = 2
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_field_marshal = {
+		name = "Kliment Voroshilov"
+		id = 405
+		picture = "M_Kliment_Voroshilov.tga"
+		traits = {
+			old_guard
+			politically_connected
+			inflexible_strategist
+			war_hero
+			defensive_doctrine
+			winter_specialist
+		}
+		skill = 2
+		attack_skill = 1
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_field_marshal = {
+		name = "Mikhail Tukhachevsky"
+		id = 401
+		picture = "M_Mikhail_Tukhachevsky.tga"
+		traits = {
+			politically_connected
+			offensive_doctrine
+			brilliant_strategist
+			armor_officer
+			career_officer
+		}
+		skill = 4
+		attack_skill = 5
+		defense_skill = 2
+		planning_skill = 4
+		logistics_skill = 3
+	}
+	create_field_marshal = {
+		name = "Semyon Budyonny"
+		picture = "M_Semyon_Budyonny.tga"
+		traits = {
+			old_guard
+			politically_connected
+			war_hero
+			cavalry_officer
+			cavalry_leader
+		}
+		skill = 1
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Ivan Chernyakhovsky"
+		picture = "M_Ivan_Chernyakhovsky.tga"
+		traits = {
+			armor_officer
+			brilliant_strategist
+			panzer_leader
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 1
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Andrei Grechko"
+		picture = "M_Andrei_Grechko.tga"
+		traits = {
+			career_officer
+		}
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Ivan Bagramyan"
+		picture = "M_Ivan_Bagramyan.tga"
+		traits = {
+			infantry_officer
+			skilled_staffer
+			trait_mountaineer
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Vasily Blyukher"
+		picture = "M_Vasily_Blyukher.tga"
+		traits = {
+			brilliant_strategist
+			war_hero
+			trickster
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Mikhail Katukov"
+		picture = "M_Mikhail_Katukov.tga"
+		traits = {
+			career_officer
+			armor_officer
+			panzer_leader
+			panzer_expert
+		}
+		skill = 3
+		attack_skill = 4
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 4
+	}
+	create_corps_commander = {
+		name = "Dimitri Pavlov"
+		picture = "M_Dmitry_Pavlov.tga"
+		traits = {
+			old_guard
+			trait_reckless
+		}
+		skill = 2
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Yan Gamarnik"
+		picture = "M_Yan_Gamarnik.tga"
+		traits = {
+			politically_connected
+			harsh_leader
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Alexander Yegorov"
+		picture = "M_Alexander_Yegorov.tga"
+		traits = {
+			infantry_officer
+			politically_connected
+			war_hero
+			infantry_leader
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Ivan Fedko"
+		picture = "M_Ivan_Fedko.tga"
+		traits = {
+			politically_connected
+			war_hero
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 4
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Ieronim Uborevich"
+		picture = "M_Ieronim_Uborevich.tga"
+		traits = {
+			war_hero
+			trickster
+			organizer
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Iona Yakir"
+		picture = "M_Iona_Yakir.tga"
+		traits = {
+			politically_connected
+			career_officer
+			brilliant_strategist
+		}
+		skill = 4
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Leonid Govorov"
+		picture = "M_Leonid_Govorov.tga"
+		traits = {
+			bearer_of_artillery
+			trait_engineer
+			winter_specialist
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "August Kork"
+		picture = "M_August_Kork.tga"
+		traits = {
+			career_officer
+			trait_reckless
+			brilliant_strategist
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 1
+		logistics_skill = 5
+	}
+	create_corps_commander = {
+		name = "Roberts Eidemanis"
+		picture = "M_Roberts_Eidemanis.tga"
+		traits = {
+			career_officer
+			harsh_leader
+		}
+		skill = 2
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Nikolai Kashirin"
+		picture = "M_Nikolai_Kashirin.tga"
+		traits = {
+			war_hero
+			infantry_leader
+			winter_specialist
+			organizer
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 4
+		logistics_skill = 4
+	}
+	create_corps_commander = {
+		name = "Pavel Dybenko"
+		picture = "M_Pavel_Dybenko.tga"
+		traits = {
+			harsh_leader
+			politically_connected
+		}
+		skill = 2
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Vitaly Primakov"
+		picture = "M_Vitaly_Primakov.tga"
+		traits = {
+			organizer
+			politically_connected
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 4
+	}
+	create_field_marshal = {
+		name = "Grigory Kulik"
+		picture = "M_Grigori_Kulik.tga"
+		traits = {
+			old_guard
+			politically_connected
+		}
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Kirill Meretskov"
+		picture = "M_Kirill_Meretskov.tga"
+		traits = {
+			organizer
+			winter_specialist
+		}
+		skill = 2
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Filipp Golikov"
+		picture = "M_Filipp_Golikov.tga"
+		traits = {
+			career_officer
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Andrey Yeryomenko"
+		picture = "M_Andrey_Yeryomenko.tga"
+		traits = {
+			cavalry_officer
+			winter_specialist
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 4
+		planning_skill = 2
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Georgiy Zakharov"
+		picture = "M_Georgiy_Zakharov.tga"
+		traits = {
+		}
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Max Reyter"
+		picture = "M_Max_Reyter.tga"
+		traits = {
+			career_officer
+		}
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Vasily Kuznetsov"
+		picture = "M_Vasily_Kuznetsov.tga"
+		traits = {
+			commando
+			infantry_officer
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Andrey Vlasov"
+		picture = "M_Andrey_Vlasov.tga"
+		traits = {
+			winter_specialist
+			infantry_leader
+		}
+		id = 412
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Ivan Fedyuninsky"
+		picture = "M_Ivan_Fedyuninsky.tga"
+		traits = {
+			infantry_officer
+		}
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Nikolai Berzarin"
+		picture = "M_Nikolai_Berzarin.tga"
+		traits = {
+			infantry_officer
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Kirill Moskalenko"
+		picture = "M_Kirill_Moskalenko.tga"
+		traits = {
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Dmitry Lelyushenko"
+		picture = "M_Dmitry_Lelyushenko.tga"
+		traits = {
+			armor_officer
+			trait_reckless
+		}
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Rodion Malinovsky"
+		picture = "M_Rodion_Malinovsky.tga"
+		traits = {
+			career_officer
+		}
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Vasily Chuikov"
+		picture = "M_Vasily_Chuikov.tga"
+		traits = {
+			inflexible_strategist
+			trickster
+			urban_assault_specialist
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Nikolai Vatutin"
+		picture = "M_Nikolai_Vatutin.tga"
+		traits = {
+			trait_cautious
+			infantry_officer
+			infantry_leader
+			winter_specialist
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 4
+	}
+	create_corps_commander = {
+		name = "Vasily Sokolovsky"
+		picture = "M_Vasily_Sokolovsky.tga"
+		traits = {
+
+		}
+		skill = 2
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Pavel Batov"
+		picture = "M_Pavel_Batov.tga"
+		traits = {
+			brilliant_strategist
+			skilled_staffer
+			commando
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 4
+	}
+	#######################
+	# Admirals
+	#######################
+	create_navy_leader = {
+		name = "Filipp Oktyabrsky"
+		picture = "M_Filipp_Oktyabrsky.tga"
+		traits = { 
+			ironside
+			ground_pounder
+		 }
+		skill = 2
+		attack_skill = 3
+		defense_skill = 2
+		maneuvering_skill = 2
+		coordination_skill = 2
+	}
+	create_navy_leader = {
+		name = "Sergey Gorshkov"
+		id = 411
+		picture = "M_Sergey_Gorshkov.tga"
+		traits = { 
+			career_officer
+			chief_engineer
+			blockade_runner
+			superior_tactician
+		 }
+		skill = 2
+		attack_skill = 2
+		defense_skill = 3
+		maneuvering_skill = 3
+		coordination_skill = 2
+	}
+	create_navy_leader = {
+		name = "Arseniy Golovko"
+		id = 409
+		picture = "M_Arseniy_Golovko.tga"
+		traits = { 
+			spotter
+		 }
+		skill = 2
+		attack_skill = 3
+		defense_skill = 2
+		maneuvering_skill = 2
+		coordination_skill = 2
+	}
+}
+
+#########################################################################
+# Soviet Union - 1936
+#########################################################################
+1936.1.1 = {
+	oob = "SOV_1936"
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = communist
+		last_election = "1933.7.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 2
+		democratic = 8
+		socialist = 10
+		communist = 80
+	}
+	remove_ideas = {
+		SOV_Collectivization_Process
+		SOV_Ethnic_Nationalism
+	}
+	add_ideas = {
+		# National Spirits
+		# Laws & Policies
+		neutrality		
+		# Cabinet
+		SOV_HoG_Vyacheslav_M_Molotov
+		SOV_FM_Maksim_M_Litvinov
+		SOV_AM_Lazar_M_Kaganovich
+		SOV_MoS_Genrikh_G_Yagoda
+		SOV_HoI_Yan_K_Berzin
+		# Military Staff
+		SOV_CoStaff_Mikhail_N_Tukhatchevskiy
+		SOV_CoArmy_Kliment_Y_Voroshilov
+		SOV_CoNavy_Vladimir_M_Orlov
+		SOV_CoAir_Yakov_I_Alksnis
+	}
+	create_intelligence_agency = {
+		name = "NKVD"
+		icon = "GFX_intelligence_agency_logo_sov"
+	}
+}
+
+############################################
+# Soviet Union - 1939
+############################################
+1939.9.1 = {
+	oob = "SOV_1939"
+	set_cosmetic_tag = SOV_1936
+}
+
+############################################
+# Soviet Union - 1940
+############################################
+1940.5.10 = {
+	oob = "SOV_1940"
+}
+
+############################################
+# Soviet Union - 1944
+############################################
+1944.6.20 = {
+	oob = "SOV_1944"
+}
+
+############################################
+# Soviet Union - 1946
+############################################
+1946.1.1 = {
+	remove_ideas = {
+		SOV_The_Great_Soviet_Famine
+		SOV_Aftermath_of_the_Ryutin_Affair
+		SOV_Final_Phase_of_the_Decossackization
+		SOV_Deficient_Economy
+	}
+	#######################
+	# Leaders
+	#######################
+	# Communism
+	create_country_leader = {
+		name = "Joseph Stalin"
+		desc = "Joseph_Stalin_desc"
+		picture = "P_C_Joseph_Stalin_OLD.tga"
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {
+			POSITION_General_Secretary
+			SUBIDEOLOGY_Stalinism
+			HoS_Paranoid_Megalomaniac
+		}
+	}
+	#######################
+	# Diplomacy
+	#######################
+	set_faction_name = "Eastern Bloc"
+	set_autonomy = {
+		target = ROM
+		autonomy_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = POL
+		autonomy_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = HUN
+		autonomy_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = CZE
+		autonomy_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = BUL
+		autonomy_state = autonomy_satellite
+	}
+	white_peace = FIN
+	white_peace = NOR
+	white_peace = ITA
+}
+
+############################################
+# Soviet Union - 1950
+############################################
+1950.1.1 = {
+	set_autonomy = {
+		target = DDR
+		autonomy_state = autonomy_satellite
+	}
+}
+
+############################################
+# Soviet Union - 1956
+############################################
+1956.1.1 = {
+	set_faction_name = "Warsaw Pact"
+	set_cosmetic_tag = SOV_1955
+	#######################
+	# Leaders
+	#######################
+	# Communism
+	create_country_leader = {
+		name = "Nikita S. Khrushchev"
+		desc = ""
+		picture = "P_C_Nikita_Khrushchev_OLD.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = {
+			POSITION_General_Secretary
+			SUBIDEOLOGY_Marxism_Leninism
+			HoS_Die_Hard_Reformer
+		}
+	}
+}
+
+############################################
+# Soviet Union - 1972
+############################################
+1972.1.1 = {
+	#######################
+	# Leaders
+	#######################
+	# Communism
+	create_country_leader = {
+		name = "Leonid I. Brezhnev"
+		desc = ""
+		picture = "P_C_Leonid_Brezhnev.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = {
+			POSITION_General_Secretary
+			SUBIDEOLOGY_Marxism_Leninism
+			HoS_Stern_Imperialist
+		}
+	}
+}
+
+############################################
+# Soviet Union - 1991
+############################################
+1991.1.1 = {
+	#######################
+	# Diplomacy
+	#######################
+	dismantle_faction = yes
+	set_autonomy = {
+		target = ROM
+		autonomy_state = autonomy_free
+	}
+	set_autonomy = {
+		target = POL
+		autonomy_state = autonomy_free
+	}
+	set_autonomy = {
+		target = HUN
+		autonomy_state = autonomy_free
+	}
+	set_autonomy = {
+		target = CZE
+		autonomy_state = autonomy_free
+	}
+	set_autonomy = {
+		target = BUL
+		autonomy_state = autonomy_free
+	}
+	set_autonomy = {
+		target = MON
+		autonomy_state = autonomy_free
+	}
+	#######################
+	# Politics
+	#######################	
+	set_party_name = {
+		ideology = democratic
+		name = SOV_democratic_2000_party
+		long_name = SOV_democratic_2000_party_long
+	}
+	#######################
+	# Leaders
+	#######################
+	# Communism
+	create_country_leader = {
+		name = "Mikhail Gorbachev"
+		desc = ""
+		picture = "P_C_Mikhail_Gorbachev.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = {
+			POSITION_General_Secretary
+			SUBIDEOLOGY_Marxism_Leninism
+			HoS_Die_Hard_Reformer
+		}
+	}
+}
+
+#########################################################################
+# Russian Federation - 2000
+#########################################################################
+2000.1.1 = {
+	#######################
+	# Diplomacy
+	#######################
+	create_faction = "CSTO"
+	add_to_faction = BLR
+	add_to_faction = UKR
+	add_to_faction = UZB
+	add_to_faction = TMS
+	add_to_faction = TAJ
+	add_to_faction = KYR
+	add_to_faction = KAZ
+	add_to_faction = GEO
+	#######################
+	# Politics
+	#######################
+	set_cosmetic_tag = SOV_RUSFED
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1933.7.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 2
+		democratic = 80
+		socialist = 10
+		communist = 8
+	}
+	#######################
+	# Leaders
+	#######################
+	# Democratic
+	create_country_leader = {
+		name = "Vladimir Putin"
+		desc = ""
+		picture = "P_D_Vladimir_Putin.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Conservatism
+			HoS_Autocratic_Charmer
+		}
+	}
+}

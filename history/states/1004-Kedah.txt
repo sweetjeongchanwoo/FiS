@@ -1,0 +1,39 @@
+state={
+	id=1004
+	name="STATE_1004"
+	
+	history={
+		owner = MAL
+		victory_points = {
+		    12144 3
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MAL
+		1942.11.22 = {
+			owner = MAL
+			controller = JAP
+
+		}
+		1944.6.20 = {
+			owner = MAL
+			controller = SIA
+
+		}
+		1946.1.1 = {
+			owner = MAL
+			controller = MAL
+
+		}
+
+	}
+	
+	provinces={
+		1291 12144 13307 
+	}
+	manpower=2071900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

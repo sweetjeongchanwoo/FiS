@@ -1,0 +1,24 @@
+state={
+	id=1327
+	name="STATE_1327"
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+			14308 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		14301 14305 14308 
+	}
+	manpower=15346
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

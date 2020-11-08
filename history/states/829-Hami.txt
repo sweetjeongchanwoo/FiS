@@ -1,0 +1,33 @@
+state={
+	id=829
+	name="STATE_829"
+	
+	history={
+		owner = SIK
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			1838 1 
+		}
+		1933.1.1 = {
+			controller = TNG
+		}
+		1936.1.1 = {
+			owner = SIK
+		}		
+		1950.1.1 = {
+			owner = PRC
+		}
+	}	
+	
+	provinces={
+		1838 
+	}
+	manpower=1430000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

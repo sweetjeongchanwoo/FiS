@@ -1,0 +1,106 @@
+
+scripted_diplomatic_actions = {
+ 
+ 	GER_Invite_Into_The_AK_Pact = { 
+ 	
+ 		allowed = { 
+ 		    ROOT = {
+  				has_country_flag = Chief_Anti_Komintern_Pact
+  				NOT = { 
+					is_in_faction_with = SOV 
+					has_war_with = ROOT
+				}
+  			}
+  			THIS = {
+  			    NOT = {
+  			       TAG = SOV
+  			       is_in_faction_with = SOV
+  			       has_country_flag = Member_Anti_Komintern_Pact
+  			       is_subject_of = SOV
+  			    }
+  			}
+ 		}
+ 		visible = { 
+ 		    ROOT = {
+  				has_country_flag = Chief_Anti_Komintern_Pact
+  			}
+ 		}
+ 		selectable = { 
+ 		    ROOT = {
+  				has_country_flag = Chief_Anti_Komintern_Pact
+  			}
+  			THIS = {
+  			    NOT = {
+  			       TAG = SOV
+  			       is_in_faction_with = SOV
+  			       has_idea = anti_soviet_pact
+  			       is_subject_of = SOV
+				   has_war_with = ROOT
+  			    }
+  			}
+ 		}
+ 
+ 		requires_acceptance = yes
+ 		cost = 0
+ 		command_power = 0  
+ 
+ 		show_acceptance_on_action_button = yes 
+ 
+ 		icon = 1  
+ 
+ 
+ 		on_sent_effect = {
+ 		}
+ 
+ 		complete_effect = {
+ 		    THIS = { 
+ 		      add_ideas = anti_soviet_pact
+          SOV = {
+            add_opinion_modifier = {
+              target = ROOT
+              modifier = pact_against_us
+            }     
+          } 
+ 		    	ROOT = {         
+ 		        	country_event =  {
+ 		           		id = DH_GER_AntiKomintern.1
+ 		           		hours = 3
+ 		       		}
+ 		    	} 		        
+ 		    }
+ 		}
+ 
+ 		reject_effect = {
+ 		}
+   
+ 		can_be_accepted = {   
+ 			always = yes
+ 		}
+ 		receive_description = GER_Invite_Into_The_AK_Pact_description 
+ 
+ 		
+ 		accept_title = GER_Invite_Into_The_AK_Pact_accept
+ 		accept_description = GER_Invite_Into_The_AK_Pact_accept_description
+ 		reject_title = GER_Invite_Into_The_AK_Pact_reject
+ 		reject_description = GER_Invite_Into_The_AK_Pact_reject
+ 	
+ 		
+ 		ai_acceptance = {
+ 			condition = { 
+ 				base = -20
+				modifier = {
+					add = 25
+					is_in_faction_with = GER
+				}
+				modifier = {
+					add = 50
+					is_puppet_of = GER
+				}
+ 			}
+ 		}
+ 
+ 		ai_desire = {
+ 			base = -1
+ 		}
+	}
+}

@@ -1,0 +1,33 @@
+state= {
+	id=902
+	name="STATE_902"
+	manpower = 805060
+	state_category = city
+	history={
+		owner = PRC
+		add_core_of = CHI
+		add_core_of = PRC
+		1936.1.1 = {
+			owner = CHI
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			1006 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+
+		1946.1.1 = {
+			owner = CHI
+			controller = CHI
+		}	
+		1950.1.1 = {
+			owner = PRC
+		}			
+	}
+	provinces={
+		1006 1138 4053 7099 10084
+	}
+}

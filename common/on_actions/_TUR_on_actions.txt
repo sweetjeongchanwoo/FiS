@@ -1,0 +1,33 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			TUR = {
+				if = {
+					limit = {
+						date > 1933.1.1
+						date < 1936.1.1
+					}
+					set_temp_variable = { progress_to_add = 27 }
+					add_minority_rebellion_progress = yes
+				}
+			}
+		}
+	}
+	on_weekly_TUR = {
+		effect = {
+			set_temp_variable = { weekly_rebellion_progress_growth_temp = modifier@weekly_rebellion_progress_growth }
+			if = {
+				limit = {
+					NOT = { check_variable = { weekly_rebellion_progress_growth_temp = 0 } }
+				}
+				set_temp_variable = { progress_to_add = weekly_rebellion_progress_growth_temp }
+				add_minority_rebellion_progress = yes
+			}
+		}
+		effect = {
+			set_variable = { tur_chp_influence_decrease_var = rebelliousness_of_the_minorities_var }
+			multiply_variable = { tur_chp_influence_decrease_var = -1 }
+			divide_variable = { tur_chp_influence_decrease_var = 100 } 	
+		}
+	}
+}

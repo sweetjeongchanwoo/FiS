@@ -1,0 +1,81 @@
+#########################################################################
+#  German Decision Categories
+#########################################################################
+
+###########################
+# Economic Recovery Policy
+###########################
+
+###########################
+# Economic Recovery Policy
+###########################
+
+###########################
+# Reichsautobahn
+###########################
+
+###########################
+# MEFO Bills
+###########################
+
+###########################
+# Treaty of Versaille
+###########################
+
+###########################
+# Case Anton
+###########################
+GER_case_anton_category = {
+	icon = military_operation
+
+	picture = GFX_decision_cat_picture_ger_case_anton
+
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+		original_tag = GER
+		has_government = fascist
+		any_country = {
+			original_tag = FRA
+			has_government = fascist
+			is_puppet_of = GER
+			NOT = { has_country_flag = case_anton }
+		}
+	}
+}
+###########################
+# RKs
+###########################
+
+
+###########################
+# Heim ins Reich
+###########################
+
+###########################
+# Help in Dem. Civil War
+###########################
+GER_aid_hun_rom_democratic_civil_war = {
+	allowed = {
+		original_tag = GER
+	}
+	visible = {
+		is_democratic = yes
+	}
+}
+###########################
+# A-H Empire
+###########################
+GER_austro_hungarian_empire = {
+	allowed = {
+		OR = {
+			original_tag = AUS
+			original_tag = HUN
+			original_tag = CZE
+		}
+	}
+	visible = {
+	}
+}

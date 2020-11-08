@@ -1,0 +1,225 @@
+﻿#########################################################################
+# Denmark - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 37
+	set_stability = 0.9
+	set_war_support = 0.1
+	set_research_slots = 3
+	set_convoys = 40
+	oob = "DEN_1933"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+		tech_support = 1
+		tech_recon = 1
+		tech_engineers = 1
+		Artillery_1910 = 1
+		Anti_Aircraft_Gun_1935 = 1
+		Fighter_1933 = 1
+		cv_Fighter_1933 = 1
+		Strategic_Bomber_1933 = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		#Naval Stuff
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+		CA_1885 = 1
+		CA_1895 = 1
+		CA_1906 = 1
+		SS_1895 = 1
+		SS_1912 = 1
+		SS_1916 = 1
+		SS_1922 = 1
+		transport = 1
+		#
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1935.10.22"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 1
+		democratic = 94
+		socialist = 3
+		communist = 2
+	}
+	add_ideas = {
+		# Cabinet
+		DEN_HoS_Christian_X
+		DEN_FM_Peter_Munch
+		DEN_AM_Alsing_Andersen
+		DEN_MoS_Karl_Kristian_Steincke
+		DEN_HoI_Erik_Mertz
+		# Military Staff
+		DEN_CoStaff_Wilhelm_W_Prior
+		DEN_CoArmy_Erik_With
+		DEN_CoNavy_Hjalmar_Rechnitzer
+		DEN_CoAir_KW_Essemann
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Frits Clausen"
+		desc = ""
+		picture = "P_F_Frits_Clausen.tga"
+		expire = "1965.1.1"
+		ideology = national_socialism
+		traits = {
+			POSITION_Leader
+			SUBIDEOLOGY_National_Socialism
+			HoS_Insignificant_Layman
+		}
+	}
+	# Authoritarian
+	create_country_leader = {
+		name = "Christian X"
+		desc = ""
+		picture = "P_A_Christian_X.tga"
+		expire = "1965.1.1"
+		ideology = monarchism
+		traits = {
+			POSITION_King
+			SUBIDEOLOGY_Monarchism
+			HoS_Weary_Stiff_Neck
+		}
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Thorvald Stauning"
+		desc = ""
+		picture = "P_D_Thorvald_Stauning.tga"
+		expire = "1965.1.1"
+		ideology = social_democracy
+		traits = {
+			POSITION_Prime_Minister
+			SUBIDEOLOGY_Social_Democracy
+			HoG_Ambitious_Union_Boss
+		}
+	}
+	# Socialism
+	create_country_leader = {
+		name = "Ernst Christiansen"
+		desc = ""
+		picture = "P_S_Ernst_Christiansen.tga"
+		expire = "1965.1.1"
+		ideology = democratic_socialism
+		traits = {
+			POSITION_Prime_Minister
+			SUBIDEOLOGY_Democratic_Socialism
+			HoS_Die_Hard_Reformer
+		}
+	}
+	# Communism
+	create_country_leader = {
+		name = "Aksel Larsen"
+		desc = ""
+		picture = "P_C_Aksel_Larsen.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = {
+			POSITION_Chairman
+			SUBIDEOLOGY_Marxism_Leninism
+			HoS_PowerHungry_Demagogue
+		}
+	}
+	#######################
+	# Generals
+	#######################
+	create_corps_commander = {
+		name = "Wilhelm Wain Prior"
+		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+		traits = {
+			trickster
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+	}
+}
+
+#########################################################################
+# Denmark - 1936
+#########################################################################
+1936.1.1 = {
+	oob = "DEN_1936"
+}
+
+#########################################################################
+# Denmark - 1939
+###############################
+1939.9.1 = {
+	oob = "DEN_1939"
+}
+
+#########################################################################
+# Denmark - 1940
+#########################################################################
+1940.5.10 = {
+	oob = "DEN_1940"
+	GER = {
+		set_autonomy = {
+			target = DEN
+			autonomous_state = autonomy_reichsprotectorate
+		}
+	}
+	set_cosmetic_tag = DEN_GER
+}
+
+#########################################################################
+# Denmark - 1944
+#########################################################################
+1944.6.20 = {
+	oob = "DEN_1944"
+}
+
+#########################################################################
+# Denmark - 1946
+#########################################################################
+1946.1.1 = {
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1935.10.22"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	GER = {
+		set_autonomy = {
+			target = DEN
+			autonomous_state = autonomy_free
+		}
+	}
+	drop_cosmetic_tag = yes
+}

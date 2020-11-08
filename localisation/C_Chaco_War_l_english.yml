@@ -1,0 +1,16 @@
+﻿l_english:
+###############################
+# Chaco War
+###############################
+ DH_Chaco_War.1.t:0 "Paraguay Wins Chaco War"
+ DH_Chaco_War.1.d:0 ""
+ DH_Chaco_War.1.A:0 ""
+ DH_Chaco_War.2.t:0 "Bolivia Wins Chaco War"
+ DH_Chaco_War.2.d:0 ""
+ DH_Chaco_War.2.A:0 ""
+ DH_Chaco_War.3.t:0 "Paraguayan Victory In the Chaco War"
+ DH_Chaco_War.3.d:0 "[FROM.GetNewsIcon]Years of bloody fighting between Paraguay and Bolivia in a disputed part of the South American continent has ended today. The Gran Chaco, located between the two countries, was the subject of this gruelling conflict. Believed to be rich in oil, occupation of most of the region has given Paraguay, which achieved victory against the Bolivian forces, a new, and potentially lucrative source of income that should provide them with a substantial economic boost.This result was relatively unexpected, as, on the battlefield, the Bolivians were expected to be superior. However, after multiple logistical, organisational and strategic blunders, the smaller Paraguayan force was able to deliver a surprising triumph. This lack of competence and inability to capture the Gran Chaco will certainly be a huge blow for the Bolivian government, as its people will certainly not look upon this failure kindly, since they were the ones to make the sacrifices that didn’t matter in the end."
+ DH_Chaco_War.3.A:0 "Wait, there was a war going on?"
+ DH_Chaco_War.4.t:0 "Bolivian Victory In the Chaco War"
+ DH_Chaco_War.4.d:0 "[FROM.GetNewsIcon]Years of bloody fighting between Paraguay and Bolivia in a disputed part of the South American continent has ended today. The Gran Chaco, located between the two countries, was the subject of this gruelling conflict. Believed to be rich in oil, occupation of most of the region has given Bolivia, which achieved victory against the Paraguayan forces, a new, and potentially lucrative source of income that should provide them with a substantial economic boost. This result was expected, as the Bolivian military force is far more advanced technologically than the Paraguayan one, and was expected to perform to a higher standard. However, it was no easy fight. Multiple logistical, organisational and strategic blunders riddled the Bolivian efforts, but the smaller Paraguayan force was unable to capitalise on those mistakes. This proved to be costly. The occupation of the Gran Chaco will certainly be a huge blow for the Paraguayan government, as its people will certainly not look upon this failure kindly, since they were the ones to make the sacrifices that didn’t matter in the end."
+ DH_Chaco_War.4.A:0 "Wait, there was a war going on?"

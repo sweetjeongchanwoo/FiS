@@ -1,0 +1,1395 @@
+﻿l_english:
+###########################
+## British Special Events##
+###########################
+ DH_UK_special.1.t:0 "Our Finest Hour"
+ DH_UK_special.1.d:0 "We now stand alone in the face of tyranny; The German war machine has overrun the continent with their new military strategy, knocking out the Low Countries and France in a single lightning-fast campaign. So far British diplomacy has not been fruitful in convincing others to fight alongside the Commonwealth, and it will not be long before the Luftwaffe will seek control over Britain’s airspace. Setting up a new ground-controlled network for intercepting enemy bombers will prove vital for protecting our industry. Let the Battle for Britain begin."
+ DH_UK_special.1.a:0 "We shall never surrender!" 
+ 
+ DH_UK_special.2.t:0 "The End of the Beginning"
+ DH_UK_special.2.d:0 "Allied forces have landed on the beaches of Europe, establishing a foothold following the operations of D-Day. The tide is turning, as more and more men and material are brought ashore, increasing our presence on the continent. Liberation is at hand for the many peoples of Western Europe, but even with plenty of boots on the ground it will still be a long way to Berlin. Yet, a successful land invasion can not be regarded as the end, and not even as the beginning of the end, but it is perhaps “the end of the beginning."
+ DH_UK_special.2.a:0 "To Victory!"
+
+#########################################################################
+#  Commonwealth Events
+#########################################################################
+ DH_commonwealth.1.t:0 "Commonwealth Membership Questioned"
+ DH_commonwealth.1.d:0 "With the isle of Britain lost the United Kingdom can no longer be regarded as a one of the Great Powers, members to the British Commonwealth have started questioning the nature of the relationship. Even though advantages of remaining are few, a complete fracture of the Commonwealth would undermine the war effort. Others emphasise that independence is prefered now that the UK can no longer guarantee its member's security."
+ DH_commonwealth.1.a:0 "Leave the Empire"
+ DH_commonwealth.1.b:0 "Until death do us part"
+ DH_commonwealth.1.c:0 "Remain Loyal to London"
+ 
+ DH_commonwealth.2.t:0 "[From.GetName] leaves the Commonwealth"
+ DH_commonwealth.2.d:0 "One of our members has notified us that it no longer recognises the United Kingdom as its overlord, thereby resigning from the British Commonwealth. Alas, there is nothing we can do it seems."
+ DH_commonwealth.2.a:0 "Blimey!"
+ 
+ DH_commonwealth.3.t:0 "[From.GetName] remains Loyal to London"
+ DH_commonwealth.3.d:0 "Now that the transition of Britain is over, some of the fascist members of the British Empire have expressed their wish to remain a part of the new Britain, forsaking their old master."
+ DH_commonwealth.3.a:0 "For the Empire!"
+ 
+#########################################################
+### Flavor Events
+#########################################################
+ DH_flavor_ENG.1.t:0 "His Majesty opens the Canadian National Vimy Memorial"
+ DH_flavor_ENG.1.d:0 "Sailors from HMCS Saguenay stood guard as His Majesty King Edward VIII formally opened the Canadian National Vimy Memorial; described by the King himself as “an inspired expression in stone, chiseled by a skillful Canadian hand, of Canada's salute to her fallen sons.” 50,000 pilgrims, including President Albert Lebrun of France, attended the unveiling of the grand monument. Built-in solemn remembrance of the Canadian Corps’ assault on Vimy Ridge in 1917 –where for the first time men from all provinces of the nation fought side by side– the towering limestone monument stands as a testament to Canadian heroism and national unity."
+ DH_flavor_ENG.1.A:0 "Lest we forget"
+ 
+ DH_flavor_CAN.2.t:0 "Sir Henry Pellatt dies at the age of 80"
+ DH_flavor_CAN.2.d:0 "Sailors from HMCS Saguenay stood guard as His Majesty King Edward VIII formally opened the Canadian National Vimy Memorial; described by the King himself as “an inspired expression in stone, chiseled by a skillful Canadian hand, of Canada's salute to her fallen sons.” 50,000 pilgrims, including President Albert Lebrun of France, attended the unveiling of the grand monument. Built-in solemn remembrance of the Canadian Corps’ assault on Vimy Ridge in 1917 –where for the first time men from all provinces of the nation fought side by side– the towering limestone monument stands as a testament to Canadian heroism and national unity."
+ DH_flavor_CAN.2.A:0 "God rest his soul"
+
+#########################################################################
+#  Britain Events
+#########################################################################
+
+ DH_Britain.1.t:0 "The Jarrow March"
+ DH_Britain.1.d:0 "[FROM.GetNewsIcon]In a turn of recent events, 200 men from Jarrow have decided to march from Northumbria to London in protest of depression conditions. They wish to give a petition to the Prime Minister and his majesty's government to fund the reopening of their factories to get them back to work. It has gained support across the country from Labour MPs, local churches, and due to their non-violent law-abiding methods, they have gained huge respect across the nation. To many middle class, this is the first time they've truly seen the depressed areas. However, how the government reacts to the event could be very crucial."
+ DH_Britain.1.A:0 "Send Relief to Jarrow"
+ DH_Britain.1.B:0 "The King wishes to receive the marchers"
+ 
+ DH_Britain.2.t:0 "The Crystal Palace burns!"
+ DH_Britain.2.d:0 "[FROM.GetNewsIcon]'This is the end of an age.' remarked a solemn Winston Churchill as he joined the thousands who came to Sydenham Hill, in London, to watch a magnificent, yet astoundingly sad blaze, engulfing the great Crystal Palace. Opened in 1851 in Hyde Park, before moving in 1852 to its current, and final resting place, the great monument of glass and steel stood as a symbol of the proud British Empire. It was a beacon of industrial greatness, truly capturing the glorious spirit of the Commonwealth. Reportedly, there was a small explosion in the women's coatroom, which escalated into the inferno, now visible in eight different counties. Recalling the words of Churchill, the age of the British empire seems to be coming to an end, and, as new powers emerge, it is our duty to leave the global stage in a dazzling blaze of glory!"
+ DH_Britain.2.A:0 "This is the end of an age"
+ 
+ DH_Britain.3.t:0 "The Hobbit Published"
+ DH_Britain.3.d:0 "[FROM.GetNewsIcon]The children of England have been taken by surprise, with the publishing of ""The Hobbit, or There and Back Again,"" by renowned author and war veteran J. R. R. Tolkien. The book carry readers by a magical quest, leaving them, child and adult alike, in absolute awe as the adventure goes on episode after episode, until it reaches the climax with massive battles that shape the fantastical world of the Middle-Earth. The critical and financial success of this work will surely embolden Tolkien's wish for a sequel, and the new fans will impatiently await to return this world they have learned to love."
+ DH_Britain.3.A:0 "Definitely worth a read!"
+ 
+ DH_Britain.4.t:0 "Royal Family Evacuation"
+ DH_Britain.4.d:0 "As the enemy force’s roll ever forward onto the capital, the decision has been made in both Houses of Parliament as well as the Royal Household to flee to safety and command the war effort from there. As such, His Majesty King George VI has ordered his family and the government to be escorted to Canada safely, himself being the last royal to leave London. Before leaving, he grants one final speech to the citizens and armed forces remaining in the city, telling them to fight strong, and no matter the cost to himself and his country, he shall return to rule this city once more."
+ DH_Britain.4.A:0 "God Save the King!"
+ 
+ DH_Britain.5.t:0 "Women, Children and Conservatives first"
+ DH_Britain.5.d:0 "It has been revealed that Conservative politicians have been secretly evacuating themselves before those of the Opposition parties. Samuel Herbert, Aneurin Bevin and especially Clement Attlee have denounced such ‘Selfishness in a time of the utmost Crisis’. The resistance to the ever marching armies continues, however the thought of their leaders being so petty has damaged the mental image of King and Country."
+ DH_Britain.5.A:0 "Tories..."
+
+ DH_Britain.6.t:0 "Preparations for a March"
+ DH_Britain.6.d:0 "Oswald Mosley is getting ready for a march through the streets of London. Fascism is on the rise; a civil war has broken out in Spain, and Hitler and Mussolini seem eager to fight us. He calls for a struggle in the "Jew-ridden and communistic" streets of Whitechapel, and many Blackshirts have rallied to his cause. He seems to want to provoke the communists into a full-out fight. We should probably intervene; the world seems geared towards another Great War, and we can't afford interior discontent. The only thing to do is to help one of the sides of this conflict. But which one?"
+ DH_Britain.6.A:0 "We must ban the march! No fascists in Britain!"
+ DH_Britain.6.B:0 "Allow the march."
+ DH_Britain.6.C:0 "Allow the march, and send a police escort"
+ 
+ DH_Britain.7.t:0 "Battle of Cable Street" # Cops
+ DH_Britain.7.d:0 "[FROM.GetNewsIcon]Violence erupted on the streets of London today. Various anti-fascist demonstrators, among them communist, Jewish, anarchist, and socialist groups rallied to oppose a march of Oswald Mosley's British  Union of Fascists. 6,000 - 7,000 bobbies were assigned to protect the nationalist demonstration, but were unable to clear the path of roadblocks set up by the counter-demonstrators. Almost 20,000 anti-fascists arrived to stop the march, and started a riot against the police as the peaceful march turned to bloodshed. What happens next remains too be seen, but this could end up as a victory for the communists, for the fascists, or perhaps bloodshed might be avoided."
+ DH_Britain.7.A:0 "Mosley calls off the march and flees."
+ DH_Britain.7.B:0 "The police manage to fight of the communists despite overwhelming odds"
+ 
+ DH_Britain.8.t:0 "Battle of Cable Street" # No Cops
+ DH_Britain.8.d:0 "[FROM.GetNewsIcon]Violence erupted on the streets of London today. Various anti-fascist demonstrators, among them communist, Jewish, anarchist, and socialist groups rallied to oppose a march of Oswald Mosley's British  Union of Fascists. Almost 20,000 anti-fascists arrived to stop the march, and started a riot against the BUF as the peaceful march turned to bloodshed. What happens next remains too be seen, but this could end up as a victory for the communists, for the fascists, or perhaps bloodshed might be avoided."
+ DH_Britain.8.A:0 "The communists turn back the fascists and Mosley is killed."
+ DH_Britain.8.B:0 "Mosley calls off the march and flees."
+ 
+ DH_Britain.9.t:0 "RMS Queen Mary's Maiden Voyage"
+ DH_Britain.9.d:0 "[ROOT.GetNewsIcon]The RMS Queen Mary, a tribute to Britains naval authority and innovations, has just set sail on her maiden voyage. On 27 May 1936, a passenger liner known as the RMS Queen Mary made her first trip and would sail the Northern Atlantic all the way until 1967. She now rests on Long Beach, California, and is regularly kept clean and polished."
+ DH_Britain.9.A:0 "Bon Voyage!"
+
+ DH_Britain.10.t:0 "Anglo-Irish Trade Agreement"
+ DH_Britain.10.d:0 "Due to the ongoing Anglo-Irish trade war we wish to ease economic tensions between us and the Irish to achieve prosperity among the British peoples, with this we wish to facilitate the 'Anglo-Irish trade agreement' in which the 20% tariffs both Ireland and Britain placed on their imported goods are to be abolished. Ireland is also to pay £10 million to Britain for the "land annuities" derived from financial loans granted to Irish farmers by the British government to enable them to purchase lands under the Irish Land Acts"
+ DH_Britain.10.A:0 "Sign it"
+ DH_Britain.10.B:0 "The Irish are insane"
+
+ DH_Britain.11.t:0 "Germany Calling"
+ DH_Britain.11.d:0 "[ROOT.GetNewsIcon]A stray fox has left the woodlands. Born within our midst, William Joyce has turned his faith away from us. The known zealous Hitler- fanatic has left the United States and, with the European powderkegs’ fuse about to catch fire once more set foot on german soil to avoid confrontation with the authorities. His Nazi propaganda to Britain from Germany is a thorn in our side, which asks to be removed."
+ DH_Britain.11.A:0 "So you Germans believe that you can defeat the superior British forces! Haw, Haw."
+
+ DH_Britain.12.t:0 "The Blitz Begins"
+ DH_Britain.12.d:0 "[ROOT.GetNewsIcon]The German Air force, on this night have begun a ruthless bombardment of London. The fall of France has brought about the greatest challenge in the history of Britain since Napoleon, we now face imminent threat of invasion by foreign German forces. The Luftwaffe has taken to the skies, attempting to take the will of the British people away, trying to take the fight out of us but we will not falter.  ""Never was so much owed by so many to so few"" Prime Minister Winston Churchill has stated concerning the brave RAF fly boys who have taken to the skies to beat back the Nazi menace. This will no doubt be the greatest threat that the British isles has ever faced, Hermann Goering and his Luftwaffe will be a large obstacle towards our victory but through fire, fury and determination we will achieve victory against Goering's Luftwaffe and Hitler's Germany. The British people are staunch to the bone and this intense bombing of our homeland will only strengthen our morale, we shall never surrender and live on to the end, emerging victorious from the ashes!<For King and Country!>"
+ DH_Britain.12.A:0 "Tragic!"
+
+ DH_Britain.13.t:0 "Coventry Bombing"
+ DH_Britain.13.d:0 "[ROOT.GetNewsIcon]Damn the Irish, those fools. They know not of the greater evil that awaits them, the Axis powers that could very well soon control all of Europe. Aiding the Germans should not be the interest of the Irish; helping the Germans in bombing Britain only weakens us, and strengthens the wolf that will come for them when it sees fit."
+ DH_Britain.13.A:0 "Let those Irish be DAMNED!"
+
+ DH_Britain.14.t:0 "Altmark Incident"
+ DH_Britain.14.d:0 "[ROOT.GetNewsIcon]The Altmark Incident may have angered the neutral and peaceful Norwegians, but they know nothing about the oppression and the tyranny that the Jerry's would enforce upon them if given the chance. Although in their territory, the German tanker was carrying almost 300 British Prisoners of War, that, had we not rescued, could have well been tortured and killed by the evil Krauts. The captured men knew about this and they started a revolt, so they can be heard by our inspectors on the ship. Even though the Norwegians might be upset about this, they should know that we would not violate their neutrality."
+ DH_Britain.14.A:0 "Surely nothing will come of this ,incident"
+
+ DH_Britain.15.t:0 "Their Finest Our"
+ DH_Britain.15.d:0 "This is their finest hour. They conquered Western Europe in a few weeks. They now swim in the great spoils of victory... How could we allow such tragedy? This new tactic, ""The Blitzkrieg"", or Lighting Warfare, as they call it, was very effective and although they had a small number of tanks, they were sufficient for a speedy breakthrough, through the Benelux and down into the heart of France. The ""famed"" Maginot Line was a complete waste of time, as they just went around it. We wasted the lives of many men, just to be utterly destroyed on every front.They will bomb our ports, airfields, bases and even the cities, which are full of terrified civilians.We must not be afraid, even though dark times are upon us and even though they are already planning the naval invasion of the British Isles."
+ DH_Britain.15.A:0 "We will survive, as we did before!"
+
+ DH_Britain.16.t:0 "Occupation of the Channel Islands"
+ DH_Britain.16.d:0 "[ROOT.GetNewsIcon]They've done it. They have stepped foot on British territory. The Channel Isles have fallen. They have destroyed France in so little time. Just the Germans. Our hopes for a quick Allied victory are destroyed, now it seems that this war will be an Axis victory. We must prepare for a desperate defense, the great defense of democracy in Europe. We will not fall, Brittania will not fall, Brittania will rule the waves and the winds. We will not let these "Sauerkrauts" think they are the leaders of the world, we will not let these National-Socialists destroy humanity just for their racial beliefs. We will never surrender!"
+ DH_Britain.16.A:0 "Damn those Nazis"
+
+ DH_Britain.17.t:0 "BBC Launches Regular Television Broadcast"
+ DH_Britain.17.d:0 "[ROOT.GetNewsIcon]The BBC has opened the world's first regular high-definition television service, from Alexandra Palace! Mere 14 years after its founding on October 18th, 1922, having already broadcasted his majesty King George the 5th, Edgar Wallace and Christopher Stone the British Broadcasting Corporation has once more set forth to conquer new fields of telecommunication."
+ DH_Britain.17.A:0 "Interesting"
+
+ DH_Britain.18.t:0 "Frank Whittle Ground-Tests the World's first jet engine"
+ DH_Britain.18.d:0 "Frank Whittle, despite being rejected in 1930 by the RAF for his proposal, has now been given the scientific spotlight to create a jet engine for the British war effort. These engines use high velocity aircraft to intake air, and then mix it with fuel before the exhaust gases are exhaled at rapid velocity.The proposal was rejected due to budget cuts in the RAF as well as doubts into its effectiveness, however he has now been given full attention by the Royal Air Force. If this could be placed onto warplanes, it could give Britain a decisive advantage in the air war, and therefore the battles themselves"
+ DH_Britain.18.A:0 "Interesting"
+
+ DH_Britain.19.t:0 "Death of George V"
+ DH_Britain.19.d:0 ""
+ DH_Britain.19.A:0 "Tragedy"
+
+ DH_Britain.20.t:0 "Rumours of Edward VIII marrying a Commoner"
+ DH_Britain.20.d:0 ""
+ DH_Britain.20.A:0 "Interesting"
+
+ DH_Britain.21.t:0 "Edward VIII planning to marry Wallis Simpson"
+ DH_Britain.21.d:0 ""
+ DH_Britain.21.A:0 "Good luck"
+
+ DH_Britain.22.t:0 "Churchill supports the King"
+ DH_Britain.22.d:0 ""
+ DH_Britain.22.A:0 "Interesting"
+
+ DH_Britain.23.t:0 "Baldwin demands Abdication"
+ DH_Britain.23.d:0 ""
+ DH_Britain.23.A:0 "Morganatic Marriage"
+ DH_Britain.23.B:0 "Abdicate"
+
+ DH_Britain.24.t:0 "Baldwin resigns"
+ DH_Britain.24.d:0 ""
+ DH_Britain.24.A:0 "Goodbye"
+
+ DH_Britain.25.t:0 "King marries morgonatically"
+ DH_Britain.25.d:0 ""
+ DH_Britain.25.A:0 "Good luck"
+
+ DH_Britain.26.t:0 "King visiting the Germany"
+ DH_Britain.26.d:0 ""
+ DH_Britain.26.A:0 "Interesting"
+
+ DH_Britain.27.t:0 "King visiting the France"
+ DH_Britain.27.d:0 ""
+ DH_Britain.27.A:0 "Interesting"
+
+ DH_Britain.28.t:0 "Edward in Versailles"
+ DH_Britain.28.d:0 ""
+ DH_Britain.28.A:0 "Interesting indeed"
+
+ DH_Britain.29.t:0 "Edward Assasinated"
+ DH_Britain.29.d:0 ""
+ DH_Britain.29.A:0 "Tragedy"
+
+ DH_Britain.30.t:0 "Hitler Meets George VIII"
+ DH_Britain.30.d:0 ""
+ DH_Britain.30.A:0 "Who is Hitler?"
+ 
+ DH_Britain.31.t:0 "Edward Conoration"
+ DH_Britain.31.d:0 ""
+ DH_Britain.31.A:0 "Tragedy"
+ 
+ DH_Britain.32.t: "The Future of Warfare"
+ DH_Britain.32.d: "The way in which modern war is turning is quite clear. The future of warfare is a war of movement - mechanised, armoured and motorised armies control the battlefield and our tactics must adapt along with them. Thus, we have assembled the best and brightest military minds, two of which have come up with new and revolutionary doctrines on how we should engage the enemy - however, we cannot simultaneously adopt these doctrines, for they are quite different.\n\nLiddell has proposed a doctrine of war in which economics is used as a method to drain the opposing nation of will to fight, holding the defensive until the enemy has been weakened sufficiently, then beginning a war of movement, constantly keeping the opponent on their toes until their defeat is assured. Fuller has proposed the utilisation of armoured forces in concentrated divisions to bypass, surround and destroy enemy strongpoints. Both utilise new technologies, specifically armour, in a high capacity. However, Fuller proposes the utilisation of stronger and more numerous armoured attack forces, potentially winning the war faster but with a higher risk attached should it fail.\n\nWe can only pick one doctrine, however. What style of war shall cast our nation headfirst into victory?"
+ DH_Britain.32.A: "Go with the indirect approach"
+ DH_Britain.32.B: "Listen to J.F.C Fuller"
+ 
+ DH_Britain.33.t: "The London Economic Conference"
+ DH_Britain.33.d: " "
+ DH_Britain.33.A: "We shall attend."
+ DH_Britain.33.B: "We won't listen to false economic plans."
+ Allow_London_Economic_Conference:0 "§BAttend the London Economic Conference§!"
+ The_London_Economic_Conference_Does_not_Happen:0 "§BWe Won't Attend the London Economic Conference§!"
+ 
+ DH_Britain.34.t: "The Italian Threat"
+ DH_Britain.34.d: "The Kingdom of Italy, our ally in the Great War, has betrayed us. Mussolini's ambitions to build a new Roman Empire out of conquest and totalitarianism have made Italy a threat we cannot ignore. The Mediterranean is the fastest route to India, crown jewel of the empire, and must remain open to British shipping.\n\nOur colonial possessions in Egypt, the Sudan, and Malta all border Fascist Italy, and our forces in these areas will be reinforced and made ready for a potential war.\n\nContinued threats to Commonwealth interests in the Mediterranean will no longer be tolerated."
+ DH_Britain.34.A: "We must put an end to Fascism."
+ 
+ DH_Britain.35.t: "The Fascist Threat"
+ DH_Britain.35.d: "Cruelty knows no bounds except when restrained by the people themselves. The ideals of the newly-arisen Third Reich and Italian Regime are in direct opposition to those of the British Empire and shall be treated as such.\n\nThe words of Stanley Baldwin cut deep into the veins of any who could support such a system of oppression. Bent on restriction rather than liberation; emphasizing control in place of freedom, the fascists know nothing of governance. The fragile peace of Europe teeters towards turmoil, and only firm action may prevent the spread of such dangerous ideas--firm action we are in no place to deliver. Only by calling upon the entire Empire may we maintain the balance we have worked so hard to keep. In the wake of war lies peace, which is merely a crackling ember for which the fascists to poke and prod, feigning a benign façade whilst stoking a young flame, ready to engulf Europe in a blazing inferno, reigniting the smoldering ashes of the Great War and embroiling the world once more in conflict."
+ DH_Britain.35.A: "We must extinguish this flame before it is too late."
+ 
+ DH_Britain.36.t: "The Public Order Act"
+ DH_Britain.36.d: "With political tensions running high and extremism rampant, it is up to the government to curb such dangerous philosophies in the wake of an outward threat. The United Kingdom has been a bastion of democracy for over half a century, and we will not concede even an inch to those who wish to upset the balance. Henceforth, political marches must be cleared by local law enforcement before beginning, allowing us to cast a net over those we wish to censor for the greater good. In addition, donning political attire in a public meeting place is also banned, thus preventing virulent imagery to spread through our streets. The final tenants of the act ban informal political militias, thus decreasing the chances of violent uprisings and ensuring the police can respond to crimes of all kinds, including those perpetrated for the behoof of a politician’s agenda."
+ DH_Britain.36.A: "Mosley must be neutralized at any cost."
+ DH_Britain.36.B: "We must look to our own people before intervening abroad."
+ 
+ DH_Britain.37.t: "The Unfair Treaty"
+ DH_Britain.37.d: "Perhaps the greatest failure of the Entente was not the scuffed invasion of the Turks, but the deplorable treaty signed thereafter ending the war with Germany. Whilst heavy monetary reparations were forced upon Austria-Hungary in the Treaty of Saint-Germain-en-Laye, they pale in comparison to the burden placed upon the Germans in the ‘War Guilt Clause,’ Article 231 of the Treaty of Versailles. This clause placed sole moral and political responsibility for the war solely on the Germans’ bereaved shoulders, already tired from a decade of warfare. Needless to say, resentment runs high, partially our fault for supporting such unjust provisions. The weakness of the Weimar government only throws salt into the proverbial wounds suffered by such a strong nation. Be as that may, they were the primary aggressor, and thus the treaty was a necessity to assert dominance. Let us only hope they stay down..."
+ DH_Britain.37.A: "We apologize for Versailles."
+ 
+ DH_Britain.38.t: "UK Asks for Debt Relief"
+ DH_Britain.38.d: " "
+ DH_Britain.38.A: "They can have some of their debt forgiven."
+ DH_Britain.38.B: "They must pay the price."
+ 
+ DH_Britain.39.t: "A Trade Agreement"
+ DH_Britain.39.d: ""
+ DH_Britain.39.A: "We accept their proposal."
+ DH_Britain.39.B: "No."
+ 
+ DH_Britain.40.t: "Blood, Toil, Tears and Sweat"
+ DH_Britain.40.d: " "
+ DH_Britain.40.A: "Churchill shall lead!"
+ 
+ DH_Britain.41.t: "Churchill Announces British Re-Armament"
+ DH_Britain.41.d: " "
+ DH_Britain.41.A: "Every man to the war effort."
+ 
+ DH_Britain.42.t: "Britain Condemns Fascism"
+ DH_Britain.42.d: " "
+ DH_Britain.42.A: "The Fascists must be defeated."
+ 
+ DH_Britain.43.t: "We Shall Never Surrender!"
+ DH_Britain.43.d: " "
+ DH_Britain.43.A: "We shall fight in the beaches."
+ 
+ DH_Britain.44.t: "Donation From the Commonwealth"
+ DH_Britain.44.d: " "
+ DH_Britain.44.A: "More money to the Empire."
+ 
+ DH_Britain.45.t: "The King's Speech"
+ DH_Britain.45.d: " "
+ DH_Britain.45.A: "We are inspired."
+ 
+ DH_Britain.46.t: "UK Asks for Help"
+ DH_Britain.46.d: " "
+ DH_Britain.46.A: "We must keep them alive."
+ DH_Britain.46.B: "We have our own problems."
+
+ DH_Britain.49.t: "The War to End All Wars?"
+ DH_Britain.49.d: " "
+ DH_Britain.49.A: "War might be upon us soon...."
+ 
+#########################################################################
+#  British Political Events
+#########################################################################
+ DH_Britain_Politics.1.t:0 "Prime Minister Stanley Baldwin resigns"
+ DH_Britain_Politics.1.d:0 "[FROM.GetNewsIcon]Today on the 27th May 1937 Prime Minister Stanley Baldwin has announced his resignation from the office of Prime Minister. His Last Act in Office has been to raise the wages of MP’s to £600 a year and grant the Leader of the Opposition a salary. This final act being indicative of the consummate nature of the man, King George has been advised to send for Neville Chamberlain to become His Majesty’s new Prime Minister."
+ DH_Britain_Politics.1.A:0 "May he serve long and faithfully"
+ 
+ DH_Britain_Politics.2.t:0 "Prime Minister Chamberlain resigns"
+ DH_Britain_Politics.2.d:0 "[FROM.GetNewsIcon]This Evening it has been confirmed that the Prime Minister Neville Chamberlain has resigned from his office, he had spent much of the day meeting with both fellow party members and the Labour leader Clement Atlee in hopes of forming a new government but has fallen short with Labour only willing to work with a new Prime Minister. In light of this Chamberlain went straight to the Palace to meet with His Majesty George V where he resigned and recommended his choice for the new Prime Minster..."
+ DH_Britain_Politics.2.A:0 "Winston Churchill."
+ DH_Britain_Politics.2.B:0 "Lord Edward Halifax."
+ 
+ DH_Britain_Politics.3.t: "Prime Minister Ramsay MacDonald Resigns"
+ DH_Britain_Politics.3.d: "[FROM.GetNewsIcon] AAAAAAAA "
+ DH_Britain_Politics.3.A: "The Conservative Grandee shall follow his steps."
+ DH_Britain_Politics.3.B: "The British Bulldog is the only capable leader."
+ 
+ DH_Britain_Politics.4.t: "Sir Kingsley Wood Dies"
+ DH_Britain_Politics.4.d: "[FROM.GetNewsIcon]PLACEHOLDER"
+ DH_Britain_Politics.4.A: "Tragedy has struck our nation."
+
+#########################################################################
+#  British Arab Revolt Events
+#########################################################################
+ DH_Britain_Arab_Revolt.1.t: "The Cement Incident"
+ DH_Britain_Arab_Revolt.2.t: "No arrests were made..."
+ DH_Britain_Arab_Revolt.3.t: "Arrests have been made!"
+ DH_Britain_Arab_Revolt.4.t: "Anti-Jewish raids in Palestine!"
+ DH_Britain_Arab_Revolt.5.t: "Small Scale Anti-Jewish raids in Palestine!"
+ DH_Britain_Arab_Revolt.6.t: "They Refuse TO Give Up Their Fellow Scoundrels"
+ DH_Britain_Arab_Revolt.7.t: "The Arrests Have Lead Somewhere!"
+ DH_Britain_Arab_Revolt.8.t: "Death of Al-Qassam"
+ DH_Britain_Arab_Revolt.9.t: "We Shall Arrest the High-Ranking Arab Extremists"
+ DH_Britain_Arab_Revolt.10.t: "Many Got Away, But At Least We Have Qassam"
+ DH_Britain_Arab_Revolt.11.t: "We Have Rounded Up Most of Them"
+ DH_Britain_Arab_Revolt.12.t: "General Strike in Palestine!"
+ DH_Britain_Arab_Revolt.13.t: "Huge Qassime Rebellion"
+ DH_Britain_Arab_Revolt.14.t: "Small Qassime Rebellion"
+ DH_Britain_Arab_Revolt.15.t: "The Strike Is Now Over, But the Violence Continues"
+ DH_Britain_Arab_Revolt.16.t: "The Peel Commission"
+ DH_Britain_Arab_Revolt.17.t: "They Have Accepted, Wonderful!"
+ DH_Britain_Arab_Revolt.18.t: "Let's Hope It All Works Out!"
+ DH_Britain_Arab_Revolt.19.t: "They have all refused!"
+ DH_Britain_Arab_Revolt.20.t: "The revolt continues!"
+ DH_Britain_Arab_Revolt.21.t: "The Havlagah Policy"
+ DH_Britain_Arab_Revolt.22.t: "The Revolt Has Ended, But At A Cost"
+ DH_Britain_Arab_Revolt.23.t: "The Protectorate Has Fallen!"
+ DH_Britain_Arab_Revolt.24.t: "The Arabs Now Dominate Our Former Colony"
+ DH_Britain_Arab_Revolt.25.t: "The Jews Now Dominate Our Former Colony"
+
+#########################################################################
+#  British "Indiana Jones and the Raid on Mers El Kebir" Events
+#########################################################################
+ DH_Britain_Raid_On_Mers_El_Kebir.1.t: "The Vichy Regime"
+ DH_Britain_Raid_On_Mers_El_Kebir.2.t: "A Daring Plan"
+ DH_Britain_Raid_On_Mers_El_Kebir.3.t: "Attack on Mers-el-Kebir"
+ DH_Britain_Raid_On_Mers_El_Kebir.4.t: "The Attack Was a Weak Success"
+ DH_Britain_Raid_On_Mers_El_Kebir.5.t: "The Attack Was a Moderate Success"
+ DH_Britain_Raid_On_Mers_El_Kebir.6.t: "The Attack Was a Complete Success"
+
+#########################################################################
+#  British Abdication Crisis Events
+#########################################################################
+ DH_Britain_Abdication_Crisis.1.t: "King George Dies"
+ DH_Britain_Abdication_Crisis.2.t: "The King's Romance"
+ DH_Britain_Abdication_Crisis.3.t: "Addressing Commonwealth Leaders"
+ DH_Britain_Abdication_Crisis.4.t: "Censoring the King"
+ DH_Britain_Abdication_Crisis.5.t: "Threatening Resignation"
+ DH_Britain_Abdication_Crisis.6.t: "The Abdication"
+ DH_Britain_Abdication_Crisis.7.t: "The Coronation of George VI"
+ DH_Britain_Abdication_Crisis.8.t: "The Establishment MP's Have Voiced Their Concerns"
+ DH_Britain_Abdication_Crisis.9.t: "The Dominion Leaders Have Voiced Their Opposition"
+ DH_Britain_Abdication_Crisis.10.t: "The Opposing MP's Have Resigned"
+ DH_Britain_Abdication_Crisis.11.t: "A Morganatic Wedding"
+
+#########################################################################
+#  British Anglo-Iraqi Treaty Events
+#########################################################################
+ DH_Anglo_Iraqi_Treaty.1.t: "A New Iraqi Treaty"
+ DH_Anglo_Iraqi_Treaty.2.t: "The Question of Resources"
+ DH_Anglo_Iraqi_Treaty.3.t: "United Kingdom Demands More Economic Power"
+ DH_Anglo_Iraqi_Treaty.4.t: "Iraq Has Rejected The Demands"
+ DH_Anglo_Iraqi_Treaty.5.t: "Political Influence"
+ DH_Anglo_Iraqi_Treaty.6.t: "United Kingdom Demands More Political Power"
+ DH_Anglo_Iraqi_Treaty.7.t: "Military Influence"
+ DH_Anglo_Iraqi_Treaty.8.t: "United Kingdom Demands More Military Power"
+ DH_Anglo_Iraqi_Treaty.9.t: "The Final Page"
+
+#########################################################################
+#  British Focuses
+#########################################################################
+# Political tree
+ ENG_Depression_Recovery:0 "Depression Recovery"
+ ENG_Depression_Recovery_desc:0 "We must recover from the Great Depression and enter the path of recovery"
+ ENG_Newfoundland_Financial_Crash:0 "Newfoundland Financial Crash"
+ ENG_Newfoundland_Financial_Crash_desc:0 "Newfoundland our dominion east of Canada is facing severe financial problems, we shall bring them into the fold to help them"
+ ENG_Four_Power_Act:0 "Four Power Act"
+ ENG_Four_Power_Act_desc:0 "We must secure international borders between the great powers of Europe"
+ ENG_National_Grid:0 "The National Grid"
+ ENG_National_Grid_desc:0 "With the creation of the 'Central Electricity Board', the foundation for a synchronised, nationwide power grid was set. The 122 most efficent power stations and over 4000 miles of cables are connected now to form the national grid."
+ ENG_Triple_RAF_Size:0 "Triple The RAF's Size"
+ ENG_Triple_RAF_Size_desc:0 "We have a global empire but barely enought air craft to defend our home isles. How can we think we could win another world war with that? We need to at least triple our RAF's size to become a serious treat to any potential enemy."
+ ENG_Second_London_Naval_Treaty:0 "Second London Naval Treaty"
+ ENG_Second_London_Naval_Treaty_desc:0 "We must limit the growth in naval armaments until 1942. First of all, capital ships should be restricted to a 35,000 long tons standard displacement and 14-inch guns. This provision would allow the signatory countries of the Second London Treaty, to raise the limit from 14-inch guns to 16-inch if Japan or Italy still refuse to sign."
+ ENG_1935_Elections:0 "1935 Elections"
+ ENG_1935_Elections_desc:0 "The Prime Minister has called an election, we shall see if Stanley Baldwin remain leader or Clement Attlee take the helm"
+
+ ENG_Good_King:0 "The Good King"
+ ENG_Good_King_desc:0 "George VI is now king of the realm, our democratic life is secured forever more"
+ ENG_Restoration_Of_Commonwealth:0 "Restoration Of The Commonwealth"
+ ENG_Restoration_Of_Commonwealth_desc:0 "During Edward's failed coup, many of our Dominions broke away and went there own way. This has to stop now to show the world were back in full strenght."
+ ENG_South_African_Raproachment:0 "South African Rapprochement"
+ ENG_South_African_Raproachment_desc:0 "South Africa is an important port in the South of Africa, although made redundant with the advent of the Suez Canal it is still an important region we need to bring back into the fold"
+ ENG_Canadian_Raproachment:0 "Canadian Rapprochement"
+ ENG_Canadian_Raproachment_desc:0 "Canada has long been our faithful colony and will likely come back to us with the right prompt"
+ ENG_Australian_Raproachment:0 "Australian Rapprochement"
+ ENG_Australian_Raproachment_desc:0 "The land down under shall be brought back into the fold as soon as possible before the Japanese exploit the unstable situation"
+ ENG_New_Zealand_Raproachment:0 "New Zealand Rapprochement"
+ ENG_New_Zealand_Raproachment_desc:0 "New Zealand shall be brought back into the fold as soon as possible before the Japanese exploit the unstable situation"
+ ENG_Factory_Grants:0 "Factory Grants"
+ ENG_Factory_Grants_desc:0 "A strong country needs a strong economy and were in dire need of one. But without some investment our hard working businessmen are in danger of fall behind other countries."
+ ENG_Into_The_Political_Spehre:0 "Into The Political Sphere"
+ ENG_Into_The_Political_Spehre_desc:0 "We must now go into world politics a reformed nation"
+ ENG_Ormsby_Gore_Strategy:0 "Ormsby-Gore Strategy"
+ ENG_Ormsby_Gore_Strategy_desc:0 "Ormsby Gore's internal development for the empire will be followed to help build up the empire"
+ ENG_Raj_Development:0 "Raj Development"
+ ENG_Raj_Development_desc:0 "India needs to be built up further to make the Indians indebted towards us"
+ ENG_Australian_Development:0 "Australian Development"
+ ENG_Australian_Development_desc:0 "Australia will have increase funding for their industries"
+ ENG_New_Zealand_Development:0 "New Zealand Development"
+ ENG_New_Zealand_Development_desc:0 "New Zealand will have increase funding for their industries""
+ ENG_South_African_Development:0 "South African Development"
+ ENG_South_African_Development_desc:0 "South Africa will have increase funding for their industries""
+ ENG_Canadian_Development:0 "Canadian Development"
+ ENG_Canadian_Development_desc:0 "Canada will have increase funding for their industries""
+ ENG_Colonial_Knowledge:0 "Colonial Knowledge"
+ ENG_Colonial_Knowledge_desc:0 "The Colonial Elite have gathered from around the empire to share their valuable knowledge"
+ ENG_Imperial_Conference:0 "Imperial Conference"
+ ENG_Imperial_Conference_desc:0 "We must work to towards a federal empire where all dominions are equal"
+ ENG_Home_Rule:0 "Home Rule"
+ ENG_Home_Rule_desc:0 ""
+ ENG_Status_Quo:0 "Status Quo"
+ ENG_Status_Quo_desc:0 ""
+ ENG_Imperial_Federation:0 "Imperial Federation"
+ ENG_Imperial_Federation_desc:0 ""
+
+ ENG_Crown_Consolidation:0 "Crown Consolidation"
+ ENG_Crown_Consolidation_desc:0 "Edward has secured his throne but now must consolidate his control over his realm"
+ ENG_Shrouded_Isles:0 "Shrouded Isles Of Britannia"
+ ENG_Shrouded_Isles_desc:0 "Churchill has decided international politics outside the empire are not necessary as the empire can sustain itself with no interference so we shall go into Splendid Isolationism"
+ ENG_Exile_George:0 "Exile George"
+ ENG_Exile_George_desc:0 "George for his treason will be exiled to the Falklands where he will act as its duke for the rest of his days"
+ ENG_Restory_Hegemony:0 "Restory Our Hegemony"
+ ENG_Restory_Hegemony_desc:0 "We must restore our great empire to the status of the greatest power once again"
+ ENG_Rump_Parliament:0 "Rump Parliament"
+ ENG_Rump_Parliament_desc:0 "Parliament was hit with massive resignations, these former MPs betrayed the King so parliament will now be made of loyalists of Edward"
+ ENG_Grand_Purge:0 "The Grand Purge"
+ ENG_Grand_Purge_desc:0 "With Parliament now loyal to the crown we must finish the purge by wiping out democrats in the Civil Service and other government organisations"
+ ENG_United_Kingdom:0 "A United Kingdom"
+ ENG_United_Kingdom_desc:0 "The Kingdom is finally united with dissent squashed to stop any Communists or Democrats taking over"
+ ENG_Colonial_Re_Allignment:0 "Colonial Re-Allignment"
+ ENG_Colonial_Re_Allignment_desc:0 "The colonies broke away during the civil war, we must reintegrate them fast to stop jealous powers from taking them for themselves"
+ ENG_English_Resettlement:0 "English Resettlement To Scotland"
+ ENG_English_Resettlement_desc:0 "Scotland was the centre of George's opposition and soon the Scots must be integrated completely to ensure the UK's stability"
+ ENG_United_Comonwealth:0 "United Comonwealth"
+ ENG_United_Comonwealth_desc:0 "The Commonwealth is finally united together as the colonies have returned to our great fold and accepted the king"
+ ENG_Imperial_Dreams:0 "Imperial Dreams"
+ ENG_Imperial_Dreams_desc:0 "We must consolidate our empire together into a Federation ruled by London as an Imperial Federation"
+
+ ENG_Edens_Diplomacy:0 "Eden's Diplomacy"
+ ENG_Edens_Diplomacy_desc:0 "Anthony Eden realised we cant follow the current political path anymore. Everywhere around us fascist countries rise up and we dont stand a chance against them if we dont stand against them."
+ ENG_Containing_Agression:0 "Containing Agression"
+ ENG_Containing_Agression_desc:0 "We followed long enough the policy of appeasement, now its time to stop the rising fascist countries in Europe with more than words. The recent broken promises of Germany and Italy speak for themselfes."
+ ENG_Military_Factory_Grants:0 "Military Factory Grants"
+ ENG_Military_Factory_Grants_desc:0 "We must grant the military contractors more factories to keep up our rearmament"
+ ENG_Appeasement:0 "Appeasement"
+ ENG_Appeasement_desc:0 "We can keep peace in Europe by appeasing Hitler's Greater German desires, atleast to an extent"
+ ENG_Foreign_Investment:0 "Foreign Investment"
+ ENG_Foreign_Investment_desc:0 "We shall invest in foreign countries to align them with our democratic ideals"
+ ENG_Armed_Isolationism:0 "Armed Isolationism"
+ ENG_Armed_Isolationism_desc:0 "Our isolationism must be protected so will forge an army ready to defend our isles, no matter the cost"
+ ENG_General_Rearmament:0 "General Rearmament"
+ ENG_General_Rearmament_desc:0 "We must rearm ourselves to defend against the rising threat of Germany"
+ ENG_Devolved_Scottish_Administration:0 "Devolved Scottish Administration"
+ ENG_Devolved_Scottish_Administration_desc:0 "The Scottish were part of George's rebellion but it must not be taken as a true threat of independence maybe self-governance for them will be enough"
+ ENG_Reimplement_Conscription_Act:0 "Reimplement Conscription Act"
+ ENG_Reimplement_Conscription_Act_desc:0 "Our army is lacking men to fill boots and tanks, we will need them filled incase of a war"
+ ENG_Peace_in_Our_Time:0 "Peace in Our Time"
+ ENG_Peace_in_Our_Time_desc:0 "We have secured peace with Herr Hitler and wish to keep peace in Europe forever lasting"
+ ENG_Eden_Ribbentrop_Agreement:0 "Eden-Ribbentrop Agreement"
+ ENG_Eden_Ribbentrop_Agreement:0 "Anthony Eden will meet with Joachim von Ribbentrop to negotiate a non-aggression pact with our two countries, securing our peaceful isolation"
+
+
+ ENG_Royal_Airforce:0 "Royal Air Force"
+ ENG_Royal_Airforce_desc:0 "The recent rise in our rival's air forces has started to put our military commanders into a bit of a scare. Many have considered that we divert some research and industry to ensure the victory of our King's Airforce. Though Britain easily has one of the strongest fleets in the world, our ships cannot defend the streets of London from bombs. We must revitalize the Royal Airforce and make sure that we are not bested by our rivals."
+
+ ENG_Red_Devils:0 "Red Devils"
+ ENG_Red_Devils_desc:0 "Designed to be an elite airborne force, the Red Devils will be able to accommodate our air force expansion and modernize our Commonwealth's Airborne potential. Candidates for entry into the elite corps will be tested and trained at the No. 1 Parachute Training School, RAF Ringway. Airborne soldiers are expected to fight against superior numbers of the enemy equipped with artillery and tanks. Thus their training is designed to encourage a spirit of self-discipline, self-reliance and aggressiveness."
+
+ ENG_SAS:0 "SAS"
+ ENG_SAS_desc:0 "As the war in Africa devolves into a long and atrocious stalemate , some officers have approached us with different ideas and solutions to resolve the war in the theatre .One of them Lieutenant David Stirling proposed a plan that consists of parachuting soldiers behind enemy lines, operating to gain intelligence, destroy enemy aircrafts, and attack their supply and reinforcement routes. Of course such a dangerous and unorthodox idea will never be endorsed by the Army's High Command ..."
+
+ ENG_Reorganize_Air_Defences:0 "Reorganize Air Defences"
+ ENG_Reorganize_Air_Defences_desc:0 "The air defenses across the southern UK are scattered and disorganized, not to mention few in number. By reorganizing them with regular distances between Anti-Aircraft guns, we can create interlocking cross-sections of fire, drastically improving efficiency and protecting the British skies more effectively than ever."
+
+ ENG_Chain_Home:0 "Chain Home"
+ ENG_Chain_Home_desc:0 "We can't afford to allow enemy aircraft to enjoy free reign in our skies while our fighters chase fantastical, imaginary targets, deluded by false information. Relying on agents within our enemy's home is ineffective and may cost many Brits their lives. Instead, we should establish an early-warning system using the newly developed RADAR technology to detect enemy planes before they glimpse British soil. Chain Home, or CH for short, will ensure the RAF always knows where its target lies."
+
+ ENG_Dowding_System:0 "The Dowding System"
+ ENG_Dowding_System_desc:0 "We may have established RADAR towers to detect our enemy, but we are finding it very difficult to relay that information to the RAF in time. Hugh Dowding, the Air Member for Supply and Research, has proposed an elegant solution; a large, dedicated land-line network covering our southern airspace, communicating directly with both the operators of CH and the RAF's many hangars. This should aid in developing a much faster response time and ensure that not a single bomber makes its way to striking distance."
+
+ ENG_Defend_British_Skies:0 "Defend British Skies"
+ ENG_Defend_British_Skies_desc:0 "
+
+ ENG_Spitfire:0 "The Spitfire"
+ ENG_Spitfire_desc:0 "Ever since the end of the Great War our Airforce lacked a capable, fast, modern fighter . That is why the Air Ministry engaged multiple British aircraft manufactures in 1931 for it's development . One of them 'Supermarine' has created a very fast one-seated fighter which meets all requirements. Although the first prototypes we're inconclusive, the last version nicknamed 'Spitfire' is said to have the answers to the previous problems . Of course the defense minister is still septic and has dispatch a team to test the aircraft. All we need now is to wait ."
+
+ ENG_Hurricain:0 "The Hurricane"
+ ENG_Hurricain_desc:0 "Rather than accepting the new, experimental models as the backbone of our Fighter Command, we have reached the conclusion that the concepts proposed by Hawker's Hurricane, of reliability and power under the well known design of a stiff, bulky monoplane, will be the most effective way of protecting our skies. It's perfect for interception missions against enemy attackers, and simple enough that the squadrons themselves can be tasked with repairs without any external support. Throughly tested and improved since its inception, such a piece would greatly improve the effectiveness of our air defenses."
+
+ ENG_Rolls_Royce_Jet_Engine:0 "Rolls-Royce Jet Engine"
+ ENG_Rolls_Royce_Jet_Engine_desc:0 "Engineers and designers over in Rolls Royce have designed new a type of aircraft engine. A revolutionary engine that has potential to become a replacement for traditional propeller engine. Even in early development, the first prototypes are almost on par with its best propeller counterpart. They're called "Jet" engines and as time goes by, it will become significantly better and faster. When the time comes, so called "Jet" aircraft will take over the skies."
+
+ ENG_Modernise_Fighter_Command:0 "Modernise Fighter Airwings"
+ ENG_Modernise_Fighter_Command_desc:0 "The RAF Fighter Command was formed in 1936 to allow more specialized control of fighter aircraft. However, with a war looming over the horizon, we must update our Fighter Command in order to match that of the other rising powers In Europe. With a strong sense of control and coordination, we can beat anyone in the air war!"
+
+ ENG_V_Bombers:0 "V-Bombers"
+ ENG_V_Bombers_desc:0 "V-Bombers is the term for British aircraft that were apart of the British strategic nuclear strike force, known officially as V-Force or Bomber Command Main Force. With massive advances in nuclear technology, we must continue to provide funds for this force to stay up to date in the latest ways of transporting nuclear weapons for our own safety."
+
+ ENG_Fighter_Command:0 "Fighter Command"
+ ENG_Fighter_Command_desc:0 "The RAF Fighter Command was formed in 1936 to allow more specialized control of fighter aircraft. However, with a war looming over the horizon, we must update our Fighter Command in order to match that of the other rising powers In Europe. With a strong sense of control and coordination, we can beat anyone in the air war!"
+
+ ENG_Bomber_Command:0 "Bomber Command"
+ ENG_Bomber_Command_desc:0 "In this new age of warfare, the attack must come from the skies as it does from the ground. Secluded as we are on our home islands, the ideal strategy, should we have no allies on the continent, is to strike our enemies where it hurts most. Strategic bombers will pound our enemy to bits, dropping countless bombs over the home front as the Germans did back in the Great War, as we sit contentendly at home. However, we need to coordinate these attacks and put in place a system to organize the whole operation. A centralized, independent Bomber Command will provide the rigidity and structure we need to continue the fight in the air."
+
+ ENG_Advanced_Striking_Force:0 "Advanced Striking Force"
+ ENG_Advanced_Striking_Force_desc:0 "Our airforce is getting old. So old in fact, that we could only wish to compete with those of other countries. Therefore we must modernise it. We shall build many tactical bombers, which will surely strike fear in our enemies, we shall also order some CAS Fighters, to support our mighty soldiers and our brave RAF pilots will be trained even more. We will surprise our enemies with these new sets of planes, we will make them fear for their lives."
+
+ ENG_Area_Bombing_Initiative:0 "Area Bombing Initiative"
+ ENG_Area_Bombing_Initiative_desc:0 "An expansion of our offensive air capabilities is on the line. We have to combat the current dire situation of the RAF Bomber Command. Its lack of size and technology renders it nearly useless for large scale operations over foreign territory. Inaccurate bomb dropping, outdated planes and above all, the lack of financing. The Spanish civil war has greatly shown the effectiveness of modern bombing raids, crippling both civil morale and industrial- as well as economic capabilities. It is therefore our deed to pick up on that recent military technological development and vastly expand our bomber fleets."
+
+ ENG_Combined_Bombing_Offensive:0 "Combined Bombing Offensive"
+ ENG_Combined_Bombing_Offensive_desc:0 "
+
+ ENG_Fleet_Air_Arm:0 "Fleet Air Arm"
+ ENG_Fleet_Air_Arm_desc:0 "
+
+ ENG_Coastal_Command:0 "Coastal Command"
+ ENG_Coastal_Command_desc:0 ""To assure our people that no hostile nation will ever successfully invade the British Isles, we will have to fortify our beaches and our coastal cities. Men will be trained to defend their homes, fighters and naval bombers will be brought on nearby airfields and our citizens will know what to do, if the enemy come near us. Nothing can defeat us. Their pilots, their navy and their soldiers shall be nothing when compared to the will and determination of the British people."
+
+ ENG_High_Seas_Airforce:0 "High Seas Airforce"
+ ENG_High_Seas_Airforce_desc:0 "Warfare is changing rapidly, and the battle in the air is taking a higher and higher priority. However, we have no effective way of supporting those ships far from friendly shores. We must build some mobile airfields, better known as carriers, which will be the home of new naval airplanes. We shall equip them with of our most modern equipment to make sure that, when they meet our forces, not only will they be defeated, they will also run in fear and will regret challenging Brittania and its mighty fleet."
+
+ ENG_Convoy_Defence:0 "Convoy Defence"
+ ENG_Convoy_Defence_desc:0 "If our foes manage to have access to our supply lines, their sinking of our convoys shall be merciless, causing us to run thin on resources, back home and damaging our troops in the field, be it by a shortage of food or fuel needed for quick movement. We must update our convoy defense mechanisms in order to secure our supply lines, lest Britain starves."
+
+ ENG_Hunter_Killer_Groups:0 "Hunter-Killer Groups"
+ ENG_Hunter_Killer_Groups_desc:0 "With the threat of our enemies destroying our convoys, thus starving us out, we must adopt anti-submarine measures. With the recent advancements in radar, encryption, and decryption, we must fit our convoys with radar and sonar. This will enable us to track any incoming submarine, allowing us to either flee or destroy the submarine before it hits our convoys."
+
+ ENG_Advanced_ASW_Tactics:0 "Advanced ASW Tactics"
+ ENG_Advanced_ASW_Tactics_desc:0 "Altought we have progressed a great deal in our submarine technology, the methods to counter them have always been ad-hoc and shaky at best, like using barrel bombs or, sometimes, planes. These independent strategies have been time and time again proven ineffective and hazardous , that is why we shall establish a strict protocol for search-and-destroy groupments, where both the Airforce and Navy will work in tandem to dissuade, capture or destroy future enemy submersibles."
+
+ ENG_Beneath_the_Waves:0 "Beneath the Waves"
+ ENG_Beneath_the_Waves_desc:0 "Beneath the waves, lurking under every great fleet of Britain is an equally great submarine fleet. A fleet that goes unnoticed until it is too late - and can do the heaviest of battleships in, in only a single blow. Britain has good reason to dedicate more research to the technology of submarines."
+
+ ENG_Royal_Submarine_Service:0 "Royal Submarine Service"
+ ENG_Royal_Submarine_Service_desc:0 "With our more than sufficient amount of capital and light ships, submarines have never really been a large focus of our navy, but times change and we must change with them. Submarines are becoming more and more powerful and if we don’t adapt to this new situation, the Royal Navy might suffer unnecessary losses. Greatly expanding not only our submarine construction and development but also our understanding of them will be key in keeping the Royal Navy at the peak of naval warfare."
+
+ ENG_Torpex:0 "Torpex"
+ ENG_Torpex_desc:0 "The torpedo explosive, or, for short, Torpex, was designed at the Royal Gun Factory of Waltham Abbey in 1899. Although a lot more powerful and more stable than its counter part, dynamite, it wasn't put into service, since the cost of production was too great at the time. But now, with modern technology, we can easily produce it and use its enormous potential to hunt down submarines and warships alike."
+
+ ENG_CAM_Ships:0 "CAM Ships"
+ ENG_CAM_Ships_desc:0 "
+
+ ENG_Royal_Navy:0 "Royal Navy"
+ ENG_Royal_Navy_desc:0 "As per the decree of the royal navy, more dockyards are to be constructed for higher production on ships for the war effort, as well as dedicated research to naval strategies. If Britain is to war with any major powers, her strength will be that of ruling the seas, and the people recognize this."
+
+ ENG_Reaffirm_Naval_Treaties:0 "Re-Affirm Naval Treaties"
+ ENG_Reaffirm_Naval_Treaties_desc:0 " "
+ 
+ ENG_ASDIC_System:0 "ASDIC System"
+ ENG_ASDIC_System_desc:0 " "
+ 
+ ENG_Modernise_the_Escort_Ships:0 "Modernise the Escort Ships"
+ ENG_Modernise_the_Escort_Ships_desc:0 " "
+ 
+ ENG_ASW_Drills:0 "ASW Drills"
+ ENG_ASW_Drills_desc:0 " "
+ 
+ ENG_Invest_in_the_Silent_Service:0 "Invest in the Silent Service"
+ ENG_Invest_in_the_Silent_Service_desc:0 " "
+ 
+ ENG_Stick_With_the_Big_Guns:0 "Stick With the Bin Guns"
+ ENG_Stick_With_the_Big_Guns_desc:0 " "
+ 
+ ENG_Vanguard_Fast_Battleship:0 "Vanguard Fast Battleship"
+ ENG_Vanguard_Fast_Battleship_desc:0 " "
+ 
+ ENG_The_Superb_Class:0 "The Superb Class"
+ ENG_The_Superb_Class_desc:0 " "
+ 
+ ENG_Stick_With_the_Big_Guns: "Stick With the Big Guns"
+ ENG_Stick_With_the_Big_Guns_desc: " "
+ 
+ ENG_Vanguard_Fast_Battleship: "Vanguard Fast Battleship"
+ ENG_Vanguard_Fast_Battleship_desc: " "
+ 
+ ENG_The_Superb_Class: "The Superb Class"
+ ENG_The_Superb_Class_desc: " "
+ 
+ ENG_Projection_of_Power: "Projection of Power"
+ ENG_Projection_of_Power_desc: " "
+ 
+ ENG_Woolworth_Carriers: "Woolworth Carriers"
+ ENG_Woolworth_Carriers_desc: "With carrier technology improving tremendously, it is becoming harder and more expensive to produce them. So, in order to keep up to date in our numbers, we must start building “Woolworth Carriers”, otherwise known as Escort Carriers, which are smaller then normal fleet carriers, carry less planes, and are less armored. However, their cheap production cost will allow us to produce them quickly enough to maintain and secure our naval superiority."
+ 
+ ENG_Audacious_Fleet_Carriers: "Audacious Fleet Carriers"
+ ENG_Audacious_Fleet_Carriers_desc: " "
+ 
+ ENG_Britannia_Rule_the_Waves: "Britannia Rules the Waves"
+ ENG_Britannia_Rule_the_Waves_desc: " "
+ 
+ ENG_The_Royal_Marines: "Royal Marines"
+ ENG_The_Royal_Marines_desc: " "
+ 
+ ENG_Assault_Landing_Crafts: "Assault Landing Crafts"
+ ENG_Assault_Landing_Crafts_desc: " "
+ 
+ ENG_The_Donald_Duck_Tanks: "The Donald Duck Tanks"
+ ENG_The_Donald_Duck_Tanks_desc: " "
+ 
+ ENG_The_Future_of_Warfare: "The Future of Warfare"
+ ENG_The_Future_of_Warfare_desc: " "
+ 
+ ENG_The_Indirect_Approach: "The Indirect Approach"
+ ENG_The_Indirect_Approach_desc: "The only way for victory to truly be assured for the nation without bringing massive cost to our nation is to employ an adapted form of what led to our victory in the first war. Our stranglehold on the world economy guarantees that should we wish, we could economically break any nation over a long period of time in a drawn out defensive war. Following the inevitable physical and psychological breakdown of the opposing nation's soldiers, as seen in the Great War, we can utilise our new technologies of mechanised and light armor to force their lines back and bring their nation to the negotiating table, without too much blood being spilt. Enough was drained from Europe in the Great War, we need not have another Lost Generation - and this style of war ensures it shall not come to pass again."
+ 
+ ENG_The_Direct_Approach: "The Direct Approach"
+ ENG_The_Direct_Approach_desc: "The new developments in armor and the displays we have seen of tanks melting away defensive lines has brought about a new way of thinking - the direct approach, to destroy our enemies in battle, rather than elsewhere. Using concentrated mechanised forces and air power as detailed in the '1919 Plan' can breach holes in the enemy's lines through which rapidly moving formations can advance and surround, cut off and destroy strongpoints, bringing total victory in the field and assuring us victory in the overall war. This style of war can easily end wars quickly if pulled off correctly. Economic war is dishonourable, brings about needless bloodshed overall and does not account for if the enemy can break through our own lines, while Direct Warfare ensures that honor is maintained and total victory assured. We will not have another Lost Generation, and the Iron Fist of Albion shall assure it!"
+ 
+ ENG_Invest_in_Self_Propelled_Artillery: "Invest in Self-Propelled Artillery"
+ ENG_Invest_in_Self_Propelled_Artillery_desc: " "
+ 
+ ENG_Mobility_Over_Firepower: "Mobility Over Firepower"
+ ENG_Mobility_Over_Firepower_desc: " "
+ 
+ ENG_Invest_in_Motorised_Vehicles: "Invest in Motorised Vehicles"
+ ENG_Invest_in_Motorised_Vehicles_desc: " "
+ 
+ ENG_Development_of_Cruiser_Tanks: "Development of Cruiser Tanks"
+ ENG_Development_of_Cruiser_Tanks_desc: " "
+ 
+ ENG_Nine_Principles_of_War: "Nine Principles of War"
+ ENG_Nine_Principles_of_War_desc: " "
+ 
+ ENG_The_Universal_Carrier: "The Universal Carrier"
+ ENG_The_Universal_Carrier_desc: " "
+ 
+ ENG_Reform_the_Royal_Tank_Regiments: "Reform the Royal Tank Regiments"
+ ENG_Reform_the_Royal_Tank_Regiments_desc: " "
+ 
+ ENG_The_Churchill_Tank: "The Churchill Tank"
+ ENG_The_Churchill_Tank_desc: " "
+ 
+ ENG_The_Universal_Tank: "The Universal Tank"
+ ENG_The_Universal_Tank_desc: " "
+ 
+ ENG_Reform_the_Old_Dcotrine: "Reform the Old Doctrine"
+ ENG_Reform_the_Old_Dcotrine_desc: "Trench warfare was a critical part of military strategy during the Great War, but technology has developed a long way since then and so, we must move with the times. There are some radical theorists out there, like J.F.C. Fuller and B.H. Liddell Hart, who believe that the use of tanks and motorised vehicles, is the way forward. They may well be right in the long run, but the concept of large-scale armoured warfare that they are proposing is just that, a concept and is therefore unproven in its effectiveness.\n\nWe must develop our military doctrine beyond the trenches and utilize new technologies, there is no question about that, but we will not put our faith in these radical, untested theories, lest they completely fail and result in the safety of the British Empire being put into jeopardy."
+ 
+ ENG_Expand_the_Royal_Artillery: "Expand the Royal Artillery"
+ ENG_Expand_the_Royal_Artillery_desc: " "
+ 
+ ENG_Modernise_the_Rifle_Regiments: "Modernise the Rifle Regiments"
+ ENG_Modernise_the_Rifle_Regiments_desc: " "
+ 
+ ENG_Invest_in_the_Royal_Corps_of_Signal: "Invest in the Royal Corps of Signal"
+ ENG_Invest_in_the_Royal_Corps_of_Signal_desc: " "
+ 
+ ENG_Build_Up_the_Reconnaissance_Corps: "Build Up the Reconnaissance Corps"
+ ENG_Build_Up_the_Reconnaissance_Corps_desc: " "
+ 
+ ENG_British_Expeditionary_Force: "British Expeditionary Force"
+ ENG_British_Expeditionary_Force_desc: "With the threat of war looming, we need to be prepared for the worst. To do so, we must stand our ground and help our allies by establishing an expeditionary force to send off abroad and defend our brothers."
+ 
+ ENG_Royal_Army_Ordnance_Corps: "Royal Army Ordnance Corps"
+ ENG_Royal_Army_Ordnance_Corps_desc: " "
+ 
+ ENG_Royal_Engineer_Corps: "Royal Engineer Corps"
+ ENG_Royal_Engineer_Corps_desc: " "
+ 
+ ENG_Invest_in_Infantry_Tank_Designs: "Invest in Infantry Tank Designs"
+ ENG_Invest_in_Infantry_Tank_Designs_desc: " "
+ 
+ ENG_Refine_Vic_Formation: "Refine the Vic Formation"
+ ENG_Refine_Vic_Formation_desc: " "
+ 
+ ENG_Hurricane: "The Hurricane"
+ ENG_Hurricane_desc: " "
+ 
+ ENG_Gloster_Meteor: "Gloster Meteor"
+ ENG_Gloster_Meteor_desc: " "
+ 
+ ENG_De_Havilland_Vamptire: "De Havilland Vamptire"
+ ENG_De_Havilland_Vamptire_desc: " "
+ 
+ ENG_The_Special_Air_Service: "Special Air Service"
+ ENG_The_Special_Air_Service_desc: "As the war in Africa devolves into a long and atrocious stalemate , some officers have approached us with different ideas and solutions to resolve the war in the theatre .One of them Lieutenant David Stirling proposed a plan that consists of parachuting soldiers behind enemy lines, operating to gain intelligence, destroy enemy aircrafts, and attack their supply and reinforcement routes. Of course such a dangerous and unorthodox idea will never be endorsed by the Army's High Command ..."
+ 
+ ENG_Development_of_Avro_Bombers: "Development of Avro Bombers"
+ ENG_Development_of_Avro_Bombers_desc: " "
+ 
+ ENG_Carrier_Innovation:0 "Carrier Innovations"
+ ENG_Carrier_Innovation_desc:0 "Many voices are rising in the admiralty in favor of replacing the Battleship by the Aircraft Carrier as the center of our naval formations. Although the risk of adopting a new doctrine is great, advocates of such change say that the carrier-launched aircraft has greater range, flexibility and precision than naval guns, which would give us a massive advantage against our foes in times of war ."
+
+ ENG_Pacific_Fleet_Carriers:0 "Pacific Fleet Carriers"
+ ENG_Pacific_Fleet_Carriers_desc:0 "The advancements in aviation have not only seen great changes in land warfare, aircraft carriers are becoming more numerous and important by the day and as the cogs of war start turning ever more quickly, the need for these plane-carrying behemoths is rising by the minute. Especially the prolific Japanese and American navies are investing heavily in this field, making sure that the skies are never empty above the pacific. We cannot afford that our Royal Navy falls behind on this matter and loses its power in the pacific and therefore it is instrumental that our Pacific Fleet be equipped with more and better carriers so that it may stand side by side with both the US Navy and the Imperial Japanese Navy in the pacific."
+
+ ENG_Battleship_Primacy:0 "Battleship Primacy"
+ ENG_Battleship_Primacy_desc:0 "In time of crisis we can not allow ourselves to explore unknown waters and test unorthodox methods, like placing our aircraft carriers on the forefront of our formations in live terrain against experienced enemies . Instead, we should focus on upgrading and adapting the venerable but proven Battleships who time and time again proved their efficacity and usefulness ."
+
+ ENG_Fast_Battleships:0 "Battlecruisers"
+ ENG_Fast_Battleships_desc:0 "Naval war has historically always been slow, almost to the point of being a waiting game and the bigger the ship, the better thought out ought to be its course, because changing it may halt the entire fleet. But, since the slow pace of naval war is what defines it, accelerating it is the key to getting the upper hand on our enemies. Therefore, making the next generation of Battleships not just harder and deadlier, but also faster will be instrumental to retaining our rule over the seven seas. In the steady and slow-moving arena of the sea those who wield the mastery of speed will be victorious."
+
+ ENG_Battleships:0 "Battleships"
+ ENG_Battleships_desc:0 "Ever since the beginnings of house Tudor our nation has been at the helm of naval technology, always pushing the boundaries of what was possible, what could be put into water. When the HMS Dreadnought left harbor in 1906, the people couldn’t believe their eyes: it was as if we had taken a fortress and put it into water. But that was just the beginning, that was just a glimpse of what ships in modern war would be like and the time to take the next step in the history of navies has finally come. Once again, we shall awe the world and build ships that will make the Dreadnoughts of the Great War seem like toy. We will develop and build Battleships so massive and awe-inducing, so heavy that no other name than “Super Heavy Battleship” will do them justice. And once these behemoths leave harbor, once our enemies are faced with the biggest ships ever to set sail, they will remember who it is that rules the seas."
+
+ ENG_Limited_Rearmament:0 "Limited Rearmament"
+ ENG_Limited_Rearmament_desc:0 "
+
+ ENG_British_Army:0 "British Army"
+ ENG_British_Army_desc:0 "
+
+ ENG_General_Rearmament:0 "General Rearmament"
+ ENG_General_Rearmament_desc:0 "
+
+ ENG_Grand_Battleplan:0 "Grand Battleplan"
+ ENG_Grand_Battleplan_desc:0 "In his esteemed book, The Art of War, Sun Tzu wrote: “Now, the general who wins a battle makes many calculations in his temple ere the battle is fought.” Our temple is Britain and it is the strongest and most impenetrable temple in history. We will use this to our advantage: no Brit shall be deployed on the battlefield without meticulous planning and vast preparation. No stone shall go unturned and no detail overlooked, in a Grand Battleplan we will outsmart our enemies at every turn, always be one step ahead. Like a masterfully employed strategy in a chess game we shall watch our plans unfold and our enemies crumble before us!"
+
+ ENG_Study_in_Strategy:0 "Study in Strategy"
+ ENG_Study_in_Strategy_desc:0 "Only an arrogant fool would sit on the laurels of a victory 20 years ago and change nothing about his tactics. New technologies such as the tank, our esteemed invention, and the radio have opened new possibilities in warfare. Mighty Britannia shall use them to their fullest so that it may remain on top of the world as new threats are rising and looking to challenge our rule. Speed and mobility will be key aspects of modern warfare and mastering them will be instrumental in the wars to come. Not only will our enemies fear our slow approach on the sea, but also our fast advance on the land."
+
+ ENG_Expand_Rifle_Regiments:0 "Expand Rifle Regiments"
+ ENG_Expand_Rifle_Regiments_desc:0 "No matter how many new tanks or planes we come up with and how far we push the edges of technology, the backbone of our army will always be the common rifleman. Ensuring that he is not only fully equipped, but also that that equipment is of the highest quality is vital for our army. Therefore, we will invest more time and resources in developing new weaponry and infantry equipment for our soldiers, so that every Brit may be more fearsome than the next."
+
+ ENG_Expand_Royal_Artillery:0 "Expand Royal Artillery"
+ ENG_Expand_Royal_Artillery_desc:0 "'The Gunners', big gun brigades, although a big part of our expedition forces in Europe during the Great War, has fallen from its grace in the last decades. An expansion, ordered first by laxing our height rules in order to fill up reserves, shall be followed by a reorganization of the RA into Regiments, sent forthwith to be trained at the Woolwich; this move is sure to give us some pointers regarding the current, overall, state of our artillery."
+
+ ENG_BEF:0 "BEF"
+ ENG_BEF_desc:0 "With the threat of war looming, we need to be prepared for the worst. To do so, we must stand our ground and help our allies by establishing an expeditionary force to send off abroad and defend our brothers."
+
+ ENG_Intervention_in_the_Benelux:0 "Intervention in the Benelux"
+ ENG_Intervention_in_the_Benelux_desc:0 "Once more the Benelux region is threatened , but this time the danger comes from within . Indeed ,many demagogues have gained support, and, once, fringe movements are now a force to be reckon with . This situation can not be tolerated , for if any of them assume power in their respective countries the entire region might be destabilized and our foes will be even closer from establishing their rule over us . To secure our best interests, and perhaps Europe's, we must intervene, lest we lose our valuable allies ."
+
+ ENG_Intervention_in_Scandenavia:0 "Intervention in the Scandenavia"
+ ENG_Intervention_in_Scandenavia_desc:0 "Ever since the end of the Napoleonic wars, Scandinavia became neutral, but things are about to change . Indeed, with the rise of demagogues in the land of the Vikings, the political stability of this region is menaced, and the democratic government is paralyzed. This is why we will militarily intervene. For if any of our foes gains a foothold in the old North, Britain will find itself directly under the danger of an invasion. And that is something we will never allow !"
+
+ ENG_Integrated_Artillery_Companies:0 "Integrated Artillery Companies"
+ ENG_Integrated_Artillery_Companies_desc:0 "
+
+ ENG_Field_Artillery:0 "Field Artillery"
+ ENG_Field_Artillery_desc:0 "
+
+ ENG_Inter_Branch_Operations:0 "Inter-Branch Operations"
+ ENG_Inter_Branch_Operations_desc:0 "
+
+ ENG_Royal_Tank_Regiment:0 "Royal Tank Regiment"
+ ENG_Royal_Tank_Regiment_desc:0 "
+
+ ENG_Britannia_Rule_the_Waves:0 "Britannia Rule the Waves"
+ ENG_Britannia_Rule_the_Waves_desc:0 "
+
+
+ ENG_Royal_Marines:0 "Royal Marines"
+ ENG_Royal_Marines_desc:0 "The Royal Marines were initially created in 1755 as the Navy's troops, they have now taken on a new roll. Experienced from dozens of amphibious invasions across the world, from Gallipoli to Crimea. We have carved a legacy of ampibious operations, and an expansion and reform to the Royal Marines is the best way to ensure we can liberate what might be lost."
+
+
+ ENG_Amphibious_Warfare:0 "Amphibious Warfare"
+ ENG_Amphibious_Warfare_desc:0 "We've been kicked off the continent, our forces humiliated and beaten back across the sea. No more. We have rebuilt our forces and fought off every invasion attempt. We are ready to come marching back to Europe, and, should we need to walk across water to do so, the Royal Army is ready. However, that won't be necessary. As the landing at Gallipoli proved, transport ships can quickly deliver troops ashore to establish a beachhead, albeit with many casualties. Combining that with air superiority and a good naval pounding of the landing ground beforehand will ensure that nothing stands in the way of our troops."
+
+
+ ENG_A_Motorized_Army:0 "A Motorized Army"
+ ENG_A_Motorized_Army_desc:0 "Although Great Britain proper is vaste, it pales in comparison to the size of mainland Europe, Africa and Asia; if we are to maintain our intentions to act swiftly against the enemy, be it our beaches, under and over the Sahara, or beyond the Urals, the issue of motorizing our troops is, not only urgent, but mandatory if we are to achieve victory."
+
+
+ ENG_Royal_Armoured_Corps:0 "Royal Armoured Corps"
+ ENG_Royal_Armoured_Corps_desc:0 "Like all other components of the British military, our tank units have to be modernised and expanded. Although we have come up with the tank as a military device as early as 1916, as the first in all of military history, its ways have changed. As we observed the pace of the most recent conflicts, a slow, trench-like warfare has been abandoned in favor of a war of movement and lightning-like destruction. Therefore it is necessary to overthink our current tank designs and modernize our divisions’ equipment."
+
+
+ ENG_Infantry_Tank:0 "Infantry Tanks"
+
+ ENG_Cruiser_Tank:0 "Cruiser Tanks"
+
+ ENG_Combined_Arms_Operations:0 "Combined Arms Operations"
+ ENG_Combined_Arms_Operations_desc:0 "
+
+ ENG_Modern_British_Armed_Forces:0 "Modern Armed Forces"
+
+ ENG_The_Universal_Tank:0 "The Universal Tank"
+
+ ENG_The_Kangaroo:0 "The Kangaroo APC Program"
+
+ ENG_Royal_Ordnance_Factories:0 "Royal Ordnance Factories"
+ ENG_Royal_Ordnance_Factories_desc:0 "As many countries of the world are rearming and ignoring previous treaties , we find ourselves under the obligation to follow course , for we cannot allow ourselves to be surprised and underequipped in case of future conflict . That is why we will increase the funding and expand the government's munitions factories , so that in case of war our nation's armed forces will be ready for anything ."
+
+ ENG_RSAF_Enfield:0 "RSAF Enfield"
+
+ ENG_BSA_Company:0 "BSA Company"
+
+ ENG_Shadow_Scheme:0 "The Shadow Scheme"
+ ENG_Shadow_Scheme_desc:0 "A storm is coming, and only diligent preparation shall ensure our survival in the event of calamity. As the Royal Air Force stands now, it could not hope to best the German military economy, should war truly reach our airspace. We must vastly improve our industrial capacity whilst maintaining our current motorized industrial capacity, thus we shall add additional assembly lines onto our existing factories, essentially creating a ‘shadow’ production line. If all goes well, our desperate need for aircraft shall be sated, and our skies safe once more."
+
+ ENG_Light_Industry_Expansion:0 "Light Industry Expansion"
+ ENG_Light_Industry_Expansion_desc:0 "The real power of the British Empire lies on the simple loyal citizen , who each day goes and works to feed his little family . But those who are particularly successful and whish to expand there business can't, for the banks refuses to hand loans to them ! This situation is unexpectable, for it is now slowing the economic and industrial development to a halt . That is why from this day on, Her Majesty's government shall pressure the banks to let the loyal and ambitious citizen expand their domain, bringing more wealth to both there home and there country ."
+
+ ENG_Heavy_Industry_Expansion:0 "Heavy Industry Expansion"
+ ENG_Heavy_Industry_Expansion_desc:0 "the British heavy industry has been in a weak state ever since the Great Depression and the end of the Great war, for many of the national companies have gone bankrupt, and reliance on the cheep American steel has risen to unsafe levels, provoking high unemployment in industrial and rural mining areas. That is why today, the king's government decided to intervene in the economy by re-opening and subsidizing many closed factories ."
+
+ ENG_Industrial_Development:0 "Industrial Development"
+ ENG_Industrial_Development_desc:0 "Since the end of the Great Depression in Britain, industrial development ceased to be a concern for our nation's government, instead foreign affairs took the lead. That proved to be a grave mistake, for the Germans, Soviets, Japanese have increased there industrial output massively in matter of years, something that we thought unthinkable. But fear not we can always 'demand' to our dominions and colonies to lower the price of raw resources. This will surely benefit the general economy, although there could be some political repercussions in the future, notably in the Raj we're a certain 'Gandhi' is gaining popularity ... but who really cares ?"
+
+ ENG_Highway_Development_Survey:0 "Highway Development Survey"
+ ENG_Highway_Development_Survey_desc:0 ""British road infrastructure has long since needed an overhaul. Transport across the nation takes far longer than it should and can't support many at once. A survey to see which areas have the poorest roads and infrastructure projects according to those areas is the best solution. This will improve the economy, troop transportation as well as boost our government's prestige."
+
+ ENG_Bletchley_Park:0 "Bletchley Park"
+ ENG_Bletchley_Park_desc:0 "We have found a location very secluded and easy to maintain on the countryside. We call it Bletchley Park. Here we will house some of our brightest minds in the field of codebreaking. If they succeed in breaking the enemy's comunication lines we would have an incredible advantage in understanding our enemies movements and plans or strategy to break us. Information is key"
+
+ ENG_Double_Cross_System:0 "Double Cross System"
+ ENG_Double_Cross_System_desc:0 "
+
+ ENG_Code_Breaking_Initiatives:0 "Code Breaking Initiatives"
+ ENG_Code_Breaking_Initiatives_desc:0 "
+
+ ENG_Tizard_Mission:0 "Tizard Mission"
+ ENG_Tizard_Mission_desc:0 "The British Technical and Scientific Mission also known as the Tizard mission (Named after it's instigator Henry Tizard) is believed to be a risky gamble by many higher ups in the empire including our Prime Minister. Fortunately, Tizard has managed to convince them to start with a program of technological sharing between our countries so we can use the industrial power of the United States to produce these new technologies since we barely have the capacity for new ones."
+
+ ENG_MAUD_Committee:0 "MAUD Committee"
+ ENG_MAUD_Committee_desc:0 "The evolution of military technology proceeds. Infinitely and unstoppable, at a steadily increasing speed, with neither borders nor boundaries. Recently, we have tapped into a new realm of possibilities, promising as nothing ever before. The MAUD committee is a small group of scientists to work on this confidential matter in the 4 Universities of Birmingham, Liverpool, Cambridge and Oxford, to discover the true potential of this weapon of utmost mass destruction. Word has it, that a small sphere of pure Uranium-235 could have the explosive power of thousands of tons of TNT, but is that really all that is to it?"
+
+ ENG_Assist_Manhattan_Project:0 "Assist the Manhattan Project"
+ ENG_Assist_Manhattan_Project_desc:0 "Across the Atlantic, the Americans have called our attention towards a little project of theirs. The so called "Manhattan Project", from what the americans tell us, could be the breakthrough we have been looking for to turn the tide of the war. The weapon is said to be the most powerful thing humanity has been able to produce - A bomb cabable of destroying an entire city if built correctly - Such a tool could end the war within the matter of days, saving millions of lives in the process. Britain's help with such an achievement could very well be our salvation."
+
+ ENG_The_London_Economic_Conference:0 "The London Economic Conference"
+ ENG_The_London_Economic_Conference_desc:0 "The Great Depression has plunged the global economy into a state of catastrophe. If there is to be any hope of a relatively quick recovery in our country, and others around the globe, we must call for a global conference, where delegations from around the world can agree upon the best course of action to fight this crisis. Included in these talks will almost certainly be the topics of international trade and the stabilisation of the exchange rates, both things that we view as vital if the global economy is to recover.\n\nDespite this conference being held in London, we will also be relying on the United States to provide the leadership that will be necessary if the negotiations are to be successful. Their support is, however, a doubt. The new administration in the States seems to be fully intent on bringing about their own recovery with or without Europe, which could severely hamper us and the rest of Europe, which certainly wouldn’t be ideal."
+ 
+ ENG_Dealing_With_Unemployment:0 "Dealing with Unemployment"
+ ENG_Dealing_With_Unemployment_desc:0 "Britain is currently being faced with an unemployment crisis of unprecedented scale. Millions of Britons have lost their jobs due to the Great Depression, and are unable to buy food or heat their homes. In parts of the country, the soup kitchen queue has become a staple of daily life.\n\nSolving this crisis will require a different approach in different regions. The agricultural Midlands, urban Home Counties, mining towns of Wales, industrial centers of the North, and fishing villages of the Channel Coast will all require policy tailored to their unique economic conditions. The key to our recovery is getting the British people back to work."
+ 
+ ENG_Complete_of_the_National_Grid:0 "Complete the National Grid"
+ ENG_Complete_of_the_National_Grid_desc:0 " "
+ 
+ ENG_Reduction_of_the_Interest_Rates:0 "Reduction of Interest Rates"
+ ENG_Reduction_of_the_Interest_Rates_desc:0 " "
+ 
+ ENG_Electronic_Industry_Boom:0 "Electronic Industry Boom"
+ ENG_Electronic_Industry_Boom_desc:0 " "
+ 
+ ENG_Loans_to_Shipyards:0 "Loans to Shipyards"
+ ENG_Loans_to_Shipyards_desc:0 " "
+ 
+ ENG_House_Building_Projects:0 "House Building Projects"
+ ENG_House_Building_Projects_desc:0 "Though the Great Depression hit Britain hard, it did not do so evenly. While the industrial north and Wales face massive unemployment and poverty, the effects of the depression were less severe in Southern England, which has started to see a modest economic recovery.\n\nDriven by the lowering of interest rates and population growth in the cities, the Home Counties around London are experiencing a house-building boom. Towns are expanding all over the region, with existing suburban districts expanding and entirely new ones undergoing construction. Brighton, in particular, has seen significant growth, with hundreds of new homes built in the modern and elegant art deco style.\n\nThe Ministry of Health has been a staunch proponent of homeownership, investing in housing development and promoting mortgages as a means of allowing Britons of all classes to work towards owning a home. By both investing ourselves and encouraging investment by everyday citizens, we can build a foundation for complete recovery."
+ 
+ ENG_Tariffs_on_Imports:0 "Tariffs on Imports"
+ ENG_Tariffs_on_Imports_desc:0 " "
+ 
+ ENG_Increase_Social_Spending:0 "Increase Social Spending"
+ ENG_Increase_Social_Spending_desc:0 " "
+ 
+ ENG_Road_Building_Projectss:0 "Road Building Projects"
+ ENG_Road_Building_Projectss_desc:0 " "
+ 
+ ENG_Fund_British_Agriculture:0 "Fund British Agriculture"
+ ENG_Fund_British_Agriculture_desc:0 " "
+ 
+ ENG_Royal_Dockyards:0 "Royal Dockyards"
+ ENG_Royal_Dockyards_desc:0 " "
+ 
+ ENG_The_RSAF:0 "The RSAF"
+ ENG_The_RSAF_desc:0 " "
+ 
+ ENG_Naval_Rearmament:0 "Naval Re-Armament"
+ ENG_Naval_Rearmament_desc:0 " "
+ 
+ ENG_Army_Rearmament:0 "Army Re-Armament"
+ ENG_Army_Rearmament_desc:0 " "
+ 
+ ENG_Food_Rations:0 "Food Rations"
+ ENG_Food_Rations_desc:0 " "
+ 
+ ENG_Government_Code_and_Cypher_School:0 "Government Code and Cypher School"
+ ENG_Government_Code_and_Cypher_School_desc:0 " "
+ 
+ ENG_Expand_the_MI6:0 "Expand the MI6"
+ ENG_Expand_the_MI6_desc:0 " "
+ 
+ ENG_Dowding_Street:0 "Dowding Street"
+ ENG_Dowding_Street_desc:0 " "
+ 
+ ENG_War_Economy:0 "War Economy"
+ ENG_War_Economy_desc:0 " "
+ 
+ ENG_Beveridge_Report:0 "Beveridge Report"
+ ENG_Beveridge_Report_desc:0 " "
+ 
+ ENG_Trust_in_Coorporatism:0 "Trust in Coorporatism"
+ ENG_Trust_in_Coorporatism_desc:0 " "
+ 
+ ENG_Bletchley_Park:0 "Bletchley Park"
+ ENG_Bletchley_Park_desc:0 " "
+ 
+ ENG_Overseas_Empire:0 "Overseas Empire"
+ENG_Overseas_Empire_desc:0 " "
+ ENG_Colonial_Development:0 "Colonial Development"
+ ENG_Colonial_Development_desc:0 "Our colonies are the driving force of our empire, and although the Great Depression has forced us to prioritize the home isles for the time being, as war looms over Europe's horizon, without proper development they won't be ready to stand by us, should the need come. By shifting funds into our colonies, yet again, we can shape the up to support King and Country, one last time."
+
+ ENG_Invest_in_our_Dominions:0 "Invest in our Dominions"
+ ENG_Invest_in_our_Dominions_desc:0 "
+
+ ENG_African_Sun:0 "African Sun"
+ ENG_African_Sun_desc:0 "Africa is one of the richest continents in the world and is providing us with many raw resources at a reasonably low cost, but frankly the situation is terrible and pathetic. The old Victorian infrastructure is falling apart, making the transport of both men and material harder for us. That is why we will (In the name of his Majesty) initiate a grand and ambitious plan to restructure and expand the roads and rails of our African colonial regions. This will directly impact them by allowing further economic growth and, in turn, exploitation of our part of the dark continent."
+
+ ENG_Development_of_the_League_Mandates:0 "Development of the League Mandates"
+ ENG_Development_of_the_League_Mandates_desc:0 "Following our victory in the Great War, large swates of territory from the later Ottoman Empire"
+ 
+ ENG_Strengthen_The_National_Government:0 "Strengthen The National Government"
+ ENG_Strengthen_The_National_Government_desc:0 " "
+ 
+ ENG_Containing_Mosley:0 "Containing Mosley"
+ ENG_Containing_Mosley_desc:0 " "
+ 
+ ENG_Resignation_of_Ramsay:0 "Resignation of Ramsay"
+ ENG_Resignation_of_Ramsay_desc:0 " "
+ 
+ ENG_The_British_Bulldog:0 "The British Bulldog"
+ ENG_The_British_Bulldog_desc:0 " "
+ 
+ ENG_A_New_Wave_of_Conservatism:0 "A New Wave of Conservatism"
+ ENG_A_New_Wave_of_Conservatism_desc:0 " "
+ 
+ ENG_Churchills_Rearmament:0 "Churchill's Re-Armament"
+ ENG_Churchills_Rearmament_desc:0 " "
+ 
+ ENG_Reduce_Indian_Autonomy:0 "Reduce Indian Autonomy"
+ ENG_Reduce_Indian_Autonomy_desc:0 " "
+ 
+ ENG_Imperial_Pride:0 "Imperial Pride"
+ ENG_Imperial_Pride_desc:0 " "
+ 
+ ENG_Anti_German_Ideals:0 "Anti-German Ideals"
+ ENG_Anti_German_Ideals_desc:0 " "
+ 
+ ENG_Maintain_Imperial_Integrity:0 "Maintain Imperial Integrity"
+ ENG_Maintain_Imperial_Integrity_desc:0 " "
+ 
+ ENG_Paying_off_the_Debt:0 "Paying off the Debt"
+ ENG_Paying_off_the_Debt_desc:0 " "
+ 
+ ENG_Global_Defense:0 "Global Defense"
+ ENG_Global_Defense_desc:0 " "
+ 
+ ENG_Fight_the_Anti_War_Sentiment:0 "Fight the Anti-War Sentiment"
+ ENG_Fight_the_Anti_War_Sentiment_desc:0 " "
+ 
+ ENG_The_European_Status_Quo:0 "The European Status Quo"
+ ENG_The_European_Status_Quo_desc:0 " "
+ 
+ ENG_Prepare_War_Industry:0 "Prepare War Industry"
+ ENG_Prepare_War_Industry_desc:0 " "
+ 
+ ENG_Mobilisation_of_the_Country:0 "Mobilization of the Country"
+ ENG_Mobilisation_of_the_Country_desc:0 " "
+ 
+ ENG_No_Further_Appeasement:0 "No Further Appeasement"
+ ENG_No_Further_Appeasement_desc:0 " "
+ 
+ ENG_Prepare_for_War:0 "Prepare for War"
+ ENG_Prepare_for_War_desc:0 " "
+ 
+ ENG_Every_Man_Do_His_Duty:0 "Every Man Do His Duty"
+ ENG_Every_Man_Do_His_Duty_desc:0 " "
+ 
+ ENG_Condemn_Fascism:0 "Condemn Fascism"
+ ENG_Condemn_Fascism_desc:0 " "
+ 
+ ENG_Expansion_of_the_Alliance:0 "Expansion of the Alliance"
+ ENG_Expansion_of_the_Alliance_desc:0 " "
+ 
+ ENG_Preserver_of_Democracy:0 "Preserver of Democracy"
+ ENG_Preserver_of_Democracy_desc:0 " "
+ 
+ ENG_Anti_German_Speeches:0 "Anti-German Speeches"
+ ENG_Anti_German_Speeches_desc:0 " "
+ 
+ ENG_And_so_the_Struggle_Begins:0 "And so the Struggle Begins"
+ ENG_And_so_the_Struggle_Begins_desc:0 " "
+ 
+ ENG_We_Shall_Never_Surrender:0 "We Shall Never Surrender"
+ ENG_We_Shall_Never_Surrender_desc:0 " "
+ 
+ ENG_Churchills_War_Ministry:0 "Prepare the War Ministry"
+ ENG_Churchills_War_Ministry_desc:0 " "
+ 
+ ENG_Replace_the_Defeatists:0 "Replace the Defeatists"
+ ENG_Replace_the_Defeatists_desc:0 " "
+ 
+ ENG_The_British_War_Machine:0 "The British War Machine"
+ ENG_The_British_War_Machine_desc:0 " "
+ 
+ ENG_The_Homefront:0 "The Homefront"
+ ENG_The_Homefront_desc:0 " "
+ 
+ ENG_The_Kings_Presence:0 "The King's Presence"
+ ENG_The_Kings_Presence_desc:0 " "
+ 
+ ENG_Harsh_Colonial_Conscription:0 "Harsh Colonial Conscription"
+ ENG_Harsh_Colonial_Conscription_desc:0 " "
+ 
+ ENG_Adress_Commonwealth_Leaders:0 "Address Commonwealth Leaders"
+ ENG_Adress_Commonwealth_Leaders_desc:0 " "
+ 
+ ENG_Donation_From_the_Commonwealth:0 "Donation From the Commonwealth"
+ ENG_Donation_From_the_Commonwealth_desc:0 " "
+ 
+ ENG_Commitment_Across_Continents:0 "Commitment Across Continents"
+ ENG_Commitment_Across_Continents_desc:0 " "
+ 
+ ENG_Reduction_of_Colonial_Autonomy:0 "Reduction of Colonial Autonomy"
+ ENG_Reduction_of_Colonial_Autonomy_desc:0 " "
+ 
+ ENG_Uncle_Stanley:0 "Uncle Stanley"
+ ENG_Uncle_Stanley_desc:0 " "
+ 
+ ENG_Speech_Against_Fascism:0 "Speech Against Fascism"
+ ENG_Speech_Against_Fascism_desc:0 "Fascism - an evil that looms ominously over our beautiful British hills, threatening a regime of oppression, tyranny, and evil. It is time to make a public acknowledgement of our resolve against it.\n\nOur Prime Minister, Stanley Baldwin, will stand and make a speech, outlining the terrible effects of a fascist dictatorship, and targeting Italy as a primary example. Mussolini's seizure of power in Italy is only an early demonstration of its violent properties, with foes to his iron fist eliminated without question. Italy has become a dangerous place to live.\n\nNow, larger groups of fascist radicals gather in nations like the Spain, Austria, and Germany. Should the British Empire stand passive against this threat, there will be destructive consequences. Baldwin's speech will serve well in informing the general populace of this evil that cannot be ignored."
+ 
+ ENG_The_Conservative_Grandee:0 "The Conservative Grandee"
+ ENG_The_Conservative_Grandee_desc:0 "Stanley Baldwin, MP for Bewdley and current prime minister of the United Kingdom, has been a dominant force in British politics since the end of the Great War. Having served as their PM on two previous occasions, Baldwin has enjoyed significant influence over the Conservative party since the 1920s- but it was during his time as leader of the opposition that he began the process of reshaping and reforming the party.\n\nFrom 1929 to 1931, Baldwin massively overhauled party structure and policy, professionalizing the ranks of party functionaries and embracing the utility of modern mass media such as film, radio, and television. Under Baldwin's leadership, the Tories have shifted slightly to the left, accepting the welfare state and entering a coalition with Ramsay MacDonald's Labour government. Despite this, the party has maintained its historical ties to industry, the aristocracy, and armed forces, granting them considerable political capital."
+ 
+ ENG_The_Commitment_to_Peace:0 "The Commitment to Peace"
+ ENG_The_Commitment_to_Peace_desc:0 "The Great War was a tragedy to both Britain and its people, a tragedy which shook our Empire to the core and left many scars and traumas, which to this day still haven't healed. As a government, we must ensure that Britain, must stay committed to Peace in Europe and the World, lest we lose another generation in a conflict summoned by more hawkish nations.\nWhile the recent upheaval in the World will certainly makes this a difficult task, we will stay on the right track, never giving up on our quest to steer Europe away from another catastrophe. And even if we fail, let the history books say that it was not for a lack of trying!"
+ 
+ ENG_Public_Order_Act:0 "Public Order Act"
+ ENG_Public_Order_Act_desc:0 "Our democracy is under threat of violence, of violence by the fascist and nationalist forcing their agenda. We are a democracy, and we shall never let something like the political violence Germany suffered during the last decade happen here.\nTo prevent this we shall prohibit organizing, training, or equipping military wings of political parties as well the use of political uniforms, obligating the parties to get police consent for marches and prohibit any form of political agenda violence based advancement.\nThis will safeguard our homeland from becoming an internal battleground and improve public security."
+ 
+ ENG_Baldwins_Rearmament:0 "Baldwin's Re-Armament"
+ ENG_Baldwins_Rearmament_desc:0 "Despite rising tensions in Europe and Asia, rearmament is still incredibly unpopular among the British public. The Peace Ballot has shown that the people prefer economic sanctions and diplomatic action through the League of Nations over armed conflict. The Labour-led opposition and its leader, Clement Atlee, also strongly oppose any effort to expand the armed forces.\n\nThe Royal Air Force, in particular, has fallen behind its continental counterparts; intelligence suggests the German Luftwaffe will soon be superior to the RAF both in numbers and in aircraft production capacity. Despite its unpopularity, at least limited rearmament is necessary for the nation's defense.\n\nThe Air Ministry suggests building aircraft manufacturing facilities 'in the shadow' of existing automobile factories, allowing them to draw on existing engineering expertise. Additionally, should the worst come to pass, automobile production lines can be converted to build aircraft instead."
+ 
+ ENG_An_Unfair_Treaty:0 "An Unfair Treaty"
+ ENG_An_Unfair_Treaty_desc:0 "The Treaty of Versailles remains perhaps the harshest treaty ever inflicted upon a nation. Germany was our enemy in the Great War, yes, but the Austro-Hungarian Empire were the true initiators of that deadly conflict. However, in the end, it is the Germans who suffer untold amounts from this treaty.\nThe German populace now secretly seethes with anger at this unfair treaty. Their desperation to get it abolished leads them to turn and follow radical parties, who promise salvation, without logical reason. The full hatred of the German Reich targets France and the British Empire. It is our responsibility to reach out to Germany and discuss the future of this treaty.\nOur delegation will meet with German representatives in Berlin. A public acknowledgement of the cruelties of this treaty will help the Germans understand our stance on the situation, if only subtly. The German leadership will understand that we will be lenient regarding the requirements of the treaty.\nWe will be closer to the end of the Versailles Treaty. One step closer to maintaining the peace."
+ 
+ ENG_WW1_Debt_Relief:0 "WW1 Debt Relief"
+ ENG_WW1_Debt_Relief_desc:0 "During the Great War, the British government borrowed vast sums of money, at first from American banks and later from the American government itself to finance our war effort. From 1914 to 1919, the national debt increased a hundredfold, and by the 1920s, HM Treasury was spending more on repaying the Americans than funding our armed forces. Despite this somewhat embarrassing state of affairs, we were slowly repaying our loans, and it seemed we would eventually square our debt with the Americans.\n\nUnfortunately, the Wall Street Crash of 1929 and the Great Depression that followed made continued payments impossible. Recognizing this, President Hoover granted a one-year suspension of all war loan payments in 1931, but it wasn't enough for us to get back on our feet.\n\nLike so many debtors, we will have to ask for more time. HM Treasury suggests that we ask the Americans for another suspension of payment until the economy recovers."
+ 
+ ENG_Resignation_of_Baldwin:0 "Resignation of Baldwin"
+ ENG_Resignation_of_Baldwin_desc:0 " "
+ 
+ ENG_Home_Defence:0 "Home Defense"
+ ENG_Home_Defence_desc:0 "The Home Isles are the base of power within our global empire, and the home to millions of British people, our people. We as a government have an obligation to prevent a foreign invader from taking one step on British soil, and a duty to protect our people’s home and culture from destruction. In line with this responsibility to our people and our empire, we shall turn our island into a fortress, using the most modern radar, anti-air, coastal fortifications and strategies to prevent the dreaded nightmare that is the enemy on our streets."
+ 
+ ENG_Peace_in_our_Time:0 "Peace in our Time"
+ ENG_Peace_in_our_Time_desc:0 "An entire generation of our youth was destroyed in the First World War. We were victorious in nothing but name. Britain cannot last without its children. An army cannot last without its soldiers.\n\nWhat must follow are steps to ensure that a war does not break out. We are hard-pressed on all sides by wolves and sharks, preying on the weakness that came after the Great War. Thousands of years of culture and heritage on this steadfast island must stand.\n\nEven if it means we have to play as the 'coward' for once in the vast history of this empire. Members of the current government believe the horrors enacted on Germany by the Treaty of Versailles were overly harsh, and suggest we sit back and watch as the Reich recovers. From there, we can see their true intentions. The doctrine of appeasement is being contemplated as our new foreign policy to the enemies that plague us. Victory must come over pride. Without victory, there is no survival.\n\nPerhaps it would be wise to wait cautiously, for now, preserving the status quo. If we must fight war, it will not be today. Today, we celebrate Peace in Our Time!"
+ 
+ ENG_Peace_in_our_Time_2:0 "Peace in our Time?"
+ ENG_Peace_in_our_Time_2_desc:0 "The British people have never relished war, and the terrible losses of the Great War have made the prospect of armed conflict even more unpopular. The public responds to even the slightest rearmament with charges of warmongering and rampant jingoism- they demand that we placate the tiger with a bowl of milk.\n\nWar is to be avoided, yes- but not at any cost. Someday, the price of peace may be too high; and when that day comes, we must be ready to fight for it. Britain will not give up all she bled for with the stroke of a diplomat's pen.\n\nWhile we will spare no effort to find a peaceful solution to the crises that threaten the international order we built in Paris, none shall forget Britain paid for that order in blood. Should it be necessary, we will fight once more to protect the peace."
+ 
+ ENG_Allow_for_Full_Rearmament:0 "Allow for Full Re-Armament"
+ ENG_Allow_for_Full_Rearmament_desc:0 "Ever since the Great War, rearmament has always been a divisive issue, but considering the current events on the world stage, we must begin to fully rearm. These efforts will not be to wage war but to act as a safety net in case our attempts at a diplomatic solution do not succeed. Our empire is vast, and the full rearmament of our armed forces will require much time, but with the massive amount of resources at our disposal, and proper coordination, we can surely prepare His Majesty’s Armed Forces in time for the potential major conflict on the horizon."
+ 
+ ENG_Starve_the_Germans:0 "Starve the Germans"
+ ENG_Starve_the_Germans_desc:0 "Our victory in the Great War was not easily earnt, for every day presented crucial decisions for the British Military High Command to make. One particular strategy was undeniably effective. The North Sea Blockade brought the war a milestone closer to its end, one missing shipment for Germany at a time. We starved the German populace into surrender.\n\nNow that tensions with Germany are arising once more, we may need to starve them again. Most crucial to the completion of this mission is to choke out the sources of their resources. Namely, Sweden and Romania. These two nations pose a grave threat to us should they trade with Germany during a prospective conflict. Sweden can provide essential tungsten to fund the German war economy, while Romania hosts vast oilfields in Ploiești that may fuel German mobile units and aircraft. Securing their loyalty to the British Empire, and only the British Empire, will be enough of a guarantee of their proper neutrality.\n\nWhatever actions must be taken to preserve this glorious empire will be carried out. If the Germans dare challenge us, we will starve them of their resources!"
+ 
+ ENG_Prepare_for_the_Inevitable:0 "Prepare for the Inevitable"
+ ENG_Prepare_for_the_Inevitable_desc:0 "Tensions have been rising throughout the world in recent times, with Europe being the main hotspot. We have attempted to maintain the peace through our diplomatic approach, but as war is becoming an ever likelier prospect, we must awaken to the harsh reality that it simply hasn’t worked. We must now make the necessary preparations, both at home in the Isles and abroad in our imperial holdings to ensure that we can produce enough of the equipment that our armed forces need in time, allowing them to be as prepared as they can be for the battle that is on the horizon."
+ 
+ ENG_Western_Trade_Treaties:0 "Western Trade Allies"
+ ENG_Western_Trade_Treaties_desc:0 "One of the immediate effects of the Wall Street Crash was a sharp decline in international commerce. Foreign markets proved unwilling to pay ever-increasing tariffs for foreign goods, and the Atlantic shipping sector ground to a halt. The northern industrial cities of Manchester, Liverpool, Leeds, Sheffield, and Bradford- their economies centered on the production of textiles, steel, coal, and ships for export- were particularly devastated by the near-collapse of global trade that followed the 1929 crash.\n\nThe Foreign Office has proposed a series of trade treaties with the United States and France, intended to deepen ties with our old allies and restart the British export economy. Should our prospective partners accept, this could be a critical step toward recovery for all parties."
+ 
+ ENG_British_Stoicism:0 "British Stoicism"
+ ENG_British_Stoicism_desc:0 "The tenets of stoicism- self-control, perseverance, and reason- have long been part of the British spirit, and it was on these virtues that we built our nation and empire.\n\nThe ideal of the British gentleman- educated at Oxford and Cambridge, utterly unflappable and dedicated in his duty to King and country- has percolated through all layers of British society, inspiring them to keep a stiff upper lip.\n\nNo matter what calamity may befall this rainy island, the British people will keep calm and carry on:  for they know no other way."
+ 
+ ENG_War_Selters:0 "War Shelters"
+ ENG_War_Selters_desc:0 " "
+ 
+ ENG_Military_Training_Act:0 "Military Training Act"
+ ENG_Military_Training_Act_desc:0 " "
+ 
+ ENG_Issue_Gasmasks:0 "Issue Gasmasks"
+ ENG_Issue_Gasmasks_desc:0 "Modern technologies promise us a war unmatched in its brutality.\n\nWith long-range bombers and poison gas, the enemy can make the bustling streets of London look like the smoggy, corpse-filled trenches at Ypres. While the RAF will do everything possible to keep Britain's familiar grey fog from turning green, the Committee of Imperial Defense has already taken steps to protect our people from a successful gas attack on British soil.\n\nThe Air Raid Precautions service will immediately begin distributing gas masks to the civilian population, as well as training specialist teams to decontaminate affected areas. While we pray neither will ever be needed, it is better to be safe than sorry."
+ 
+ ENG_The_Kings_Speech:0 "The King's Speech"
+ ENG_The_Kings_Speech_desc:0 " "
+ 
+ ENG_Request_US_Aid:0 "Request US Aid"
+ ENG_Request_US_Aid_desc:0 " "
+ 
+ ENG_Blood_Toil_Tears_and_Sweat:0 "Blood, Toil, Tears and Sweat"
+ ENG_Blood_Toil_Tears_and_Sweat_desc:0 " "
+ 
+ ENG_Global_Intervention:0 "Global Intervention"
+ ENG_Global_Intervention_desc:0 " "
+ 
+ ENG_Global_Defense_Shakeup:0 "Global Defense Shakeup"
+ ENG_Global_Defense_Shakeup_desc:0 " "
+ 
+ ENG_Mediterranean_Bastion:0 "Mediterranean Bastion"
+ ENG_Mediterranean_Bastion_desc:0 " "
+ 
+ ENG_Defense_of_the_Suez:0 "Defense of the Suez"
+ ENG_Defense_of_the_Suez_desc:0 " "
+ 
+ ENG_Fortify_the_Rock:0 "Fortify the Rock"
+ ENG_Fortify_the_Rock_desc:0 " "
+ 
+ ENG_Safeguard_Asian_Trade:0 "Safeguard Asian Trade"
+ ENG_Safeguard_Asian_Trade_desc:0 " "
+ 
+ ENG_El_Alamein_Strategy:0 "El-Alamein Strategy"
+ ENG_El_Alamein_Strategy_desc:0 " "
+ 
+ ENG_Alexandrian_Naval_Bases:0 "Alexandrian Naval Bases"
+ ENG_Alexandrian_Naval_Bases_desc:0 " "
+ 
+ ENG_Imperial_Preference:0 "Imperial Preference"
+ ENG_Imperial_Preference_desc:0 " "
+ 
+ ENG_Lifeblood_of_the_Empire:0 "Lifeblood of the Empire"
+ ENG_Lifeblood_of_the_Empire_desc:0 " "
+ 
+ ENG_Sub_Saharan_Investment:0 "Sub-Saharan Investment"
+ ENG_Sub_Saharan_Investment_desc:0 " "
+ 
+ ENG_Nigerian_Oil_Exploration:0 "Nigerian Oil Exploration"
+ ENG_Nigerian_Oil_Exploration_desc:0 " "
+ 
+ ENG_The_Old_Lion_Defies_his_Foes:0 "The Old Lion Defies his Foes"
+ ENG_The_Old_Lion_Defies_his_Foes_desc:0 " "
+ 
+ ENG_Empire_Air_Training_Scheme:0 "Empire Air Training Scheme"
+ ENG_Empire_Air_Training_Scheme_desc:0 " "
+ 
+ ENG_Commonwealth_Divisions:0 "Commonwealth Divisions"
+ ENG_Commonwealth_Divisions_desc:0 " "
+ 
+ ENG_India_and_Beyond:0 "India and Beyond"
+ ENG_India_and_Beyond_desc:0 " "
+ 
+ ENG_Indian_Railways:0 "Indian Railways"
+ ENG_Indian_Railways_desc:0 " "
+ 
+ ENG_The_Burma_Road:0 "The Burma Road"
+ ENG_The_Burma_Road_desc:0 " "
+ 
+ ENG_The_Singapore_Strategy:0 "The Singapore Strategy"
+ ENG_The_Singapore_Strategy_desc:0 " "
+ 
+ ENG_Oriental_Bulwark:0 "Oriental Bulwark"
+ ENG_Oriental_Bulwark_desc:0 " "
+ 
+ ENG_British_Saharan_Minerals_Company:0 "British Saharan Minerals Company"
+ ENG_British_Saharan_Minerals_Company_desc:0 " "
+ 
+ ## Tooltips
+ Has_Listened_to_Liddell_Hart:0 "§YHas listened to Liddell Hart§!"
+ Has_Listened_to_JFC_Fuller:0 "§YHas listened to J.F.C Fuller§!"
+ ENG_Well_Listen_To_Liddell_Hart:0 "§YWe will follow Liddell's advice§"
+ ENG_Well_Listen_To_JFC_Fuller:0 "§YWe will follow J.F.C's advice§!"
+ Vanguard_Construction:0 "A §YVanguard§! class ship is added to our construction que at §Y30%§! progress"
+ ENG_Unlock_Advanced_Striking_Force_Decisions:0 "§YUnlocks Advanced Striking Force Decisions§!"
+ ENG_Unlock_Area_Bombing_Initiative_Decisions:0 "§YUnlocks Area Bombing Initiative Decisions§!"
+ ENG_Allow_Special_Forces_Operation:0 "§YUnlocks Special Forces Operations§!"
+ ENG_Unlocks_Special_Areas_Act_Decisions:0 "Unlocks §Y'Special Areas Act'§! Decisions"
+ ENG_Unlocks_House_Building_Decisions:0 "Unlocks §Y'House Building'§! Decisions"
+ ENG_Unlocks_Road_Building_Decisions:0 "Unlocks §Y'Road Building'§! Decisions"
+ ENG_Unlocks_Combating_Naval_Decadence:0 "Unlocks §Y'Combating Naval Decadence'§! Decisions"
+ ENG_Unlock_Naval_Branch:0 "Unlocks §YNaval Branch§!"
+ ENG_Unlock_Army_Branch:0 "Unlocks §YArmy Branch§!"
+ ENG_Unlocks_New_Operations:0 "Unlocks New Operations"
+ ENG_Defeatists_are_Replaced:0 "§YThe defeatists are removed from the Cabinet§!"
+ ENG_Kingsley_Wood_is_Replaced:0 "§YKingsley Wood will be replaced by John Anderson§!"
+ ENG_Chamberlains_Ministry_is_Formed:0 "§YChamberlain's Ministry is Formed§!"
+ ENG_Churchills_1935_Ministry_is_Formed:0 "§YChurchill's Ministry is Formed§!"
+ ENG_Churchills_War_Ministry_is_Formed:0 "§YChurchill's War Ministry is Formed§!"
+ ENG_Baldwins_Ministry_is_Formed:0 "§YBaldwin's Ministry is Formed§!"
+ ENG_unlock_paying_off_debt_decisions:0 "Unlocks §YPaying off the Debt§! Decision."
+ ENG_will_last_until_war:0 "§YWill be removed once we're at war.§!"
+ ENG_Ramsay_Has_Resigned:0 "§YRamsay Has Resigned§!"
+
+ 
+##############################################
+## British Decisions
+##############################################
+ ENG_invest_dominions_category:0 "Invest in our Dominions"
+ ENG_invest_dominions_category_desc:0 "Invest in our Dominions"
+ ENG_Invest_South_Africa:0 "Invest in South Africa"
+ ENG_Invest_South_Africa_desc:0 "Invest in South Africa"
+ ENG_Invest_New_Zealand:0 "Invest in New Zealand"
+ ENG_Invest_New_Zealand_desc:0 "Invest in New Zealand"
+ ENG_Invest_Australia:0 "Invest in Australia"
+ ENG_Invest_Australia_desc:0 "Invest in Australia"
+ ENG_Invest_Canada:0 "Invest in Canada"
+ ENG_Invest_Canada_desc:0 "Invest in Canada"
+ ENG_Ramsays_Term: "Ramsay's Term"
+ ENG_Ramsays_Term_desc: " "
+ ENG_Economic_Decisions_Category: "Great Depression Relief"
+ ENG_Economic_Decisions_Category_desc: "Prior to the arrival of the §RGreat Depression§! to the shores of Albion, the §YUnited Kingdom§! failed to recover fully from the economic consequences of the Great War, hurting the §YBritish economy§! and its various industries massively, while causing much unemployment. These problems have only been exacerbated by the Great Slump, especially unemployment, which has reached §R70%§! in some areas of the country.\n\nTo get the economy back on track and fix the long-standing issues, we will have to begin implementing several plans that together, will ease the pain felt by the entire country, get the British people back to work and slowly drag us out of this economic disaster.\n\n Condition of §YHousing§!: [Root.GetHouseBuildingConditions] ([Root.GetHouseBuildingPrecentage])\nCondition of the §YRoads§!: [Root.GetRoadBuildingConditions] ([Root.GetRoadBuildingPrecentage])"
+ ENG_Recovery_of_the_Depression: "Recovery of the Depression"
+ ENG_Recovery_of_the_Depression_desc: " "
+ ENG_Unlocks_Balkan_Intervention_Decisions: "§RUnlocks Balkan Intervention Decisions§!"
+ ENG_Unlocks_Scandinavian_Intervention_Decisions: "§RUnlocks Scandinavian Intervention Decisions§!"
+ ENG_Unlocks_Low_Countries_Intervention_Decisions: "§RUnlocks Low Countries Intervention Decisions§!"
+
+ ENG_anglo_iraqi_treaty_category: "Anglo-Iraqi Treaty"
+ ENG_anglo_iraqi_treaty_category_desc: "Blah blah blah, this is placeholder loc."
+ ENG_Increase_Iraqi_Oil_Autonomy: "Increase Oil Influence in Iraq"
+ ENG_Decrease_Iraqi_Oil_Autonomy: "Decrease Oil Influence in Iraq"
+ ENG_Crackdown_on_Iraqi_Hardliners: "Crack Down on Iraqi Hardliners"
+ ENG_Renegociation_of_Anglo_Iraqi_Treaty: "Re-Negotiation of the Treaty"
+ ENG_Puppet_Iraq: "Puppet Iraq"
+ ENG_New_Colony_Middle_East: "New Middle Eastern Colony"
+ ENG_Punish_Treaty_Breakers: "Punish the Treaty Breakers"
+ ENG_Secure_Iraqi_Independence: "Secure Iraqi Independence"
+ ENG_IRQ_Battle_for_Iraq: "Battle for Iraq"
+ ENG_House_Building_London: "House Building in London"
+ ENG_House_Building_London_desc: " "
+ ENG_House_Building_Wales: "House Building in Wales"
+ ENG_House_Building_Wales_desc: " "
+ ENG_House_Building_West_England: "House Building in West England"
+ ENG_House_Building_West_England_desc: " "
+ ENG_House_Building_York: "House Building in York"
+ ENG_House_Building_York_desc: " "
+ ENG_House_Building_Scotland: "House Building in Scotland"
+ ENG_House_Building_Scotland_desc: " "
+ ENG_Road_Building_London: "Road Building in London"
+ ENG_Road_Building_London_desc: " "
+ ENG_Road_Building_Wales: "Road Building in Wales"
+ ENG_Road_Building_Wales_desc: " "
+ ENG_Road_Building_West_England: "Road Building in West England"
+ ENG_Road_Building_West_England_desc: " "
+ ENG_Road_Building_York: "Road Building in York"
+ ENG_Road_Building_York_desc: " "
+ ENG_Road_Building_Scotland: "Road Building Scotland"
+ ENG_Road_Building_Scotland_desc: " "
+ ENG_Special_Areas_Act_Wales: "Special Areas Act in Wales"
+ ENG_Special_Areas_Act_Wales_desc: " "
+ ENG_Special_Areas_Act_Southern_Scotland: "Special Areas Act in Southern Scotland"
+ ENG_Special_Areas_Act_Southern_Scotland_desc: " "
+ ENG_Special_Areas_Act_Northern_England: "Special Areas Act in Northern England"
+ ENG_Special_Areas_Act_Northern_England_desc: " "
+ ENG_Baldwin_Rearmament_Category: "Baldwin's Re-Armament"
+ ENG_Baldwin_Rearmament_Category_desc: "PLACEHOLDER"
+ ENG_Focus_on_Rearming_the_Infantry: "Focus on Re-Arming the Infantry"
+ ENG_Focus_on_Rearming_the_Infantry_desc: " "
+ ENG_Focus_on_Producing_Heavy_Guns: "Focus on Producing Heavy Guns"
+ ENG_Focus_on_Producing_Heavy_Guns_desc: " "
+ ENG_Focus_on_Manufactoring_Armoured_Vehicles: "Focus on Manufactoring Armoured Vehicles"
+ ENG_Focus_on_Manufactoring_Armoured_Vehicles_desc: " "
+ ENG_Focus_on_Motorising_and_Mechanising_the_Army: "focus on Motorising and Mechanising the Army"
+ ENG_Focus_on_Motorising_and_Mechanising_the_Army_desc: " "
+ ENG_Focus_on_Mass_Producing_Fighters: "Focus on Mass Producing Fighters"
+ ENG_Focus_on_Mass_Producing_Fighters_desc: " "
+ ENG_Focus_on_Assembling_Support_Planes: "Focus on Assembling Support Planes"
+ ENG_Focus_on_Assembling_Support_Planes_desc: " "
+ ENG_Focus_on_Constructing_Bombers: "Focus on Constructing Bombers"
+ ENG_Focus_on_Constructing_Bombers_desc: " "
+ ENG_Focus_on_Assembling_Naval_Aircraft: "Focus on Assembling Naval Aircraft"
+ ENG_Focus_on_Assembling_Naval_Aircraft_desc: " "
+ ENG_Churchill_Rearmament_Category: "Churchill's Re-Armament"
+ ENG_Churchill_Rearmament_Category_desc: "PLACEHOLDER"
+ ENG_Churchill_Focus_on_Rearming_the_Infantry: "Focus on Re-Arming the Infantry"
+ ENG_Churchill_Focus_on_Rearming_the_Infantry_desc: " "
+ ENG_Churchill_Focus_on_Producing_Heavy_Guns: "Focus on Producing Heavy Guns"
+ ENG_Churchill_Focus_on_Producing_Heavy_Guns_desc: " "
+ ENG_Churchill_Focus_on_Manufactoring_Armoured_Vehicles: "Focus on Manufactoring Armoured Vehicles"
+ ENG_Churchill_Focus_on_Manufactoring_Armoured_Vehicles_desc: " "
+ ENG_Churchill_Focus_on_Motorising_and_Mechanising_the_Army: "focus on Motorising and Mechanising the Army"
+ ENG_Churchill_Focus_on_Motorising_and_Mechanising_the_Army_desc: " "
+ ENG_Churchill_Focus_on_Mass_Producing_Fighters: "Focus on Mass Producing Fighters"
+ ENG_Churchill_Focus_on_Mass_Producing_Fighters_desc: " "
+ ENG_Churchill_Focus_on_Assembling_Support_Planes: "Focus on Assembling Support Planes"
+ ENG_Churchill_Focus_on_Assembling_Support_Planes_desc: " "
+ ENG_Churchill_Focus_on_Constructing_Bombers: "Focus on Constructing Bombers"
+ ENG_Churchill_Focus_on_Constructing_Bombers_desc: " "
+ ENG_Churchill_Focus_on_Assembling_Naval_Aircraft: "Focus on Assembling Naval Aircraft"
+ ENG_Churchill_Focus_on_Assembling_Naval_Aircraft_desc: " "
+ ENG_Hoare_Laval_Pact: "Hoare-Laval Pact"
+ ENG_Hoare_Laval_Pact_desc: " "
+ ENG_Non_Intervention_Agreement: "Non-Intervention Agreement"
+ ENG_Non_Intervention_Agreement_desc: " "
+ END_State_Visit_to_France: "State Visit to France"
+ END_State_Visit_to_France_desc: " "
+ ENG_Peace_in_our_Time_Decision: "Peace in Our Time"
+ ENG_Peace_in_our_Time_Decision_desc: " "
+ ENG_Guarantee_Poland: "Guarantee Poland"
+ ENG_Guarantee_Poland_desc: " "
+ ENG_Balkan_Intervention: "Balkan Intervention"
+ ENG_Balkan_Intervention_desc: " "
+ ENG_Guarantee_Romania_and_Greece: "Guarantee Romania and Greece"
+ ENG_Guarantee_Romania_and_Greece_desc: " "
+ ENG_Lend_Aircraft_to_Greece: "Lend Aircraft to Greece"
+ ENG_Lend_Aircraft_to_Greece_desc: " "
+ ENG_Force_Greece_to_a_Position: "Force Greece to a Position"
+ ENG_Force_Greece_to_a_Position_desc: " "
+ ENG_Force_Yugoslavia_to_a_Position: "Force Yugoslavia to a Position"
+ ENG_Force_Yugoslavia_to_a_Position_desc: " "
+ ENG_Low_Countries_Intervention: "Low Countries Intervention"
+ ENG_Low_Countries_Intervention_desc: " "
+ ENG_Force_Belgium_to_a_Position: "Force Belgium to a Position"
+ ENG_Force_Belgium_to_a_Position_desc: " "
+ ENG_Force_Netherlands_to_a_Position: "Force Netherlands to a Position"
+ ENG_Force_Netherlands_to_a_Position_desc: " "
+ ENG_Scandinavian_Intervention: "Scandinavian Intervention"
+ ENG_Scandinavian_Intervention_desc: " "
+ ENG_Aid_the_Finns: "Aid the Finns"
+ ENG_Aid_the_Finns_desc: " "
+ ENG_Force_Denmark: "Force Denmark to a Position"
+ ENG_Force_Denmark_desc: " "
+ ENG_Plan_R4: "Plan R4"
+ ENG_Plan_R4_desc: " "
+ ENG_Force_Norway: "Force Norway to a Position"
+ ENG_Force_Norway_desc: " "
+ ENG_expansion_of_the_alliance: "Expansion of the Alliance"
+ ENG_expansion_of_the_alliance_desc: " "
+ invite_the_belgians: "Invite the Belgians"
+ invite_the_belgians_desc: " "
+ invite_the_dutch: "Invite the Dutch"
+ invite_the_dutch_desc: " "
+ invite_the_luxembourgians: "Invite the Luxembourgians"
+ invite_the_luxembourgians_desc: " "
+ invite_the_portuguese: "Invite the Portuguese"
+ invite_the_portuguese_desc: " "
+
+
+ House_Building_Abysmal: "'§RAbysmal§!'"
+ House_Building_Mediocre: "'§OMediocre§!'"
+ House_Building_Excellent: "'§GExcellent§!'"
+ 
+ House_Building_0: "§R0%§!"
+ House_Building_20: "§R20%§!"
+ House_Building_40: "§O40%§!"
+ House_Building_60: "§O60%§!"
+ House_Building_80: "§G80%§!"
+ House_Building_100: "§G100%§!"
+ 
+ Road_Building_Abysmal: "'§RAbysmal§!'"
+ Road_Building_Mediocre: "'§OMediocre§!'"
+ Road_Building_Excellent: "'§GExcellent§!'"
+ 
+ Road_Building_0: "§R0%§!"
+ Road_Building_20: "§R20%§!"
+ Road_Building_40: "§O40%§!"
+ Road_Building_60: "§O60%§!"
+ Road_Building_80: "§G80%§!"
+ Road_Building_100: "§G100%§!"
+ 
+ eng_power_in_iraq_breakdown:0 "[Root.GetNameDefCap] has [?Root.eng_power_in_iraq|+0] §HInfluence Points§!\n"
+ eng_power_in_iraq:0 "[?Root.eng_power_in_iraq|0H]"
+ irq_power_in_iraq_breakdown:0 "[Root.GetNameDefCap] has [?Root.irq_power_in_iraq|+0] §HInfluence Points§!\n"
+ irq_power_in_iraq:0 "[?Root.irq_power_in_iraq|0H]"
+ GAIN_ENG_INFLUENCE_TT: "§H[ENG.GetName]§! Gains [?eng_power_in_iraq_to_gain|0+] §HInfluence Points§!.\n§H[IRQ.GetName]§! Loses [?eng_power_in_iraq_to_gain|0-] §HInfluence Points§!.\n"
+ LOSE_ENG_INFLUENCE_TT: "§H[ENG.GetName]§! Loses [?eng_power_in_iraq_positive|0-] §HInfluence Points§!.\n§H[IRQ.GetName]§! Gains [?eng_power_in_iraq_positive|0+] §HInfluence Points§!.\n"
+ GAIN_IRQ_INFLUENCE_TT: "§H[IRQ.GetName]§! Gains [?irq_power_in_iraq_to_gain|0+] §HInfluence Points§!.\n§H[ENG.GetName]§! Loses [?irq_power_in_iraq_to_gain|0-] §HInfluence Points§!.\n"
+ LOSE_IRQ_INFLUENCE_TT: "§H[IRQ.GetName]§! Loses [?irq_power_in_iraq_positive|0-] §HInfluence Points§!.\n§H[ENG.GetName]§! Gains [?irq_power_in_iraq_positive|0+] §HInfluence Points§!.\n"
+ HAS_SPECIFIC_AMOUNT_OF_ENG_INFLUENCE: "Has at least §Y[?eng_power_in_iraq_to_check|0] §!§HInfluence Points§!"
+ HAS_SPECIFIC_AMOUNT_OF_IRQ_INFLUENCE: "Has at least §Y[?irq_power_in_iraq_to_check|0] §!§HInfluence Points§!"
+ ENG_Public_Projects_cost:0 "§Y[?amount_of_money_to_check|0]§! £money_icon£"
+
+##############################################
+## British Ideas
+##############################################
+## Special Ideas
+ ENG_our_finest_hour:0 "Our Finest Hour"
+ ENG_our_finest_hour_desc:0 "With France defeated most people figured that Britain wouldn't last another 6 weeks. They underestimated the spirit of the British people and their government. They bore themselves that if the British Empire and its Commonwealth lasted  for a thousands years, men would still say this was thier finest hour."
+
+ ENG_end_of_beginning:0 "The End of the Beginning"
+ ENG_end_of_beginning_desc:0 "We have seen many battles and though the war is not yet won, Now this is not the end. It is not even the beginning of the end. But it is, perhaps, the end of the beginning."
+
+ ENG_Pax_Britannica:0 "Pax Britannica"
+ ENG_Pax_Britannica_desc:0 "'War would end if the dead could return'\n\nEver since the last guns fell silent on the French and Belgian fields almost two decades ago the Empire has seen itself in a state of tranquility. While the fires of the revolutions tore Central and Eastern Europe asunder the Empire could happily rest on its laurels knowing that the greatest war mankind had ever seen was over and they were the winners. Perhaps not everything was fine within the Empire itself, the usual Westminster squabbles resonated within the chambers of the Commons and the Lords and from the other sides of the sea the Dominions might cry out.\nBut every man, woman, and child in Britain can rest easy knowing that tomorrow there will be no more bloodshed, and that time will heal the wounds wrought by the past as long as the sun has not yet set on the Empire."
+
+ ENG_The_Great_Depression:0 "The Great Depression"
+ ENG_The_Great_Depression_desc:0 "The great rumbling that shook the foundations of the Earth has reached the great land of Albion as well. With the crash of the American stock market, a domino effect was ignited that swept the entire world market eventually making its way to England as well.\nWhile the austere and timid growth during the interwar period resulted in the effects not being perceived as badly as in America they nonetheless were quite severe if not catastrophic, with over 3 million men unemployed all over the national territories while our export struggles to be competitive.\n\nSuch a disaster is unprecedented in our history and as the hapless politicians scramble to draw emergency plans for this great calamity the people continue to endure. But endure they must, because that is the way of the English, through perseverance and pride we shall stand, for it is the burden of the Englishman to stand alone as the noble lion stands watch over his territory whether in times or bad."
+ ENG_The_Great_Depression2:0 "The Great Depression"
+ ENG_The_Great_Depression2_desc:0 "The great rumbling that shook the foundations of the Earth has reached the great land of Albion as well. With the crash of the American stock market, a domino effect was ignited that swept the entire world market eventually making its way to England as well.\nWhile the austere and timid growth during the interwar period resulted in the effects not being perceived as badly as in America they nonetheless were quite severe if not catastrophic, with over 3 million men unemployed all over the national territories while our export struggles to be competitive.\n\nSuch a disaster is unprecedented in our history and as the hapless politicians scramble to draw emergency plans for this great calamity the people continue to endure. But endure they must, because that is the way of the English, through perseverance and pride we shall stand, for it is the burden of the Englishman to stand alone as the noble lion stands watch over his territory whether in times or bad."
+ ENG_The_Great_Depression3:0 "The Great Depression"
+ ENG_The_Great_Depression3_desc:0 "The great rumbling that shook the foundations of the Earth has reached the great land of Albion as well. With the crash of the American stock market, a domino effect was ignited that swept the entire world market eventually making its way to England as well.\nWhile the austere and timid growth during the interwar period resulted in the effects not being perceived as badly as in America they nonetheless were quite severe if not catastrophic, with over 3 million men unemployed all over the national territories while our export struggles to be competitive.\n\nSuch a disaster is unprecedented in our history and as the hapless politicians scramble to draw emergency plans for this great calamity the people continue to endure. But endure they must, because that is the way of the English, through perseverance and pride we shall stand, for it is the burden of the Englishman to stand alone as the noble lion stands watch over his territory whether in times or bad."
+ ENG_The_Great_Depression4:0 "The Great Depression"
+ ENG_The_Great_Depression4_desc:0 "The great rumbling that shook the foundations of the Earth has reached the great land of Albion as well. With the crash of the American stock market, a domino effect was ignited that swept the entire world market eventually making its way to England as well.\nWhile the austere and timid growth during the interwar period resulted in the effects not being perceived as badly as in America they nonetheless were quite severe if not catastrophic, with over 3 million men unemployed all over the national territories while our export struggles to be competitive.\n\nSuch a disaster is unprecedented in our history and as the hapless politicians scramble to draw emergency plans for this great calamity the people continue to endure. But endure they must, because that is the way of the English, through perseverance and pride we shall stand, for it is the burden of the Englishman to stand alone as the noble lion stands watch over his territory whether in times or bad."
+ ENG_The_Great_Depression5:0 "The Great Depression"
+ ENG_The_Great_Depression5_desc:0 "The great rumbling that shook the foundations of the Earth has reached the great land of Albion as well. With the crash of the American stock market, a domino effect was ignited that swept the entire world market eventually making its way to England as well.\nWhile the austere and timid growth during the interwar period resulted in the effects not being perceived as badly as in America they nonetheless were quite severe if not catastrophic, with over 3 million men unemployed all over the national territories while our export struggles to be competitive.\n\nSuch a disaster is unprecedented in our history and as the hapless politicians scramble to draw emergency plans for this great calamity the people continue to endure. But endure they must, because that is the way of the English, through perseverance and pride we shall stand, for it is the burden of the Englishman to stand alone as the noble lion stands watch over his territory whether in times or bad."
+ ENG_The_Great_Depression6:0 "The Great Depression"
+ ENG_The_Great_Depression6_desc:0 "The great rumbling that shook the foundations of the Earth has reached the great land of Albion as well. With the crash of the American stock market, a domino effect was ignited that swept the entire world market eventually making its way to England as well.\nWhile the austere and timid growth during the interwar period resulted in the effects not being perceived as badly as in America they nonetheless were quite severe if not catastrophic, with over 3 million men unemployed all over the national territories while our export struggles to be competitive.\n\nSuch a disaster is unprecedented in our history and as the hapless politicians scramble to draw emergency plans for this great calamity the people continue to endure. But endure they must, because that is the way of the English, through perseverance and pride we shall stand, for it is the burden of the Englishman to stand alone as the noble lion stands watch over his territory whether in times or bad."
+ ENG_The_Great_Depression7:0 "The Great Depression"
+ ENG_The_Great_Depression7_desc:0 "The great rumbling that shook the foundations of the Earth has reached the great land of Albion as well. With the crash of the American stock market, a domino effect was ignited that swept the entire world market eventually making its way to England as well.\nWhile the austere and timid growth during the interwar period resulted in the effects not being perceived as badly as in America they nonetheless were quite severe if not catastrophic, with over 3 million men unemployed all over the national territories while our export struggles to be competitive.\n\nSuch a disaster is unprecedented in our history and as the hapless politicians scramble to draw emergency plans for this great calamity the people continue to endure. But endure they must, because that is the way of the English, through perseverance and pride we shall stand, for it is the burden of the Englishman to stand alone as the noble lion stands watch over his territory whether in times or bad."
+ ENG_The_Great_Depression8:0 "The Great Depression"
+ ENG_The_Great_Depression8_desc:0 "The great rumbling that shook the foundations of the Earth has reached the great land of Albion as well. With the crash of the American stock market, a domino effect was ignited that swept the entire world market eventually making its way to England as well.\nWhile the austere and timid growth during the interwar period resulted in the effects not being perceived as badly as in America they nonetheless were quite severe if not catastrophic, with over 3 million men unemployed all over the national territories while our export struggles to be competitive.\n\nSuch a disaster is unprecedented in our history and as the hapless politicians scramble to draw emergency plans for this great calamity the people continue to endure. But endure they must, because that is the way of the English, through perseverance and pride we shall stand, for it is the burden of the Englishman to stand alone as the noble lion stands watch over his territory whether in times or bad."
+ ENG_The_Great_Depression9:0 "The Great Depression"
+ ENG_The_Great_Depression9_desc:0 "The great rumbling that shook the foundations of the Earth has reached the great land of Albion as well. With the crash of the American stock market, a domino effect was ignited that swept the entire world market eventually making its way to England as well.\nWhile the austere and timid growth during the interwar period resulted in the effects not being perceived as badly as in America they nonetheless were quite severe if not catastrophic, with over 3 million men unemployed all over the national territories while our export struggles to be competitive.\n\nSuch a disaster is unprecedented in our history and as the hapless politicians scramble to draw emergency plans for this great calamity the people continue to endure. But endure they must, because that is the way of the English, through perseverance and pride we shall stand, for it is the burden of the Englishman to stand alone as the noble lion stands watch over his territory whether in times or bad."
+
+ ENG_World_War_One_Reparations:0 "World War Reparations"
+ ENG_World_War_One_Reparations_desc:0 "While the Americans directly intervened in the Great War during its last years, they began assisting us in our struggle against the Central powers well before that with countless British soldiers using American made guns, helmets, uniforms, and other military equipment during our 4-year struggle against the Germans. \n\nHowever, this equipment wasn´t supplied for free and now with the Great Depression knocking on both our and the American's doorstep, the Americans have decided to ignore our own economic troubles and have demanded that the so-called “war loans“ are to be paid immediately. \nThis has beaten down our economy even further and will make it a near impossible to recover from the Depression in a sensible time frame."
+
+## Normal Ideas
+ ENG_SAS:0 "SAS"
+ ENG_TORPEX:0 "TORPEX"
+ ENG_Dowding_System:0 "Dowding System"
+ ENG_Area_Bombing_Initiative:0 "Area Bombing Initiative"
+ ENG_Combined_Bomber_Offensive:0 "Combined Bomber Offensive"
+ ENG_BEF:0 "British Expeditionary Force"
+ ENG_Double_Cross_System:0 "Double Cross System"
+ ENG_Indirect_Approach:0 "The Indirect Approach"
+ ENG_Direct_Approach:0 "The Direct Approach"
+ ENG_Anti_Submarine_Measures_1:0 "Anti-Submarine Measures"
+ ENG_Anti_Submarine_Measures_2:0 "Anti-Submarine Measures"
+ ENG_Anti_Submarine_Measures_3:0 "Anti-Submarine Measures"
+ ENG_Anti_Submarine_Measures_4:0 "Anti-Submarine Measures"
+ ENG_Rearmament_of_the_Navy:0 "Re-Armament of the Navy"
+ ENG_Reduction_of_Inflation:0 "Reduction of Inflation"
+ ENG_Electronic_Industry_Boom_Idea:0 "Electronic Industry Boom"
+ ENG_Rearmament_of_the_Army:0 "Re-Armament of the Army"
+ ENG_Rearmament_of_the_Navy:0 "Re-Armament of the Navy"
+ ENG_Food_Rations:0 "Food Rations"
+ ENG_Expansion_of_the_School:0 "Expansion of the School"
+ ENG_Guided_by_the_Elites:0 "Guided by the Elites"
+ ENG_Appeasement:0 "Appeasement"
+ ENG_Appeasement_1:0 "Appeasement?"
+ ENG_Rearmament_of_the_Nation:0 "Re-Armament of the Nation"
+ ENG_Preperation_for_the_Inevitable:0 "Preparations for the Inevitable"
+ ENG_War_to_End_All_Wars:0 "War to End All Wars"
+ ENG_War_to_End_All_Wars_2:0 "War to End All Wars"
+ ENG_A_New_Wave_of_Conservatism:0 "A New Wave of Conservatism"
+ ENG_Reduced_Indian_Autonomy:0 "Reduced Indian Autonomy"
+ ENG_Imperial_Pride:0 "Imperial Pride"
+ ENG_Imperial_Intregrity_Maintained:0 "Imperial Integrity Maintained"
+ ENG_And_so_the_Struggle_Begins:0 "And so the Struggle Begins"
+ ENG_The_Kings_Presence:0 "The King's Presence"
+ ENG_Commitment_Across_the_Continents:0 "Commitment Across the Continents"
+ ENG_Large_Scale_Colonial_Conscription:0 "Large Scale Colonial Conscription"
+ ENG_Harsh_Colonial_Conscriptions:0 "Harsh Colonial Conscription"
+ ENG_Lifeblood_of_the_Empire:0 "Lifeblood of the Empire"
+ ENG_Special_Areas_Act_1:0 "Special Areas Act"
+ ENG_Special_Areas_Act_2:0 "Special Areas Act"
+ ENG_Special_Areas_Act_3:0 "Special Areas Act"
+
+ ENG_expand_raf:0 "Tripling the RAF"
+ ENG_colonial_knowledge:0 "Colonial Knowledge"
+ 
+ 

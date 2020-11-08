@@ -1,0 +1,53 @@
+﻿#################################################
+# Saudi Arabia - 1933
+#################################################
+1933.1.1 = {
+	capital = 292
+	oob = "SAU_1933"
+	# Starting tech
+	set_technology = {
+		Small_Arms_1916 = 1
+	
+	}
+	set_convoys = 5
+	set_politics = {	
+		ruling_party = authoritarian
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 10
+		authoritarian = 85
+		democratic = 3
+		socialist = 2
+		communist = 0
+	}
+	add_ideas = {
+		SAU_HoG_Saud_al_Saud
+	}
+	####################################################
+	## Leaders
+	####################################################
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Abdulaziz al Saud"
+		desc = "POLITICS_ABDULAZIZ_DESC"
+		picture = "P_A_Abdulaziz_Ibn_Saud.tga"
+		expire = "1965.1.1"
+		ideology = monarchism
+		traits = { POSITION_King SUBIDEOLOGY_Monarchism HoS_Autocratic_Charmer }
+	}	
+}
+#################################################
+# Saudi Arabia - 1936
+#################################################
+1936.1.1 = {
+	oob = "SAU_1936"
+}
+#################################################
+# Saudi Arabia - 1980
+#################################################
+1980.1.1 = {
+	set_cosmetic_tag = SAU_1973
+}

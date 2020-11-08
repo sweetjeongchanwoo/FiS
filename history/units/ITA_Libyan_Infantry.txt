@@ -1,0 +1,14 @@
+﻿﻿units = {
+	division= {	
+		name = "1st Libyan Division 'Sibelle'"
+		location = 1149
+		division_template = "Divisione Coloniale"
+		start_experience_factor = 1
+	}
+	division= {	
+		name = "2nd Libyan Division 'Pescatori'"
+		location = 11954
+		division_template = "Divisione Coloniale"
+		start_experience_factor = 1
+	}
+}

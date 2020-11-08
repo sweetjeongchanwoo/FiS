@@ -1,0 +1,31 @@
+﻿#########################################################################
+# Burma
+#########################################################################
+capital = 288
+#######################
+# Research
+#######################
+set_technology = {
+	Small_Arms_1916 = 1
+	tech_mountaineers = 1
+}
+#######################
+# Politics
+#######################
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascist = 0
+	authoritarian = 60
+	democratic = 30
+	socialist = 10
+	communist = 0
+}
+
+#######################
+# Leaders
+#######################

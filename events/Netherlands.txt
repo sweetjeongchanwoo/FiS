@@ -1,0 +1,110 @@
+﻿###########################
+# Darkest Hour Events : Netherlands
+###########################
+add_namespace = DH_Netherlands
+
+#########################################################################
+#  Germany is asking for the return of the Kaiser  
+#########################################################################
+country_event = {
+	id = DH_Netherlands.1
+	title = DH_Netherlands.1.t
+	desc = DH_Netherlands.1.d
+	picture = GFX_report_event_soviet_soldiers
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = DH_Netherlands.1.A
+		hidden_effect = {
+			GER = {
+				country_event = {
+					id = DH_GER_KR.94
+					hours = 6
+				}
+			}
+		}
+	}
+	option = { # Refuse
+		name = DH_Netherlands.1.B
+	}
+}
+#########################################################################
+# Shootout in the Border Checkpoint (Failed espionage)
+#########################################################################
+country_event = {
+	id = DH_Netherlands.2
+	title = DH_Netherlands.2.t
+	desc = DH_Netherlands.2.d
+	picture = GFX_report_event_soviet_soldiers
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	# This act is an act of war, and we should respond as such
+	option = { 
+		name = DH_Netherlands.2.A
+	}
+
+	# We may declare war, but we should consult our Allies first
+	option = { 
+		name = DH_Netherlands.2.B
+	}
+}
+
+#########################################################################
+# The Kaiser has returned to Germany! (success espionage)
+#########################################################################
+country_event = {
+	id = DH_Netherlands.3
+	title = DH_Netherlands.3.t
+	desc = DH_Netherlands.3.d
+	picture = GFX_report_event_soviet_soldiers
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	# We need to calm down, it’s just a foreign ruler, right?
+	option = { 
+		name = DH_Netherlands.3.A
+	}
+}
+
+#########################################################################
+# The Germans have sent an Ultimatum! (Dutch event regarding ultimatum)
+#########################################################################
+country_event = {
+	id = DH_Netherlands.4
+	title = DH_Netherlands.4.t
+	desc = DH_Netherlands.4.d
+	picture = GFX_report_event_soviet_soldiers
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	# War is messy, and we should exert all efforts in avoiding it
+	option = { 
+		name = DH_Netherlands.4.A
+		hidden_effect = {
+			GER = {
+				country_event = {
+					id = DH_GER_OKH.16
+					hours = 6
+				}
+			}
+		}
+	}
+	# How dare they attempt to influence us, decline it immediately!
+	option = {
+		name = DH_Netherlands.4.B
+		hidden_effect = {
+			GER = {
+				country_event = {
+					id = DH_GER_OKH.17
+					hours = 6
+				}
+			}
+		}
+	}
+}

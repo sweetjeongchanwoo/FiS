@@ -1,0 +1,45 @@
+
+state={
+	id=88
+	name="STATE_88"
+	resources={
+		oil=4.000
+	}
+
+	history={
+		owner = POL
+		victory_points = {
+			9427 10 
+		}
+		victory_points = {
+			442 2 
+		}
+		victory_points = {
+			6522 2 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 4
+
+		}
+		add_core_of = POL
+		1940.5.10 = {
+			owner = GGP
+
+		}
+		1946.1.1 = {
+			owner = POL
+
+		}
+
+	}
+
+	provinces={
+		417 442 466 3410 6499 6522 9427 11398 11413 11507 14379 
+	}
+	manpower=3592800
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

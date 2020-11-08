@@ -1,0 +1,13 @@
+assassionation_decisions_category = {
+	icon = placeholder
+	
+	scripted_gui = decision_assassination_window
+	
+	allowed = {
+		tag = ENG # currently only ENG can assassination Heydrich, but might be used for different countries as well
+	}
+	
+	visible = {
+		is_ai = no # testing
+	}
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=490
+	name="STATE_490"
+
+	history={
+		owner = ECU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = ECU
+		add_core_of = PRU
+		1941.7.31 = {
+			owner = PRU
+			controller = PRU
+			remove_core_of = ECU
+
+		}
+
+	}
+
+	provinces={
+		8149 10942 
+	}
+	manpower=70020
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

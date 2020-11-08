@@ -1,0 +1,84 @@
+﻿#########################################################################
+# Croatia - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 109
+	set_research_slots = 2
+	oob = "CRO_1936"
+	set_convoys = 5
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		tech_mountaineers = 1
+		tech_support = 1
+		tech_recon = 1
+		transport = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = fascist
+		last_election = "1935.6.9"
+		election_frequency = 12
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 45
+		authoritarian = 28
+		democratic = 24
+		socialist = 3
+		communist = 0
+	}
+	add_ideas = {
+		limited_exports
+		one_year_service
+		partial_economic_mobilisation
+		Exiled_Leader
+		Seperated_Armies
+		Naval_Restrictions
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Ante Pavelic"
+		desc = "ANTE_PAVELIC_DESC"
+		picture = "P_F_Ante_Pavelic.tga"
+		expire = "1965.1.1"
+		ideology = fascism
+		traits = {
+			POSITION_CRO_Poglavnik
+			SUBIDEOLOGY_Fascism
+			HoS_Popular_Figurehead
+		}
+	}
+}
+#########################################################################
+# Croatia - 1941
+#########################################################################
+1941.6.22 = {
+	GER = {
+		set_autonomy = {
+			target = CRO
+			autonomy_state = autonomy_satellite
+		}
+	}
+	set_cosmetic_tag = CRO_Ustashe
+}
+#########################################################################
+# Croatia - 1946
+#########################################################################
+1946.1.1 = {
+	GER = {
+		set_autonomy = {
+			target = CRO
+			autonomy_state = autonomy_free
+		}
+	}
+	drop_cosmetic_tag = yes
+}

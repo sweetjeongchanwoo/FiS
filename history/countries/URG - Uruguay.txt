@@ -1,0 +1,119 @@
+﻿#########################################################################
+# Uruguay - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 300
+	set_country_flag = monroe_doctrine
+	set_convoys = 5
+	oob = "URG_1933"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Artillery_1910 = 1
+		Fighter_1933 = 1
+		# Naval Tech
+		DD_1885 = 1
+		CL_1885 = 1
+	}	
+	#######################
+	# Politics
+	#######################	
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1934.4.19"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 0
+		democratic = 90
+		socialist = 10
+		communist = 0
+	}
+	#######################
+	# Leaders
+	#######################	
+	# Authoritarian
+	create_country_leader = {
+		name = "Gabriel Terra"
+		desc = "POLITICS_GABRIEL_TERRA_DESC"
+		picture = "P_D_Gabriel Terra.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Authoritarian_Democracy
+			HoS_PowerHungry_Demagogue
+		}
+	}	
+	# Democracy
+	create_country_leader = {
+		name = "Gabriel Terra"
+		desc = "POLITICS_GABRIEL_TERRA_DESC"
+		picture = "P_D_Gabriel Terra.tga"
+		expire = "1965.1.1"
+		ideology = social_liberalism
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Social_Liberalism
+			HoS_PowerHungry_Demagogue
+		}
+	}	
+}
+#########################################################################
+# Uruguay - 1936
+#########################################################################
+1936.1.1 = {
+	oob = "URG_1936"
+	#######################
+	# Politics
+	#######################	
+	set_politics = {
+		ruling_party = authoritarian
+	}
+}
+#########################################################################
+# Uruguay - 1939
+#########################################################################
+1939.9.1 = {
+	#######################
+	# Leaders
+	#######################	
+	# Authoritarian
+	create_country_leader = {
+		name = "Alfredo Baldomir"
+		desc = ""
+		picture = "P_A_Alfredo_Baldomir.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Authoritarian_Democracy
+			HoS_Resigned_Generalissimo
+		}
+	}
+}
+#########################################################################
+# Uruguay - 1943
+#########################################################################
+1943.7.26 = {
+	#######################
+	# Leaders
+	#######################	
+	# Authoritarian
+	create_country_leader = {
+		name = "Juan José de Amézaga"
+		desc = ""
+		picture = "P_A_Juan_de_Amezaga.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Authoritarian_Democracy
+			HoS_Benevolent_Gentleman
+		}
+	}
+}

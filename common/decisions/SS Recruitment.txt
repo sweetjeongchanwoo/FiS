@@ -1,0 +1,413 @@
+SS_recruitment = {
+	DH_SS_recruitment_france = {
+
+		icon = generic_army_support
+
+		available = {
+			VIC = { exists = yes }
+		}
+		visible = {
+			VIC = { exists = yes }
+		}
+
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			country_event = DH_SS_Recruitment.1
+		}
+	}
+	DH_SS_recruitment_belgium = {
+
+		icon = generic_army_support
+
+		available = {
+			6 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER
+						is_subject_of = GER
+					}
+				}
+			}
+			34 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER
+						is_subject_of = GER
+					}
+				}
+			}
+		}
+		visible = {
+			OR = {
+				BEL = {
+					is_subject_of = GER
+				}
+				has_war_with = BEL
+				BEL = { exists = no }
+			}
+		}
+
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			country_event = DH_SS_Recruitment.2
+		}
+	}
+	DH_SS_recruitment_netherlands = {
+
+		icon = generic_army_support
+
+		available = {
+			36 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER 
+						is_subject_of = GER 
+					}
+				}
+			}
+			7 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER 
+						is_subject_of = GER 
+					}
+				}
+			}
+			35 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER 
+						is_subject_of = GER 
+					}
+				}
+			}
+		}
+		visible = {
+			OR = {
+				HOL = {
+					is_subject_of = GER
+				}
+				has_war_with = HOL
+				HOL = { exists = no }
+			}
+		}
+
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			country_event = DH_SS_Recruitment.3
+		}
+	}
+	DH_SS_recruitment_yugoslavia = {
+
+		icon = generic_army_support
+
+		available = {
+			107 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER 
+						is_subject_of = GER 
+					}
+				}
+			}
+			108 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER 
+						is_subject_of = GER 
+					}
+				}
+			}
+			106 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER 
+						is_subject_of = GER 
+					}
+				}
+			}
+			105 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER 
+						is_subject_of = GER 
+					}
+				}
+			}
+		}
+		visible = {
+			OR = {
+				YUG = {
+					is_subject_of = GER
+				}
+				has_war_with = YUG
+				YUG = { exists = no }
+			}
+		}
+
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			country_event = DH_SS_Recruitment.4
+		}
+	}
+	DH_SS_recruitment_denmark = {
+
+		icon = generic_army_support
+
+		available = {
+			99 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER
+						is_subject_of = GER
+					}
+				}
+			}
+			37 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER
+						is_subject_of = GER
+					}
+				}
+			}
+		}
+		visible = {
+			OR = {
+				DEN = {
+					is_subject_of = GER
+				}
+				has_war_with = DEN
+				AND = {
+					has_war = yes
+					DEN = {
+						exists = no
+					}
+				}
+			}
+		}
+
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			country_event = ss_recruitment_event.5
+		}
+	}
+	DH_SS_recruitment_baltic = {
+
+		icon = generic_army_support
+
+		available = {
+			11 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER
+						is_subject_of = GER
+					}
+				}
+			}
+			189 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER
+						is_subject_of = GER
+					}
+				}
+			}
+			190 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER
+						is_subject_of = GER
+					}
+				}
+			}
+			12 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER
+						is_subject_of = GER
+					}
+				}
+			}
+			191 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER
+						is_subject_of = GER
+					}
+				}
+			}
+			13 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER
+						is_subject_of = GER
+					}
+				}
+			}
+		}
+		visible = {
+			AND = {
+				OR = {
+					LIT = {
+						is_subject_of = GER
+					}
+					LIT = {
+						exists = no
+					}
+				}
+				OR = {
+					LAT = {
+						is_subject_of = GER
+					}
+					LAT = {
+						exists = no
+					}
+				}
+				OR = {
+					EST = {
+						is_subject_of = GER
+					}
+					EST = {
+						exists = no
+					}
+				}
+			}
+		}
+
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			country_event = DH_SS_Recruitment.6
+		}
+	}
+	DH_SS_recruitment_russia = {
+
+		icon = generic_army_support
+
+		available = {
+			202 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER
+						is_subject_of = GER
+					}
+				}
+			}
+		}
+		visible = {
+			OR = {
+				SOV = {
+					is_subject_of = GER
+				}
+				has_war_with = SOV
+				AND = {
+					has_war = yes
+					SOV = {
+						exists = no
+					}
+				}
+			}
+		}
+
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			country_event = DH_SS_Recruitment.7
+		}
+	}
+	DH_SS_recruitment_danube = {
+
+		icon = generic_army_support
+
+		available = {
+			772 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER
+						is_subject_of = GER
+					}
+				}
+			}
+		}
+		visible = {
+			772 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER
+						is_subject_of = GER
+					}
+				}
+			}
+		}
+
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			country_event = DH_SS_Recruitment.8
+		}
+	}
+	DH_SS_recruitment_italy = {
+
+		icon = generic_army_support
+
+		available = {
+			2 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER
+						is_subject_of = GER
+					}
+				}
+			}
+		}
+		visible = {
+			OR = {
+				ITA = {
+					is_subject_of = GER
+				}
+				ITA = {
+					has_capitulated = yes
+				}
+			}
+		}
+
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			country_event = DH_SS_Recruitment.9
+		}
+	}
+}

@@ -1,0 +1,97 @@
+﻿#########################################################################
+# Bhutan - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 324
+	oob = "BHU_1936"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+		tech_mountaineers = 1
+		### Arty Tech
+		Artillery_1910 = 1
+		### Armor Tech
+		Armored_Car_1911 = 1
+		### Light Air Tech
+		Unarmed_Recon_1910 = 1
+		Fighter_1914 = 1
+		Fighter_1916 = 1
+		### Land Doctrine Tech
+		Twentieth_Century_Warfare = 1
+		Leading_by_Order = 1
+		Strongpoint = 1
+		Mass_Charge = 1
+		Static_Defence = 1
+		Counterattack = 1
+		Defence_In_Depth = 1
+		Separate_Arms_Force = 1
+		Combined_Arms_Effort = 1
+		Specialized_Branch_Tactical_Experience = 1
+
+		Planning_Focus = 1		
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 60
+		democratic = 30
+		socialist = 10
+		communist = 0
+	}
+	add_ideas = {
+	# Cabinet
+		BHU_HoG_Sonam_Tobgay_Dorji
+		BHU_FM_Sonam_Tobgay_Dorji
+		BHU_AM_Ahmad_Akhaz
+		BHU_MoS_Mangpos_Bhurbai_Rgyalpo
+		BHU_HoI_Reginald_B_Stevens
+	# Military Staff
+		BHU_CoStaff_Namgyal_Bahadur
+		BHU_CoArmy_Philip_Toozey
+		BHU_CoNavy_Tommy_Gould
+		BHU_CoAir_Nicky_Barr
+	}
+	#######################
+	# Leaders
+	#######################
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Jigme Wangchuck"
+		desc = "POLITICS_JIGME_WANGCHUCK_DESC"
+		picture = "P_A_Jigme_Wangchuck.tga"
+		expire = "1965.1.1"
+		ideology = monarchism
+		traits = {
+			POSITION_King
+			SUBIDEOLOGY_Monarchism
+			HoS_Ruthless_Powermonger
+		}
+	}
+}
+############################################
+# Bhutan - 1960
+############################################
+1960.1.1 = {
+	set_capital = 1223
+}

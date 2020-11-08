@@ -1,0 +1,98 @@
+﻿###########################
+# Darkest Hour Election Events : Canada
+###########################
+
+add_namespace = DH_Canada_Elections
+
+#########################################################################
+#  Canadian elections 1940
+#########################################################################
+country_event = { 
+	id = DH_Canada_Elections.1
+	title = DH_Canada_Elections.1.t
+	desc = DH_election.1.d
+	picture = GFX_DH_Generic_Elections
+	
+	fire_only_once = yes
+	trigger = {
+		original_tag = CAN
+		date > 1940.1.1
+		date < 1941.1.1
+	}
+
+	# Elect NatSoc
+	option = {
+		name = DH_Canada_Elections.1.A
+		ai_chance = { factor = 30 }
+		trigger = { 			
+			fascist > 0.40
+			has_country_flag = elections_NS
+		}
+		set_politics = { ruling_party = fascist elections_allowed = yes }
+	}	
+
+	# Elect Fascists
+	option = {
+		name = DH_Canada_Elections.1.B
+		ai_chance = { factor = 30 }
+		trigger = { 			
+			fascist > 0.40
+			has_country_flag = elections_FA			
+		}
+		set_politics = { ruling_party = fascist elections_allowed = yes }
+	}	
+
+	# Elect Paternal Autocrats
+	option = {
+		name = DH_Canada_Elections.1.C
+		ai_chance = { factor = 30 }
+		trigger = { 			
+			authoritarian > 0.40
+			has_country_flag = elections_PA		
+		}
+		set_politics = { ruling_party = authoritarian elections_allowed = yes }
+	}
+	
+	# Elect Social Conservatives HoG Robert Manion
+	option = {
+		name = DH_Canada_Elections.1.D
+		ai_chance = { factor = 60 }
+		trigger = { 			
+			democratic > 0.25
+		}
+		set_politics = { ruling_party = democratic elections_allowed = yes }
+		custom_effect_tooltip = "The candidate of the Conservative Party is Robert Manion"
+	}	
+
+	# Elect Social democratics
+	option = { 
+		name = DH_Canada_Elections.1.F
+		ai_chance = { factor = 30 }
+		trigger = {
+			democratic > 0.25
+		}
+		set_politics = { ruling_party = democratic elections_allowed = yes }
+	}
+
+	# Elect Social Democrats HoG  J. S. Woodsworth
+	option = {
+		name = DH_Canada_Elections.1.G
+		ai_chance = { factor = 30 }
+		trigger = {
+			democratic > 0.25
+		}
+		set_politics = { ruling_party = democratic elections_allowed = yes }
+		custom_effect_tooltip = "The candidate of the Co-operative Commonwealth Federation is J. S. Woodsworth"		
+	}
+	
+	# Elect LWRs
+	option = {
+		name = DH_Canada_Elections.1.H
+		ai_chance = { factor = 30 }
+		trigger = { 			
+			socialist > 0.40
+			has_country_flag = elections_LWR		
+		}
+		set_politics = { ruling_party = socialist elections_allowed = yes }
+	}
+}

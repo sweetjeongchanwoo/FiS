@@ -1,0 +1,100 @@
+﻿division_template = {
+	name = "Infantry Division"				# Infantry Division
+	division_names_group = SAF_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Division"               # Cavalry Division
+	division_names_group = SAF_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+##### OOB #####
+units = {
+    ##### South African Army #####
+    division = { # 1st South African Infantry Division
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+        location = 10400 # Johannesburg (Praetoria)
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = { # 2nd South African Infantry Division
+        division_name = {
+            is_name_ordered = yes
+            name_order = 2
+        }
+        location = 10400 # Johannesburg (Praetoria)
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = { # 3rd South African Infantry Division
+        division_name = {
+            is_name_ordered = yes
+            name_order = 3
+        }
+        location = 10400 # Johannesburg (Praetoria)
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "1st Mounted Commando Division"
+        location = 10400 # Johannesburg (Praetoria)
+        division_template = "Cavalry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.1
+    }
+
+	##### South African Navy #####
+	fleet = {
+		name = "South African Navy"
+		naval_base = 12589 #  Capetown
+		task_force = {
+			name = "South African Navy"
+			location = 12589 #  Capetown
+			ship = { name = "1st SAN Destroyer Flotilla" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = SAF } } }
+			ship = { name = "2nd SAN Destroyer Flotilla" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = SAF } } }
+			ship = { name = "3rd SAN Destroyer Flotilla" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = SAF } } }
+		}
+		task_force = {
+			name = "RSAN Fleet 1"
+			location = 12589 #  Capetown
+			ship = { name = "4th SAN Destroyer Flotilla" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = SAF } } }
+			ship = { name = "5th SAN Destroyer Flotilla" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = SAF } } }		
+			ship = { name = "6th SAN Destroyer Flotilla" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = SAF } } }
+		}
+	}
+}
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1936
+			creator = "SAF"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+	}
+}

@@ -1,0 +1,47 @@
+
+state={
+	id=908
+	name="STATE_908"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 4
+		}
+		1933.1.1 = {
+			owner = PRC
+			controller = PRC
+		}
+		1936.1.1 = {
+			owner = CHI
+			controller = CHI
+		}
+		1937.1.1 = {
+			owner = CHI
+			controller = JAP
+		}
+		1944.6.20 = {
+			owner = RNG
+			controller = RNG
+			buildings = {
+				infrastructure = 6
+			}
+		}		
+		1946.1.1 = {
+			owner = CHI
+			controller = CHI
+		}
+		1950.1.1 = {
+			owner = PRC
+		}		
+	}
+
+	provinces={
+		4203 1083 7035
+	}
+	manpower=1053200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

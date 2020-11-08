@@ -1,0 +1,3533 @@
+###########################
+# Darkest Hour Election Events : Britain
+###########################
+add_namespace = DH_Britain_Politics
+add_namespace = DH_Britain_Elections
+add_namespace = DH_Britain
+add_namespace = DH_Britain_Arab_Revolt
+add_namespace = DH_Britain_Raid_On_Mers_El_Kebir
+add_namespace = DH_Britain_Abdication_Crisis
+add_namespace = DH_Anglo_Iraqi_Treaty
+#########################################################################
+#  PM Stanley Baldwin resigns
+#########################################################################
+news_event = {
+	id = DH_Britain_Politics.1
+	title = DH_Britain_Politics.1.t
+	desc = DH_Britain_Politics.1.d
+	picture = GFX_news_ENG_Stanley_Baldwin_Radio
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	# Alright
+	option = {
+		name = DH_Britain_Politics.1.A
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Neville Chamberlain"
+			desc = ""
+			picture = "P_D_Neville_Chamberlain.tga"
+			expire = "1965.1.1"
+			ideology = social_conservatism
+			traits = {
+				POSITION_Prime_Minister
+				SUBIDEOLOGY_Conservatism
+				HoG_The_Pacifier
+			}
+		}
+		set_country_flag = baldwin_resigned
+		custom_effect_tooltip = ENG_Chamberlains_Ministry_is_Formed
+		hidden_effect = {
+			add_ideas = {
+				ENG_FM_Anthony_Eden
+				ENG_AM_John_Simon
+				ENG_MoS_Samuel_Hoare
+			}
+		}
+		remove_ideas = ENG_Guided_by_the_Elites
+	}
+}
+
+#########################################################################
+#  PM Chamberlain resigns
+#########################################################################
+news_event = {
+	id = DH_Britain_Politics.2
+	title = DH_Britain_Politics.2.t
+	desc = DH_Britain_Politics.2.d
+	picture = GFX_news_ENG_Chamberlain_Quits
+	fire_only_once = yes
+	trigger = {
+		has_government = democratic
+		original_tag = ENG
+		date > 1940.5.10
+		has_start_date < 1940.5.10
+	}
+	# Winston Churchill
+	option = {
+		name = DH_Britain_Politics.2.A
+		ai_chance = {
+			factor = 90
+		}
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Winston Churchill"
+			desc = "Winston_Churchill_desc"
+			picture = "P_D_Winston_Churchill.tga"
+			expire = "1965.1.1"
+			ideology = social_conservatism
+			traits = {
+				POSITION_Prime_Minister
+				SUBIDEOLOGY_Conservatism
+				HoG_Bulldog
+			}
+		}
+	}
+	# Lord Halifax
+	option = {
+		name = DH_Britain_Politics.2.B
+		ai_chance = {
+			factor = 10
+		}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Lord Edward Halifax"
+			desc = ""
+			picture = "P_D_Edward_Halifax.tga"
+			expire = "1965.1.1"
+			ideology = social_conservatism
+			traits = {
+				POSITION_Prime_Minister
+				SUBIDEOLOGY_Conservatism
+				FM_The_Appeaser
+			}
+		}
+	}
+}
+
+#########################################################################
+#  PM Ramsay Resigns
+#########################################################################
+news_event = {
+	id = DH_Britain_Politics.3
+	title = DH_Britain_Politics.3.t
+	desc = DH_Britain_Politics.3.d
+	picture = GFX_DH_Chamberlain_Quits
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			complete_national_focus = ENG_Resignation_of_Ramsay
+		}
+	}
+	
+	option = {
+		name = DH_Britain_Politics.3.A
+		
+		complete_national_focus = ENG_Uncle_Stanley
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Stanley Baldwin"
+			desc = "Stanley_Baldwin_desc"
+			picture = "P_D_Stanley_Baldwin.tga"
+			expire = "1947.1.1"
+			ideology = social_conservatism
+			traits = { POSITION_Prime_Minister SUBIDEOLOGY_Conservatism HoG_Naive_Optimist }
+		}
+		activate_mission = ENG_Baldwins_Term
+		custom_effect_tooltip = ENG_Baldwins_Ministry_is_Formed
+		hidden_effect = {
+			add_ideas = {
+				ENG_FM_Samuel_Hoare
+				ENG_AM_Neville_Chamberlain
+				ENG_MoS_John_Simon
+			}
+		}
+	}
+	option = {
+		name = DH_Britain_Politics.3.B
+		
+		complete_national_focus = ENG_The_British_Bulldog
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Winston Churchill"
+			desc = ""
+			picture = "P_D_Winston_Churchill.tga"
+			expire = "1941.1.1"
+			ideology = social_conservatism
+			traits = { POSITION_Prime_Minister SUBIDEOLOGY_Conservatism HoG_Bulldog }	
+		}
+		custom_effect_tooltip = ENG_Churchills_1935_Ministry_is_Formed
+		hidden_effect = {
+			add_ideas = {
+				ENG_FM_Anthony_Eden
+				ENG_AM_Lord_Beaverbrook
+				ENG_MoS_John_Anderson
+			}
+		}
+	}
+}
+
+#########################################################################
+#  Sir kingsley wood dies
+#########################################################################
+news_event = {
+	id = DH_Britain_Politics.4
+	title = DH_Britain_Politics.4.t
+	desc = DH_Britain_Politics.4.d
+	picture = GFX_DH_Chamberlain_Quits
+	fire_only_once = yes
+	trigger = {
+		original_tag = ENG
+		has_idea = ENG_AM_Kingsley_Wood
+		date > 1943.9.21
+		has_start_date < 1943.9.21
+	}
+	# rip ip p
+	option = {
+		name = DH_Britain_Politics.4.A
+		custom_effect_tooltip = ENG_Kingsley_Wood_is_Replaced
+		hidden_effect = {
+			add_ideas = ENG_AM_John_Anderson
+		}
+		set_country_flag = Kingsley_Wood_unavailable
+	}
+}
+#########################################################################
+#  Jarrow March
+#########################################################################
+news_event = {
+	id = DH_Britain.1
+	title = DH_Britain.1.t
+	desc = DH_Britain.1.d
+	picture = GFX_news_ENG_Jarrow_March
+	fire_only_once = yes
+	trigger = {
+		has_government = democratic
+		original_tag = ENG
+		date > 1936.10.5
+		has_start_date < 1936.10.5
+	}
+	# Send Relief to Jarrow
+	option = {
+		name = DH_Britain.1.A
+		ai_chance = {
+			factor = 90
+		}
+		131 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		add_popularity = {
+			ideology = communist
+			popularity = 0.01
+		}
+	}
+	# The King wished receive the marchers
+	option = {
+		name = DH_Britain.1.B
+		ai_chance = {
+			factor = 10
+		}
+		add_political_power = -50
+		131 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		add_popularity = {
+			ideology = authoritarian
+			popularity = 0.02
+		}
+	}
+}
+
+#########################################################################
+#  The Crystal Palace burns!
+#########################################################################
+news_event = {
+	id = DH_Britain.2
+	title = DH_Britain.2.t
+	desc = DH_Britain.2.d
+	picture = GFX_news_ENG_Crystal_Palace_Fire
+	fire_only_once = yes
+	trigger = {
+		original_tag = ENG
+		date > 1936.11.30
+		has_start_date < 1936.11.30
+	}
+	# This is the end of an age
+	option = {
+		name = DH_Britain.2.A
+		126 = {
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+		}
+		add_stability = -0.01
+	}
+}
+
+#########################################################################
+#  The Hobbit Published
+#########################################################################
+news_event = {
+	id = DH_Britain.3
+	title = DH_Britain.3.t
+	desc = DH_Britain.3.d
+	picture = GFX_news_ENG_The_Hobbit
+	fire_only_once = yes
+	trigger = {
+		original_tag = ENG
+		date > 1937.9.21
+		has_start_date < 1937.9.21
+	}
+	# Definitely worth a read!
+	option = {
+		name = DH_Britain.3.A
+		add_stability = 0.01
+	}
+}
+
+#########################################################################
+#  Royal Family Evacuation
+#########################################################################
+news_event = {
+	id = DH_Britain.4
+	title = DH_Britain.4.t
+	desc = DH_Britain.4.d
+	picture = GFX_news_ENG_Royal_Family
+	fire_only_once = yes
+	is_triggered_only = yes
+	# God Save the King!
+	option = {
+		name = DH_Britain.4.A
+		add_stability = -0.05
+		add_war_support = 0.05
+	}
+}
+
+#########################################################################
+#  Women, Children and Conservatives first
+#########################################################################
+country_event = {
+	id = DH_Britain.5
+	title = DH_Britain.5.t
+	desc = DH_Britain.5.d
+	picture = GFX_DH_Royal_Family
+	fire_only_once = yes
+	is_triggered_only = yes
+	# Tories...
+	option = {
+		name = DH_Britain.5.A
+		add_stability = -0.05
+		add_war_support = -0.05
+	}
+}
+
+#########################################################################
+#  Preparations for a March
+#########################################################################
+country_event = {
+	id = DH_Britain.6
+	title = DH_Britain.6.t
+	desc = DH_Britain.6.d
+	picture = GFX_DH_Oswald_Mosley
+	fire_only_once = yes
+	trigger = {
+		has_government = democratic
+		original_tag = ENG
+		date > 1936.10.1
+		has_start_date < 1936.10.1
+	}
+	# We must ban the march! No fascists in Britain!
+	option = {
+		name = DH_Britain.6.A
+		add_political_power = -50
+		add_stability = -0.02
+	}
+	# Allow the march.
+	option = {
+		name = DH_Britain.6.B
+		add_political_power = -50
+		news_event = {
+			id = DH_Britain.8
+			days = 4
+		}
+	}
+	# Allow the march, and send a police escort
+	option = {
+		name = DH_Britain.6.C
+		news_event = {
+			id = DH_Britain.7
+			days = 4
+		}
+	}
+}
+
+#########################################################################
+#  Battle of Cable Street (Cops Version)
+#########################################################################
+news_event = {
+	id = DH_Britain.7
+	title = DH_Britain.7.t
+	desc = DH_Britain.7.d
+	picture = GFX_news_ENG_Battle_of_Cable_Street_Cops
+	fire_only_once = yes
+	is_triggered_only = yes
+	# Mosley calls off the march and flees.
+	option = {
+		name = DH_Britain.7.A
+		ai_chance = {
+			factor = 90
+		}
+		add_popularity = {
+			ideology = communist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = communist
+			popularity = 0.02
+		}
+	}
+	# The police manage to fight of the communists despite overwhelming odds
+	option = {
+		name = DH_Britain.7.B
+		ai_chance = {
+			factor = 10
+		}
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.05
+		}
+		add_stability = -0.1
+	}
+}
+
+#########################################################################
+#  Battle of Cable Street (No Cops Version)
+#########################################################################
+news_event = {
+	id = DH_Britain.8
+	title = DH_Britain.8.t
+	desc = DH_Britain.8.d
+	picture = GFX_news_ENG_Battle_of_Cable_Street_No_Cops
+	fire_only_once = yes
+	is_triggered_only = yes
+	# The communists turn back the fascists and Mosley is killed.
+	option = {
+		name = DH_Britain.8.A
+		ai_chance = {
+			factor = 10
+		}
+		add_popularity = {
+			ideology = communist
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = communist
+			popularity = 0.03
+		}
+		add_stability = -0.1
+	}
+	# Mosley calls off the march and flees.
+	option = {
+		name = DH_Britain.8.B
+		ai_chance = {
+			factor = 90
+		}
+		add_popularity = {
+			ideology = fascist
+			popularity = -0.03
+		}
+		add_political_power = -50
+	}
+}
+
+#########################################################################
+#  RMS Queen Mary's Maiden Voyage
+#########################################################################
+news_event = {
+	id = DH_Britain.9
+	title = DH_Britain.9.t
+	desc = DH_Britain.9.d
+	picture = GFX_news_ENG_RMS_Queen_Mary
+	major = yes
+	fire_only_once = yes
+	trigger = {
+		date > 1936.5.27
+		has_start_date < 1936.5.27
+		OR = {
+			tag = USA
+			tag = ENG
+			is_puppet_of = USA
+			is_puppet_of = ENG
+		}
+		NOT = {
+			ENG = {
+				has_war_with = USA
+			}
+		}
+	}
+	# Bon Voyage!
+	option = {
+		name = DH_Britain.9.A
+	}
+}
+
+#########################################################################
+#  Anglo-Irish Trade Agreement
+#########################################################################
+country_event = {
+	id = DH_Britain.10
+	title = DH_Britain.10.t
+	desc = DH_Britain.10.d
+	picture = GFX_report_ENG_Anglo_Irish_Trade_Agreement
+	fire_only_once = yes
+	trigger = {
+		original_tag = ENG
+		has_government = democratic
+		date > 1938.4.24
+		has_start_date < 1938.4.24
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	# Sign It
+	option = {
+		name = DH_Britain.10.A
+		ai_chance = {
+			factor = 90
+		}
+		add_stability = 0.02
+		set_country_flag = trade_agreement_signed
+	}
+	# The Irish are insane
+	option = {
+		name = DH_Britain.10.B
+		ai_chance = {
+			factor = 10
+		}
+		add_stability = -0.02
+		IRE = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = embargo
+			}
+		}
+		set_country_flag = trade_agreement_not_signed
+	}
+}
+
+#########################################################################
+#  Lord Haw-Haw
+#########################################################################
+news_event = {
+	id = DH_Britain.11
+	title = DH_Britain.11.t
+	desc = DH_Britain.11.d
+	picture = GFX_news_ENG_Lord_HawHaw
+	fire_only_once = yes
+	trigger = {
+		original_tag = ENG
+		has_government = democratic
+		has_war_with = GER
+		GER = {
+			has_government = fascist
+		}
+	}
+	mean_time_to_happen = {
+		days = 100
+	}
+	# Haw-Haw
+	option = {
+		name = DH_Britain.11.A
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.01
+		}
+	}
+}
+
+#########################################################################
+#  The Blitz Begins
+#########################################################################
+news_event = {
+	id = DH_Britain.12
+	title = DH_Britain.12.t
+	desc = DH_Britain.12.d
+	picture = GFX_news_ENG_The_Blitz
+	fire_only_once = yes
+	trigger = {
+		original_tag = ENG
+		has_government = democratic
+		has_damaged_buildings = yes
+		has_war_with = GER
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	# How Tragic
+	option = {
+		name = DH_Britain.12.A
+		add_stability = -0.1
+		add_war_support = 0.1
+	}
+}
+
+#########################################################################
+#  IRA Coventry attack
+#########################################################################
+news_event = {
+	id = DH_Britain.13
+	title = DH_Britain.13.t
+	desc = DH_Britain.13.d
+	picture = GFX_news_ENG_IRA_Coventry_Bombing
+	fire_only_once = yes
+	trigger = {
+		original_tag = ENG
+		has_government = democratic
+		date > 1939.8.25
+		has_start_date < 1939.8.25
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	# Let those Irish be Damned
+	option = {
+		name = DH_Britain.13.A
+		add_stability = -0.02
+	}
+}
+
+#########################################################################
+#  Altmark Incident
+#########################################################################
+news_event = {
+	id = DH_Britain.14
+	title = DH_Britain.14.t
+	desc = DH_Britain.14.d
+	picture = GFX_news_ENG_The_Altmark
+	fire_only_once = yes
+	is_triggered_only = yes
+	# A Glorious Day for us
+	option = {
+		name = DH_Britain.14.A
+		add_stability = 0.02
+		add_war_support = 0.02
+		NOR = {
+			add_opinion_modifier = {
+				target = ENG
+				modifier = protest_action_light
+			}
+		}
+	}
+}
+
+#########################################################################
+#  Their Finest Hour
+#########################################################################
+country_event = {
+	id = DH_Britain.15
+	title = DH_Britain.15.t
+	desc = DH_Britain.15.d
+	picture = GFX_DH_Winston_Speech
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		#We will survive, as we did before!
+		name = DH_Britain.15.A
+		add_stability = 0.05
+	}
+}
+
+#########################################################################
+#  Occupation of the Channel Islands
+#########################################################################
+news_event = {
+	id = DH_Britain.16
+	title = DH_Britain.16.t
+	desc = DH_Britain.16.d
+	picture = GFX_news_ENG_German_Occupation_of_the_Channel_Islands
+	fire_only_once = yes
+	trigger = {
+		original_tag = ENG
+		has_government = democratic
+		has_war_with = GER
+		GER = {
+			controls_state = 801
+		}
+		has_start_date < 1940.6.30
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = DH_Britain.16.A
+		add_stability = -0.02
+	}
+}
+
+#########################################################################
+#  BBC Launches Regular Television Broadcast
+#########################################################################
+news_event = {
+	id = DH_Britain.17
+	title = DH_Britain.17.t
+	desc = DH_Britain.17.d
+	picture = GFX_news_ENG_BBC_Studio
+	fire_only_once = yes
+	trigger = {
+		original_tag = ENG
+		date > 1936.11.2
+		has_start_date < 1936.11.2
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = DH_Britain.17.A
+		add_political_power = 10
+	}
+}
+
+#########################################################################
+#  Frank Whittle Ground-Tests the world's first jet engine
+#########################################################################
+country_event = {
+	id = DH_Britain.18
+	title = DH_Britain.18.t
+	desc = DH_Britain.18.d
+	picture = GFX_DH_Frank_Whittle_Jet
+	fire_only_once = yes
+	trigger = {
+		original_tag = ENG
+		date > 1937.4.12
+		has_start_date < 1937.4.12
+	}
+	option = {
+		name = DH_Britain.18.A
+		add_tech_bonus = {
+			bonus = 0.3
+			uses = 1
+			category = jet_technology
+		}
+	}
+}
+
+#########################################################################
+#  Hidden event to remove idea for expand RAF
+#########################################################################
+country_event = {
+	id = DH_Britain.19
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = ENG
+		has_idea = ENG_expand_raf
+		OR = {
+			has_equipment = {
+				fighter_equipment > 1500
+			}
+			has_equipment = {
+				CAS_equipment > 900
+			}
+			has_equipment = {
+				tac_bomber_equipment > 600
+			}
+		}
+	}
+	option = {
+		name = DH_Britain.19.A
+		remove_ideas = ENG_expand_raf
+	}
+}
+
+#########################################################################
+# The Future of Warfare
+#########################################################################
+country_event = {
+	id = DH_Britain.32
+	title = DH_Britain.32.t
+	desc = DH_Britain.32.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	#The Indirect Approach
+	option = {
+		name = DH_Britain.32.A
+		
+		set_country_flag = ENG_Allow_Hart
+		add_ideas = ENG_Indirect_Approach
+		custom_effect_tooltip = available_political_advisor
+		show_ideas_tooltip = ENG_CoArmy_BH_Liddell_Hart
+		hidden_effect = {
+			complete_national_focus = ENG_The_Indirect_Approach
+		}
+		custom_effect_tooltip = ENG_Well_Listen_To_Liddell_Hart
+	}
+	#The Direct Approach
+	option = {
+		name = DH_Britain.32.B
+		
+		set_country_flag = ENG_Allow_Fuller
+		add_ideas = ENG_Direct_Approach
+		custom_effect_tooltip = available_political_advisor
+		show_ideas_tooltip = ENG_CoArmy_JFC_Fuller
+		hidden_effect = {
+			complete_national_focus = ENG_The_Direct_Approach
+		}
+		custom_effect_tooltip = ENG_Well_Listen_To_JFC_Fuller
+	}
+}
+
+#########################################################################
+# The London Economic Conference
+#########################################################################
+country_event = {
+	id = DH_Britain.33
+	title = DH_Britain.33.t
+	desc = DH_Britain.33.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	option = {
+		name = DH_Britain.33.A
+		
+		custom_effect_tooltip = Allow_London_Economic_Conference
+	}
+	option = {
+		name = DH_Britain.33.B
+		
+		custom_effect_tooltip = The_London_Economic_Conference_Does_not_Happen
+	}
+}
+
+#########################################################################
+# The Italian Threat
+#########################################################################
+country_event = {
+	id = DH_Britain.34
+	title = DH_Britain.34.t
+	desc = DH_Britain.34.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	option = {
+		name = DH_Britain.34.A
+		
+		add_political_power = 30
+	}
+}
+
+#########################################################################
+# The Fascist Threat
+#########################################################################
+country_event = {
+	id = DH_Britain.35
+	title = DH_Britain.35.t
+	desc = DH_Britain.35.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	option = {
+		name = DH_Britain.35.A
+		
+		add_political_power = 30
+	}
+}
+
+#########################################################################
+# The Public Order Act
+#########################################################################
+country_event = {
+	id = DH_Britain.36
+	title = DH_Britain.36.t
+	desc = DH_Britain.36.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	option = {
+		name = DH_Britain.36.A
+		
+		add_popularity = {
+				ideology = fascist
+				popularity = -0.05
+			}
+		custom_effect_tooltip = ENG_A_More_Risky_Approach
+		hidden_effect = {
+			random_list = {
+				50 = {
+					set_country_flag = ENG_public_order_will_backfire
+				}
+				50 = {
+				
+				}
+			}
+		}
+	}
+	option = {
+		name = DH_Britain.36.B
+		
+		add_popularity = {
+			ideology = fascist
+			popularity = -0.02
+		}
+	}
+}
+
+#########################################################################
+# The Unfair Treaty
+#########################################################################
+country_event = {
+	id = DH_Britain.37
+	title = DH_Britain.37.t
+	desc = DH_Britain.37.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	option = {
+		name = DH_Britain.37.A
+		
+		GER = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = ENG_unfair_treaty_Modifier
+			}
+		}
+		add_political_power = 10
+	}
+}
+
+#########################################################################
+# UK Asks for Debt Relief
+#########################################################################
+country_event = {
+	id = DH_Britain.38
+	title = DH_Britain.38.t
+	desc = DH_Britain.38.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	option = {
+		name = DH_Britain.38.A
+		
+		ENG = {
+			if = {
+				limit = {
+					has_idea = ENG_World_War_One_Reparations
+				}
+				swap_ideas = {
+					remove_idea = ENG_World_War_One_Reparations
+					add_idea = ENG_World_War_One_Reparations_2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = ENG_World_War_One_Reparations
+				}
+				swap_ideas = {
+					remove_idea = ENG_World_War_One_Reparations
+					add_idea = ENG_World_War_One_Reparations_2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = ENG_World_War_One_Reparations_2
+				}
+				swap_ideas = {
+					remove_idea = ENG_World_War_One_Reparations_2
+					add_idea = ENG_World_War_One_Reparations_3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = ENG_World_War_One_Reparations_3
+				}
+				swap_ideas = {
+					remove_idea = ENG_World_War_One_Reparations_3
+					add_idea = ENG_World_War_One_Reparations_4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = ENG_World_War_One_Reparations_4
+				}
+				swap_ideas = {
+					remove_idea = ENG_World_War_One_Reparations_4
+					add_idea = ENG_World_War_One_Reparations_5
+				}
+			}
+			else = {
+				remove_ideas = ENG_World_War_One_Reparations_5
+			}
+		}
+		add_political_power = 10
+	}
+	option = {
+		name = DH_Britain.38.B
+		
+		add_political_power = 10
+	}
+}
+	
+#########################################################################
+# A Trade Agreement
+#########################################################################
+country_event = {
+	id = DH_Britain.39
+	title = DH_Britain.39.t
+	desc = DH_Britain.39.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	option = {
+		name = DH_Britain.39.A
+		
+		ROOT = {
+			add_opinion_modifier = {
+				target = FROM
+				modifier = ENG_a_trade_agreement
+			}
+		}
+	}
+	option = {
+		name = DH_Britain.39.B
+		
+		add_political_power = 50
+	}
+}
+
+#########################################################################
+# Blood, Toil, Tears and Sweat
+#########################################################################
+country_event = {
+	id = DH_Britain.40
+	title = DH_Britain.40.t
+	desc = DH_Britain.40.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	option = {
+		name = DH_Britain.40.A
+		
+		add_political_power = 20
+	}
+}
+
+#########################################################################
+# Churchill Announces British Re-armament
+#########################################################################
+news_event = {
+	id = DH_Britain.41
+	title = DH_Britain.41.t
+	desc = DH_Britain.41.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	option = {
+		name = DH_Britain.41.A
+		
+		add_political_power = 50
+	}
+}
+
+#########################################################################
+# Britain Condemns Fascism
+#########################################################################
+news_event = {
+	id = DH_Britain.42
+	title = DH_Britain.42.t
+	desc = DH_Britain.42.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	option = {
+		name = DH_Britain.42.A
+		
+	}
+}
+
+#########################################################################
+# We Shall Never Surrender!
+#########################################################################
+news_event = {
+	id = DH_Britain.43
+	title = DH_Britain.43.t
+	desc = DH_Britain.43.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	option = {
+		name = DH_Britain.43.A
+		
+		add_war_support = 0.1
+	}
+}
+
+#########################################################################
+# Donation From the Commonwealth
+#########################################################################
+news_event = {
+	id = DH_Britain.44
+	title = DH_Britain.44.t
+	desc = DH_Britain.44.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	option = {
+		name = DH_Britain.44.A
+		
+		CAN = {
+			add_war_support = 0.1
+			add_stability = 0.1
+		}
+		AST = {
+			add_war_support = 0.1
+			add_stability = 0.1
+		}
+		NZL = {
+			add_war_support = 0.1
+			add_stability = 0.1
+		}
+		SAF = {
+			add_war_support = 0.1
+			add_stability = 0.1
+		}
+	}
+}
+
+#########################################################################
+# The King's Speech
+#########################################################################
+news_event = {
+	id = DH_Britain.45
+	title = DH_Britain.45.t
+	desc = DH_Britain.45.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	option = {
+		name = DH_Britain.45.A
+		
+		add_war_support = 0.05
+		add_stability = 0.05
+	}
+}
+
+#########################################################################
+# UK Asks for Help
+#########################################################################
+country_event = {
+	id = DH_Britain.46
+	title = DH_Britain.46.t
+	desc = DH_Britain.46.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	option = {
+		name = DH_Britain.46.A
+		
+		add_war_support = 0.05
+		add_stability = 0.05
+	}
+	option = {
+		name = DH_Britain.46.B
+		
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 3000
+			target = FROM
+		}
+	}
+}
+
+
+#########################################################################
+# Britain Wishes us to Join the Allies
+#########################################################################
+country_event = {
+	id = DH_Britain.47
+	title = DH_Britain.47.t
+	desc = DH_Britain.47.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	option = {
+		name = DH_Britain.47.A
+		
+		FROM = { add_to_faction = ROOT }
+	}
+	option = {
+		name = DH_Britain.47.B
+		
+		FROM = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = ENG_refused_to_join_allies
+			}
+		}
+	}
+}
+
+#########################################################################
+# Hidden Event
+#########################################################################
+country_event = {
+	id = DH_Britain.48
+	title = DH_Britain.48.t
+	desc = DH_Britain.48.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		tag = ENG
+		has_war = yes
+	}
+	option = {
+		name = DH_Britain.48.A
+		
+		remove_ideas = {
+			ENG_Rearmament_of_the_Navy
+			ENG_Rearmament_of_the_Army
+			ENG_Appeasement
+			ENG_Appeasement_1
+			ENG_Rearmament_of_the_Nation
+			ENG_Preperation_for_the_Inevitable
+		}
+	}
+}
+
+#########################################################################
+# The War to End All Wars?
+#########################################################################
+
+country_event = {
+	id = DH_Britain.49
+	title = DH_Britain.49.t
+	desc = DH_Britain.49.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		threat < 0.3
+		tag = ENG
+		OR = {
+			has_idea = ENG_Pax_Britannica
+			has_idea = ENG_War_to_End_All_Wars
+			has_idea = ENG_War_to_End_All_Wars_2
+		}
+	}
+
+	option = {
+		name = DH_Britain.49.A
+		
+		if = {
+			limit = {
+				has_idea = ENG_Pax_Britannica
+			}
+			swap_ideas = {
+				remove_idea = ENG_Pax_Britannica
+				add_idea = ENG_War_to_End_All_Wars
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = ENG_War_to_End_All_Wars
+			}
+			swap_ideas = {
+				remove_idea = ENG_War_to_End_All_Wars
+				add_idea = ENG_War_to_End_All_Wars_2
+			}
+		}
+		else = {
+			remove_ideas = ENG_War_to_End_All_Wars_2
+		}
+	}
+}
+
+##################################################################
+## Vanilla Britain
+##################################################################
+add_namespace = britain
+# Tizard mission event for USA
+country_event = {
+	id = britain.1
+	title = britain.1.t
+	desc = britain.1.d
+	picture = GFX_report_event_physics_lab_01
+	is_triggered_only = yes
+	option = {
+		name = britain.1.a		#sounds good
+		ai_chance = {
+			factor = 90
+		}
+		add_political_power = -10
+		ENG = {
+			country_event = {
+				days = 1
+				id = britain.2
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = tizard_relations
+			}
+		}
+		add_tech_bonus = {
+			name = tizard_mission_focus
+			uses = 1
+			bonus = 0.5
+			category = light_fighter
+		}
+		add_tech_bonus = {
+			name = tizard_mission_focus
+			bonus = 0.5
+			uses = 2
+			category = radar_tech
+		}
+	}
+	option = {
+		name = britain.1.b		#no way 
+		ai_chance = {
+			factor = 10
+		}
+		#add_opinion_modifier = { target = ENG modifier = tizard_refused }
+		ENG = {
+			country_event = {
+				days = 1
+				id = britain.3
+			}
+		}
+	}
+	option = {
+		name = britain.1.c		#tech_sharing
+		trigger = {
+			has_dlc = "Together for Victory"
+		}
+		ai_chance = {
+			factor = 90
+		}
+		add_political_power = -10
+		ENG = {
+			country_event = {
+				days = 1
+				id = britain.21
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = tizard_relations
+			}
+		}
+		add_to_tech_sharing_group = tizard_mission
+	}
+}
+
+# USA helps
+country_event = {
+	id = britain.2
+	title = britain.2.t
+	desc = britain.2.d
+	picture = GFX_report_event_physics_lab_02
+	is_triggered_only = yes
+	option = {
+		name = britain.2.a
+		add_tech_bonus = {
+			name = tizard_mission_focus
+			bonus = 0.5
+			category = light_fighter
+		}
+		add_tech_bonus = {
+			name = tizard_mission_focus
+			bonus = 0.5
+			uses = 2
+			category = radar_tech
+		}
+		USA = {
+			add_opinion_modifier = {
+				target = ENG
+				modifier = tizard_relations
+			}
+		}
+	}
+}
+
+# USA says no
+country_event = {
+	id = britain.3
+	title = britain.3.t
+	desc = britain.3.d
+	picture = GFX_report_event_physics_lab_01
+	is_triggered_only = yes
+	option = {
+		name = britain.3.a
+		add_opinion_modifier = {
+			target = USA
+			modifier = tizard_refused
+		}
+	}
+}
+
+# Burma road china
+country_event = {
+	id = britain.4
+	title = britain.4.t
+	desc = britain.4.d
+	picture = GFX_report_event_burma_road
+	is_triggered_only = yes
+	option = {
+		name = britain.4.a
+	}
+}
+
+# Burma road yunnan
+country_event = {
+	id = britain.5
+	title = britain.4.t
+	desc = britain.4.d
+	picture = GFX_report_event_burma_road
+	is_triggered_only = yes
+	option = {
+		name = britain.4.a
+	}
+}
+
+#Time for India to be free
+country_event = {
+	id = britain.6
+	title = britain.6.t
+	desc = britain.6.d
+	picture = GFX_report_event_ghandi_women
+	trigger = {
+		tag = ENG
+		has_global_flag = indian_independence_promised
+		NOT = {
+			has_idea = indian_independence_promised_idea
+		}
+		RAJ = {
+			is_puppet_of = ENG
+		}
+	}
+	mean_time_to_happen = {
+		days = 50
+	}
+	option = {
+		name = britain.6.a
+		end_puppet = RAJ
+	}
+	option = {
+		name = britain.6.b
+		RAJ = {
+			add_stability = -0.3
+		}
+	}
+}
+
+#End trade with Germany event for SWE/NOR
+country_event = {
+	id = britain.7
+	title = britain.7.t
+	desc = britain.7.d
+	picture = GFX_report_event_merchant_ship_01
+	is_triggered_only = yes
+	option = {
+		name = britain.7.a
+		ai_chance = {
+			factor = 60
+		}
+		GER = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = embargo
+			}
+		}
+	}
+	option = {
+		name = britain.7.b
+		ai_chance = {
+			factor = 40
+		}
+		ENG = {
+			country_event = britain.8
+		}
+	}
+}
+
+country_event = {
+	id = britain.8
+	title = britain.8.t
+	desc = britain.8.d
+	picture = GFX_report_event_merchant_ship_01
+	is_triggered_only = yes
+	option = {
+		name = britain.8.a
+		ai_chance = {
+			factor = 70
+		}
+		create_wargoal = {
+			type = take_state
+			target = FROM
+			generator = owned_states
+		}
+		if = {
+			limit = {
+				USA = {
+					NOT = {
+						has_opinion_modifier = unprovoked_aggression
+					}
+				}
+			}
+			USA = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = unprovoked_aggression
+				}
+			}
+		}
+	}
+	option = {
+		name = britain.8.b
+		ai_chance = {
+			factor = 30
+		}
+	}
+}
+
+# Chamberlain Resigns
+country_event = {
+	id = britain.9
+	title = britain.9.t
+	desc = britain.9.d
+	picture = GFX_report_event_chamberlain
+	fire_only_once = yes
+	trigger = {
+		tag = ENG
+		has_war = yes
+		is_democratic = yes
+		OR = {
+			has_global_flag = fall_of_france
+			surrender_progress > 0.5
+			AND = {
+				110 = {
+					is_controlled_by = GER
+				}
+				NOT = {
+					is_in_faction_with = GER
+				}
+			}
+		}
+		NOT = {
+			has_country_flag = chamberlain_died
+		}
+	}
+	mean_time_to_happen = {
+		days = 40
+	}
+	immediate = {
+		set_country_flag = chamberlain_resigned
+	}
+	option = {
+		name = britain.9.a
+		create_country_leader = {
+			name = "Winston Churchill"
+			desc = "Winston_Churchill_desc"
+			picture = "P_D_Winston_Churchill.tga"
+			expire = "1965.1.1"
+			ideology = social_conservatism
+			traits = {
+				POSITION_Prime_Minister
+				SUBIDEOLOGY_Conservatism
+				HoG_Bulldog
+			}
+		}
+		add_stability = 0.1
+	}
+}
+
+# React to Rise of the CommieNazis 
+country_event = {
+	id = britain.11
+	title = britain.11.t
+	desc = britain.11.d
+	picture = GFX_report_event_molotov_ribentrop_handshake
+	is_triggered_only = yes
+	trigger = {
+		is_faction_leader = yes
+	}
+	option = {
+		name = britain.11.a
+		every_other_country = {
+			limit = {
+				NOT = {
+					has_war_with = ENG
+				}
+				is_in_faction = no
+				is_democratic = yes
+				is_puppet = no
+				OR = {
+					capital_scope = {
+						is_on_continent = europe
+					}
+					capital_scope = {
+						is_on_continent = asia
+					}
+					num_of_factories > 30
+				}
+			}
+			country_event = britain.12
+		}
+	}
+	option = {
+		name = britain.11.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+# React to British call
+country_event = {
+	id = britain.12
+	title = britain.12.t
+	desc = britain.12.d
+	picture = GFX_report_event_molotov_ribentrop_handshake
+	is_triggered_only = yes
+	option = {
+		name = britain.12.a
+		ENG = {
+			add_to_faction = ROOT
+		}
+		ROOT = {
+			add_ai_strategy = {
+				type = alliance
+				id = "ENG"
+				value = 200
+			}
+		}
+	}
+	option = {
+		name = britain.12.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+# France wants to join allies
+country_event = {
+	id = britain.13
+	title = britain.13.t
+	desc = britain.13.d
+	picture = GFX_report_event_degaulle_churchill
+	is_triggered_only = yes
+	option = {
+		name = britain.13.a
+		add_to_faction = FROM
+		FROM = {
+			add_ai_strategy = {
+				type = alliance
+				id = "ENG"
+				value = 200
+			}
+		}
+		FROM = {
+			country_event = {
+				id = france.29
+			}
+		}
+		hidden_effect = {
+			news_event = {
+				id = news.175
+			}
+		}
+	}
+	option = {
+		name = britain.13.b
+		ai_chance = {
+			factor = 0
+		}
+		FROM = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = FRA_go_with_britain_reject
+			}
+			country_event = {
+				id = france.30
+			}
+		}
+		hidden_effect = {
+			news_event = {
+				id = news.176
+			}
+		}
+	}
+}
+
+# Germany demands Slovenia from Yugoslavia
+country_event = {
+	id = britain.14
+	title = britain.14.t
+	desc = britain.14.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	is_triggered_only = yes
+	option = {
+		# Abandon Yugoalvia
+		name = britain.14.a
+		ai_chance = {
+			factor = 90
+		}
+		FRA = {
+			country_event = {
+				id = france.25
+				hours = 2
+			}
+		}
+		YUG = {
+			add_opinion_modifier = {
+				target = ENG
+				modifier = western_betrayal
+			}
+		}
+	}
+	option = {
+		# Support Yugoslavia
+		name = britain.14.b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_in_faction_with = GER
+			}
+		}
+		if = {
+			limit = {
+				is_in_faction_with = GER
+				is_faction_leader = yes
+			}
+			remove_from_faction = GER
+		}
+		if = {
+			limit = {
+				is_in_faction_with = GER
+				is_faction_leader = no
+			}
+			GER = {
+				remove_from_faction = ENG
+			}
+		}
+		add_political_power = -200
+		add_opinion_modifier = {
+			target = GER
+			modifier = condemn_aggression
+		}
+		effect_tooltip = {
+			GER = {
+				create_wargoal = {
+					type = take_state_focus
+					target = YUG
+					generator = {
+						102
+					}
+				}
+			}
+		}
+		add_to_faction = YUG
+		YUG = {
+			add_ai_strategy = {
+				type = alliance
+				id = "ENG"
+				value = 200
+			}
+		}
+		if = {
+			limit = {
+				FRA = {
+					is_puppet = no
+					NOT = {
+						has_war_with = YUG
+					}
+				}
+			}
+			FRA = {
+				country_event = {
+					id = france.26
+					hours = 2
+				}
+			}
+		}
+		YUG = {
+			add_opinion_modifier = {
+				target = ENG
+				modifier = offered_support
+			}
+		}
+	}
+}
+
+# France leaves the Allies
+country_event = {
+	id = britain.15
+	title = britain.15.t
+	desc = britain.15.d
+	picture = GFX_report_event_french_british_officers
+	is_triggered_only = yes
+	option = {
+		name = britain.15.a
+		FRA = {
+			add_opinion_modifier = {
+				target = ENG
+				modifier = abandoned_yugoslavia
+			}
+		}
+	}
+}
+
+# King dies
+country_event = {
+	id = britain.16
+	title = britain.16.t
+	desc = britain.16.d
+	picture = GFX_report_event_europe_funeral
+	trigger = {
+		tag = ENG
+		date > 1936.1.19
+		has_start_date < 1936.01.02
+	}	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 7 }
+	immediate = {
+		hidden_effect = {
+			set_country_flag = ENG_king_died
+			remove_ideas = george_v
+			add_ideas = ENG_king_edward
+		}		
+	}
+	option = {
+		name = britain.16.a
+		effect_tooltip = {
+			remove_ideas = george_v		
+			add_ideas = ENG_king_edward
+		}
+	}
+}
+
+# King abdicates
+country_event = {
+	id = britain.17
+	title = britain.17.t
+	desc = britain.17.d
+	picture = GFX_report_event_generic_sign_treaty2
+	trigger = {
+		tag = ENG
+		has_country_flag = ENG_king_died
+		date > 1936.12.1
+	}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 14
+	}
+	immediate = {
+		hidden_effect = {
+			remove_ideas = ENG_king_edward
+			add_ideas = ENG_george_vi
+		}
+	}
+	option = {
+		name = britain.17.a
+		effect_tooltip = {
+			remove_ideas = ENG_king_edward
+			add_ideas = ENG_george_vi
+		}
+	}
+}
+
+# Return of the Nazi King
+country_event = {
+	id = britain.18
+	title = britain.18.t
+	desc = britain.18.d
+	picture = GFX_report_event_fascist_gathering
+	trigger = {
+		tag = ENG
+		has_idea = ENG_george_vi
+		has_government = fascist
+	}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 14
+	}
+	immediate = {
+		hidden_effect = {
+			remove_ideas = ENG_george_vi
+		}
+	}
+	option = {
+		name = britain.18.a
+		effect_tooltip = {
+			remove_ideas = ENG_george_vi
+		}
+		create_country_leader = {
+			name = "Edward VIII"
+			desc = "POLITICS_EDWARD_EDWARD_DESC"
+			picture = "P_A_Edward_VIII.tga"
+			expire = "1965.1.1"
+			ideology = fascism
+			traits = {
+				inexperienced_imperialist
+			}
+		}
+	}
+	option = {
+		name = britain.18.b
+		effect_tooltip = {
+			remove_ideas = ENG_george_vi
+		}
+		add_ideas = ENG_king_edward_fascism
+	}
+}
+
+#Britain receives warning of the Indian National Army
+country_event = {
+	id = britain.19
+	title = britain.19.t
+	desc = britain.19.d
+	picture = GFX_report_event_indian_soldiers
+	is_triggered_only = yes
+	option = {
+		name = britain.19.a
+		effect_tooltip = {
+			RAJ = {
+				add_ideas = RAJ_azad_hind
+			}
+		}
+		custom_effect_tooltip = ENG_RAJ_azad_hind_tooltip
+		hidden_effect = {
+			country_event = {
+				id = britain.20
+				days = 500
+				random = 100
+			}
+		}
+	}
+}
+
+#Free India Government Leads Revolt
+country_event = {
+	id = britain.20
+	title = britain.20.t
+	desc = britain.20.d
+	picture = GFX_report_event_indian_soldiers
+	is_triggered_only = yes
+	trigger = {
+		RAJ = {
+			is_puppet_of = ENG
+			fascist > 0.3
+			has_civil_war = no
+		}
+	}
+	option = {
+		name = britain.20.a
+		hidden_effect = {
+			if = {
+				limit = {
+					RAJ = {
+						has_idea = RAJ_azad_hind
+					}
+				}
+				RAJ = {
+					remove_ideas = RAJ_azad_hind
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					RAJ = {
+						has_government = fascist
+					}
+				}
+			}
+			RAJ = {
+				country_event = {
+					id = britain.23
+				}
+			}
+		}
+		if = {
+			limit = {
+				RAJ = {
+					has_government = fascist
+				}
+			}
+			end_puppet = RAJ
+			if = {
+				limit = {
+					RAJ = {
+						is_in_faction_with = ENG
+					}
+				}
+				remove_from_faction = RAJ
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = RAJ
+			}
+		}
+	}
+}
+
+country_event = {
+	id = britain.21
+	title = britain.21.t
+	desc = britain.21.d
+	picture = GFX_report_event_physics_lab_02
+	is_triggered_only = yes
+	option = {
+		name = britain.21.a
+		add_to_tech_sharing_group = tizard_mission
+		USA = {
+			add_opinion_modifier = {
+				target = ENG
+				modifier = tizard_relations
+			}
+		}
+	}
+}
+
+#RAJ gets to choose sides in Indian civil war
+country_event = {
+	id = britain.23
+	title = britain.23.t
+	desc = britain.23.d
+	picture = GFX_report_event_indian_soldiers
+	is_triggered_only = yes
+	#side with government
+	option = {
+		ai_chance = {
+			factor = 100
+			modifier = {
+				has_government = fascist
+				factor = 0
+			}
+		}
+		name = britain.23.a
+		start_civil_war = {
+			ideology = fascist
+			size = 0.5
+		}
+	}
+	#side with fascists
+	option = {
+		name = britain.23.b
+		start_civil_war = {
+			ruling_party = fascist
+			ideology = authoritarian
+			size = 0.5
+		}
+		random_other_country = {
+			limit = {
+				original_tag = RAJ
+				has_government = authoritarian
+				is_puppet_of = ENG
+			}
+			set_cosmetic_tag = RAJ_UK
+		}
+	}
+}
+#########################################################################
+# The Cement Incident
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.1
+	title = DH_Britain_Arab_Revolt.1.t
+	desc = DH_Britain_Arab_Revolt.1.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = ENG
+		date > 1935.10.16
+		has_start_date < 1935.10.16
+		controls_state = 823
+	}
+	#How could they ?
+	option = {
+		name = DH_Britain_Arab_Revolt.1.A
+		
+		add_stability = -0.05
+		random_list = {
+			50 = {
+				country_event = {
+					days = 5
+					id = DH_Britain_Arab_Revolt.2
+				}
+			}
+			50 = {
+				country_event = {
+					days = 5
+					id = DH_Britain_Arab_Revolt.3
+				}
+			}
+		}
+	}
+}
+#########################################################################
+# No arrest were made ...
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.2
+	title = DH_Britain_Arab_Revolt.2.t
+	desc = DH_Britain_Arab_Revolt.2.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	#How could they ?
+	option = {
+		name = DH_Britain_Arab_Revolt.2.A
+		
+		country_event = {
+			days = 2
+			id = DH_Britain_Arab_Revolt.4
+		} 
+	}
+}
+#########################################################################
+# Arests have benn made !
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.3
+	title = DH_Britain_Arab_Revolt.3.t
+	desc = DH_Britain_Arab_Revolt.3.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	#How could they ?
+	option = {
+		name = DH_Britain_Arab_Revolt.3.A
+		country_event = {
+			days = 2
+			id = DH_Britain_Arab_Revolt.5
+		} 		
+		 
+	}
+}
+#########################################################################
+# Anti-Jewish raids in Palestine !
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.4
+	title = DH_Britain_Arab_Revolt.4.t
+	desc = DH_Britain_Arab_Revolt.4.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	#How could they ?
+	option = {
+		name = DH_Britain_Arab_Revolt.4.A
+		
+		every_state = {
+			limit = {
+				is_core_of = PAL
+				is_controlled_by = ENG
+			}
+			add_resistance = 15
+		} 
+		country_event = {
+			days = 2
+			id = DH_Britain_Arab_Revolt.8
+		} 
+	}
+}
+#########################################################################
+# Small Scales Anti-Jewish raids in Palestine !
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.5
+	title = DH_Britain_Arab_Revolt.5.t
+	desc = DH_Britain_Arab_Revolt.5.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	#How could they ?
+	option = {
+		name = DH_Britain_Arab_Revolt.5.A
+		every_state = {
+			limit = {
+				is_core_of = PAL
+				is_controlled_by = ENG
+			}
+			add_resistance = 10
+		} 		
+		random_list = {
+			50 = {
+				country_event = {
+					days = 2
+					id = DH_Britain_Arab_Revolt.6
+				}
+			}
+			50 = {
+				country_event = {
+					days = 2
+					id = DH_Britain_Arab_Revolt.7
+				}
+			}
+		}		 
+	}
+}
+#########################################################################
+# They Refuse To Give Up Their Fellow Scoundrels
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.6
+	title = DH_Britain_Arab_Revolt.6.t
+	desc = DH_Britain_Arab_Revolt.6.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	#How could they ?
+	option = {
+		name = DH_Britain_Arab_Revolt.6.A
+		country_event = {
+			days = 2
+			id = DH_Britain_Arab_Revolt.8
+		} 		
+		 
+	}
+}
+#########################################################################
+# The Arrests Have Lead Somewhere!
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.7
+	title = DH_Britain_Arab_Revolt.7.t
+	desc = DH_Britain_Arab_Revolt.7.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	#How could they ?
+	option = {
+		name = DH_Britain_Arab_Revolt.7.A
+		 		
+		country_event = {
+			days = 2
+			id = DH_Britain_Arab_Revolt.9
+		} 		 
+	}
+}
+#########################################################################
+# Death of Al-Qassam
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.8
+	title = DH_Britain_Arab_Revolt.8.t
+	desc = DH_Britain_Arab_Revolt.8.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	#How could they ?
+	option = {
+		name = DH_Britain_Arab_Revolt.8.A
+		 		
+		country_event = {
+			days = 50
+			id = DH_Britain_Arab_Revolt.12
+		} 			 
+	}
+}
+#########################################################################
+# We Shall Arrest The High-Ranking Arab Extremists
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.9
+	title = DH_Britain_Arab_Revolt.9.t
+	desc = DH_Britain_Arab_Revolt.9.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	#How could they ?
+	option = {
+		name = DH_Britain_Arab_Revolt.9.A
+		 		
+		random_list = {
+			50 = {
+				country_event = {
+					days = 2
+					id = DH_Britain_Arab_Revolt.10
+				}
+			}
+			50 = {
+				country_event = {
+					days = 2
+					id = DH_Britain_Arab_Revolt.11
+				}
+			}
+		}		 
+	}
+}
+#########################################################################
+# Many Got Away, But At Least We Have Qassam
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.10
+	title = DH_Britain_Arab_Revolt.10.t
+	desc = DH_Britain_Arab_Revolt.10.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	#Execute them.
+	option = {
+		name = DH_Britain_Arab_Revolt.10.A
+		 		
+		add_stability = 0.05 
+		country_event = {
+			days = 20
+			id = DH_Britain_Arab_Revolt.12
+		}
+		set_country_flag = ENG_Arab_Leaders_Killed
+
+	}
+
+	#Let them in Prison.
+	option = {
+		name = DH_Britain_Arab_Revolt.10.B
+		 		
+		add_political_power = 50 	
+		country_event = {
+			days = 20
+			id = DH_Britain_Arab_Revolt.12
+		} 			 
+	}
+}
+#########################################################################
+# We Have Rounded Up Most of Them
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.11
+	title = DH_Britain_Arab_Revolt.11.t
+	desc = DH_Britain_Arab_Revolt.11.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	#We Have Averted A Potential Disaster
+	option = {
+		name = DH_Britain_Arab_Revolt.11.A
+		 		
+		add_stability = 0.05
+	}
+}
+#########################################################################
+# General Strike in Palestine !
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.12
+	title = DH_Britain_Arab_Revolt.12.t
+	desc = DH_Britain_Arab_Revolt.12.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	#We Have Averted A Potential Disaster
+	option = {
+		name = DH_Britain_Arab_Revolt.12.A
+		 		
+		every_state = {
+			limit = {
+				is_core_of = PAL
+				is_controlled_by = ENG
+			}
+			add_resistance = 5
+			add_compliance = -20
+		} 
+		if = {
+			limit = {
+				has_country_flag = ENG_Arab_Leaders_Killed
+			}
+			country_event = {
+				days = 15
+				id = DH_Britain_Arab_Revolt.14
+			}
+		}
+		else = {
+			country_event = {
+				days = 15
+				id = DH_Britain_Arab_Revolt.13
+			}			
+		}
+	}
+}
+#########################################################################
+# Huge Qassime Rebellion
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.13
+	title = DH_Britain_Arab_Revolt.13.t
+	desc = DH_Britain_Arab_Revolt.13.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	#We Have Averted A Potential Disaster
+	option = {
+		name = DH_Britain_Arab_Revolt.13.A
+		 		
+		every_state = {
+			limit = {
+				is_core_of = PAL
+				is_controlled_by = ENG
+			}
+			add_resistance = 10
+			add_compliance = -5
+		} 
+		country_event = {
+			days = 15
+			id = DH_Britain_Arab_Revolt.15
+		}
+	}
+}
+#########################################################################
+# Small Qassime Rebellion
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.14
+	title = DH_Britain_Arab_Revolt.14.t
+	desc = DH_Britain_Arab_Revolt.14.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	#We Have Averted A Potential Disaster
+	option = {
+		name = DH_Britain_Arab_Revolt.14.A
+		 		
+		every_state = {
+			limit = {
+				is_core_of = PAL
+				is_controlled_by = ENG
+			}
+			add_resistance = 5
+			add_compliance = -5
+		} 
+		country_event = {
+			days = 15
+			id = DH_Britain_Arab_Revolt.15
+		}
+	}
+}
+#########################################################################
+# The Strike Is Now Over, But the Violence Continues
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.15
+	title = DH_Britain_Arab_Revolt.15.t
+	desc = DH_Britain_Arab_Revolt.15.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	#We Have Averted A Potential Disaster
+	option = {
+		name = DH_Britain_Arab_Revolt.15.A
+		 		
+		every_state = {
+			limit = {
+				is_core_of = PAL
+				is_controlled_by = ENG
+			}
+			add_compliance = 5
+		} 
+		country_event = {
+			days = 50
+			id = DH_Britain_Arab_Revolt.16
+		}
+	}
+}
+#########################################################################
+# The Peel Commission 
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.16
+	title = DH_Britain_Arab_Revolt.16.t
+	desc = DH_Britain_Arab_Revolt.16.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		ENG = {
+			controls_state = 454
+			controls_state = 822
+			controls_state = 823
+			controls_state = 820
+			controls_state = 821
+			controls_state = 824			
+		}
+	}
+	#Partition Palestine
+	option = {
+		name = DH_Britain_Arab_Revolt.16.A
+		 		
+		hidden_effect = {
+			random_list = {
+				50 = {
+					country_event = {
+						days = 2
+						id = DH_Britain_Arab_Revolt.17
+					}
+				}
+				50 = {
+					country_event = {
+						days = 2
+						id = DH_Britain_Arab_Revolt.19
+					}				
+				}
+			}
+		}
+	}
+	#Move the Arabs
+	option = {
+		name = DH_Britain_Arab_Revolt.16.B
+		 		
+		hidden_effect = {
+			country_event = {
+				days = 2
+				id = DH_Britain_Arab_Revolt.18
+			}				
+		} 
+	}
+}
+#########################################################################
+# They Have Accepted, Wonderful!
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.17
+	title = DH_Britain_Arab_Revolt.17.t
+	desc = DH_Britain_Arab_Revolt.17.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#
+	option = {
+		name = DH_Britain_Arab_Revolt.17.A
+		 		
+		country_event = {
+			days = 45
+			id = DH_Britain_Arab_Revolt.18
+		}			
+	}
+}
+#########################################################################
+# Let's Hope It All Works Out!
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.18
+	title = DH_Britain_Arab_Revolt.18.t
+	desc = DH_Britain_Arab_Revolt.18.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#We Have Averted A Potential Disaster
+	option = {
+		name = DH_Britain_Arab_Revolt.18.A
+		 		
+		PAL = {
+			transfer_state = 820
+			transfer_state = 821
+		}
+		ISR = {
+			transfer_state = 454
+			transfer_state = 822
+			transfer_state = 823
+			transfer_state = 824
+		}
+		puppet = ISR
+		puppet = PAL
+	}
+}
+#########################################################################
+# They have all refused !
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.19
+	title = DH_Britain_Arab_Revolt.19.t
+	desc = DH_Britain_Arab_Revolt.19.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#We Have Averted A Potential Disaster
+	option = {
+		name = DH_Britain_Arab_Revolt.19.A
+		 		
+		add_stability = -0.05
+		country_event = {
+			days = 10
+			id = DH_Britain_Arab_Revolt.20
+		}	
+	}
+}
+#########################################################################
+# The revolt continues !
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.20
+	title = DH_Britain_Arab_Revolt.20.t
+	desc = DH_Britain_Arab_Revolt.20.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#We Have Averted A Potential Disaster
+	option = {
+		name = DH_Britain_Arab_Revolt.20.A
+		 		
+		country_event = {
+			days = 15
+			id = DH_Britain_Arab_Revolt.21
+		}	
+	}
+}
+#########################################################################
+# The Havlagah Policy
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.21
+	title = DH_Britain_Arab_Revolt.21.t
+	desc = DH_Britain_Arab_Revolt.21.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#The Situation Is Getting Out of Hand, We Must Reinforce the Palestinian Government
+	option = {
+		name = DH_Britain_Arab_Revolt.21.A
+		country_event = {
+			days = 10
+			id = DH_Britain_Arab_Revolt.22
+		}			 		
+		add_political_power = -75
+	}
+
+	#This Is Getting Too Costly, We Must Leave Palestine To It's Fate
+	option = {
+		name = DH_Britain_Arab_Revolt.21.B
+		country_event = {
+			days = 10
+			id = DH_Britain_Arab_Revolt.23
+		}		 		
+	}
+}
+#########################################################################
+# The Revolt Has Ended, But At A Cost
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.22
+	title = DH_Britain_Arab_Revolt.22.t
+	desc = DH_Britain_Arab_Revolt.22.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#The Situation Is Getting Out of Hand, We Must Reinforce the Palestinian Government
+	option = {
+		name = DH_Britain_Arab_Revolt.22.A
+		
+		add_political_power = -50
+		add_stability = -0.05		 		
+
+	}
+
+}
+#########################################################################
+# The Protectorate Has Fallen!
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.23
+	title = DH_Britain_Arab_Revolt.23.t
+	desc = DH_Britain_Arab_Revolt.23.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#The Situation Is Getting Out of Hand, We Must Reinforce the Palestinian Government
+	option = {
+		name = DH_Britain_Arab_Revolt.23.A
+		
+		PAL = {
+			transfer_state = 820
+			transfer_state = 821
+		}
+		ISR = {
+			transfer_state = 454
+			transfer_state = 822
+			transfer_state = 823
+			transfer_state = 824
+			declare_war_on = {
+				target = PAL
+				type = annex_everything
+			}
+			load_oob = ISR_Jabotinsky_Revolt
+		}	
+		set_global_flag = PAL_ISR_Civil_War
+	}
+
+}
+#########################################################################
+# The Arabs Now Dominate Our Former Colony
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.24
+	title = DH_Britain_Arab_Revolt.24.t
+	desc = DH_Britain_Arab_Revolt.24.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#The Situation Is Getting Out of Hand, We Must Reinforce the Palestinian Government
+	option = {
+		name = DH_Britain_Arab_Revolt.24.A
+		
+	}
+
+}
+#########################################################################
+# The Jews Now Dominate Our Former Colony
+#########################################################################
+country_event = {
+	id = DH_Britain_Arab_Revolt.25
+	title = DH_Britain_Arab_Revolt.25.t
+	desc = DH_Britain_Arab_Revolt.25.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#The Situation Is Getting Out of Hand, We Must Reinforce the Palestinian Government
+	option = {
+		name = DH_Britain_Arab_Revolt.25.A
+		
+	}
+
+}
+#########################################################################
+# The Vichy Regime
+#########################################################################
+country_event = {
+	id = DH_Britain_Raid_On_Mers_El_Kebir.1
+	title = DH_Britain_Raid_On_Mers_El_Kebir.1.t
+	desc = DH_Britain_Raid_On_Mers_El_Kebir.1.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = DH_Britain_Raid_On_Mers_El_Kebir.1.A
+		country_event = {
+			id = DH_Britain_Raid_On_Mers_El_Kebir.2
+			days = 2
+		}
+	}
+
+}
+#########################################################################
+# A Daring Plan
+#########################################################################
+country_event = {
+	id = DH_Britain_Raid_On_Mers_El_Kebir.2
+	title = DH_Britain_Raid_On_Mers_El_Kebir.2.t
+	desc = DH_Britain_Raid_On_Mers_El_Kebir.2.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = DH_Britain_Raid_On_Mers_El_Kebir.2.A
+		activate_decision = ENG_Operation_Catapult
+	}
+
+}
+#########################################################################
+# Attack on Mers-el-Kebir
+#########################################################################
+country_event = {
+	id = DH_Britain_Raid_On_Mers_El_Kebir.3
+	title = DH_Britain_Raid_On_Mers_El_Kebir.3.t
+	desc = DH_Britain_Raid_On_Mers_El_Kebir.3.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#Let us hope it goes well...
+	option = {
+		name = DH_Britain_Raid_On_Mers_El_Kebir.3.A
+		random_list = {
+			30 = {
+				country_event = {
+					id = DH_Britain_Raid_On_Mers_El_Kebir.4
+					days = 2
+				}
+			}
+			50 = {
+				country_event = {
+					id = DH_Britain_Raid_On_Mers_El_Kebir.5
+					days = 2
+				}
+			}
+			20 = {
+				country_event = {
+					id = DH_Britain_Raid_On_Mers_El_Kebir.6
+					days = 2
+				}
+			}
+		}
+	}
+
+}
+#########################################################################
+# The Attack Was a Weak Success
+#########################################################################
+country_event = {
+	id = DH_Britain_Raid_On_Mers_El_Kebir.4
+	title = DH_Britain_Raid_On_Mers_El_Kebir.4.t
+	desc = DH_Britain_Raid_On_Mers_El_Kebir.4.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_Britain_Raid_On_Mers_El_Kebir.4.A
+	}
+
+}
+#########################################################################
+# The Attack Was a Moderate Success
+#########################################################################
+country_event = {
+	id = DH_Britain_Raid_On_Mers_El_Kebir.5
+	title = DH_Britain_Raid_On_Mers_El_Kebir.5.t
+	desc = DH_Britain_Raid_On_Mers_El_Kebir.5.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_Britain_Raid_On_Mers_El_Kebir.5.A
+	}
+
+}
+#########################################################################
+# The Attack Was a Complete Success
+#########################################################################
+country_event = {
+	id = DH_Britain_Raid_On_Mers_El_Kebir.6
+	title = DH_Britain_Raid_On_Mers_El_Kebir.6.t
+	desc = DH_Britain_Raid_On_Mers_El_Kebir.6.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_Britain_Raid_On_Mers_El_Kebir.6.A
+	}
+
+}
+
+#########################################################################
+# King George Dies
+#########################################################################
+news_event = {
+	id = DH_Britain_Abdication_Crisis.1
+	title = DH_Britain_Abdication_Crisis.1.t
+	desc = DH_Britain_Abdication_Crisis.1.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	trigger = {
+		tag = ENG
+		date > 1936.1.19
+		has_start_date < 1936.01.02
+	}
+	
+	# Long live the King
+	option = {
+		name = DH_Britain_Abdication_Crisis.1.A
+		remove_ideas = ENG_HoS_George_V
+		add_ideas = ENG_HoS_Edward_VIII
+		country_event = {
+			id = DH_Britain_Abdication_Crisis.2
+			months = 1
+		}
+	}
+}
+
+#########################################################################
+# The King's Romance
+#########################################################################
+country_event = {
+	id = DH_Britain_Abdication_Crisis.2
+	title = DH_Britain_Abdication_Crisis.2.t
+	desc = DH_Britain_Abdication_Crisis.2.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# We must push for his abdication
+	option = {
+		name = DH_Britain_Abdication_Crisis.2.A
+		trigger = {
+			has_country_leader = {
+				name = "Stanley Baldwin"
+				ruling_only = yes
+			}
+		}
+		add_stability = -0.05
+		country_event = {
+			id = DH_Britain_Abdication_Crisis.3
+			days = 60
+		}
+	}
+	
+	# A Morganatic Marriage is the Best Course
+	option = {
+		name = DH_Britain_Abdication_Crisis.2.B
+		trigger = {
+			has_country_leader = {
+				name = "Winston Churchill"
+				ruling_only = yes
+			}
+		}
+		add_stability = -0.05
+		country_event = {
+			id = DH_Britain_Abdication_Crisis.
+			days = 60
+		}
+	}
+}
+
+#########################################################################
+# Addressing Commonwealth Leaders
+#########################################################################
+country_event = {
+	id = DH_Britain_Abdication_Crisis.3
+	title = DH_Britain_Abdication_Crisis.3.t
+	desc = DH_Britain_Abdication_Crisis.3.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# It Is Now Unlikely That Support Will Form For The King
+	option = {
+		name = DH_Britain_Abdication_Crisis.3.A
+		add_political_power = 40
+		country_event = {
+			id = DH_Britain_Abdication_Crisis.4
+			days = 70
+		}
+	}
+}
+
+#########################################################################
+# Censoring the King
+#########################################################################
+country_event = {
+	id = DH_Britain_Abdication_Crisis.4
+	title = DH_Britain_Abdication_Crisis.4.t
+	desc = DH_Britain_Abdication_Crisis.4.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# The People Shall Not Listen To His Lies
+	option = {
+		name = DH_Britain_Abdication_Crisis.4.A
+		add_stability = -0.1
+		country_event = {
+			id = DH_Britain_Abdication_Crisis.5
+			days = 40
+		}
+	}
+}
+
+#########################################################################
+# Threatening Resignation
+#########################################################################
+country_event = {
+	id = DH_Britain_Abdication_Crisis.5
+	title = DH_Britain_Abdication_Crisis.5.t
+	desc = DH_Britain_Abdication_Crisis.5.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# Fine, There Is Not Adequate Support From the Populace To Carry Us Through
+	option = {
+		name = DH_Britain_Abdication_Crisis.5.A
+		add_stability = -0.1
+		news_event = {
+			id = DH_Britain_Abdication_Crisis.6
+			days = 40
+		}
+	}
+}
+
+#########################################################################
+# The Abdication
+#########################################################################
+country_event = {
+	id = DH_Britain_Abdication_Crisis.6
+	title = DH_Britain_Abdication_Crisis.6.t
+	desc = DH_Britain_Abdication_Crisis.6.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# The Final Nail In the Coffin
+	option = {
+		name = DH_Britain_Abdication_Crisis.6.A
+		news_event = {
+			id = DH_Britain_Abdication_Crisis.7
+			days = 40
+		}
+	}
+}
+
+#########################################################################
+# The Coronation of George VI
+#########################################################################
+country_event = {
+	id = DH_Britain_Abdication_Crisis.7
+	title = DH_Britain_Abdication_Crisis.7.t
+	desc = DH_Britain_Abdication_Crisis.7.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# This is For the Good of the Empire
+	option = {
+		name = DH_Britain_Abdication_Crisis.7.A
+		add_stability = 0.05
+		remove_ideas = ENG_HoS_Edward_VIII
+		add_ideas = ENG_HoS_George_VI
+	}
+}
+
+#########################################################################
+# The Establishment MP's Have Voiced Their Concerns
+#########################################################################
+country_event = {
+	id = DH_Britain_Abdication_Crisis.8
+	title = DH_Britain_Abdication_Crisis.8.t
+	desc = DH_Britain_Abdication_Crisis.8.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# Their Views Shall Not Stop the King
+	option = {
+		name = DH_Britain_Abdication_Crisis.8.A
+		add_stability = -0.05
+		country_event = {
+			id = DH_Britain_Abdication_Crisis.9
+			days = 40
+		}
+	}
+}
+
+#########################################################################
+# The Dominion Leaders Have Voiced Their Opposition
+#########################################################################
+country_event = {
+	id = DH_Britain_Abdication_Crisis.9
+	title = DH_Britain_Abdication_Crisis.9.t
+	desc = DH_Britain_Abdication_Crisis.9.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# They Have No Say In How the King Conducts His Business
+	option = {
+		name = DH_Britain_Abdication_Crisis.9.A
+		add_stability = -0.05
+		country_event = {
+			id = DH_Britain_Abdication_Crisis.10
+			days = 40
+		}
+	}
+}
+
+#########################################################################
+# The Opposing MP's Have Resigned
+#########################################################################
+country_event = {
+	id = DH_Britain_Abdication_Crisis.10
+	title = DH_Britain_Abdication_Crisis.10.t
+	desc = DH_Britain_Abdication_Crisis.10.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# Then They Shall Be Replaced
+	option = {
+		name = DH_Britain_Abdication_Crisis.10.A
+		add_stability = -0.05
+		news_event = {
+			id = DH_Britain_Abdication_Crisis.11
+			days = 90
+		}
+	}
+}
+
+#########################################################################
+# A Morganatic Wedding
+#########################################################################
+news_event = {
+	id = DH_Britain_Abdication_Crisis.11
+	title = DH_Britain_Abdication_Crisis.11.t
+	desc = DH_Britain_Abdication_Crisis.11.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# Then They Shall Be Replaced
+	option = {
+		name = DH_Britain_Abdication_Crisis.11.A
+		add_stability = 0.05
+	}
+}
+#########################################################################
+# A New Iraqi Treaty
+#########################################################################
+country_event = {
+	id = DH_Anglo_Iraqi_Treaty.1
+	title = DH_Anglo_Iraqi_Treaty.1.t
+	desc = DH_Anglo_Iraqi_Treaty.1.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# We shall send a diplomatic delegation
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.1.A
+		country_event  = {
+			days = 2
+			id = DH_Anglo_Iraqi_Treaty.2
+		}
+	}
+}
+
+#########################################################################
+# The Question of Resources
+#########################################################################
+country_event = {
+	id = DH_Anglo_Iraqi_Treaty.2
+	title = DH_Anglo_Iraqi_Treaty.2.t
+	desc = DH_Anglo_Iraqi_Treaty.2.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# It all belongs to UK
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.2.A
+		set_global_flag = IRQ_Trade_High_England_flag
+		IRQ = {
+			country_event  = {
+				days = 1
+				id = DH_Anglo_Iraqi_Treaty.3
+			}
+		}
+		country_event  = {
+			days = 5
+			id = DH_Anglo_Iraqi_Treaty.5
+		}
+		effect_tooltip = {
+			add_opinion_modifier = {
+				target = IRQ
+				modifier = IRQ_Trade_High_England
+			}
+			IRQ = {
+				set_temp_variable = { eng_power_in_iraq_to_gain = 2 } 
+				add_eng_influence_with_tooltip_effect = yes
+			}
+		}
+	}
+
+	# We shall only increase trade a bit 
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.2.B
+		set_global_flag = IRQ_Trade_Medium_England_flag
+		IRQ = {
+			country_event  = {
+				days = 1
+				id = DH_Anglo_Iraqi_Treaty.3
+			}
+		}
+		country_event  = {
+			days = 5
+			id = DH_Anglo_Iraqi_Treaty.5
+		}		
+		effect_tooltip = {
+			add_opinion_modifier = {
+				target = IRQ
+				modifier = IRQ_Trade_Medium_England
+			}	
+		}	
+	}
+
+	# No trade changes
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.2.C
+		set_temp_variable = { eng_power_in_iraq_to_gain = -1 } 
+		add_eng_influence_with_tooltip_effect = yes
+		country_event  = {
+			days = 5
+			id = DH_Anglo_Iraqi_Treaty.5
+		}	
+	}
+}
+#########################################################################
+# United Kingdom Demands More Economic Power
+#########################################################################
+country_event = {
+	id = DH_Anglo_Iraqi_Treaty.3
+	title = DH_Anglo_Iraqi_Treaty.3.t
+	desc = DH_Anglo_Iraqi_Treaty.3.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# We shall not accept these demands
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.3.A
+		ENG = {
+			country_event  = {
+				days = 1
+				id = DH_Anglo_Iraqi_Treaty.4
+			}			
+		}
+	}
+	# We shall accept
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.3.B
+		if = {
+			limit = {
+				has_global_flag = IRQ_Trade_High_England_flag
+			}
+			ENG = {
+				add_opinion_modifier = {
+					target = IRQ
+					modifier = IRQ_Trade_High_England
+				}
+			}
+			set_temp_variable = { eng_power_in_iraq_to_gain = 2 } 
+			add_eng_influence_with_tooltip_effect = yes		
+			set_global_flag = IRQ_Trade_High_England_Accepted_flag
+		}
+		if = {
+			limit = {
+				has_global_flag = IRQ_Trade_Medium_England_flag
+			}
+			ENG = {
+				add_opinion_modifier = {
+					target = IRQ
+					modifier = IRQ_Trade_Medium_England
+				}
+			}
+			set_global_flag = IRQ_Trade_Medium_England_Accepted_flag		
+		}
+	}
+}
+#########################################################################
+# Iraq Has Rejected The Demands
+#########################################################################
+country_event = {
+	id = DH_Anglo_Iraqi_Treaty.4
+	title = DH_Anglo_Iraqi_Treaty.4.t
+	desc = DH_Anglo_Iraqi_Treaty.4.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# A small setback
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.4.A
+	}
+
+	# There is no point on continuing negotiations
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.4.B
+		IRQ = {
+			set_temp_variable = { eng_power_in_iraq_to_gain = -5 } 
+			add_eng_influence_with_tooltip_effect = yes				
+		}
+		set_global_flag = Anglo_Iraqi_Renegociation_Stopped
+	}
+}
+#########################################################################
+# Political Influence
+#########################################################################
+country_event = {
+	id = DH_Anglo_Iraqi_Treaty.5
+	title = DH_Anglo_Iraqi_Treaty.5.t
+	desc = DH_Anglo_Iraqi_Treaty.5.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		NOT = { has_global_flag = Anglo_Iraqi_Renegociation_Stopped }
+	}
+	
+	# Full influence over Iraqi politics
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.5.A
+		set_global_flag = IRQ_Political_High_England_flag
+		IRQ = {
+			country_event  = {
+				days = 1
+				id = DH_Anglo_Iraqi_Treaty.6
+			}
+		}
+		country_event  = {
+			days = 5
+			id = DH_Anglo_Iraqi_Treaty.7
+		}
+		effect_tooltip = {
+			IRQ = {
+				set_temp_variable = { eng_power_in_iraq_to_gain = 2 } 
+				add_eng_influence_with_tooltip_effect = yes
+			}
+		}
+	}
+
+	# More Political 'guidance'
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.5.B
+		set_global_flag = IRQ_Political_Medium_England_flag
+		IRQ = {
+			country_event  = {
+				days = 1
+				id = DH_Anglo_Iraqi_Treaty.6
+			}
+		}
+		country_event  = {
+			days = 5
+			id = DH_Anglo_Iraqi_Treaty.7
+		}
+		effect_tooltip = {
+		}	
+	}
+
+	# Current political influence 
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.5.C
+		set_temp_variable = { eng_power_in_iraq_to_gain = -1 } 
+		add_eng_influence_with_tooltip_effect = yes	
+	}
+}
+#########################################################################
+# United Kingdom Demands More Political Power
+#########################################################################
+country_event = {
+	id = DH_Anglo_Iraqi_Treaty.6
+	title = DH_Anglo_Iraqi_Treaty.6.t
+	desc = DH_Anglo_Iraqi_Treaty.6.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# We shall not accept these demands
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.6.A
+		ENG = {
+			country_event  = {
+				days = 1
+				id = DH_Anglo_Iraqi_Treaty.4
+			}			
+		}
+	}
+	# We shall accept
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.6.B
+		if = {
+			limit = {
+				has_global_flag = IRQ_Political_High_England_flag
+			}
+			set_temp_variable = { eng_power_in_iraq_to_gain = 2 } 
+			add_eng_influence_with_tooltip_effect = yes	
+			set_global_flag = IRQ_Political_High_England_Accepted_flag		
+		}
+		if = {
+			limit = {
+				has_global_flag = IRQ_Political_Medium_England_flag
+			}	
+			set_global_flag = IRQ_Political_Medium_England_Accepted_flag		
+		}
+	}
+}
+#########################################################################
+# Military Influence
+#########################################################################
+country_event = {
+	id = DH_Anglo_Iraqi_Treaty.7
+	title = DH_Anglo_Iraqi_Treaty.7.t
+	desc = DH_Anglo_Iraqi_Treaty.7.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		NOT = { has_global_flag = Anglo_Iraqi_Renegociation_Stopped }
+	}
+	
+	# Full influence over Iraqi politics
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.7.A
+		set_global_flag = IRQ_Military_High_England_flag
+		IRQ = {
+			country_event  = {
+				days = 1
+				id = DH_Anglo_Iraqi_Treaty.8
+			}
+		}
+		effect_tooltip = {
+			set_temp_variable = { eng_power_in_iraq_to_gain = 1 } 
+			add_eng_influence_with_tooltip_effect = yes
+		}
+		country_event  = {
+			days = 5
+			id = DH_Anglo_Iraqi_Treaty.9
+		}
+	}
+
+	# More Political 'guidance'
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.7.B
+		set_global_flag = IRQ_Military_Medium_England_flag
+		IRQ = {
+			country_event  = {
+				days = 1
+				id = DH_Anglo_Iraqi_Treaty.8
+			}
+		}
+		effect_tooltip = {
+		}	
+		country_event  = {
+			days = 5
+			id = DH_Anglo_Iraqi_Treaty.9
+		}
+	}
+
+	# Current political influence 
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.7.C
+		set_temp_variable = { eng_power_in_iraq_to_gain = -1 } 
+		add_eng_influence_with_tooltip_effect = yes	
+		country_event  = {
+			days = 5
+			id = DH_Anglo_Iraqi_Treaty.9
+		}
+	}
+}
+#########################################################################
+# United Kingdom Demands More Military Power
+#########################################################################
+country_event = {
+	id = DH_Anglo_Iraqi_Treaty.8
+	title = DH_Anglo_Iraqi_Treaty.8.t
+	desc = DH_Anglo_Iraqi_Treaty.8.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# We shall not accept these demands
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.8.A
+		ENG = {
+			country_event  = {
+				days = 1
+				id = DH_Anglo_Iraqi_Treaty.4
+			}			
+		}
+	}
+	# We shall accept
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.8.B
+		if = {
+			limit = {
+				has_global_flag = IRQ_Military_High_England_flag
+			}
+			set_temp_variable = { eng_power_in_iraq_to_gain = 1 } 
+			add_eng_influence_with_tooltip_effect = yes	
+			set_global_flag = IRQ_Military_High_England_Accepted_flag		
+
+		}
+		if = {
+			limit = {
+				has_global_flag = IRQ_Military_Medium_England_flag
+			}		
+			set_global_flag = IRQ_Military_Medium_England_Accepted_flag		
+		}
+	}
+}
+#########################################################################
+# The Final Page
+#########################################################################
+country_event = {
+	id = DH_Anglo_Iraqi_Treaty.9
+	title = DH_Anglo_Iraqi_Treaty.9.t
+	desc = DH_Anglo_Iraqi_Treaty.9.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# Signed by $getUKledername$ and $GetIRQleadername$
+	option = {
+		name = DH_Anglo_Iraqi_Treaty.9.A
+		if = {
+			limit = {
+				OR = {
+					has_global_flag = IRQ_Military_High_England_Accepted_flag
+					has_global_flag = IRQ_Trade_High_England_Accepted_flag
+					has_global_flag = IRQ_Political_High_England_Accepted_flag
+				}
+			}
+			IRQ = {
+				swap_ideas = {
+					remove_idea = IRQ_Anglo_Iraqi_Treaty
+					add_idea = IRQ_Anglo_Iraqi_Treaty_High
+				}
+			}
+			set_temp_variable = { eng_power_in_iraq_to_gain = 15 } 
+			add_eng_influence_with_tooltip_effect = yes				
+		}
+		else_if  = {
+			limit  = {
+				OR = {
+					has_global_flag = IRQ_Military_Medium_England_Accepted_flag
+					has_global_flag = IRQ_Trade_Medium_England_Accepted_flag
+					has_global_flag = IRQ_Political_Medium_England_Accepted_flag
+				}
+			}
+			set_temp_variable = { eng_power_in_iraq_to_gain = 5 } 
+			IRQ = {
+				swap_ideas = {
+					remove_idea = IRQ_Anglo_Iraqi_Treaty
+					add_idea = IRQ_Anglo_Iraqi_Treaty_Medium
+				}
+			}
+		}
+		else = {
+			set_temp_variable = { eng_power_in_iraq_to_gain = -5 } 
+		}
+	}
+}
+#########################################################################
+# CODE EVENT NO LOC
+#########################################################################
+country_event = {
+	id = DH_Anglo_Iraqi_Treaty.10
+	title = DH_Anglo_Iraqi_Treaty.10.t
+	desc = DH_Anglo_Iraqi_Treaty.10.d
+	picture = GFX_report_ENG_Future_of_Warfare
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+	trigger = {
+		IRQ = {	
+			is_puppet_of = ENG
+		}
+	}
+	immediate = {	
+		set_country_flag = IRQ_New_Colony_Decision_Unlock
+	}
+	# We shall send a diplomatic delegation
+	option = {
+		
+	}
+}

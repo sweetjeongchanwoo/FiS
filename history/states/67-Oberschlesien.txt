@@ -1,0 +1,42 @@
+
+state={
+	id=67
+	name="STATE_67"
+	resources={
+		steel=38.000
+		aluminium=13.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			6512 2 
+		}
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = GER
+		1946.1.1 = {
+			owner = POL
+			controller = POL
+			add_core_of = POL
+			remove_core_of = GER
+			set_state_name = Opole
+			set_province_name = {
+				id = 6512
+				name = Opole
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		479 6512 9457 9511 11467 
+	}
+	manpower=1202591
+	buildings_max_level_factor=1.000
+	state_category=city
+}

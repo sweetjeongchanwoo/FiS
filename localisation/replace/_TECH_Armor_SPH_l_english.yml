@@ -1,0 +1,114 @@
+﻿l_english:
+##########################################################################################################################	
+###  Generic Localisation 	
+##########################################################################################################################	
+### Light SPHs
+ Light_SPG_equipment_1939:0 "Light Self-Propelled Artillery '39"
+ Light_SPG_equipment_1939_short:0 "L. SPH '39
+
+ Light_SPG_equipment_1942:0 "Light Self-Propelled Artillery '42"
+ Light_SPG_equipment_1942_short:0 "L. SPH '42"
+
+ Light_SPG_equipment_1944:0 "Light Self-Propelled Artillery '44"
+ Light_SPG_equipment_1944_short:0 "L. SPH '44"
+ 
+ Light_SPG_equipment_1946:0 "Light Self-Propelled Artillery '46"
+ Light_SPG_equipment_1946_short:0 "L. SPH '46"
+
+### Medium TDs
+ medium_tank_artillery_equipment:0 "Self-Propelled Artillery"
+ 
+ Medium_SPG_equipment_1939:0 "Medium Self-Propelled Artillery '39"
+ Medium_SPG_equipment_1939_short:0 "M. SPH '39"
+ 
+ Medium_SPG_equipment_1941:0 "Medium Self-Propelled Artillery '41"
+ Medium_SPG_equipment_1941_short:0 "M. SPH '41"
+ 
+ Medium_SPG_equipment_1943:0 "Medium Self-Propelled Artillery '43"
+ Medium_SPG_equipment_1943_short:0 "M. SPH '43"
+
+ Medium_SPG_equipment_1945:0 "Medium Self-Propelled Artillery '45"
+ Medium_SPG_equipment_1945_short:0 "M. SPH '45"
+ 
+ ###  Heavy TDs 
+ Heavy_SPG_equipment_1939:0 "Heavy Self-Propelled Artillery '39"
+ Heavy_SPG_equipment_1939_short:0 "H. SPH '39"
+ 
+ Heavy_SPG_equipment_1941:0 "Heavy Self-Propelled Artillery'41"
+ Heavy_SPG_equipment_1941_short:0 "H. SPH '41"
+ 
+ Heavy_SPG_equipment_1943:0 "Heavy Self-Propelled Artillery '43"
+ Heavy_SPG_equipment_1943_short:0 "H. SPH '43"
+
+ Heavy_SPG_equipment_1945:0 "Heavy Self-Propelled Artillery '45"
+ Heavy_SPG_equipment_1945_short:0 "H. SPH '45"
+ 
+##########################################################################################################################	
+### -------------------------------------- Germany -------------------------------------------------------	
+##########################################################################################################################	
+ GER_Light_SPG_equipment_1939:0 "Sturmpanzer I Bison"
+ GER_Light_SPG_equipment_1939_short:0 "Bison I"
+ GER_Light_SPG_equipment_1942:0 "Wespe"
+ GER_Light_SPG_equipment_1942_short:0 "Wespe"
+ GER_Light_SPG_equipment_1944:0 "Grille"
+ GER_Light_SPG_equipment_1944_short:0 "Grille"
+ GER_Light_SPG_equipment_1946:0 "GW Leopard"
+ GER_Light_SPG_equipment_1946_short:0 "GW Leopard"
+ 
+ GER_Medium_SPG_equipment_1939:0 "StuH 42"
+ GER_Medium_SPG_equipment_1939_short:0 "StuH 42"
+ GER_Medium_SPG_equipment_1941:0 "Hummel"
+ GER_Medium_SPG_equipment_1941_short:0 "Hummel"
+ GER_Medium_SPG_equipment_1943:0 "Brummbär"
+ GER_Medium_SPG_equipment_1943_short:0 "Brummbär"
+ GER_Medium_SPG_equipment_1945:0 "GW Panther"
+ GER_Medium_SPG_equipment_1945_short:0 "GW Panther"
+ 
+ GER_Heavy_SPG_equipment_1941:0 "Sturmpanzer VI (P) 15cm" #fictional
+ GER_Heavy_SPG_equipment_1941_short:0 "Sturmpanzer VI"
+ GER_Heavy_SPG_equipment_1943:0 "Sturmtiger"
+ GER_Heavy_SPG_equipment_1943_short:0 "Sturmtiger"
+ GER_Heavy_SPG_equipment_1945:0 "GW Tiger"
+ GER_Heavy_SPG_equipment_1945_short:0 "GW Tiger"
+
+##########################################################################################################################	
+### -------------------------------------- United States -------------------------------------------------------	
+##########################################################################################################################	
+ USA_Light_SPG_equipment_1939:0 "T18 HMC"
+ USA_Light_SPG_equipment_1939_short:0 "T18 HMC"
+ USA_Light_SPG_equipment_1942:0 "T82 HMC"
+ USA_Light_SPG_equipment_1942_short:0 "T82 HMC"
+ USA_Light_SPG_equipment_1944:0 "M8 HMC"
+ USA_Light_SPG_equipment_1944_short:0 "M8 HMC"
+ USA_Light_SPG_equipment_1946:0 "M41 HMC"
+ USA_Light_SPG_equipment_1946_short:0 "M41 HMC"
+ 
+ USA_Medium_SPG_equipment_1941:0 "M7 Priest"
+ USA_Medium_SPG_equipment_1941_short:0 "M7"
+ USA_Medium_SPG_equipment_1943:0 "M12 GMC"
+ USA_Medium_SPG_equipment_1943_short:0 "M12 GMC"
+ USA_Medium_SPG_equipment_1945:0 "M40 GMC"
+ USA_Medium_SPG_equipment_1945_short:0 "M40 GMC"
+ 
+ USA_Heavy_SPG_equipment_1945:0 "T92 HMC"
+ USA_Heavy_SPG_equipment_1945_short:0 "T92 HMC"
+ 
+##########################################################################################################################	
+### -------------------------------------- Soviet Union -------------------------------------------------------	
+##########################################################################################################################	
+ SOV_Light_SPG_equipment_1939:0 "SU-5-2"
+ SOV_Light_SPG_equipment_1939_short:0 "SU-5-2"
+ SOV_Light_SPG_equipment_1942:0 "SU-76"
+ SOV_Light_SPG_equipment_1942_short:0 "SU-76"
+
+ SOV_Medium_SPG_equipment_1943:0 "SU-122"
+ SOV_Medium_SPG_equipment_1943_short:0 "SU-122"
+ SOV_Medium_SPG_equipment_1945:0 "SU-122-44"
+ SOV_Medium_SPG_equipment_1945_short:0 "SU-122-44"
+
+ SOV_Heavy_SPG_equipment_1941:0 "KV-2"
+ SOV_Heavy_SPG_equipment_1941_short:0 "KV-2"
+ SOV_Heavy_SPG_equipment_1943:0 "SU-152"
+ SOV_Heavy_SPG_equipment_1943_short:0 "SU-152"
+ SOV_Heavy_SPG_equipment_1945:0 "ISU-152"
+ SOV_Heavy_SPG_equipment_1945_short:0 "ISU-152"

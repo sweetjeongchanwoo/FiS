@@ -1,0 +1,53 @@
+﻿#########################################################################
+# East Hebei
+#########################################################################
+capital = 609 
+
+oob = "EAH_1936"
+
+set_convoys = 10
+set_stability = 0.4
+set_war_support = 0.3
+
+add_ideas = {
+}
+
+#######################
+# Research
+#######################
+set_technology = {
+	Small_Arms_1916 = 1	
+}
+#######################
+# Politics
+#######################
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascist = 0
+	authoritarian = 100
+	democratic = 0
+	socialist = 0
+	communist = 0
+}
+set_cosmetic_tag = EHB_JAP_NCAC
+#######################
+# Leaders
+#######################
+create_country_leader = {
+	name = "Yin Ju-keng"
+	desc = ""
+	picture = "P_A_Yin_Rugeng.tga"
+	expire = "1965.1.1"
+	ideology = military_dictatorship
+	traits = {}
+}
+1939.1.1 = {
+capital = 609 
+
+set_cosmetic_tag = EHB_JAP_NCAC
+}

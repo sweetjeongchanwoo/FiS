@@ -1,0 +1,40 @@
+
+state={
+	id=71
+	name="STATE_71"
+
+	history={
+		owner = CZE
+		victory_points = {
+			3581 2
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+		add_core_of = CZE
+		add_core_of = SLO
+		1939.9.1 = {
+			owner = SLO
+
+		}
+		1946.1.1 = {
+			owner = CZE
+
+		}
+		2000.1.1 = {
+			owner = SLO
+			remove_core_of = CZE
+
+		}
+
+	}
+
+	provinces={
+		3550 3581 6586 6604 
+	}
+	manpower=1197800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

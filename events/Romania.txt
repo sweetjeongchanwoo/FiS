@@ -1,0 +1,794 @@
+﻿###########################
+# Darkest Hour Events: Romania
+###########################
+add_namespace = DH_Romania
+
+#########################################################################
+# Event for On a New Path
+#########################################################################
+country_event = {
+	id = DH_Romania.1
+	title = DH_Romania.1.t
+	desc = DH_Romania.1.d
+	picture = GFX_DH_Generic_Elections
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	#Choose Prince Micheal
+	option = {
+		name = DH_Romania.1.A
+		set_country_flag = ROM_prince_micheal_choosen
+	}
+
+	#Choose A New Constitution
+	option = {
+		name = DH_Romania.1.B
+		set_country_flag = ROM_a_new_constitution_choosen
+	}
+}
+
+#########################################################################
+# Event about Green Shirt Marches in Bucharest
+#########################################################################
+country_event = {
+	id = DH_Romania.2
+	title = DH_Romania.2.t
+	desc = DH_Romania.2.d
+	picture = GFX_DH_Generic_Elections
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	#Green Shirts March
+	option = {
+		name = DH_Romania.2.A
+	}
+}
+
+#########################################################################
+# Start of Event chain to get into Axis Antonescua
+#########################################################################
+country_event = {
+	id = DH_Romania.3
+	title = DH_Romania.3.t
+	desc = DH_Romania.3.d
+	picture = GFX_DH_Generic_Elections
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	#Ask Germany to join
+	option = {
+		name = DH_Romania.3.A
+		GER = { country_event = DH_Romania.4 }
+	}
+
+	#Let's not my dude
+	option = {
+		name = DH_Romania.3.B
+	}
+}
+
+#########################################################################
+# Event Germany get's to say yes or not to Romania
+#########################################################################
+country_event = {
+	id = DH_Romania.4
+	title = DH_Romania.4.t
+	desc = DH_Romania.4.d
+	picture = GFX_DH_Generic_Elections
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#Let's bring them in
+	option = {
+		name = DH_Romania.4.A
+		GER = {
+			add_to_faction = ROM
+		}
+		ROM = {	country_event = DH_Romania.6 }
+	}
+
+	#They are Nerds don't do it
+	option = {
+		name = DH_Romania.4.B
+		ROM = { country_event = DH_Romania.5 }
+	}
+}
+
+#########################################################################
+# Germany Said Yes
+#########################################################################
+country_event = {
+	id = DH_Romania.5
+	title = DH_Romania.5.t
+	desc = DH_Romania.5.d
+	picture = GFX_DH_Generic_Elections
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = DH_Romania.5.A
+	}
+}
+
+#########################################################################
+# Germany Said No
+#########################################################################
+country_event = {
+	id = DH_Romania.6
+	title = DH_Romania.6.t
+	desc = DH_Romania.6.d
+	picture = GFX_DH_Generic_Elections
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = DH_Romania.6.A
+	}
+}
+
+#########################################################################
+# Start of Event chain to get into Axis Spectre
+#########################################################################
+country_event = {
+	id = DH_Romania.7
+	title = DH_Romania.7.t
+	desc = DH_Romania.7.d
+	picture = GFX_DH_Generic_Elections
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	#Ask Germany to join
+	option = {
+		name = DH_Romania.7.A
+		GER = { country_event = DH_Romania.8 }
+		complete_national_focus = ROM_Together_Against_the_Bolsheviks
+	}
+
+	#Let's not my dude
+	option = {
+		name = DH_Romania.7.B
+		complete_national_focus = ROM_Spreading_the_Legionary_Word
+	}
+}
+
+#########################################################################
+# Event Germany get's to say yes or not to Romania
+#########################################################################
+country_event = {
+	id = DH_Romania.8
+	title = DH_Romania.8.t
+	desc = DH_Romania.8.d
+	picture = GFX_DH_Generic_Elections
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#Let's bring them in
+	option = {
+		name = DH_Romania.8.A
+		GER = {
+			add_to_faction = ROM
+		}
+		ROM = {	country_event = DH_Romania.10 }
+	}
+
+	#They are Nerds don't do it
+	option = {
+		name = DH_Romania.8.B
+		ROM = { country_event = DH_Romania.9 }
+	}
+}
+
+#########################################################################
+# Germany Said Yes
+#########################################################################
+country_event = {
+	id = DH_Romania.9
+	title = DH_Romania.9.t
+	desc = DH_Romania.9.d
+	picture = GFX_DH_Generic_Elections
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = DH_Romania.9.A
+	}
+}
+
+#########################################################################
+# Germany Said No
+#########################################################################
+country_event = {
+	id = DH_Romania.10
+	title = DH_Romania.10.t
+	desc = DH_Romania.10.d
+	picture = GFX_DH_Generic_Elections
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = DH_Romania.10.A
+	}
+}
+
+#########################################################################
+# Germany events to give Romania Tank designs or not
+#########################################################################
+country_event = {
+	id = DH_Romania.11
+	title = DH_Romania.11.t
+	desc = DH_Romania.11.d
+	picture = GFX_DH_Generic_Elections
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#Give them the designs
+	option = {
+		name = DH_Romania.11.A
+		ROM = { country_event = DH_Romania.12 }
+	}
+
+	#Don't do it
+	option = {
+		name = DH_Romania.11.B
+		ROM = { country_event = DH_Romania.13 }
+	}
+}
+
+#########################################################################
+# Germany gives tank designs
+#########################################################################
+country_event = {
+	id = DH_Romania.12
+	title = DH_Romania.12.t
+	desc = DH_Romania.12.d
+	picture = GFX_DH_Generic_Elections
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#Great
+	option = {
+		name = DH_Romania.12.A
+		ROM = {
+			add_tech_bonus = {
+				uses = 2
+				bonus = 0.5
+				category = armor
+			}
+		}
+	}
+}
+
+#########################################################################
+# Germany Doesn't give tank designs
+#########################################################################
+country_event = {
+	id = DH_Romania.13
+	title = DH_Romania.13.t
+	desc = DH_Romania.13.d
+	picture = GFX_DH_Generic_Elections
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#RIP
+	option = {
+		name = DH_Romania.13.A
+	}
+}
+
+#########################################################################
+# Romania Sends Event to Hungary Demanding Transylvania Back
+#########################################################################
+country_event = {
+	id = DH_Romania.14
+	title = DH_Romania.14.t
+	desc = DH_Romania.14.d
+	picture = GFX_DH_Generic_Elections
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#Let's give it back
+	option = {
+		name = DH_Romania.14.A
+	}
+
+	#No Go away
+	option = {
+		name = DH_Romania.14.B
+	}
+}
+
+#########################################################################
+# Hungary Says Yes
+#########################################################################
+country_event = {
+	id = DH_Romania.15
+	title = DH_Romania.15.t
+	desc = DH_Romania.15.d
+	picture = GFX_DH_Generic_Elections
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#Hell Ya
+	option = {
+		name = DH_Romania.15.A
+	}
+}
+
+#########################################################################
+# Hungary Says No
+#########################################################################
+country_event = {
+	id = DH_Romania.16
+	title = DH_Romania.16.t
+	desc = DH_Romania.16.d
+	picture = GFX_DH_Generic_Elections
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#Damn it
+	option = {
+		name = DH_Romania.16.A
+	}
+}
+
+#########################################################################
+# Romania Asks Germany for License
+#########################################################################
+country_event = {
+	id = DH_Romania.17
+	title = DH_Romania.17.t
+	desc = DH_Romania.17.d
+	picture = GFX_DH_Generic_Elections
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#Give them the License
+	option = {
+		name = DH_Romania.17.A
+		ai_chance = {
+			factor = 1
+		}
+		ROM = { country_event = DH_Romania.18 }
+		if = {
+			limit = {
+				has_tech = Interdictor_1965
+			}
+			create_production_license = {
+				target = ROM
+				equipment = {
+					type = Tactical_Bomber_equipment_1960
+				}
+				cost_factor = 0
+			}
+		}
+		else_if = {
+			limit = {
+				has_tech = Tactical_Bomber_1955
+			}
+			create_production_license = {
+				target = ROM
+				equipment = {
+					type = Tactical_Bomber_equipment_1955
+				}
+				cost_factor = 0
+			}
+		}
+		else_if = {
+			limit = {
+				has_tech = Tactical_Bomber_1950
+			}
+			create_production_license = {
+				target = ROM
+				equipment = {
+					type = Tactical_Bomber_equipment_1950
+				}
+				cost_factor = 0
+			}
+		}
+		else_if = {
+			limit = {
+				has_tech = Tactical_Bomber_1945
+			}
+			create_production_license = {
+				target = ROM
+				equipment = {
+					type = Tactical_Bomber_equipment_1945
+				}
+				cost_factor = 0
+			}
+		}
+		else_if = {
+			limit = {
+				has_tech = Tactical_Bomber_1943
+			}
+			create_production_license = {
+				target = ROM
+				equipment = {
+					type = Tactical_Bomber_equipment_1943
+				}
+				cost_factor = 0
+			}
+		}
+		else_if = {
+			limit = {
+				has_tech = Tactical_Bomber_1940
+			}
+			create_production_license = {
+				target = ROM
+				equipment = {
+					type = Tactical_Bomber_equipment_1940
+				}
+				cost_factor = 0
+			}
+		}
+		else_if = {
+			limit = {
+				has_tech = Tactical_Bomber_1936
+			}
+			create_production_license = {
+				target = ROM
+				equipment = {
+					type = Tactical_Bomber_equipment_1936
+				}
+				cost_factor = 0
+			}
+		}
+		else = {
+			create_production_license = {
+				target = ROM
+				equipment = {
+					type = Tactical_Bomber_equipment_1933
+				}
+				cost_factor = 0
+			}
+		}
+	}
+
+	#Don't give it to them
+	option = {
+		name = DH_Romania.17.B
+		ai_chance = {
+			factor = 0
+		}
+		ROM = { country_event = DH_Romania.19 }
+	}
+}
+
+#########################################################################
+# Hungary Says Yes
+#########################################################################
+country_event = {
+	id = DH_Romania.18
+	title = DH_Romania.18.t
+	desc = DH_Romania.18.d
+	picture = GFX_DH_Generic_Elections
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#Hell Ya
+	option = {
+		name = DH_Romania.18.A
+	}
+}
+
+#########################################################################
+# Hungary Says No
+#########################################################################
+country_event = {
+	id = DH_Romania.19
+	title = DH_Romania.19.t
+	desc = DH_Romania.19.d
+	picture = GFX_DH_Generic_Elections
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#Damn it
+	option = {
+		name = DH_Romania.19.A
+	}
+}
+###########################
+# Romanian Events
+###########################
+
+add_namespace = romania
+
+# Soviet Union demands Bessarabia
+country_event = {
+	id = romania.1
+	title = romania.1.t
+	desc = romania.1.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	
+	option = { # Accept demands
+		name = romania.1.a
+		ai_chance = {
+			factor = 90
+			modifier = { # Don't accept if in a faction that can protect them
+				factor = 0
+				OR = {
+					is_in_faction_with = ENG
+					is_in_faction_with = FRA
+					is_in_faction_with = GER
+				}
+				is_historical_focus_on = no #Romania will still cede on historical
+			}
+		}
+		SOV = {
+			country_event = { days = 1 id = soviet.4 }
+		}
+		set_country_flag = bessarabia_ceded
+	}
+	option = { # Refuse
+		name = romania.1.b
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				is_in_faction = yes
+				NOT = { is_in_faction_with = SOV }
+			}
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 0
+			}
+		}
+		SOV = {
+			country_event = { days = 1 id = soviet.5 }
+			effect_tooltip = {
+				create_wargoal = {
+					type = take_state
+					target = ROM
+					generator = { 78 }
+				}
+			}
+		}
+	}
+}
+
+# Second Vienna Award - Northern Transylvania
+country_event = {
+	id = romania.2
+	title = romania.2.t
+	desc = romania.2.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = romania.2.a
+		ai_chance = {
+			factor = 80
+			modifier = { # Don't accept if in a faction that can protect them
+				factor = 0
+				OR = {
+					is_in_faction_with = ENG
+					is_in_faction_with = FRA
+					is_in_faction_with = SOV
+				}
+			}
+		}
+		HUN = {
+			country_event = { days = 1 id = hungary.2 }
+		}
+		set_country_flag = second_vienna_accepted_north
+	}
+	option = { # Refuse
+		name = romania.2.b
+		ai_chance = { 
+			factor = 20 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		HUN = {
+			country_event = { days = 1 id = hungary.4 }
+			effect_tooltip = { add_state_claim = 76 }
+		}
+		GER = {
+			country_event = { days = 1 id = germany.21 }
+			effect_tooltip = {
+				create_wargoal = {
+					type = take_state
+					target = ROM
+					generator = { 76 }
+				}
+			}
+		}
+	}
+}
+
+# Second Vienna Award - All of Transylvania
+country_event = {
+	id = romania.3
+	title = romania.2.t
+	desc = romania.3.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = romania.2.a
+		ai_chance = {
+			factor = 50
+			modifier = { # Don't accept if in a faction that can protect them
+				factor = 0
+				OR = {
+					is_in_faction_with = ENG
+					is_in_faction_with = FRA
+					is_in_faction_with = SOV
+				}
+			}
+		}
+		HUN = {
+			country_event = { days = 1 id = hungary.3 }
+		}
+		set_country_flag = second_vienna_accepted_all
+	}
+	option = { # Refuse
+		name = romania.2.b
+		ai_chance = { factor = 50 }
+		HUN = {
+			country_event = { days = 1 id = hungary.5 }
+			effect_tooltip = {
+				add_state_claim = 76
+				add_state_claim = 83
+				add_state_claim = 84
+			}
+		}
+		GER = {
+			country_event = { days = 1 id = germany.21 }
+			effect_tooltip = {
+				create_wargoal = {
+					type = take_state
+					target = ROM
+					generator = { 76 }
+				}
+			}
+		}
+	}
+}
+
+# Second Vienna Award - No Concessions
+country_event = {
+	id = romania.4
+	title = romania.4.t
+	desc = romania.4.d
+	picture = GFX_report_event_germany_politician_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = romania.4.a
+	}
+}
+
+# Treaty of Craiova - Bulgaria Demands Territory
+country_event = {
+	id = romania.5
+	title = romania.5.t
+	desc = romania.5.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	
+	is_triggered_only = yes
+	
+	option = { # Accept
+		name = romania.5.a
+		ai_chance = { factor = 90 }
+		effect_tooltip = {
+			BUL = { transfer_state = 77 }
+		}
+		BUL = {
+			country_event = { days = 1 id = bulgaria.1 }
+		}
+	}
+	option = { # Refuse
+		name = romania.5.b
+		ai_chance = { 
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			} 
+		}
+		BUL = {
+			country_event = { days = 1 id = bulgaria.2 }
+		}
+	}
+}
+
+# Seek an alliance - Since everyone is out to get us
+country_event = {
+	id = romania.6
+	title = romania.6.t
+	desc = romania.6.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	
+	trigger = {
+		has_country_flag = bessarabia_ceded
+		is_in_faction = no
+		NOT = { GER = { is_in_faction_with = SOV } }
+		NOT = { has_war_with = GER }
+		NOT = { has_war_with = SOV }
+		NOT = { has_dlc = "Death or Dishonor" }
+	}
+	
+	mean_time_to_happen = { days = 7 }
+
+	option = { # Seek german alliance
+		name = romania.6.a
+		set_politics = {
+			ruling_party = fascist
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.35
+		}
+		add_opinion_modifier = { target = GER modifier = ROM_seek_alliance_GER }
+		add_ideas = ROM_revenge_against_soviet
+		ai_chance = { 
+			base = 2
+			modifier = {
+				factor = 0
+				has_war_with = GER
+			}
+		}
+	}
+	option = { # Seek soviet alliance
+		name = romania.6.b
+		set_politics = {
+			ruling_party = communist
+			elections_allowed = no
+		}
+		add_popularity = {
+		ideology = communist
+			popularity = 0.5
+		}
+		add_opinion_modifier = { target = SOV modifier = ROM_seek_alliance_SOV }
+		add_ideas = ROM_revenge_against_germany
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0
+				NOT = { has_war_with = GER }
+				has_war_with = SOV
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = { has_war_with = GER }
+			}
+		}
+	}
+	option = { # Dear democracy... NEVER GONNA GIVE YOU UP!
+		name = romania.6.c
+		ai_chance = {
+			base = 0
+		}
+		
+	}
+}

@@ -1,0 +1,86 @@
+﻿#########################################################################
+# Yunnan - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 325
+	oob = "YUN_1936"
+	#######################
+	# Research
+	#######################	
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+	}
+	#######################
+	# Diplomacy
+	#######################	
+	set_autonomy = {
+		target = GUZ
+		autonomous_state = autonomy_clique
+	}
+	#######################
+	# Politics
+	#######################	
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 20
+		authoritarian = 80
+		democratic = 0
+		socialist = 0
+		communist = 0
+	}
+	add_ideas = {
+		YUN_HoG_Hu_Ruoyu
+	}
+	#######################
+	# Leaders
+	#######################
+	create_country_leader = {
+		name = "Long Yun"
+		desc = "POLITICS_LONG_YUN_DESC"
+		picture = "P_A_Long_Yun.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = {
+			POSITION_Civil_Governor
+		}
+	}
+	#######################
+	# Generals
+	#######################
+	create_field_marshal = {
+		name = "Long Yun"
+		picture = "P_A_Long_Yun.tga"
+		traits = { }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Yang Hucheng"
+		picture = "M_Yang_Hucheng.tga"
+		traits = { }
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+	}
+}

@@ -1,0 +1,227 @@
+﻿################################
+# Chile - 1933
+################################
+1933.1.1 = {
+	oob = "CHL_1933"
+	capital = 279
+	set_convoys = 20
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+		Artillery_1910 = 1
+		tech_support = 1
+		Fighter_1933 = 1
+		cv_Fighter_1933 = 1
+		Tactical_Bomber_1933 = 1
+		#Naval Stuff
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		DD_1922 = 1
+		DD_1933 = 1	
+		
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+		
+		CA_1885 = 1
+		CA_1895 = 1
+		CA_1906 = 1
+		
+		BB_1885 = 1
+		BB_1895 = 1
+		BB_1900 = 1
+		BB_1906 = 1
+		BB_1912 = 1
+		BB_1916 = 1
+		BB_1922 = 1	
+		BB_1933 = 1	
+		
+		SS_1895 = 1
+		SS_1912 = 1
+		SS_1916 = 1
+		SS_1922 = 1	
+		
+		transport = 1
+	#
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1932.10.30"
+		election_frequency = 72  #but 4 years after this one in 1938.
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 12
+		democratic = 87
+		socialist = 0
+		communist = 1
+	}
+	add_ideas = {
+		CHL_HoG_Alberto_Cabera_Diaz
+	}
+	#######################
+	# Diplomacy
+	#######################
+	set_country_flag = monroe_doctrine
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Jorge González von Marées"
+		desc = ""
+		picture = "P_F_Jorge_Gonzalez_von_Marees.tga"
+		expire = "1965.1.1"
+		ideology = national_socialism
+		traits = {
+			POSITION_Jefe_Supremo
+			SUBIDEOLOGY_National_Socialism
+			HoS_Autocratic_Charmer
+		}
+	}
+	# Autocracy
+	create_country_leader = {
+		name = "Carlos Ibáñez del Campo"
+		desc = ""
+		picture = "P_A_Carlos_Ibanez_del_Campo.tga"
+		expire = "1965.1.1"
+		ideology = military_dictatorship
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Military_Dictatorship
+			HoS_Resigned_Generalissimo
+		}
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Arturo Alessandri Palma"
+		desc = ""
+		picture = "P_D_Arturo_Alessandri.tga"
+		expire = "1965.1.1"
+		ideology = market_liberalism
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Market_Liberalism
+			HoS_Stern_Imperialist
+		}
+	}
+	# Socialism
+	create_country_leader = {
+		name = "Marmaduke Grove"
+		desc = ""
+		picture = "P_S_Marmaduke_Grove.tga"
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Socialism
+			HoS_Barking_Buffoon
+		}
+	}
+	# Communism
+	create_country_leader = {
+		name = "Elías Lafferte"
+		desc = ""
+		picture = "P_C_Elias_Lafferte.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = {
+			POSITION_General_Secretary
+			SUBIDEOLOGY_Marxism_Leninism
+			HoS_Popular_Figurehead
+		}
+	}
+	
+	#######################
+	# Generals
+	#######################
+	create_corps_commander = {
+		name = "Escudero Oscar Otárola"
+		portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+		traits = { trait_mountaineer }
+		skill = 4
+		attack_skill = 4
+		defense_skill = 2
+		planning_skill = 4
+		logistics_skill = 3
+	}	
+}
+
+#################################
+# Chile - 1936
+#################################
+1936.1.1 = {
+	oob = "CHL_1936"
+	add_ideas = {
+		CHL_HoG_Ignacio_Urrutia_Manzanio
+	}
+}
+#################################
+# Chile - 1939
+#################################
+1939.9.1 = {
+	#######################
+	# Politics
+	#######################	
+	set_party_name = {
+		ideology = democratic
+		long_name = CHL_democratic_party_1939_long
+		name = CHL_democratic_party_1939
+	}
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Pedro Aguirre Cerda"
+		desc = ""
+		picture = "P_D_Pedro_Aguirre_Cerda.tga"
+		expire = "1965.1.1"
+		ideology = social_democracy
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Social_Democracy
+			HoS_Benevolent_Gentleman
+		}
+	}
+}
+#################################
+# Chile - 1942
+#################################
+1942.11.22 = {
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Juan Antonio Ríos"
+		desc = ""
+		picture = "P_D_Juan_Antonio_Ríos.tga"
+		expire = "1965.1.1"
+		ideology = social_democracy
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Social_Democracy
+			HoS_Weary_Stiff_Neck
+		}
+	}
+}

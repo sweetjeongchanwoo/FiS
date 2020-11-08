@@ -1,0 +1,105 @@
+﻿#########################################################################
+# Costa Rica - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 316
+	set_convoys = 10
+	oob = "COS_1936"
+	#######################
+	# Research
+	#######################	
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+	}
+	#######################
+	# Politics
+	#######################	
+	set_country_flag = monroe_doctrine
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1932.2.14"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 35
+		democratic = 55
+		socialist = 5
+		communist = 5
+	}
+	#######################
+	# Leaders
+	#######################	
+	# Democracy
+	create_country_leader = {
+		name = "Romualdo Jímenez Oreamuno"
+		desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
+		picture = "P_D_Romualdo_Oreamuno.tga"
+		expire = "1965.1.1"
+		ideology = social_liberalism
+		traits = { POSITION_President SUBIDEOLOGY_Social_Liberalism HoS_Ruthless_Powermonger }
+	}
+}
+#########################################################################
+# Costa Rica - 1939
+#########################################################################
+1939.9.1 = {
+	#######################
+	# Leaders
+	#######################	
+	# Democracy
+	create_country_leader = {
+		name = "León Cortés Castro"
+		desc = ""
+		picture = "P_D_Leon_Cortes_Castro.tga"
+		expire = "1965.1.1"
+		ideology = social_liberalism
+		traits = { POSITION_President SUBIDEOLOGY_Social_Liberalism HoG_Political_Protege }
+	}
+}
+#########################################################################
+# Costa Rica - 1940
+#########################################################################
+1940.5.10 = {
+	#######################
+	# Leaders
+	#######################	
+	# Democracy
+	create_country_leader = {
+		name = "Rafael Calderón Guardia"
+		desc = ""
+		picture = "P_D_Rafael_Calderon_Guardia.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism HoS_Barking_Buffoon }
+	}
+}
+#########################################################################
+# Costa Rica - 1944
+#########################################################################
+1944.6.20 = {
+	#######################
+	# Leaders
+	#######################	
+	# Democracy
+	create_country_leader = {
+		name = "Teodoro Picado Michalski"
+		desc = ""
+		picture = "P_D_Teodoro_Picado_Michalski.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism HoS_Resigned_Generalissimo }
+	}
+}

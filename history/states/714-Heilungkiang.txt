@@ -1,0 +1,38 @@
+
+state={
+	id=714
+	name="STATE_714"
+
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			7613 1 
+		}
+		victory_points = {
+			7848 1 
+		}
+		1946.1.1 = {
+			owner = SOV
+			controller = SOV
+
+		}
+		1950.1.1 = {
+			owner = PRC
+		}
+
+	}
+
+	provinces={
+		1693 7613 7767 7832 7848 7897 10675 12548 12618 
+	}
+	manpower=2003191
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

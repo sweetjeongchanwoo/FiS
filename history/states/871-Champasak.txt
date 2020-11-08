@@ -1,0 +1,35 @@
+state={
+	id=871
+	name="STATE_871"
+	
+	history = {
+			owner = VIN
+			add_core_of = LAO
+			
+		buildings = {
+			infrastructure = 1
+		}
+		1941.6.22 = {
+			owner = SIA
+			controller = SIA
+
+		}
+		1946.1.1 = {
+			owner = VIN
+			controller = VIN
+
+		}
+		1956.1.1 = {
+			owner = LAO
+			controller = LAO
+
+		}
+	}
+
+	provinces={
+		1592
+	}
+	manpower=21560
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

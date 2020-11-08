@@ -1,0 +1,39 @@
+
+state={
+	id=1022
+	name="STATE_1022"
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = FRA
+		1941.6.22 = {
+			owner = FRA
+			controller = GER
+			add_core_of = VIC
+
+		}
+		1945.1.1 = {
+			owner = FRA
+			controller = FRA
+
+		}
+		1946.1.1 = {
+			controller = FRA
+			remove_core_of = VIC
+
+		}
+
+	}
+
+	provinces={
+		3476 9500 
+	}
+	manpower=125430
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

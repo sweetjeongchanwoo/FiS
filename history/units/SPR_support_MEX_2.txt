@@ -1,0 +1,7 @@
+units = {
+    division = {
+		name = "Libertad Brigada"
+		location = 3938  # Madrid
+		division_template = "International Brigade"
+	}
+}

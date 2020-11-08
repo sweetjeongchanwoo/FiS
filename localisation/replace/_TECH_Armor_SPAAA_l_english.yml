@@ -1,0 +1,79 @@
+﻿l_english:
+#########################################################################	
+###  Generic Localisation 	
+#########################################################################	
+### Light SPAAs
+ Light_SPAA_equipment_1939:0 "Light Self-Propelled AAA '39"
+ Light_SPAA_equipment_1939_short:0 "L. SPAAA '39"
+ Light_SPAA_equipment_1942:0 "Light Self-Propelled AAA '42"
+ Light_SPAA_equipment_1942_short:0 "L. SPAAA '42"
+ Light_SPAA_equipment_1944:0 "Light Self-Propelled AAA '44"
+ Light_SPAA_equipment_1944_short:0 "L. SPAAA '44"
+ Light_SPAA_equipment_1946:0 "Light Self-Propelled AAA '46"
+ Light_SPAA_equipment_1946_short:0 "L. SPAAA '46"
+ 
+### Medium SPAAs
+ medium_tank_aa_equipment:0 "Self-Propelled AAA"
+ 
+ Medium_SPAA_equipment_1939:0 "Medium Self-Propelled AAA '39"
+ Medium_SPAA_equipment_1939_short:0 "M. SPAAA '39"
+ Medium_SPAA_equipment_1941:0 "Medium Self-Propelled AAA '41"
+ Medium_SPAA_equipment_1941_short:0 "M. SPAAA '41"
+ Medium_SPAA_equipment_1943:0 "Medium Self-Propelled AAA '43"
+ Medium_SPAA_equipment_1943_short:0 "M. SPAAA '43"
+ Medium_SPAA_equipment_1945:0 "Medium Self-Propelled AAA '45"
+ Medium_SPAA_equipment_1945_short:0 "M. SPAAA '45"
+ 
+
+#########################################################################	
+###  Germany 	
+##########################################################################	
+ GER_Light_SPAA_equipment_1939:0 "Flakpanzer I"
+ GER_Light_SPAA_equipment_1939_short:0 "Flakpanzer I"
+ GER_Light_SPAA_equipment_1942:0 "Flakpanzer II"
+ GER_Light_SPAA_equipment_1942_short:0 "Flakpanzer II"
+ GER_Light_SPAA_equipment_1944:0 "Flakpanzer 38(t)"
+ GER_Light_SPAA_equipment_1944_short:0 "Flakpanzer 38(t)"
+ GER_Light_SPAA_equipment_1946:0 "FlakLeopard"
+ GER_Light_SPAA_equipment_1946_short:0 "Flakleopard"
+ 
+ GER_Medium_SPAA_equipment_1939:0 "Flakpanzer IV Wirbelwind"
+ GER_Medium_SPAA_equipment_1939_short:0 "Wirbelwind"
+ GER_Medium_SPAA_equipment_1941:0 "Flakpanzer IV Ostwind"
+ GER_Medium_SPAA_equipment_1941_short:0 "Ostwind"
+ GER_Medium_SPAA_equipment_1943:0 "Flakpanzer IV Kugelblitz"
+ GER_Medium_SPAA_equipment_1943_short:0 "Kugelblitz"
+ GER_Medium_SPAA_equipment_1945:0 "Flakpanzer V Coelian"
+ GER_Medium_SPAA_equipment_1945_short:0 "Coelian"
+
+#########################################################################	
+###  United States 	
+#########################################################################	
+ USA_Light_SPAA_equipment_1942:0 "M3 Multiple Gun Motor Carriage" #M3 with Maxson Turret 
+ USA_Light_SPAA_equipment_1942_short:0 "M3 MGMC"
+ USA_Light_SPAA_equipment_1944:0 "M19 Multiple Gun Motor Carriage"
+ USA_Light_SPAA_equipment_1944_short:0 "M19 MGMC"
+
+ USA_Medium_SPAA_equipment_1943:0 "M4 Multiple Gun Motor Carriage 'Skink'"
+ USA_Medium_SPAA_equipment_1943_short:0 "M4 MGMC"
+ USA_Medium_SPAA_equipment_1945:0 "M52 Multiple Gun Motor Carriage"
+ USA_Medium_SPAA_equipment_1945_short:0 "M52 MGMC"
+ 
+#########################################################################	
+###  Soviet Union 	
+#########################################################################	
+ SOV_Light_SPAA_equipment_1939:0 "ZSU-12.7"
+ SOV_Light_SPAA_equipment_1939_short:0 "ZSU-12.7"
+ SOV_Light_SPAA_equipment_1942:0 "ZSU-12.7-2"
+ SOV_Light_SPAA_equipment_1942_short:0 "ZSU-12.7-2"
+ SOV_Light_SPAA_equipment_1944:0 "ZSU-37"
+ SOV_Light_SPAA_equipment_1944_short:0 "ZSU-37"
+
+ SOV_Medium_SPAA_equipment_1939:0 "ZSU-37-32"
+ SOV_Medium_SPAA_equipment_1939_short:0 "ZSU-37-32"
+ SOV_Medium_SPAA_equipment_1941:0 "ZSU-37-34"
+ SOV_Medium_SPAA_equipment_1941_short:0 "ZSU-37-34"
+ SOV_Medium_SPAA_equipment_1943:0 "ZSU-37-34-2"
+ SOV_Medium_SPAA_equipment_1943_short:0 "ZSU-37-34-2"
+ SOV_Medium_SPAA_equipment_1945:0 "ZSU-57-44"
+ SOV_Medium_SPAA_equipment_1945_short:0 "ZSU-57-44"

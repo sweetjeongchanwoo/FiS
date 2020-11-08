@@ -1,0 +1,10 @@
+SS_Staat_Decisions = {
+	
+	allowed = {
+		original_tag = SSB
+	}
+
+	visible = {
+		SSB = { exists = yes }
+	}
+}

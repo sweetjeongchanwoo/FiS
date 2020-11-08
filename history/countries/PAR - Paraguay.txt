@@ -1,0 +1,169 @@
+﻿#######################################
+# Paraguay - 1933
+#######################################
+1933.1.1 = {
+	oob = "PAR_1933"
+	capital = 301
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Artillery_1910 = 1
+		Fighter_1933 = 1
+	}
+	#######################
+	# Diplomacy
+	#######################	
+	set_country_flag = monroe_doctrine
+	#######################
+	# Politics
+	#######################	
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 0
+		democratic = 90
+		socialist = 10
+		communist = 0
+	}
+	add_ideas = {
+		# Laws and Policies
+		export_focus
+		one_year_service
+		free_market_economy
+		war_economy
+	}
+
+	#######################
+	# Leaders
+	#######################	
+	# Authoritarian
+	create_country_leader = {
+		name = "José Estigarribia Insaurralde"
+		desc = ""
+		picture = "P_D_Jose_Estigarribia.tga"
+		expire = "1965.1.1"
+		ideology = military_dictatorship
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Military_Dictatorship
+			HoS_Autocratic_Charmer	
+		}
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Eusebio Ayala"
+		desc = "POLITICS_EUSEBIO_AYALA_DESC"
+		picture = "P_D_Eusebio_Ayala.tga"
+		expire = "1965.1.1"
+		ideology = social_liberalism
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Social_Liberalism
+			HoS_Benevolent_Gentleman
+		}
+	}
+	# Socialism
+	create_country_leader = {
+		name = "Rafael Franco"
+		desc = ""
+		picture = "P_S_Rafael_Franco.tga"
+		expire = "1965.1.1"
+		ideology = democratic_socialism
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Democratic_Socialism
+			HoS_Resigned_Generalissimo
+		}
+	}
+}
+#######################################
+# Paraguay - 1936
+#######################################
+1936.1.1 = {
+	oob = "PAR_1936"
+	#######################
+	# Politics
+	#######################	
+	add_ideas = {
+		# Laws and Policies
+		export_focus
+		volunteer_only
+		free_market_economy
+		civilian_economy
+	}
+
+	#######################
+	# Leaders
+	#######################	
+	# Democracy
+	create_country_leader = {
+		name = "Félix Paiva"
+		desc = ""
+		picture = "P_D_Felix_Paiva.tga"
+		expire = "1965.1.1"
+		ideology = social_liberalism
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Social_Liberalism
+			HoS_Insignificant_Layman
+		}
+	}	
+}
+#######################################
+# Paraguay - 1939
+#######################################
+1939.9.1 = {
+	#######################
+	# Leaders
+	#######################	
+	# Democracy
+	create_country_leader = {
+		name = "José Estigarribia Insaurralde"
+		desc = ""
+		picture = "P_D_Jose_Estigarribia.tga"
+		expire = "1965.1.1"
+		ideology = social_liberalism # Pretty Dictatorial
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Social_Liberalism
+			HoS_Autocratic_Charmer	
+		}
+	}
+}
+#######################################
+# Paraguay - 1940
+#######################################
+1940.5.10 = {
+	#######################
+	# Politics
+	#######################	
+	set_politics = {
+		ruling_party = authoritarian
+		elections_allowed = no
+	}
+}
+#######################################
+# Paraguay - 1941
+#######################################
+1941.6.22 = {
+	# Authoritarian
+	create_country_leader = {
+		name = "Higenio Morinigo Martinez"
+		desc = ""
+		picture = "P_A_Higinio_Morínigo_Martínez.tga"
+		expire = "1965.1.1"
+		ideology = military_dictatorship
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Military_Dictatorship
+			HoS_Barking_Buffoon	
+		}
+	}
+}

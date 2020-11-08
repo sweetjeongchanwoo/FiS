@@ -1,0 +1,29 @@
+state={
+	id=895
+	name="STATE_895"
+	
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PER
+		add_core_of = MAH
+		add_core_of = KUR
+		1944.6.20 = {
+			owner = SOV
+			controller = SOV
+		}
+		1950.1.1 = {
+			owner = PER
+		}
+
+	}
+	
+	provinces={
+		1636 1822 7604 
+	}
+	manpower=168393
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

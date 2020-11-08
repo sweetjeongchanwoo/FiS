@@ -1,0 +1,332 @@
+﻿#########################################################################
+# British Raj - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 439
+	set_stability = 0.6
+	set_war_support = 0.1
+	oob = "RAJ_1933"
+	set_convoys = 20
+	set_cosmetic_tag = RAJ_ENG # British Raj
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 0
+		tech_support = 1		
+		tech_engineers = 1
+		tech_recon = 1
+		Artillery_1910 = 1
+		transport = 1
+		Trench_Warfare = 1
+		fleet_in_being = 1
+		CAS_1936 = 1
+	# Armour Tech
+		Heavy_Tank_1916 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1935.11.14"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 0
+		democratic = 75
+		socialist = 15
+		communist = 10
+	}
+	add_ideas = {
+		RAJ_Princely_States
+		RAJ_Marginalized_Muslim_Community
+		RAJ_Risk_of_Famine
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "M. S. Golwalkar"
+		desc = ""
+		picture = "P_F_MS_Golwalkar.tga"
+		expire = "1965.1.1"
+		ideology = fascism
+		traits = { POSITION_President SUBIDEOLOGY_Fascism HoG_Silent_Workhorse }
+	}
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Freeman Freeman-Thomas"
+		desc = ""
+		picture = "P_D_Freeman_Freeman_Thomas.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = { POSITION_Governor_General SUBIDEOLOGY_Authoritarian_Democracy HoS_Insignificant_Layman }
+	}
+	# Conservatism
+	create_country_leader = {
+		name = "Freeman Freeman-Thomas"
+		desc = ""
+		picture = "P_D_Freeman_Freeman_Thomas.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_Governor_General SUBIDEOLOGY_Conservatism HoS_Insignificant_Layman }
+	}
+	# Left-Wing Radicalism
+	create_country_leader = {
+		name = "Subhas Chandra Bose"
+		desc = ""
+		picture = "P_S_Subhas_Chandra_Bose.tga"
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Socialism HoG_Naive_Optimist }
+	}
+	# Communism
+	create_country_leader = {
+		name = "P. Krishna Pillai"
+		desc = ""
+		picture = "P_C_Krishna_Pillai.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = { POSITION_General_Secretary SUBIDEOLOGY_Marxism_Leninism HoG_Revolutionary_Leader }
+	}
+	#######################
+	# Generals
+	#######################
+	create_corps_commander = {
+		name = "Noel Beresford-Peirse"
+		gfx = "GFX_RAJ_noel_beresford_peirse"
+		traits = { armor_officer }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Frank Messervy"
+		gfx = "M_Frank_Messervy.tga"
+		traits = { hill_fighter }
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	
+	create_corps_commander = {
+		name = "Dudley Russell"
+		picture = "M_Dudley_Russell.tga"
+		traits = { 
+			war_hero
+			trait_mountaineer
+			desert_fox
+			infantry_leader
+			expert_improviser
+			career_officer
+		}
+		skill = 3
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	
+	create_corps_commander = {
+		name = "Geoffry Scoones"
+		picture = "M_Geoffry_Scoones.tga"
+		traits = { 
+			infantry_leader
+			jungle_rat
+			war_hero
+			ranger
+			career_officer
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 4
+		planning_skill = 2
+		logistics_skill = 3
+	}
+	
+	create_corps_commander = {
+		name = "Ouvry Lindfield Roberts"
+		picture = "M_Ouvry_Lindfield_Roberts.tga"
+		traits = { 
+			infantry_leader
+			expert_improviser
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 3
+	}
+	
+	create_corps_commander = {
+		name = "Reginald Savory"
+		picture = "M_Reginald_Savory.tga"
+		traits = { 
+			scavenger
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 5
+	}
+	
+	create_corps_commander = {
+		name = "Robert Harley Wordsworth"
+		picture = "M_Robert_Harley_Wordsworth.tga"
+		traits = { 
+			armor_officer
+			cavalry_leader
+			war_hero
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 4
+	}
+	
+	create_corps_commander = {
+		name = "Thomas Wynford Rees"
+		picture = "M_Thomas_Wynford_Rees.tga"
+		traits = { 
+			hill_fighter
+			jungle_rat
+			desert_fox
+			infantry_leader
+			war_hero
+		}
+		skill = 3
+		attack_skill = 5
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Douglas Gracey"
+		gfx = "GFX_RAJ_douglas_gracey"
+		traits = { desert_fox }
+		skill = 3
+		attack_skill = 1
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	#######################
+	# Admirals
+	#######################
+	create_navy_leader = {
+		name = "Herbert Fitzherbert"
+		gfx = "GFX_RAJ_herbert_fitzherbert"
+		traits = { }
+		skill = 3
+	}
+}
+#########################################################################
+# British Raj - 1936
+#########################################################################
+1936.1.1 = {
+	oob = "RAJ_1936"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		tech_support = 1		
+		tech_engineers = 1
+		tech_recon = 1
+		Artillery_1910 = 1
+		transport = 1
+		Trench_Warfare = 1
+		fleet_in_being = 1
+		CAS_1936 = 1
+	# Armour Tech
+		Heavy_Tank_1916 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1935.11.14"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 0
+		democratic = 75
+		socialist = 15
+		communist = 10
+	}	
+
+}
+#########################################################################
+# British Raj - 1939
+#########################################################################
+1939.9.1 = {
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Victor Lord Linlithgow"
+		desc = ""
+		picture = "P_D_Lord_Linlithgow.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_Governor_General SUBIDEOLOGY_Conservatism HoS_Stern_Imperialist	}
+	}
+}
+#########################################################################
+# British Raj - 1944
+#########################################################################
+1944.6.20 = {
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Archibald Wavell"
+		desc = ""
+		picture = "P_D_Earl_Wavell.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_Governor_General SUBIDEOLOGY_Conservatism HoS_Resigned_Generalissimo	}
+	}
+}
+#########################################################################
+# India - 1950
+#########################################################################
+1950.1.1 = {
+	drop_cosmetic_tag = yes
+	set_cosmetic_tag = RAJ_INDIA
+	set_autonomy = {
+		target = SKK
+		autonomous_state = autonomy_puppet
+	}
+
+}
+
+#########################################################################
+# India - 1980
+#########################################################################
+1980.1.1 = {
+	set_autonomy = {
+		target = SKK
+		autonomous_state = autonomy_free
+	}
+
+}

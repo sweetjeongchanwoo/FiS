@@ -1,0 +1,95 @@
+﻿division_template = {
+	name = "Infantry Brigade"			# Infantry Brigade
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade with Artillery"			# Infantry Brigade with Artillery
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		artillery_battalion = { x = 1 y = 1 }
+		artillery_battalion = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Infantry Brigade with Cavalry"			# Infantry Brigade with Cavalry
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Brigade"			# Cavalry Brigade
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Militia Brigade"			# Militia Brigade
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+	######## LAND OOB ########
+	##### Lasgar Parsi #####
+	division = {
+		name = "1. Dastebandi Sarbaze Piyade"
+		location = 10837 # Tehran
+		division_template = "Infantry Brigade with Artillery"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.65
+
+	}
+	division = {
+		name = "1. Dastebandi Savareh"
+		location = 10837 # Tehran
+		division_template = "Cavalry Brigade"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.45
+
+	}
+
+	######## No Naval OOB ########
+}
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1936
+			creator = "PER"
+		}
+		requested_factories = 1
+		progress = 0.31
+		efficiency = 100
+	}
+}

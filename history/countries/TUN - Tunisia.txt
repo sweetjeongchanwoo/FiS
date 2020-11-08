@@ -1,0 +1,40 @@
+﻿#########################################################################
+# Tunisia
+#########################################################################
+capital = 458
+#######################
+# Research
+#######################
+set_technology = {
+	Small_Arms_1916 = 1
+}
+#######################
+# Politics
+#######################
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascist = 0
+	authoritarian = 60
+	democratic = 10
+	socialist = 25
+	communist = 5
+}
+#######################
+# Leaders
+#######################
+	create_country_leader = {
+		name = "Ahmad II"
+		desc = ""
+		picture = "P_A_Ahmad_II.tga"
+		expire = "1942.6.19"
+		ideology = monarchism
+		traits = { POSITION_President SUBIDEOLOGY_Monarchism HoS_Resigned_Generalissimo father_of_turks }
+	}
+#######################
+# Generals
+#######################

@@ -1,0 +1,1382 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Division d'Infanterie"  # Infantry Division
+	division_names_group = FRA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 } 
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+	artillery = { x = 0 y = 0 }
+	}
+}
+
+
+
+division_template = {
+	name = "Division d'infanterie avec motorisé" 		# Infantry Division with Motorised (Armoured Cars)
+	division_names_group = FRA_MOT_01
+	regiments = {
+		infantry = { x = 0 y = 0 }		
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }		
+		motorized = { x = 1 y = 0 }			#supposed to be armoured cars
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Division d'infanterie avec brigade de chars" 	# Infantry Division with Tank Brigade
+	division_names_group = FRA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        medium_armor = { x = 0 y = 2 }
+        medium_armor = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Division de Cavalerie" 	# Division de Cavalerie
+	division_names_group = FRA_CAV_01
+	# Note: Transformed to DLC, DLM divisions, 1936-40
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 64 ACs/scout cars
+	}
+}
+
+
+
+division_template = {
+	name = "Division d'Infanterie Alpine"	# Mountain Division
+	division_names_group = FRA_MTN_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	# Regular mountain infantry (Infanterie Alpine)
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }	# Chasseurs Alpins (HOI3 elites)
+		mountaineers = { x = 2 y = 1 }	# Chasseurs Alpins (HOI3 elites)
+		mountaineers = { x = 2 y = 2 }	# Chasseurs Alpins (HOI3 elites)
+	}
+}
+
+division_template = {
+	name = "Division de cavalerie"  # Cavalry Division
+	division_names_group = FRA_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+
+division_template = {
+	name = "Division de chars"			# Tank Division
+	division_names_group = FRA_MEC_01
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		medium_armor = { x = 1 y = 2 }
+    }
+}
+
+division_template = {
+	name = "Brigade Coloniale"			# Garrison Division
+
+	regiments = {
+		garrison = { x = 0 y = 0 }
+		garrison = { x = 0 y = 1 }
+		garrison = { x = 0 y = 2 }
+		garrison = { x = 1 y = 0 }
+		garrison = { x = 1 y = 1 }
+		garrison = { x = 1 y = 2 }
+    }
+    is_locked = yes
+	priority = 0
+}
+
+division_template = {
+	name = "Brigade de milice"			# Militia Brigade
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+    }
+    is_locked = yes
+	priority = 0
+}
+##### OOB #####
+units = {
+	##### Région militaire de Paris #####
+	division = { # 10ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 11506 # Paris
+		division_template = "Division d'Infanterie"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+	}
+
+	division = {
+		name = "3ème Division d'Infanterie Coloniale"
+		location = 11506 # Paris
+		division_template = "Division d'Infanterie"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75 
+	}
+
+	division = { # 2ème Division Légère Mécanisée
+		division_name = { 
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11506 # Paris
+		division_template = "Division de chars"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.8
+	}
+
+	division = { # 3ème Division de Cavalerie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11506 # Paris
+		division_template = "Division de chars"
+        start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+		force_equipment_variants = { Tank_equipment_1926 = { owner = "FRA" } }
+	}
+
+	division = { # 41ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 41
+		}
+		location = 11506 # Paris
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+
+	division = { # 71ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 71
+		}
+		location = 11506 # Paris
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### Corps d'Armée Colonial #####
+	division = {
+		name = "5ème Division d'Infanterie Coloniale"
+		location = 9523 # Paris
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+
+	division = {
+        name = "6ème Division d'Infanterie Coloniale"
+        location = 9523 # Paris
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+	
+	division = {
+        name = "7ème Division d'Infanterie Coloniale"
+        location = 9523 # Paris
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+	##### Ier Corps d'Armée #####
+	division = { # 1ère Division d'Infanterie Motorisée
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11483 # Lille
+        division_template = "Division d'infanterie avec motorisé"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+	}
+
+	division = { # 2ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11483 # Lille
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+
+	division = { # 51ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 51
+		}
+		location = 11483 # Lille
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### IIème Corps d'Armée #####
+	division = { # 4ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 454 # Amiens
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+
+	division = { # 3ème Division d'Infanterie Motorisée
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 454 # Amiens
+        division_template = "Division d'infanterie avec motorisé"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+
+	division = { # 52ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 52
+		}
+		location = 454 # Amiens
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### IIIème Corps d'Armée #####
+	division = { # 6ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 9434 # Le Havre
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+
+	division = { # 5ème Division d'Infanterie Motorisée
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9434 # Le Havre
+        division_template = "Division d'infanterie avec motorisé"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+
+	division = { # 53ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 53
+		}
+		location = 9434 # Le Havre
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### IVème Corps d'Armée #####
+	division = { # 19ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 3509 # Le Mans
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+	}
+
+	division = { # 7ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 3509 # Le Mans
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+
+	division = { # 20ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 3509 # Le Mans
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+
+	division = { # 54ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 54
+		}
+		location = 3509 # Le Mans
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### Vème Corps d'Armée #####
+	division = { # 1ère Division de Cavalerie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 512 # Orleans
+        division_template = "Division de cavalerie"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+	}
+
+	division = { # 9ème Division d'Infanterie Motorisée
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 512 # Orleans
+        division_template = "Division d'infanterie avec motorisé"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+
+	division = { # 45ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 45
+		}
+		location = 512 # Orleans
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+
+	division = { # 55ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 55
+		}
+		location = 512 # Orleans
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### VIème Corps d'Armée #####
+	division = { # 42ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9559 # Metz
+        division_template = "Division d'infanterie avec brigade de chars"
+        start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+		force_equipment_variants = { Tank_equipment_1926 = { owner = "FRA" } }
+	}
+
+	division = {
+		name = "2ème Division d'Infanterie Nord-Africaine"
+		location = 9559 # Metz
+        division_template = "Division d'infanterie avec brigade de chars"
+        start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+		force_equipment_variants = { Tank_equipment_1918 = { owner = "FRA" } }
+	}
+
+	division = {
+		name = "55ème Division d'Infanterie"
+		location = 11502 # Metz
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### VIIème Corps d'Armée #####
+	division = { # 13ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 698 # Belfort
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+	}
+
+	division = { # 14ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 698 # Belfort
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+	}
+
+	division = { # 47ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 47
+		}
+		location = 698 # Belfort
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2 
+        start_equipment_factor = 0.1
+	}
+
+	division = { # 57ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 57
+		}
+		location = 698 # Belfort
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### VIIIème Corps d'Armée #####
+	division = { # 16ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 648 # Le Creusot
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+
+	division = { # 15ème Division d'Infanterie Motorisée
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 648 # Le Creusot
+        division_template = "Division d'infanterie avec motorisé"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+
+	division = { # 58ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 58
+		}
+		location = 648 # Le Creusot
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### IXème Corps d'Armée #####
+	division = { # 23ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 3671 # Tours
+        division_template = "Division d'infanterie avec brigade de chars"
+        start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+		force_equipment_variants = { Tank_equipment_1926 = { owner = "FRA" } }
+	}
+
+	division = {
+		name = "3ème Division d'Infanterie Nord-Africaine"
+		location = 3671 # Tours
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+
+	division = { # 18ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 3671 # Tours
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+	##### Xème Corps d'Armée #####
+	division = { # 43ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 43
+		}
+		location = 9503 # Strasbourg
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+	}
+
+	division = { # 60ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 60
+		}
+		location = 9503 # Strasbourg
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### XIème Corps d'Armée #####
+	division = { # 21ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 11465 # Nantes
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+	}
+
+	division = { # 22ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 11465 # Nantes
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+
+	division = { # 61ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 61
+		}
+		location = 11465 # Nantes
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### XIIème Corps d'Armée #####
+	division = { # 1ère Division Légère Mécanisée
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 13011 # Reims
+        division_template = "Division de chars"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+	}
+
+	division = { # 24ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 13011 # Reims
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+
+	division = { # 12ème Division d'Infanterie Motorisée
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 13011 # Reims
+        division_template = "Division d'infanterie avec motorisé"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+
+	division = { # 62ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 62
+		}
+		location = 13011 # Reims
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### XIIIème Corps d'Armée #####
+	division = { # 26ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 9748 # Clermont-Ferrand
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+
+	division = { # 25ème Division d'Infanterie Motorisée
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = 9748 # Clermont-Ferrand
+        division_template = "Division d'infanterie avec motorisé"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+
+	division = { # 63ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 63
+		}
+		location = 9748 # Clermont-Ferrand
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### XIVème Corps d'Armée #####
+	division = { # 27ème Division d'Infanterie Alpine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 6613 # Lyon
+        division_template = "Division d'Infanterie Alpine"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+	}
+
+	division = { # 28ème Division d'Infanterie Alpine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = 6613 # Lyon
+        division_template = "Division d'Infanterie Alpine"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+
+	division = { # 64ème Division d'Infanterie Alpine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 64
+		}
+		location = 6613 # Lyon
+        division_template = "Division d'Infanterie Alpine"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+
+	division = {
+		name = "1ère Division d'Infanterie Nord-Africaine"
+		location = 6613 # Lyon
+        division_template = "Division d'infanterie avec brigade de chars"
+        start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+		force_equipment_variants = { Tank_equipment_1918 = { owner = "FRA" } }
+	}
+	##### XVème Corps d'Armée #####
+	division = { # 29ème Division d'Infanterie Alpine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = 11834 # Marseille
+        division_template = "Division d'Infanterie Alpine"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+	}
+
+	division = { # 30ème Division d'Infanterie Alpine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		}
+		location = 11834 # Marseille
+        division_template = "Division d'Infanterie Alpine"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+
+	division = { # 65ème Division d'Infanterie Alpine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 65
+		}
+		location = 11834 # Marseille
+        division_template = "Division d'Infanterie Alpine"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+
+	division = {
+		name = "2ème Division d'Infanterie Coloniale"
+		location = 11834 # Marseille
+        division_template = "Division d'infanterie avec brigade de chars"
+        start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+		force_equipment_variants = { Tank_equipment_1918 = { owner = "FRA" } }
+	}
+	##### XVIème Corps d'Armée #####
+	division = { # 32ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}
+		location = 9898 # Montpellier
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+
+	division = { # 31ème Division d'Infanterie Alpine
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}
+		location = 9898 # Montpellier
+        division_template = "Division d'Infanterie Alpine"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+	}
+
+	division = { # 66ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 66
+		}
+		location = 9898 # Montpellier
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### XVIIème Corps d'Armée #####
+	division = {
+        name = "4ème Division d'Infanterie Coloniale"
+        location = 6766 # Toulouse
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+	}
+	
+	division = { # 67ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 67
+		}
+		location = 6766 # Toulouse
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### XVIIIème Corps d'Armée #####
+	division = {
+        name = "1ère Division d'Infanterie Coloniale"
+        location = 9737 # Bordeaux
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+	}
+	
+	division = { # 36ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 36
+		}
+		location = 9737 # Bordeaux
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = 9737 # Bordeaux
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+	##### XXème Corps d'Armée #####
+	division = { # 2ème Division de Cavalerie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11516 # Nancy
+        division_template = "Division de chars"
+        start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+		force_equipment_variants = { Tank_equipment_1926 = { owner = "FRA" } }
+	}
+
+	division = { # 11ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 11516 # Nancy
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+	}
+
+	division = {
+        name = "4ème Division d'Infanterie Nord-Africaine"
+        location = 5291 # Nancy
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.1
+	}
+	
+	division = { # 70ème Division d'Infanterie
+		division_name = {
+			is_name_ordered = yes
+			name_order = 70
+		}
+		location = 5291 # Nancy
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### Division d'Alger #####
+	division = {
+		name = "Division d'Alger"
+		location = 1145 # Algiers
+        division_template = "Division d'infanterie avec motorisé"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.5
+	}
+	##### Division d'Oran #####
+	division = {
+		name = "Division d'Oran"
+		location = 7132 # Oran
+        division_template = "Division d'infanterie avec motorisé"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.5
+	}
+	##### Division de Constantine #####
+	division = {
+		name = "Division de Constantine"
+		location = 11953 # Constantine
+        division_template = "Division d'infanterie avec motorisé"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.5
+	}
+	##### Division de Tunis #####
+	division = {
+		name = "Division de Tunis"
+		location = 11969 # Tunis
+        division_template = "Division d'infanterie avec motorisé"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+	}
+	##### Division de Sousse #####
+	division = {
+		name = "Division de Sousse"
+		location = 7162 # Sousse
+        division_template = "Brigade Coloniale"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+	}
+	##### XIXème Région Militaire #####
+	division = { # 81ème Division d'Infanterie d'Afrique
+		division_name = {
+			is_name_ordered = yes
+			name_order = 81
+		}
+		location = 1145 # Algiers
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+
+	division = { # 82ème Division d'Infanterie d'Afrique
+		division_name = {
+			is_name_ordered = yes
+			name_order = 82
+		}
+		location = 1145 # Algiers
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+
+	division = { # 83ème Division d'Infanterie d'Afrique
+		division_name = {
+			is_name_ordered = yes
+			name_order = 83
+		}
+		location = 1145 # Algiers
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+
+	division = { # 84ème Division d'Infanterie d'Afrique
+		division_name = {
+			is_name_ordered = yes
+			name_order = 84
+		}
+		location = 1145 # Algiers
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+
+	division = { # 85ème Division d'Infanterie d'Afrique
+		division_name = {
+			is_name_ordered = yes
+			name_order = 85
+		}
+		location = 1145 # Algiers
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+
+	division = { # 86ème Division d'Infanterie d'Afrique
+		division_name = {
+			is_name_ordered = yes
+			name_order = 86
+		}
+		location = 1145 # Algiers
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+
+	division = { # 87ème Division d'Infanterie d'Afrique
+		division_name = {
+			is_name_ordered = yes
+			name_order = 87
+		}
+		location = 1145 # Algiers
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+	}
+	##### Commandement des troupes du Maroc #####
+	division = {
+		name = "1ère Division Marocaine"
+		location = 10070 # Rabat
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.05
+	}
+
+	division = {
+		name = "2ème Division Marocaine"
+		location = 10070 # Rabat
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.05
+	}
+
+	division = {
+		name = "3ème Division Marocaine"
+		location = 10070 # Rabat
+        division_template = "Division d'Infanterie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.05
+	}
+	##### Division de Fès #####
+	division = {
+        name = "Division de Fès"
+        location = 11987 # Fez
+        division_template = "Brigade Coloniale"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.3
+	}
+	##### Division de Marrakech #####
+	division = {
+        name = "Division de Marrakech"
+        location = 4139 # Marrakech
+        division_template = "Brigade Coloniale"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.3
+	}
+	##### Division de Meknès #####
+	division = {
+        name = "Division de Meknès"
+        location = 10070 # Rabat
+        division_template = "Brigade Coloniale"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.3
+	}
+	##### Subdivision de Casablanca #####
+	division = {
+        name = "Subdivision de Casablanca"
+        location = 7069 # Casablanca
+        division_template = "Brigade de milice"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.3
+	}
+	
+	division = {
+        name = "Goumiers"
+        location = 7069 # Casablanca
+        division_template = "Brigade de milice"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.3
+	}
+	##### Troupes d'Afrique occidentale #####
+	division = {
+        name = "Point d'appui de la flotte de Dakar"
+        location = 4948 # Dakar
+        division_template = "Brigade Coloniale"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.2
+	}
+	##### 1ère Brigade de Tirailleurs Sénégalais #####
+	division = {
+        name = "1ère Brigade de Tirailleurs Sénégalais"
+        location = 12710 # Saint Louis
+        division_template = "Brigade de milice"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.2
+	}
+	##### 2ème Brigade de Tirailleurs Sénégalais #####
+	division = {
+        name = "2ème Brigade de Tirailleurs Sénégalais"
+        location = 4927 # Bamako
+        division_template = "Brigade de milice"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.2
+    }
+	##### 3ème Brigade de Tirailleurs Sénégalais #####
+	division = {
+        name = "3ème Brigade de Tirailleurs Sénégalais"
+        location = 10803 # Abidjan
+        division_template = "Brigade de milice"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.2
+	}
+	##### Troupes d'Afrique équatoriale #####
+	division = {
+        name = "Tirailleurs du Tchad"
+        location = 3123 # Fort Lamy
+        division_template = "Brigade de milice"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+	}
+	##### Troupes d'Afrique orientale #####
+	division = {
+        name = "Tirailleurs Malgaches"
+        location = 5128 # Tananarive
+        division_template = "Brigade de milice"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.2
+    }
+
+### French Navy ###
+	fleet = {
+		name = "1ère Flotte"
+		naval_base = 3552 # Brest
+		task_force = {
+			name = "1ère Flotte"
+			location = 3552 # Brest
+			ship = { name = "Béarn" definition = carrier equipment = { CV_equipment_1922 = { amount = 1 owner = FRA } } air_wings = {} }	
+			ship = { name = "1ère Flottille de Contre-Torpilleurs" definition = destroyer equipment = { DD_equipment_1933 = { amount = 1 owner = FRA } } }
+			ship = { name = "Lorraine" definition = battleship equipment = { BB_equipment_1906 = { amount = 1 owner = FRA } } }
+			ship = { name = "Provence" definition = battleship equipment = { BB_equipment_1906 = { amount = 1 owner = FRA } } }
+			ship = { name = "Colbert" definition = heavy_cruiser equipment = { CA_equipment_1922 = { amount = 1 owner = FRA } } }  
+			ship = { name = "Dupleix" definition = heavy_cruiser equipment = { CA_equipment_1922 = { amount = 1 owner = FRA } } }  
+			ship = { name = "Emile Bertin" definition = light_cruiser equipment = { CL_equipment_1933 = { amount = 1 owner = FRA } } }  
+			ship = { name = "Algérie" definition = heavy_cruiser equipment = { CA_equipment_1933 = { amount = 1 owner = FRA } } }  
+			ship = { name = "Primauguet" definition = light_cruiser equipment = { CL_equipment_1922 = { amount = 1 owner = FRA } } }  
+			ship = { name = "Duguay-Trouin" definition = light_cruiser equipment = { CL_equipment_1922 = { amount = 1 owner = FRA } } }  
+			ship = { name = "Lamotte-Picquet" definition = light_cruiser equipment = { CL_equipment_1922 = { amount = 1 owner = FRA } } }  
+			ship = { name = "La Galissonnière" definition = light_cruiser equipment = { CL_equipment_1933 = { amount = 1 owner = FRA } } }  
+		}
+		task_force = {
+			name = "2e Flotte de la France"
+			location = 3552 # Brest
+			ship = { name = "15ème Flottille de Contre-torpilleurs" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = FRA } } }
+			ship = { name = "16ème Flottille de Contre-torpilleurs" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = FRA } } }
+		}
+	}
+
+	fleet = {
+		name = "2ème Flotte"
+		naval_base = 911 # Toulon
+		task_force = {
+			name = "2ème Flotte"
+			location = 911 # Toulon
+			ship = { name = "Courbet" definition = battleship equipment = { BB_equipment_1900 = { amount = 1 owner = FRA } } }
+			ship = { name = "Paris" definition = battleship equipment = { BB_equipment_1900 = { amount = 1 owner = FRA } } }		
+			ship = { name = "Suffren" definition = heavy_cruiser equipment = { CA_equipment_1922 = { amount = 1 owner = FRA } } }  
+			ship = { name = "Duquesne" definition = heavy_cruiser equipment = { CA_equipment_1922 = { amount = 1 owner = FRA } } } 
+			ship = { name = "Pluton" definition = light_cruiser equipment = { CL_equipment_1922 = { amount = 1 owner = FRA } } }  
+			ship = { name = "Jeanne d'Arc" definition = light_cruiser equipment = { CL_equipment_1922 = { amount = 1 owner = FRA } } }  
+			ship = { name = "2ème Flottille de Contre-Torpilleurs" definition = destroyer equipment = { DD_equipment_1933 = { amount = 1 owner = FRA } } }	
+			ship = { name = "3ème Flottille de Contre-Torpilleurs" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = FRA } } }	
+		}
+		task_force = {
+			name = "1ère Flotte de Sous-marins"
+			location = 911 # Toulon
+			ship = { name = "Surcouf" definition = heavy_submarine equipment = { HSS_equipment_1933 = { amount = 1 owner = FRA } } } #Heavy sub
+			ship = { name = "1ère Flottille de Sous-Marins" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = FRA } } }
+			ship = { name = "2ème Flottille de Sous-Marins" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = FRA } } }
+			ship = { name = "3ème Flottille de Sous-Marins" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = FRA } } }
+			ship = { name = "4ème Flottille de Sous-Marins" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = FRA } } }
+		}
+		task_force = {
+			name = "2ème Flotte de Sous-marins"
+			location = 911 # Toulon
+			ship = { name = "5ème Flottille de Sous-Marins" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = FRA } } }
+			ship = { name = "6ème Flottille de Sous-Marins" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = FRA } } }
+			ship = { name = "7ème Flottille de Sous-Marins" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = FRA } } }
+			ship = { name = "8ème Flottille de Sous-Marins" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = FRA } } }
+		}
+		task_force = {
+			name = "Transport Expéditionnaire"
+			location = 911 # Toulon
+			ship = { name = "8ème Flottille de Contre-torpilleurs" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = FRA } } }
+			ship = { name = "9ème Flottille de Contre-torpilleurs" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = FRA } } }
+			ship = { name = "10ème Flottille de Contre-torpilleurs" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = FRA } } }
+		}
+		task_force = {
+			name = "Transport Général"
+			location = 911 # Toulon
+			ship = { name = "11ème Flottille de Contre-torpilleurs" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = FRA } } }
+			ship = { name = "12ème Flottille de Contre-torpilleurs" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = FRA } } }
+		}
+		task_force = {
+			name = "1ère Flotte de la France"
+			location = 911 # Toulon
+			ship = { name = "13ème Flottille de Contre-torpilleurs" definition = destroyer equipment = { DD_equipment_1912 = { amount = 1 owner = FRA } } }
+			ship = { name = "14ème Flottille de Contre-torpilleurs" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = FRA } } }
+		}	
+	}
+			
+	fleet = {
+		name = "3ème Flotte"
+		naval_base = 7132 # Oran
+		task_force = {
+			name = "3ème Flotte"
+			location = 7132 # Oran
+			ship = { name = "Bretagne" definition = battleship equipment = { BB_equipment_1906 = { amount = 1 owner = FRA } } }       
+			ship = { name = "Foch" definition = heavy_cruiser equipment = { CA_equipment_1922 = { amount = 1 owner = FRA } } }		
+			ship = { name = "Commandant Teste" definition = escort_carrier equipment = { CV_equipment_1912 = {amount = 1 owner = FRA} } air_wings = {} }			
+			ship = { name = "Tourville" definition = heavy_cruiser equipment = { CA_equipment_1922 = { amount = 1 owner = FRA } } }		
+			ship = { name = "4ème Flottille de Contre-Torpilleurs" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = FRA } } }
+			ship = { name = "5ème Flottille de Contre-Torpilleurs" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = FRA } } }
+			ship = { name = "6ème Flottille de Contre-Torpilleurs" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = FRA } } }
+			ship = { name = "7ème Flottille de Contre-Torpilleurs" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = FRA } } }
+		}
+	}
+
+	fleet = {
+		name = "3ème Flotte de Sous-marins"
+		naval_base = 1145 # Alger
+		task_force = {
+			name = "3ème Flotte de Sous-marins"
+			location = 1145 # Alger
+			ship = { name = "9ème Flottille de Sous-Marins" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = FRA } } }
+			ship = { name = "10ème Flottille de Sous-Marins" definition = submarine equipment = { SS_equipment_1916 = { amount = 1 owner = FRA } } }
+			ship = { name = "11ème Flottille de Sous-Marins" definition = submarine equipment = { SS_equipment_1916 = { amount = 1 owner = FRA } } }
+		}
+	}
+}
+
+### Air Wings
+air_wings = {
+	# 1ère Groupe de Bombardement
+	16 = {
+		Tactical_Bomber_equipment_1933 = { # Amiot 143
+			owner = "FRA"
+			amount = 85
+		}
+
+		Tactical_Bomber_equipment_1933 = { # Amiot 143
+			owner = "FRA"
+			amount = 85
+		}
+
+		Tactical_Bomber_equipment_1933 = { # Amiot 143
+			owner = "FRA"
+			amount = 65
+		}
+		# 1er Groupe de Chasse
+		Fighter_equipment_1936 = { # Dewoitine D.500
+			owner = "FRA"
+			amount = 100
+		}
+
+		Fighter_equipment_1936 = { # Dewoitine D.500
+			owner = "FRA"
+			amount = 65
+		}
+	}
+	# 4ème Groupe de Bombardement
+	842 = {
+		Tactical_Bomber_equipment_1933 = { # Amiot 143
+			owner = "FRA"
+			amount = 85
+		}
+	}
+	# 5ème Groupe de Bombardement
+	21 = {
+		Tactical_Bomber_equipment_1933 = { # Amiot 143
+			owner = "FRA"
+			amount = 85
+		}
+
+		Fighter_equipment_1936 = { # Dewoitine D.500
+			owner = "FRA"
+			amount = 85
+		}
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+    add_equipment_production = {
+        equipment = {
+            type = Small_Arms_equipment_1936
+            creator = "FRA"
+        }
+        requested_factories = 2
+        progress = 0.18
+        efficiency = 50
+    }
+
+    add_equipment_production = {
+        equipment = {
+            type = artillery_equipment_1
+            creator = "FRA"
+        }
+        requested_factories = 2
+        progress = 0.36
+        efficiency = 50
+    }
+
+    add_equipment_production = {
+        equipment = {
+            type = Light_Tank_equipment_1934
+            creator = "FRA"
+        }
+        requested_factories = 1
+        progress = 0.34
+        efficiency = 50
+    }
+
+    add_equipment_production = {
+        equipment = {
+            type = truck_equipment_1936
+            creator = "FRA"
+        }
+        requested_factories = 1
+        progress = 0.34
+        efficiency = 50
+    }
+    #### Ship Production   ########
+	
+	add_equipment_production = {
+		equipment = {
+			type = SS_equipment_1933
+			creator = "FRA" 
+		}
+		requested_factories = 3
+		progress = 0.80
+		amount = 2
+	}
+	
+	
+	add_equipment_production = {
+		equipment = {
+			type = SS_equipment_1936
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.70
+		amount = 1
+	}
+	
+	
+	add_equipment_production = {
+		equipment = {
+			type = DD_equipment_1933
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.70
+		amount = 1
+	}
+	
+	
+	add_equipment_production = {
+		equipment = {
+			type = BC_equipment_1933
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.20
+		amount = 1
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = CL_equipment_1933
+			creator = "FRA" 
+		}
+		requested_factories = 2
+		progress = 0.10
+		amount = 5
+	}
+}

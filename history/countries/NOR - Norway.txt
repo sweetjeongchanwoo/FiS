@@ -1,0 +1,383 @@
+﻿#########################################################################
+# Norway - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 110
+	set_stability = 0.9
+	set_war_support = 0.1
+	oob = "NOR_1933"
+	set_research_slots = 3
+	set_convoys = 80
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		tech_support = 1
+		tech_engineers = 1
+		Fighter_1933 = 1
+		Tactical_Bomber_1933 = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		#Naval Stuff
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+		CA_1885 = 1
+		CA_1895 = 1
+		CA_1906 = 1
+		SS_1895 = 1
+		SS_1912 = 1
+		SS_1916 = 1
+		BB_1885 = 1
+		BB_1895 = 1
+		BB_1900 = 1
+		BB_1906 = 1
+		BB_1912 = 1
+		BB_1916 = 1
+		BB_1922 = 1
+		#
+		tech_recon = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1933.10.16"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 3
+		democratic = 93
+		socialist = 4
+		communist = 0
+	}
+	add_ideas = {
+		one_year_service
+		# Cabinet
+		NOR_HoS_Haakon_VII
+		NOR_FM_Halvdan_Koht
+		NOR_AM_Adolf_Indrebo
+		NOR_HoI_Alfred_RoscherLund
+		# Military Staff
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Vidkun Quisling"
+		desc = ""
+		picture = "P_F_Vidkun_Quisling.tga"
+		expire = "1965.1.1"
+		ideology = national_socialism
+		traits = {
+			POSITION_NOR_Forer
+			SUBIDEOLOGY_National_Socialism
+			HoG_Corporate_Suit
+		}
+	}
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Haakon VII"
+		desc = ""
+		picture = "P_A_Haakon_VII.tga"
+		expire = "1965.1.1"
+		ideology = monarchism
+		traits = {
+			POSITION_King
+			SUBIDEOLOGY_Monarchism
+			HoS_Weary_Stiff_Neck
+		}
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Jens Hundseid"
+		desc = ""
+		picture = "P_D_Jens_Hundseid.tga"
+		expire = "1965.1.1"
+		ideology = social_democracy
+		traits = {
+			POSITION_Prime_Minister
+			SUBIDEOLOGY_Social_Democracy
+			HoG_Backroom_Backstabber
+		}
+	}
+	# Socialism
+	create_country_leader = {
+		name = "Olav Scheflo"
+		desc = ""
+		picture = "P_S_Olav_Scheflo.tga"
+		expire = "1965.1.1"
+		ideology = socialism		# Right Oppositon Proponent
+		traits = {
+			POSITION_Chairman
+			SUBIDEOLOGY_Socialism
+			HoG_Revolutionary_Leader
+		}
+	}
+	# Communism
+	create_country_leader = {
+		name = "Emil Løvlien"
+		desc = ""
+		picture = "P_C_Emil_Lovlien.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = {
+			POSITION_Chairman
+			SUBIDEOLOGY_Marxism_Leninism
+			HoG_Smiling_Oilman
+		}
+	}
+	#######################
+	# Generals
+	#######################
+	create_corps_commander = {
+		name = "Carl Gustav Fleischer"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+		traits = {
+			trickster
+			winter_specialist
+		}
+		skill = 4
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 2
+		logistics_skill = 4
+	}
+	#######################
+	# Admirals
+	#######################
+	create_navy_leader = {
+		name = "Elias Corneliussen"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+		traits = {
+			navy_career_officer
+			inshore_fighter
+			spotter
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 4
+		maneuvering_skill = 3
+		coordination_skill = 1
+	}
+}
+
+#########################################################################
+# Norway - 1936
+#########################################################################
+1936.1.1 = {
+	oob = "NOR_1936"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		tech_support = 1
+		tech_engineers = 1
+		Anti_Aircraft_Gun_1935 = 1
+		Fighter_1933 = 1
+		Tactical_Bomber_1933 = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		#Naval Stuff
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+		CA_1885 = 1
+		CA_1895 = 1
+		CA_1906 = 1
+		SS_1895 = 1
+		SS_1912 = 1
+		SS_1916 = 1
+		BB_1885 = 1
+		BB_1895 = 1
+		BB_1900 = 1
+		BB_1906 = 1
+		BB_1912 = 1
+		BB_1916 = 1
+		BB_1922 = 1
+		#
+		tech_recon = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1933.10.16"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 3
+		democratic = 93
+		socialist = 4
+		communist = 0
+	}
+	add_ideas = {
+		one_year_service
+	}
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Johan Nygaardsvold"
+		desc = ""
+		picture = "P_D_Johan_Nygaardsvold.tga"
+		expire = "1965.1.1"
+		ideology = social_democracy
+		traits = {
+			POSITION_Prime_Minister
+			SUBIDEOLOGY_Social_Democracy
+			HoG_Ambitious_Union_Boss
+		}
+	}
+}
+########################################################################
+# Norway - 1939
+########################################################################
+1939.9.1 = {
+oob = "NOR_1939"
+}
+
+#########################################################################
+# Last Norwegian Resistance - 1940
+#########################################################################
+
+1940.5.10 = {
+oob = "NOR_1940"
+}
+
+#########################################################################
+# Reichskommisariat Norway - 1941
+#########################################################################
+1941.6.22 = {
+	oob = "NOR_1944"
+	if = {
+		limit = {
+			has_start_date > 1941.6.22
+			has_start_date < 1946.1.1
+		}
+		create_dynamic_country = {
+			original_tag = NOR
+			set_politics = {
+				ruling_party = fascist
+				last_election = "1933.10.16"
+				election_frequency = 36
+				elections_allowed = no
+			}
+			set_popularities = {
+				fascist = 94
+				authoritarian = 0
+				democratic = 6
+				socialist = 0
+				communist = 0
+			}
+			transfer_state = 110
+			transfer_state = 142
+			transfer_state = 143
+			transfer_state = 144
+			transfer_state = 1124
+			transfer_state = 1125
+			transfer_state = 1126
+			transfer_state = 1127
+			GER = {
+				set_autonomy = {
+					target = PREV
+					autonomy_state = autonomy_reichskommissariat
+				}
+			}
+			set_cosmetic_tag = NOR_reichskommissariat
+			create_country_leader = {
+				name = "Josef Terboven"
+				desc = "POLITICS_JOSEF_TERBOVEN_DESC"
+				picture = "P_GER_F_Josef_Terboven.tga"
+				expire = "1965.1.1"
+				ideology = national_socialism
+				traits = {
+					POSITION_GER_Reichskommissar
+					SUBIDEOLOGY_National_Socialism
+					HoS_PowerHungry_Demagogue
+				}
+			}
+		}
+	}
+}
+
+#########################################################################
+# Kingdon of Norway - 1946
+#########################################################################
+1946.1.1 = {
+	#oob = "NOR_1944"
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1933.10.16"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 0
+		democratic = 94
+		socialist = 6
+		communist = 0
+	}
+	GER = {
+		set_autonomy = {
+			target = NOR
+			autonomy_state = autonomy_free
+		}
+	}
+	drop_cosmetic_tag = yes
+	NOR = {
+		white_peace = FRA
+		white_peace = BEL
+		white_peace = LUX
+		white_peace = HOL
+		white_peace = SOV
+		white_peace = USA
+		white_peace = ENG
+		white_peace = POL
+		white_peace = DEN
+		white_peace = ITA
+		white_peace = PHI
+	}
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Einar Gerhardsen"
+		desc = ""
+		picture = "P_D_Einar_Gerhardsen.tga"		#WIP
+		expire = "1965.1.1"
+		ideology = social_democracy
+		traits = {
+			POSITION_Prime_Minister
+			SUBIDEOLOGY_Social_Democracy
+			HoG_Political_Protege
+		}
+	}
+}

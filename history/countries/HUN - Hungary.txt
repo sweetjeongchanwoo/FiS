@@ -1,0 +1,308 @@
+﻿###########################################
+# Hungary - 1933
+###########################################
+1933.1.1 = {
+	capital = 43
+	set_research_slots = 3	
+	oob = "HUN_1933"
+	set_technology = {
+		truck_1936 = 0
+		Small_Arms_1935 = 0
+	}
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		tech_support = 1		
+		tech_recon = 1
+		Artillery_1910 = 1
+		# Air Tech	
+		Fighter_1933 = 1
+		CAS_1936 = 1
+		Tactical_Bomber_1933 = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		Light_Tank_1926 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1935.3.31"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 5
+		authoritarian = 52
+		democratic = 26
+		socialist = 6
+		communist = 11
+	}
+	add_ideas = {		
+		HUN_treaty_of_triannon
+		# Laws & Policies
+		volunteer_only
+		# Cabinet
+		HUN_HoG_Gyula_Gombos_de_Jakfa
+		HUN_FM_Kalman_Kanya
+		HUN_AM_Tihamer_Fabinyi
+		HUN_MoS_Miklos_Kozma
+		HUN_HoI_Gyula_Gombos_de_Jakfa
+		# Military Staff
+		HUN_CoStaff_Gustav_Henneyey
+		HUN_CoArmy_Istvan_Shvoy
+		HUN_CoNavy_Miklos_Horthy_de_Nagybanya
+		HUN_CoAir_Laszlo_Tomor	
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Ferenc Szálasi"
+		desc = ""
+		picture = "P_F_Ferenc_Szalasi.tga"
+		expire = "1965.1.1"
+		ideology = national_socialism
+		traits = { SUBIDEOLOGY_National_Socialism HoS_PowerHungry_Demagogue }
+	}
+	# Authoritarianism
+	create_country_leader = {
+		name = "Miklós Horthy de Nagybánya"
+		desc = ""
+		picture = "P_A_Miklos_Horthy.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = { POSITION_Regent SUBIDEOLOGY_Paternal_Autocracy HoS_Resigned_Generalissimo fascist_sympathies }
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Zoltán Tildy"
+		desc = ""
+		picture = "P_D_Zoltan_Tildy.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism HoG_Silent_Workhorse }
+	}
+	# Socialism
+	# Communism
+	create_country_leader = {
+		name = "Mátyás Rákosi"
+		desc = ""
+		picture = "P_C_Matyas_Rakosi.tga"
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = { POSITION_General_Secretary SUBIDEOLOGY_Stalinism HoS_PowerHungry_Demagogue }
+	}
+	#######################
+	# Generals
+	#######################
+	create_corps_commander = {
+		name = "Géza Lakatos"
+		picture = "M_Geza_Lakatos.tga"
+		traits = {  }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 2
+	}
+	
+	create_corps_commander = {
+		name = "Iván Hindy"
+		picture = "M_Ivan_Hindy.tga"
+		traits = {  trickster }
+		skill = 4
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 2
+		logistics_skill = 4
+	}
+	
+	create_corps_commander = {
+		name = "Dezso Laszlo"
+		picture = "M_Dezso_Laszlo.tga"
+		traits = { 
+			old_guard
+			trait_engineer
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	
+	create_corps_commander = {
+		name = "Vilmos Nagy de Nagybaczon"
+		picture = "M_Vilmos_Nagy_de_Nagybaczon.tga"
+		traits = { 
+			old_guard
+			skilled_staffer
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	
+	create_corps_commander = {
+		name = "Gusztav Jany"
+		picture = "M_Gusztav_Jany.tga"
+		traits = { 
+			old_guard
+			skilled_staffer
+			urban_assault_specialist
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 2
+	}
+	
+	create_corps_commander = {
+		name = "Szilard Bakay"
+		picture = "M_Szilard_Bakay.tga"
+		traits = { 
+			brilliant_strategist
+			organizer
+		}
+		skill = 3
+		attack_skill = 4
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	
+	create_corps_commander = {
+		name = "Károly Beregfy"
+		picture = "M_Karoly_Beregfy.tga"
+		traits = { }
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	
+	create_corps_commander = {
+		name = "Lajos Veress"
+		picture = "M_Lajos_Veress.tga"
+		traits = { armor_officer }
+		skill = 2
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	
+	create_field_marshal = {
+		name = "Ferenc Feketehalmy-Czeydner"
+		picture = "M_Ferenc_Feketehalmy_Czeydner.tga"
+		traits = { }
+		skill = 2
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 2
+	}	
+}
+###########################################
+# Hungary - 1936
+###########################################
+1936.1.1 = {
+	oob = "HUN_1936"
+}
+###########################################
+# Hungary - 1941
+###########################################
+1941.6.22 = {
+	oob = "HUN_1941"
+	# Hungary
+	GER = {
+		set_autonomy = {
+			target = HUN
+			autonomy_state = autonomy_satellite
+		}
+	}
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1935.3.31"
+		election_frequency = 48
+		elections_allowed = no
+	}	
+}
+############################################
+# Hungary - 1944
+############################################
+1944.6.20 = {
+	oob = "HUN_1944"
+	
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1935.3.31"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 5
+		authoritarian = 52
+		democratic = 26
+		socialist = 6
+		communist = 11
+	}
+}
+############################################
+# Hungary - 1945
+############################################
+1945.1.1 = {
+	
+	set_politics = {
+		ruling_party = fascist
+		last_election = "1935.3.31"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 100
+		authoritarian = 0
+		democratic = 0
+		socialist = 0
+		communist = 0
+	}
+}
+############################################
+# Hungary - 1946
+############################################
+1946.1.1 = {
+	#oob = "HUN_1944"
+	
+	set_cosmetic_tag = HUN_SOV_1946
+	set_politics = {		
+		ruling_party = communist
+		last_election = "1935.9.15"
+		election_frequency = 36
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 0
+		democratic = 0
+		socialist = 0
+		communist = 100
+	}
+}
+############################################
+# Hungary - 1950
+############################################
+1950.1.1 = {
+	drop_cosmetic_tag = yes
+	set_cosmetic_tag = HUN_SOV
+}

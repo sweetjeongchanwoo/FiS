@@ -1,0 +1,1893 @@
+﻿l_english:
+#########################################################################
+#  United States Events
+#########################################################################
+###Landon
+DH_USA_Landon.1.t:0 "Protests from the Teachers' Union"
+DH_USA_Landon.1.d:0 ""
+DH_USA_Landon.1.A:0 ""
+DH_USA_Landon.2.t:0 "Tax Break Payoff"
+DH_USA_Landon.2.d:0 ""
+DH_USA_Landon.2.A:0 ""
+DH_USA_Landon.3.t:0 "Rebalancing New Deal Budget"
+DH_USA_Landon.3.d:0 ""
+DH_USA_Landon.3.A:0 ""
+DH_USA_Landon.3.B:0 ""
+DH_USA_Landon.4.t:0 "Business Support Act"
+DH_USA_Landon.4.d:0 ""
+DH_USA_Landon.4.A:0 ""
+DH_USA_Landon.5.t:0 "Congress Debates New Tax Law"
+DH_USA_Landon.5.d:0 ""
+DH_USA_Landon.5.A:0 ""
+DH_USA_Landon.5.B:0 ""
+DH_USA_Landon.6.t:0 "Landon Pushes for Fiscal Conservatism"
+DH_USA_Landon.6.d:0 ""
+DH_USA_Landon.6.A:0 ""
+DH_USA_Landon.7.t:0 "Dire Straits of the Civic Federation"
+DH_USA_Landon.7.d:0 ""
+DH_USA_Landon.7.A:0 ""
+DH_USA_Landon.8.t:0 "Congress Debates Child Labor"
+DH_USA_Landon.8.d:0 ""
+DH_USA_Landon.8.A:0 ""
+DH_USA_Landon.9.t:0 "Lane and Landon Meet"
+DH_USA_Landon.9.d:0 ""
+DH_USA_Landon.9.A:0 ""
+DH_USA_Landon.10.t:0 "Meeting with Garner and Rayburn"
+DH_USA_Landon.10.d:0 ""
+DH_USA_Landon.10.A:0 ""
+
+ ### Revisiting Smoot-Hawley
+ DH_USA_Smoot_Hawley.1.t:0 "Revisiting Smoot-Hawley"
+ DH_USA_Smoot_Hawley.1.d:0 ""
+ DH_USA_Smoot_Hawley.1.A:0 "We must protect American Companies."
+
+ DH_USA_Smoot_Hawley.2.t:0 "Henry Ford Speaks out Against the Bill!"
+ DH_USA_Smoot_Hawley.2.d:0 ""
+ DH_USA_Smoot_Hawley.2.A:0 "What does he know?"
+
+ DH_USA_Smoot_Hawley.3.t:0 "House Liberals Oppose the Bill!"
+ DH_USA_Smoot_Hawley.3.d:0 ""
+ DH_USA_Smoot_Hawley.3.A:0 "We must push this through, with or without their support."
+
+ DH_USA_Smoot_Hawley.4.t:0 "The Bill Moves to the Senate"
+ DH_USA_Smoot_Hawley.4.d:0 ""
+ DH_USA_Smoot_Hawley.4.A:0 "Let's hope all goes well..."
+
+ DH_USA_Smoot_Hawley.4.t:0 "The Bill Moves to the Senate"
+ DH_USA_Smoot_Hawley.4.d:0 ""
+ DH_USA_Smoot_Hawley.4.A:0 "Let's hope all goes well..."
+
+ DH_USA_Smoot_Hawley.5.t:0 "The Bill has Passed!"
+ DH_USA_Smoot_Hawley.5.d:0 ""
+ DH_USA_Smoot_Hawley.5.A:0 "Huzzah!"
+
+ DH_USA_Smoot_Hawley.6.t:0 "The United States has Imposed Tariffs on Us!"
+ DH_USA_Smoot_Hawley.6.d:0 ""
+ DH_USA_Smoot_Hawley.6.A:0 "We have more important issues to deal with."
+ DH_USA_Smoot_Hawley.6.B:0 "We must protect our companies, too."
+
+ DH_USA_Smoot_Hawley.6.t:0 "[Root.GetName] Retaliates!"
+ DH_USA_Smoot_Hawley.6.d:0 ""
+ DH_USA_Smoot_Hawley.6.A:0 "This seems familiar somehow..."
+
+ ### US Special Events
+ DH_US_special.1.t:0 "Stab in The Back"
+ DH_US_special.1.d:0 "The leadership of Italy assured America that they were desirous of peace, but the Government of Italy has now chosen to preserve what it terms its 'Freedom of Action' and the hand that held the dagger has struck it into the back of its neighbour. Some indeed still hold to the now obvious delusion that we of the United States can safely permit the United States to remain a lone island in a world dominated by force. We might once more have to intervene in a European war."
+ DH_US_special.1.a:0 "Here we go again..."
+
+ ### USA Event
+ DH_USA.1.t:0 "The Golden Gate Bridge opened for public traffic"
+ DH_USA.1.d:0 "[FROM.GetNewsIcon]Expectation filled the streets of San Francisco yesterday as the mayor of the town, Angelo Rossi, together with other officials, crossed the bridge from Marin County towards San Francisco, crossing each barricade that held the bridge closed to open public. On the last blockade, Joseph Strauss, chief engineer in charge of the design and overall construction of the project, officially presented the bridge to the Highway District.\n\nToday, President Roosevelt, pushed a symbolic button in the White House, signaling the official start of vehicle traffic over the Bridge, as the townsfolk of San Francisco and Marin County continue to celebrate."
+ DH_USA.1.A:0 "Quite an achievement!"
+
+ DH_USA.2.t:0 "Panic on alien invasion?!"
+ DH_USA.2.d:0 "[FROM.GetNewsIcon]Just a few days ago, on Halloween, a seemingly normal event caused a huge uproar (according to some claims) that gets into our hands now. On that day, the Columbia Broadcasting System presented the Mercury Theatre on the Air, as usual. What was a normal drama adaptation of the book "The War of the Worlds", by H.G. Wells; which describes a war with an extraterrestrial species, provoked alleged panic amongst the listeners of the show as they apparently  did not know the fiction behind it all.\n\nWhile the program itself didn't had much audience, it appears that the rest of the media made quite an inflation of the story, demanding regulations by the Federal Communications Commission, which is how the story reached the government."
+ DH_USA.2.A:0 "Ridiculous! At least it won't happen again..."
+
+ DH_USA.3.t:0 "Tornado outbreaks in the Southeast"
+ DH_USA.3.d:0 "[FROM.GetNewsIcon]Just a few days ago an onslaught of tornadoes hit hard in the Deep South, reaching even into some parts of Mississippi. Accounts of the event tell us of about 10 to 12 tornadoes which touched down. Most affected were the towns of Gainesville, Georgia and Tupelo, Mississippi. While the inhabitants have just crawled out of the shelters and some lucky survivors escaped their destroyed homes, the question now lies on how both the local governments and the federal government will respond. While damages are still being quantified, experts estimate the total loss to be between 7 million and 14 million dollars."
+ DH_USA.3.D1:0 "Divert all posible federal resources."
+ DH_USA.3.D2:0 "Send a modest help."
+ DH_USA.3.D3:0 "Send only leftovers."
+ DH_USA.3.D4:0 "WHAT?! Reinforce it immediately."
+ DH_USA.3.F1:0 "Send a special delegate to instruct direct orders."
+ DH_USA.3.F2:0 "Send some written orders to the local autorities."
+ DH_USA.3.F3:0 "Take those who are willing to leave to the front."
+ DH_USA.3.F4:0 "Send in the volunteers to repair it with haste!"
+ DH_USA.3.C1:0 "Send the jobless of other towns to repair."
+ DH_USA.3.C2:0 "Send the lowlife criminals to deal with it and watch over them."
+ DH_USA.3.C3:0 "Go somewhere else with your problems."
+ DH_USA.3.C4:0 "Divert some "volunteers" to it."
+
+ DH_USA.4.t:0 "Memorial Day Massacre"
+ DH_USA.4.d:0 "[FROM.GetNewsIcon]Following the United States Steel Corporation signing a union contract, many other smaller steel companies have refused to join, leading to the Steel Workers Organizing Committee to call a strike in protest. On Memorial Day, tensions rose to a boiling point as hundreds of protestors gathered at the SWOC headquarters and began a march towards the Republic Steel mill, their path blocked by the Chicago Police, leading to a heated confrontation. Feeling threatened the police officers opened fire on the crowd, and in the resulting chaos, at least thirty protestors were hit by police bullets, killing ten, while some hundred others were beaten with clubs, at least thirty-seven suffering serious head injuries."
+ DH_USA.4.A:0 "The people were exercising their rights, violence was not the answer!"
+ DH_USA.4.B:0 "The police had justifiably suppressed the red riot."
+
+ DH_USA.5.t:0 ""Snow White and the Seven Dwarfs" Premieres"
+ DH_USA.5.d:0 "[FROM.GetNewsIcon]Though animation had been used for featurettes and other short films before, for the first time this technology has been used in a feature length, full-color movie. Premiering at the Carthay Circle Theatre in Hollywood and set to show nationwide in the following months, Walt Disney's film, based on the classic fairytale, has been met with critical praise and sets a new precedent for the future of animation in the cinema. It is predicted to be a top earner at the box office following its initial premiere."
+ DH_USA.5.A:0 "Heigh-ho, heigh-ho, it's off to work we go!"
+
+ DH_USA.6.t:0 "Floods and Landslides in LA"
+ DH_USA.6.d:0 "[FROM.GetNewsIcon]In the span of just a few days, two separate Pacific storms nearly washed California away as they deposited over a year's worth of rain in less than a single week. Three major rivers, the Los Angeles, the San Gabriel and the Santa Ana, burst their banks and caused much flooding to the coastal plains and surrounding valleys, inflicting over $78 million in damages, and taking over one hundred lives in the devastation. \n\nIn order to prevent future events like this from occurring, the Army Corps of Engineers and other agencies have proposed a new system of channels, control dams and basins to contain and prevent any future floodwater."
+ DH_USA.6.A:0 "Approve the proposal."
+ DH_USA.6.B:0 "It would be too expensive."
+
+ DH_USA.7.t:0 "Boulder Dam Begins Operation"
+ DH_USA.7.d:0 "[FROM.GetNewsIcon]Just three years after construction had started, the world's largest dam begins to generate power in the Southwest. Though only a single turbine runs at the moment, over the next few years more and more will come online with an eventual power output of over a billion kilowatt hours per year, providing electricity for California and the rest of the Southwest for many decades."
+ DH_USA.7.A:0 "Impressive"
+
+ DH_USA.8.t:0 "Panic on the West Coast"
+ DH_USA.8.d:0 "[FROM.GetNewsIcon]There's panic in the West...\nAfter the brutal attack on Pearl Harbor, everyone believes that the West Coast will be attacked next, especially San Francisco and Los Angeles. They are some of our most important cities, we cannot afford to lose them. Our commanders are quickly creating defensive plans in case of a naval invasion. We must set up AA towers, fortify the beaches and prepare for the worst. The Japanese, these criminals, will be stopped, democracy will prevail and these monsters will be dealt with. We will chase them all the way to their capital, we will avenge the millions of human beings that died so their countries could survive."
+ DH_USA.8.A:0 "For Freedom"
+
+ DH_USA.8.t:0 "National Labor Relations Act"
+ DH_USA.8.d:0 "Following years of liberal legislation, the New Deal has turned its proverbial eyes to the question of trade unions. Legalized in Britain over half a century ago, unions set to equalize the playing field of labor and management, negating the imbalance of bargaining power by adhering to the collective. If a single man cannot stand his ground against the greed of management, he might find solace in his fellow workers striving towards the same goals: fair pay, fair hours, fair benefits.\nOn this day, amidst another push of the New Deal, Franklin D. Roosevelt has signed the National Labor Relations Act into law, enforcing the will of the worker whilst maintaining the market economy America was built upon. Critics may say this is a step towards the ways of communism, but dissidents of the New Deal may be ignored with all good faith. This bill of law marks one step closer to our goal."
+ DH_USA.8.A:0 "Workers everywhere rejoice!"
+
+ DH_USA.9.t:0 "National Labor Relations Act"
+ DH_USA.9.d:0 "[FROM.GetNewsIcon]""
+ DH_USA.9.A:0 ""
+
+ ### FDR Assassination Attempt
+ DH_USA_FDR_Assassination.1.t:0 "Party in Miami"
+ DH_USA_FDR_Assassination.1.d:0 "“Now, don't you worry.” The president-elect told a handful of reporters, a smile crossing his face. “I'll be coming back. You'll all have to put up with me for at least another four years!” The assembled onlookers laughed.\n\nVincent Astor's yacht, the Nourmahal, awaited her passenger in the background, Miami's winter sun reflecting off her white hull. In a few minutes, Roosevelt would board, along with a small group of personal friends and political allies.\n\nTheir opulence disgusted him.\n\nThe anarchist surged toward the front of the crowd, his hidden hand tracing the machined steel contours of the eight-dollar revolver.\n\nAs the crowd began to disperse, Roosevelt turned to Chicago Mayor Tony Cermak, ready to depart.\n\n“Too many people are starving!”, Five deafening gunshots rang out, transforming the small-talking crowd into a screaming mob. Four bullets flew wildly into the horde, striking three fleeing Miamians and a security guard. The last shot, however, as if aware of the gunman's intent, flew straight for the president-elect's car-"
+ DH_USA_FDR_Assassination.1.A:0 "and hit Cermak in the stomach."
+ DH_USA_FDR_Assassination.1.B:0 "and hit Roosevelt in the chest, killing him"
+ DH_USA_FDR_Assassination.1.B_tooltip:0 "§RThis path of events is unfinished as of v0.1 and will not unlock any content."
+
+ DH_USA_FDR_Assassination.2.t:0 "Assassin Fires 5 Shots at Roosevelt"
+ DH_USA_FDR_Assassination.2.d:0 "[FROM.GetNewsIcon]Today America narrowly avoid a political catastrophe as President-elect Franklin D. Roosevelt nearly lost his life in an assassination attempt, an event which likely would have disrupted America's political scene greatly and influenced life in the USA for decades to come. But while Roosevelt got away unharmed, five other people were gravely wounded, with Anton Cermak, Mayor of Chicago, unlikely to survive his injuries. \n\nThe would-be assassin has been identified as Giuseppe Zangara, an Italian immigrant who had hoped to kill Roosevelt, for reasons still unknown, with a revolver he had bought a few days earlier. His plan failed, however when several bystanders grabbed his arm, after the first shot leaving Zangra to wildly discard four shots into the crowd, each injuring a bystander, before being wrestled to ground. \n\nWhile the assassination-attempt is a traumatizing event for many politicians and attendees, many others are glad that Roosevelt was not harmed and will assume his office in a few months."
+ DH_USA_FDR_Assassination.2.A:0 "A tragedy but the catastrophe has been averted"
+
+ DH_USA_FDR_Assassination.3.t:0 "President-elect Roosevelt Assassinated"
+ DH_USA_FDR_Assassination.3.d:0 "[FROM.GetNewsIcon]Tragedy struck today as Franklin D. Roosevelt, the president-elect of the United States of America has been murdered by an assassin during a speech in Miami, Florida being the fourth president in history to have his life cut short by assassination. \n\nThe Assassin has been identified as Giuseppe Zangara, an Italian immigrant who shot Roosevelt in the chest with a revolver he had brought a few days before, while Chicago Mayor Anton Cermak, as well as several bystanders, were seriously wounded by stray bullets. \n\nThe motive of the assassin is currently unclear with Zangara still being in interrogation, while the rest of nation scrambles to find a suitable replacement with Roosevelt's running mate John Nance Garner becoming the new president-elect. Nonetheless, with the future of the presidency unclear, the American political scene has been thrown into chaos. Chaos, which will shape America for decades to come."
+ DH_USA_FDR_Assassination.3.A:0 "Truly shocking!"
+
+ ### US 1933 Elections Events
+ DH_USA_Elections_1932.1.t:0 "Roosevelt Inaugurated President"
+ DH_USA_Elections_1932.1.d:0 "[FROM.GetNewsIcon]\nToday the inauguration of the Democratic candidate for the Presidency, Franklin Delano Roosevelt, was held. With his hand over the 250-year old Dutch Bible, Roosevelt took the presidential oath to Chief Justice Charles Evans Hughes on the Senate chamber of the United States Capitol in Washington D.C., thus becoming the 32nd President of the United States. He then delivered a memorable twenty minute-long inaugural address, where he addressed the many economic problems affecting the American nation. Roosevelt emphasized the necessity of strong and vigorous leadership, asking for the support of the people in these dark times. He also accused the bankers and the financial sector of allowing the economic crisis to happen for their own incompetence and their unscrupulous greed, calling for regulations on the banking and business sectors. Referring to the high unemployment rate, Roosevelt lamented the thousands of families losing their savings and stated the need for quick and decisive action to “put people back to work.” He briefly touched the issue of foreign policy, compromising to continue good relations with other countries, and ended his speech by requesting the Congress grant full executive powers to deal with the economic emergency.\n\nThe speech was very positively received by the American public, with a woman calling the President someone “worthy of every ounce of support a true American has.” Many Americans feel that his rhetoric is pretty convincing and dynamic, making a big contrast with the past residents of the White House. It looks Roosevelt represents the change that America so desperately needs right now. Only time will tell if he'll succeed in his endeavors."
+ DH_USA_Elections_1932.1.A:0 "God bless America"
+
+ DH_USA_Elections_1932.2.t:0 "The Wisconsin Progressive Party"
+ DH_USA_Elections_1932.2.d:0 ""
+ DH_USA_Elections_1932.2.A:0 ""
+
+ DH_USA_Elections_1932.3.t:0 "The 1934 Midterm Elections"
+ DH_USA_Elections_1932.3.d:0 ""
+ DH_USA_Elections_1932.3.A:0 ""
+
+ DH_USA_Elections_1932.4.t:0 "The 1934 Midterm Elections"
+ DH_USA_Elections_1932.4.d:0 ""
+ DH_USA_Elections_1932.4.A:0 ""
+
+ DH_USA_Elections_1932.5.t:0 "The 1934 Midterm Elections"
+ DH_USA_Elections_1932.5.d:0 ""
+ DH_USA_Elections_1932.5.A:0 ""
+
+ ### US 1936 Elections Events
+ DH_USA_Elections_1936.1.t:0 "The 1936 Republican National Convention"
+ DH_USA_Elections_1936.1.d:0 "With Franklin Delano Roosevelt’s victory in the 1932 election and the end of the Republican Party’s sixteen-year hold on the White House, the situation the country finds itself in seems to have improved. Roosevelt has unified the Democratic Party behind him, and the Republican Party must do the same if they are to occupy the Oval Office once more. In this year's GOP National Convention, there were initially three likely candidates, but as one, namely Senator William Borah is fading, the race is now between two men.\n\nThe first of these two men, Governor Alf Landon of Kansas, is a wealthy businessman and centrist. He is not only the most likely to win the nomination but also may have the greatest chance at defeating Roosevelt in the election, as he is not advocating for the abandonment of the New Deal programs that are providing relief to the economy. The second man is someone the people of America know well, the now-former president, Herbert Hoover. His hopes for nomination are thin, but with his significant political connections, it isn’t impossible for him to leech support off smaller candidates and surpass Landon.\n\nWhoever the Republican nominee is will be responsible with ensuring the party’s dominance in the future, but if they fail, Roosevelt and the Democratic Party will surely capitalise on that error and cement their position in American politics for years to come."
+ DH_USA_Elections_1936.1.A:0 "Experience Beats Everything."
+ DH_USA_Elections_1936.1.A_tooltip:0 "Hoover, in a complete shock, has beaten Landon to the nomination!"
+ DH_USA_Elections_1936.1.B:0 "Alf Landon is our Best Shot."
+ DH_USA_Elections_1936.1.B_tooltip:0 "Alf Landon has maintained his lead over Hoover and the other candidates, and has won the nomination!"
+
+ DH_USA_Elections_1936.2.t:0 "The 1936 Democratic National Convention"
+ DH_USA_Elections_1936.2.d:0 "There is no question.\n\nThe past three years under the Roosevelt Administration have proven prosperous, even in the harsh reality Columbia finds herself in. Whatever failures Hoover achieved through his reliance on the Invisible Hand began to get rectified; the mistakes he made were nothing in comparison to the success the New Deal has brought to the poverty stricken landscape. No challenger could even dare battle the President for the nomination.\n\nAnd Franklin Delano Roosevelt vows to go even further. In his acceptance speech, Roosevelt spoke to the everyday worker, those in the crowd the great Depression hurt the most. He spoke to their hearts, guaranteeing them he would fight for them. Not the corporations and banks that lowered the workers’ heads and diminished their pride, but the workers themselves, who will soon be able to stand upright and live in and for a country that cherishes them.\n\nBut the inner thoughts of the nominee held something different. Roosevelt knew he needed to change his approach; he knew the New Deal was not all it was cracked up to be. But Mr. Roosevelt would have the time to think it over. He had no need of campaigning; the Republican candidate could never surpass the love the people felt for him."
+ DH_USA_Elections_1936.2.A:0 "Four More Years!"
+ DH_USA_Elections_1936.2.A_tooltip:0 "It would be close to impossible for him to lose"
+
+ DH_USA_Elections_1936.3.t:0 "Election Night 1936"
+ DH_USA_Elections_1936.3.d:0 ""
+ DH_USA_Elections_1936.3.A:0 "Hoover Never Stood a Chance..."
+
+ DH_USA_Elections_1936.4.t:0 "Election Night 1936"
+ DH_USA_Elections_1936.4.d:0 ""
+ DH_USA_Elections_1936.4.A:0 "Victory for the New Deal!"
+ DH_USA_Elections_1936.4.B:0 "Landon has Prevailed!"
+ USA_Landon_1936:0 "Alf Landon has been elected President."
+ USA_Roosevelt_1936:0 "Roosevelt has been elected President."
+
+ DH_USA_Elections_1936.5.t:0 "FDR's Second Inauguration"
+ DH_USA_Elections_1936.5.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Elections_1936.5.A:0 ""
+
+ DH_USA_Elections_1936.6.t:0 "Inauguration of Alf Landon"
+ DH_USA_Elections_1936.6.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Elections_1936.6.A:0 ""
+
+ DH_USA_Elections_1936.7.t:0 "The Future of the Wisconsin Progressive Party"
+ DH_USA_Elections_1936.7.d:0 ""
+ DH_USA_Elections_1936.7.A:0 "Expand the Party."
+ DH_USA_Elections_1936.7.A_tooltip:0 "There can be no compromise on the Progressive vision.\n§YRename Social Democratic Party to§! §BProgressive Party§!"
+ DH_USA_Elections_1936.7.B:0 "Merge the Party."
+ DH_USA_Elections_1936.7.B_tooltip:0 "We'll merge with our good friends in Minnesota Farmer-Labor!"
+
+ DH_USA_Elections_1936.8.t:0 "Wisconsin Republicans and Democrats Unite!"
+ DH_USA_Elections_1936.8.d:0 ""
+ DH_USA_Elections_1936.8.A:0 "This doesn't bode well for our Ballot Box..."
+
+ DH_USA_Elections_1936.9.t:0 "The Progressive/Farmer-Labor Merger"
+ DH_USA_Elections_1936.9.d:0 ""
+ DH_USA_Elections_1936.9.A:0 "We shall be known as the Progressive-Labor Party!"
+ DH_USA_Elections_1936.9.A_tooltip:0 "§YRename Social Democratic Party to§! §BProgressive-Labor Party§!"
+ DH_USA_Elections_1936.9.B:0 "We're the successor to the Bull Moose, and will be known as such."
+ DH_USA_Elections_1936.9.B_tooltip:0 "§YRename Social Democratic Party to§! §BBull Moose Party§!"
+
+ DH_USA_Elections_1936.99.t:0 "The 1936 Presidential Elections"
+ DH_USA_Elections_1936.99.d:0 ""
+ DH_USA_Elections_1936.99.A:0 "Alf Landon"
+ DH_USA_Elections_1936.99.B:0 "Franklin D. Roosevelt"
+
+ USA_SC_1940_Candidate:0 "§YCandidate§! : Alf M. Landon"
+ USA_SC_1940_Candidate_2:0 "§YCandidate§! : Wendell Willkie"
+ USA_SL_1940_Candidate:0 "§YCandidate§! : Franklin D. Roosevelt"
+
+ USA_SC_1944_Candidate:0 "§YCandidate§! : Wendell Willkie"
+ USA_SC_1944_Candidate_2:0 "§YCandidate§! : Thomas E. Dewey"
+ USA_SL_1944_Candidate:0 "§YCandidate§! : Franklin D. Roosevelt"
+
+ DH_USA_Politics.1.t:0 "President Roosevelt dies at Warm Springs"
+ DH_USA_Politics.1.d:0 "[FROM.GetNewsIcon]."
+ DH_USA_Politics.1.A:0 "VP Harry S. Truman"
+ DH_USA_Politics.1.B:0 "Former VP Henry A. Wallace"
+ DH_USA_Politics.1.C:0 "General Douglas MacArthur"
+
+ ### US 1940 Election Events
+ USA_FDR_Wins_1940_Election:0 "FDR Has Won 1940 Elections"
+ USA_Wilkie_Wins_1940_Election:0 "Wilkie Has Won 1940 Elections"
+ USA_John_Nance_Garner_Wins_1940_Election:0 "John Nance Garner Has Won 1940 Election"
+ USA_Landon_Wins_1940_Election:0 "Landon Has Won 1940 Elections"
+ DH_USA_Elections_1940.1.t:0 "The 1940 Republican National Convention"
+ DH_USA_Elections_1940.1.d:0 ""
+ DH_USA_Elections_1940.1.A:0 "The Dark Horse Wilkie is our choice!"
+
+ DH_USA_Elections_1940.2.t:0 "The 1940 Democratic National Convention"
+ DH_USA_Elections_1940.2.d:0 ""
+ DH_USA_Elections_1940.2.A:0 "FDR is Indispensable."
+
+ DH_USA_Elections_1940.3.t:0 "Election Night 1940"
+ DH_USA_Elections_1940.3.d:0 ""
+ DH_USA_Elections_1940.3.A:0 "Let's all drink to Wilkie!"
+ DH_USA_Elections_1940.3.B:0 "The Country still needs FDR!"
+
+ DH_USA_Elections_1940.4.t:0 "Inauguration of Wendell Wilkie"
+ DH_USA_Elections_1940.4.d:0 ""
+ DH_USA_Elections_1940.4.A:0 ""
+
+ DH_USA_Elections_1940.5.t:0 "FDR's Third Inauguration"
+ DH_USA_Elections_1940.5.d:0 ""
+ DH_USA_Elections_1940.5.A:0 ""
+
+ DH_USA_Elections_1940.6.t:0 "The 1940 Republican National Convention"
+ DH_USA_Elections_1940.6.d:0 ""
+ DH_USA_Elections_1940.6.A:0 "Landon will prevail again!"
+
+ DH_USA_Elections_1940.7.t:0 "The 1940 Democratic National Convention"
+ DH_USA_Elections_1940.7.d:0 ""
+ DH_USA_Elections_1940.7.A:0 "We'll need our Texan Superstar!"
+
+ DH_USA_Elections_1940.8.t:0 "Election Night 1940"
+ DH_USA_Elections_1940.8.d:0 ""
+ DH_USA_Elections_1940.8.A:0 "Here's to Four More years of Compromise!"
+ DH_USA_Elections_1940.8.B:0 "You just can't beat Cactus Jack"
+
+ DH_USA_Elections_1940.9.t:0 "Alf Landon's Second Inauguration"
+ DH_USA_Elections_1940.9.d:0 ""
+ DH_USA_Elections_1940.9.A:0 ""
+
+ DH_USA_Elections_1940.10.t:0 "Inauguration of John Nance Garner"
+ DH_USA_Elections_1940.10.d:0 ""
+ DH_USA_Elections_1940.10.A:0 ""
+
+ ### US 1944 Election Events
+ DH_USA_Elections_1944.1.t:0 "The 1944 Republican National Convention"
+ DH_USA_Elections_1944.1.d:0 ""
+ DH_USA_Elections_1944.1.A:0 "Only Dewey can beat the Democrats!"
+
+ DH_USA_Elections_1944.2.t:0 "The 1944 Democratic Convention"
+ DH_USA_Elections_1944.2.d:0 ""
+ DH_USA_Elections_1944.2.A:0 "We can't afford to swap horses midstream."
+
+ DH_USA_Elections_1944.3.t:0 "Election Night 1944"
+ DH_USA_Elections_1944.3.d:0 ""
+ DH_USA_Elections_1944.3.A:0 "Dewey Beats Roosevelt!"
+ DH_USA_Elections_1944.3.B:0 "Roosevelt will secure lasting peace."
+
+ DH_USA_Elections_1944.4.t:0 "Inauguration of Tomas E. Dewey"
+ DH_USA_Elections_1944.4.d:0 ""
+ DH_USA_Elections_1944.4.A:0 ""
+
+ DH_USA_Elections_1944.5.t:0 "FDR's Fourth Inauguration"
+ DH_USA_Elections_1944.5.d:0 ""
+ DH_USA_Elections_1944.5.A:0 ""
+ USA_FDR_Wins_1944_Election_focus:0 "FDR Wins 1944 Election"
+
+ ###Fireside chat Events
+ DH_USA_Fireside.1.t:0 "The Arsenal of Democracy"
+ DH_USA_Fireside.1.d:0 ""
+ DH_USA_Fireside.1.A:0 ""
+
+ ### New Deal Events
+ DH_USA_FDR_New_Deal.1.t:0 "Banks of Entire Nation Are Closed For Brief Holiday"
+ DH_USA_FDR_New_Deal.1.d:0 "[FROM.GetNewsIcon]President Roosevelt hasn't been wasting time and only a couple of days after taking the oath, he issued Proclamation 2039 that stated the effective suspension of all banking transactions. \n\nThe proclamation states that no withdrawal, deposit, transfer and other banking operation of any kind of currency (including gold and silver) from any banking institution is going to be made in a week. \n\nWhile people remain concerned about their money, there is little panic and everyone is trying to deal with this situation the best they can. The President is taking radical and drastic measures to restore confidence in the banking system and it seems that this is only the beginning for a general overhaul of the American economic system."
+ DH_USA_FDR_New_Deal.1.A:0 "Let's see if it works"
+
+ DH_USA_FDR_New_Deal.2.t:0 "The Roosevelt Administration"
+ DH_USA_FDR_New_Deal.2.d:0 ""
+ DH_USA_FDR_New_Deal.2.A:0 ""
+
+ DH_USA_FDR_New_Deal.3.t:0 "The Emergency Banking Act"
+ DH_USA_FDR_New_Deal.3.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_FDR_New_Deal.3.A:0 ""
+
+ DH_USA_FDR_New_Deal.4.t:0 "The US Abandons the Gold Standard"
+ DH_USA_FDR_New_Deal.4.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_FDR_New_Deal.4.A:0 ""
+
+ DH_USA_FDR_New_Deal.5.t:0 "Conservative Businessmen Outraged!"
+ DH_USA_FDR_New_Deal.5.d:0 "In the midst of the Depression, tensions run high between corporations, the government, and those working under such machinations of entrepreneurship. Large businesses shouldered the brunt of the blame for the Depression’s initial effects, failing to provide for their employees and thus causing millions of young men and women to go unemployed. Indeed, the nation’s economics are in a constant state of turmoil, only compounded by class tensions. Such an instance of this has been seen constantly over the past two years. Certain influential businessmen have expressed outrage over the current political state of affairs, stating that the New Deal unjustly targets large businesses with underhanded means such as anti-trust laws or special progressive taxes. Although angered, it is unlikely they will be able to manage much except disrupting the economic stability further than previously thought possible."
+ DH_USA_FDR_New_Deal.5.A:0 "It would seem as though all are suffering."
+
+ DH_USA_FDR_New_Deal.6.t:0 "Puerto Rican Relief"
+ DH_USA_FDR_New_Deal.6.d:0 "A combination of devastating hurricanes, unsustainable economic practice, and the Great Depression has left the people of Puerto Rico in constant poverty and as the poorest piece of land in America. Acquired just over 30 years ago, Puerto Rico has never been a particularly prosperous territory. However, with its rather large population, we cannot simply ignore the tumultuous situation. Even before the disastrous ’20s, the island territory has faced nearly unlivable conditions, with their primary exports being controlled by oligopolies and tycoons unwilling to pay  wages to the Puerto Ricans working the plantations. This is compounded by the fact that the sugar industry was hit particularly hard by the Great Depression, with fewer and fewer people having disposable income to purchase sugar products. All in all, the situation for Puerto Rico is dire, and we must establish an Alphabet Agency to deal with it. The Puerto Rico Reconstruction Administration will divert government resources into the rebuilding of the island to ensure long-term economic stability and conditions suitable for Americans."
+ DH_USA_FDR_New_Deal.6.A:0 "This is sure to save them!"
+
+ DH_USA_FDR_New_Deal.7.t:0 "Veterans calmed by payments!"
+ DH_USA_FDR_New_Deal.7.d:0 ""
+ DH_USA_FDR_New_Deal.7.A:0 ""
+
+ DH_USA_FDR_New_Deal.8.t:0 "The Good Neighbor"
+ DH_USA_FDR_New_Deal.8.d:0 ""
+ DH_USA_FDR_New_Deal.8.A:0 ""
+
+ DH_USA_FDR_New_Deal.9.t:0 "The Good Neighbor - The Montevideo Convention"
+ DH_USA_FDR_New_Deal.9.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_FDR_New_Deal.9.A:0 ""
+
+ DH_USA_FDR_New_Deal.10.t:0 "The Good Neighbor Policy"
+ DH_USA_FDR_New_Deal.10.d:0 ""
+ DH_USA_FDR_New_Deal.10.A:0 ""
+
+ DH_USA_FDR_New_Deal.11.t:0 "We Have Abandoned the Gold Standard"
+ DH_USA_FDR_New_Deal.11.d:0 ""
+ DH_USA_FDR_New_Deal.11.A:0 ""
+
+ ### FDR 1936 Events
+ DH_USA_FDR_1936.1.t:0 "The Second Social Security Act"
+ DH_USA_FDR_1936.1.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_FDR_1936.1.A:0 ""
+
+ DH_USA_FDR_1936.2.t:0 "Cash and Carry Provisions"
+ DH_USA_FDR_1936.2.d:0 ""
+ DH_USA_FDR_1936.2.A:0 ""
+
+ DH_USA_FDR_1936.3.t:0 "New Labor Standards"
+ DH_USA_FDR_1936.3.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_FDR_1936.3.A:0 ""
+
+ DH_USA_FDR_1936.4.t:0 "Outcome of Private Sector Loans"
+ DH_USA_FDR_1936.4.d:0 ""
+ DH_USA_FDR_1936.4.A:0 ""
+
+ DH_USA_FDR_1936.5.t:0 "The Return of Cash and Carry "
+ DH_USA_FDR_1936.5.d:0 ""
+ DH_USA_FDR_1936.5.A:0 ""
+
+ DH_USA_FDR_1936.6.t:0 "The New Food Stamps"
+ DH_USA_FDR_1936.6.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_FDR_1936.6.A:0 ""
+
+ DH_USA_FDR_1936.7.t:0 "Cash and Carry Provisions Expire"
+ DH_USA_FDR_1936.7.d:0 ""
+ DH_USA_FDR_1936.7.A:0 ""
+
+ ### Packing the Courts Events
+ DH_USA_Packing_the_Courts.1.t:0 "The Judicial Procedures Reform Bill"
+ DH_USA_Packing_the_Courts.1.d:0 "The biggest obstacle to implement the progressive legislation necessary to restart the economy and improve the life quality of the American comes from the Supreme Court. The conservatives justices known as “the Four Horsemen” are attempting to block any legislation regarding the New Deal, using arguments regarding constitutional jurisprudence and legal formalism. These excuses based on archaic formalist and fiscally conservative views are only delaying future economic and social expansion plans. After various failed attempts to introduce legislation regarding this issue, the reelection of President Roosevelt presents a perfect opportunity to reform the federal judiciary. The Judicial Procedures Reform Bill proposed by Roosevelt grants the President the ability to appoint new judges of the Supreme Court for each federal judge that reaches the age of seventy that didn’t retire within six months. However, the bill also limits this power to six judges in the Supreme Court and two on the lower federal courts. Also, it establishes proctors on the Supreme Court to administer the lower courts. If we manage to pass the bill, we can finally overcome these obstacles that have been delaying America’s path to a better future."
+ DH_USA_Packing_the_Courts.1.A:0 "Let's Hope This Works"
+ USA_Packing_the_Court_tt:0 "§BWe will start working on the Judicial Procedures Reform Bill§!"
+
+ DH_USA_Packing_the_Courts.2.t:0 "The Public's Opinion Isn't Good"
+ DH_USA_Packing_the_Courts.2.d:0 "President’s bill. The population still views the Supreme Court as an institution that protects the values written in the Constitution, and any kind of intervention is perceived as authoritarian and unconstitutional. Some scholars even argued that the bill could be a potential danger to the rights of the people. The reaction of the media was very skeptical, even from the newspapers favorable to us, arguing that, while there the bill has some merit, it could also cause a breakdown of the judicial system. To counter this bad publicity, the President has decided to make a case for the bill in his next fireside chat."
+ DH_USA_Packing_the_Courts.2.A:0 "They will support us in this one."
+
+ DH_USA_Packing_the_Courts.3.t:0 "Another Fireside Chat"
+ DH_USA_Packing_the_Courts.3.d:0 "[FROM.GetNewsIcon]On his ninth Fireside Chat addressing the American people, President Franklin. D. Roosevelt replied to the concerns regarding the new judicial bill. The President started by arguing that fixing the inequalities of the system was necessary to avoid the mistakes that led to the depression, pointing out the effort of Congress to ratify legislation regarding economic recovery. He then criticized the Supreme Court for trying to sabotage this legislation. Using his metaphor American form of Government as a three-horse team, he described the judicial system as the third horse that is delaying the other two. The President stated the Supreme Court is conducting his functions improperly, misinterpreting the Constitution to follow their agenda. He also listed the advantages of judicial reform, that it will allow for a cheaper, speedier, and effective administration of the system of justice. After empathizing that there is nothing radical on his proposal because it was already a kind of policy implemented by prior presidents, he ended the address by making clear his intention to restore the balance to three branches of power. We only have to wait to see if the American public reacts accordingly to this rebuttal."
+ DH_USA_Packing_the_Courts.3.A:0 "The President is charismatic. He will convince them."
+
+ DH_USA_Packing_the_Courts.4.t:0 "Public Opinion Remains Negative"
+ DH_USA_Packing_the_Courts.4.d:0 "Unfortunately, the President’s address couldn’t attract the support from the public we were looking for. According to data from Gallup, 46% of the people opposed the legislation proposed by the President. Bar associations are lining up against the bill, and the letter to the Congress in opposition are pilling up. It is rumored that even Vice President John Nance Garner is going to oppose the bill, with other Conservative Democrats following soon. In addition to this backlash, one Progressive editorialist accused the President of trying to fake an appearance of sincerity on his address to take away the rights of the American people. With this public backlash, the future of the bill looks grim and is very likely to be dead on arrival once it reaches Congress."
+ DH_USA_Packing_the_Courts.4.A:0 "People don’t know what is good for them."
+
+ DH_USA_Packing_the_Courts.5.t:0 "Committee Chair Ashurst Is Holding Up the Bill!"
+ DH_USA_Packing_the_Courts.5.d:0 "The president's judicial reform bill, referred by the media as the “court-packing plan”, has hit a snag. The Judiciary Committee of the Senate, which is responsible for the bill and led by Democratic Senator Henry F. Ashurst, is currently holding up this critical piece of legislation. Senator Ashurst is known for being a very skilled public speaker, making thousands of speeches with a varied and sophisticated vocabulary. Beloved by the people of Arizona, he has a good reputation for putting the interests of his constituents above anything else. However, the Senator is also infamous for constantly switching political positions. His inconsistent and eccentric record tarnish what is otherwise an impeccable career, as he voted both for and against Prohibition and stated contradictory opinions regarding the Judicial Procedures Reform Bill that he is now holding up. To protect our agenda for the president's second term, we must put him under pressure and force him to flip his opinions once more. The fate of our judicial system rests in his hands."
+ DH_USA_Packing_the_Courts.5.A:0 "Hopefully, he will break."
+
+ DH_USA_Packing_the_Courts.6.t:0 "Ashurst Cracks Under the Pressure!"
+ DH_USA_Packing_the_Courts.6.d:0 "Senator Ashurst may have many faults, but stubbornness is not one of them. After a little bit of “encouragement”, the Senator has promised to make everything in his power to advance the project. Giving a convincing and passionate speech highlighting the need to modernize the judicial system, Senator Ashurst defended the bill as a “step in the right direction”. Our fears that the committee could delay it indefinitely have fortunately not materialized for now. It looks like the bill is now going the right path, and we will probably have new judges in the Supreme Court very soon."
+ DH_USA_Packing_the_Courts.6.A:0 "Well done, Senator."
+
+ DH_USA_Packing_the_Courts.7.t:0 "Ashurst Remains Firm!"
+ DH_USA_Packing_the_Courts.7.d:0 "We had very high hopes for the Senator, but he has disappointed us once more. Ashurst assured that the bill would get through the committee swiftly, but it is not advancing as fast as we expected. True to style, Ashurst is taking his time to address the project. When asked about this slowness, the Arizonian Senator bizarrely referred to the motto of the committee: "No haste, no hurry, no waste, no worry”. Even the opponents of the bill are praising the Senator for his efforts to delay it! This lack of effort to approach the initiative could potentially delay the bill for weeks, even months."
+ DH_USA_Packing_the_Courts.7.A:0 "A dean of inconsistency indeed."
+
+ DH_USA_Packing_the_Courts.8.t:0 "The President Has Swayed the People!"
+ DH_USA_Packing_the_Courts.8.d:0 "It looks like the President has managed to convince the people of supporting the bill. According to data from Gallup, only 36% of the people oppose the legislation proposed by the President. It is rumored than the Conservative Democrats are willing to support the bill reluctantly to follow the party line, including Vice President John Nance Garner. There is some opposition coming from bar associations and conservative and progressive newspapers, but fortunately, they are on the minority. With this surge in public support, Congress will likely approve the bill, making our plans for economic and social reforms a lot easier."
+ DH_USA_Packing_the_Courts.8.A:0 "FDR does it again!"
+
+ DH_USA_Packing_the_Courts.9.t:0 "The Bill Is Moving Again!"
+ DH_USA_Packing_the_Courts.9.d:0 "The success of the presidential address is noticeable. With the last Fireside Chat regarding the bill receiving a positive reception by the public, the opposition is now redoubling their efforts to get public opinion back on their side, but it won't work. Taking advantage of the new momentum, Democratic Senators are doing everything they can to pass the bill as quickly as possible. Despite the efforts of the so-called National Committee to Uphold Constitutional Government at trying to sabotage the bill, the party is not wasting a day in useless bickering, but moving quickly and efficiently. A drop in productivity may put the bill in jeopardy, but for now, our cause is heading in a favorable direction."
+ DH_USA_Packing_the_Courts.9.A:0 "Good job, Mr. President."
+
+ DH_USA_Packing_the_Courts.10.t:0 "Senate Majority Leader Robinson Has Died!"
+ DH_USA_Packing_the_Courts.10.d:0 "A tragedy has hit the Democratic Party to its core today. Democratic Senator for Arkansas and Senate Majority Leader Joseph Taylor Robinson has been found dead today on the floor of his Maryland Avenue apartment. This wasn't a complete surprise, as the senator was already experiencing the strain from his advanced age and the pressure of the Senate hearings, suffering from constant chest pains. It is expected that a funeral will be organized in the Senate chamber in a few days, where his family, friends, and colleagues will pay respects to the man for the last time. While the death of the Senator is already bad for the party leadership, it also hinders the progress of our judicial agenda. Majority Leader Robinson was not only one of the biggest supporters of the Judicial Procedures Reform Bill but of the president's New Deal initiatives, doing everything in his power to get the number of votes necessary. Without him passionately defending the bill and our government, our chances of success are greatly reduced."
+ DH_USA_Packing_the_Courts.10.A:0 "A real tragedy."
+
+ DH_USA_Packing_the_Courts.11.t:0 "Senate Majority Leader Robinson Has Suffered a Health Scare!"
+ DH_USA_Packing_the_Courts.11.d:0 ""
+ DH_USA_Packing_the_Courts.11.A:0 "Thank God!"
+
+ DH_USA_Packing_the_Courts.12.t:0 "The Judicial Procedures Reform Bill Has Passed!"
+ DH_USA_Packing_the_Courts.12.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Packing_the_Courts.12.A:0 "Yeet"
+
+ DH_USA_Packing_the_Courts.13.t:0 "The Judicial Procedures Reform Bill Has Failed!"
+ DH_USA_Packing_the_Courts.13.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Packing_the_Courts.13.A:0 "Fuck"
+
+ ### Army events
+ DH_USA_Army.1.t:0 "The Selective Training Act"
+ DH_USA_Army.1.d:0 "Amidst growing tensions, the United States must be prepared in the event of global war. Upon these shifting tides rests a giant, lightly dozing but slowly opening its eyes. The first peacetime conscription in American history has just been enacted, expected to bring an additional nine-hundred thousand soldiers into the army. All eligible men between the ages of 21 and 45 are subject to the draft, ensuring we have a strong manpower reserve in the event of open warfare. Despite growing complaints, this act has been met with little resistance, with primarily pacifist factions opposing the acts. However, in the end, it is America’s job to uphold global democracy, and thus it shall do so.\nTo stay the steady hand of objection, the act includes a clause regarding conscientious objection, allowing any citizen to deny military service for religious or medical reasons if any are present. Thus, whilst conscription has been implemented in the United States, our army shall remain that of volunteers, ensuring the liberty of Americans as well as those foreigners we deign to protect."
+ DH_USA_Army.1.A:0 "Let us hope we needn't employ such reserves."
+
+ DH_USA_Army.2.t:0 "Federalization of the National Guard"
+ DH_USA_Army.2.d:0 "Following several years of military buildup, we find ourselves lagging behind in active-duty soldiers for the US Army. That changes now. Though historically the National Guard has fought for individual states, their recent reclassification as members of the US Army in addition to their state role has prepared us to make the final decision to centralize the military. As of today, four-hundred thousand members of the National Guard have been called up to report to their units, effectively doubling the size of the US Army.  18 divisions and various other forces have been federalized for service in this time of national emergency. A rifle is only as good as the man firing it, thus we cannot subsist on industry alone. These hundreds of thousands of trained men will vastly expand the fighting capabilities of the army, ensuring that we will not have to resort to deploying reserves for quite some time."
+ DH_USA_Army.2.A:0 "Let us hope we needn't employ such reserves."
+ DH_USA_Army.2.A:0 "These new soldiers shall win the day."
+
+ DH_USA_Army.3.t:0 "The Louisiana Maneuvers"
+ DH_USA_Army.3.d:0 "The onset of war seems inevitable for America, and thus we need to get our army into fighting shape. The US Army has not seen active combat since the ending of the Great War, thus we must first evaluate the current logistical and doctrinal status of our main fighting force, some four-hundred thousand soldiers, as well as the effectiveness of our command structure. The plan includes large-scale maneuvers stretching from the Sabine River to the Calcasieu, with dozens of high-ranking officers present to oversee such events. Though such events will be costly, it is necessary to determine the current fighting strength of the army and provide the soldiers some combat experience, even if simply staged. The exercises will pit the red army versus the blue, including armor groups, antitank groups, cavalry flanking divisions, and several air task forces.\nWith the conclusion of the maneuvers, we have learned a great deal. With a possible panzerkampf on the horizon, the necessity of tank destroyers has become apparent, with the majority of our defensive doctrine revolving around knocking out as many tanks as possible. An immobilized enemy cannot fight, and with much of our doctrine focused on mobile envelopment, the odds of an American victory look high."
+ DH_USA_Army.3.A:0 "A modernized American Army awaits."
+
+ DH_USA_Army.4.t:0 "Eisenhower's Grand Battleplan"
+ DH_USA_Army.4.d:0 ""
+ DH_USA_Army.4.A:0 ""
+
+ DH_USA_Army.5.t:0 "Marshall's Overwhelming Firepower"
+ DH_USA_Army.5.d:0 ""
+ DH_USA_Army.5.A:0 ""
+
+ DH_USA_Army.6.t:0 "Caution: Patton!"
+ DH_USA_Army.6.d:0 ""
+ DH_USA_Army.6.A:0 ""
+
+ DH_USA_Army.7.t:0 "Armored Research Development Program"
+ DH_USA_Army.7.d:0 ""
+ DH_USA_Army.7.A:0 "Light Armor"
+ DH_USA_Army.7.B:0 "Medium Armor"
+ DH_USA_Army.7.C:0 "Heavy Armor"
+
+ DH_USA_Army.8.t:0 "Armored Research Development Program"
+ DH_USA_Army.8.d:0 ""
+ DH_USA_Army.8.A:0 "Work with UK"
+ DH_USA_Army.8.B:0 "#Work with France"
+
+ DH_USA_Army.9.t:0 "Caution: Patton!"
+ DH_USA_Army.9.d:0 ""
+ DH_USA_Army.9.A:0 ""
+
+ DH_USA_Army.10.t:0 "Pershing Offers his Services"
+ DH_USA_Army.10.d:0 "Plunged into the chaos of war once more, America has seen its fair share of hardships, which only goes to steel our resolve. However, resolve alone cannot win a battle. We require adept and experienced leadership, and though we are certainly not short-handed, a veteran officer can just as certainly be useful. John J. Pershing, a four-star General of the Great War, has recently approached the president, offering to put his retirement on hold for the good of the nation. He requests reinstatement to his original rank--certainly not an unreasonable request. The issue arises in his methodology: though Pershing offers deft action and positive results, he brings with him unparalleled losses. A rigid and traditional tactician, we cannot afford to throw our men at the enemy with such carelessness. Is America truly so deprived of officers that we might resort to these methods?"
+ DH_USA_Army.10.A:0 "It wouldn't be a war without Pershing!"
+ DH_USA_Army.10.B:0 "Desperation shall not drive our decisions!"
+
+ ### US Flavor Events
+ DH_USA_Flavor.0.t:0 "Fourth of July"
+ DH_USA_Flavor.0.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.0.A:0 "Firework!"
+
+ DH_USA_Flavor.1.t:0 "The Death of Calvin Coolidge"
+ DH_USA_Flavor.1.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.1.A:0 "January 5, 1933"
+
+ DH_USA_Flavor.2.t:0 "The Construction of the Golden Gate Begins"
+ DH_USA_Flavor.2.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.2.A:0 "January 5, 1933"
+
+ DH_USA_Flavor.3.t:0 "The Death of Malcolm Davis"
+ DH_USA_Flavor.3.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.3.A:0 "January 6, 1933"
+
+ DH_USA_Flavor.4.t:0 "Bonnie & Clyde Escape Arrest!"
+ DH_USA_Flavor.4.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.4.A:0 "April 13, 1933"
+
+ DH_USA_Flavor.5.t:0 "The First Concrete Has Been Poured For the Hoover Dam"
+ DH_USA_Flavor.5.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.5.A:0 "June 6, 1933"
+
+ DH_USA_Flavor.6.t:0 "Bonnie & Clyde Escape Again!"
+ DH_USA_Flavor.6.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.6.A:0 "July 24, 1933"
+
+ DH_USA_Flavor.7.t:0 "Babe Ruth Announces His Retirement"
+ DH_USA_Flavor.7.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.7.A:0 "August 31, 1933"
+
+ DH_USA_Flavor.8.t:0 "Bonnie & Clyde Escape Once More!"
+ DH_USA_Flavor.8.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.8.A:0 "November 22, 1933"
+
+ DH_USA_Flavor.9.t:0 "Texas Prison Escape!"
+ DH_USA_Flavor.9.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.9.A:0 "January 16, 1934"
+
+ DH_USA_Flavor.10.t:0 "Huey Long Announces Share Our Wealth"
+ DH_USA_Flavor.10.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.10.A:0 "Febuary 23, 1934"
+
+ DH_USA_Flavor.11.t:0 "New York Taxicab Driver Strike"
+ DH_USA_Flavor.11.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.11.A:0 "March 17, 1934"
+
+ DH_USA_Flavor.12.t:0 "On Our Way"
+ DH_USA_Flavor.12.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.12.A:0 "April 12, 1934"
+
+ DH_USA_Flavor.13.t:0 "The End of Bonnie & Clyde"
+ DH_USA_Flavor.13.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.13.A:0 "May 23, 1934"
+
+ DH_USA_Flavor.14.t:0 "Al Capone In Alcatraz"
+ DH_USA_Flavor.14.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.14.A:0 "August 22, 1934"
+
+ DH_USA_Flavor.15.t:0 "Textile Workers Strike"
+ DH_USA_Flavor.15.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.15.A:0 "September 1, 1934"
+
+ DH_USA_Flavor.16.t:0 "Smedley Butler's Testimony"
+ DH_USA_Flavor.16.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.16.A:0 "November 20, 1934"
+
+ DH_USA_Flavor.17.t:0 "The New-Look Central Park Zoo"
+ DH_USA_Flavor.17.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.17.A:0 "December 2, 1934"
+
+ DH_USA_Flavor.18.t:0 "Tragedy In Rockville"
+ DH_USA_Flavor.18.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.18.A:0 "April 11, 1935"
+
+ DH_USA_Flavor.19.t:0 "Assassination of Huey Long"
+ DH_USA_Flavor.19.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.19.A:0 "September 10, 1935"
+
+ DH_USA_Flavor.20.t:0 "Huey Long Survives Assassination Attempt!"
+ DH_USA_Flavor.20.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.20.A:0 "September 10, 1935"
+
+ DH_USA_Flavor.21.t:0 "The Pittsburgh Flood"
+ DH_USA_Flavor.21.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.21.A:0 "March 17, 1936"
+
+ DH_USA_Flavor.22.t:0 "German-American Bund Founded"
+ DH_USA_Flavor.22.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.22.A:0 "March 19, 1936"
+
+ DH_USA_Flavor.23.t:0 "The Shortest Boxing Match In History"
+ DH_USA_Flavor.23.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.23.A:0 "April 3, 1936"
+
+ DH_USA_Flavor.24.t:0 "A Soviet Flag Prank"
+ DH_USA_Flavor.24.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.24.A:0 "May 7, 1936"
+
+ DH_USA_Flavor.25.t:0 "Al Smith Breaks From the Democrats!"
+ DH_USA_Flavor.25.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.25.A:0 "October 1, 1936"
+
+ DH_USA_Flavor.26.t:0 "Of Mice and Men Published"
+ DH_USA_Flavor.26.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.26.A:0 "Febuary 6, 1937"
+
+ DH_USA_Flavor.27.t:0 "New London School Explosion"
+ DH_USA_Flavor.27.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.27.A:0 "March 18, 1937"
+
+ DH_USA_Flavor.28.t:0 "West Coast Hotel Co. v. Parrish"
+ DH_USA_Flavor.28.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.28.A:0 "March 29, 1937"
+
+ DH_USA_Flavor.29.t:0 "Opening of the Golden Gate Bridge"
+ DH_USA_Flavor.29.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.29.A:0 "May 27, 1937"
+
+ DH_USA_Flavor.30.t:0 "Spam Introduced"
+ DH_USA_Flavor.30.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.30.A:0 "July 5, 1937"
+
+ DH_USA_Flavor.31.t:0 "Charges Against the Scottsboro Boys Dropped!"
+ DH_USA_Flavor.31.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.31.A:0 "July 24, 1937"
+
+ DH_USA_Flavor.32.t:0 "Debut of Superman!"
+ DH_USA_Flavor.32.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.32.A:0 "April 18, 1938"
+
+ DH_USA_Flavor.33.t:0 "The Olympic National Park"
+ DH_USA_Flavor.33.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.33.A:0 "June 29, 1938"
+
+ DH_USA_Flavor.34.t:0 "75th Anniversary of the Battle of Gettysburg"
+ DH_USA_Flavor.34.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.34.A:0 "July 3, 1938"
+
+ DH_USA_Flavor.35.t:0 "William Bullitt's Speech"
+ DH_USA_Flavor.35.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.35.A:0 "September 4, 1938"
+
+ DH_USA_Flavor.36.t:0 "Hurricane in New England!"
+ DH_USA_Flavor.36.d:0 "[FROM.GetNewsIcon]September 21, 1938"
+ DH_USA_Flavor.36.A:0 "We Must Help the People!"
+ DH_USA_Flavor.36.B:0 "Let the State Governments Help Them"
+
+ DH_USA_Flavor.37.t:0 "The War of the Worlds"
+ DH_USA_Flavor.37.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.37.A:0 "October 30, 1938"
+
+ DH_USA_Flavor.38.t:0 "The Madison Square Garden Rally"
+ DH_USA_Flavor.38.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.38.A:0 "February 20, 1939"
+
+ DH_USA_Flavor.39.t:0 "New York World's Fair Opens"
+ DH_USA_Flavor.39.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.39.A:0 "April 30, 1939"
+
+ DH_USA_Flavor.40.t:0 "The Dark Knight Emerges"
+ DH_USA_Flavor.40.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.40.A:0 "May 1, 1939"
+
+ DH_USA_Flavor.41.t:0 "Lou Gehrig Ends His Streak"
+ DH_USA_Flavor.41.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.41.A:0 "May 2, 1939"
+
+ DH_USA_Flavor.42.t:0 "# The SS St. Louis Reaches Miami"
+ DH_USA_Flavor.42.d:0 "[FROM.GetNewsIcon]June 4, 1939"
+ DH_USA_Flavor.42.A:0 "It is Our Duty to Take These People In"
+ DH_USA_Flavor.42.B:0 "We will Happily Give These People New Homes in Europe"
+
+ DH_USA_Flavor.43.t:0 "Waynesburg vs. Fordham"
+ DH_USA_Flavor.43.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.43.A:0 "September 30, 1939"
+
+ DH_USA_Flavor.44.t:0 "[From.GetLeader] Lays the Jefferson Memorial"
+ DH_USA_Flavor.44.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.44.A:0 "November 15, 1939"
+
+ DH_USA_Flavor.45.t:0 "Gone With the Wind"
+ DH_USA_Flavor.45.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.45.A:0 "December 15, 1939"
+
+ DH_USA_Flavor.46.t:0 "Release of Pinocchio"
+ DH_USA_Flavor.46.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.46.A:0 "February 7, 1940"
+
+ DH_USA_Flavor.47.t:0 "Puss Gets the Boot"
+ DH_USA_Flavor.47.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.47.A:0 "February 20, 1940"
+
+ DH_USA_Flavor.48.t:0 "Rhythm Night Club Fire"
+ DH_USA_Flavor.48.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.48.A:0 "April 23, 1940"
+
+ DH_USA_Flavor.49.t:0 "McDonald's Opens in San Bernardino"
+ DH_USA_Flavor.49.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.49.A:0 "May 15, 1940"
+
+ DH_USA_Flavor.50.t:0 "El Centro Earthquake"
+ DH_USA_Flavor.50.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.50.A:0 "May 18, 1940"
+
+ DH_USA_Flavor.51.t:0 "First Annual Sturgis Motorcycle Rally"
+ DH_USA_Flavor.51.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.51.A:0 "June 16, 1940"
+
+ DH_USA_Flavor.52.t:0 "Armistice Day Blizzard"
+ DH_USA_Flavor.52.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.52.A:0 "November 11, 1940"
+
+ DH_USA_Flavor.53.t:0 "The United States Service Organization"
+ DH_USA_Flavor.53.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.53.A:0 "February 4, 1941"
+
+ DH_USA_Flavor.54.t:0 "Opening of the National Gallery of Art"
+ DH_USA_Flavor.54.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.54.A:0 "March 17, 1941"
+
+ DH_USA_Flavor.55.t:0 "America First Rally in New York City"
+ DH_USA_Flavor.55.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.55.A:0 "April 23, 1941"
+
+ DH_USA_Flavor.56.t:0 "Work Ceases on Mount Rushmore"
+ DH_USA_Flavor.56.d:0 "[FROM.GetNewsIcon]"
+ DH_USA_Flavor.56.A:0 "October 31, 1941"
+
+ ### Navy Events
+ DH_USA_Navy.1.t:0 "Vinson-Trammel Act"
+ DH_USA_Navy.1.d:0 ""
+ DH_USA_Navy.1.A:0 ""
+
+ DH_USA_Navy.2.t:0 "Two-Ocean Navy Act"
+ DH_USA_Navy.2.d:0 ""
+ DH_USA_Navy.2.A:0 ""
+
+ #FDR 1940-1944 Events
+ DH_USA_1940_1944_FDR.1.t:0 "The Lend-Lease Act"
+ DH_USA_1940_1944_FDR.1.d:0 ""
+ DH_USA_1940_1944_FDR.1.A:0 ""
+
+ DH_USA_1940_1944_FDR.2.t:0 "Series E War Bonds"
+ DH_USA_1940_1944_FDR.2.d:0 ""
+ DH_USA_1940_1944_FDR.2.A:0 ""
+
+ DH_USA_1940_1944_FDR.3.t:0 "The Atlantic Charter"
+ DH_USA_1940_1944_FDR.3.d:0 ""
+ DH_USA_1940_1944_FDR.3.A:0 ""
+
+ DH_USA_1940_1944_FDR.4.t:0 "Internment Camps"
+ DH_USA_1940_1944_FDR.4.d:0 ""
+ DH_USA_1940_1944_FDR.4.A:0 ""
+
+ #FDR 1944-1948 Events
+ DH_USA_1944_1948_FDR.1.t:0 "President Truman Announces the Truman Doctrine"
+ DH_USA_1944_1948_FDR.1.d:0 ""
+ DH_USA_1944_1948_FDR.1.A:0 ""
+
+ DH_USA_1944_1948_FDR.2.t:0 "The Employment Act"
+ DH_USA_1944_1948_FDR.2.d:0 ""
+ DH_USA_1944_1948_FDR.2.A:0 ""
+
+ DH_USA_1944_1948_FDR.3.t:0 "An End of An Era"
+ DH_USA_1944_1948_FDR.3.d:0 ""
+ DH_USA_1944_1948_FDR.3.A:0 ""
+
+ DH_USA_Japanese_Leaders_Trial.1.t:0 "The Crimes of Imperial Japan"
+ DH_USA_Japanese_Leaders_Trial.1.d:0 ""
+ DH_USA_Japanese_Leaders_Trial.1.A:0 "They will be given the trial they denied to so many others."
+ DH_USA_Japanese_Leaders_Trial.1.B:0 "These men are a threat to the rebuilding of Japan."
+ USA_Skipped_Japan_Trials:0 "§RThe Trial Events will be Skipped§!"
+ 
+ #Japanese Trial Events
+ DH_USA_Japanese_Leaders_Trial.2.t:0 "Former Japanese Leaders Shot!"
+ DH_USA_Japanese_Leaders_Trial.2.d:0 ""
+ DH_USA_Japanese_Leaders_Trial.2.A:0 ""
+
+ DH_USA_Japanese_Leaders_Trial.3.t:0 "The Trial of Kenji Doihara"
+ DH_USA_Japanese_Leaders_Trial.3.d:0 ""
+ DH_USA_Japanese_Leaders_Trial.3.A:0 ""
+
+ DH_USA_Japanese_Leaders_Trial.4.t:0 "The Trial of Koki Hirota"
+ DH_USA_Japanese_Leaders_Trial.4.d:0 ""
+ DH_USA_Japanese_Leaders_Trial.4.A:0 ""
+
+ DH_USA_Japanese_Leaders_Trial.5.t:0 "The Question of Unit 731"
+ DH_USA_Japanese_Leaders_Trial.5.d:0 ""
+ DH_USA_Japanese_Leaders_Trial.5.A:0 "What these men did was nothing short of horrific. Put them on trial."
+ DH_USA_Japanese_Leaders_Trial.5.B:0 "We'll overlook their actions in exchange for their data..."
+
+ DH_USA_Japanese_Leaders_Trial.6.t:0 "The Trial of Shiro Ishii"
+ DH_USA_Japanese_Leaders_Trial.6.d:0 ""
+ DH_USA_Japanese_Leaders_Trial.6.A:0 ""
+
+ DH_USA_Japanese_Leaders_Trial.7.t:0 "The Trial of Seishiro Itagaki"
+ DH_USA_Japanese_Leaders_Trial.7.d:0 ""
+ DH_USA_Japanese_Leaders_Trial.7.A:0 ""
+
+ DH_USA_Japanese_Leaders_Trial.8.t:0 "The Trial of Heitaro Kimura"
+ DH_USA_Japanese_Leaders_Trial.8.d:0 ""
+ DH_USA_Japanese_Leaders_Trial.8.A:0 ""
+
+ DH_USA_Japanese_Leaders_Trial.9.t:0 "The Imperial Princes"
+ DH_USA_Japanese_Leaders_Trial.9.d:0 ""
+ DH_USA_Japanese_Leaders_Trial.9.A:0 "No man is too important to answer for his crimes"
+ DH_USA_Japanese_Leaders_Trial.9.B:0 "We can't afford to destabilize Japan"
+
+ DH_USA_Japanese_Leaders_Trial.10.t:0 "The Trial of the Princes"
+ DH_USA_Japanese_Leaders_Trial.10.d:0 ""
+ DH_USA_Japanese_Leaders_Trial.10.A:0 ""
+
+ DH_USA_Japanese_Leaders_Trial.11.t:0 "The Trial of Akira Muto"
+ DH_USA_Japanese_Leaders_Trial.11.d:0 ""
+ DH_USA_Japanese_Leaders_Trial.11.A:0 ""
+
+ DH_USA_Japanese_Leaders_Trial.12.t:0 "The Trial of Hideki Tojo"
+ DH_USA_Japanese_Leaders_Trial.12.d:0 ""
+ DH_USA_Japanese_Leaders_Trial.12.A:0 ""
+
+ DH_USA_Japanese_Leaders_Trial.13.t:0 "The Sentences Are Given"
+ DH_USA_Japanese_Leaders_Trial.13.d:0 ""
+ DH_USA_Japanese_Leaders_Trial.13.A:0 ""
+
+ DH_USA_Japanese_Leaders_Trial.14.t:0 "The End of The Tokyo Trials"
+ DH_USA_Japanese_Leaders_Trial.14.d:0 ""
+ DH_USA_Japanese_Leaders_Trial.14.A:0 ""
+
+ #Cash and Carry Events
+ DH_USA_Cash_and_Carry.1.t:0 "The USA Offers Fighters"
+ DH_USA_Cash_and_Carry.1.d:0 ""
+ DH_USA_Cash_and_Carry.1.A:0 "We'll take whatever we can get!"
+ DH_USA_Cash_and_Carry.1.B:0 "We will have to pass, sorry."
+
+ DH_USA_Cash_and_Carry.2.t:0 "Britain Declines"
+ DH_USA_Cash_and_Carry.2.d:0 ""
+ DH_USA_Cash_and_Carry.2.A:0 "Shame."
+
+ DH_USA_Cash_and_Carry.3.t:0 "Britain Accepts!"
+ DH_USA_Cash_and_Carry.3.d:0 ""
+ DH_USA_Cash_and_Carry.3.A:0 "Perfect!, we'll roll the planes over the Border"
+
+ DH_USA_Cash_and_Carry.4.t:0 "The USA Offers Weapons"
+ DH_USA_Cash_and_Carry.4.d:0 ""
+ DH_USA_Cash_and_Carry.4.A:0 "We'll take whatever we can get!"
+ DH_USA_Cash_and_Carry.4.B:0 "We will have to pass, sorry."
+
+ DH_USA_Cash_and_Carry.5.t:0 "[From.GetName] Declines"
+ DH_USA_Cash_and_Carry.5.d:0 ""
+ DH_USA_Cash_and_Carry.5.A:0 "Shame."
+
+ DH_USA_Cash_and_Carry.6.t:0 "[From.GetName] Accepts"
+ DH_USA_Cash_and_Carry.6.d:0 ""
+ DH_USA_Cash_and_Carry.6.A:0 "They need Guns, from America they will have Guns."
+
+
+
+#########################################################################
+#  United States Decisions
+#########################################################################
+### The Works Progress Administration
+ USA_WPA_Category:0 "The Works Progress Administration"
+ USA_WPA_Category_desc:0 "\n\n\n£decision_header_WPA£\n\n\n\n The WPA, or the Works Progress Administration is a government agency formed as part of President Roosevelt’s New Deal program. This agency intends to help relieve the effects of the Great Depression by employing and putting to work the millions of unskilled labourers and workers who are currently experiencing poverty and hardship throughout the country. The public works projects that they will work on will not only provide them with a satisfactory income that they can live on but revitalise the ageing and inadequate infrastructure that our nation currently possesses."
+
+ USA_Public_Works_in_the_Northeast:0 "Public Works in the Northeast"
+ USA_Public_Works_in_the_Northeast_desc:0 "Even though the Northeast hasn't been hit as hard by the Depression as the South or Midwest, mainly due to its more urban character opposed to an industrial or agricultural one, economical instability still has managed to drive thousands of businesses into bankruptcy and millions of workers into unemployment alongside them. To improve the situation in the birthplace of the United States, the WPA will have to be expanded even further, to provide jobs to increasingly restless masses."
+
+ USA_Public_Works_in_the_Midwest:0 "Public Works in the Midwest"
+ USA_Public_Works_in_the_Midwest_desc:0 "The Midwest was the leading region in both industry and farming, but now with the Great Depression in full swing, the region is on the verge of collapse. Most of the industrial workers are unable to maintain their families and the farmers from the SW corner are desperate left without either home or food because of the Dust Bowl.\nWe should be quick to expand the WPA into the region as a way to maintain the people until either the farming can be started again or the Great Depression recedes."
+
+ USA_Public_Works_in_the_South:0 "Public Works in the South"
+ USA_Public_Works_in_the_South_desc:0 "The American South has never been a rich region and now with the Great Depression in full swing, the state is plagued by poverty and unemployment on a scale never seen before, with farms closing down left and right, factories going out of business and thousands being left homeless, hungry and jobless.\nIt should be our number one priority to expand the WPA to the South to once again revitalize the region by providing jobs, new infrastructure and a way out of the poverty gripping the Southern States"
+
+ USA_Public_Works_in_the_West:0 "Public Works in the West"
+ USA_Public_Works_in_the_West_desc:0 "While most of the western regions have fared better than others during the depression, expanding the WPA to states like California, Washington, Oregon and Nevada must be a priority for this administration. Major infrastructure projects like dams, reservoirs and irrigation programs can be built to bolster farmlands and provide rural electricity to farmers in the Rockies. Moreover, public works such as national parks and forests could be created to preserve the natural beauty and wonder of the American West."
+ ### 100 Days in Office
+ USA_the_First_100_Days_Category:0 "The First 100 Days"
+ USA_the_First_100_Days:0 "The First 100 Days"
+ USA_the_First_100_Days_desc:0 "As the Great Depression persists, the state of the economy and our country worsens, but with our new president, Franklin Delano Roosevelt, hopefully, things will start to change for the better. To kickstart the president’s ambitious plans for the country, he intends to use his first 100 days in office to pass new initiatives that will hopefully counter the effects of this crisis and generate some political momentum that will last for the next four years.\n\nIf however, the president doesn’t enact programs that combat the most pressing issues in the country, his presidency will be off to a rocky start that will have some serious consequences on his ability to put forward and ratify his bold agenda for the future."
+
+ ### Federal Project Number One
+ USA_Federal_Project_1:0 "Federal Project Number One"
+ USA_Federal_Project_1_desc:0 "LOC PENDING"
+
+ USA_Federal_Art_Project:0 "Federal Art Project"
+ USA_Federal_Art_Project_desc:0 "LOC PENDING"
+
+ USA_Federal_Music_Project:0 "Federal Music Project"
+ USA_Federal_Music_Project_desc:0 "LOC PENDING"
+
+ USA_Federal_Theater_Project:0 "Federal Theater Project"
+ USA_Federal_Theater_Project_desc:0 "LOC PENDING"
+
+ USA_Federal_Writers_Project:0 "Federal Writer Project"
+ USA_Federal_Writers_Project_desc:0 "LOC PENDING"
+
+ USA_Historical_Records_Survey:0 "Federal Music Project"
+ USA_Historical_Records_Survey_desc:0 "LOC PENDING"
+
+ #### Mobilization
+ USA_Mobilization_Category:0 "Mobilization"
+ USA_Call_National_Guard_Decision:0 "Call the National Guard"
+
+ #### Defence Against Agression
+ USA_Defence_Against_Agression_Category:0 "A Defense Against Aggression"
+ USA_Defence_Against_Agression_Category_desc:0 "LOC PENDING"
+
+ USA_Defence_Against_Agression_Mission:0 "A Defense Against Aggression"
+ USA_Defence_Against_Agression_Mission_desc:0 "LOC PENDING"
+
+ USA_Shield_Of_Liberty_Military_Construction_Program:0 "The Shield of Liberty Military Construction Program"
+ USA_Shield_Of_Liberty_Military_Construction_Program_desc:0 "LOC PENDING"
+
+ USA_Exercise_Military:0 "Exercise the Military"
+ USA_Exercise_Military_desc:0 "LOC PENDING"
+
+ USA_Enact_New_Military_Quotas:0 "Establish New Rearmament Quotas"
+ USA_Enact_New_Military_desc:0 "LOC PENDING"
+
+ USA_Convince_Isolationists:0 "Convince the Isolationists"
+ USA_Convince_Isolationists_desc:0 "LOC PENDING"
+
+ USA_Appeal_to_the_People:0 "Appeal to the People"
+ USA_Appeal_to_the_People_desc:0 "LOC PENDING"
+
+ #### Military Rearmament
+ USA_Military_Rearmament_Category:0 "Military Rearmament"
+ USA_Military_Rearmament_Category_desc:0 "LOC PENDING"
+
+ USA_Focus_on_Assembling_Infantry_and_Support_Weapons:0 "Focus on Assembling Infantry And Support Weapons"
+ USA_Focus_on_Assembling_Infantry_and_Support_Weapons_desc:0 "LOC PENDING"
+
+ USA_Focus_on_Big_Guns:0 "Focus on Making Big Guns"
+ USA_Focus_on_Big_Guns_desc:0 "LOC PENDING"
+
+ USA_Focus_on_Armoured_Vehicles:0 "Focus on Manufacturing Armoured Vehicles"
+ USA_Focus_on_Armoured_Vehicles_desc:0 "LOC PENDING"
+
+ USA_Focus_on_Motorized_Vehicles:0 "Focus on Manufacturing Motorized Vehicles"
+ USA_Focus_on_Motorized_Vehicles_desc:0 "LOC PENDING"
+
+ USA_Focus_on_Fighter_Planes:0 "Focus on Assembling Fighter Planes"
+ USA_Focus_on_Fighter_Planes_desc:0 "LOC PENDING"
+
+ USA_Focus_on_CAS_Planes:0 "Focus on Assembling Bomber Planes"
+ USA_Focus_on_CAS_Planes_desc:0 "LOC PENDING"
+
+ USA_Focus_on_Bomber_Planes:0 "Focus on Assembling Bomber Planes"
+ USA_Focus_on_Bomber_Planes_desc:0 "LOC PENDING"
+
+ USA_Focus_on_Naval_Planes:0 "Focus on Assembling Naval Planes"
+ USA_Focus_on_Naval_Planes_desc:0 "LOC PENDING"
+
+ ### Reciprocal Deals
+ USA_Reciprocal_Deals_Category:0 "Reciprocal Deals"
+ USA_Doing_Reciprocal_Deal:0 "Doing a Trade Agreement"
+ USA_Trade_Agreement_Reciprocal:0 "Reciprocal Trade Agreement"
+ USA_Trade_Agreement_Reciprocal_opinion:0 "Reciprocal Trade Agreement"
+
+ USA_Reciprocal_Deal_Belgium:0 "Reciprocal Trade Agreement With Belgium"
+ USA_Reciprocal_Deal_Brazil:0 "Reciprocal Trade Agreement With Brazil"
+ USA_Reciprocal_Deal_France:0 "Reciprocal Trade Agreement With France"
+ USA_Reciprocal_Deal_Canada:0 "Reciprocal Trade Agreement With Canada"
+ USA_Reciprocal_Deal_Colombia:0 "Reciprocal Trade Agreement With Colombia"
+ USA_Reciprocal_Deal_Guatemala:0 "Reciprocal Trade Agreement With Guatemala"
+ USA_Reciprocal_Deal_Costa_Rica:0 "Reciprocal Trade Agreement With Costa Rica"
+ USA_Reciprocal_Deal_Cuba:0 "Reciprocal Trade Agreement With Cuba"
+ USA_Reciprocal_Deal_Haiti:0 "Reciprocal Trade Agreement With Haiti"
+ USA_Reciprocal_Deal_Czechoslovakia:0 "Reciprocal Trade Agreement With Czechoslovakia"
+ USA_Reciprocal_Deal_Ecuador:0 "Reciprocal Trade Agreement With Ecuador"
+ USA_Reciprocal_Deal_Honduras:0 "Reciprocal Trade Agreement With Honduras"
+ USA_Reciprocal_Deal_El_Salvador:0 "Reciprocal Trade Agreement With El Salvador"
+ USA_Reciprocal_Deal_Finland:0 "Reciprocal Trade Agreement With Finland"
+ USA_Reciprocal_Deal_Netherlands:0 "Reciprocal Trade Agreement With Netherlands"
+ USA_Reciprocal_Deal_Nicaragua:0 "Reciprocal Trade Agreement With Nicaragua"
+ USA_Reciprocal_Deal_Sweden:0 "Reciprocal Trade Agreement With Sweden"
+ USA_Reciprocal_Deal_Switzerland:0 "Reciprocal Trade Agreement With Switzerland"
+ USA_Reciprocal_Deal_United_Kingdom:0 "Reciprocal Trade Agreement With United Kingdom"
+
+ ### The Good Neighbor
+ USA_the_Good_Neighbour_Category:0 "The Good Neighbor"
+ USA_the_good_neighbor:0 "The Good Neighbor"
+ USA_Withdraw_From_Haiti:0 "Withdraw from Haiti"
+ USA_End_The_Platt_Amendment:0 "End the Platt Amendment"
+ USA_End_The_Platt_Amendment_opinion:0 "End the Platt Amendment"
+ USA_The_Montevideo_Convention_opinion:0 "The Montevideo Convention"
+ USA_The_Montevideo_Convention:0 "The Montevideo Convention"
+ USA_the_Good_Neighbour_Category_Unlock:0 "Already doing a Decision"
+
+ ### Landon's Private Investment Decisions
+ USA_Landon_Private_Investments_Category:0 "Landon's Private Investment's"
+ USA_Encourage_Investment_In_Ford_Motors:0 "Encourage Investment In Ford Motors"
+ USA_Encourage_Investment_In_Southwestern_Bell:0 "Encourage Investment In Southwestern Bell"
+ USA_Encourage_Investment_In_US_Steel:0 "Encourage Investment In U.S. Steel"
+ USA_Encourage_Investment_In_JP_Morgan:0 "Encourage Investment In JP Morgan"
+ USA_Investments_In_JP_Morgan:0 "Investments In JP Morgan"
+
+ #Privatization of the CCC
+ USA_Privatization_CCC_Category:0 "Privatization of The CCC"
+ USA_Privatize_Civilian_Construction_Corps:0 "Privatize the Civilian Construction Corps"
+
+ ### USACE Projects
+ USA_USACE_Projects_Category:0 "USACE Projects"
+ USA_USACE_Projects_In_the_Northeast:0 "USACE Projects in the Northeast"
+ USA_USACE_Projects_In_the_South:0 "USACE Projects in the South"
+ USA_USACE_Projects_In_the_Midwest:0 "USACE Projects in the Midwest"
+ USA_USACE_Projects_In_the_West:0 "USACE Projects in the West"
+ USA_USACE_Selected_Decision:0 "Already Doing a Decision"
+
+ ### Pro-War Propaganda
+ USA_Pro_War_Propaganda_Category:0 "Pro-War Propaganda"
+ USA_Mass_Produce_Pro_War_Posters:0 "Mass Produce Pro-War Posters"
+ USA_Pro_War_Radio_Speeches:0 "Pro-War Radio Speeches"
+ USA_Hold_Pro_War_Rallies:0 "Hold Pro-War Rallies"
+
+ ### Military Rearmament
+ USA_Military_Rearmament_1940_Category:0 "Military Rearmament"
+ USA_Military_Rearmament_1940_Category_desc:0 "          §RAttention every decision will be selectable only two times!§!"
+ USA_Focus_on_Assembling_Infantry_And_Support_Weapons:0 "Focus on Assembling Infantry and Support Weapons"
+ USA_Focus_on_Making_Big_Guns:0 "Focus on Making Big Guns"
+ USA_Focus_on_Manufacturing_Armoured_Vehicles:0 "Focus on Manufacturing Armoured Vehicles"
+ USA_Focus_on_Producing_Motorised_Vehicles:0 "Focus on Producing Motorised Vehicles"
+ USA_Focus_on_Assembling_Fighter_Planes:0 "Focus on Assembling Fighter Planes"
+ USA_Focus_on_Assembling_CAS_Planes:0 "Focus on Assembling CAS Planes"
+ USA_Focus_on_Constructing_Bombers:0 "Focus on Constructing Bombers"
+ USA_Focus_on_Building_Naval_Aircraft:0 "Focus on Building Naval Aircrafts"
+
+ ### Office of Coordination of Inter-American Affairs
+ USA_The_Office_of_the_Coordinator_of_Inter_American_Affairs_Category:0 "The Office of the Coordinator of Inter-American Affairs"
+ USA_Counter_Foreign_Influences_In_Latin_America:0 "Counter Foreign Influences in Latin America"
+ USA_Improve_US_Latin_American_Relations:0 "Improve US-Latin American Relations"
+ USA_Improve_US_Latin_American_Relations_opinion:0 "Improve US-Latin American Relations"
+
+ ### Wartime Economic Recovery
+ USA_Wartime_Economic_Recovery_Category:0 "Wartime Economic Recovery"
+ USA_Wartime_Economic_Recovery:0 "Wartime Economic Recovery"
+
+ ### The War Production Board
+ USA_The_War_Production_Board_Category:0 "The War Production Board"
+ USA_Focus_On_Producing_For_the_Infantry:0 "Focus on Producing For the Infantry"
+ USA_Focus_On_Producing_Armoured_Vehicles:0 "Focus on Producing Armoured Vehicles"
+ USA_Focus_On_Producing_Aircraft:0 "Focus on Producing Aircrafts"
+ USA_War_Production_Board_Decision_Selected:0 "Already Selected one Decision"
+
+ ### The Reserve Companies
+ USA_The_Reserve_Companies_Category:0 "The Reserve Companies"
+ USA_Establish_the_Rubber_Reserve_Company:0 "Establish the Rubber Reserve Company"
+ USA_Establish_the_Petroleum_Reserve_Company:0 "Establish the Petroleum Reserve Company"
+ USA_Establish_the_Metals_Reserve_Company:0 "Establish the Metals Reserve Company"
+
+ ### Economic Stabilisation
+ USA_Occupied_Economic_Stabilisation_Category:0 "Occupied Economic Stabilisation"
+ USA_Make_Use_of_POW_Labor_For_Infrastructure_Reconstruction:0 "Make use of POW LAbor for Infrastructure Reconstruction"
+ USA_Introduce_A_Standard_Currency:0 "Introduce a Standard Currency"
+ USA_Make_Use_of_POW_Labor_For_Industrial_Reconstruction:0 "Make Use of POW Labor for Industrial Reconstruction"
+ USA_Enact_Anti_Hyperinflation_Measures:0 "Enact Anti-Hyperinflation Measures"
+ USA_Decartelize_the_Steel_Industry:0 "Decartelize the Steel Industry"
+ USA_Limit_the_Black_Market:0 "Limit the Black Market"
+ USA_Already_Doing_Stabilisation_Decision:0 "One Decision Already in Progress"
+ add_economic_stabilisation_progress_tt:0 "Changes Stabilisation progress by [?economic_stabilisation_progress_to_add|+=2%%].\n"
+
+
+ ### De-Militarization
+ USA_Gradual_Occupied_De_Militarization_Category:0 "Gradual Occupied De-Militarization"
+ USA_Ask_To_Fill_In_Questionnaires:0 "Ask to Fill in Questionnaires"
+ USA_Verify_Claims_of_Participation:0 "Verify Claims of Participation"
+ USA_Take_Control_of_the_German_Media:0 "Take Control of the German Media"
+ USA_Propagate_Anti_Authoritarian_Messages:0 "Propagate Anti-Authoritarian Messages"
+ USA_Confiscate_Militarist_Literature_and_Art:0 "Confiscate Militarist Literature and Art"
+ USA_Confiscate_Militarist_Media:0 "Confiscate Militarist Media"
+ USA_Alrady_Doing_Militarization_Decision:0 "One Decision Already in Progress"
+ add_de_militarization_progress_tt:0 "Changes De-Militarization progress by [?de_militarization_progress_to_add|-=2%%].\n"
+
+### Cash and Carry
+USA_Cash_and_Carry_Category:0 "Cash and Carry"
+USA_Sell_Fighters_to_UK:0 "Sell Fighters to UK"
+USA_Send_Aid_to_China:0 "Send Aid to China"
+USA_Send_Aid_to_FRA:0 "Send Aid to France"
+USA_Send_Aid_to_GER:0 "Send Aid to Germany"
+USA_Send_Aid_to_ITA:0 "Send Aid to Italy"
+USA_Send_Aid_to_JAP:0 "Send Aid to Japan"
+USA_Send_Aid_to_SPR:0 "Send Aid to Spain"
+
+### Expand the Pacific Defenses
+USA_Expand_the_Pacific_Defenses_Category:0 "Expand the Pacific Defenses"
+USA_Fortify_the_Bataan_Peninsula:0 "Fortify the Bataan Peninsula"
+USA_Reinforce_Luzon:0 "Reinforce Luzon"
+USA_Expand_Pearl_Harbour:0 "Expand Parl Harbour"
+USA_Reinforce_the_Atolls:0 "Reinforce the Atolls"
+USA_Fortify_the_Polynesian_Holdings:0 "Fortify the Polynesian Holdings"
+USA_Fortress_Guam:0 "Fortress Guam"
+USA_Selected_Bataan:0 "Selected 'Fortify the Bataan Peninsula'"
+USA_Selected_Luzon:0 "Selected 'Reinforce Luzon'"
+
+
+
+#########################################################################
+#  United States Leaders
+#########################################################################
+ Herbert_Hoover_desc:0 "Businessman, politician, and humanitarian, if these words were used to describe an American it would be Herbert Clerk Hoover.\n\nWhen Hoover graduated from Stanford University in 1895, he was hired by Bewick, Moreing & Co., a London-based company, to help operate gold mines in Western Australia. In 1908, he left Bewick, Moreing to become an independent London-based mining consultant and financier. He co-founded the Zinc Corporation to extract zinc near Broken Hill, Australia and helped increase copper production in Kyshtym, Russia. By 1914, He had amassed an impressive fortune. After the outbreak of the First World War, Hoover became the head of the Commission for Relief in Belgium, a relief organization that provided food to occupied Belgium until the U.S. entered the war. In 1917, President Woodrow Wilson appointed Hoover to head the Food Administration, and Hoover became known as America's "Food Czar".  After the war, Hoover led the American Relief Administration to provide food for the inhabitants of newly formed nations in Central and Eastern Europe. After the 1920 election, President Warren G. Harding appointed Hoover as Secretary of Commerce. Soon Hoover became influential in the development of radio and air travel and he led the federal response to the Great Mississippi Flood of 1927, which had earned him wide acclaim for his role in the crisis. \n\nDue to his popularity, Hoover easily won the presidency in 1928. He opposed government intervention on the economy because he thought they infringed upon American ideals of individual freedom and self-reliance. After a few years, Hoover's approval rating has gone down the toilet as he was incapable of creating policies to address issues plaguing the nation, like the Wall Street Crash and Prohibition. Due to this, he lost in the recent election to a Democratic candidate, Franklin D. Roosevelt. Hoover's disastrous presidency severely damaged the image and popularity of the Republican Party."
+
+#########################################################################
+#  United States Ideas
+#########################################################################
+ USA_The_Great_Depression:0 "The Great Depression"
+ USA_The_Great_Depression_desc:0 "Years ago, the sprawling metropolis of New York City was dazzling with unprecedented levels of wealth and prosperity. Everyone was throwing money left and right, purchasing the latest cars coming out of Ford and General Motors like it was purchasing paper. It was a time of champagnes and parties, but that was long ago. Hubris caught up with Wall Street, and their newfound wealth vanished in a blink of an eye. It did not help when Hoover, the so-called poster boy of Free Market Capitalism, still insisted that the Free Market shall rebound and repair itself, even as his country's citizens struggle to make ends meet.\n\nThe entirety of America is counting on us to swiftly end this crisis, let's not disappoint them."
+
+ USA_Land_of_the_Free:0 "Land of the Free"
+ USA_Land_of_the_Free_desc:0 "The United States of America is a nation known for being a bastion of democracy enlightening around the world. The majority of U.S. citizens would rarely allow such unconstitutional ideals from taking hold of the government. The Republican and Democratic parties are not perfect but they secure the balance of the American political system that upholds and defends the American way of life from radicals that wish to destroy it."
+
+ USA_Shore_up_the_Banks:0 "Shore Up the Banks"
+ USA_Shore_up_the_Banks_desc:0 "Shore Up the Banks"
+
+ USA_the_Blue_Eagle:0 "The Blue Eagle"
+ USA_the_Blue_Eagle_desc:0 "LOC PENDING"
+
+ USA_the_Noble_Experiment:0 "The Noble Experiment"
+ USA_the_Noble_Experiment_desc:0 "LOC PENDING"
+
+ USA_New_Regulations:0 "New Regulations"
+ USA_the_Noble_Experiment_desc:0 "LOC PENDING"
+
+ USA_Raised_Food_Prices:0 "Raised Food Prices"
+ USA_Raised_Food_Prices_desc:0 "LOC PENDING"
+
+ USA_Restore_Confidence_in_the_Banks:0 "Restore Confidence in the Banks"
+ USA_Restore_Confidence_in_the_Banks_desc:0 "One of the primary reasons for the Great Depression was the widespread panic about the American banking system due to fears over the strength of the institutions. Bank runs, sudden demands by large numbers of customers to withdraw all their funds at almost the same time, brought down many banking corporations as depositors attempted to withdraw more money than the bank had available. In order to win back the public’s trust and to encourage them to deposit their money, the Federal government will be creating the Federal Deposit Insurance Corporation. Although the new organisation has many duties, its prime objective will be to provide insurance to depositors in both commercial and savings banks, and it will be aided in its efforts by the US Department of Treasury, who will be providing a direct line of credit."
+
+ USA_The_Lochner_Era:0 "The Lochner Era"
+ USA_The_Lochner_Era_desc:0 "Aptly named after the controversial “Lochner vs New York“ labor law case, the term “Lochner Era“ has become synonymous with the Supreme Court's common practice of striking down any economic laws which, in the court's eye, infringe on economic liberty or private contract rights. While this has been common practice since 1897, a variety of economists and politicians have begun criticizing the Supreme Court, arguing that the current economic crisis can only be solved by government intervention in the economy.\nHowever, it currently seems that any future president who seeks to solve this blatant case of judicial activism will have to fight extensively against both the Supreme Court and the corporations who greatly profit from the continued laissez-faire economy in the United States."
+
+ USA_Great_War_Veteran_Payments:0 "Great War Veteran Payments"
+ USA_Great_War_Veteran_Payments_desc:0 "LOC PENDING"
+
+ USA_Soak_The_Rich:0 "Soak the Rich"
+ USA_Soak_The_Rich_desc:0 "LOC PENDING"
+
+ USA_Neutrality_Act:0 "Neutrality Act"
+ USA_Neutrality_Act_desc:0 "LOC PENDING"
+
+ USA_Neutrality_Act_2:0 "Neutrality Act"
+ USA_Neutrality_Act_2_desc:0 "LOC PENDING"
+
+ USA_Neutrality_Act_3:0 "Neutrality Act"
+ USA_Neutrality_Act_3_desc:0 "LOC PENDING"
+
+ USA_The_Inevitable_War_Must_Be_Paid_For_1:0 "The Inevitable War Must be Paid For"
+
+ USA_Where_Free_Men_Now_Stand_Idea:0 "Where Free Men Now Stand"
+
+ USA_European_Reconstruction_Idea:0 "European Reconstruction"
+
+USA_Deregulated_Insurance_Industry_Idea:0 "Deregulated Insurance Industry"
+
+ ### Military Rearmament
+ USA_Focus_on_Weapons_and_Support:0 "Focus on Infantry And Support Weapons"
+ USA_Focus_on_Weapons_and_Support_desc:0 "LOC PENDING"
+
+ USA_Focus_On_Big_Guns_Idea:0 "Focus on Big Guns"
+ USA_Focus_On_Big_Guns_Idea_desc:0 "LOC PENDING"
+
+ USA_Focus_On_Armoured:0 "Focus on Armoured Vehicles"
+ USA_Focus_On_Armoured_desc:0 "LOC PENDING"
+
+ USA_Focus_On_Motorized:0 "Focus on Motorized Vehicles"
+ USA_Focus_On_Motorized_desc:0 "LOC PENDING"
+
+ USA_Focus_On_Fighters:0 "Focus on Fighter Planes"
+ USA_Focus_On_Fighters_desc:0 "LOC PENDING"
+
+ USA_Focus_On_CAS:0 "Focus on CAS Planes"
+ USA_Focus_On_CAS_desc:0 "LOC PENDING"
+
+ USA_Focus_On_Bombers:0 "Focus on Bomber Planes"
+ USA_Focus_On_Bombers_desc:0 "LOC PENDING"
+
+ USA_Focus_On_Naval:0 "Focus on Naval Planes"
+ USA_Focus_On_Naval_desc:0 "LOC PENDING"
+
+ ### New Deal
+ USA_Fair_Compromise:0 "The Fair Compromise"
+ USA_Fair_Compromise_desc:0 ""
+ 
+ USA_Large_Scale_Tax_Breaks:0 "Large Scale Tax Breaks"
+ USA_Large_Scale_Tax_Breaks_desc:0 ""
+ 
+ USA_New_Tax_Law:0 "New Tax Law"
+ USA_New_Tax_Law_desc:0 ""
+ 
+ USA_Child_Labor_Practices:0 "Child Labor Practices"
+ USA_Child_Labor_Practices_desc:0 ""
+
+USA_National_Civic_Federation:0 "National Civic Federation"
+USA_National_Civic_Federation_desc:0 ""
+
+ USA_New_Deal:0 "The New Deal"
+ USA_New_Deal_desc:0 "LOC PENDING"
+
+ USA_Second_New_Deal:0 "The Second New Deal"
+ USA_New_Deal_desc:0 "LOC PENDING"
+
+ USA_Third_New_Deal:0 "The Third New Deal"
+ USA_New_Deal_desc:0 "LOC PENDING"
+
+ USA_Private_Sector_Loans:0 "Private Sector Loans"
+ USA_Private_Sector_Loans_desc:0 "LOC PENDING"
+
+ USA_Executive_Reorganisation:0 "Executive Reorganisation"
+ USA_Executive_Reorganisation_desc:0 "LOC PENDING"
+
+ ### Rearm the Military
+ USA_Focus_on_Assembling_Infantry_And_Support_Weapons_Idea:0 "Focus on Assembling Infantry and Support Weapons"
+ USA_Focus_on_Making_Big_Guns_Idea:0 "Focus on Making Big Guns"
+ USA_Focus_on_Manufacturing_Armoured_Vehicles_Idea:0 "Focus on Manufacturing Armoured Vehicles"
+ USA_Focus_on_Producing_Motorised_Vehicles_Idea:0 "Focus on Producing Motorised Vehicles"
+ USA_Focus_on_Assembling_Fighter_Planes_Idea:0 "Focus on Assembling Fighter Planes"
+ USA_Focus_on_Assembling_CAS_Planes_Idea:0 "Focus on Assembling CAS Planes"
+ USA_Focus_on_Constructing_Bombers_Idea:0 "Focus on Constructing Bombers"
+ USA_Focus_on_Building_Naval_Aircraft_Idea:0 "Focus on Building Naval Aircraft"
+ USA_Miltiary_Rearmament_Selected:0 "Already Selected one Decision"
+
+ ###Lend-Lease Act
+ USA_Lend_Lease:0 "Lend-Lease Act"
+ USA_Lend_Lease_2:0 "Lend-Lease Act"
+
+ ### US Backed Anti-Foreign Influence Efforts
+ USA_US_Backed_Anti_Foreign_Influence_Efforts:0 "US Backed Anti-Foreign Influence Efforts"
+
+ ### Series E Bonds
+ USA_Series_E_Bonds:0 "Series E Bonds"
+
+ ### The War Production Board
+ USA_Focus_On_Producing_For_the_Infantry_Idea:0 "Focus on Producing For the Infantry"
+ USA_Focus_On_Producing_Armoured_Vehicles_Idea:0 "Focus on Producing Armoured Vehicles"
+ USA_Focus_On_Producing_Aircraft_Idea:0 "Focus on Producing Aircrafts"
+
+ ### Internment Camps
+ USA_Internment_Camps:0 "Internment Camps"
+
+ ### Expand Budget Signal Security Agency
+ USA_Expand_the_Budget_of_the_Signal_Security_Agency_Idea:0 "Expand the Budget of the Signal Security Agency"
+ 
+ ### Subsidized Fuel Industry
+ USA_Subsidized_Fuel_Industry:0 "Subsidized Fuel Industry"
+
+ ### Haven for Scientist
+ USA_Haven_for_Scientists_Idea:0 "Haven for Scientists"
+
+ ### Truman Doctrine
+ USA_The_Truman_Doctrine_Idea:0 "The Truman Doctrine"
+
+ ### Bureau of Ships
+ USA_Bureau_Of_Ships:0 "Bureau of Ships"
+
+ ###Liberty Across the Seas
+ USA_Liberty_Across_The_Seas:0 "Liberty Across the Seas"
+
+ ###Hunter Killers
+ USA_Hunter_Killers:0 "Hunter Killers"
+
+ ###Vinson-Trammel Act
+ USA_Vinson_Trammel_Act:0 "Vinson-Trammel Act"
+ USA_Vinson_Trammel_Act_2:0 "Vinson-Trammel Act"
+
+ ### Protectionist Tariffs
+ USA_Protectionist_Tariffs:0 "Protectionist Tariffs"
+#########################################################################
+#  United States Focuses
+#########################################################################
+ ### 1932 - FDR
+ ## New Deal
+ USA_Houdini_in_the_House:0 "Houdini in the House"
+ USA_Houdini_in_the_House_desc:0 "Franklin Delano Roosevelt has been elected to the office of the presidency in the time of one of the greatest economic crises ever, the Great Depression, which promises to be the downfall of our nation if not dealt with properly. The new president has promised a “New Deal,” for the American people, a series of reforms that if implemented correctly, could prove to be the miracle that many across the country have prayed for. Whether Roosevelt is the magician who can solve America's problems is yet to be seen, but a strong start in these "first one hundred days" will be crucial if he is to gather the momentum needed to pursue some of his more radical ideas in the future, and turn around this country in shambles."
+ USA_100_Days_Mission:0 "The 100 Days Mission"
+
+ USA_the_Good_Neighbour:0 "The Good Neighbor"
+ USA_the_Good_Neighbour_desc:0 "Time and time again American leaders have resorted to brute military force and interventionist policies to fulfill American interests, which have greatly damaged America’s credibility in Latin American countries. President Roosevelt, favors his predecessor's non-interventionist policies, in an effort to denounce past U.S. interventionism and subdue any subsequent fears of Latin Americans, the president has announced during his inaugural address, to dedicate the nation to the policy of “The Good Neighbor”, the neighbor who respects himself and respects the rights of others, the neighbor who respects his obligations and respects the sanctity of his agreements in and with a World of neighbors. This policy aims for friendly relationships between the United States and Central as well as South American countries, to foster ties and economic exchanges, this would create new economic opportunities in the form of reciprocal trade agreements and in a sense reassert the influence of the United States in Latin America in a friendly manner."
+
+ USA_Shore_up_Banks:0 "Shore up the Banks"
+ USA_Shore_up_Banks_desc:0 "We are living a hard time, the Great Depression rages on and people are getting desperate. Banking has always been built on trust and guarantees, but right now, they don't have either of that, as people rush to withdraw their deposits, in fear that banks may close, and in fact provoking serious cash shortages that may lead to the temporal closure of some of the banks.\n\nWe need to mobilize federal reserves to supply cash and create deposit insurance, thus helping banks regain the trust of the people and stopping the bank runs. If we don't do this, this situation could spiral out of control and lead us to a capital shortage and further the economic recession."
+
+ USA_Employment_for_the_Youth:0 "Employment for the Youth"
+ USA_Employment_for_the_Youth_desc:0 "The path of any nation is based upon the hopes and dreams of it’s youngest generations. With the economy in shambles and unemployment so high, our maturing young adults have a particularly bleak outlook for the future. Therefore, we should resolve to create a public work relief program, already known as the Civilian Conservation Corps, or CCC. The agency will ensure we can provide stable pay and good labor to those looking to work while guaranteeing the conservation of America’s stunning landscape and the development of her natural resources in rural areas."
+
+ USA_Alleviate_Household_Unemployment:0 "Alleviate Household Unemployment"
+ USA_Alleviate_Household_Unemployment_desc:0 "Beyond the youth unemployment situation, many who were already in the workforce have been humiliated by layoffs and company restructures. Somewhat like the Civilian Conservation Corps, creating the Federal Emergency Relief Administration (FERA) would provide a pathway for positions within the federal government. While these would be basic jobs in newly established public lands and facilities, the importance lies in the self-esteem and psychological benefits of having a secure vocation and restoring trust in the United States’ government."
+
+ USA_Provide_Aid_and_Relief:0 "Provide Aid and Relief"
+ USA_Provide_Aid_and_Relief_desc:0 "Furthering the successful alphabet agencies of the New Deal, the Federal Surplus Commodities Corporation, despite its lengthy name, has a simple objective: Diverting excess agricultural products away from the open market and directly to starving Americans. It seems counter-productive, but at present, many consumables are stagnating in warehouses, due to a massive stockpile from farmers unable to sell at competitive prices. Using the FSCC, we can use federal money to purchase the extras and distribute them to families who desperately need them. Less waste, more haste."
+
+ USA_Drinks_on_the_House:0 "Drinks on the House"
+ USA_Drinks_on_the_House_desc:0 "Brought in to prevent alcohol-related issues such as alcoholism and domestic violence from occurring, the prohibition of the production, importation, transportation and sale of alcohol, or the Eighteenth Amendment, has been effective in that regard. However, it has inadvertently caused some other problems due to it’s ineffective and uneven enforcement. The law has resulted in an increase in crime and has made the general populace agitated and disgruntled, which is not something we want considering the circumstances our nation finds itself in. To keep our country united in these trying times, and acquire more support for our government, we should make the obvious choice and repeal the amendment."
+
+ USA_Raise_Food_Prices:0 "Raise Food Prices"
+ USA_Raise_Food_Prices_desc:0 "In order to further the economic recovery, being able to provide food on the table is a source of great American pride. While the Agricultural Adjustment Act was a good start, further value manipulation is needed to restore trust in goods. Raising the prices ever so slightly would provide a scarcity effect, thereby stabilizing the supply and demand of foodstuffs. This way, the cost of certain items would remain the same over a longer period of time and not fluctuate from week to week. A small act to return faith in the open market."
+
+ USA_Push_Public_Works_Budget:0 "Boost the Public Works Budget"
+ USA_Push_Public_Works_Budget_desc:0 "As the global Great Depression continues, several new economic theories have emerged. The most prominent of these, the school of Keynesian Economics, has the seemingly counterintuitive idea that the best way to recover from our economic woes is to start spending. Keynesians suggest that during recessions, the most important influence on economic output is demand, rather than supply, and that the government can stimulate demand by spending money on public works projects.\n\nBy investing large amounts of money into infrastructure projects like new schools, roads, bridges, airports, hospitals, and dams, we can provide our nation's workers with steady jobs and decent pay. With their most basic needs taken care of, Americans will finally be able to spend again, putting customers back in long-shuttered stores."
+
+ USA_Reduce_Agricultural_Surplus:0 "Reduce Agricultural Surplus"
+ USA_Reduce_Agricultural_Surplus_desc:0 "While the FSCC deals with the surplus food at a higher level, the difficult issue must be attacked at the roots. The Agricultural Adjustment Act is designed to do just that. Once passed, it will subsidize farmers to NOT plant on certain sections of their lands. Furthermore, the government will buy excess livestock in order to keep the prices of cattle competitive. While we are hoping farmers will be able to rally and profit after the depression ends, it is vital we make sure that overproduction does not halt initial agricultural gains. After such a disastrous economic collapse, we must relearn to walk before we can run."
+
+ USA_Invest_in_Public_Works:0 "Invest in Public Works"
+ USA_Invest_in_Public_Works_desc:0 "The Wealth of America is not just in her cities, her vast geography remains her biggest blessing. With the hardships of the depression, many important civil construction projects have been shelved indefinitely. This has provided another opportunity for getting Americans back to work. Included in the National Industrial Recovery Act, the Public Works Administration will provide contracts to private construction companies to hire unemployed construction workers and begin creating these projects. Roads, schools, railroads, hydroelectric dams, bridges and airports are only a few of the potential proposals for the administration. More than wealth, however, it could prove a multiplier for the stagnant economy, raising the future prospects of the nation as a whole."
+
+ USA_Civil_Works_Administration:0 "Civil Works Administration"
+ USA_Civil_Works_Administration_desc:0 "Many citizens have lost their jobs and are currently unemployed because of the Great Depression, the President has thought of and intends to implement policies that over a period of time will bring back prosperity to the nation and its habitants. But these policies are long in coming and implementation, the average citizen needs work as soon as possible if he is to survive these testing times. As part of the “New Deal” being implemented nationwide, the President has decreed the formation of the Civil Works Administration to generate short term jobs for the most affected echelons of the society, the CWA will provide manual work to many by undertaking several public works and construction projects, though a solution, it is suitable for a short term duration only, instead the nation requires long term policies by the Federal government to be able to fully ever eliminate mass unemployment."
+
+ USA_Protect_Currency:0 "Protect the Currency"
+ USA_Protect_Currency_desc:0 "As part of the New deal reforms aimed at combating the effects of the Great Depression in the country, the President has decided to pass the Gold Reserve Act. With the passage of this act the statutory price of gold will be increased, incentivizing imports of gold into the country, for whose accumulation the US Department of Treasury will be responsible. The act while encouraging gold miners all over the world to sell their gold in the USA will also devalue the dollar and hence reduce deflation. The increase in gold reserves will lead to an increase of the money supply in the Country, allowing for the counteracting of the ill effects of the current economic turmoil by the administration."
+
+ USA_Blue_Eagle_Campaing:0 "The Blue Eagle Campaign"
+ USA_Blue_Eagle_Campaing_desc:0 "Symbols can be more than just a representation. Much like flags, under the right conditions, they can be a rallying point for entire societies. The Blue Eagle is just one of those cases. Originally created to mobilize political support for the new department, it is displayed in factories and shops, by companies, to show compliance or support for the National Recovery Administration. Provided to many employers, posters, letterheads and many other items are promoting a return to national pride in work. The Eagle also has an advertising effect, with many Americans only buying products that proudly display the image on their labels. It has been a smashing success, another badge of American resolve and restoration in the nation."
+
+ USA_Provide_Affordable_Power:0 "Provide Affordable Power"
+ USA_Provide_Affordable_Power_desc:0 "Even by Depression standards, the Tennessee Valley of the southern states is in extremely dire economic conditions. Forests are burned each year by fire, and the best timber has already been slashed and sapped. Depleted farms and fields have ruined the agricultural prospects, leading to some families having an annual income of less than $100. With malaria rates creeping in the low 30%, outside observations of third world settings are difficult to reject. Creating a federal corporation, specifically for the valley, would spur new economic opportunities. Rural electrification, large infrastructure projects and promoting better cultivation methods would go a long way to empowering and modernizing the American south."
+
+ USA_Abandon_Gold_Standard:0 "Abandon the Gold Standard"
+ USA_Abandon_Gold_Standard_desc:0 "By tying the dollar to gold, we are not giving ourselves the best chance possible of recovering from the Great Depression. The gold standard has forced the government to keep interest rates high in order to protect the gold reserves, but this has made it too expensive for people to borrow. This situation must be resolved immediately. Once we abandon the gold standard, we will then be able to print more money and lower interest rates, which should hopefully stimulate the economy, and bring us back on track."
+
+ USA_Reduce_Fraudulent_Wall_Street_Activities:0 "Reduce Fraudulent Wall Street Activities"
+ USA_Reduce_Fraudulent_Wall_Street_Activities_desc:0 "Right now in the country, the sale of securities is regulated by state laws termed as “Blue Sky Laws”. These laws only allow the offering and sale of securities on a purely “merit review” basis, making investment in new and upcoming businesses very prohibitive. The federal government in an attempt to create better “disclosure” for investors, curb some of the unethical practices prevalent in the market and to reencourage investment by the public has decided to pass the Federal Securities Act. The law as part of the “New Deal” by the President will in essence allow investments into any and all public companies, as long as all the necessary information is provided to the prospective investor."
+
+ USA_Restore_Confidence_in_the_Banks:0 "Restore Confidence in the Banks"
+ USA_Restore_Confidence_in_the_Banks_desc:0 "One of the primary reasons for the Great Depression was the widespread panic about the American banking system due to fears over the strength of the institutions. Bank runs, sudden demands by large numbers of customers to withdraw all their funds at almost the same time, brought down many banking corporations as depositors attempted to withdraw more money than the bank had available. In order to win back the public’s trust and to encourage them to deposit their money, the Federal government will be creating the Federal Deposit Insurance Corporation. Although the new organisation has many duties, its prime objective will be to provide insurance to depositors in both commercial and savings banks, and it will be aided in its efforts by the US Department of Treasury, who will be providing a direct line of credit."
+
+ USA_Road_Goes_Both_Ways:0 "The Road Goes Both Ways"
+ USA_Road_Goes_Both_Ways_desc:0 "Our tariff rates are among the highest in the world, and our protectionist policies are sure to be having an effect on not only the global recovery from the Great Depression but our own as well. To counteract this, we must make a complete reversal and sign into law the Reciprocal Tariff Act. This bill will not only begin to liberalize our trade policy but will allow the President himself to negotiate with foreign nations to reduce their tariffs in return for a reduction of our tariffs. This will usher in a new age of trade and should play a part in stimulating the global recovery from this economic crisis that we find ourselves in."
+
+ USA_Regulate_Securities_Exchange:0 "Regulate the Securities Exchange"
+ USA_Regulate_Securities_Exchange_desc:0 "While the Federal Securities act has been largely successful in promoting ethical practises, its main jurisdiction is in the “primary” market, i.e. it tailors only to the exchange between the company and the investor, leaving the “secondary” market, which involves third parties, free to continue to employ exploitative practices. In pursuant to the government’s objective to promote a free and fair market, where individuals always have full “disclosure” about the companies they intend to invest in, the Federal government will be enacting the Federal Securities Exchange Act. This act will finally allow the practice of “disclosures” to be extended to the secondary market."
+
+ ## Second Deal
+ USA_The_Second_New_Deal:0 "The Second New Deal"
+ USA_The_Second_New_Deal_desc:0 "President Roosevelt’s New Deal has so far been an unmitigated success, as the most pressing issues are being dealt with, relief is being sent out to the people who need it the most, and unemployment is beginning to fall slowly. The president’s work, however, is far from over. Until the end of his term, he will attempt to enact the second stage of his plans, a “Second New Deal”. The bills and policies that Roosevelt intends to pass will tackle issues that are rooted deep in society and will create a strong foundation to build upon in the future. He will have to remain politically astute, however, as his political capital is not unlimited, and if he drops the ball, he could open himself up to a challenge from the Republican’s in the next election."
+
+ USA_Expand_Youth_Program:0 "Expand the Youth Programs"
+ USA_Expand_Youth_Program_desc:0 "As the Great Depression has continued to grip the American economy, unemployment and poverty have spiraled to record highs. These debilitating years have seen youth unemployment rise to 30% as the younger cohorts of the United States increasingly face the devastation of not being able to afford education. The New Deal needs to focus on the youth of our generation as well, or we may very well lose an entire generation if no action is taken. By Executive Order 7086, a new federal agency will be formed, the National Youth Administration, which will provide grants to youth in exchange for part-time work positions in various sectors of the education system along with vocational programs and occupational placements in a wide variety of fields, including recreation, public service, education, the arts, research and development, agriculture, and construction. The youth are the future of the nation, and under the guidance of the National Youth Administration, they will ensure a bright future for America."
+
+ USA_Curtail_Unfair_Labor_Practices:0 "Curtail Unfair Labor Practices"
+ USA_Curtail_Unfair_Labor_Practices_desc:0 "In 1932, Senator Hugo Black proposed an act to curb unfair labor practices and to provide rights to the average American worker. The current administration as part of the New Deal, has heavily revised Senator Black’s initial draft to pass the Fair Labor Standards Act. The revised proposal will allow for an eight-hour day and a forty-hour work week, and workers will earn wages for an extra four hours of overtime. Along with this, a minimum wage will be established, and overtime pay must be one-and-a-half times regular pay. Children under eighteen will be denied from working in dangerous conditions, and children under sixteen cannot work in the manufacturing or mining industries or during school hours. This act has received a great deal of support from the President himself, meaning that it will pass without issue."
+
+ USA_Aid_the_Elderly:0 "Aid the Elderly"
+ USA_Aid_the_Elderly_desc:0 "We are the only modern, industrialised country that doesn’t possess a national system of social security. A large majority of our elderly population is drowning in poverty and the unemployed are living on the streets. This image of apathy is not something we want to project to the world, and certainly not to our own people, so something has to change. There recently has been a call for direct payments by the government to those who need them, providing the momentum that we need to erect a major pillar in the social welfare foundation that we are trying to construct."
+
+ USA_Relieve_Puerto_Rico:0 "Relieve Puerto Rico"
+ USA_Relieve_Puerto_Rico_desc:0 "Puerto Rico since its incorporation into the country has always been neglected. Its economy is heavily tied and dependent on the mainland through a series of economic arrangements that heavily favor US companies who hold monopoly over the whole cash crops sector. Even before the Great Depression, negative developments on the island and world economies perpetuated an unsustainable cycle of subsistence for many Puerto Rican workers. Generally, the living standards are very low and dangerous working and living conditions cause high mortality rates due to workplace accidents and diseases such as dysentery, diarrhea, malaria, and tuberculosis. To develop and fix the sorry state of affairs on the island, the Puerto Rico Reconstruction Administration has been created, falling under the authority of the Department of the Interior and the Farm Security Administration. Its primary goals will be to establish long term economic stability in Puerto Rico through job creation, land distribution, public works projects, as well as environmental and health initiatives. The task of developing Puerto Rico may be an arduous one, but one that is necessary and critical for national development."
+
+ USA_Federal_Petroleum_Board:0 "The Federal Petroleum Board"
+ USA_Federal_Petroleum_Board_desc:0 "America is blessed with many things, and among the treasures of its land is the black gold underneath. However, in recent times the price of oil has fallen dramatically, causing some serious damage to the petroleum industry. The Connally Hot Oil Act, named after Senator Tom Connally, will be enacted to protect the industry from "contraband oil," cartelizing the industry to stabilize the falling prices of oil. Along with this objective, it will also grant the President authority to prohibit the transportation of petroleum that is produced or withdrawn from storage in excess of the amount permitted by the necessary Federal authorities. Though this act may be viewed as excessive, it is a necessary step to safeguard America’s Petroleum industry."
+
+ USA_Improve_Nation_Infrastructure:0 "Improve the Nation's Infrastructure"
+ USA_Improve_Nation_Infrastructure_desc:0 "The quality of the infrastructure in our country is inadequate at supporting our current society, this is no secret, and with unemployment still high, we have a golden opportunity to hit two birds with one stone. The stone in question will be the Works Progress Administration, one of the president’s New Deal Agencies. The WPA will provide paid employment to millions of unskilled laborers who will then carry out a wide range of public works projects across the nation, reviving our derelict infrastructure."
+
+ USA_Threaten_Big_Corporations:0 "Threaten Big Corporations"
+ USA_Threaten_Big_Corporations_desc:0 "America was characterized as the land of the opportunity, where the poorest soul from Europe could strike out a fortune with sheer hard work. Right now the nation is mired by an unprecedented economic crisis, the likes of which the world has never seen before, millions are unemployed, many are starving everyday, but the “Big Companies” in their lofty offices in Chicago, New York and the other metropolitan areas continue to wean off the poor, they hoard, they withhold salary checks, lay off workers without any due warning. They have become the dark side of the “Opportunities” of America, exploiting the populace in midst of the hardships they face, the Companies need to be reminded of their duty to the nation which has supported them. Now it is their time to repay in kind."
+
+ USA_Introduce_the_Wealth_Tax:0 "Introduce the Wealth Tax"
+ USA_Introduce_the_Wealth_Tax_desc:0 "The Great Depression has affected and permeated through all sections of American society, from the top to the bottom of the hierarchy. However, while the “High” society still has many of its comforts, the middle and lower echelons have been pushed to the brink of destitution and desolation. The Revenue Act aims to soak the rich, penalize bigness, and help balance the budget by raising federal income tax on higher income levels. By introducing the "Wealth Tax”, incomes over $1 million per year will be liable to pay. There is strong opposition from businesses, the rich, and conservatives from both parties about such a measure, but America needs to recover, and to recover it needs every section of the Society to do its part, sacrifices must be made."
+
+ USA_Electrify_Countryside:0 "Electrify the Countryside"
+ USA_Electrify_Countryside_desc:0 "Long neglected by the electrical corporations, the majority of the nation's countryside does not have access to electricity. Long thought to be economically infeasible, the nation’s farm homes are not part of any major electrical grids, but usage of a 7200 volt distribution network can make transmission much easier in the long distances involved in the countryside. The President and the Congress will be signing the Executive Order 7037 which would create the Rural Electrification Administration. Funding will be channeled through cooperative electric power companies, these member-owned cooperatives will purchase power on a wholesale basis and distribute it using their own network of transmission and distribution lines."
+
+ USA_Ressetle_Dust_Bowl_Families:0 "Ressetle Dust Bowl Families"
+ USA_Ressetle_Dust_Bowl_Families_desc:0 "A series of severe dust storms have greatly damaged the ecology and agriculture of the American and Canadian prairies, they have caused a severe drought and a failure of dryland farming methods to prevent the wind erosion, with unanchored soil turning to dust, which the prevailing winds blew away in huge clouds that blacken the sky, forming massive choking billows of dust. Thousands of stricken and affected families are in need of immediate help, Rexford Tugwell an advisor to the President has been tasked with heading the Resettlement Administration. Among its duties, its primary goal would be to relocate the struggling urban and rural families. A massive undertaking, the government plans to resettle destitute families from agriculturally exhausted, worn-out land to green-belt cities, which would act as models for a cooperative agriculture future."
+
+ USA_Support_American_Artisans:0 "Support American Artisans"
+ USA_Support_American_Artisans_desc:0 "In times of need the artist, no less than the manual worker, is entitled to employment as an artist at the public expense, the arts, no less than business, agriculture, and labor, are and should be the immediate concern of the ideal commonwealth. Federal Project Number One, also referred to as Federal One, is the collective name for a group of planned projects under the Works Progress Administration, a New Deal program in the United States. Each of these projects will cater to the needs of each of their respective art category, to prevent undue Federal influence on the artisans and their works, all projects will operate without discrimination regarding race, creed, color, religion, or political affiliations."
+
+ USA_an_Act_of_Neutrality:0 "An Act of Neutrality"
+ USA_an_Act_of_Neutrality_desc:0 "The long standing view and the conviction of many Americans is that the U.S. entry into the Great War had been orchestrated by bankers and the arms industry for profit reasons, this and other factors have strengthened the position of isolationists and non-interventionists considerably in the government. While the President himself is opposed to neutral policies, believing that they would restrict America's ability to help friendly nations, and even though he can technically veto to prevent such a policy from coming into effect, right now the domestic issues are so far flung that the President cannot afford to lose any of the Congressional support, lest he be unable to fully implement all of the New Deal legislations and the reforms he intends to carry out in the country. Due to his own reasons regarding the political front and the general populace’s support for isolationism, the president will be signing the Neutrality act, which effectively officiates America’s Isolationist and non interventionist stance."
+
+ USA_A_Defense_Against_Agression:0 "A Defense Against Aggression"
+ USA_A_Defense_Against_Agression_desc:0 "Despite what the country’s policy makers intended with an isolationist stance, it seems every friend of America or any other Democracy for that matter is threatened, be it across the Atlantic or across the Pacific. Thousands have died in the last few years, while Americans have been sitting with their hands bound, long has such sordid state of affairs gone and on with no end in sight. The President has ordered the government to prepare the nation to protect itself from any and all manners of aggression, aid will be extended to friends of America who have long waged war against evil and the unjust. America is a giant, a sleeping one at that, it will be woken up from its slumber to protect Democracy and Liberty across the breadth of the globe."
+
+ USA_Prevent_Another_Bonus_Army:0 "Prevent Another Bonus Army"
+ USA_Prevent_Another_Bonus_Army_desc:0 "The Bonus Army was a group of demonstrators – made up of 17,000 veterans, together with their families and affiliated groups, who gathered in Washington, D.C. in mid-1932 to demand early cash redemption of their service certificates which could not be redeemed until 1948, the media referred to them as the "Bonus Army" or "Bonus Marchers". Many of the war veterans had been out of work since the beginning of the Great Depression. Eventually on orders of the then President Herbert Hoover the demonstration was driven out by General MacArthur . As the Great depression has continued, there is every possibility that such an incident will happen again, despite the President’s protests the Congress has decided to pass the Adjusted Compensation Payment Act to compensate the veterans early. Veterans will be issued with US Treasury Bonds as a form of economic stimulus and relief, as it is estimated that many bonds will be cashed in promptly and constitute an efficient economic stimulus since little government administration is needed, the monies will likely be spent without delay, and the entire process does not require the long lead time of a public works program."
+
+ ### Military Tree
+ USA_Prepare_to_Move_the_US_Department_of_War:0 "Prepare to Move the US Department of War"
+ USA_Prepare_to_Move_the_US_Department_of_War_desc:0 ""
+
+ ## US Army Branch
+ USA_the_US_Army:0 "The US Army"
+ USA_the_US_Army_desc:0 "The US Army is the branch of the United States Armed Forces responsible for its ground and airborne assets. With our country’s entry in the Great War, the Selective Service Act of 1917 was enacted to expand the Army through conscription. The Subsequent end of the conflict led to the decrease in strength of the Army. Today dark clouds loom all over Europe and in Asia. Instability and tensions threaten Europe, while Japan’s sun is rising all over the Pacific, in all cases despite our neutrality, involuntarily we may be well pulled into a conflict the likes of which the world has never seen. The US Army historically has never been a particularly strong one, the British have the Battle of Waterloo, the Germans the Battle or Sedan, and the French the Battle of Austerlitz, the US Army’s limited experience include fighting its own countrymen, a few embarrassing battles in Mexico, and a few battles near the end of the Great War. The President has asked Edward Burke and James Wadsworth to begin drafting the Selective Training and Service Act to allow for the first time ever, peacetime conscription in the United States of America."
+
+ USA_Call_National_Guard_into_Active_Service:0 "Prepare to Federalize the National Guard"
+ USA_Call_National_Guard_into_Active_Service_desc:0 "The United State Army since its inception has been small, in times of conflicts the small numbers of the Regular Army were supplemented by state militias. After the Militia Act of 1903, the state militias were organized into the National Guard, which assumed the roles and duties of the state militias. Today despite repeated American declarations of neutrality and despite our attempts to promote and foster peace, it seems that our country would most likely be involuntarily drawn into a conflict. The United States Army is after much hesitancy, is finally being expanded and reformed, but for all intents and purposes the National Guard remains the general reserve of the Army and must be prepared to be activated as soon as possible."
+
+ USA_the_Louisiana_Maneuvers:0 "The Louisiana Maneuvers"
+ USA_the_Louisiana_Maneuvers_desc:0 "The US military as a whole has not been tested since the Great War, and as such, has fallen behind many of the other armies across the world. With tensions rising in Europe and across the world, we need to ensure that it is modernised and fully prepared for combat as soon as possible. The first step is to evaluate the current quality and readiness of our troops, officers and logistics, which we shall do by scheduling large-scale war games in the wide, open territories of Louisiana. As soon as these exercises are completed, we can then begin the long and time-consuming process of revamping and modernising the systems already in place."
+
+ USA_Eisenhower_Grand_Battleplan:0 "Eisenhower's Grand Battleplan"
+ USA_Eisenhower_Grand_Battleplan_desc:0 "General Dwight D. Eisenhower is a rising star throughout the US Army, and rightly so. His ability to organise is second to none and he fully understands the importance of extensive planning and analysis. The general is also a strong leader, recognising the need to delegate in order to keep his eyes on the big picture. If we are to get involved in a large scale war with multiple fronts that extend for miles and miles, our Chief of Army will need to be a capable leader that can plan and organise effectively. Eisenhower fits that description perfectly."
+
+ USA_Reorganize_Field_Command_Structure:0 "Reorganize Field Command Structures"
+
+ USA_Marshall_Overwhelming_Firepower:0 "Marshall's Overwhelming Firepower"
+ USA_Marshall_Overwhelming_Firepower_desc:0 "The effectiveness of artillery was proven in the Great War with both its physical and psychological effects taking a toll on the enemy and playing a substantial role in their defeat. With manpower a precious commodity despite its abundance, it would be rather wise to reform our way of thinking to along the lines of throwing easily produced shells at the enemy rather than soldiers, who are considerably harder to replace. A proponent of this style of warfare, General George C. Marshall, is also a highly capable organiser and leader, a perfect fit for the position of Army Chief of Staff."
+
+ USA_Tank_Destroyer_Doctrine:0 "The Tank Destroyer Doctrine"
+ USA_Tank_Destroyer_Doctrine_desc:0 "Tanks and other mechanised vehicles will almost certainly be the main weapons our troops will face if we engage an enemy on the battlefield. Those armored beasts will provide a great challenge and if used effectively, could absolutely decimate our forces. Regardless of what other tactics we employ, we must prevent this from becoming reality. The plan will be to allocate plenty of resources to developing and coming up with anti-tank strategies and technologies, which will surely give our troops the best chance possible of defeating their adversaries."
+
+ USA_Make_Thunder_Louder:0 "Make the Thunder Louder"
+
+ USA_Patton_Advance_Armour:0 "Patton's Armored Advances"
+ USA_Patton_Advance_Armour_desc:0 "The use of tanks and other armoured vehicles in a spearhead attack instead of in their traditional role of infantry support is a new and radical idea that is increasing in popularity across the world. With our army currently in the phase of reformation and modernisation, now would be the perfect time to adopt a fresh doctrine that could potentially throw our enemies off-balance. To usher in this new era of warfare into our armed forces, there would be no better man than the bold, decisive, General George S. Patton. A natural leader, he has advocated for this style of warfare for years and would certainly be the best choice for Army Chief of Staff."
+
+ USA_Use_of_Combined_Arms:0 "The Use of Combined Arms"
+
+ USA_Form_Airbone_Division:0 "Form Airborne Divisions"
+ USA_Form_Airbone_Division_desc:0 "Analysts in the Department of War responsible for observing and analyzing foreign military capabilities have recently spoken about a novel concept of using large formations of airborne troops, after witnessing their usage and demonstrations by some of the armies in Europe. Their usage is varied and flexible, they can be employed for seizing key points such as bridges to speed up the advance of the traditional ground forces, or for risky yet rewarding maneuvers to create “vertical envelopments”, i.e. to cut off retreating paths of the enemy formations to encircle and destroy them, with the paratroopers acting as the anvil and the ground armies hammering to destroy the enemy army. Keeping the interest of the nation at heart and the opinions of several of our strategic experts, the formation of several division-sized airborne units for the Army has been ordered."
+
+ USA_Cavalry_of_the_Future:0 "The Cavalry of the Future"
+ USA_Cavalry_of_the_Future_desc:0 "According to a few radical generals, advancements in the field of warfare have made the role of conventional cavalry and to an extent, the foot soldier, obsolete. These men often provide the example of General John J. Pershing’s costly frontal assaults during the Great War, which caused massive casualties to further their case. These theorists stray away from the conventional school of thinking and propose that tanks and other armored vehicles are the way to win the wars that are sure to come. Whatever may be the case, the infantryman is supposed to be slow, while our cavalry is supposed to move fast and strike hard. However, this is not necessarily the case. The current cavalry fielded by the US Army is cumbersome, slow and often extremely vulnerable, and it is obvious that the rules of warfare have changed. Whether they may be used for infiltration tactics or in conjunction with armor, the first step to evolve our Army into a modern, capable of force would be to equip them with motorized transport along with the likes of light armored vehicles such as scout cars which will sufficiently answer the long drawn question of how to provide troops with mobility along with adequate protection."
+
+ USA_Sherman_Tank:0 "The Sherman Tank"
+ USA_Sherman_Tank_desc:0 "Working upon its predecessor - the M3 medium tank, which was supposed to be a stopgap measure, the US Army Ordnance Department has come up with the design of the M4 “Sherman” Medium Tank. Working upon past domestic lessons, while inculcating some through the British and Canadian inputs, the M4 Sherman has been designed to be cheap, reliable and of adequate quality, the Tank is supposed to be highly reliable owing to the utilization of a vertical volute spring suspension, rubber-bushed tracks, and a rear-mounted radial engine with drive sprockets in front and light enough to be easily loaded onto cargo ships and trains for quick transportation overland and overseas. Its chassis is also versatile and can be adopted for a host of other roles, which all add to the value of this particular armored vehicle."
+
+ USA_Better_Equipement_Better_Results:0 "Better Equipment, Better Results"
+ USA_Better_Equipement_Better_Results_desc:0 "The regular infantryman is the backbone of any army, and if they are not supplied with the best equipment and resources on offer, that backbone will be weak. This is an unacceptable possibility. In order to keep the army as strong as possible and keep our great nation as safe as possible, we must stay ahead of the curve and relentlessly continue improving upon the equipment and tools currently provided. This may be a simple equation, but it’s true nevertheless: Better equipment yields better results."
+
+ USA_Information_on_the_Battlefield:0 "Information on the Battlefield"
+
+ USA_Broad_Front:0 "The Broad Front"
+
+ USA_Instill_Fear_Into_Enemy_Pilots:0 "Instill Fear Into Enemy Pilots"
+ USA_Instill_Fear_Into_Enemy_Pilots_desc:0 "We will not always have friendly faces in the skies. That is just the reality of war. The effects of enemy aerial superiority have proven to be devastating on ground troops, and if we are to prevent our armies from making the mistakes as other armies, being decimated from the skies, we must make some serious investments into developing effective anti-air technology. These strides forward will make our armies capable of defending themselves from attack from the air and will make those enemy pilots think twice about flying towards their potential demise."
+
+ USA_Improve_Gun_Motor_Carriages:0 "Improve the Gun Motor Carriages"
+
+ USA_Shock_and_Awe:0 "Shock and Awe"
+
+ USA_the_Only_Sure_Defense_is_Offense:0 "The Only Sure Defense Is Offense"
+ USA_the_Only_Sure_Defense_is_Offense_desc:0 "The United States Military is technologically advanced, well funded, and has a strong industrial base to build on, which isn’t something that can be said for most other militaries around the world. We must use these things to our advantage, take risks, be aggressive on the battlefield and relentlessly push back the enemy, regardless of the conditions. This may be reckless to some, but if you don’t march forward and stay on the front foot, you won’t get closer to the enemy’s capital, and if you don’t take risks, you won’t win a war."
+
+ USA_Armoured_Research_Development_Program:0 "Armored Research-Development Program"
+ USA_Armoured_Research_Development_Program_desc:0 "Armored vehicles like tanks are sure to be the most common weapon used in war for the next few decades. To ensure American dominance on the battlefield in these times, we must stay ahead of the curve technologically by constantly creating new and innovative ideas. However, we shouldn’t work alone. It would be prudent to work together with another democratic nation on this endeavour, as not only will the process be quicker, we can pool together our expertise and create a high-quality tank that will benefit both parties."
+
+ USA_Attack_Attack_Attack:0 "Attack, Attack, and Attack Some More!"
+ USA_Attack_Attack_Attack_desc:0 "George Patton is one of the more radical and aggressive officers serving in the US Army and dedicates a special emphasis on offensive operations. While he has his fair share of detractors, his theory of continuous and relentlessly attacking the enemy offers a large number of merits suitable to America’s strengths, he advocates the usage of large bodies of armored vehicles as leading a furious and relentless charge against the enemy to prevent him from regrouping and organizing a defense to the point where he’s so exhausted that he cannot offer any significant resistance and our troops can simply brush aside him."
+
+ USA_Expand_Engineer_Batallion:0 "Expand the Engineer Combat Battalion"
+ USA_Expand_Engineer_Batallion_desc:0 "The Role of the US Army Corps of Engineers was instrumental in our victory in the Great War, and they will play a pivotal role in future engagements. From the construction of makeshift bridges at important crossings, to sabotage behind enemy lines, engineers provide a wide variety of military applications. Due to our isolation from the European Theater, it may become necessary for engineers to assist in Naval assaults.  If we want to be able to fight a war in Europe or the Pacific, we need to expand their capabilities, and provide them with a closer integration with their division."
+
+ USA_M47_Patton:0 "The M47 Patton"
+ USA_M47_Patton_desc:0 "Field usage of the current generation of Heavy Tanks has proven their capabilities to be seriously lacking, the M26 Pershing has seen to be having insufficient mobility and being very unreliable. Working upon our past lessons and addressing the immediate need of a sufficiently armoured and gunned tank of the heavy category while boasting the mobility of lighter tanks; knowing the M46 was a stopgap solution and the T42 will not be possibly ready for field deployments anytime soon with officers of the Armored Force having serious misgivings about its projected performance, the M47 Patton Tank has been proposed. The M47, named in honour of our country’s foremost proponent of tank warfare, boasts the turret of the T42 mounted on the existing M46 hull, while some are voicing concerns over the M47 being another stopgap solution, army officials feel the improvements over the M46 in firepower and armor are worth the risk. Already the Detroit Arsenal has designated a production line for the production M47, as soon as the final research work and field trials are completed."
+ 
+ USA_teachers_union:0 "Teachers' Union Protests"
+
+ ## War Plan Branch
+ USA_War_Plans_Division:0 "War Plans Division"
+ USA_War_Plans_Division_desc:0 ""
+
+ USA_American_Theater:0 "The American Theater"
+ USA_American_Theater_desc:0 ""
+
+ USA_European_Theater:0 "The European Theater"
+ USA_European_Theater_desc:0 ""
+
+ USA_Pacific_Theater:0 "The Pacific Theater"
+ USA_Pacific_Theater_desc:0 ""
+
+ USA_Rainbow_Plans:0 "The Rainbow Plans"
+ USA_Rainbow_Plans_desc:0 ""
+
+ USA_Reafirm_Monroe_Doctrine:0 "Reafirm the Monroe Doctrine"
+ USA_Reafirm_Monroe_Doctrine_desc:0 ""
+
+ USA_Leave_Them_to_their_Device:0 "Leave Them to Their Devices"
+ USA_Leave_Them_to_their_Device_desc:0 ""
+
+ ## USACE Branch
+ USA_Expand_the_USACE:0 "Expand the USACE"
+ USA_Expand_the_USACE_desc:0 ""
+
+ USA_Begin_Manhattan_Project:0 "Begin the Manhattan Project"
+ USA_Begin_Manhattan_Project_desc:0 ""
+
+ USA_Military_Construction_Program:0 "The Military Construction Program"
+ USA_Military_Construction_Program_desc:0 ""
+
+ USA_a_Unified_High_Command:0 "A Unified High Command"
+ USA_a_Unified_High_Command_desc:0 ""
+
+ USA_Form_the_OSS:0 "Form the OSS"
+ USA_Form_the_OSS_desc:0 ""
+
+ USA_X-2_Branch:0 "The X-2 Branch"
+ USA_X-2_Branch_desc:0 ""
+
+ USA_Sow_Distrust_Among_the_Enemy:0 "Sow Distrust Among the Enemy"
+ USA_Sow_Distrust_Among_the_Enemy_desc:0 ""
+
+ USA_Use_Terror_Propaganda_At_Home:0 "Use Terror Propaganda at Home"
+ USA_Use_Terror_Propaganda_At_Home_desc:0 ""
+
+ USA_Establish_Advanced_OSS_Training_Camps:0 "Establish Advanced OSS Training Camps"
+ USA_Establish_Advanced_OSS_Training_Camps_desc:0 ""
+
+ USA_Train_Resistance_Movements:0 "Train Resistance Movements"
+ USA_Train_Resistance_Movements_desc:0 ""
+
+ USA_National_Security_Act:0 "National Security Act"
+ USA_National_Security_Act_desc:0 ""
+
+ ## USAF Branch
+ USA_the_US_Air_Corps:0 "The US Army Air Corps"
+ USA_the_US_Air_Corps_desc:0 ""
+ USA_Establish_General_Headquarters:0 "Establish General Headquarters Air Force"
+ USA_Establish_General_Headquarters_desc:0 ""
+ USA_Call_for_Increased_Plane_Production:0 "Call for Increased Plane Production"
+ USA_Call_for_Increased_Plane_Production_desc:0 ""
+ USA_Air_War_Plans_Division:0 "Air War Plans Division"
+ USA_Air_War_Plans_Division_desc:0 ""
+ USA_Limit_the_Corps_Autonomy:0 "Limit the Corps Autonomy"
+ USA_Limit_the_Corps_Autonomy_desc:0 ""
+ USA_Listen_to_the_Old_Leatherface:0 "Listen to the Old Leatherface"
+ USA_Listen_to_the_Old_Leatherface_desc:0 ""
+ USA_Prove_the_Use_of_the_Figher_Once_More:0 "Prove the Use of the Fighter Once More"
+ USA_Prove_the_Use_of_the_Figher_Once_More_desc:0 ""
+ USA_Kenneys_Ground_and_Air_Cooperation:0 "Kenney's Ground and Air Cooperation"
+ USA_Kenneys_Ground_and_Air_Cooperation_desc:0 ""
+ USA_a_Supporting_Role:0 "A Supporting Role"
+ USA_a_Supporting_Role_desc:0 ""
+ USA_New_Pursuit_Strategies:0 "New Pursuit Strategies"
+ USA_New_Pursuit_Strategies_desc:0 ""
+ USA_the_A36_Modification:0 "The A-36 Modification"
+ USA_the_A36_Modification_desc:0 ""
+ USA_Further_Develop_the_Thatch_Weave:0 "Further Develop the Thatch Weave Modification"
+ USA_Further_Develop_the_Thatch_Weave_desc:0 ""
+ USA_a_More_Independent_Air_Force:0 "A More Independent Air Force"
+ USA_a_More_Independent_Air_Force_desc:0 ""
+ USA_HL_Georges_Bomber_Mafia:0 "HL George's Bomber Mafia"
+ USA_HL_Georges_Bomber_Mafia_desc:0 ""
+ USA_a_Massive_Bomber_Fleet:0 "A Massive Bomber Fleet"
+ USA_a_Massive_Bomber_Fleet_desc:0 ""
+ USA_Hap_Arnolds_Compromise:0 "Hap Arnold's Compromise"
+ USA_Hap_Arnolds_Compromise_desc:0 ""
+ USA_Lift_the_Doctrines_Restriction_on_Fighters:0 "Lift the Doctrine's Restriction on Fighters"
+ USA_Lift_the_Doctrines_Restriction_on_Fighters_desc:0 ""
+ USA_Flying_Fortresses:0 "Flying Fortresses"
+ USA_Flying_Fortresses_desc:0 ""
+ USA_Expand_and_Redesignate_the_School_of_Applied_Tactics:0 "Expand and Redesignate the School of Applied Tactics"
+ USA_Expand_and_Redesignate_the_School_of_Applied_Tactics_desc:0 ""
+ USA_Crush_the_Enemys_Industrial_Web:0 "Crush the Enemy's Industrial Web"
+ USA_Crush_the_Enemys_Industrial_Web_desc:0 ""
+ USA_Fund_the_NACA:0 "Fund the NACA"
+ USA_Fund_the_NACA_desc:0 ""
+ USA_Commission_New_Carrier_Based_Aircraft_Designs:0 "Commission New Carrier-Based Aircraft Designs"
+ USA_Commission_New_Carrier_Based_Aircraft_Designs_desc:0 ""
+ USA_the_Mustang:0 "The Mustang"
+ USA_the_Mustang_desc:0 ""
+ USA_Enlarge_the_JPSL_Budget:0 "Enlarge the JPSL Budget"
+ USA_Enlarge_the_JPSL_Budget_desc:0 ""
+ USA_The_Convair_Peacemaker:0 "The Convair Peacemaker"
+ USA_The_Convair_Peacemaker_desc:0 ""
+ USA_The_Lockheed_Shooting_Star:0 "The Lockheed Shooting Star"
+ USA_The_Lockheed_Shooting_Star_desc:0 ""
+ 
+ #Ideas
+ USA_General_Headquarters_Airforce:0 "General Headquarters Airforce"
+ USA_General_Headquarters_Airforce_desc:0 ""
+ USA_Increased_Plane_Production:0 "Increased Plane Production"
+ USA_Increased_Plane_Production_desc:0 ""
+ USA_Improved_Thatch_Weave:0 "Improved Thatch Weave"
+ USA_Improved_Thatch_Weave_desc:0 ""
+ USA_Bomber_Fleet_Construction_Program:0 "Bomber Fleet Construction Program"
+ USA_Bomber_Fleet_Construction_Program_desc:0 ""
+ USA_The_Bomber_Mafia_Compromise:0 "The Bomber Mafia Compromise"
+ USA_The_Bomber_Mafia_Compromise_desc:0 ""
+ 
+ #Decisions
+ USA_Air_War_Plans_Division_Category:0 "Air War Plans Division"
+
+ ## USN Branch
+ USA_the_US_Navy:0 "The US Navy"
+ USA_the_US_Navy_desc:0 ""
+ USA_Bureau_of_Ships:0 "Bureau of Ships"
+ USA_Bureau_of_Ships_desc:0 ""
+ USA_Expand_the_Pacific_Defenses:0 "Expand the Pacific Defenses"
+ USA_Expand_the_Pacific_Defenses_desc:0 ""
+ USA_Two_Ocean_Navy_Act:0 "Two Ocean Navy Act"
+ USA_Two_Ocean_Navy_Act_desc:0 ""
+ USA_Expand_the_Marine_Corps:0 "Expand the Marine Corps"
+ USA_Expand_the_Marine_Corps_desc:0 ""
+ USA_Develop_the_Marine_Corps_Assault_Craft:0 "Develop the Marine Corps Assault Craft"
+ USA_Develop_the_Marine_Corps_Assault_Craft_desc:0 ""
+ USA_Develop_the_Marines_Amphibious_Armor:0 "Develop the Marine's Amphibios Armor"
+ USA_Develop_the_Marines_Amphibious_Armor_desc:0 ""
+ USA_the_Island_Hopping_Strategy:0 "The Island Hopping Strategy"
+ USA_the_Island_Hopping_Strategy_desc:0 ""
+ USA_Follow_in_the_Footsteps_of_the_Great_White_Fleet:0 "Follow in the Footsteps of the Great White Fleet"
+ USA_Follow_in_the_Footsteps_of_the_Great_White_Fleet_desc:0 ""
+ USA_Design_New_Cruiser_Killers:0 "Design New Cruiser-Killers"
+ USA_Design_New_Cruiser_Killers_desc:0 ""
+ USA_New_Faster_Battleships:0 "New Faster Battleships"
+ USA_New_Faster_Battleships_desc:0 ""
+ USA_the_Montana_Class:0 "The Montana Class"
+ USA_the_Montana_Class_desc:0 ""
+ USA_Carrier_Based_Power_Projection:0 "Carrier-Based Power Projection"
+ USA_Carrier_Based_Power_Projection_desc:0 ""
+ USA_Develop_the_Traditional_Carriers:0 "Develop the Traditional Carriers"
+ USA_Develop_the_Traditional_Carriers_desc:0 ""
+ USA_Invest_in_New_Baby_Flattops:0 "Invest in New Baby Flattops"
+ USA_Invest_in_New_Baby_Flattops_desc:0 ""
+ USA_the_Midway_Class:0 "The Midway Class"
+ USA_the_Midway_Class_desc:0 ""
+ USA_Invest_in_the_Gato:0 "Invest in the Gato"
+ USA_Invest_in_the_Gato_desc:0 ""
+ USA_Empower_the_Bureau_of_Aeronautics:0 "Empower the Bureau of Aeronautics"
+ USA_Empower_the_Bureau_of_Aeronautics_desc:0 ""
+ USA_Improve_the_Capital_Ship_Protectors:0 "Improve the Capital Ship Protectors"
+ USA_Improve_the_Capital_Ship_Protectors_desc:0 ""
+ USA_Devise_New_Anti_Submarine_Technologies:0 "Devise New Anti-Submarine Technologies"
+ USA_Devise_New_Anti_Submarine_Technologies_desc:0 ""
+ USA_the_Maritime_Commission:0 "The Maritime Commission"
+ USA_the_Maritime_Commission_desc:0 ""
+ USA_Deliver_Liberty_Across_the_Seas:0 "Deliver Liberty Across the Seas"
+ USA_Deliver_Liberty_Across_the_Seas_desc:0 ""
+
+ ### 1936 - FDR
+ USA_Third_Deal:0 "A Third Deal"
+ USA_Third_Deal_desc:0 "President Roosevelt’s first term policies and legislation were dominated by his promises of a “New Deal” for the American people. True to his nature, Roosevelt followed through on those words, passing into law effective bills and proposals in the “First” and “Second” New Deals. Now with his mandate renewed and the American people’s absolute confidence, a “Third New Deal” is well on its way. More liberal in substance than the past two, this third stage of legislation will prove to be more difficult to enact into law, but hopefully, well worth the fight."
+
+ USA_Create_Housing_Authority:0 "Create Housing Authority"
+ USA_Create_Housing_Authority_desc:0 "Even before the Depression, low-income families and the homeless were suffering from poor living conditions that affected their quality of life and chances for success. According to classic Progressive theory, the improvement of the situation of poorer citizens will very likely also improve their social behavior and their economic contribution to society. Created as a result of the Housing Act proposed by Senator Wagner and Representative Steagall, the United States Housing Authority is going to be an agency dedicated to lending money to the states to finance low-cost public housing projects. The provision of safe sanitary dwellings for the families with low income not only will reduce crime, but will also help to combat unemployment."
+
+ USA_Market_Pacific_Power:0 "Market Pacific Power"
+ USA_Market_Pacific_Power_desc:0 "Access to electricity remains one of the biggest differentiators between urban and rural areas. Since expanding wires and electric poles into rural areas is an unprofitable activity due to utility costs, only a few of them. To remedy this situation, the Bonneville Power Project is a hydroelectric project in the Columbia River that will guarantee full access to electricity in at least nine states of the Pacific Northwest at the same cost that urban areas. This agency will only be temporary until a full regional power authority can be established. Promoting rural electrification will increase the profits of the farms and improve the infrastructure of the West Coast."
+
+ USA_Farm_Security_Administration:0 "Farm Security Administration"
+ USA_Farm_Security_Administration_desc:0 "The FSA is a reorganization of the Resettlement Administration and the Federal Emergency Relief Administration. While it’s directive is to combat rural poverty, figuring out how to best do that is more difficult. Rural Rehabilitation tactics include purchasing submarginal land owned by poor farmers and increasing education and literature opportunities. Continuing the groundbreaking photography program should also be a priority, showing the plight of the forgotten America class toiling away on their downtrodden farms, to the rest of the American people and the entire globe."
+
+ USA_Packing_the_Court:0 "Packing the Court"
+ USA_Packing_the_Court_desc:0 "Though most of the president’s proposals in the First and Second New Deals were made into law, some of our suggestions faced stern opposition from the Supreme Court, which argued that they were “unconstitutional”. Since most of the justices that sit on the court will not be leaving any time soon, we have come up with a creative solution — to increase the number of people who sit on the bench, allowing us to appoint liberal-leaning justices that will support any of our future plans. It will be no easy feat to get this bill to pass, but if we do, we could secure the Supreme Court for the Democratic Party for decades to come."
+ USA_Court_Packing_Pass:0 "Court Packing Passed"
+
+ USA_Work_With_What_We_Have:0 "Work with What We Have"
+ USA_Work_With_What_We_Have_desc:0 "The president’s Third New Deal initiatives are quite liberal, and despite the proven effectiveness of his past policies, resistance from opposition politicians, both within the party and outside of it, remains strong. To maintain what momentum we do have, we must put our judicial reform bill on the chopping block. It is simply not smart to expend all our energy and time on a controversial piece of legislation that may not even pass. It’s mightily unfortunate, but if we want the rest of the president’s agenda to have a hope in hell of passing through the Congress and the Senate, we must make the sacrifice."
+ USA_Court_Packing_Failed:0 "Court Packing Failed"
+
+ USA_Empower_Federation_of_Labour:0 "Empower Federation of Labour"
+ USA_Empower_Federation_of_Labour_desc:0 "LOC PENDING"
+
+ USA_Second_Social_Security_Act:0 "Second Social Security Act"
+ USA_Second_Social_Security_Act_desc:0 "With the Supreme Court in favor of President Roosevelt’s government due to the liberal majority, we now have a chance at passing some legislation that would have previously been impossible to pass. The first of this new, even more liberal legislation will be a second Social Security Act. By building upon our efforts in the first term and further strengthening the safety net, we can provide aid to those who are in desperate need of it and alleviate the pains of poverty, giving as many of our citizens as possible the opportunity to live the American Dream that was promised to them."
+
+ USA_Cash_and_Carry_Provisions:0 "Revise the Neutrality Act"
+ USA_Cash_and_Carry_Provisions_desc:0 "One of America’s political traditions is keeping the country outside of foreign affairs that do not involve the continent. Recent times with the rise of totalitarian regimes have demonstrated that maintaining this tradition is not an option. However, with the trauma of the Great War still present, the American population remains hostile to any kind of significant involvement in other nations. Fortunately, we found a way to work around that. With the war in Spain raging on, the recent Neutrality Act proposed by the Republicans forbids the sale of weapons and the transport of U.S citizens to countries in conflict. But thanks to a provision we added, we are allowed to transport raw materials and supplies to the belligerent nations on Europe. This will allow us to support those democracies under the threat of fascism without alienating the population."
+
+ USA_Implement_Fair_Labor_Standards:0 "Implement Fair Labor Standards"
+ USA_Implement_Fair_Labor_Standards_desc:0 "In order to further our rebound from the crushing depths of the great depression, making sure workers are paid and employed fairly would provide another layer of stability in the employment sector. The Labor department has come up with an agenda, the Fair Labor Standards Act, which would create a model for working conditions. These effects include: a standard minimum wage, time and a half pay for overtime and most importantly, removing minors from the oppressive child labor system. This will be a cornerstone of future labor law, and will give laborers pride and prestige in their job."
+
+ USA_Regulate_Aeoronautics_Industry:0 "Regulate the Aeronautics Industry"
+ USA_Regulate_Aeoronautics_Industry_desc:0 "America’s civilian aircraft industry has grown organically since Wilbur and Orville Wright took the first flight from Kitty Hawk. While this growth has lent us the largest civilian fleet in the world, it is a massive bureaucratic mess. Air mail lines, extended passenger demands, and trans-atlantic traffic all lead to a patchwork of airports, pilots, and aircraft vying for space above North America. Introducing the Civilian Aeronautics Act to regulate and develop air transportation will start the process of peeking through the muck. It will bolster our national defense at a particularly tense time in global politics while encouraging further widening of our domestic and international commerce in the skies."
+
+ USA_Loans_Private_Sector:0 "Loans to the Private Sector"
+ USA_Loans_Private_Sector_desc:0 "The Great Depression has crippled the ability of a private citizen to invest and to save, as the banks containing their savings closed and their shares they had invested in turned worthless overnight. The Private sector has died out in the severe crisis the country is experiencing, neither the private citizen can fund it nor can it provide job opportunities, to revive it, there is a need for an influx of cash and capital that can be used to further the sector, invested back into the national economy in infinitely possible ways. With the President’s and the Congress’ approval the Federal government will be releasing a massive financial package, with more than its fair share of subsidies and loans earmarked to bring back the private sector on its own feet."
+
+ USA_Ensure_System_Integrity:0 "Ensure System Integrity"
+ USA_Ensure_System_Integrity_desc:0 "Rumors have come to our attention that members of our party are using the alphabet agencies to push their own political careers. Several local Democratic politicians in swing states like Kentucky and Pennsylvania have been caught in a scheme. After being consulted on Works Progress Administrators and caseworkers before they were hired, some officials took patronage and political contributions in return for employment in the agency. While an official investigation has found inconclusive findings, we have decided to push forward with the Hatch Act, which will prevent all employees of the executive branch, minus the president and vice-president, from engaging in any form of political activity. We must maintain good governance, especially in these dark times."
+ USA_Executive_Reorganisation_Done:0 "Executive Reorganisation Done"
+
+
+ USA_Reorganize_Executive:0 "Reorganize the Executive"
+ USA_Reorganize_Executive_desc:0 "There hasn’t been a major planned reorganization of the executive branch since it’s creation in 1787, nearly 150 years ago. However, the modern presidency and the United States as it exists today, must be able to adapt to change quickly. The Reorganization Act of 1939 will do this, granting the President the authority to hire additional confidential staff while allowing reorganizations of the government’s branch’s staff. While some say this will limit the influence of the Cabinet and cast a shadow on executive privilege, the Act does come with certain limits and all adjustments are subject to legislative vetoes. This should allow the president more breathing room and governmental evolution in terms of policy"
+
+ USA_Executive_Office_President:0 "The Executive Office of the President"
+ USA_Executive_Office_President_desc:0 "The President of the United States needs help. He is like any other mortal man and needs the proper support structure in place if he is to govern effectively. In the past, president’s were hamstrung by this lack of support, and their administrations could never fulfil their potential. This must change immediately if President Roosevelt's administration and any future ones are to succeed. By establishing the Executive Office of the President, order will be brought to the White House, and the necessary foundation for any great government will be put in place."
+
+ USA_Federal_Security_Agency:0 "Federal Security Agency"
+ USA_Federal_Security_Agency_desc:0 "President Franklin D. Roosevelt has signed in the "Reorganization Plan No. 1 of 1939", under the authority of the Reorganization Act of 1939. The reorganization plan is designed to reduce the number of agencies reporting directly to the president, by clubbing several smaller organizations directly under a single management, that can better assess the resources and ensure a more judicious of resources. The reorganization plan will create the Federal Security Agency, included in the FSA will be the Social Security Board, the U.S. Public Health Service, the Food and Drug Administration, the Civilian Conservation Corps, the Office of Education, the National Youth Administration and a number of several other smaller agencies."
+
+ USA_Expand_the_RFC:0 "Expand the RFC"
+ USA_Expand_the_RFC_desc:0 "In 1932 Eugene Meyer, a member of the Federal Reserve Board of Governors suggested the formation of an organization modelled on the lines of US War Finance Corporation of the Great War, the suggestion was accepted and recommended by the then President Herbert Hoover. The organization formed was the Reconstruction Finance Corporation, a government corporation administered by the United States Federal Government, its stated purpose is to provide financial support to state and local governments and made loans to banks, railroads, mortgage associations, and other businesses. Among the sweeping reforms, President Roosevelt is carrying out as part of “The New Deal”, he has issued a directive to reassert the RFC by expanding it, its scope will be expanded and will include helping in economic recovery by taking proactive measures to boost the country’s confidence and help the banks, many which are struggling resume daily functions."
+
+ USA_Federal_Works_Agency:0 "Federal Works Agency"
+ USA_Federal_Works_Agency_desc:0 "As part of the first ever planned reorganization of the executive branch of the government of the United States since 1787, various Federal agencies and institutions are being clubbed into fewer but larger “catch all” agencies, pursuant to the recently enacted reorganization plans authorized by the Reorganization Act. The Federal Works Agency (FWA) will act as an independent agency of the federal government of the United States, administering a number of public construction works, building maintenance, and public works relief functions and laws. At the present due to the economic conditions in the country, its mission will be expanded, it will construct public works, such as parks, water treatment systems, roads, and buildings, employ the unemployed to construct such works, and to issue loans and grants to regional authorities, states, counties, and localities for the construction of public works on the lines of providing fair work to the citizens of America."
+
+ USA_End_the_Arms_Embargo:0 "End the Arms Embargo"
+ USA_End_the_Arms_Embargo_desc:0 "Clouds of war loom all over Europe, it won't matter who is responsible for firing the first shot, the continent seems to be at the dawn of another conflict. But this time the stakes are too high, extremist movements have sprouted and matured all over Europe and seem to be motivated to destroy and uproot the democratic way of life, wherever it still stands. The United States has the global responsibility of preserving peace and democracy, and must help the democracies of Europe in their fight against extremism, while our domestic policies may prevent the President to directly intervene in the war, vital material aid should be made available to all the countries, be it in Europe or Asia in their fight against the extremist aggressors."
+
+ USA_Food_Stamp_Plan:0 "Food Stamp Plan"
+ USA_Food_Stamp_Plan_desc:0 "With the British appeal for more aid and supplies, and an ever increasing probability that our peace loving country would be pulled unwillingly into the global conflict, currently raging across Europe and Asia, critical resources need to be conserved. Any day our factories may be ordered to switch over production from tractors to tanks, a war industry requires several materials that are taken for granted during times of peace. The Federal government has issued necessary directives to the suitable authorities to begin planning for a massive Food Stamp System to be implemented across the country, for the preservation of food stocks and other necessary resources."
+
+ ### 1936 - Landon
+ USA_Landon_Boom:0 "The Landon Boom"
+ USA_Fair_Compromise:0 "A Fair Compromise"
+ USA_End_Economic_Hostility:0 "End Economic Hostility"
+ USA_Encourage_Private_Investment:0 "Encourage Private Investment"
+ USA_Cut_Welfare_and_Pension_Spending:0 "Cut Welfare and Pension Spending"
+ USA_Begin_to_Balance_Budget:0 "Begin to Balance Budget"
+ USA_Implement_Tax_Break:0 "Implement Tax Break"
+ USA_Support_Small_Business:0 "Support Small Business"
+ USA_Lower_Tax_Burden:0 "Lower Tax Burden"
+ USA_Soften_Regulations:0 "Soften Regulation"
+ USA_Shift_to_Fiscal_Conservatism:0 "Shift to Fiscal Conservatism"
+ USA_Continue_the_Compromise:0 "Continue the Compromise"
+ USA_Make_Publc_Works_Private:0 "Make Public Works Private"
+ USA_Empower_National_Civic_Federation:0 "Empower National Civic Federation"
+ USA_Implement_Protectionist_Tarrifs:0 "Implement Protectionist Tarifs"
+ USA_Support_Gas_Companies:0 "Support Gas Companies"
+ USA_Reform_Tax_Code:0 "Reform Tax Code"
+ USA_Fair_Labor_Management_Relations:0 "Fair Labor Management Relations"
+ USA_Get_The_Party_Fall_In_Line:0 "Get the Party Fall in Line"
+ USA_Work_Acroos_the_Aisle:0 "Work Across the Aisle"
+ USA_New_Threats_to_the_World:0 "New Threats to the World"
+ ### 1940 Roosevelt
+ USA_Better_A_Third_Termer_Than_A_Third_Rater:0 "Better a Third Termer than a Third Rater"
+ USA_Better_A_Third_Termer_Than_A_Third_Rater_desc:0 ""
+ USA_Prepare_For_Intervention:0 "Prepare for Intervention"
+ USA_Prepare_For_Intervention_desc:0 ""
+ USA_Arsenal_Of_Democracy:0 "Arsenal of Democracy"
+ USA_Arsenal_Of_Democracy_desc:0 ""
+ USA_Begin_to_Shift_Economy_to_War_Footing:0 "Begin to Shift Economy to War Footing"
+ USA_Begin_to_Shift_Economy_to_War_Footing_desc:0 ""
+ USA_USACE_Projects:0 "USACE Projects"
+ USA_USACE_Projects_desc:0 ""
+ USA_Pro_War_Propaganda:0 "Pro War Propaganda"
+ USA_Pro_War_Propaganda_desc:0 ""
+ USA_the_Inevitable_War_Must_Be_Paid:0 "The Inevitable War Must be Paid"
+ USA_the_Inevitable_War_Must_Be_Paid_desc:0 ""
+ USA_Rearm_The_Military:0 "Rearm the Military"
+ USA_Rearm_The_Military_desc:0 ""
+ USA_Land_Lease_Act:0 "Land Lease Act"
+ USA_Land_Lease_Act_desc:0 ""
+ USA_Office_of_Coordinator_of_Inter_American_Affairs:0 "Office of Coordinator of Inter-American Affairs"
+ USA_Office_of_Coordinator_of_Inter_American_Affairs_desc:0 ""
+ USA_the_Giant_Wakes:0 "The Giant Wakes"
+ USA_the_Giant_Wakes_desc:0 ""
+ USA_Expand_Office_Civilian_Defense:0 "Expand the Office of Civilian Defense"
+ USA_Expand_Office_Civilian_Defense_desc:0 ""
+ USA_A_Special_Relationship:0 "A Special Relationship"
+ USA_A_Special_Relationship_desc:0 ""
+ USA_Sell_War_Bonds:0 "Sell War Bonds"
+ USA_Sell_War_Bonds_desc:0 ""
+ USA_War_Production_Board:0 "War Production Board"
+ USA_War_Production_Board_desc:0 ""
+ USA_Reserve_Companies:0 "Reserve Companies"
+ USA_Reserve_Companies_desc:0 ""
+ USA_Draft_Atlantic_Charter:0 "Draft the Atlantic Charter"
+ USA_Draft_Atlantic_Charter_desc:0 ""
+ USA_Stick_to_American_Principles:0 "Stick to American Principles"
+ USA_Stick_to_American_Principles_desc:0 ""
+ USA_Establish_Internment_Camps:0 "Establish Internment Camps"
+ USA_Establish_Internment_Camps_desc:0 ""
+ USA_Office_Scientific_Research_Develpoment:0 "The Office of Scientific Research and Development"
+ USA_Office_Scientific_Research_Develpoment_desc:0 ""
+ USA_Expand_Budget_Signal_Security_Agency:0 "Expand the Budget of the Signal Security Agency"
+ USA_Expand_Budget_Signal_Security_Agency_desc:0 ""
+ USA_Haven_For_Scientists:0 "A Haven for Scientists"
+ USA_Haven_For_Scientists_desc:0 ""
+ ### 1940 Wilkie
+ USA_Theres_No_Indispensible_Man:0 "There's No Indispensible Man"
+ USA_Strengthen_Social_Security:0 "Strengthen Social Security"
+ USA_Prepare_Aid_Packages:0 "Prepare Aid Packages"
+ USA_Slash_Taxes:0 "Slash Taxes"
+ USA_Streamline_the_New_Deal:0 "Streamline the New Deal"
+ USA_Begin_to_Rearm:0 "Begin to Rearm"
+ USA_Get_the_People_On_Our_Side:0 "Get the People On Our Side"
+ USA_Loosen_the_Noose_of_Neutrality:0 "Loosen the Noose of Neutrality"
+ USA_Enlarge_Military_Industry:0 "Enlarge Military Industry"
+ USA_An_Abrupt_Awakening:0 "An Abrupt Awakening"
+ USA_Coordinate_Our_Resources:0 "Coordinate Our Resources"
+ USA_Play_Catch_Up:0 "Play Catch Up"
+ USA_Get_the_People_to_Work:0 "Get the People to Work"
+ USA_Turn_the_People_Against_the_Enemy:0 "Turn the People Against the Enemy"
+ USA_Invoke_the_Line_of_Succession:0 "Invoke the Line of Succession"
+ USA_Disaster_Strikes_Twice:0 "Disaster Strikes Twice"
+ USA_We_Shall_Keep_Fighting:0 "We Shall Keep Fighting"
+ USA_Propagate_Pro_War_Sentiments:0 "Propagate Pro War Sentiments"
+ USA_Strengthen_the_War_Machine:0 "Strengthen the War Machine"
+ USA_The_Military_Industrial_Complex:0 "The Military Industrial Complex"
+ USA_Enlarge_the_Research_Budget:0 "Enlarge the Research Budget"
+ USA_Increase_Counter_Espionage_Funding:0 "Increase Counter Espionage Funding"
+ USA_Complete_Mobilization:0 "Complete Mobilization"
+ USA_A_Return_to_Isolation:0 "A Return to Isolation"
+ USA_Assure_the_People:0 "Assure the People"
+ USA_Tear_Up_the_New_Deal:0 "Tear Up the New Deal"
+ USA_Consolidate_the_Conservative_Coalition:0 "Consolidate the Conservative Coalition"
+ USA_Tax_Cuts_For_Businesses:0 "Tax Cuts for Businesses"
+ USA_Weaken_the_National_Labor_Relations_Board:0 "Weaken the National Labor Relations Board"
+ USA_For_the_Good_of_the_Nation:0 "For the Good of the Nation"
+ ### 1940 John Nance Garner
+ USA_Return_to_Democratic_Establishment:0 "Return to Democratic Establishment"
+ USA_Expand_the_Influence_of_the_Vice_President:0 "Expand the Influence of the Vice President"
+ USA_Elimiate_Tariffs:0 "Eliminate Tariffs"
+ USA_Protect_the_Judiciary:0 "Protect the Judiciary"
+ USA_Decentralize_the_Government:0 "Decentralize the Government"
+ USA_Introduce_a_National_Sales_Tax:0 "Introduce a National Sales Tax"
+ USA_Introduce_a_National_Poll_Tax:0 "Introduce a National Poll Tax"
+ USA_Expand_the_Rights_of_Businesses:0 "Expand the Rights of Businesses"
+ USA_Expand_the_Office_of_Education:0 "Expand the Office of Education"
+ USA_Defensive_Military_Expansion:0 "Defensive Military Expansion"
+ USA_Deregulation_of_the_Oil_Industry:0 "Deregulation of the Oil Industry"
+ USA_Rally_Against_Tyranny:0 "Rally Against Tyranny"
+ USA_Limit_the_Executives_Power:0 "Limit the Executive's Power"
+ USA_Bring_the_New_Deal_to_a_Close:0 "Bring the New Deal to a Close"
+ USA_The_Military_Research_and_Development_Office:0 "The Military Research and Development Office"
+ USA_Coordinated_Military_Planning_Efforts:0 "Coordinated Military Planning Efforts"
+ USA_Contain_the_HUAC:0 "Contain the HUAC"
+ USA_Re_issue_Liberty_Bonds:0 "Re-issue Liberty Bonds"
+ USA_Aid_the_Flagging_Democracies:0 "Aid the Flagging Democracies"
+ USA_Resurrect_the_Committee_On_Public_Information:0 "Resurrect the Committee On Public Information"
+ USA_The_Eyes_of_Texas_Program:0 "The Eyes of Texas Program"
+ ### 1940 Landon
+ USA_The_Republican_Grip_Strenghtens:0 "The Republican Grip Strenghtens"
+ USA_A_Return_To_the_Gold_Standard:0 "A Return to the Gold Standars"
+ USA_Increase_the_Minimum_Wage:0 "Increase the Minimun Wage"
+ USA_Continue_Lowering_Taxes:0 "Continue Lowering Taxes"
+ USA_A_Completely_Balanced_Budget:0 "A Completely Balanced Budget"
+ USA_State_Funded_Housing_Projects:0 "State Funded Housing Projects"
+ USA_Begin_To_Open_Up:0 "Begin to Open Up"
+ USA_Small_Scale_Rearmament:0 "Small Scale Rearmament"
+ USA_Prepare_to_Mobilize_the_Economy:0 "Prepare to Mobilize the Economy"
+ USA_Make_Use_of_the_USACE:0 "Make Use of the USACE"
+ USA_Prepare_For_the_Unavoidable:0 "Prepare for the Unavoidable"
+ USA_An_Incremental_Rearmament_System:0 "An Incremental Rearmament System"
+ USA_Convince_the_Isolationists:0 "Convince the Isolationists"
+ USA_Small_Tax_Increases:0 "Small Tax Increases"
+ USA_Drill_the_Army:0 "Drill the Army"
+ USA_Appeal_For_Volunteers:0 "Appeal for Volunteers"
+ USA_Enlarge_the_Military_Budget:0 "Enlarge the Military Budget"
+ USA_It_is_Time:0 "It is Time"
+ USA_Empower_the_OSS:0 "Empower the OSS"
+ USA_Achieve_Full_Mobilization:0 "Achieve Full Mobilization"
+ USA_Support_Our_Allies:0 "Support our Allies"
+ USA_The_End_of_the_Landon_Era:0 "The End of the Landon Era"
+ USA_An_Unexpected_Awakening:0 "An Unexpected Awakening"
+ USA_Wartime_Rearmament:0 "Wartime Rearmament"
+ USA_The_Money_Must_Come_From_Somewhere:0 "The Money Must Come From Somewhere"
+ USA_Jobs_In_the_Factories:0 "Jobs in the Factories"
+ USA_Emergency_Weapons_Research:0 "Emergency Weapons Research"
+ USA_Empower_the_Office_of_War_Information:0 "Empower the Office of War Information"
+ USA_The_New_Freedom_Bonds:0 "The New Freedom Bonds"
+ USA_Surrender_is_Not_An_Option:0 "Surrender is Not an Option"
+### 1944 FDR
+ USA_The_War_Continues:0 "The War Continues"
+ USA_The_War_Continues_desc:0 ""
+ USA_Peace_For_Better_Or_for_Worse:0 "Peace, for Better Or for Worse"
+ USA_Peace_For_Better_Or_for_Worse_desc:0 ""
+ USA_The_Final_Stretch:0 "The Final Stretch"
+ USA_The_Final_Stretch_desc:0 ""
+ USA_United_We_Stand:0 "United We Stand"
+ USA_United_We_Stand_desc:0 ""
+ USA_Ensure_Victory_Through_Lend_Lease:0 "Ensure Victory Through Lend-Lease"
+ USA_Ensure_Victory_Through_Lend_Lease_desc:0 ""
+ USA_Global_Anti_Authoritarian_Rhetoric:0 "Global Anti-Authoritarian Rhetoric"
+ USA_Global_Anti_Authoritarian_Rhetoric_desc:0 ""
+ USA_Encourage_Decolonisation:0 "Encourage Decolonisation"
+ USA_Encourage_Decolonisation_desc:0 ""
+ USA_The_Truman_Doctrine:0 "The Truman Doctrine"
+ USA_The_Truman_Doctrine_desc:0 ""
+ USA_Cordial_But_Not_Friendly_Relations:0 "Cordial, But Not Friendly Relations"
+ USA_Cordial_But_Not_Friendly_Relations_desc:0 ""
+ USA_Strict_Containment:0 "Strict Containment"
+ USA_Strict_Containment_desc:0 ""
+ USA_Begin_the_Marshall_Plan:0 "Begin the Marshall Plan"
+ USA_Begin_the_Marshall_Plan_desc:0 ""
+ USA_Where_Free_Men_Now_Stand:0 "Where Free Men Now Stand"
+ USA_Where_Free_Men_Now_Stand_desc:0 ""
+ USA_Rebuild_the_Destroyed_Enemy:0 "Rebuild the Destroyed Enemy"
+ USA_Rebuild_the_Destroyed_Enemy_desc:0 ""
+ USA_Stabilize_the_Occupied_Economy:0 "Stabilize the Occupied Economy"
+ USA_Stabilize_the_Occupied_Economy_desc:0 ""
+ USA_The_Question_of_the_Former_Leadership:0 "The Question of the Former Leadership"
+ USA_The_Question_of_the_Former_Leadership_desc:0 ""
+ USA_De_Militarization_of_Occupied_Society:0 "De-Militarization of Occupied Society"
+ USA_De_Militarization_of_Occupied_Society_desc:0 ""
+ USA_Deregulate_the_Insurance_Industry:0 "Deregulate the Insurance Industry"
+ USA_Deregulate_the_Insurance_Industry_desc:0 ""
+ USA_Ratify_the_New_Monetary_Order:0 "Ratify the New Monetary Order"
+ USA_Ratify_the_New_Monetary_Order_desc:0 ""
+ USA_The_Joint_Economic_Committee:0 "The Joint Economic Committee"
+ USA_The_Joint_Economic_Committee_desc:0 ""
+ USA_Relax_Union_Regulations:0 "Relax Union Regulations"
+ USA_Relax_Union_Regulations_desc:0 ""
+ USA_Restrict_the_Labor_Unions:0 "Restrict the Labor Unions"
+ USA_Restrict_the_Labor_Unions_desc:0 ""
+ USA_Desegregate_the_Armed_Forces:0 "Desegregate the Armed Forces"
+ USA_Desegregate_the_Armed_Forces_desc:0 ""
+ USA_The_End_of_an_Era:0 "The End of an Era"
+ USA_The_End_of_an_Era_desc:0 ""
+ USA_Unlocked_1944_1948_Tree_tt:0 "§BAfter the Focus is Completed It Will Unlock the Next Tree.§!"
+
+#######################################################
+#Opinions
+#######################################################
+ USA_The_Montevideo_Convention_opinion:0 "The Montevideo Convention"
+ USA_Improve_US_Latin_American_Relations_opinion:0 "Improve US-Latin American Relations"
+ USA_A_Special_Relationship_opinion:0 "A Special Relationship"
+ USA_The_Atlantic_Charter_opinion:0 "The Atlantic Charter"
+ USA_Global_Anti_Authoritarian_Rhetoric_opinion:0 "Global Anti-Authoritarian Rethoric"
+ USA_Encourage_Decolonisation_opinion:0 "Encourage Decolonisation"
+ USA_The_Truman_Doctrine_opinion:0 "The Truman Doctrine"
+ USA_Cordial_But_Not_Friendly_Relations_opinion:0 "Cordial But not Friendly Relations"
+ USA_Strict_Containment_opinion:0 "Strict Containment"
+
+ #### GUI ####
+ USA_ECONOMIC_STABILISATION_VALUE_TEXT: "Economical Stabilization Progress: §Y[?Economic_Stabilisation|2%%]§!"
+ USA_ECONOMIC_STABILISATION_TT: "The economical stabilization progress currently is at §Y[?Economic_Stabilisation|2%%]§!."
+
+ USA_DEMILITARIZATION_VALUE_TEXT: "Demilitarization Progress: §Y[?De_Militarization|2%%]§!"
+ USA_DEMILITARIZATION_TT: "The demilitarization progress currently is at §Y[?De_Militarization|2%%]§!."

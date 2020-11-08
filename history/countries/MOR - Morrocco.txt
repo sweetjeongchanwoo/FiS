@@ -1,0 +1,91 @@
+﻿#########################################################################
+# Morrocco
+#########################################################################
+capital = 1142
+#######################
+# Research
+#######################
+set_technology = {
+	Small_Arms_1916 = 1
+}
+
+#######################
+# Politics
+#######################
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 0
+	authoritarian = 75
+	democratic = 10
+	socialist = 10
+	communist = 5
+}
+
+#######################
+# Leaders
+#######################
+# Fascism
+create_country_leader = {
+	name = "Mohammed V"
+	desc = ""
+	picture = "P_A_Mohammed_V.tga"
+	expire = "1961.1.1"
+	ideology = fascism
+	traits = {
+		POSITION_King
+		SUBIDEOLOGY_Fascism
+		HoS_Popular_Figurehead
+	}
+}
+
+# Authoritarianism
+create_country_leader = {
+	name = "Mohammed V"
+	desc = ""
+	picture = "P_A_Mohammed_V.tga"
+	expire = "1961.1.1"
+	ideology = monarchism
+	traits = {
+		POSITION_King
+		SUBIDEOLOGY_Monarchism
+		HoS_Popular_Figurehead
+	}
+}
+
+# Democracy
+create_country_leader = {
+	name = "Mohammed V"
+	desc = ""
+	picture = "P_A_Mohammed_V.tga"
+	expire = "1961.1.1"
+	ideology = social_conservatism
+	traits = {
+		POSITION_King
+		SUBIDEOLOGY_Conservatism
+		HoS_Popular_Figurehead
+	}
+}
+
+# Communist
+create_country_leader = {
+	name = "Ali Yata"
+	desc = ""
+	picture = "P_C_Ali_Yata.tga"
+	expire = "1961.1.1"
+	ideology = marxism_leninism
+	traits = {
+		POSITION_President
+		SUBIDEOLOGY_Marxism_Leninism
+		HoS_Insignificant_Layman
+	}
+}
+
+#######################
+# Generals
+#######################

@@ -1,0 +1,9 @@
+﻿units = {
+	division= {
+		name = "SS-Freiwilligen-Grenadier-Division „Batschka“"
+		location = 6549 # Marburg
+		division_template = "SS-Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 1.0 
+	}
+}

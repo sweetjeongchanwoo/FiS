@@ -1,0 +1,152 @@
+﻿division_template = {
+	name = "División de Infanteria"		# Infantry Division
+	division_names_group = SPAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "División de infantería con artillería"	# Infantry Division with Artillery
+	division_names_group = SPAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_battalion = { x = 2 y = 0 }
+		artillery_battalion = { x = 2 y = 1 }
+		artillery_battalion = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "División de montaña"			# Mountain Brigade
+	division_names_group = SPAN_MTN_02
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+        mountaineers = { x = 0 y = 2 }
+        mountaineers = { x = 1 y = 0 }
+        mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "División de Caballería"  	# Cavalry Division
+	division_names_group = SPAN_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+}
+
+units = {
+	##### Ejército de Chile #####
+	division = { # 1. División de Infantería
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 650 # Santiago
+		division_template = "División de infantería con artillería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = { # 2. División de Infantería
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 650 # Santiago
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "1. División de Montaña de Chile"
+		location = 650 # Santiago
+		division_template = "División de montaña"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = { # División Caballería nro. 1
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 650 # Santiago
+		division_template = "División de Caballería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Armada de Chile"
+		naval_base = 14625 # Santiago
+		task_force = {
+			name = "Armada de Chile"
+			location = 14625 # Santiago
+			ship = { name = "Flotilla des Torpideros nro. 1" definition = destroyer equipment = { DD_equipment_1912 = { amount = 1 owner = CHL } } }
+			ship = { name = "Flotilla des Torpideros nro. 2" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = CHL } } }
+			ship = { name = "BACH Almirante Latorre" definition = battleship equipment = { BB_equipment_1912 = { amount = 1 owner = CHL } } }
+			ship = { name = "BACH Almirante O'Higgins" definition = heavy_cruiser equipment = { CA_equipment_1895 = { amount = 1 owner = CHL } } }
+			ship = { name = "BACH Blanco Encalada" definition = light_cruiser equipment = { CL_equipment_1885 = { amount = 1 owner = CHL } } }
+			ship = { name = "BACH Chacabuco" definition = light_cruiser equipment = { CL_equipment_1885 = { amount = 1 owner = CHL } } }
+		}
+		task_force = {
+			name = "I Flotilla de la Armada"
+			location = 14625 # Santiago
+			ship = { name = "Flotilla des Submarinos nro. 2" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = CHL } } }
+			ship = { name = "Flotilla des Submarinos nro. 1" definition = submarine equipment = { SS_equipment_1912 = { amount = 1 owner = CHL } } }
+		}
+	}			
+			
+}
+
+air_wings = {
+	### Fuerza Aérea de Chile -- Santiago
+	279 = {
+		# Fighter Air Group -- Curtis Hawk IIs
+		Fighter_equipment_1933 =  {
+			owner = "CHL" 
+			amount = 28
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1900
+			creator = "CHL"
+		}
+		requested_factories = 1
+		progress = 0.18
+		efficiency = 100
+	}
+}

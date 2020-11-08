@@ -1,0 +1,312 @@
+﻿#########################################################################
+# Darkest Hour Events : East Turkestan
+#########################################################################
+
+add_namespace = DH_mengkukuo
+
+### ------------------- Mengkukuo ---------------------------------------------
+#########################################################################
+#  Japan Offers East Cahar / Mongol Military Government
+#########################################################################
+country_event = {
+	id = DH_mengkukuo.1
+	title = DH_mengkukuo.1.t
+	desc = DH_mengkukuo.1.d
+	picture = GFX_report_MEN_Mongol_Military_Government_Formed
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_mengkukuo.1.a
+		ai_chance = { factor = 20 }
+		custom_effect_tooltip = jap_puppet_tt
+		hidden_effect = {
+			MEN = {
+				set_global_flag = Pailingmiao_Defects
+				JAP = { country_event = { days = 1 id = DH_mengkukuo.3 } }
+				MEN = { set_cosmetic_tag = MEN_MILITARY }
+				
+				
+				create_country_leader = { 
+					name = "Yondonwangchug" 
+					desc = "" 
+					picture = "P_A_Yondonwangchug.tga" 
+					expire = "1965.1.1" 
+					ideology = fascism 
+					traits = { POSITION_Chairman spirit_of_genghis } 
+				}
+			}
+		}
+	}
+	option = {
+		name = DH_mengkukuo.1.b
+		hidden_effect = {
+			JAP = { country_event = { days = 1 id = DH_mengkukuo.4 } }
+		}
+		ai_chance = { factor = 0 }
+	}
+	
+}
+#########################################################################
+# Suiyan War
+#########################################################################
+country_event = {
+	id = DH_mengkukuo.2
+	title = DH_mengkukuo.2.t
+	desc = DH_mengkukuo.2.d
+	picture = GFX_report_MEN_Suiyan_Campaign
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_mengkukuo.2.a
+		start_border_war = {
+			change_state_after_war = yes
+			attacker = {
+				state = 827
+				num_provinces = 2
+				on_win = DH_mengkukuo.8 #Win
+				on_lose = DH_mengkukuo.9 #Lose
+				on_cancel = DH_mengkukuo.10 #Cancel
+			}
+			
+			defender = {
+				state = 621
+				num_provinces = 2
+				on_win = DH_mengkukuo.11
+				on_lose = DH_mengkukuo.12
+				on_cancel = DH_mengkukuo.13
+			}
+			
+		}
+		
+	}
+}
+#########################################################################
+#  Japanese Reaction
+#########################################################################
+#Accept
+country_event = {
+	id = DH_mengkukuo.3
+	title = DH_mengkukuo.3.t
+	desc = DH_mengkukuo.3.d
+	fire_only_once = yes
+	picture = GFX_report_MEN_Mongol_Military_Government_Formed
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_mengkukuo.3.a
+	}
+}
+
+#Refusal
+country_event = {
+	id = DH_mengkukuo.4
+	title = DH_mengkukuo.4.t
+	desc = DH_mengkukuo.4.d
+	picture = GFX_report_MEN_Yondonwangchug_Passes_Away
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_mengkukuo.4.a
+	}
+}
+#########################################################################
+# Yondonwangchug Dies
+#########################################################################
+country_event = {
+	id = DH_mengkukuo.5
+	title = DH_mengkukuo.5.t
+	desc = DH_mengkukuo.5.d
+	picture = GFX_report_MEN_Yondonwangchug_Passes_Away
+	fire_only_once = yes
+	
+	trigger = {
+		country_exists = MEN
+		NOT = {
+			has_global_flag = Yondonwangchug_dies
+		}
+		tag = MEN
+		has_global_flag = Pailingmiao_Defects
+		date > 1938.3.18
+		date < 1939.3.18
+	}   
+	
+	option = {
+		name = DH_mengkukuo.5.a
+		hidden_effect = {
+			kill_country_leader = yes
+			create_country_leader = {
+				name = "Prince Demchugdongrub"
+				desc = ""
+				picture = "Mengkukuo_A_Demchugdongrub.tga"
+				expire = "1965.1.1"
+				ideology = authoritarian_democracy
+				traits = { spirit_of_genghis }
+			}
+		}
+		set_global_flag = Yondonwangchug_dies
+	}
+}
+#########################################################################
+# Mongol Empire Formation
+#########################################################################
+country_event = {
+	id = DH_mengkukuo.6
+	title = DH_mengkukuo.6.t
+	desc = DH_mengkukuo.6.d
+	picture = GFX_report_MEN_Mongol_Military_Government_Formed
+	fire_only_once = yes
+	
+	trigger = {
+		tag = MEN
+		NOT = { has_global_flag = Mongol_Empire_Creation }
+		MEN = { controls_state = 330 }
+	}
+	
+	option = {
+		name = DH_mengkukuo.6.a
+		hidden_effect = {
+			set_cosmetic_tag = MEN_EMPIRE
+			set_global_flag = Mongol_Empire_Creation
+			set_global_flag = Mengkukuo_Formed
+			set_global_flag = Mongol_Second_Assembly
+		}
+	}
+}
+#########################################################################
+# Mengkukuo Formation
+#########################################################################
+country_event = {
+	id = DH_mengkukuo.7
+	title = DH_mengkukuo.7.t
+	desc = DH_mengkukuo.7.d
+	picture = GFX_report_MEN_Mengkukuo_Founding_Ceremony
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			MEN = {
+				transfer_state = 825
+				transfer_state = 611	
+				add_state_core = 616
+				add_state_core = 330
+			}	
+		}
+	}
+	
+	option = {
+		name = DH_mengkukuo.7.a
+	}
+}
+
+
+###############################
+# Suiyan events
+################
+country_event = {
+	id = DH_mengkukuo.8
+	title = DH_mengkukuo.8.t
+	desc = DH_mengkukuo.8.d
+	picture = GFX_report_MEN_Suiyan_Campaign
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		MEN = {
+			transfer_state = 746
+		}
+	}
+	
+	option = {
+		name = DH_mengkukuo.8.a
+	}
+}
+country_event = {
+	id = DH_mengkukuo.9
+	title = DH_mengkukuo.9.t
+	desc = DH_mengkukuo.9.d
+	picture = GFX_report_MEN_Suiyan_Campaign
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_mengkukuo.9.a
+	}
+}
+country_event = {
+	id = DH_mengkukuo.10
+	title = DH_mengkukuo.10.t
+	desc = DH_mengkukuo.10.d
+	picture = GFX_report_MEN_Suiyan_Campaign
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_mengkukuo.10.a
+	}
+}
+country_event = {
+	id = DH_mengkukuo.11
+	title = DH_mengkukuo.11.t
+	desc = DH_mengkukuo.11.d
+	picture = GFX_report_MEN_Suiyan_Campaign
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_mengkukuo.11.a
+	}
+}
+country_event = {
+	id = DH_mengkukuo.12
+	title = DH_mengkukuo.12.t
+	desc = DH_mengkukuo.12.d
+	picture = GFX_report_MEN_Suiyan_Campaign
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_mengkukuo.12.a
+	}
+}
+country_event = {
+	id = DH_mengkukuo.13
+	title = DH_mengkukuo.13.t
+	desc = DH_mengkukuo.13.d
+	picture = GFX_report_MEN_Suiyan_Campaign
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_mengkukuo.13.a
+	}
+}
+#####################
+country_event = {
+	id = DH_mengkukuo.14
+	title = DH_mengkukuo.14.t
+	desc = DH_mengkukuo.14.d
+	fire_only_once = yes
+	
+	trigger = {
+		tag = MEN
+		has_global_flag = Pailingmiao_Defects
+	}
+	
+	option = {
+		name = DH_mengkukuo.14.a
+	}
+}

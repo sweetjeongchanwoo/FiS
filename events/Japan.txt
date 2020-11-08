@@ -1,0 +1,1793 @@
+#########################################################################
+# Darkest Hour Events : Japan
+#########################################################################
+
+### Domestic Events
+add_namespace = DH_JAP_Flavor #Miscellaneous/Flavor
+add_namespace = DH_JAP_Preserve_NUC
+add_namespace = DH_JAP_Foreign_Policy
+add_namespace = DH_JAP_Aizawa_Incident
+add_namespace = DH_JAP_Teijin_Incident
+add_namespace = DH_JAP_Hirota_Cabinet #2-26 and Aftermath
+add_namespace = DH_JAP_Hayashi_Cabinet #How I stopped worrying and decided to trust the military
+### Foreign Events
+add_namespace = DH_JAP_Nekka_Incident 
+add_namespace = DH_JAP_Tanggu_Truce
+add_namespace = DH_JAP_The_Manchurian_Lifeline
+add_namespace = DH_JAP_Pan_Asianism
+add_namespace = DH_JAP_Trautmann
+
+##############################
+##### Domestic Events
+##############################
+
+##### DH_JAP_Flavor
+
+### The Lytton Report
+country_event = {
+	id = DH_JAP_Flavor.1
+	title = DH_JAP_Flavor.1.t
+	desc = DH_JAP_Flavor.1.d
+	picture = GFX_report_JAP_Lytton_Report
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Flavor.1.A
+		add_political_power = -25
+	}
+}
+
+### Our Withdrawal from the League
+news_event = {
+	id = DH_JAP_Flavor.2
+	title = DH_JAP_Flavor.2.t
+	desc = DH_JAP_Flavor.2.d
+	picture = GFX_news_JAP_Japan_withdraw_from_LON
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = JAP
+	}
+	option = {
+		name = DH_JAP_Flavor.2.A
+		add_political_power = 25
+		add_war_support = 0.05
+	}
+}
+
+##### DH_JAP_Preserve_NUC
+
+### Interpreting the NUC Mandate
+country_event = {
+	id = DH_JAP_Preserve_NUC.1
+	title = DH_JAP_Preserve_NUC.1.t
+	desc = DH_JAP_Preserve_NUC.1.d
+	picture = GFX_report_JAP_NUC
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Screw other factions NUC FTW (its a stupid move and will guarantee a military takeover (either from Toseiha or Kodoha; dependent on influence)
+		name = DH_JAP_Preserve_NUC.1.A
+		custom_effect_tooltip = NUC_alone
+		set_country_flag = NUC_Alone
+	}
+	option = { #Taking Sides (allows more opportunities and easier)
+		name = DH_JAP_Preserve_NUC.1.B
+		custom_effect_tooltip = Taking_Sides
+		set_country_flag = Taking_Sides
+	}
+}
+
+### The Utilization of Kokutai
+country_event = {
+	id = DH_JAP_Preserve_NUC.2
+	title = DH_JAP_Preserve_NUC.2.t
+	desc = DH_JAP_Preserve_NUC.2.d
+	picture = GFX_report_JAP_The_Utilization_of_Kokutai
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # Only Communists
+		name = DH_JAP_Preserve_NUC.2.A
+		custom_effect_tooltip = Communists_Alone
+		set_country_flag = Communists_Alone
+	}
+	option = { # Include Militarists
+		name = DH_JAP_Preserve_NUC.2.B
+		custom_effect_tooltip = All_Dissent
+		set_country_flag = All_Dissent
+	}
+}
+
+### Support from the IJN
+country_event = {
+	id = DH_JAP_Preserve_NUC.3
+	title = DH_JAP_Preserve_NUC.3.t
+	desc = DH_JAP_Preserve_NUC.3.d
+	picture = GFX_report_JAP_IJN_Admirals
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #adds up support by 10%, influence 5% of BOTH NAVY FACTIONS (Treaty/Fleet)
+		name = DH_JAP_Preserve_NUC.3.A
+		set_country_flag = IJN_Support_NUC
+	}
+}
+
+### A Deal For the Greater Good
+country_event = {
+	id = DH_JAP_Preserve_NUC.4
+	title = DH_JAP_Preserve_NUC.4.t
+	desc = DH_JAP_Preserve_NUC.4.d
+	picture = GFX_report_JAP_A_Deal_For_the_Greater_Good
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Accept 
+		name = DH_JAP_Preserve_NUC.4.A
+		add_political_power = 50
+		set_country_flag = Toseiha_Support_NUC
+	}
+	option = { #Decline 
+		name = DH_JAP_Preserve_NUC.4.B
+	}
+}
+
+##### DH_JAP_Foreign_Policy
+
+### A Common Goal With Different Methods
+country_event = { 
+	id = DH_JAP_Foreign_Policy.1
+	title = DH_JAP_Foreign_Policy.1.t
+	desc = DH_JAP_Foreign_Policy.1.d
+	picture = GFX_report_JAP_Hirota
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Shidehara’s Velvet Glove 
+		name = DH_JAP_Foreign_Policy.1.A
+		set_country_flag = Shidehara_Diplomacy
+    }
+
+	option = { #Hirota’s Three Principles 
+		name = DH_JAP_Foreign_Policy.1.B
+		set_country_flag = Hirota_Diplomacy
+	}
+
+	option = { #Matsuoka’s Iron Fist
+		name = DH_JAP_Foreign_Policy.1.C
+		set_country_flag = Matsuoka_Diplomacy
+	}
+}
+
+##### DH_JAP_Aizawa_Incident
+
+### Aizawa Incident
+
+## A Plot Unraveled
+country_event = {
+	id = DH_JAP_Aizawa_Incident.1
+	title = DH_JAP_Aizawa_Incident.1.t
+	desc = DH_JAP_Aizawa_Incident.1.d
+	picture = GFX_report_JAP_NUC_Scandle
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { days = 1 } 
+	trigger = {
+		has_country_flag = JAP_Incident
+		has_country_flag = Toseiha_Win
+		date > 1934.11.19
+		has_start_date < 1934.11.19
+	}
+
+	option = { 
+		name = DH_JAP_Aizawa_Incident.1.A
+	}
+}
+
+## A Disgraced Genius
+country_event = {
+	id = DH_JAP_Aizawa_Incident.2
+	title = DH_JAP_Aizawa_Incident.2.t
+	desc = DH_JAP_Aizawa_Incident.2.d
+	picture = GFX_report_JAP
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { days = 7 } 
+	trigger = {
+		has_country_flag = JAP_Incident
+		has_country_flag = Toseiha_Win
+		date > 1935.07.01
+		date < 1935.07.31
+	}
+
+	option = { #Masaki resigns, Kodoha influence drops sharply
+		name = DH_JAP_Aizawa_Incident.2.A
+		set_temp_variable = { faction_id = 7 } # Kodoha
+		set_temp_variable = { influence_to_add = -50 } # Placeholder
+		change_faction_influence = yes
+	}
+}
+
+## Restoration of Military Discipline
+country_event = {
+	id = DH_JAP_Aizawa_Incident.3
+	title = DH_JAP_Aizawa_Incident.3.t
+	desc = DH_JAP_Aizawa_Incident.3.d
+	picture = GFX_report_JAP_Japanese_Korea
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { days = 3 } 
+	trigger = {
+		has_country_flag = JAP_Incident
+		has_country_flag = Toseiha_Win
+		date > 1935.08.01
+		date < 1935.08.07
+	}
+
+	option = { #Gives the player a sense of security.
+		name = DH_JAP_Aizawa_Incident.3.A
+		add_stability = 0.02
+		hidden_effect = {
+			country_event = { id = DH_JAP_Aizawa_Incident.4 days = 4 }
+		}		
+	}
+}
+
+## The Brave Man's Song
+country_event = {
+	id = DH_JAP_Aizawa_Incident.4
+	title = DH_JAP_Aizawa_Incident.4.t
+	desc = DH_JAP_Aizawa_Incident.4.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes	
+
+	option = { #Gives the player a sense of security.
+		name = DH_JAP_Aizawa_Incident.4.A
+		add_stability = 0.05
+		hidden_effect = {
+			country_event = { id = DH_JAP_Aizawa_Incident.5 days = 1 }
+		}
+	}
+}
+
+## The Dark Genius
+country_event = {
+	id = DH_JAP_Aizawa_Incident.5
+	title = DH_JAP_Aizawa_Incident.5.t
+	desc = DH_JAP_Aizawa_Incident.5.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes	
+
+	option = { #Nation in shock.
+		name = DH_JAP_Aizawa_Incident.5.A
+		add_stability = -0.05
+	}
+}
+
+##### DH_JAP_Teijin_Incident
+
+### Tsuji Incident
+
+## The Raging Bull of Taihoku
+country_event = {
+	id = DH_JAP_Teijin_Incident.1
+	title = DH_JAP_Teijin_Incident.1.t
+	desc = DH_JAP_Teijin_Incident.1.d
+	picture = GFX_report_JAP
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { days = 1 } 
+	trigger = {
+		has_country_flag = JAP_Incident
+		has_country_flag = Kodoha_Win
+		date > 1933.06.09
+		date < 1933.06.11
+	}
+	
+	option = { 
+		name = DH_JAP_Teijin_Incident.1.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Teijin_Incident.2 days = 220 } #January 15, 1934
+		}
+	}
+}
+
+## A Financial Conundrum
+country_event = {
+	id = DH_JAP_Teijin_Incident.2
+	title = DH_JAP_Teijin_Incident.2.t
+	desc = DH_JAP_Teijin_Incident.2.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes	
+
+	option = {
+		name = DH_JAP_Teijin_Incident.2.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Teijin_Incident.3 days = 170 } #July 3, 1934
+		}	
+	}
+}
+
+## A Disgraced Minister
+country_event = {
+	id = DH_JAP_Teijin_Incident.3
+	title = DH_JAP_Teijin_Incident.3.t
+	desc = DH_JAP_Teijin_Incident.3.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes	
+
+	option = { #PM Saito Makoto to resign.
+		name = DH_JAP_Teijin_Incident.3.A
+		set_country_flag = Saito_Makoto_unavailable
+	}
+}
+
+##### DH_JAP_Hirota_Cabinet
+
+### Hirota Cabinet
+
+## 2.26 Incident
+country_event = {
+	id = DH_JAP_Hirota_Cabinet.1
+	title = DH_JAP_Hirota_Cabinet.1.t
+	desc = DH_JAP_Hirota_Cabinet.1.d
+	picture = GFX_report_JAP
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { days = 1 } 
+	trigger = {
+		tag = JAP
+		date > 1936.02.25
+		date < 1936.02.27
+	}
+	
+	option = { 
+		name = DH_JAP_Hirota_Cabinet.1.A
+		set_country_flag = JAP_February_26 
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hirota_Cabinet.2 days = 3 } #February 29, 1936
+		}
+	}
+}
+
+## The Scattered Sakura
+country_event = {
+	id = DH_JAP_Hirota_Cabinet.2
+	title = DH_JAP_Hirota_Cabinet.2.t
+	desc = DH_JAP_Hirota_Cabinet.2.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Okada resigns.
+		name = DH_JAP_Hirota_Cabinet.2.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hirota_Cabinet.3 days = 1 } #March 1, 1936
+		}
+	}
+}
+
+## Approaching the Prince
+country_event = {
+	id = DH_JAP_Hirota_Cabinet.3
+	title = DH_JAP_Hirota_Cabinet.3.t
+	desc = DH_JAP_Hirota_Cabinet.3.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Decides to get Hirota
+		name = DH_JAP_Hirota_Cabinet.3.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hirota_Cabinet.4 days = 8 } #March 9, 1936
+		}
+	}
+}
+
+## The Diplomat in Reserve
+country_event = {
+	id = DH_JAP_Hirota_Cabinet.4
+	title = DH_JAP_Hirota_Cabinet.4.t
+	desc = DH_JAP_Hirota_Cabinet.4.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Hirota becomes PM
+		name = DH_JAP_Hirota_Cabinet.4.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hirota_Cabinet.5 days = 14 } #March 23, 1936
+			country_event = { id = DH_JAP_Hirota_Cabinet.8 days = 318 } #January 21, 1937
+		}
+	}
+}
+
+## The General Demands Arita
+country_event = {
+	id = DH_JAP_Hirota_Cabinet.5
+	title = DH_JAP_Hirota_Cabinet.5.t
+	desc = DH_JAP_Hirota_Cabinet.5.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Army's intervention on cabinet making, like having Hachitou Arita instead of Shigeru Yoshida
+		name = DH_JAP_Hirota_Cabinet.5.A
+	}
+}
+
+## The Cabinet Research Bureau
+country_event = {
+	id = DH_JAP_Hirota_Cabinet.6
+	title = DH_JAP_Hirota_Cabinet.6.t
+	desc = DH_JAP_Hirota_Cabinet.6.d
+	picture = GFX_report_JAP
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { days = 7 } 
+	trigger = {
+		tag = JAP
+		date > 1936.04.01
+		date < 1936.04.30
+	}
+	
+	option = { #Bureaucrats on the Cabinet Research Bureau making some reports
+		name = DH_JAP_Hirota_Cabinet.6.A
+	}
+}
+
+## The National Defense State?
+country_event = {
+	id = DH_JAP_Hirota_Cabinet.7
+	title = DH_JAP_Hirota_Cabinet.7.t
+	desc = DH_JAP_Hirota_Cabinet.7.d
+	picture = GFX_report_JAP
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { days = 7 } 
+	trigger = {
+		tag = JAP
+		date > 1936.05.01
+		date < 1936.05.31
+	}
+	
+	option = { #Eiichi's Plan
+		name = DH_JAP_Hirota_Cabinet.7.A
+	}
+}
+
+## The General and the Politician
+country_event = {
+	id = DH_JAP_Hirota_Cabinet.8
+	title = DH_JAP_Hirota_Cabinet.8.t
+	desc = DH_JAP_Hirota_Cabinet.8.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Harakiri Incident - Increases party politician popularity
+		name = DH_JAP_Hirota_Cabinet.8.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hirota_Cabinet.9 days = 14 } #January 23, 1937
+		}
+	}
+}
+## The Only Option
+country_event = {
+	id = DH_JAP_Hirota_Cabinet.9
+	title = DH_JAP_Hirota_Cabinet.9.t
+	desc = DH_JAP_Hirota_Cabinet.9.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Hirota resigns, Start Hayashi Chain
+		name = DH_JAP_Hirota_Cabinet.9.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hayashi_Cabinet.1 days = 32 } #February 24, 1937
+		}
+	}
+}
+
+##### DH_JAP_Hayashi_Cabinet
+
+### Hayashi Cabinet
+
+## Cleaning the Mess
+country_event = {
+	id = DH_JAP_Hayashi_Cabinet.1
+	title = DH_JAP_Hayashi_Cabinet.1.t
+	desc = DH_JAP_Hayashi_Cabinet.1.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Konoe's Gambit (ATL)
+		name = DH_JAP_Hayashi_Cabinet.1.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hayashi_Cabinet.2 days = 3 } #Election in 32 days
+		}
+	}
+	option = { #The Marshal of Korea (OTL)
+		name = DH_JAP_Hayashi_Cabinet.1.B
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hayashi_Cabinet.3 days = 3 }#Election in 32 days
+		}
+	}
+}
+
+## Konoe's Gambit
+country_event = {
+	id = DH_JAP_Hayashi_Cabinet.2
+	title = DH_JAP_Hayashi_Cabinet.2.t
+	desc = DH_JAP_Hayashi_Cabinet.2.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = DH_JAP_Hayashi_Cabinet.2.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hayashi_Cabinet.6 days = 7 } #Election in 25 days
+		}
+	}
+}
+
+## The Marshal of Korea
+country_event = {
+	id = DH_JAP_Hayashi_Cabinet.3
+	title = DH_JAP_Hayashi_Cabinet.3.t
+	desc = DH_JAP_Hayashi_Cabinet.3.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = DH_JAP_Hayashi_Cabinet.3.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hayashi_Cabinet.4 days = 3 } #Election in 29 days
+		}
+	}
+}
+
+## Army Threatens the Ugaki Cabinet
+country_event = {
+	id = DH_JAP_Hayashi_Cabinet.4
+	title = DH_JAP_Hayashi_Cabinet.4.t
+	desc = DH_JAP_Hayashi_Cabinet.4.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = DH_JAP_Hayashi_Cabinet.4.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hayashi_Cabinet.5 days = 2 }
+			country_event = { id = DH_JAP_Hayashi_Cabinet.6 days = 4 } #Election in 25 days
+		}
+	}
+}
+
+## Public Outcry over the Ugaki Debacle
+country_event = {
+	id = DH_JAP_Hayashi_Cabinet.5
+	title = DH_JAP_Hayashi_Cabinet.5.t
+	desc = DH_JAP_Hayashi_Cabinet.5.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Toseiha popularity(influence?) decreased
+		name = DH_JAP_Hayashi_Cabinet.5.A
+		set_temp_variable = { faction_id = 8 } #Toseiha
+		set_temp_variable = { influence_to_add = -5 } #Placeholder
+		change_faction_influence = yes
+	}	
+}
+
+## The Devil's Patron
+country_event = {
+	id = DH_JAP_Hayashi_Cabinet.6
+	title = DH_JAP_Hayashi_Cabinet.6.t
+	desc = DH_JAP_Hayashi_Cabinet.6.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Senjurou Hayashi becomes PM
+		name = DH_JAP_Hayashi_Cabinet.6.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hayashi_Cabinet.7 days = 3 }
+			country_event = { id = DH_JAP_Hayashi_Cabinet.9 days = 7 } #Election in 18 days
+		}
+	}
+}
+
+## It's Just Business
+country_event = {
+	id = DH_JAP_Hayashi_Cabinet.7
+	title = DH_JAP_Hayashi_Cabinet.7.t
+	desc = DH_JAP_Hayashi_Cabinet.7.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = DH_JAP_Hayashi_Cabinet.7.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hayashi_Cabinet.8 days = 7 }
+		}
+	}
+}
+
+## Tie-up Finance
+country_event = {
+	id = DH_JAP_Hayashi_Cabinet.8
+	title = DH_JAP_Hayashi_Cabinet.8.t
+	desc = DH_JAP_Hayashi_Cabinet.8.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = DH_JAP_Hayashi_Cabinet.8.A
+	}
+}
+
+## Deals with the Suits
+country_event = {
+	id = DH_JAP_Hayashi_Cabinet.9
+	title = DH_JAP_Hayashi_Cabinet.9.t
+	desc = DH_JAP_Hayashi_Cabinet.9.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = DH_JAP_Hayashi_Cabinet.9.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hayashi_Cabinet.10 days = 7 } #Election in 11 days
+		}
+	}
+}
+
+## Businesses React Positively
+country_event = {
+	id = DH_JAP_Hayashi_Cabinet.10
+	title = DH_JAP_Hayashi_Cabinet.10.t
+	desc = DH_JAP_Hayashi_Cabinet.10.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Toseiha influence increases
+		name = DH_JAP_Hayashi_Cabinet.10.A		
+		set_temp_variable = { faction_id = 8 } #Toseiha
+		set_temp_variable = { influence_to_add = 5 } #Placeholder
+		change_faction_influence = yes
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hayashi_Cabinet.11 days = 4 } #Election in 7 days
+		}
+	}
+}
+
+## The Conservative Backlash
+country_event = {
+	id = DH_JAP_Hayashi_Cabinet.11
+	title = DH_JAP_Hayashi_Cabinet.11.t
+	desc = DH_JAP_Hayashi_Cabinet.11.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = DH_JAP_Hayashi_Cabinet.11.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hayashi_Cabinet.12 days = 5 } #Election in 2 days
+		}
+	}
+}
+
+## The Diet's Quiet Fury
+country_event = {
+	id = DH_JAP_Hayashi_Cabinet.12
+	title = DH_JAP_Hayashi_Cabinet.12.t
+	desc = DH_JAP_Hayashi_Cabinet.12.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = DH_JAP_Hayashi_Cabinet.12.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hayashi_Cabinet.13 days = 2 } #March 31, 1937
+		}
+	}
+}
+
+## Hayashi Calls Elections!
+country_event = {
+	id = DH_JAP_Hayashi_Cabinet.13
+	title = DH_JAP_Hayashi_Cabinet.13.t
+	desc = DH_JAP_Hayashi_Cabinet.13.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = DH_JAP_Hayashi_Cabinet.13.A
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hayashi_Cabinet.14 days = 64 } #June 3, 1937
+		}
+	}
+}
+
+## Dashing in Shame
+country_event = {
+	id = DH_JAP_Hayashi_Cabinet.14
+	title = DH_JAP_Hayashi_Cabinet.14.t
+	desc = DH_JAP_Hayashi_Cabinet.14.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Touseiha popularity and influence utterly lowered, Party  and Party Bureaucrat influence and popularity boosted.
+		name = DH_JAP_Hayashi_Cabinet.14.A		
+		set_temp_variable = { faction_id = 8 } #Toseiha
+		set_temp_variable = { influence_to_add = -50 } #Placeholder
+		change_faction_influence = yes
+		set_temp_variable = { faction_id = 25 } #Party Politician
+		set_temp_variable = { influence_to_add = 30 } #Placeholder
+		change_faction_influence = yes
+		set_temp_variable = { faction_id = 26 } #Party Bureaucrat
+		set_temp_variable = { influence_to_add = 30 } #Placeholder
+		change_faction_influence = yes
+		hidden_effect = {
+			country_event = { id = DH_JAP_Hayashi_Cabinet.15 days = 1 } #June 4, 1937
+		}
+	}
+}
+
+## The Child of Fate
+country_event = {
+	id = DH_JAP_Hayashi_Cabinet.15
+	title = DH_JAP_Hayashi_Cabinet.15.t
+	desc = DH_JAP_Hayashi_Cabinet.15.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # Konoe become PM, Start Hiranuma Chain
+		name = DH_JAP_Hayashi_Cabinet.15.A
+	#	hidden_effect = {
+	#		country_event = { id = DH_JAP_Hiranuma_Cabinet.1 days = X } #MONTH DAY, 1937
+	#	}
+	}
+}
+
+##############################
+##### Foreign Events
+##############################
+
+##### DH_JAP_Nekka_Incident
+
+### Initiation of Operation Nekka
+country_event = {
+	id = DH_JAP_Nekka_Incident.1
+	title = DH_JAP_Nekka_Incident.1.t
+	desc = DH_JAP_Nekka_Incident.1.d
+	picture = GFX_report_JAP_Kwantung_Army
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Nekka_Incident.1.A
+		country_event = { id = DH_JAP_Nekka_Incident.2 days = 1 }
+	}
+}
+
+### The Kanto-Gun Ultimatum
+country_event = {
+	id = DH_JAP_Nekka_Incident.2
+	title = DH_JAP_Nekka_Incident.2.t
+	desc = DH_JAP_Nekka_Incident.2.d
+	picture = GFX_report_JAP_Kwantung_Army
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Nekka_Incident.2.A
+		hidden_effect = {
+			JAP = { transfer_state = 716 }
+		}
+		CHI = {
+			country_event = { id = DH_CHI_Operation_Nekka.1 days = 5 }
+		}
+	}
+}
+
+### A Response from the Chinese (Accept)
+country_event = {
+	id = DH_JAP_Nekka_Incident.3
+	title = DH_JAP_Nekka_Incident.3.t
+	desc = DH_JAP_Nekka_Incident.3.d
+	picture = GFX_report_JAP_Zhang_Xueliang
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Nekka_Incident.3.A
+		add_political_power = 50
+		add_war_support = 0.05
+		hidden_effect = {
+			MAN = { transfer_state = 716 }
+			set_global_flag = Shanhaiguan_Victory
+			country_event = { id = DH_JAP_Nekka_Incident.6 days = 5 }
+		}
+	}
+}
+
+### A Response from the Chinese (Refuse)
+country_event = {
+	id = DH_JAP_Nekka_Incident.4
+	title = DH_JAP_Nekka_Incident.4.t
+	desc = DH_JAP_Nekka_Incident.4.d
+	picture = GFX_report_JAP_Zhang_Xueliang
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Nekka_Incident.4.A
+		custom_effect_tooltip = CHI_Refusal
+		hidden_effect = {
+			716 = { set_border_war = yes }
+			609 = { set_border_war = yes }
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 716
+					num_provinces = 1
+					on_win = DH_JAP_Nekka_Incident.5
+				}
+				defender = {
+					state = 609
+					num_provinces = 1
+					on_lose = DH_CHI_Operation_Nekka.2
+				}
+			}
+			set_border_war_data = {
+				attacker = 716
+				defender = 609
+				attacker_modifier = 1.0
+				defender_modifier = -1.0
+			}
+		}
+	}
+}
+
+### A Report from Shanhai Pass
+country_event = {
+	id = DH_JAP_Nekka_Incident.5
+	title = DH_JAP_Nekka_Incident.5.t
+	desc = DH_JAP_Nekka_Incident.5.d
+	picture = GFX_report_JAP_Operation_Nekka
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Nekka_Incident.5.A
+		add_political_power = 50
+		add_war_support = 0.05
+		MAN = { transfer_state = 716 }
+		716 = { set_border_war = no }
+		609 = { set_border_war = no }
+		hidden_effect = {
+			set_global_flag = Shanhaiguan_Victory
+			country_event = { id = DH_JAP_Nekka_Incident.6 days = 5 }
+		}
+	}
+}
+
+### The Manchurian Rehe
+country_event = {
+	id = DH_JAP_Nekka_Incident.6
+	title = DH_JAP_Nekka_Incident.6.t
+	desc = DH_JAP_Nekka_Incident.6.d
+	picture = GFX_report_JAP_Manchurian_Rehe
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Nekka_Incident.6.A
+		add_political_power = 25
+		country_event = { id = DH_JAP_Nekka_Incident.7 days = 5 }
+		hidden_effect = {
+			CHI = {
+				country_event = { id = DH_CHI_Operation_Nekka.3 days = 5 }
+			}
+		}
+	}
+}
+
+### A Meeting with the General
+country_event = {
+	id = DH_JAP_Nekka_Incident.7
+	title = DH_JAP_Nekka_Incident.7.t
+	desc = DH_JAP_Nekka_Incident.7.d
+	picture = GFX_report_JAP_Tang_Yulin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Nekka_Incident.7.A
+		add_political_power = -50
+		country_event = { id = DH_JAP_Nekka_Incident.8 days = 5 }
+		hidden_effect = {
+			JAP = { transfer_state = 715 }
+			CHI = {
+				country_event = { id = DH_CHI_Operation_Nekka.4 days = 5}
+			}
+		}
+	}
+}
+
+### The Rehe Offensive Plan
+country_event = {
+	id = DH_JAP_Nekka_Incident.8
+	title = DH_JAP_Nekka_Incident.8.t
+	desc = DH_JAP_Nekka_Incident.8.d
+	picture = GFX_report_JAP_Operation_Nekka_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Nekka_Incident.8.A
+		610 = { set_border_war = yes }
+		715 = { set_border_war = yes }
+		start_border_war = {
+			change_state_after_war = yes
+			attacker = {
+				state = 715
+				num_provinces = 6
+				on_win = DH_JAP_Nekka_Incident.9
+			}
+			defender = {
+				state = 610
+				num_provinces = 4
+				on_lose = DH_CHI_Operation_Nekka.5
+			}
+		}
+		set_border_war_data = {
+			attacker = 715
+			defender = 610
+			attacker_modifier = 1.0
+			defender_modifier = -1.0
+		}
+	}
+}
+
+### The Retreat of the Chinese
+country_event = {
+	id = DH_JAP_Nekka_Incident.9
+	title = DH_JAP_Nekka_Incident.9.t
+	desc = DH_JAP_Nekka_Incident.9.d
+	picture = GFX_report_JAP_Nekka_Incident_3
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Nekka_Incident.9.A
+		add_political_power = 50
+		hidden_effect = {
+			610 = { set_border_war = no }
+			715 = { set_border_war = no }
+			MAN = { transfer_state = 610 }
+			MAN = { transfer_state = 715 }
+			JAP = { transfer_state = 826 }
+			set_global_flag = Jehol_Victory
+		}
+	}
+}
+
+### Operation Nekka
+news_event = {
+	id = DH_JAP_Nekka_Incident.10
+	title = DH_JAP_Nekka_Incident.10.t
+	desc = DH_JAP_Nekka_Incident.10.d
+	picture = GFX_news_JAP_Operation_Nekka
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = DH_JAP_Nekka_Incident.10.A
+	}
+}
+
+##### DH_JAP_Tanggu_Truce
+
+### A Meeting in Tianjin
+country_event = {
+	id = DH_JAP_Tanggu_Truce.1
+	title = DH_JAP_Tanggu_Truce.1.t
+	desc = DH_JAP_Tanggu_Truce.1.d
+	picture = GFX_report_JAP_Tanggu_Truce
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Tanggu_Truce.1.A
+		country_event = { id = DH_JAP_Tanggu_Truce.2 days = 5 }
+		CHI = {
+			country_event = { id = DH_CHI_Tanggu_Truce.2 days = 5 }
+		}
+	}
+}
+
+### The Issue of Manchuria
+country_event = {
+	id = DH_JAP_Tanggu_Truce.2
+	title = DH_JAP_Tanggu_Truce.2.t
+	desc = DH_JAP_Tanggu_Truce.2.d
+	picture = GFX_report_JAP_Manchurian_Rehe
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Tanggu_Truce.2.A
+		country_event = { id = DH_JAP_Tanggu_Truce.3 days = 5 }
+		CHI = {
+			country_event = { id = DH_CHI_Tanggu_Truce.3 days = 5 }
+		}
+	}
+}
+
+### The Issue of Militarization (DMZ)
+country_event = {
+	id = DH_JAP_Tanggu_Truce.3
+	title = DH_JAP_Tanggu_Truce.3.t
+	desc = DH_JAP_Tanggu_Truce.3.d
+	picture = GFX_report_JAP_Tanggu_Militarization
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Tanggu_Truce.3.A
+		country_event = { id = DH_JAP_Tanggu_Truce.4 days = 5 }
+		CHI = {
+			country_event = { id = DH_CHI_Tanggu_Truce.4 days = 5 }
+		}
+	}
+}
+
+### The Issue of Anti-Japanese Volunteer Armies
+country_event = {
+	id = DH_JAP_Tanggu_Truce.4
+	title = DH_JAP_Tanggu_Truce.4.t
+	desc = DH_JAP_Tanggu_Truce.4.d
+	picture = GFX_report_JAP_Manchukuo_Pacification
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Tanggu_Truce.4.A
+	}
+}
+
+### The Tanggu Truce
+news_event = {
+	id = DH_JAP_Tanggu_Truce.5
+	title = DH_JAP_Tanggu_Truce.5.t
+	desc = DH_JAP_Tanggu_Truce.5.d
+	picture = gfx/event_pictures/news_JAP_Tanggu_Truce.dds
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Tanggu_Truce.5.A
+		add_political_power = 100
+		add_war_support = 0.2
+		set_global_flag = Tanggu_Truce
+	}
+}
+
+##### DH_JAP_The_Manchurian_Lifeline
+
+### The Manchuria Lifeline
+
+## Directly Invest into Manchuria
+country_event ={
+	id = DH_JAP_The_Manchurian_Lifeline.1
+	title = DH_JAP_The_Manchurian_Lifeline.1.t
+	desc = DH_JAP_The_Manchurian_Lifeline.1.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Invest 100 moneys
+		name = DH_JAP_The_Manchurian_Lifeline.1.A
+		set_temp_variable = { money_to_gain = -100 }
+		add_money_with_tooltip_effect = yes
+		add_to_variable = { JAP.manchurian_budget = 100 }
+    }
+
+	option = { #Invest 200 moneys 
+		name = DH_JAP_The_Manchurian_Lifeline.1.B
+		set_temp_variable = { money_to_gain = -200 }
+		add_money_with_tooltip_effect = yes
+		add_to_variable = { JAP.manchurian_budget = 200 }
+	}
+
+	option = { #Invest 300 moneys
+		name = DH_JAP_The_Manchurian_Lifeline.1.C
+		set_temp_variable = { money_to_gain = -300 }
+		add_money_with_tooltip_effect = yes
+		add_to_variable = { JAP.manchurian_budget = 300 }
+	}
+}
+
+##### DH_JAP_Pan_Asianism
+
+### Hakkō Ichiu (Eight Crowns Under One Roof)
+
+## Japan invite us to Hakkō Ichiu (Eight Crowns Under One Roof)
+country_event = { 
+	id = DH_JAP_Pan_Asianism.1
+	title = DH_JAP_Pan_Asianism.1.t
+	desc = DH_JAP_Pan_Asianism.1.d
+	picture = GFX_report_JAP
+
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = {
+		name = DH_JAP_Pan_Asianism.1.A
+		add_ideas = JAP_Eight_Crowns
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.15
+		}
+	}
+}
+
+## Leave Hakkō Ichiu (Eight Crowns Under One Roof)
+country_event = { 
+	id = DH_JAP_Pan_Asianism.2
+	title = DH_JAP_Pan_Asianism.2.t
+	desc = DH_JAP_Pan_Asianism.2.d
+	picture = GFX_report_JAP
+
+	mean_time_to_happen = {	days = 7 }
+	fire_only_once = no
+
+	trigger = { #Already have the idea, no longer a subject of Japan OR It's collapse
+		ROOT = {
+			NOT = { tag = JAP }
+			has_idea = JAP_Eight_Crowns 
+			OR = {				
+				exists = no
+				NOT = { is_subject_of = JAP }
+				JAP = { NOT = { has_country_flag = Japan_Eight_Crowns} }
+			}
+		}
+	}
+
+	option = {
+		name = DH_JAP_Pan_Asianism.2.A
+		remove_ideas = JAP_Eight_Crowns
+		if = { #Alert Japan only when it isn't collapse
+			limit = { JAP = { has_country_flag = Japan_Eight_Crowns } }
+			JAP = { country_event = { id = DH_JAP_Pan_Asianism.3 } }
+		}
+	}
+}
+
+## Tell Japan about Chinese subject leaves Hakkō Ichiu (Eight Crowns Under One Roof)
+country_event = {
+	id = DH_JAP_Pan_Asianism.3
+	title = DH_JAP_Pan_Asianism.3.t
+	desc = DH_JAP_Pan_Asianism.3.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = DH_JAP_Pan_Asianism.3.A
+	}
+}
+
+## The collapse of Hakkō Ichiu (Eight Crowns Under One Roof)
+country_event = {
+	id = DH_JAP_Pan_Asianism.4
+	title = DH_JAP_Pan_Asianism.4.t
+	desc = DH_JAP_Pan_Asianism.4.d
+	picture = GFX_report_JAP
+
+	mean_time_to_happen = {	days = 7 }
+	fire_only_once = yes
+
+	trigger = { #Have the idea but no longer have the flag
+		tag = JAP
+		has_idea = JAP_Eight_Crowns
+		NOT = { has_country_flag = Japan_Eight_Crowns }
+	}
+
+	option = {
+		name = DH_JAP_Pan_Asianism.4.A
+		remove_ideas = JAP_Eight_Crowns 
+	}
+}
+
+## Flavor event about Tōa Shin Chitsujo (New Order in East Asia)
+country_event = {
+	id = DH_JAP_Pan_Asianism.5
+	title = DH_JAP_Pan_Asianism.5.t
+	desc = DH_JAP_Pan_Asianism.5.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = DH_JAP_Pan_Asianism.5.A
+	}
+}
+
+### Tōa Shin Chitsujo (New Order in East Asia)
+
+## Japan invite us to Tōa Shin Chitsujo (New Order in East Asia)
+country_event = {
+	id = DH_JAP_Pan_Asianism.6
+	title = DH_JAP_Pan_Asianism.6.t
+	desc = DH_JAP_Pan_Asianism.6.d
+	picture = GFX_report_JAP
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = DH_JAP_Pan_Asianism.6.A
+		add_ideas = JAP_East_New_Order
+	}
+}
+
+## Leave Tōa Shin Chitsujo (New Order in East Asia)
+country_event = { 
+	id = DH_JAP_Pan_Asianism.7
+	title = DH_JAP_Pan_Asianism.7.t
+	desc = DH_JAP_Pan_Asianism.7.d
+	picture = GFX_report_JAP
+
+	mean_time_to_happen = {	days = 7 }
+	fire_only_once = no
+
+	trigger = { #Already have the idea, no longer a subject of Japan OR It's collapse
+		ROOT = { 
+			NOT = { tag = JAP }
+			has_idea = JAP_East_New_Order 
+			OR = {				
+				exists = no
+				NOT = { is_subject_of = JAP }
+				JAP = { 
+					NOT = { has_country_flag = Japan_East_New_Order } 
+					NOT = { has_idea = JAP_Co_Prosperity_Sphere }
+				}
+			}
+		}
+	}
+
+	option = {
+		name = DH_JAP_Pan_Asianism.7.A
+		remove_ideas = JAP_East_New_Order
+		if = { #Alert Japan only when it isn't collapse
+			limit = { JAP = { has_country_flag = Japan_East_New_Order } }
+			JAP = { country_event = { id = DH_JAP_Pan_Asianism.8 } }
+		}		
+	}
+}
+
+## Tell Japan about subject leaves Tōa Shin Chitsujo (New Order in East Asia)
+country_event = {
+	id = DH_JAP_Pan_Asianism.8
+	title = DH_JAP_Pan_Asianism.8.t
+	desc = DH_JAP_Pan_Asianism.8.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = DH_JAP_Pan_Asianism.8.A
+	}
+}
+
+## The collapse of Tōa Shin Chitsujo (New Order in East Asia)
+country_event = {
+	id = DH_JAP_Pan_Asianism.9
+	title = DH_JAP_Pan_Asianism.9.t
+	desc = DH_JAP_Pan_Asianism.9.d
+	picture = GFX_report_JAP
+
+	mean_time_to_happen = {	days = 7 }
+	fire_only_once = yes
+
+	trigger = { #Have the idea but no longer have the flag
+		tag = JAP
+		has_idea = JAP_East_New_Order
+		NOT = { has_country_flag = Japan_East_New_Order }
+	}
+
+	option = {
+		name = DH_JAP_Pan_Asianism.9.A
+		remove_ideas = JAP_East_New_Order 
+	}
+}
+
+### Dai Tōa Kyōeiken (Greater East Asia Co-Prosperity Sphere)
+
+## The begin of Dai Tōa Kyōeiken (Greater East Asia Co-Prosperity Sphere)
+country_event = {
+	id = DH_JAP_Pan_Asianism.10
+	title = DH_JAP_Pan_Asianism.10.t
+	desc = DH_JAP_Pan_Asianism.10.d
+	picture = GFX_report_JAP
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #Upgrade the idea, change the flag
+		name = DH_JAP_Pan_Asianism.10.A
+		swap_ideas = {
+			remove_idea = JAP_East_New_Order
+			add_idea = JAP_Co_Prosperity_Sphere
+		}
+		clr_country_flag = Japan_East_New_Order
+		set_country_flag = Japan_Co_Prosperity_Sphere
+	}
+}
+
+## Leave Tōa Shin Chitsujo (New Order in East Asia) to join Dai Tōa Kyōeiken (Greater East Asia Co-Prosperity Sphere)
+country_event = { 
+	id = DH_JAP_Pan_Asianism.11
+	title = DH_JAP_Pan_Asianism.11.t
+	desc = DH_JAP_Pan_Asianism.11.d
+	picture = GFX_report_JAP
+
+	mean_time_to_happen = {	days = 7 }
+	fire_only_once = no
+
+	trigger = { #Is a member of Tōa Shin Chitsujo, Japan already form Dai Tōa Kyōeiken
+		NOT = { tag = JAP }
+		JAP = { has_country_flag = Japan_Co_Prosperity_Sphere }
+		ROOT = { has_idea = JAP_East_New_Order }			
+	}
+
+	option = {  #Upgrade the idea (If have Yen Bloc, upgrade it too)
+		name = DH_JAP_Pan_Asianism.11.A
+		swap_ideas = {
+			remove_idea = JAP_East_New_Order
+			add_idea = JAP_Co_Prosperity_Sphere
+		}
+		if = {
+			limit = { has_idea = JAP_Yen_Bloc_1 }
+			swap_ideas = {
+				remove_idea = JAP_Yen_Bloc_1
+				add_idea = JAP_Yen_Bloc_2
+			}
+		}
+		JAP = { country_event = { id = DH_JAP_Pan_Asianism.12 } } #Will this necessary?
+	}
+}
+
+## Tell Japan about member leaves Tōa Shin Chitsujo (New Order in East Asia) to joins Dai Tōa Kyōeiken (Greater East Asia Co-Prosperity Sphere)
+country_event = { #Should it show for every members or just once to inform Japan that of its subjects join the Dai Tōa Kyōeiken (Greater East Asia Co-Prosperity Sphere)?
+	id = DH_JAP_Pan_Asianism.12
+	title = DH_JAP_Pan_Asianism.12.t
+	desc = DH_JAP_Pan_Asianism.12.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = DH_JAP_Pan_Asianism.12.A
+	}
+}
+
+## Japan invite us to Dai Tōa Kyōeiken (Greater East Asia Co-Prosperity Sphere)
+country_event = { 
+	id = DH_JAP_Pan_Asianism.13
+	title = DH_JAP_Pan_Asianism.13.t
+	desc = DH_JAP_Pan_Asianism.13.d
+	picture = GFX_report_JAP
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = DH_JAP_Pan_Asianism.13.A
+		add_ideas = JAP_Co_Prosperity_Sphere
+	}
+}
+
+## Leave Dai Tōa Kyōeiken (Greater East Asia Co-Prosperity Sphere)
+country_event = { 
+	id = DH_JAP_Pan_Asianism.14
+	title = DH_JAP_Pan_Asianism.14.t
+	desc = DH_JAP_Pan_Asianism.14.d
+	picture = GFX_report_JAP
+
+	mean_time_to_happen = {	days = 7 }
+	fire_only_once = no
+	
+	trigger = { #Already have the idea, no longer in faction with Japan OR It's collapse
+		ROOT = { 
+			NOT = { tag = JAP }
+			has_idea = JAP_Co_Prosperity_Sphere 
+			OR = {				
+				exists = no
+				NOT = { is_in_faction_with = JAP }
+				JAP = { NOT = { has_country_flag = Japan_Co_Prosperity_Sphere } }
+			}
+		}
+	}
+
+	option = {
+		name = DH_JAP_Pan_Asianism.14.A
+		remove_ideas = JAP_Co_Prosperity_Sphere
+		if = { #Alert Japan only when it isn't collapse
+			limit = { JAP = { has_country_flag = Japan_Co_Prosperity_Sphere } }
+			JAP = { country_event = { id = DH_JAP_Pan_Asianism.15 } }
+		}		
+	}
+}
+
+## Tell Japan about member leaves Dai Tōa Kyōeiken (Greater East Asia Co-Prosperity Sphere)
+country_event = {
+	id = DH_JAP_Pan_Asianism.15
+	title = DH_JAP_Pan_Asianism.15.t
+	desc = DH_JAP_Pan_Asianism.15.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = DH_JAP_Pan_Asianism.15.A
+	}
+}
+
+### The collapse of Dai Tōa Kyōeiken (Greater East Asia Co-Prosperity Sphere)
+country_event = {
+	id = DH_JAP_Pan_Asianism.16
+	title = DH_JAP_Pan_Asianism.16.t
+	desc = DH_JAP_Pan_Asianism.16.d
+	picture = GFX_report_JAP
+
+	mean_time_to_happen = {	days = 7 }
+	fire_only_once = yes
+
+	trigger = { #Have the idea but no longer have the flag
+		tag = JAP
+		has_idea = JAP_Co_Prosperity_Sphere 
+		NOT = { has_country_flag = Japan_Co_Prosperity_Sphere  }
+	}
+
+	option = {
+		name = DH_JAP_Pan_Asianism.16.A
+		remove_ideas = JAP_Co_Prosperity_Sphere 
+	}
+}
+
+### Yen Bloc
+
+## New subject joins Yen Bloc
+country_event = { 
+	id = DH_JAP_Pan_Asianism.17
+	title = DH_JAP_Pan_Asianism.17.t
+	desc = DH_JAP_Pan_Asianism.17.d
+	picture = GFX_report_JAP
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+		option = { #Add the idea that depend on Japan's flag
+		name = DH_JAP_Pan_Asianism.17.A
+		if = { #Before Dai Tōa Kyōeiken
+				limit = { JAP = { NOT = { has_country_flag = Japan_Co_Prosperity_Sphere } } }
+				add_ideas = JAP_Yen_Bloc_1
+		}
+		else_if = { #After Dai Tōa Kyōeiken
+			limit = { JAP = { has_country_flag = Japan_Co_Prosperity_Sphere } }
+			add_ideas = JAP_Yen_Bloc_2
+		}
+	}
+}
+
+## The new agreement from the Yen Bloc (After "Dai Tōa Kyōeiken")
+country_event = { 
+	id = DH_JAP_Pan_Asianism.18
+	title = DH_JAP_Pan_Asianism.18.t
+	desc = DH_JAP_Pan_Asianism.18.d
+	picture = GFX_report_JAP
+
+	mean_time_to_happen = {	days = 7 }
+	fire_only_once = no
+
+	trigger = { #Japan form Dai Tōa Kyōeiken, subject already have Yen Bloc
+		NOT = { tag = JAP }
+		JAP = { has_country_flag = Japan_Co_Prosperity_Sphere }
+		ROOT = { has_idea = JAP_Yen_Bloc_1 }			
+	}
+
+	option = { #Upgrade the idea
+		name = DH_JAP_Pan_Asianism.18.A
+		swap_ideas = {
+			remove_idea = JAP_Yen_Bloc_1
+			add_idea = JAP_Yen_Bloc_2
+		}
+	}
+}
+
+## Leaves the Yen Bloc
+country_event = { 
+	id = DH_JAP_Pan_Asianism.19
+	title = DH_JAP_Pan_Asianism.19.t
+	desc = DH_JAP_Pan_Asianism.19.d
+	picture = GFX_report_JAP
+
+	mean_time_to_happen = {	days = 7 }
+	fire_only_once = no
+
+	trigger = { #Already have the idea, no longer in faction with Japan OR It's collapse
+		ROOT = { 
+			NOT = { tag = JAP }
+			OR ={ 
+				has_idea = JAP_Yen_Bloc_1
+				has_idea = JAP_Yen_Bloc_2
+			}
+			OR = {				
+				exists = no
+				NOT = { is_subject_of = JAP }
+				JAP = { NOT = { has_country_flag = Japan_Yen_Bloc } }
+			}
+		}				
+	}
+
+	option = {
+		name = DH_JAP_Pan_Asianism.29.A
+		if = {
+			limit = { has_idea = JAP_Yen_Bloc_1 }
+			remove_ideas = JAP_Yen_Bloc_1
+		}
+		else = {
+			remove_ideas = JAP_Yen_Bloc_2
+		}
+		if = { #Alert Japan only when it isn't collapse
+			limit = { JAP = { has_country_flag = Japan_Yen_Bloc } }
+			JAP = { country_event = { id = DH_JAP_Pan_Asianism.20 } }
+		}
+	}
+}
+
+## Tell Japan about subject leaves the Yen Bloc
+country_event = {
+	id = DH_JAP_Pan_Asianism.20
+	title = DH_JAP_Pan_Asianism.20.t
+	desc = DH_JAP_Pan_Asianism.20.d
+	picture = GFX_report_JAP
+	
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = DH_JAP_Pan_Asianism.20.A
+	}
+}
+
+## The collapse of the Yen Bloc
+country_event = {
+	id = DH_JAP_Pan_Asianism.21
+	title = DH_JAP_Pan_Asianism.21.t
+	desc = DH_JAP_Pan_Asianism.21.d
+	picture = GFX_report_JAP
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+		has_completed_focus = JAP_Greater_East_Asia_Co_Prosperity_Sphere
+		NOT = { has_country_flag = Japan_The_Yen_Bloc }
+	}
+	option = { #Have the idea but no longer have the flag
+		name = DH_JAP_Pan_Asianism.21.A
+		if = {
+			limit = { has_idea = JAP_Yen_Bloc_1 }
+			remove_ideas = JAP_Yen_Bloc_1
+		}
+		else = {
+			remove_ideas = JAP_Yen_Bloc_2
+		}
+	}
+}
+
+##### DH_JAP_Trautmann
+
+### Trautmann Mediation
+
+## Germany Offers Mediation
+
+country_event = {
+	id = DH_JAP_Trautmann.1
+	title = DH_JAP_Trautmann.1.t
+	desc = DH_JAP_Trautmann.1.d
+
+	picture = GFX_report_JAP
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		### Accepts Mediation
+		name = DH_JAP_Trautmann.1.A
+		ai_chance = { base = 1 }
+		CHI = { country_event = DH_CHI_Trautmann.1 }
+	}
+
+	option = {
+		### Rejects Mediation
+		name = DH_JAP_Trautmann.1.B
+	}
+}
+
+## China Defers Response
+
+country_event = {
+	id = DH_JAP_Trautmann.2
+	title = DH_JAP_Trautmann.2.t
+	desc = DH_JAP_Trautmann.2.d
+
+	picture = GFX_report_JAP
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Trautmann.2.A
+	}
+}
+
+## China Accepts Terms (1)
+
+news_event = {
+	id = DH_JAP_Trautmann.3
+	title = DH_JAP_Trautmann.3.t
+	desc = DH_JAP_Trautmann.3.d
+
+	picture = GFX_report_JAP
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		### Accept Terms, end the war
+		name = DH_JAP_Trautmann.3.A
+		CHI = { news_event = DH_CHI_Trautmann.4 }
+	}
+
+	option = {
+		### Push for Harsher Terms, Controls Shanghai
+		name = DH_JAP_Trautmann.3.B
+		trigger = { JAP = { controls_state = 868 } }
+		CHI = { country_event = DH_CHI_Trautmann.2 }
+	}
+
+	option = {
+		### Reject Peace
+		name = DH_JAP_Trautmann.3.C
+		CHI = { news_event = DH_CHI_Trautmann.3 }
+	}
+}
+
+## China Accepts Terms (2)
+
+country_event = {
+	id = DH_JAP_Trautmann.4
+	title = DH_JAP_Trautmann.4.t
+	desc = DH_JAP_Trautmann.4.d
+
+	picture = GFX_report_JAP
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		### Accept Terms
+		name = DH_JAP_Trautmann.4.A
+		CHI = { news_event = DH_CHI_Trautmann.5 }
+	}
+
+	option = {
+		### Reject Terms, End Negotiation
+		name = DH_JAP_Trautmann.4.A
+		CHI = { news_event = DH_CHI_Trautmann.3 }
+	}
+}
+
+## China Rejects Peace
+
+news_event = {
+	id = DH_JAP_Trautmann.5
+	title = DH_JAP_Trautmann.5.t
+	desc = DH_JAP_Trautmann.5.d
+
+	picture = GFX_report_JAP
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = DH_JAP_Trautmann.5.A
+		CHI = { news_event = DH_CHI_Trautmann.3 }
+	}
+}

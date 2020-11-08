@@ -1,0 +1,33 @@
+state={
+	id=1251
+	name="STATE_1251"
+
+	history={
+		owner = SOV
+		victory_points = {
+			3658 2
+		}
+		victory_points = {
+			772 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = GEO
+		2000.1.1 = {
+			owner = GEO
+
+		}
+
+	}
+
+	provinces={
+		654 772 3656 3658 9626 14084 14085 
+	}
+	manpower=536052
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

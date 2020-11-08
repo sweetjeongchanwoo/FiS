@@ -1,0 +1,1418 @@
+#########################################################################
+#  Reichskommisariat
+#########################################################################
+GER_Reichskommissariats = {
+	###########################
+	# Czechoslovakia
+	###########################
+	Occupation_GER_CZE = {
+		icon = generic_form_nation
+		allowed = {
+			original_tag = GER
+		}
+		activation = {
+			9 = {
+				is_owned_and_controlled_by = ROOT
+				NOT = {
+					OR = {
+						is_claimed_by = ROOT
+						is_core_of = ROOT
+					}					
+				}
+			}
+			is_subject = no
+			NOT = {
+				has_country_flag = Occupation_GER_CZE
+				country_exists = CZE
+			}
+		}
+		selectable_mission = yes
+		days_mission_timeout = 45
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				9 = {
+					is_owned_and_controlled_by = ROOT
+				}
+			}
+		}
+		complete_effect = {
+			country_event = DH_Occupation_GER_CZE.1
+		}
+		timeout_effect = {
+			set_country_flag = Occupation_GER_CZE
+			# occupy_medium_country = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	###########################
+	# Slovakia
+	###########################
+	Occupation_GER_SLO = {
+		icon = generic_form_nation
+		allowed = {
+			original_tag = GER
+		}
+		activation = {
+			70 = {
+				is_owned_and_controlled_by = ROOT
+				NOT = {
+					OR = {
+						is_claimed_by = ROOT
+						is_core_of = ROOT
+					}					
+				}
+			}
+			is_subject = no
+			NOT = {
+				has_country_flag = Occupation_GER_SLO
+				country_exists = SLO
+			}
+		}
+		selectable_mission = yes
+		days_mission_timeout = 45
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				70 = {
+					is_owned_and_controlled_by = ROOT
+				}
+			}
+		}
+		complete_effect = {
+			country_event = DH_Occupation_GER_SLO.1
+		}
+		timeout_effect = {
+			set_country_flag = Occupation_GER_SLO
+			# occupy_medium_country = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	###########################
+	# Denmark
+	###########################
+	Occupation_GER_DEN = {
+		icon = generic_form_nation
+		allowed = {
+			original_tag = GER
+		}
+		activation = {
+			37 = {
+				is_owned_and_controlled_by = ROOT
+				NOT = {
+					OR = {
+						is_claimed_by = ROOT
+						is_core_of = ROOT
+					}					
+				}
+			}
+			is_subject = no
+			NOT = {
+				has_country_flag = Occupation_GER_DEN
+			}
+			OR = {
+				DEN = { has_capitulated = yes }
+				DEN = { exists = no }
+			}			
+		}
+		selectable_mission = yes
+		days_mission_timeout = 45
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				37 = {
+					is_owned_and_controlled_by = ROOT
+				}
+			}
+		}
+		complete_effect = {
+			country_event = DH_Occupation_GER_DEN.1
+		}
+		timeout_effect = {
+			set_country_flag = Occupation_GER_DEN
+			# occupy_medium_country = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	###########################
+	# Denmark
+	###########################
+	Occupation_GER_NOR = {
+		icon = generic_form_nation
+		allowed = {
+			original_tag = GER
+		}
+		activation = {
+			110 = {
+				is_owned_and_controlled_by = ROOT
+				NOT = {
+					OR = {
+						is_claimed_by = ROOT
+						is_core_of = ROOT
+					}					
+				}
+			}
+			is_subject = no
+			NOT = {
+				has_country_flag = Occupation_GER_NOR
+			}
+			OR = {
+				NOR = { has_capitulated = yes }
+				NOR = { exists = no }
+			}
+		}
+		selectable_mission = yes
+		days_mission_timeout = 45
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				110 = {
+					is_owned_and_controlled_by = ROOT
+				}
+			}
+		}
+		complete_effect = {
+			country_event = DH_Occupation_GER_NOR.1
+		}
+		timeout_effect = {
+			set_country_flag = Occupation_GER_NOR
+			# occupy_medium_country = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	###########################
+	# Netherlands
+	###########################
+	Occupation_GER_HOL = {
+		icon = generic_form_nation
+		allowed = {
+			original_tag = GER
+		}
+		activation = {
+			7 = {
+				is_owned_and_controlled_by = ROOT
+				NOT = {
+					OR = {
+						is_claimed_by = ROOT
+						is_core_of = ROOT
+					}					
+				}
+			}
+			is_subject = no
+			NOT = {
+				has_country_flag = Occupation_GER_HOL
+			}
+			OR = {
+				HOL = { has_capitulated = yes }
+				HOL = { exists = no }
+			}
+		}
+		selectable_mission = yes
+		days_mission_timeout = 45
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				7 = {
+					is_owned_and_controlled_by = ROOT
+				}
+			}
+		}
+		complete_effect = {
+			country_event = DH_Occupation_GER_HOL.1
+		}
+		timeout_effect = {
+			set_country_flag = Occupation_GER_HOL
+			# occupy_medium_country = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	###########################
+	# Netherlands
+	###########################
+	Occupation_GER_HOL_2 = {
+		icon = generic_form_nation
+		allowed = {
+			always = no
+		}
+		activation = {
+			7 = {
+				is_fully_controlled_by = ROOT
+				NOT = {
+					is_owned_by = ROOT
+					OR = {
+						is_claimed_by = ROOT
+						is_core_of = ROOT
+					}
+				}
+			}
+			is_subject = no
+			NOT = {
+				has_country_flag = Occupation_GER_HOL
+			}
+			OR = {
+				HOL = { has_capitulated = yes }
+				HOL = { exists = no }
+			}
+		}
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				7 = {
+					is_owned_and_controlled_by = ROOT
+				}
+			}
+		}
+		complete_effect = {
+			country_event = DH_Occupation_GER_HOL.2
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	###########################
+	# Belgium
+	###########################
+	Occupation_GER_BEL = {
+		icon = generic_form_nation
+		allowed = {
+			original_tag = GER
+		}
+		activation = {
+			6 = {
+				is_owned_and_controlled_by = ROOT
+				NOT = {
+					OR = {
+						is_claimed_by = ROOT
+						is_core_of = ROOT
+					}					
+				}
+			}
+			is_subject = no
+			NOT = {
+				has_country_flag = Occupation_GER_BEL
+			}
+			OR = {
+				BEL = { has_capitulated = yes }
+				BEL = { exists = no }
+			}
+		}
+		selectable_mission = yes
+		days_mission_timeout = 45
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				6 = {
+					is_owned_and_controlled_by = ROOT
+				}
+			}
+		}
+		complete_effect = {
+			country_event = DH_Occupation_GER_BEL.1
+		}
+		timeout_effect = {
+			set_country_flag = Occupation_GER_BEL
+			# occupy_medium_country = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	###########################
+	# GG Polen
+	###########################
+	GER_generalgouvernement_polen = {
+		icon = ger_reichskommissariats
+		
+		visible = {
+			has_government = fascist
+			GGP = { exists = no }
+			tag = GER
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+				has_full_control_of_state = 88
+			}
+			OR = {
+				POL = { has_capitulated = yes }
+				POL = { exists = no }
+			}
+		}
+		available = {
+		}
+		
+		cost = 0
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				SOV = { has_capitulated = yes }
+			}
+		}
+		
+		complete_effect = {
+			hidden_effect = {		
+				set_autonomy = {
+					target = GGP
+					autonomous_state = autonomy_reichskommissariat
+				}
+				GGP = {	
+					transfer_state = 88
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+								is_in_faction_with = GER
+							}
+							has_full_control_of_state = 10
+						}
+					}
+					GGP = { transfer_state = 10 }
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+								is_in_faction_with = GER
+							}
+							has_full_control_of_state = 90
+						}
+					}
+					GGP = { transfer_state = 90 }
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+								is_in_faction_with = GER
+							}
+							has_full_control_of_state = 92
+						}
+					}
+					GGP = { transfer_state = 92 }
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+								is_in_faction_with = GER
+							}
+							has_full_control_of_state = 886
+						}
+					}
+					GGP = { transfer_state = 886 }
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+								is_in_faction_with = GER
+							}
+							has_full_control_of_state = 1173
+						}
+					}
+					GGP = { transfer_state = 1173 }
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+								is_in_faction_with = GER
+							}
+							has_full_control_of_state = 91
+						}
+					}
+					GGP = { transfer_state = 91 }
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+								is_in_faction_with = GER
+							}
+							has_full_control_of_state = 1172
+						}
+					}
+					GGP = { transfer_state = 1172 }
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+								is_in_faction_with = GER
+							}
+							has_full_control_of_state = 89
+						}
+					}
+					GGP = { transfer_state = 89 }
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+								is_in_faction_with = GER
+							}
+							has_full_control_of_state = 1170
+						}
+					}
+					GGP = { transfer_state = 1170 }
+				}
+			}
+			custom_effect_tooltip = germany_establish_generalgouvernement_polen
+		}
+	}
+	###########################
+	# RK Ostland
+	###########################
+	GER_reichskommissariat_ostland = {
+		icon = ger_reichskommissariats
+		
+		visible = {
+			has_government = fascist
+			ROS = { exists = no }
+			OR = {
+				has_full_control_of_state = 13
+				has_full_control_of_state = 12
+				has_full_control_of_state = 11
+				has_full_control_of_state = 96
+				has_full_control_of_state = 206
+				has_full_control_of_state = 191
+				has_full_control_of_state = 190			
+				has_full_control_of_state = 189
+				has_full_control_of_state = 95
+				has_full_control_of_state = 1427
+				has_full_control_of_state = 805
+				has_full_control_of_state = 970
+				has_full_control_of_state = 969
+				has_full_control_of_state = 968
+				has_full_control_of_state = 972
+				has_full_control_of_state = 971
+				has_full_control_of_state = 966
+				has_full_control_of_state = 967
+				has_full_control_of_state = 965
+			}
+		}
+		available = {
+			has_government = fascist
+			has_full_control_of_state = 13
+			has_full_control_of_state = 12
+			has_full_control_of_state = 11
+			has_full_control_of_state = 96
+			has_full_control_of_state = 206
+			has_full_control_of_state = 191
+			has_full_control_of_state = 190			
+			has_full_control_of_state = 189
+			has_full_control_of_state = 95
+			has_full_control_of_state = 1427
+			has_full_control_of_state = 805
+			has_full_control_of_state = 970
+			has_full_control_of_state = 969
+			has_full_control_of_state = 968
+			has_full_control_of_state = 972
+			has_full_control_of_state = 971
+			has_full_control_of_state = 966
+			has_full_control_of_state = 967
+			has_full_control_of_state = 965
+			has_full_control_of_state = 1428
+		}
+		
+		cost = 0
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				SOV = { has_capitulated = yes }
+			}
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+				set_autonomy = {
+					target = ROS
+					autonomous_state = autonomy_reichskommissariat
+				}
+				ROS = {
+					transfer_state = 13 
+					transfer_state = 12
+					transfer_state = 11
+					transfer_state = 96
+					transfer_state = 206
+					transfer_state = 191
+					transfer_state = 190
+					transfer_state = 189
+					transfer_state = 95
+					transfer_state = 204
+					transfer_state = 805
+					transfer_state = 970
+					transfer_state = 969
+					transfer_state = 968
+					transfer_state = 972
+					transfer_state = 971
+					transfer_state = 966
+					transfer_state = 967
+					transfer_state = 965
+					transfer_state = 1428
+				}	
+			}
+			custom_effect_tooltip = germany_establish_rk_ostland
+		}
+	}
+	###########################
+	# RK Ukraine
+	###########################
+	GER_reichskommissariat_ukraine = {
+		icon = ger_reichskommissariats
+		
+		visible = {
+			has_government = fascist
+			RUK = { exists = no }
+			OR = {
+				has_full_control_of_state = 94
+				has_full_control_of_state = 93
+				has_full_control_of_state = 199
+				has_full_control_of_state = 201
+				has_full_control_of_state = 194		
+				has_full_control_of_state = 202
+				has_full_control_of_state = 203
+				has_full_control_of_state = 197
+				has_full_control_of_state = 200
+				has_full_control_of_state = 226			
+			}			
+		}
+		available = {
+			has_government = fascist
+			has_full_control_of_state = 94
+			has_full_control_of_state = 93
+			has_full_control_of_state = 199
+			has_full_control_of_state = 201
+			has_full_control_of_state = 194		
+			has_full_control_of_state = 202
+			has_full_control_of_state = 203
+			has_full_control_of_state = 197
+			has_full_control_of_state = 200
+			has_full_control_of_state = 226
+		}
+		
+		cost = 0
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				SOV = { has_capitulated = yes }
+			}
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+				set_autonomy = {
+					target = RUK
+					autonomous_state = autonomy_reichskommissariat
+				}
+				RUK = {
+					transfer_state = 94
+					transfer_state = 93
+					transfer_state = 199
+					transfer_state = 201
+					transfer_state = 194
+					transfer_state = 202
+					transfer_state = 203
+					transfer_state = 197
+					transfer_state = 200
+					transfer_state = 226
+				}
+				#-------- Odessa
+				if = {
+					limit = {
+						GER = {
+							has_full_control_of_state = 192	
+						}
+					}
+					RUK = {
+						transfer_state = 192
+					}				
+				}
+				if = {
+					limit = {
+						GER = {
+							has_full_control_of_state = 198
+						}
+					}
+					RUK = {
+						transfer_state = 198
+					}
+				}
+				#----------------------	
+			}
+			custom_effect_tooltip = germany_establish_rk_ukraine
+		}
+	}
+	###########################
+	# RK Moskowien
+	###########################
+	GER_reichskommissariat_moscow = {
+		icon = ger_reichskommissariats
+		
+		visible = {
+			has_government = fascist
+			RMO = { exists = no }
+			OR = {
+				has_full_control_of_state = 262
+				has_full_control_of_state = 581
+				has_full_control_of_state = 573
+				has_full_control_of_state = 582
+				has_full_control_of_state = 652
+				has_full_control_of_state = 651
+				has_full_control_of_state = 398
+				has_full_control_of_state = 397
+				has_full_control_of_state = 214
+				has_full_control_of_state = 351
+				has_full_control_of_state = 400
+				has_full_control_of_state = 399
+				has_full_control_of_state = 249
+				has_full_control_of_state = 251
+				has_full_control_of_state = 250
+				has_full_control_of_state = 256
+				has_full_control_of_state = 252
+				has_full_control_of_state = 253
+				has_full_control_of_state = 248
+				has_full_control_of_state = 247
+				has_full_control_of_state = 264
+				has_full_control_of_state = 244
+				has_full_control_of_state = 246
+				has_full_control_of_state = 219
+				has_full_control_of_state = 254
+				has_full_control_of_state = 257
+				has_full_control_of_state = 255
+				has_full_control_of_state = 220
+				has_full_control_of_state = 222
+				has_full_control_of_state = 223
+				has_full_control_of_state = 258
+				has_full_control_of_state = 224
+				has_full_control_of_state = 205
+				has_full_control_of_state = 242
+				has_full_control_of_state = 243			
+			}			
+		}
+		available = {
+			has_government = fascist
+			RMO = { exists = no }		
+			has_full_control_of_state = 262
+			has_full_control_of_state = 581
+			has_full_control_of_state = 573
+			has_full_control_of_state = 582
+			has_full_control_of_state = 652
+			has_full_control_of_state = 651
+			has_full_control_of_state = 398
+			has_full_control_of_state = 397
+			has_full_control_of_state = 214
+			has_full_control_of_state = 351
+			has_full_control_of_state = 400
+			has_full_control_of_state = 399
+			has_full_control_of_state = 249
+			has_full_control_of_state = 251
+			has_full_control_of_state = 250
+			has_full_control_of_state = 256
+			has_full_control_of_state = 252
+			has_full_control_of_state = 253
+			has_full_control_of_state = 248
+			has_full_control_of_state = 247
+			has_full_control_of_state = 264
+			has_full_control_of_state = 244
+			has_full_control_of_state = 246
+			has_full_control_of_state = 219
+			has_full_control_of_state = 254
+			has_full_control_of_state = 257
+			has_full_control_of_state = 255
+			has_full_control_of_state = 220
+			has_full_control_of_state = 222
+			has_full_control_of_state = 223
+			has_full_control_of_state = 258
+			has_full_control_of_state = 224
+			has_full_control_of_state = 205
+			has_full_control_of_state = 242
+			has_full_control_of_state = 243
+		}
+		
+		cost = 0
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				SOV = { has_capitulated = yes }
+			}
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+				set_cosmetic_tag = GER_GREATER
+				set_autonomy = {
+					target = RMO
+					autonomous_state = autonomy_reichskommissariat
+				}
+				RMO = {
+					transfer_state = 262
+					transfer_state = 581
+					transfer_state = 573
+					transfer_state = 582
+					transfer_state = 652		
+					transfer_state = 651
+					transfer_state = 398			
+					transfer_state = 397
+					transfer_state = 214
+					transfer_state = 351		
+					transfer_state = 400	
+					transfer_state = 399
+					transfer_state = 249
+					transfer_state = 251
+					transfer_state = 250
+					transfer_state = 256
+					transfer_state = 252
+					transfer_state = 253
+					transfer_state = 248
+					transfer_state = 247
+					transfer_state = 264
+					transfer_state = 244
+					transfer_state = 246		
+					transfer_state = 219	
+					transfer_state = 254	
+					transfer_state = 257
+					transfer_state = 255
+					transfer_state = 220		
+					transfer_state = 222
+					transfer_state = 223
+					transfer_state = 258
+					transfer_state = 224
+					transfer_state = 205
+					transfer_state = 242	
+					transfer_state = 243			
+				}
+				#Finland stuff
+				if = {
+					limit = {
+						GER = {
+							has_full_control_of_state = 213
+						}
+					}
+					RMO = {
+						transfer_state = 213
+					}
+				}
+				if = {
+					limit = {
+						GER = {
+							has_full_control_of_state = 215
+						}
+					}
+					RMO = {
+						transfer_state = 215
+					}
+				}
+				if = {
+					limit = {
+						GER = {
+							has_full_control_of_state = 216
+						}
+					}
+					RMO = {
+						transfer_state = 216
+					}
+					set_province_name = { id = 11159 name = "Petroskoi"}
+				}
+				
+				#Expand RK Ostland
+				ROS = {
+					transfer_state = 195
+					transfer_state = 208
+					transfer_state = 209
+					transfer_state = 263
+					transfer_state = 210
+					transfer_state = 207
+					transfer_state = 241
+				}
+				
+				#Expand  RK Ukraine		
+				RUK = {
+					transfer_state = 193
+					transfer_state = 225
+					transfer_state = 259
+					transfer_state = 240
+					transfer_state = 221
+					transfer_state = 260
+					transfer_state = 228
+					transfer_state = 227
+					transfer_state = 218
+					transfer_state = 245
+					transfer_state = 265
+					transfer_state = 217
+					transfer_state = 239
+				}
+			}
+			custom_effect_tooltip = germany_establish_rk_moscow
+		}
+	}
+	###########################
+	# RK Kaukasien
+	###########################
+	GER_reichskommissariat_caucasus = {
+		icon = ger_reichskommissariats
+		
+		visible = {
+			has_government = fascist
+			RKA = { exists = no }	
+			OR = {	
+				has_full_control_of_state = 236
+				has_full_control_of_state = 237
+				has_full_control_of_state = 238
+				has_full_control_of_state = 234
+				has_full_control_of_state = 235
+				has_full_control_of_state = 232
+				has_full_control_of_state = 233
+				has_full_control_of_state = 231
+				has_full_control_of_state = 230
+				has_full_control_of_state = 229
+				has_full_control_of_state = 1352
+				has_full_control_of_state = 1353
+				has_full_control_of_state = 1355
+				has_full_control_of_state = 892
+				has_full_control_of_state = 1251
+				has_full_control_of_state = 893
+				has_full_control_of_state = 891
+				has_full_control_of_state = 1354
+				has_full_control_of_state = 1351
+				has_full_control_of_state = 1252
+				has_full_control_of_state = 1254
+				has_full_control_of_state = 1253
+				has_full_control_of_state = 1255
+				has_full_control_of_state = 894
+			}	
+		}
+		available = {
+			has_government = fascist
+			RKA = { exists = no }			
+			has_full_control_of_state = 236
+			has_full_control_of_state = 237
+			has_full_control_of_state = 238
+			has_full_control_of_state = 234
+			has_full_control_of_state = 235
+			has_full_control_of_state = 232
+			has_full_control_of_state = 233
+			has_full_control_of_state = 231
+			has_full_control_of_state = 230
+			has_full_control_of_state = 229
+			has_full_control_of_state = 1352
+			has_full_control_of_state = 1353
+			has_full_control_of_state = 1355
+			has_full_control_of_state = 892
+			has_full_control_of_state = 1251
+			has_full_control_of_state = 893
+			has_full_control_of_state = 891
+			has_full_control_of_state = 1354
+			has_full_control_of_state = 1351
+			has_full_control_of_state = 1252
+			has_full_control_of_state = 1254
+			has_full_control_of_state = 1253
+			has_full_control_of_state = 1255
+			has_full_control_of_state = 894
+		}
+		
+		cost = 0
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				SOV = { has_capitulated = yes }
+			}
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+				set_autonomy = {
+					target = RKA
+					autonomous_state = autonomy_reichskommissariat
+				}
+				RKA = {
+					transfer_state = 236
+					transfer_state = 237
+					transfer_state = 238
+					transfer_state = 234
+					transfer_state = 235
+					transfer_state = 232
+					transfer_state = 233
+					transfer_state = 231
+					transfer_state = 230
+					transfer_state = 229
+					transfer_state = 1352
+					transfer_state = 1353
+					transfer_state = 1355
+					transfer_state = 892
+					transfer_state = 1251
+					transfer_state = 893
+					transfer_state = 891
+					transfer_state = 1354
+					transfer_state = 1351
+					transfer_state = 1252
+					transfer_state = 1254
+					transfer_state = 1253
+					transfer_state = 1255
+					transfer_state = 894
+				}
+			}
+			custom_effect_tooltip = germany_establish_rk_kaukasus	
+		}
+	}
+	###########################
+	# RK Turkestan
+	###########################
+	GER_reichskommissariat_turkestan = {
+		icon = ger_reichskommissariats
+		
+		visible = {
+			has_government = fascist
+			RTU = { exists = no }	
+			OR = {	
+				has_full_control_of_state = 407
+				has_full_control_of_state = 406
+				has_full_control_of_state = 587
+				has_full_control_of_state = 584
+				has_full_control_of_state = 585
+				has_full_control_of_state = 402
+				has_full_control_of_state = 404
+				has_full_control_of_state = 405
+				has_full_control_of_state = 742
+				has_full_control_of_state = 732
+				has_full_control_of_state = 586
+				has_full_control_of_state = 589
+				has_full_control_of_state = 401
+			}				
+		}
+		available = {
+			has_government = fascist
+			RTU = { exists = no }	
+			has_full_control_of_state = 407
+			has_full_control_of_state = 406
+			has_full_control_of_state = 587
+			has_full_control_of_state = 584
+			has_full_control_of_state = 585
+			has_full_control_of_state = 402
+			has_full_control_of_state = 404
+			has_full_control_of_state = 405
+			has_full_control_of_state = 742
+			has_full_control_of_state = 732
+			has_full_control_of_state = 586
+			has_full_control_of_state = 589
+			has_full_control_of_state = 401
+		}
+		
+		cost = 0
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				SOV = { has_capitulated = yes }
+			}
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+				set_autonomy = {
+					target = RTU
+					autonomous_state = autonomy_reichskommissariat
+				}
+				RTU = {
+					transfer_state = 407
+					transfer_state = 406
+					transfer_state = 587
+					transfer_state = 584
+					transfer_state = 585
+					transfer_state = 402
+					transfer_state = 404
+					transfer_state = 405
+					transfer_state = 742
+					transfer_state = 732
+					transfer_state = 586
+					transfer_state = 589
+					transfer_state = 401
+				}
+			}
+			custom_effect_tooltip = germany_establish_rk_kaukasus
+		}
+	}
+	###########################
+	# RK Ural
+	###########################
+	GER_reichskommissariat_ural = {
+		icon = ger_reichskommissariats
+		
+		visible = {
+			has_government = fascist
+			RUR = { exists = no }
+			OR = {	
+				has_full_control_of_state = 579
+				has_full_control_of_state = 580
+				has_full_control_of_state = 577
+				has_full_control_of_state = 653
+				has_full_control_of_state = 403
+				has_full_control_of_state = 571
+				has_full_control_of_state = 578
+				has_full_control_of_state = 572
+				has_full_control_of_state = 583
+				has_full_control_of_state = 590
+				has_full_control_of_state = 588
+				has_full_control_of_state = 40
+				has_full_control_of_state = 654
+				has_full_control_of_state = 569
+				has_full_control_of_state = 570
+				has_full_control_of_state = 568
+			}			
+		}
+		available = {
+			has_government = fascist
+			RUR = { exists = no }
+			has_full_control_of_state = 579
+			has_full_control_of_state = 580
+			has_full_control_of_state = 577
+			has_full_control_of_state = 653
+			has_full_control_of_state = 403
+			has_full_control_of_state = 571
+			has_full_control_of_state = 578
+			has_full_control_of_state = 572
+			has_full_control_of_state = 583
+			has_full_control_of_state = 590
+			has_full_control_of_state = 588
+			has_full_control_of_state = 40
+			has_full_control_of_state = 654
+			has_full_control_of_state = 569
+			has_full_control_of_state = 570
+			has_full_control_of_state = 568
+		}
+		
+		cost = 0
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				SOV = { has_capitulated = yes }
+			}
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+				set_autonomy = {
+					target = RUR
+					autonomous_state = autonomy_reichskommissariat
+				}
+				RUR = {
+					transfer_state = 579
+					transfer_state = 580
+					transfer_state = 577
+					transfer_state = 653
+					transfer_state = 403
+					transfer_state = 571
+					transfer_state = 578
+					transfer_state = 572
+					transfer_state = 583
+					transfer_state = 590
+					transfer_state = 588
+					transfer_state = 40
+					transfer_state = 654
+					transfer_state = 569
+					transfer_state = 570
+					transfer_state = 568
+				}
+			}
+			custom_effect_tooltip = germany_establish_rk_ural
+		}
+	}	
+	###########################
+	# RK Siberien
+	###########################
+	GER_reichskommissariat_siberia = {
+		icon = ger_reichskommissariats
+		
+		visible = {
+			has_government = fascist
+			RSB = { exists = no }	
+			OR = {	
+				has_full_control_of_state = 567
+				has_full_control_of_state = 576
+				has_full_control_of_state = 516
+				has_full_control_of_state = 575
+				has_full_control_of_state = 566		
+				has_full_control_of_state = 575
+				has_full_control_of_state = 565			
+				has_full_control_of_state = 564
+				has_full_control_of_state = 563
+				has_full_control_of_state = 644
+				has_full_control_of_state = 574 
+				has_full_control_of_state = 562	
+				has_full_control_of_state = 637
+				has_full_control_of_state = 561	
+				has_full_control_of_state = 560
+				has_full_control_of_state = 657		
+				has_full_control_of_state = 409
+				has_full_control_of_state = 408
+				has_full_control_of_state = 655	
+				has_full_control_of_state = 1359
+			}			
+		}
+		available = {
+			has_government = fascist
+			RSB = { exists = no }	
+			has_full_control_of_state = 567
+			has_full_control_of_state = 576
+			has_full_control_of_state = 516
+			has_full_control_of_state = 575
+			has_full_control_of_state = 566		
+			has_full_control_of_state = 575
+			has_full_control_of_state = 565			
+			has_full_control_of_state = 564
+			has_full_control_of_state = 563
+			has_full_control_of_state = 644
+			has_full_control_of_state = 574 
+			has_full_control_of_state = 562	
+			has_full_control_of_state = 637
+			has_full_control_of_state = 561	
+			has_full_control_of_state = 560
+			has_full_control_of_state = 657		
+			has_full_control_of_state = 409
+			has_full_control_of_state = 408
+			has_full_control_of_state = 655
+			has_full_control_of_state = 1359
+		}
+		
+		cost = 0
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				SOV = { has_capitulated = yes }
+			}
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+				set_autonomy = {
+					target = RSB
+					autonomous_state = autonomy_reichskommissariat
+				}
+				RSB = {
+					transfer_state = 567
+					transfer_state = 576
+					transfer_state = 516
+					transfer_state = 575
+					transfer_state = 566		
+					transfer_state = 575
+					transfer_state = 565			
+					transfer_state = 564
+					transfer_state = 563
+					transfer_state = 644
+					transfer_state = 574 
+					transfer_state = 562	
+					transfer_state = 637
+					transfer_state = 561	
+					transfer_state = 560
+					transfer_state = 657		
+					transfer_state = 409
+					transfer_state = 408
+					transfer_state = 655	
+					transfer_state = 1359			
+				}
+			}
+			custom_effect_tooltip = germany_establish_rk_siberien
+		}
+	}
+	
+	###########################
+	# SS-Ordenstaat Burgundy
+	###########################
+	GER_SS_Ordenstaat_Burgundy = {
+		icon = ger_reichskommissariats
+		
+		visible = {
+			has_government = fascist
+			SSB = { exists = no }
+			OR = {
+				has_full_control_of_state = 17
+				has_full_control_of_state = 763
+				has_full_control_of_state = 34
+				has_full_control_of_state = 6
+				has_full_control_of_state = 847
+				has_full_control_of_state = 1204
+				has_full_control_of_state = 964
+				has_full_control_of_state = 762
+			}
+		}
+		available = {
+			has_government = fascist
+			has_full_control_of_state = 17
+			has_full_control_of_state = 763
+			has_full_control_of_state = 34
+			has_full_control_of_state = 6
+			has_full_control_of_state = 847
+			has_full_control_of_state = 1204
+			has_full_control_of_state = 964
+			has_full_control_of_state = 762
+		}
+		
+		cost = 0
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 1
+				FRA = { has_capitulated = yes }
+				VIC = { has_capitulated = yes }
+			}
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+				set_autonomy = {
+					target = SSB
+					autonomous_state = autonomy_SS_Ordenstaat
+				}
+				SSB = {
+					transfer_state = 17
+					transfer_state = 763
+					transfer_state = 34
+					transfer_state = 6
+					transfer_state = 847
+					transfer_state = 1204
+					transfer_state = 964
+					transfer_state = 762
+				}	
+			}
+			custom_effect_tooltip = germany_establish_SS_Ordenstaat_Burgundy
+		}
+	}	
+	###########################
+	# SS-Ordenstaat Gotenland
+	###########################
+	GER_SS_Ordenstaat_Gotenland = {
+		icon = ger_reichskommissariats
+		
+		visible = {
+			has_government = fascist
+			CRM = { exists = no }
+			OR = {
+				has_full_control_of_state = 137
+				has_full_control_of_state = 196
+			}
+		}
+		available = {
+			has_government = fascist
+			has_full_control_of_state = 137
+			has_full_control_of_state = 196
+		}
+		
+		cost = 0
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+				set_autonomy = {
+					target = CRM
+					autonomous_state = autonomy_SS_Ordenstaat
+				}
+				CRM = {
+					transfer_state = 137
+					transfer_state = 196
+					set_cosmetic_tag = SSG
+					create_country_leader = {
+						name = "Heinrich Himmler"
+						desc = "HEINRICH_HIMMLER_DESC"
+						picture = "P_F_Heinrich_Himmler.dds"
+						ideology = esoteric_national_socialism
+						traits = {
+							POSITION_GER_Fuhrer #Switch to Reichsfuhrer-SS
+							SUBIDEOLOGY_National_Socialism
+						}
+					}
+					
+				}	
+			}
+			custom_effect_tooltip = germany_establish_SS_Ordenstaat_Gotenland
+		}
+	}	
+	###########################
+	# SS-Ordenstaat Prinz_Eugen
+	###########################
+	GER_SS_Ordenstaat_Prinz_Eugen = {
+		icon = ger_reichskommissariats
+		
+		visible = {
+			has_government = fascist
+			SSP = { exists = no }
+			OR = {
+				has_full_control_of_state = 772
+			}
+		}
+		available = {
+			has_government = fascist
+			has_full_control_of_state = 772
+		}
+		
+		cost = 0
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+				set_autonomy = {
+					target = SSP
+					autonomous_state = autonomy_SS_Ordenstaat
+				}
+				SSP = {
+					transfer_state = 772
+				}	
+			}
+			custom_effect_tooltip = germany_establish_SS_Ordenstaat_Prinz_Eugen
+		}
+	}	
+}

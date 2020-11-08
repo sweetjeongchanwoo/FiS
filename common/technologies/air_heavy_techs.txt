@@ -1,0 +1,1674 @@
+technologies = {
+	@strategic_bomber_line_2 = -4
+	@strategic_bomber_line = 0
+	@tactical_bomber_line = 4
+	@naval_bomber_line = 8
+
+	#Years
+	@1910 = 2
+	@1914 = 4
+	@1916 = 6
+	@1918 = 8
+	@1925 = 10
+	@1933 = 12
+	@1936 = 14
+	@1940 = 16
+	@1943 = 18
+	@1945 = 20
+	@1950 = 22
+	@1955 = 24
+	@1965 = 26
+	@1975 = 28
+	@1985 = 30
+	@1995 = 32
+	@2015 = 34
+	@2025 = 36
+
+############################################################################################################
+## Tactical Bombers/Medium Bombers
+############################################################################################################
+################################
+# 1910 Tactical Bombers
+################################
+	Tactical_Bomber_1910 = {
+		enable_equipments = {
+			Tactical_Bomber_equipment_1910
+		}
+
+		path = {
+			leads_to_tech = Tactical_Bomber_1914
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = Strategic_Bomber_1916
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1910
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @tactical_bomber_line y = @1910 }
+		}
+
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1914 Tactical Bombers
+################################
+	Tactical_Bomber_1914 = {
+		enable_equipments = {
+			Tactical_Bomber_equipment_1914
+		}
+
+		path = {
+			leads_to_tech = Tactical_Bomber_1916
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = Naval_Bomber_1918
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1914
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @tactical_bomber_line y = @1914 }
+		}
+
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1916 Tactical Bombers
+################################
+	Tactical_Bomber_1916 = {
+		enable_equipments = {
+			Tactical_Bomber_equipment_1916
+		}
+
+		path = {
+			leads_to_tech = Tactical_Bomber_1918
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1916
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @tactical_bomber_line y = @1916 }
+		}
+
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1918 Tactical Bombers
+################################
+	Tactical_Bomber_1918 = {
+		enable_equipments = {
+			Tactical_Bomber_equipment_1918
+		}
+
+		path = {
+			leads_to_tech = Tactical_Bomber_1925
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @tactical_bomber_line y = @1918 }
+		}
+
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1925 Tactical Bombers
+################################
+	Tactical_Bomber_1925 = {
+		enable_equipments = {
+			Tactical_Bomber_equipment_1925
+		}
+
+		path = {
+			leads_to_tech = Tactical_Bomber_1933
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1925
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @tactical_bomber_line y = @1925 }
+		}
+
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1933 Tactical Bombers
+################################
+	Tactical_Bomber_1933 = {
+		enable_equipments = {
+			Tactical_Bomber_equipment_1933
+		}
+
+		path = {
+			leads_to_tech = Tactical_Bomber_1936
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = Naval_Bomber_1936
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1933
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @tactical_bomber_line y = @1933 }
+		}
+
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+################################
+# 1936 Tactical Bombers
+################################
+	Tactical_Bomber_1936 = {
+
+		enable_equipments = {
+			Tactical_Bomber_equipment_1936
+		}
+
+		path = {
+			leads_to_tech = Tactical_Bomber_1940
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @tactical_bomber_line y = @1936 }
+		}
+
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				is_major = yes
+				date > "1936.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				is_major = yes
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				is_major = yes
+				date > "1940.1.1"
+			}
+		}
+	}
+################################
+# 1940 Tactical Bombers
+################################
+	Tactical_Bomber_1940 = {
+
+		enable_equipments = {
+			Tactical_Bomber_equipment_1940
+		}
+
+		path = {
+			leads_to_tech = Tactical_Bomber_1943
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @tactical_bomber_line y = @1940 }
+		}
+
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				is_major = yes
+				date > "1940.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				is_major = yes
+				date > "1941.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				is_major = yes
+				date > "1944.1.1"
+			}
+		}
+	}
+################################
+# 1943 Tactical Bombers
+################################
+	Tactical_Bomber_1943 = {
+
+		enable_equipments = {
+			Tactical_Bomber_equipment_1943
+		}
+
+		path = {
+			leads_to_tech = Tactical_Bomber_1945
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @tactical_bomber_line y = @1943 }
+		}
+
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				is_major = yes
+				date > "1944.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				is_major = yes
+				date > "1945.1.1"
+			}
+		}
+	}
+################################
+# 1945 Tactical Bombers
+################################
+	Tactical_Bomber_1945 = {
+
+		enable_equipments = {
+			Tactical_Bomber_equipment_1945
+		}
+
+		path = {
+			leads_to_tech = Tactical_Bomber_1950
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			jet_engines = 1
+		}
+
+		research_cost = 2
+		start_year = 1945
+
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @tactical_bomber_line y = @1945 }
+		}
+
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1950 Tactical Bombers
+################################
+	Tactical_Bomber_1950 = {
+
+		enable_equipments = {
+			Tactical_Bomber_equipment_1950
+		}
+
+		path = {
+			leads_to_tech = Tactical_Bomber_1955
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1950
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @tactical_bomber_line y = @1950 }
+		}
+
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1955 Tactical Bombers
+################################
+	Tactical_Bomber_1955 = {
+
+		enable_equipments = {
+			Tactical_Bomber_equipment_1955
+		}
+
+		path = {
+			leads_to_tech = Interdictor_1965
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @tactical_bomber_line y = @1955 }
+		}
+
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1965 Interdictor
+################################
+	Interdictor_1965 = {
+
+		enable_equipments = {
+			Interdictor_equipment_1965
+		}
+		path = {
+			leads_to_tech = Interdictor_1975
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1965
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @tactical_bomber_line y = @1965 }
+		}
+
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1975 Interdictor
+################################
+	Interdictor_1975 = {
+
+		enable_equipments = {
+			Interdictor_equipment_1975
+		}
+		path = {
+			leads_to_tech = Interdictor_1995
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = Stealth_Interdictor_1985
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1975
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @tactical_bomber_line y = @1975 }
+		}
+
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1995 Interdictor
+################################
+	Interdictor_1995 = {
+
+		enable_equipments = {
+			Interdictor_equipment_1995
+		}
+		path = {
+			leads_to_tech = Interdictor_2015
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1995
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @tactical_bomber_line y = @1995 }
+		}
+
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 2015 Interdictor
+################################
+	Interdictor_2015 = {
+
+		enable_equipments = {
+			Interdictor_equipment_2015
+		}
+		research_cost = 2
+		start_year = 2015
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @tactical_bomber_line y = @2015 }
+		}
+
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+############################################################################################################
+## Strategic Bombers
+############################################################################################################
+################################
+# 1916 Strategic Bombers
+################################
+	Strategic_Bomber_1916 = {
+
+		enable_equipments = {
+			Strategic_Bomber_equipment_1916
+		}
+
+		path = {
+			leads_to_tech = Strategic_Bomber_1936
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1916
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @strategic_bomber_line y = @1916 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = ENG
+			}
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+		}
+	}
+################################
+# 1933 Strategic Bombers
+################################
+	Strategic_Bomber_1933 = {
+
+		enable_equipments = {
+			Strategic_Bomber_equipment_1933
+		}
+
+		path = {
+			leads_to_tech = Strategic_Bomber_1936
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1933
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @strategic_bomber_line y = @1933 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = ENG
+			}
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+		}
+	}
+################################
+# 1936 Strategic Bombers
+################################
+	Strategic_Bomber_1936 = {
+
+		enable_equipments = {
+			Strategic_Bomber_equipment_1936
+		}
+
+		path = {
+			leads_to_tech = Strategic_Bomber_1940
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @strategic_bomber_line y = @1936 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = ENG
+			}
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+		}
+	}
+################################
+# 1940 Strategic Bombers
+################################
+	Strategic_Bomber_1940 = {
+
+		enable_equipments = {
+			Strategic_Bomber_equipment_1940
+		}
+
+		path = {
+			leads_to_tech = Strategic_Bomber_1943
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @strategic_bomber_line y = @1940 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = ENG
+			}
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+		}
+	}
+################################
+# 1943 Strategic Bombers
+################################
+	Strategic_Bomber_1943 = {
+
+		enable_equipments = {
+			Strategic_Bomber_equipment_1943
+		}
+
+		path = {
+			leads_to_tech = Strategic_Bomber_1945
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @strategic_bomber_line y = @1943 }
+		}
+
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = ENG
+			}
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+		}
+	}
+################################
+# 1945 Strategic Bombers
+################################
+	Strategic_Bomber_1945 = {
+
+		enable_equipments = {
+			Strategic_Bomber_equipment_1945
+		}
+
+		path = {
+			leads_to_tech = Strategic_Bomber_1948
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1945
+
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @strategic_bomber_line y = @1945 }
+		}
+
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1948 Strategic Bombers
+################################
+	Strategic_Bomber_1948 = {
+
+		enable_equipments = {
+			Strategic_Bomber_equipment_1948
+		}
+
+		path = {
+			leads_to_tech = Strategic_Bomber_1950
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1948
+
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @strategic_bomber_line_2 y = @1945 }
+		}
+
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1950 Strategic Bombers
+################################
+	Strategic_Bomber_1950 = {
+
+		enable_equipments = {
+			Strategic_Bomber_equipment_1950
+		}
+
+		path = {
+			leads_to_tech = Strategic_Bomber_1955
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1950
+
+		dependencies = {
+			jet_engines = 1
+		}
+
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @strategic_bomber_line y = @1950 }
+		}
+
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1955 Strategic Bombers
+################################
+	Strategic_Bomber_1955 = {
+
+		enable_equipments = {
+			Strategic_Bomber_equipment_1955
+		}
+
+		path = {
+			leads_to_tech = Strategic_Bomber_1965
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = Supersonic_Strategic_Bomber_1960
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1955
+
+		dependencies = {
+			jet_engines = 1
+		}
+
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @strategic_bomber_line y = @1955 }
+		}
+
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1965 Strategic Bombers
+################################
+	Strategic_Bomber_1965 = {
+
+		enable_equipments = {
+			Strategic_Bomber_equipment_1965
+		}
+
+		path = {
+			leads_to_tech = Supersonic_Strategic_Bomber_1970
+			research_cost_coeff = 1.0
+		}
+		path = {
+			leads_to_tech = Strategic_Bomber_1975
+			research_cost_coeff = 1.0
+		}
+
+		research_cost = 2
+		start_year = 1965
+
+		dependencies = {
+			jet_engines = 1
+		}
+
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @strategic_bomber_line y = @1965 }
+		}
+
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1975 Strategic Bombers
+################################
+	Strategic_Bomber_1975 = {
+
+		enable_equipments = {
+			Strategic_Bomber_equipment_1975
+		}
+
+		path = {
+			leads_to_tech = Strategic_Bomber_1985
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1975
+
+		dependencies = {
+			jet_engines = 1
+		}
+
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @strategic_bomber_line y = @1975 }
+		}
+
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1960 Strategic Bombers
+################################
+	Supersonic_Strategic_Bomber_1960 = {
+
+		enable_equipments = {
+			Supersonic_Strategic_Bomber_equipment_1960
+		}
+
+		path = {
+			leads_to_tech = Supersonic_Strategic_Bomber_1975
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1960
+
+		dependencies = {
+			jet_engines = 1
+		}
+
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @strategic_bomber_line_2 y = @1965 }
+		}
+
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1970 Supersonic Strategic Bombers
+################################
+	Supersonic_Strategic_Bomber_1970 = {
+
+		enable_equipments = {
+			Supersonic_Strategic_Bomber_equipment_1970
+		}
+
+		path = {
+			leads_to_tech = Strategic_Bomber_1985
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1970
+
+		dependencies = {
+			jet_engines = 1
+		}
+
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @strategic_bomber_line_2 y = @1975 }
+		}
+
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1985 Strategic Bombers
+################################
+	Strategic_Bomber_1985 = {
+
+		enable_equipments = {
+			Strategic_Bomber_equipment_1985
+		}
+
+		path = {
+			leads_to_tech = Strategic_Bomber_1995
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1985
+
+		dependencies = {
+			jet_engines = 1
+		}
+
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @strategic_bomber_line y = @1985 }
+		}
+
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 1995 Strategic Bombers
+################################
+	Strategic_Bomber_1995 = {
+
+		enable_equipments = {
+			Strategic_Bomber_equipment_1995
+		}
+
+		path = {
+			leads_to_tech = Strategic_Bomber_2025
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1995
+
+		dependencies = {
+			jet_engines = 1
+		}
+
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @strategic_bomber_line y = @1995 }
+		}
+
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################
+# 2025 Strategic Bombers
+################################
+	Strategic_Bomber_2025 = {
+
+		enable_equipments = {
+			Strategic_Bomber_equipment_2025
+		}
+
+		research_cost = 2
+		start_year = 2025
+
+		dependencies = {
+			jet_engines = 1
+		}
+
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @strategic_bomber_line y = @2025 }
+		}
+
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+############################################################################################################
+## Naval Bombers
+############################################################################################################
+################################
+# 1918 Naval Bombers
+################################
+	Naval_Bomber_1918 = {
+
+		enable_equipments = {
+			Naval_Bomber_equipment_1918
+		}
+
+		path = {
+			leads_to_tech = Naval_Bomber_1925
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @naval_bomber_line y = @1918 }
+		}
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+	}
+################################
+# 1925 Naval Bombers
+################################
+	Naval_Bomber_1925 = {
+
+		enable_equipments = {
+			Naval_Bomber_equipment_1925
+		}
+
+		path = {
+			leads_to_tech = Naval_Bomber_1936
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1925
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @naval_bomber_line y = @1925 }
+		}
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+	}
+################################
+# 1936 Naval Bombers
+################################
+	Naval_Bomber_1936 = {
+
+		enable_equipments = {
+			Naval_Bomber_equipment_1936
+		}
+
+		path = {
+			leads_to_tech = Naval_Bomber_1940
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @naval_bomber_line y = @1936 }
+		}
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+	}
+
+################################
+# 1940 Naval Bombers
+################################
+	Naval_Bomber_1940 = {
+
+		enable_equipments = {
+			Naval_Bomber_equipment_1940
+		}
+
+		path = {
+			leads_to_tech = Naval_Bomber_1943
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @naval_bomber_line y = @1940 }
+		}
+
+		categories = {
+			naval_air
+			air_equipment
+			naval_bomber
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+	}
+
+################################
+# 1943 Naval Bombers
+################################
+	Naval_Bomber_1943 = {
+
+		enable_equipments = {
+			Naval_Bomber_equipment_1943
+		}
+
+
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @naval_bomber_line y = @1943 }
+		}
+
+		path = {
+			leads_to_tech = Naval_Bomber_1945
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+	}
+
+################################
+# 1945 Naval Bombers
+################################
+	Naval_Bomber_1945 = {
+
+		enable_equipments = {
+			Naval_Bomber_equipment_1945
+		}
+
+		research_cost = 2
+		start_year = 1945
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @naval_bomber_line y = @1945 }
+		}
+
+		path = {
+			leads_to_tech = Naval_Bomber_1950
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+	}
+
+################################
+# 1950 Naval Bombers
+################################
+	Naval_Bomber_1950 = {
+
+		enable_equipments = {
+			Naval_Bomber_equipment_1950
+		}
+
+		path = {
+			leads_to_tech = Naval_Bomber_1955
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1950
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @naval_bomber_line y = @1950 }
+		}
+
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+
+			modifier = {
+				factor = 5
+				tag = SOV
+			}
+		}
+	}
+
+################################
+# 1955 Naval Bombers
+################################
+	Naval_Bomber_1955 = {
+
+		enable_equipments = {
+			Naval_Bomber_equipment_1955
+		}
+
+		path = {
+			leads_to_tech = Naval_Bomber_1965
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @naval_bomber_line y = @1955 }
+		}
+
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+	}
+	################################
+	# 1965 Naval Bombers
+	################################
+	Naval_Bomber_1965 = {
+
+		enable_equipments = {
+			Naval_Bomber_equipment_1965
+		}
+		path = {
+			leads_to_tech = Naval_Bomber_1975
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1965
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @naval_bomber_line y = @1965 }
+		}
+
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+	}
+	################################
+	# 1975 Naval Bombers
+	################################
+	Naval_Bomber_1975 = {
+
+		enable_equipments = {
+			Naval_Bomber_equipment_1975
+		}
+		path = {
+			leads_to_tech = Naval_Bomber_1985
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1975
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @naval_bomber_line y = @1975 }
+		}
+
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+	}
+	################################
+	# 1985 Naval Bombers
+	################################
+	Naval_Bomber_1985 = {
+
+		enable_equipments = {
+			Naval_Bomber_equipment_1985
+		}
+		path = {
+			leads_to_tech = Naval_Bomber_2015
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1985
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @naval_bomber_line y = @1985 }
+		}
+
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+	}
+	################################
+	# 2015 Naval Bombers
+	################################
+	Naval_Bomber_2015 = {
+
+		enable_equipments = {
+			Naval_Bomber_equipment_2015
+		}
+		research_cost = 2
+		start_year = 2015
+		folder = {
+			name = air_heavy_techs_folder
+			position = { x = @naval_bomber_line y = @2015 }
+		}
+
+
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+	}
+}

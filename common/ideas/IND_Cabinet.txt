@@ -1,0 +1,1265 @@
+ideas = {
+#################################################
+### Head of Government
+#################################################
+	Head_of_Government = {
+	# Subhas Chandra Bose
+		IND_HoG_Subhas_Chandra_Bose = {
+			picture = Subhas_Chandra_Bose
+			allowed = { tag = IND }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Subhas_Chandra_Bose_unavailable }
+			}
+			
+			
+			traits = { ideology_F HoG_Naive_Optimist }
+		}
+	# Sir Mohammed Iqbal
+		IND_HoG_Sir_Mohammed_Iqbal = {
+			picture = Sir_Mohammed_Iqbal
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Sir_Mohammed_Iqbal_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoG_Backroom_Backstabber }
+		}
+	# Deen Dayal Upadhyaya
+		IND_HoG_Deen_Dayal_Upadhyaya = {
+			picture = Deen_Dayal_Upadhyaya
+			allowed = { tag = IND }
+			available = {
+				date > 1967.1.1
+				date < 1969.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Deen_Dayal_Upadhyaya_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Old_Airmarshal }
+		}
+	# Morarji Desai
+		IND_HoG_Morarji_Desai = {
+			picture = Morarji_Desai
+			allowed = { tag = IND }
+			available = {
+				date > 1971.1.1
+				date < 1996.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Morarji_Desai_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Smiling_Oilman }
+		}
+	# Charan Singh
+		IND_HoG_Charan_Singh = {
+			picture = Charan_Singh
+			allowed = { tag = IND }
+			available = {
+				date > 1980.1.1
+				date < 1988.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Charan_Singh_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Happy_Amateur }
+		}
+	# Lal Krishna Advani
+		IND_HoG_Lal_Krishna_Advani = {
+			picture = Lal_Krishna_Advani
+			allowed = { tag = IND }
+			available = {
+				date > 1991.1.1
+				date < 2020.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Lal_Krishna_Advani_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Ambitious_Union_Boss }
+		}
+	# Lawrence Marquess of Zetland
+		IND_HoG_Lawrence_Marquess_of_Zetland = {
+			picture = Lawrence_Marquess_of_Zetland
+			allowed = { tag = IND }
+			available = {
+				date > 1936.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Lawrence_Marquess_of_Zetland_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Political_Protege }
+		}
+	# Leo Amery
+		IND_HoG_Leo_Amery = {
+			picture = Leo_Amery
+			allowed = { tag = IND }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Leo_Amery_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Corporate_Suit }
+		}
+	# Nabob Kureishi of Bhawalapur
+		IND_HoG_Nabob_Kureishi_of_Bhawalapur = {
+			picture = Nabob_Kureishi_of_Bhawalapur
+			allowed = { tag = IND }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Nabob_Kureishi_of_Bhawalapur_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Smiling_Oilman }
+		}
+	# Frederick Pethick-Lawrence
+		IND_HoG_Frederick_PethickLawrence = {
+			picture = Frederick_PethickLawrence
+			allowed = { tag = IND }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Frederick_PethickLawrence_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Corporate_Suit }
+		}
+	# Lal Bahadur Shastri
+		IND_HoG_Lal_Bahadur_Shastri = {
+			picture = Lal_Bahadur_Shastri
+			allowed = { tag = IND }
+			available = {
+				date > 1964.1.1
+				date < 1967.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Lal_Bahadur_Shastri_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Silent_Workhorse }
+		}
+	# Indira Gandhi
+		IND_HoG_Indira_Gandhi = {
+			picture = Indira_Gandhi
+			allowed = { tag = IND }
+			available = {
+				date > 1966.1.1
+				date < 1985.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Indira_Gandhi_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Smiling_Oilman }
+		}
+	# Shripat Amrit Dange
+		IND_HoG_Shripat_Amrit_Dange = {
+			picture = Shripat_Amrit_Dange
+			allowed = { tag = IND }
+			available = {
+				date > 1952.1.1
+				date < 1992.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Shripat_Amrit_Dange_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Happy_Amateur }
+		}
+	# Rajiv Gandhi
+		IND_HoG_Rajiv_Gandhi = {
+			picture = Rajiv_Gandhi
+			allowed = { tag = IND }
+			available = {
+				date > 1984.1.1
+				date < 1992.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Rajiv_Gandhi_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Flamboyant_Tough_Guy }
+		}
+	# V. P. Singh
+		IND_HoG_V_P_Singh = {
+			picture = V_P_Singh
+			allowed = { tag = IND }
+			available = {
+				date > 1989.1.1
+				date < 2009.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = V_P_Singh_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Corporate_Suit }
+		}
+	# P. V. Narasimha Rao
+		IND_HoG_P_V_Narasimha_Rao = {
+			picture = P_V_Narasimha_Rao
+			allowed = { tag = IND }
+			available = {
+				date > 1991.1.1
+				date < 1992.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = P_V_Narasimha_Rao_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Silent_Workhorse }
+		}
+	# Mahatma Mohandas Gandhi
+		IND_HoG_Mahatma_Mohandas_Gandhi = {
+			picture = Mahatma_Mohandas_Gandhi
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Mahatma_Mohandas_Gandhi_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Naive_Optimist }
+		}
+	# Jawaharlal Nehru
+		IND_HoG_Jawaharlal_Nehru = {
+			picture = Jawaharlal_Nehru
+			allowed = { tag = IND }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Jawaharlal_Nehru_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Silent_Workhorse }
+		}
+	# N.T. Rama Rao
+		IND_HoG_NT_Rama_Rao = {
+			picture = NT_Rama_Rao
+			allowed = { tag = IND }
+			available = {
+				date > 1984.1.1
+				date < 1997.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = NT_Rama_Rao_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Happy_Amateur }
+		}
+}
+#################################################
+### Foreign Minister
+#################################################
+	Foreign_Minister = {
+	# Yeswanthrao II of Indore
+		IND_FM_Yeswanthrao_II_of_Indore = {
+			picture = Yeswanthrao_II_of_Indore
+			allowed = { tag = IND }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Yeswanthrao_II_of_Indore_unavailable }
+			}
+			
+			
+			traits = { ideology_A FM_Iron_Fisted_Brute }
+		}
+	# Ajoy Kumar Ghosh
+		IND_FM_Ajoy_Kumar_Ghosh = {
+			picture = Ajoy_Kumar_Ghosh
+			allowed = { tag = IND }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ajoy_Kumar_Ghosh_unavailable }
+			}
+			
+			
+			traits = { ideology_A FM_Biased_Intellectual }
+		}
+	# Khawaja Nazimuddin
+		IND_FM_Khawaja_Nazimuddin = {
+			picture = Khawaja_Nazimuddin
+			allowed = { tag = IND }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Khawaja_Nazimuddin_unavailable }
+			}
+			
+			
+			traits = { ideology_A FM_Apologetic_Clerk }
+		}
+	# Aly Khan IV
+		IND_FM_Aly_Khan_IV = {
+			picture = Aly_Khan_IV
+			allowed = { tag = IND }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Aly_Khan_IV_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_Great_Compromiser }
+		}
+	# Mohammed Ayub Khan
+		IND_FM_Mohammed_Ayub_Khan = {
+			picture = Mohammed_Ayub_Khan
+			allowed = { tag = IND }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Mohammed_Ayub_Khan_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_General_Staffer }
+		}
+	# Rajiv Gandhi
+		IND_FM_Rajiv_Gandhi = {
+			picture = Rajiv_Gandhi
+			allowed = { tag = IND }
+			available = {
+				date > 1985.1.1
+				date < 1992.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Rajiv_Gandhi_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_Great_Compromiser }
+		}
+	# Ananthasayanam Ayyangar
+		IND_FM_Ananthasayanam_Ayyangar = {
+			picture = Ananthasayanam_Ayyangar
+			allowed = { tag = IND }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Ananthasayanam_Ayyangar_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_Great_Compromiser }
+		}
+	# Sarat Chandra Bose
+		IND_FM_Sarat_Chandra_Bose = {
+			picture = Sarat_Chandra_Bose
+			allowed = { tag = IND }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Sarat_Chandra_Bose_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_Biased_Intellectual }
+		}
+	# Jawahar Lal Nehru
+		IND_FM_Jawahar_Lal_Nehru = {
+			picture = Jawahar_Lal_Nehru
+			allowed = { tag = IND }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Jawahar_Lal_Nehru_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_Ideological_Crusader }
+		}
+	# Bhimrao Ramji Ambedkar
+		IND_FM_Bhimrao_Ramji_Ambedkar = {
+			picture = Bhimrao_Ramji_Ambedkar
+			allowed = { tag = IND }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Bhimrao_Ramji_Ambedkar_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_Apologetic_Clerk }
+		}
+	# Ganesh Mavalankar
+		IND_FM_Ganesh_Mavalankar = {
+			picture = Ganesh_Mavalankar
+			allowed = { tag = IND }
+			available = {
+				date > 1952.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Ganesh_Mavalankar_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_Great_Compromiser }
+		}
+	# Subhas Chandra Bose
+		IND_FM_Subhas_Chandra_Bose = {
+			picture = Subhas_Chandra_Bose
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				S_Minister_Allowed = yes
+				NOT = { has_country_flag = Subhas_Chandra_Bose_unavailable }
+			}
+			
+			
+			traits = { ideology_S FM_The_Cloak_N_Dagger_Schemer }
+		}
+}
+#################################################
+### Minister of Security
+#################################################
+	Minister_of_Security = {
+	# Madhav S. Golwalkar
+		IND_MoS_Madhav_S_Golwalkar = {
+			picture = Madhav_S_Golwalkar
+			allowed = { tag = IND }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Madhav_S_Golwalkar_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Silent_Lawyer }
+		}
+	# Ali Khan III of Banganapalle
+		IND_MoS_Ali_Khan_III_of_Banganapalle = {
+			picture = Ali_Khan_III_of_Banganapalle
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ali_Khan_III_of_Banganapalle_unavailable }
+			}
+			
+			
+			traits = { ideology_A MoS_Prince_Of_Terror }
+		}
+	# H.H. Waghji of Morvi
+		IND_MoS_HH_Waghji_of_Morvi = {
+			picture = HH_Waghji_of_Morvi
+			allowed = { tag = IND }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = HH_Waghji_of_Morvi_unavailable }
+			}
+			
+			
+			traits = { ideology_A MoS_Compassionate_Gentleman }
+		}
+	# Harilal J. Kania
+		IND_MoS_Harilal_J_Kania = {
+			picture = Harilal_J_Kania
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Harilal_J_Kania_unavailable }
+			}
+			
+			
+			traits = { ideology_D MoS_Silent_Lawyer }
+		}
+	# Sir Henry Gidney
+		IND_MoS_Sir_Henry_Gidney = {
+			picture = Sir_Henry_Gidney
+			allowed = { tag = IND }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Sir_Henry_Gidney_unavailable }
+			}
+			
+			
+			traits = { ideology_D MoS_Compassionate_Gentleman }
+		}
+	# Rafi Ahmed Kidwai
+		IND_MoS_Rafi_Ahmed_Kidwai = {
+			picture = Rafi_Ahmed_Kidwai
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Rafi_Ahmed_Kidwai_unavailable }
+			}
+			
+			
+			traits = { ideology_D MoS_Crime_Fighter }
+		}
+	# Bhimrao Ramji Ambedkar
+		IND_MoS_Bhimrao_Ramji_Ambedkar = {
+			picture = Bhimrao_Ramji_Ambedkar
+			allowed = { tag = IND }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Bhimrao_Ramji_Ambedkar_unavailable }
+			}
+			
+			
+			traits = { ideology_D MoS_Man_Of_The_People }
+		}
+	# Vinayak Damodar Savarkar
+		IND_MoS_Vinayak_Damodar_Savarkar = {
+			picture = Vinayak_Damodar_Savarkar
+			allowed = { tag = IND }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Vinayak_Damodar_Savarkar_unavailable }
+			}
+			
+			
+			traits = { ideology_D MoS_Silent_Lawyer }
+		}
+	# Sarvepalli Radhakrishnan
+		IND_MoS_Sarvepalli_Radhakrishnan = {
+			picture = Sarvepalli_Radhakrishnan
+			allowed = { tag = IND }
+			available = {
+				date > 1951.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Sarvepalli_Radhakrishnan_unavailable }
+			}
+			
+			
+			traits = { ideology_D MoS_Compassionate_Gentleman }
+		}
+	# Shankarrao Chavan
+		IND_MoS_Shankarrao_Chavan = {
+			picture = Shankarrao_Chavan
+			allowed = { tag = IND }
+			available = {
+				date > 1985.1.1
+				date < 1992.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Shankarrao_Chavan_unavailable }
+			}
+			
+			
+			traits = { ideology_D MoS_Silent_Lawyer }
+		}
+}
+#################################################
+### Armaments Minister
+#################################################
+	Armaments_Minister = {
+	# Iskander Mirza
+		IND_AM_Iskander_Mirza = {
+			picture = Iskander_Mirza
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Iskander_Mirza_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Infantry_Proponent }
+		}
+	# Jyoti Basu
+		IND_AM_Jyoti_Basu = {
+			picture = Jyoti_Basu
+			allowed = { tag = IND }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Jyoti_Basu_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Administrative_Genius }
+		}
+	# H.H. Buland of Kishangarh
+		IND_AM_HH_Buland_of_Kishangarh = {
+			picture = HH_Buland_of_Kishangarh
+			allowed = { tag = IND }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = HH_Buland_of_Kishangarh_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Air_To_Ground_Proponent }
+		}
+	# Muhammed Ali Bogra
+		IND_AM_Muhammed_Ali_Bogra = {
+			picture = Muhammed_Ali_Bogra
+			allowed = { tag = IND }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Muhammed_Ali_Bogra_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Air_To_Sea_Proponent }
+		}
+	# Mohan Singh
+		IND_AM_Mohan_Singh = {
+			picture = Mohan_Singh
+			allowed = { tag = IND }
+			available = {
+				date > 1949.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Mohan_Singh_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Laissez-faire_Capitalist }
+		}
+	# Bahadur Jayla of Khoch Bahur
+		IND_AM_Bahadur_Jayla_of_Khoch_Bahur = {
+			picture = Bahadur_Jayla_of_Khoch_Bahur
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Bahadur_Jayla_of_Khoch_Bahur_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Battle_Fleet_Proponent }
+		}
+	# Nawab Jaygoor of Pataudi
+		IND_AM_Nawab_Jaygoor_of_Pataudi = {
+			picture = Nawab_Jaygoor_of_Pataudi
+			allowed = { tag = IND }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Nawab_Jaygoor_of_Pataudi_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Resource_Industrialist }
+		}
+	# Hitendra Desai
+		IND_AM_Hitendra_Desai = {
+			picture = Hitendra_Desai
+			allowed = { tag = IND }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Hitendra_Desai_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Resource_Industrialist }
+		}
+	# P. V. Narasimha Rao
+		IND_AM_P_V_Narasimha_Rao = {
+			picture = P_V_Narasimha_Rao
+			allowed = { tag = IND }
+			available = {
+				date > 1985.1.1
+				date < 1992.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = P_V_Narasimha_Rao_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Laissez-faire_Capitalist }
+		}
+	# Sardar Vallabhbhai Patel
+		IND_AM_Sardar_Vallabhbhai_Patel = {
+			picture = Sardar_Vallabhbhai_Patel
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Sardar_Vallabhbhai_Patel_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Military_Entrepreneur }
+		}
+	# Lal Bahadur Shastri
+		IND_AM_Lal_Bahadur_Shastri = {
+			picture = Lal_Bahadur_Shastri
+			allowed = { tag = IND }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Lal_Bahadur_Shastri_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Administrative_Genius }
+		}
+}
+#################################################
+### Head of Intelligence
+#################################################
+	Head_of_Intelligence = {
+	# H.H. Tashi of Sikkim
+		IND_HoI_HH_Tashi_of_Sikkim = {
+			picture = HH_Tashi_of_Sikkim
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = HH_Tashi_of_Sikkim_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoI_Political_Specialist }
+		}
+	# Rashbehari Basu
+		IND_HoI_Rashbehari_Basu = {
+			picture = Rashbehari_Basu
+			allowed = { tag = IND }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Rashbehari_Basu_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoI_Logistics_Specialist }
+		}
+	# Abdul Majeed Khwaja
+		IND_HoI_Abdul_Majeed_Khwaja = {
+			picture = Abdul_Majeed_Khwaja
+			allowed = { tag = IND }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Abdul_Majeed_Khwaja_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoI_Dismal_Enigma }
+		}
+	# Sir Bwahadur Kandra
+		IND_HoI_Sir_Bwahadur_Kandra = {
+			picture = Sir_Bwahadur_Kandra
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Sir_Bwahadur_Kandra_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoI_Industrial_Specialist }
+		}
+	# Radhakrishna Hariram Tahiliani
+		IND_HoI_Radhakrishna_Hariram_Tahiliani = {
+			picture = Radhakrishna_Hariram_Tahiliani
+			allowed = { tag = IND }
+			available = {
+				date > 1985.1.1
+				date < 1992.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Radhakrishna_Hariram_Tahiliani_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoI_Naval_Intelligence_Specialist }
+		}
+	# Sir Chhotu Ram
+		IND_HoI_Sir_Chhotu_Ram = {
+			picture = Sir_Chhotu_Ram
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Sir_Chhotu_Ram_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoI_Industrial_Specialist }
+		}
+	# Jehangir Bhabha Homi
+		IND_HoI_Jehangir_Bhabha_Homi = {
+			picture = Jehangir_Bhabha_Homi
+			allowed = { tag = IND }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Jehangir_Bhabha_Homi_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoI_Technical_Specialist }
+		}
+	# Shri Jagjivan Ram
+		IND_HoI_Shri_Jagjivan_Ram = {
+			picture = Shri_Jagjivan_Ram
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Shri_Jagjivan_Ram_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoI_Political_Specialist }
+		}
+	# Rafi Ahmed Kidwai
+		IND_HoI_Rafi_Ahmed_Kidwai = {
+			picture = Rafi_Ahmed_Kidwai
+			allowed = { tag = IND }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Rafi_Ahmed_Kidwai_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoI_Dismal_Enigma }
+		}
+}
+#################################################
+### Chief of Staff
+#################################################
+	Chief_of_Staff = {
+	# Shah Nawaz Khan
+		IND_CoStaff_Shah_Nawaz_Khan = {
+			picture = Shah_Nawaz_Khan
+			allowed = { tag = IND }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Shah_Nawaz_Khan_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Manoeuvre }
+		}
+	# Mohan Singh
+		IND_CoStaff_Mohan_Singh_2 = {
+			picture = Mohan_Singh_2
+			allowed = { tag = IND }
+			available = {
+				date > 1949.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Mohan_Singh_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Mass_Combat }
+		}
+	# Rajendra Prasad
+		IND_CoStaff_Rajendra_Prasad = {
+			picture = Rajendra_Prasad
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Rajendra_Prasad_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoStaff_School_Of_Defence }
+		}
+	# Kodandera Thimayya
+		IND_CoStaff_Kodandera_Thimayya = {
+			picture = Kodandera_Thimayya
+			allowed = { tag = IND }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Kodandera_Thimayya_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoStaff_School_Of_Defence }
+		}
+	# Arun Shridhar Vaidya
+		IND_CoStaff_Arun_Shridhar_Vaidya = {
+			picture = Arun_Shridhar_Vaidya
+			allowed = { tag = IND }
+			available = {
+				date > 1985.1.1
+				date < 1992.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Arun_Shridhar_Vaidya_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoStaff_School_Of_Fire_Support }
+		}
+	# Mohan Singh
+		IND_CoStaff_Mohan_Singh = {
+			picture = Mohan_Singh
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Mohan_Singh_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoStaff_School_Of_Mass_Combat }
+		}
+	# Sardar Baldev Singh
+		IND_CoStaff_Sardar_Baldev_Singh = {
+			picture = Sardar_Baldev_Singh
+			allowed = { tag = IND }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Sardar_Baldev_Singh_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoStaff_School_Of_Psychology }
+		}
+	# Kodandera Cariappa
+		IND_CoStaff_Kodandera_Cariappa = {
+			picture = Kodandera_Cariappa
+			allowed = { tag = IND }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Kodandera_Cariappa_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoStaff_School_Of_Fire_Support }
+		}
+	# Ananthasayanam Ayyangar
+		IND_CoStaff_Ananthasayanam_Ayyangar = {
+			picture = Ananthasayanam_Ayyangar
+			allowed = { tag = IND }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Ananthasayanam_Ayyangar_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoStaff_School_Of_Defence }
+		}
+	# Subhas Chandra Bose
+		IND_CoStaff_Subhas_Chandra_Bose = {
+			picture = Subhas_Chandra_Bose
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				S_Minister_Allowed = yes
+				NOT = { has_country_flag = Subhas_Chandra_Bose_unavailable }
+			}
+			
+			
+			traits = { ideology_S CoStaff_School_Of_Psychology }
+		}
+}
+#################################################
+### Chief of Army
+#################################################
+	Chief_of_Army = {
+	# Kureishi of Bhawalapur
+		IND_CoArmy_Kureishi_of_Bhawalapur = {
+			picture = Kureishi_of_Bhawalapur
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Kureishi_of_Bhawalapur_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Static_Defence_Doctrine }
+		}
+	# Arun Shridhar Vaidya
+		IND_CoArmy_Arun_Shridhar_Vaidya = {
+			picture = Arun_Shridhar_Vaidya
+			allowed = { tag = IND }
+			available = {
+				date > 1985.1.1
+				date < 1992.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Arun_Shridhar_Vaidya_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoArmy_Decisive_Battle_Doctrine }
+		}
+	# Kodandera Cariappa
+		IND_CoArmy_Kodandera_Cariappa = {
+			picture = Kodandera_Cariappa
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Kodandera_Cariappa_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoArmy_Elastic_Defence_Doctrine }
+		}
+	# Ram Singh Thakur
+		IND_CoArmy_Ram_Singh_Thakur = {
+			picture = Ram_Singh_Thakur
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Ram_Singh_Thakur_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoArmy_Guns_And_Butter_Doctrine }
+		}
+	# Mohan Singh
+		IND_CoArmy_Mohan_Singh = {
+			picture = Mohan_Singh
+			allowed = { tag = IND }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Mohan_Singh_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoArmy_Decisive_Battle_Doctrine }
+		}
+}
+#################################################
+### Chief of Navy
+#################################################
+	Chief_of_Navy = {
+	# Harinder Singh
+		IND_CoNavy_Harinder_Singh = {
+			picture = Harinder_Singh
+			allowed = { tag = IND }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Harinder_Singh_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoNavy_Indirect_Approach_Doctrine }
+		}
+	# Radhakrishna Hariram Tahiliani
+		IND_CoNavy_Radhakrishna_Hariram_Tahiliani = {
+			picture = Radhakrishna_Hariram_Tahiliani
+			allowed = { tag = IND }
+			available = {
+				date > 1985.1.1
+				date < 1992.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Radhakrishna_Hariram_Tahiliani_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoNavy_Decisive_Naval_Battle_Doctrine }
+		}
+	# Ram Dass Katari
+		IND_CoNavy_Ram_Dass_Katari = {
+			picture = Ram_Dass_Katari
+			allowed = { tag = IND }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Ram_Dass_Katari_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoNavy_Power_Projection_Doctrine }
+		}
+	# Bhaskar Soman
+		IND_CoNavy_Bhaskar_Soman = {
+			picture = Bhaskar_Soman
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Bhaskar_Soman_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoNavy_Decisive_Naval_Battle_Doctrine }
+		}
+}
+#################################################
+### Chief of Airforce
+#################################################
+	Chief_of_Airforce = {
+	# Ravindra Darshan Singh
+		IND_CoAir_Ravindra_Darshan_Singh = {
+			picture = Ravindra_Darshan_Singh
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ravindra_Darshan_Singh_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoAir_Carpet_Bombing_Doctrine }
+		}
+	# Lakshman Mohan Katre
+		IND_CoAir_Lakshman_Mohan_Katre = {
+			picture = Lakshman_Mohan_Katre
+			allowed = { tag = IND }
+			available = {
+				date > 1985.1.1
+				date < 1992.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Lakshman_Mohan_Katre_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoAir_Air_Superiority_Doctrine }
+		}
+	# Denis La Fontaine
+		IND_CoAir_Denis_La_Fontaine = {
+			picture = Denis_La_Fontaine
+			allowed = { tag = IND }
+			available = {
+				date > 1985.1.1
+				date < 1992.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Denis_La_Fontaine_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoAir_Air_Superiority_Doctrine }
+		}
+	# Mehar Singh
+		IND_CoAir_Mehar_Singh = {
+			picture = Mehar_Singh
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Mehar_Singh_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoAir_Army_Aviation_Doctrine }
+		}
+	# Aspy Merwan Engineer
+		IND_CoAir_Aspy_Merwan_Engineer = {
+			picture = Aspy_Merwan_Engineer
+			allowed = { tag = IND }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Aspy_Merwan_Engineer_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoAir_Naval_Aviation_Doctrine }
+		}
+	# Arjan Singh Vibhusan
+		IND_CoAir_Arjan_Singh_Vibhusan = {
+			picture = Arjan_Singh_Vibhusan
+			allowed = { tag = IND }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Arjan_Singh_Vibhusan_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoAir_Air_Superiority_Doctrine }
+		}
+	# Subroto Mukherjee
+		IND_CoAir_Subroto_Mukherjee = {
+			picture = Subroto_Mukherjee
+			allowed = { tag = IND }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Subroto_Mukherjee_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoAir_Army_Aviation_Doctrine }
+		}
+	}
+}

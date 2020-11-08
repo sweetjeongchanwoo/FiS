@@ -1,0 +1,58 @@
+﻿capital = 545
+
+oob = "ZIM_1936"
+
+# Starting tech
+set_technology = {
+	Small_Arms_1916 = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+	set_technology = {
+
+		#doctrines
+		grand_battle_plan = 1
+		Trench_Warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_processing = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	fascist = 0
+	authoritarian = 100
+	democratic = 0
+	socialist = 0
+	communist = 0
+}
+create_country_leader = {
+	
+	name = " Marcus James Hugins"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	expire = "1965.1.1"
+	ideology = national_socialism
+	traits = { 
+		prince_of_terror		
+	}
+}

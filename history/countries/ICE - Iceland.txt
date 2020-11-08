@@ -1,0 +1,80 @@
+﻿capital = 100 #Iceland
+
+oob = "ICE_1936"
+
+set_research_slots = 3
+
+add_ideas = {
+	volunteer_only
+}
+
+set_technology = {
+	Small_Arms_1916 = 1
+	Small_Arms_1935 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	Fighter_1933 = 1
+	Tactical_Bomber_1933 = 1
+
+	tech_recon = 1
+}
+
+set_convoys = 30
+set_stability = 0.85
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	fascist = 0
+	authoritarian = 0
+	democratic = 100
+	socialist = 0
+	communist = 0
+}
+create_country_leader = {
+	name = "Sveinn Björnsson"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Johannes Valurson"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	expire = "1965.1.1"
+	ideology = fascism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haraldur Gudmunsson"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democracy
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Einar Olgeirsson"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = trotskyism
+	traits = {
+		#
+	}
+}

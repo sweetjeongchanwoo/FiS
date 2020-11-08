@@ -1,0 +1,93 @@
+﻿capital = 121 # Lothian
+
+oob = "empty"
+
+set_technology = {
+	 
+	 
+	CAS_1940 = 1
+	heavy_Fighter_1936 = 1
+	Artillery_1935 = 1
+	Anti_Tank_Gun_1935 = 1
+	
+	
+	Support_Weapons_1905 = 1
+	Support_Weapons_1936 = 1
+	paratroopers = 1
+
+	#doctrines
+	delay = 1
+	Elastic_Defense = 1
+	Armored_Schwerpunkt = 1
+	Schwerpunkt = 1
+	Modern_Blitzkrieg = 1
+	convoy_interdiction_ti = 1
+	unrestricted_submarine_warfare = 1
+	raider_patrols = 1
+
+	#air
+	formation_flying = 1		
+	dive_bombing = 1
+	direct_ground_support = 1
+
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+
+	#industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	improved_oil_processing = 1
+	construction1 = 1
+	construction2 = 1
+	construction3 = 1
+	construction4 = 1
+	dispersed_industry = 1
+	dispersed_industry2 = 1
+	dispersed_industry3 = 1
+	dispersed_industry4 = 1
+}
+
+set_politics = {
+	ruling_party = fascist
+	election_frequency = 48
+	elections_allowed = no
+
+}
+set_popularities = {
+	fascist = 60
+	authoritarian = 20
+	democratic = 20
+	socialist = 0
+	communist = 0
+}
+add_ideas = {
+	limited_exports
+	one_year_service
+	partial_economic_mobilisation
+}
+
+create_country_leader = {
+	name = "Andrew Dewar Gibb"
+	desc = "ANDREW_DEWAR_GIBB_DESC"
+	picture = "Portrait_SCO_Andrew_Dewar_Gibb.dds"
+	expire = "1965.1.1"
+	ideology = fascism
+	traits = {
+		
+	}
+}
+
+add_namespace = {
+	name = "ger_unit_leader"
+	type = unit_leader
+}

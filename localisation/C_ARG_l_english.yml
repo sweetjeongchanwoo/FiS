@@ -1,0 +1,15 @@
+﻿l_english:
+#########################################################################
+#  Argentine Political Events
+#########################################################################
+ DH_Argentina_Elections.1.t:0 "Argentine general election, 1937"
+ DH_Argentina_Elections.1.A:0 "Elect National Socialists"
+ DH_Argentina_Elections.1.B:0 "Elect Fascists"
+ DH_Argentina_Elections.1.C:0 "Elect Paternal Autocrats"
+ DH_Argentina_Elections.1.D:0 "Elect Social Conservatives"
+ DH_Argentina_Elections.1.E:0 "Elect Social Liberals"
+ DH_Argentina_Elections.1.F:0 "Elect Social Democrats"
+ DH_Argentina_Elections.1.G:0 "Elect Left Wing Nationalists"
+ 
+ ARG_PA_1937_Candidate:0 "§YCandidate§! : Roberto M. Ortiz"
+ ARG_SL_1937_Candidate:0 "§YCandidate§! : Marcelo Torcuato de Alvear"

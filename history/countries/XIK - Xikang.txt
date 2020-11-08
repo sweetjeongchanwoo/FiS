@@ -1,0 +1,56 @@
+﻿#########################################################################
+# Xikang
+#########################################################################
+capital = 1035
+oob = "XIK_1936"
+set_convoys = 5
+set_stability = 0.2
+set_war_support = 0.2
+
+add_ideas = {
+	CHI_Military_Government
+}
+#######################
+# Research
+#######################
+set_technology = {
+	Small_Arms_1916 = 1	
+}
+#######################
+# Politics
+#######################
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascist = 0
+	authoritarian = 100
+	democratic = 0
+	socialist = 0
+	communist = 0
+}
+#######################
+# Leaders
+#######################
+create_country_leader = {
+	name = "Liu Wenhui"
+	desc = ""
+	picture = "Liu_Wenhui.tga"
+	expire = "1965.1.1"
+	ideology = military_dictatorship
+	traits = {}
+}
+
+create_field_marshal = {
+	name = "Liu Wenhui"
+	picture = "Liu_Wenhui.tga"
+	traits = { logistics_wizard }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}

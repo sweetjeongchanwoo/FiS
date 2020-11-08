@@ -1,0 +1,278 @@
+﻿l_english:
+
+#########################################################################
+#  Iraqi Spirits
+#########################################################################
+ IRQ_Collapsing_Authorities:0 "Collapsing Authorities"
+ IRQ_Collapsing_Authorities_desc:0 "In an ironic turn of events, attempts to maintain order have only served to further entropy. Actions taken by the Hashemite government have done little to stay the steady hand of turmoil, only serving to prolong the nation’s fading flame. Dissatisfaction with the current state of affairs is commonplace within our borders, appeasement only going so far as to prevent civil war. The Prime Minister folding to the British was only the first nail in our proverbial coffin. Numerous domestic blunders leave almost all distraught with the current course of Iraq. The economy continues to decline and we still owe allegiance to a foreign power. We assumed our days of subjugation were numbered. To have such hopes stripped away seems to be the tipping point for the factions."
+
+ IRQ_Anglo_Iraqi_Treaty:0 "Anglo Iraqi Treaty" 
+ IRQ_Anglo_Iraqi_Treaty_desc:0 "Built upon the foundations laid in 1922, the Anglo-Iraqi Treaty of 1930 was signed under the pretense of discovered oil fields in Mesopotamia. The British have grown greedy in their attempts to maintain such a large fleet, thus their eyes shifted to our bountiful lands once more. The treaty, though an alliance in name, essentially designates Iraq as a collaboration government of the British Crown in 11 articles, thus limiting our autonomy, dictating our trade, and subjecting us to an indefinite British military occupation. According to the arrangement, in the event of war, the Iraqi government must firmly join the British as an ally, offering the entirety of our nation to a cause abroad.\n\nDespite the abhorrently unequal terms of the agreement, the pro-British government of Iraq could not refuse despite rampant protests from the citizenry and moderate government offices. Championed by the Prime Minister and leveraged by foreign influence among several factions, including the army, the Hashemite government hastily signed the unfair treaty. As unrest ensues, the government continues attempts to appease all sides: from foreigners to nationalists, from liberals to covenants, from Shia minorities to the armed forces. However, appeasement can only go so far. Even the Government Bloc, comprised of the King’s most trusted allies, faces internal strife.\n\nAs our freedoms grow further and further restricted, political unrest boils higher and higher. Once thought of as liberators, the Angles have proven themselves no better than the Ottomans."
+
+#########################################################################
+#  Iraqi Focuses
+#########################################################################
+ IRQ_New_Prime_Minister:0 "A New Prime Minister?"
+ IRQ_New_Prime_Minister_desc:0 ""
+
+ IRQ_The_Firm_Nationalist:0 "The Firm Nationalist" 
+ IRQ_The_Firm_Nationalist_desc:0 ""
+
+ IRQ_The_New_Reformist:0 "The New Reformist"
+ IRQ_The_New_Reformist_desc:0 ""
+
+ IRQ_We_People_Iraq:0 "We, people of Iraq!"
+ IRQ_We_People_Iraq_desc:0 ""
+
+ IRQ_Nationality_And_Rreforms:0 "Nationality and Reforms"
+ IRQ_Nationality_And_Rreforms_desc:0 ""
+
+ IRQ_Simele_Massacre:0 "Simele Massacre"
+ IRQ_Simele_Massacre_desc:0 ""
+
+ IRQ_Peace_Achieved:0 "Peace Achieved"
+ IRQ_Peace_Achieved_desc:0 ""
+
+ IRQ_Visit_Swiss:0 "A visit to Switzerland"
+ IRQ_Visit_Swiss_desc:0 ""
+
+ IRQ_Future_Iraq:0 "The Future of Iraq"
+ IRQ_Future_Iraq_desc:0 ""
+
+ IRQ_Finest_Culture:0 "Finest of our Culture"
+ IRQ_Finest_Culture_desc:0 ""
+
+ IRQ_Friends_As_Aaid:0 "Friends with As-Said"
+ IRQ_Friends_As_Aaid_desc:0 ""
+
+ IRQ_Negotiate_Power_Army:0 "Negotiate Power of the Army"
+ IRQ_Negotiate_Power_Army_desc:0 ""
+
+ IRQ_Moderate_Stance:0 "The Moderate Stance"
+ IRQ_Moderate_Stance_desc:0 ""
+
+ IRQ_Truth_Realise:0 "A Truth we shall realise"
+ IRQ_Truth_Realise_desc:0 ""
+
+ IRQ_Resolution_To_Treaty:0 "A Resolution to the Treaty"
+ IRQ_Resolution_To_Treaty_desc:0 ""
+
+ IRQ_Curtail_Sidqis_Powers:0 "Curtail Sidqi's Powers"
+ IRQ_Curtail_Sidqis_Powers_desc:0 ""
+
+ IRQ_Oust_Opposition_Leaders:0 "Oust Opposition Leaders"
+ IRQ_Oust_Opposition_Leaders_desc:0 ""
+
+ IRQ_Clamp_Down_Oppositions:0 "Clamp Down Oppositions"
+ IRQ_Clamp_Down_Oppositions_desc:0 ""
+
+ IRQ_Inevitable_Fate:0 "The Inevitable Fate"
+ IRQ_Inevitable_Fate_desc:0 ""
+
+ IRQ_As_Said_Rules:0 "As-Said Rules"
+ IRQ_As_Said_Rules_desc:0 ""
+
+ IRQ_Reinforce_The_Treaty:0 "Reinforce the Treaty"
+ IRQ_Reinforce_The_Treaty_desc:0 ""
+
+ IRQ_Curtail_Royal_Powers:0 "Curtail Royal Powers"
+ IRQ_Curtail_Royal_Powers_desc:0 ""
+
+ IRQ_Ethnic_Union_One:0 "Many Ethnicities, one union!"
+ IRQ_Ethnic_Union_One_desc:0 ""
+
+ IRQ_Troop_Donation_Masters:0 "Troop Donation to our masters"
+ IRQ_Troop_Donation_Masters_desc:0 ""
+
+ IRQ_Wings_Upon_Kingdom:0 "Wings Upon the kingdom"
+ IRQ_Wings_Upon_Kingdom_desc:0 ""
+
+ IRQ_Put_Down_Nationalists:0 "Put down the Nationalists"
+ IRQ_Put_Down_Nationalists_desc:0 ""
+
+ IRQ_Peace_And_Victory:0 "Peace and Victory"
+ IRQ_Peace_And_Victory_desc:0 ""
+
+ IRQ_Al_Gaylani_Rules:0 "Al-Gaylani rules"
+ IRQ_Al_Gaylani_Rules_desc:0 ""
+
+ IRQ_Invest_Our_Culture:0 "Invest in our Culture"
+ IRQ_Invest_Our_Culture_desc:0 ""
+
+ IRQ_Our_Iraqi_Identity:0 "Our Iraqi Identity"
+ IRQ_Our_Iraqi_Identity_desc:0 ""
+
+ IRQ_Culture_And_Morality:0 "Culture and Morality"
+ IRQ_Culture_And_Morality_desc:0 ""
+
+ IRQ_Friends_With_Germany:0 "Friends with Germany"
+ IRQ_Friends_With_Germany_desc:0 ""
+
+ IRQ_Put_Down_Covenants:0 "Put down the Covenants"
+ IRQ_Put_Down_Covenants_desc:0 ""
+
+ IRQ_Foregin_Support_Our_Case:0 "Foreign Support to our case"
+ IRQ_Foregin_Support_Our_Case_desc:0 ""
+
+ IRQ_Protectors_Mesopotamia:0 "Protectors of Mesopotamia"
+ IRQ_Protectors_Mesopotamia_desc:0 ""
+
+ IRQ_The_Phoenixes_Gather:0 "The Phoenixes gather"
+ IRQ_The_Phoenixes_Gather_desc:0 ""
+
+ IRQ_Look_To_The_Economy:0 "A Look to the Economy"
+ IRQ_Look_To_The_Economy_desc:0 ""
+
+ IRQ_A_Firm_Hand:0 "A firm Hand"
+ IRQ_A_Firm_Hand_desc:0 ""
+
+ IRQ_Export_But_No_Import:0 "Export, but not to import"
+ IRQ_Export_But_No_Import_desc:0 ""
+
+ IRQ_Protect_Our_Morals:0 "But protect our morals"
+ IRQ_Protect_Our_Morals_desc:0 ""
+
+ IRQ_All_Means_Nationalization:0 "All means to nationalization"
+ IRQ_All_Means_Nationalization_desc:0 ""
+
+ IRQ_A_British_Dominated_Economy:0 "A British Dominated Economy"
+ IRQ_A_British_Dominated_Economy_desc:0 ""
+
+ IRQ_A_British_Dominated_Trade:0 "Only to the Trusted"
+ IRQ_A_British_Dominated_Trade_desc:0 ""
+
+ IRQ_Open_The_Trade:0 "Open the Trade"
+ IRQ_Open_The_Trade_desc:0 ""
+
+ IRQ_Freedom_At_Peak:0 "Freedom at Peak"
+ IRQ_Freedom_At_Peak_desc:0 ""
+
+ IRQ_Times_Harsh:0 "Times may be harsh"
+ IRQ_Times_Harsh_desc:0 ""
+
+ IRQ_Surpass_It:0 "But we'll surpass it"
+ IRQ_Surpass_It_desc:0 ""
+
+ IRQ_With_Ourselves:0 "With help from ourselves"
+ IRQ_With_Ourselves_desc:0 ""
+
+ IRQ_With_Masters:0 "With help from our masters"
+ IRQ_With_Masters_desc:0 ""
+
+ IRQ_Brand_New_Economy:0 "A Brand new Economy"
+ IRQ_Brand_New_Economy_desc:0 ""
+
+ IRQ_Introduce_Conscription:0 "Introduce Conscription"
+ IRQ_Introduce_Conscription_desc:0 ""
+
+ IRQ_The_Royal_Army:0 "The Royal Army"
+ IRQ_The_Royal_Army_desc:0 ""
+
+ IRQ_National_Doctrine:0 "National Doctrine"
+ IRQ_National_Doctrine_desc:0 ""
+
+ IRQ_Find_Iraqi_Experts:0 "Invite Iraqi Experts"
+ IRQ_Find_Iraqi_Experts_desc:0 ""
+
+ IRQ_Request_British_Assistance:0 "Request British Assistance"
+ IRQ_Request_British_Assistance_desc:0 ""
+
+ IRQ_Invite_British_Theorists:0 "Invite British Theorists"
+ IRQ_Invite_British_Theorists_desc:0 ""
+
+ IRQ_Militarize_Rural_Areas:0 "Militarize Rural Areas"
+ IRQ_Militarize_Rural_Areas_desc:0 ""
+
+ IRQ_Royal_Iraqi_Navy:0 "Royal Iraqi Navy"
+ IRQ_Royal_Iraqi_Navy_desc:0 ""
+
+ IRQ_Mutual_Coordination_With_Britain:0 "Mutual Coordination with Britain"
+ IRQ_Mutual_Coordination_With_Britain_desc:0 ""
+
+ IRQ_Admiral_Exchange:0 "Admiral Exchange"
+ IRQ_Admiral_Exchange_desc:0 ""
+
+ IRQ_National_Navy:0 "A National Navy"
+ IRQ_National_Navy_desc:0 ""
+
+ IRQ_Masters_Of_Our_Coasts:0 "Masters of our coasts"
+ IRQ_Masters_Of_Our_Coasts_desc:0 ""
+
+ IRQ_Overhaul_Our_Ports:0 "Overhaul Our Bases"
+ IRQ_Overhaul_Our_Ports_desc:0 ""
+
+ IRQ_Royal_Iraqi_Air_Force:0 "Royal Iraqi Air Force" 
+ IRQ_Royal_Iraqi_Air_Force_desc:0 ""
+
+ IRQ_National_Airforce:0 "A National Airforce" 
+ IRQ_National_Airforce_desc:0 ""
+
+ IRQ_Encourage_Aces:0 "Encourage Aces" 
+ IRQ_Encourage_Aces_desc:0 ""
+
+ IRQ_British_Expeditions:0 "British Expeditions" 
+ IRQ_British_Expeditions_desc:0 ""
+
+ IRQ_Purchase_British_Models:0 "Purchase British Models" 
+ IRQ_Purchase_British_Models_desc:0 ""
+
+ IRQ_Expand_the_Baghdad_Airbase:0 "Expand the Baghdad Airbase" 
+ IRQ_Expand_the_Baghdad_Airbase_desc:0 ""
+
+ IRQ_HM_Inspection:0 "H.M. Inspection"
+ IRQ_HM_Inspection_desc:0 ""
+
+ IRQ_A_National_Military:0 "A National Military"
+ IRQ_A_National_Military_desc:0 ""
+
+ IRQ_Dependent_On_Our_Superiors:0 "Dependent on our Superiors"
+ IRQ_Dependent_On_Our_Superiors_desc:0 ""
+
+#########################################################################
+#  Iraqi Focuses (National Defense Tree)
+#########################################################################
+
+ IRQ_Motion_Of_The_Four_Colonials:0 "Motion of the Four Colonials"
+ IRQ_Motion_Of_The_Four_Colonials_desc:0 ""
+ 
+ IRQ_Form_The_National_Defense_Government:0 "Form the National Defense Government"
+ IRQ_Form_The_National_Defense_Government_desc:0 ""
+
+ IRQ_End_To_The_Covenants:0 "An End to the Covenants"
+ IRQ_End_To_The_Covenants_desc:0 ""
+
+ IRQ_Long_Road_To_Pass:0 "A long road to Pass"
+ IRQ_Long_Road_To_Pass_desc:0 ""
+
+ IRQ_Visit_To_The_Army:0 "A visit to the Army"
+ IRQ_Visit_To_The_Army_desc:0 ""
+
+ IRQ_Secure_National_Control:0 "Secure National Control"
+ IRQ_Secure_National_Control_desc:0 ""
+
+ IRQ_Ensure_Royal_Support:0 "Ensure Royal Support"
+ IRQ_Ensure_Royal_Support_desc:0 ""
+
+ IRQ_Filter_The_Royal_Family:0 "Filter the Royal Family"
+ IRQ_Filter_The_Royal_Family_desc:0 ""
+
+ IRQ_Crush_Resisting_Royalists:0 "Crush Resisting Royalists"
+ IRQ_Crush_Resisting_Royalists_desc:0 ""
+
+ IRQ_Reach_Out_Axis:0 "Reach out to the Axis"
+ IRQ_Reach_Out_Axis_desc:0 ""
+
+ IRQ_Secure_The_Land:0 "Secure the Land"
+ IRQ_Secure_The_Land_desc:0 ""
+
+ IRQ_Suppress_The_Minorities:0 "Suppress the Minorities"
+ IRQ_Suppress_The_Minorities_desc:0 ""
+
+ IRQ_Purge_Dissenters:0 "Purge Dissenters"
+ IRQ_Purge_Dissenters_desc:0 ""
+
+ IRQ_Spread_Propoganda_Posters:0 "Spread Propoganda Posters"
+ IRQ_Spread_Propoganda_Posters_desc:0 ""
+
+ IRQ_Fires_Of_Victory_Spread:0 "Fires of Victory have spread!"
+ IRQ_Fires_Of_Victory_Spread_desc:0 ""

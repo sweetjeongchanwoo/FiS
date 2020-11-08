@@ -1,0 +1,25 @@
+
+state={
+	id=541
+	name="STATE_541"
+
+	history={
+		owner = SAF
+		victory_points = {
+			4879 5
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = NAM
+
+	}
+
+	provinces={
+		4879 10978 13452 13453 
+	}
+	manpower=462000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

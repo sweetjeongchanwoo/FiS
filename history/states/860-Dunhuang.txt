@@ -1,0 +1,31 @@
+state={
+	id=860
+	name="STATE_860"
+	
+	history={
+		owner = TNG	
+		1936.1.1 = {
+			owner = NXM
+		}	
+		1950.1.1 = {
+			owner = PRC
+		}		
+		add_core_of = NXM
+		add_core_of = CHI
+		add_core_of = PRC
+		
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			12596 1 
+		}
+	}
+	
+	provinces={
+		1778 7971 12596 12820 
+	}
+	manpower=700000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

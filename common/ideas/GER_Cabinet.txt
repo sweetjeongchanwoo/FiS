@@ -1,0 +1,2869 @@
+ideas = {
+#################################################
+### Head of Government
+#################################################
+	Head_of_Government = {
+	# Reichstag
+		GER_HoG_Reichstag = {
+			picture = Reichstag
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1930.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+			}
+			
+			
+			traits = { ideology_F }
+		}
+	# Gregor Strasser
+		GER_HoG_Gregor_Strasser = {
+			picture = Gregor_Strasser
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1930.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Gregor_Strasser_unavailable }
+			}
+			
+			
+			traits = { ideology_F POSITION_GER_Parteikanzlei HoG_Backroom_Backstabber }
+		}
+	# Rudolf Hess
+		GER_HoG_Rudolf_Hess = {
+			picture = Rudolf_Hess
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				AND = {
+					NOT = { has_country_flag = Rudolf_Hess_unavailable }
+					NOT = { has_country_flag = flight_of_hess_killed }
+					NOT = { has_country_flag = flight_of_hess }
+				}
+			}
+			
+			
+			traits = { ideology_F POSITION_GER_Deputy_Fuhrer HoG_Silent_Workhorse }
+		}
+	# Adolf Hitler
+		GER_HoG_Adolf_Hitler = {
+			picture = Adolf_Hitler
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Adolf_Hitler_unavailable }
+			}
+			
+			
+			traits = { ideology_F POSITION_GER_Reichskanzler HoG_Flamboyant_Tough_Guy }
+		}
+	# Hans Heinrich Lammers
+		GER_HoG_Hans_Heinrich_Lammers = {
+			picture = Hans_Heinrich_Lammers
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Hans_Heinrich_Lammers_unavailable }
+			}
+			
+			
+			traits = { ideology_F HoG_Political_Protege }
+		}
+	# Hermann Göring
+		GER_HoG_Hermann_Goring = {
+			picture = Hermann_Goring
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Hermann_Goring_unavailable }
+			}
+			
+			
+			traits = { ideology_F POSITION_GER_Deputy_Fuhrer HoG_Old_Airmarshal }
+		}
+	# Martin Bormann
+		GER_HoG_Martin_Bormann = {
+			picture = Martin_Bormann
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Martin_Bormann_unavailable }
+			}
+			
+			
+			traits = { ideology_F POSITION_GER_Parteikanzlei HoG_The_Brown_Eminence }
+		}
+	# Joseph Goebbels
+		GER_HoG_Joseph_Goebbels = {
+			picture = Joseph_Goebbels
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1941.1.1
+				date < 1946.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Goebbels_unavailable }
+			}
+			
+			
+			traits = { ideology_F POSITION_GER_Parteikanzlei HoG_Backroom_Backstabber }
+		}
+	# Heinrich Himmler
+		GER_HoG_Heinrich_Himmler = {
+			picture = Heinrich_Himmler
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1941.1.1
+				date < 1946.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Heinrich_Himmler_unavailable }
+			}
+			
+			
+			traits = { ideology_F POSITION_GER_Deputy_Fuhrer HoG_Old_General }
+		}
+	# Albert Speer
+		GER_HoG_Albert_Speer = {
+			picture = Albert_Speer
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Albert_Speer_unavailable }
+			}
+			
+			
+			traits = { ideology_F POSITION_GER_Deputy_Fuhrer HoG_Corporate_Suit }
+		}
+	# Kurt von Schleicher
+		GER_HoG_Kurt_von_Schleicher = {
+			picture = Kurt_von_Schleicher
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1933.1.1
+				date < 1934.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Kurt_von_Schleicher_unavailable }
+			}
+			
+			
+			traits = { ideology_A POSITION_GER_Reichskanzler HoG_Political_Protege }
+		}
+	# Paul von Hindenberg
+		GER_HoS_Paul_von_Hindenberg = {
+			picture = Paul_Von_Hindenburg
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1933.1.1
+				date < 1935.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_von_Hindenburg_unavailable }
+			}
+			
+			
+			traits = { ideology_A POSITION_GER_Reichsprasident HoS_Popular_Figurehead }
+		}
+	# Alfred Hugenberg
+		GER_HoG_Alfred_Hugenberg = {
+			picture = Alfred_Hugenberg
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Alfred_Hugenberg_unavailable }
+			}
+			
+			
+			traits = { ideology_A POSITION_GER_Reichskanzler MoS_Media_Magnate }
+		}		
+	# Franz von Papen
+		GER_HoG_Franz_von_Papen = {
+			picture = Franz_von_Papen
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Franz_von_Papen_unavailable }
+			}
+			
+			
+			traits = { ideology_A POSITION_GER_Reichskanzler HoG_Happy_Amateur }
+		}
+	# Carl Friedrich Goerdeler
+		GER_HoG_Carl_Friedrich_Goerdeler = {
+			picture = Carl_Friedrich_Goerdeler
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1933.1.1
+				date < 1946.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Carl_Friedrich_Goerdeler_unavailable }
+			}
+			
+			
+			traits = { ideology_A POSITION_GER_Reichskanzler HoG_Happy_Amateur }
+		}
+	# Lutz von SchwerinKrosigk
+		GER_HoG_Lutz_von_SchwerinKrosigk = {
+			picture = Lutz_Graf_Schwerin_Von_Krosigk
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Lutz_von_SchwerinKrosigk_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoG_Silent_Workhorse }
+		}
+	# Adolf von Thaden
+		GER_HoG_Adolf_von_Thadden = {
+			picture = Adolf_von_Thadden
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1980.1.1
+				date < 1996.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Adolf_von_Thadden_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoG_Old_General }
+		}
+	# Konrad Adenauer
+		GER_HoG_Konrad_Adenauer = {
+			picture = Konrad_Adenauer
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Konrad_Adenauer_unavailable }
+			}
+			
+			
+			traits = { ideology_D POSITION_GER_Reichskanzler HoG_Silent_Workhorse }
+		}
+	# Ernst Thälmann
+		GER_HoG_Ernst_Thalmann = {
+			picture = Ernst_Thalmann
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Ernst_Thalmann_unavailable }
+			}
+			
+			
+			traits = { ideology_C POSITION_General_Secretary HoG_Backroom_Backstabber }
+		}
+	# Ernst Toller
+		GER_HoG_Ernst_Toller = {
+			picture = Ernst_Toller
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Ernst_Toller_unavailable }
+			}
+			
+			
+			traits = { ideology_C POSITION_General_Secretary HoG_Ambitious_Union_Boss }
+		}
+	# Walter Ulbricht
+		GER_HoG_Walter_Ulbricht = {
+			picture = Walter_Ulbricht
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Walter_Ulbricht_unavailable }
+			}
+			
+			
+			traits = { ideology_C POSITION_General_Secretary HoG_Backroom_Backstabber }
+		}
+}
+#################################################
+### Foreign Minister
+#################################################
+	Foreign_Minister = {
+	# Joachim von Ribbentrop
+		GER_FM_Joachim_von_Ribbentrop = {
+			picture = Joachim_von_Ribbentrop
+			allowed = { tag = GER }
+			available = {
+				OR = {
+					date > 1937.1.1
+					has_completed_focus = GER_Heim_ins_Reich
+				}
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Joachim_von_Ribbentrop_unavailable }
+			}
+			
+			
+			traits = { ideology_F FM_Salesman_Of_Deception }
+		}
+	# Joseph Goebbels
+		GER_FM_Joseph_Goebbels = {
+			picture = Joseph_Goebbels
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1946.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Goebbels_unavailable }
+			}
+			
+			
+			traits = { ideology_F FM_The_Cloak_N_Dagger_Schemer }
+		}
+	# Alfred Rosenberg
+		GER_FM_Alfred_Rosenberg = {
+			picture = Alfred_Rosenberg
+			allowed = { tag = GER }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Alfred_Rosenberg_unavailable }
+			}
+			
+			
+			traits = { ideology_F FM_Ideological_Crusader }
+		}
+	# Arthur Seyss-Inquart
+		GER_FM_Arthur_SeyssInquart = {
+			picture = Arthur_SeyssInquart
+			allowed = { tag = GER }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Arthur_SeyssInquart_unavailable }
+			}
+			
+			
+			traits = { ideology_F FM_Iron_Fisted_Brute }
+		}
+	# Konstantin von Neurath
+		GER_FM_Konstantin_von_Neurath = {
+			picture = Konstantin_von_Neurath
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Konstantin_von_Neurath_unavailable }
+			}
+			
+			
+			traits = { ideology_A FM_Respectable_Compromiser }
+		}
+	# Franz von Papen
+		GER_FM_Franz_von_Papen = {
+			picture = Franz_von_Papen
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Franz_von_Papen_unavailable }
+			}
+			
+			
+			traits = { ideology_A FM_Great_Compromiser }
+		}
+	# Heinrich Brüning
+		GER_FM_Heinrich_Bruning = {
+			picture = Heinrich_Bruning
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1934.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Heinrich_Bruning_unavailable }
+			}
+			
+			
+			traits = { ideology_A FM_Great_Compromiser }
+		}	
+	# Konstantin von Neurath
+		GER_FM_Konstantin_von_Neurath_2 = {
+			picture = Konstantin_von_Neurath
+			allowed = { tag = GER }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Konstantin_von_Neurath_unavailable }
+			}
+			
+			
+			traits = { ideology_A FM_Respectable_Compromiser }
+		}
+	# Friedrich-Werner von der Schulenberg
+		GER_FM_FriedrichWerner_von_der_Schulenberg = {
+			picture = FriedrichWerner_von_der_Schulenberg
+			allowed = { tag = GER }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = FriedrichWerner_von_der_Schulenberg_unavailable }
+			}
+			
+			
+			traits = { ideology_A FM_Ideological_Crusader }
+		}
+	# Lutz von SchwerinKrosigk
+		GER_FM_Lutz_von_SchwerinKrosigk = {
+			picture = Lutz_Graf_Schwerin_Von_Krosigk
+			allowed = { tag = GER }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Lutz_von_SchwerinKrosigk_unavailable }
+			}
+			
+			
+			traits = { ideology_A FM_Apologetic_Clerk }
+		}
+	# Ernst Jünger
+		GER_FM_Ernst_Junger = {
+			picture = Ernst_Junger
+			allowed = { tag = GER }
+			available = {
+				date > 1970.1.1
+				date < 1998.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ernst_Junger_unavailable }
+			}
+			
+			
+			traits = { ideology_A FM_General_Staffer }
+		}
+	# Theodor Heuss
+		GER_FM_Theodor_Heuss = {
+			picture = Theodor_Heuss
+			allowed = { tag = GER }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Theodor_Heuss_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_Apologetic_Clerk }
+		}
+	# Konrad Adenauer
+		GER_FM_Konrad_Adenauer = {
+			picture = Konrad_Adenauer
+			allowed = { tag = GER }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Konrad_Adenauer_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_Great_Compromiser }
+		}
+	# Philipp Scheidemann
+		GER_FM_Philipp_Scheidemann = {
+			picture = Philipp_Scheidemann
+			allowed = { tag = GER }
+			available = {
+				date > 1914.1.1
+				date < 1930.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Philipp_Scheidemann_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_Great_Compromiser }
+		}
+	# Walter Ulbricht
+		GER_FM_Walter_Ulbricht = {
+			picture = Walter_Ulbricht
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Walter_Ulbricht_unavailable }
+			}
+			
+			
+			traits = { ideology_C FM_The_Cloak_N_Dagger_Schemer }
+		}
+	}
+#################################################
+### Minister of Security
+#################################################
+	Minister_of_Security = {
+	# Reinhard Heydrich
+		GER_MoS_Reinhard_Heydrich = {
+			picture = Reinhard_Heydrich
+			allowed = { tag = GER }
+			available = {
+				date > 1931.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Reinhard_Heydrich_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Secret_Police_Chief }
+		}
+	# Wilhelm Frick
+		GER_MoS_Wilhelm_Frick = {
+			picture = Wilhelm_Frick
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Wilhelm_Frick_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Ruthless_Organizer }
+		}
+	# Kurt Daluege
+		GER_MoS_Kurt_Daluege = {
+			picture = Kurt_Daluege
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Kurt_Daluege_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Secret_Police_Chief }
+		}
+	# Alfred Rosenberg
+		GER_MoS_Alfred_Rosenberg = {
+			picture = Alfred_Rosenberg
+			allowed = { tag = GER }
+			available = {
+				has_completed_focus = GER_Adopt_Positive_Christianity
+			}
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Alfred_Rosenberg_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Efficient_Sociopath }
+		}		
+	# Walter Buch
+		GER_MoS_Walter_Buch = {
+			picture = Walter_Buch
+			allowed = { tag = GER }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Walter_Buch_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Man_Of_The_People }
+		}
+	# Heinrich Himmler
+		GER_MoS_Heinrich_Himmler = {
+			picture = Heinrich_Himmler
+			allowed = { tag = GER }
+			available = {
+				date > 1938.1.1
+				date < 1956.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Heinrich_Himmler_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_SS_Reichsfuhrer }
+		}
+	# Walther Darré
+		GER_MoS_Walther_Darre = {
+			picture = Walther_Darre
+			allowed = { tag = GER }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Walther_Darre_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Efficient_Sociopath }
+		}
+	# Viktor Lutze
+		GER_MoS_Viktor_Lutze = {
+			picture = Viktor_Lutze
+			allowed = { tag = GER }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Viktor_Lutze_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Compassionate_Gentleman }
+		}
+	# Joseph Goebbels
+		GER_MoS_Joseph_Goebbels = {
+			picture = Joseph_Goebbels
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1946.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Goebbels_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Master_Of_Propaganda }
+		}
+	# Arthur Seyss-Inquart
+		GER_MoS_Arthur_SeyssInquart = {
+			picture = Arthur_SeyssInquart
+			allowed = { tag = GER }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Arthur_SeyssInquart_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Silent_Lawyer }
+		}
+	# Karl Hanke
+		GER_MoS_Karl_Hanke = {
+			picture = Karl_Hanke
+			allowed = { tag = GER }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Karl_Hanke_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Back_Stabber }
+		}
+	# Paul Giesler
+		GER_MoS_Paul_Giesler = {
+			picture = Paul_Giesler
+			allowed = { tag = GER }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Giesler_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Efficient_Sociopath }
+		}
+	# Werner Naumann
+		GER_MoS_Werner_Naumann = {
+			picture = Werner_Naumann
+			allowed = { tag = GER }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Werner_Naumann_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Compassionate_Gentleman }
+		}
+	# Franz von Papen
+		GER_MoS_Franz_von_Papen = {
+			picture = Franz_von_Papen
+			allowed = { tag = GER }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Franz_von_Papen_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Compassionate_Gentleman }
+		}
+	# Otto Ernst Remer
+		GER_MoS_Otto_Ernst_Remer = {
+			picture = Otto_Ernst_Remer
+			allowed = { tag = GER }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Otto_Ernst_Remer_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Prince_Of_Terror }
+		}
+	# Arthur Nebe
+		GER_MoS_Arthur_Nebe = {
+			picture = Arthur_Nebe
+			allowed = { tag = GER }
+			available = {
+				date > 1941.1.1
+				date < 1946.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Arthur_Nebe_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Crime_Fighter }
+		}
+	# Walter Schellenberg
+		GER_MoS_Walter_Schellenberg = {
+			picture = Walter_Schellenberg
+			allowed = { tag = GER }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Walter_Schellenberg_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Efficient_Sociopath }
+		}		
+	# Arthur Axmann
+		GER_MoS_Arthur_Axmann = {
+			picture = Arthur_Axmann
+			allowed = { tag = GER }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Arthur_Axmann_unavailable }
+			}
+			
+			
+			traits = { ideology_F MoS_Man_Of_The_People }
+		}
+	# Ernst Trendelenburg
+		GER_MoS_Ernst_Trendelenburg = {
+			picture = Ernst_Trendelenburg
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ernst_Trendelenburg_unavailable }
+			}
+			
+			
+			traits = { ideology_A MoS_Compassionate_Gentleman }
+		}
+	# Alfred Hugenberg
+		GER_MoS_Alfred_Hugenberg = {
+			picture = Alfred_Hugenberg
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Alfred_Hugenberg_unavailable }
+			}
+			
+			
+			traits = { ideology_A MoS_Compassionate_Gentleman }
+		}
+	# Franz Bracht
+		GER_MoS_Franz_Bracht = {
+			picture = Franz_Bracht
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Franz_Bracht_unavailable }
+			}
+			
+			
+			traits = { ideology_D MoS_Crime_Fighter }
+		}
+	# Rudolf Diels
+		GER_MoS_Rudolf_Diels = {
+			picture = Rudolf_Diels
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Rudolf_Diels_unavailable }
+			}
+			
+			
+			traits = { ideology_A MoS_Crime_Fighter }
+		}
+	# Heinrich Müller
+		GER_MoS_Heinrich_Muller_2 = {
+			picture = Heinrich_Muller
+			allowed = { tag = GER }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Heinrich_Muller_unavailable }
+			}
+			
+			
+			traits = { ideology_A MoS_Efficient_Sociopath }
+		}
+	# Henning von Tresckow
+		GER_MoS_Henning_von_Tresckow = {
+			picture = Henning_von_Tresckow
+			allowed = { tag = GER }
+			available = {
+				date > 1936.1.1
+				date < 1945.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Henning_von_Tresckow_unavailable }
+			}
+			
+			
+			traits = { ideology_A MoS_Crime_Fighter }
+		}
+	# Franz von Papen
+		GER_MoS_Franz_von_Papen_2 = {
+			picture = Franz_von_Papen
+			allowed = { tag = GER }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Franz_von_Papen_unavailable }
+			}
+			
+			
+			traits = { ideology_A MoS_Compassionate_Gentleman }
+		}
+	# Karl Arnold
+		GER_MoS_Karl_Arnold = {
+			picture = Karl_Arnold
+			allowed = { tag = GER }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Karl_Arnold_unavailable }
+			}
+			
+			
+			traits = { ideology_D MoS_Crime_Fighter }
+		}
+	# Gustav Heinemann
+		GER_MoS_Gustav_Heinemann = {
+			picture = Gustav_Heinemann
+			allowed = { tag = GER }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Gustav_Heinemann_unavailable }
+			}
+			
+			
+			traits = { ideology_D MoS_Man_Of_The_People }
+		}
+	# Eduard David
+		GER_MoS_Eduard_David = {
+			picture = Eduard_David
+			allowed = { tag = GER }
+			available = {
+				date > 1914.1.1
+				date < 1930.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Eduard_David_unavailable }
+			}
+			
+			
+			traits = { ideology_D MoS_Compassionate_Gentleman }
+		}
+	# Ernst Toller
+		GER_MoS_Ernst_Toller = {
+			picture = Ernst_Toller
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Ernst_Toller_unavailable }
+			}
+			
+			
+			traits = { ideology_C MoS_Man_Of_The_People }
+		}
+	# Ludwig Renn
+		GER_MoS_Ludwig_Renn = {
+			picture = Ludwig_Renn
+			allowed = { tag = GER }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Ludwig_Renn_unavailable }
+			}
+			
+			
+			traits = { ideology_C MoS_Efficient_Sociopath }
+		}
+	# Julius Leber
+		GER_MoS_Julius_Leber = {
+			picture = Julius_Leber
+			allowed = { tag = GER }
+			available = {
+				date > 1941.1.1
+				date < 1946.1.1
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Julius_Leber_unavailable }
+			}
+			
+			
+			traits = { ideology_C MoS_Compassionate_Gentleman }
+		}
+	# Walter Ulbricht
+		GER_MoS_Walter_Ulbricht = {
+			picture = Walter_Ulbricht
+			allowed = { tag = GER }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Walter_Ulbricht_unavailable }
+			}
+			
+			
+			traits = { ideology_C MoS_Prince_Of_Terror }
+		}
+}
+#################################################
+### Armaments Minister
+#################################################
+	Armaments_Minister = {
+	# Werner von Blomberg
+		GER_AM_Werner_von_Blomberg = {
+			picture = Werner_von_Blomberg
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Werner_von_Blomberg_unavailable }
+			}
+			
+			
+			traits = { ideology_F AM_Infantry_Proponent }
+		}
+	# Rudolf Hess
+		GER_AM_Rudolf_Hess = {
+			picture = Rudolf_Hess
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				AND = {
+					NOT = { has_country_flag = Rudolf_Hess_unavailable }
+					NOT = { has_country_flag = flight_of_hess_killed }
+					NOT = { has_country_flag = flight_of_hess }
+				}
+			}
+			
+			
+			traits = { ideology_F AM_Strategic_Air_Proponent }
+		}
+	# Hjalmar Schacht
+		GER_AM_Hjalmar_Schacht = {
+			picture = Hjalmar_Schacht
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Hjalmar_Schacht_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Administrative_Genius }
+		}
+	# Franz-Xaver Schwarz
+		GER_AM_FranzXaver_Schwarz = {
+			picture = Franz_Xaver_Schwarz
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1943.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = FranzXaver_Schwarz_unavailable }
+			}
+			
+			
+			traits = { ideology_F AM_Resource_Industrialist }
+		}
+	# Lutz von SchwerinKrosigk
+		GER_AM_Lutz_von_SchwerinKrosigk = {
+			picture = Lutz_Graf_Schwerin_Von_Krosigk
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Lutz_von_SchwerinKrosigk_unavailable }
+			}
+			
+			
+			traits = { ideology_F AM_Resource_Industrialist }
+		}
+	# Robert Ley
+		GER_AM_Robert_Ley = {
+			picture = Robert_Ley
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Robert_Ley_unavailable }
+			}
+			
+			
+			traits = { ideology_F AM_Corrupt_Kleptocrat }
+		}
+	# Franz Seldte
+		GER_AM_Franz_Seldte = {
+			picture = Franz_Seldte
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Franz_Seldte_unavailable }
+			}
+			
+			
+			traits = { ideology_F AM_Military_Entrepreneur }
+		}
+	# Konstantin Hierl
+		GER_AM_Konstantin_Hierl = {
+			picture = Konstantin_Hierl
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Konstantin_Hierl_unavailable }
+			}
+			
+			
+			traits = { ideology_F AM_Resource_Industrialist }
+		}
+	# Hermann Göring
+		GER_AM_Hermann_Goring = {
+			picture = Hermann_Goring
+			allowed = { tag = GER }
+			available = {
+				date > 1936.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Hermann_Goring_unavailable }
+			}
+			
+			
+			traits = { ideology_F AM_Air_To_Ground_Proponent }
+		}
+	# Walter Funk
+		GER_AM_Walther_Funk = {
+			picture = Walther_Funk
+			allowed = { tag = GER }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Walther_Funk_unavailable }
+			}
+			
+			
+			traits = { ideology_F AM_Oil_Baron }
+		}
+	# Fritz Sauckel
+		GER_AM_Fritz_Sauckel = { ### Chief of Slave Labour
+			picture = Fritz_Sauckel  
+			allowed = { tag = GER }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Fritz_Sauckel_unavailable }
+			}
+			
+			
+			traits = { ideology_F AM_Infantry_Proponent }
+		}
+	# Oswald Pohl
+		GER_AM_Oswald_Pohl = {
+			picture = Oswald_Pohl
+			allowed = { tag = GER }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Oswald_Pohl_unavailable }
+			}
+			
+			
+			traits = { ideology_F AM_Military_Entrepreneur }
+		}
+	# Kurt Schmitt
+        GER_AM_Kurt_Schmitt = {
+            picture = Kurt_Schmitt
+            allowed = { tag = GER }
+            available = { 
+                date > 1933.1.1
+                date < 1950.11.1
+                F_Minister_Allowed = yes
+                NOT = { has_country_flag = Kurt_Schmitt_unavailable }
+            }
+
+
+            traits = { ideology_F AM_Resource_Industrialist }
+        }
+	# Karl Otto Saur
+		GER_AM_Karl_Otto_Saur = {
+			picture = Karl_Otto_Saur
+			allowed = { tag = GER }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Karl_Otto_Saur_unavailable }
+			}
+			
+			
+			traits = { ideology_F AM_Planned_Economy_Proponent }
+		}
+	# Fritz Thyssen
+		GER_AM_Fritz_Thyssen = {
+			picture = Fritz_Thyssen
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1940.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Fritz_Thyssen_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Steel_Magnate }
+		}
+	# Gustav Krupp
+		GER_AM_Gustav_Krupp = {
+			picture = Gustav_Krupp
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Gustav_Krupp_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Tank_Proponent }
+		}
+	# Gregor Strasser
+		GER_AM_Gregor_Strasser = {
+			picture = Gregor_Strasser
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Gregor_Strasser_unavailable }
+			}
+			
+			
+			traits = { ideology_F AM_Infantry_Proponent }
+		}
+	# Fritz Todt
+		GER_AM_Fritz_Todt = {
+			picture = Fritz_Todt
+			allowed = { tag = GER }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Fritz_Todt_unavailable }
+			}
+			
+			
+			traits = { ideology_F AM_Organization_todt }
+		}
+	# Alfried Krupp
+		GER_AM_Alfried_Krupp = {
+			picture = Alfried_Krupp
+			allowed = { tag = GER }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Alfried_Krupp_unavailable }
+			}
+			
+			
+			traits = { ideology_F AM_Steel_Magnate }
+		}
+	# Albert Speer
+		GER_AM_Albert_Speer = {
+			picture = Albert_Speer
+			allowed = { 
+				tag = GER 
+				has_completed_focus = GER_The_Genius_Organizer
+			}
+			available = {
+				OR = {
+					date > 1943.1.1
+					has_completed_focus = GER_The_Genius_Organizer
+				}	
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Albert_Speer_unavailable }
+			}
+			
+			
+			traits = { ideology_F AM_Genius_Organizer }
+		}
+	# Franz Xaver Dorsch
+		GER_AM_Franz_Xaver_Dorsch = {
+			picture = Franz_Xaver_Dorsch
+			allowed = { tag = GER }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Franz_Xaver_Dorsch_unavailable }
+			}
+			
+			
+			traits = { ideology_F AM_Construction_Magnate }
+		}
+	# Julius Curtius
+		GER_AM_Julius_Curtius = {
+			picture = Julius_Curtius
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Julius_Curtius_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Resource_Industrialist }
+		}
+	# Alfred Hugenberg
+		GER_AM_Alfred_Hugenberg = {
+			picture = Alfred_Hugenberg
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Alfred_Hugenberg_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Resource_Industrialist }
+		}
+	# Paul Lejeune-Jung
+		GER_AM_Paul_LejeuneJung = {
+			picture = Paul_LejeuneJung
+			allowed = { tag = GER }
+			available = {
+				date > 1936.1.1
+				date < 1945.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_LejeuneJung_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Mixed_Economy }
+		}
+	# Hjalmar Schacht
+		GER_AM_Hjalmar_Schacht_2 = {
+			picture = Hjalmar_Schacht
+			allowed = { tag = GER }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Hjalmar_Schacht_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Administrative_Genius }
+		}
+	# Karl Krauch
+		GER_AM_Karl_Krauch = {
+			picture = Karl_Krauch
+			allowed = { tag = GER }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Karl_Krauch_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Industrial_Chemist }
+		}
+	# Georg Thomas
+		GER_AM_Georg_Thomas = {
+			picture = Georg_Thomas
+			allowed = { tag = GER }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Georg_Thomas_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Reformer }
+		}
+	# Carl Friedrich Goerdeler
+		GER_AM_Carl_Friedrich_Goerdeler = {
+			picture = Carl_Friedrich_Goerdeler
+			allowed = { tag = GER }
+			available = {
+				date > 1940.1.1
+				date < 1946.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Carl_Friedrich_Goerdeler_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Military_Entrepreneur }
+		}
+	# Johannes Popitz
+		GER_AM_Johannes_Popitz = {
+			picture = Johannes_Popitz
+			allowed = { tag = GER }
+			available = {
+				date > 1941.1.1
+				date < 1946.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Johannes_Popitz_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Resource_Industrialist }
+		}
+	# Emil Schlee
+		GER_AM_Emil_Schlee = {
+			picture = Emil_Schlee
+			allowed = { tag = GER }
+			available = {
+				date > 1975.1.1
+				date < 2009.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Emil_Schlee_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Administrative_Genius }
+		}
+	# Fritz Schäffer
+		GER_AM_Fritz_Schaffer = {
+			picture = Fritz_Schaffer
+			allowed = { tag = GER }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Fritz_Schaffer_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Resource_Industrialist }
+		}
+	# Ludwig Erhard
+		GER_AM_Ludwig_Erhard = {
+			picture = Ludwig_Erhard
+			allowed = { tag = GER }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Ludwig_Erhard_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Mixed_Economy }
+		}
+	# Bernhard Dernburg
+		GER_AM_Bernhard_Dernburg = {
+			picture = Bernhard_Dernburg
+			allowed = { tag = GER }
+			available = {
+				date > 1914.1.1
+				date < 1930.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Bernhard_Dernburg_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Administrative_Genius }
+		}
+	# Albert Kuntz
+		GER_AM_Albert_Kuntz = {
+			picture = Albert_Kuntz
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Albert_Kuntz_unavailable }
+			}
+			
+			
+			traits = { ideology_C AM_Resource_Industrialist }
+		}
+	# Willie Munzenberg
+		GER_AM_Willie_Munzenberg = {
+			picture = Willie_Munzenberg
+			allowed = { tag = GER }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Willie_Munzenberg_unavailable }
+			}
+			
+			
+			traits = { ideology_C AM_Administrative_Genius }
+		}
+	}
+#################################################
+### Head of Intelligence
+#################################################
+	Head_of_Intelligence = {
+	# Reinhard Heydrich
+		GER_HoI_Reinhard_Heydrich = {
+			picture = Reinhard_Heydrich
+			allowed = { tag = GER }
+			available = {
+				date > 1931.1.1
+				date < 1943.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Reinhard_Heydrich_unavailable }
+			}
+			
+			
+			traits = { ideology_F HoI_The_Hangman }
+		}
+	# Hans-Georg von Friedeburg
+		GER_HoI_HansGeorg_von_Friedeburg = {
+			picture = HansGeorg_von_Friedeburg
+			allowed = { tag = GER }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = HansGeorg_von_Friedeburg_unavailable }
+			}
+			
+			
+			traits = { ideology_F HoI_Naval_Intelligence_Specialist }
+		}
+	# Ernst Kaltenbrunner
+		GER_HoI_Ernst_Kaltenbrunner = {
+			picture = Ernst_Kaltenbrunner
+			allowed = { tag = GER }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Ernst_Kaltenbrunner_unavailable }
+			}
+			
+			
+			traits = { ideology_F HoI_Logistics_Specialist }
+		}
+	# Wilhelm Burgdorf
+		GER_HoI_Wilhelm_Burgdorf = {
+			picture = Wilhelm_Burgdorf
+			allowed = { tag = GER }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Wilhelm_Burgdorf_unavailable }
+			}
+			
+			
+			traits = { ideology_F HoI_Political_Specialist }
+		}
+	# Konrad Patzig
+		GER_HoI_Konrad_Patzig = {
+			picture = Konrad_Patzig
+			allowed = { tag = GER }
+			available = {
+				date > 1932.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Konrad_Patzig_unavailable }
+			}
+			
+			
+			traits = { ideology_F HoI_Naval_Intelligence_Specialist }
+		}
+	# Wilhelm Canaris
+		GER_HoI_Wilhelm_Canaris = {
+			picture = Wilhelm_Canaris
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1946.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Wilhelm_Canaris_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoI_Brilliant_Spymaster }
+		}
+	# Heinrich Müller
+		GER_HoI_Heinrich_Muller = {
+			picture = Heinrich_Muller
+			allowed = { tag = GER }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Heinrich_Muller_unavailable }
+			}
+			
+			
+			traits = { ideology_F HoI_Political_Specialist }
+		}		
+	# Walter Schellenberg
+		GER_HoI_Walter_Schellenberg = {
+			picture = Walter_Schellenberg
+			allowed = { tag = GER }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Walter_Schellenberg_unavailable }
+			}
+			
+			
+			traits = { ideology_F HoI_Dismal_Enigma }
+		}
+	# Walter Nicolai
+		GER_HoI_Walter_Nicolai = {
+			picture = Walter_Nicolai
+			allowed = { tag = GER }
+			available = {
+				date > 1914.1.1
+				date < 1930.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Walter_Nicolai_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoI_Dismal_Enigma }
+		}
+	# Carl von Schubert
+		GER_HoI_Carl_von_Schubert = {
+			picture = Carl_von_Schubert
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Carl_von_Schubert_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoI_Logistics_Specialist }
+		}
+	# Hans Oster
+		GER_HoI_Hans_Oster = {
+			picture = Hans_Oster
+			allowed = { tag = GER }
+			available = {
+				date > 1939.1.1
+				date < 1946.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Hans_Oster_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoI_Industrial_Specialist }
+		}
+	# Georg Hansen
+		GER_HoI_Georg_Hansen = {
+			picture = Georg_Hansen
+			allowed = { tag = GER }
+			available = {
+				date > 1940.1.1
+				date < 1945.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Georg_Hansen_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoI_Technical_Specialist }
+		}
+	# Hans Gisevius
+		GER_HoI_Hans_Gisevius = {
+			picture = Hans_Gisevius
+			allowed = { tag = GER }
+			available = {
+				date > 1939.1.1
+				date < 1946.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Hans_Gisevius_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoI_Dismal_Enigma }
+		}
+	# Reinhard Gehlen
+		GER_HoI_Reinhard_Gehlen = {
+			picture = Reinhard_Gehlen
+			allowed = { tag = GER }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Reinhard_Gehlen_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoI_Dismal_Enigma }
+		}
+	# Ernst Wollweber
+		GER_HoI_Ernst_Wollweber = {
+			picture = Ernst_Wollweber
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Ernst_Wollweber_unavailable }
+			}
+			
+			
+			traits = { ideology_C HoI_Industrial_Specialist }
+		}
+	}
+#################################################
+### Chief of Staff
+#################################################
+	Chief_of_Staff = {
+	# Ernst Röhm
+		GER_CoStaff_Ernst_Rohm = {
+			picture = Ernst_Rohm
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1934.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Ernst_Rohm_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoStaff_School_Of_Mass_Combat }
+		}
+	# Alfred Jodl
+		GER_CoStaff_Alfred_Jodl = {
+			picture = Alfred_Jodl
+			allowed = { tag = GER }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Alfred_Jodl_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoStaff_School_Of_Psychology }
+		}
+	# Wilhelm Burgdorf
+		GER_CoStaff_Wilhelm_Burgdorf = {
+			picture = Wilhelm_Burgdorf
+			allowed = { tag = GER }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Wilhelm_Burgdorf_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoStaff_School_Of_Mass_Combat }
+		}
+	# Hans Krebs
+		GER_CoStaff_Hans_Krebs = {
+			picture = Hans_Krebs
+			allowed = { tag = GER }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Hans_Krebs_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoStaff_School_Of_Defence }
+		}
+	# Ernst Busch
+		GER_CoStaff_Ernst_Busch = {
+			picture = Ernst_Busch
+			allowed = { tag = GER }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Ernst_Busch_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoStaff_School_Of_Fire_Support }
+		}
+	# Franz Halder
+		GER_CoStaff_Franz_Halder = {
+			picture = Franz_Halder
+			allowed = { tag = GER }
+			available = {
+				date > 1938.1.1
+				date < 1943.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Franz_Halder_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoStaff_School_Of_Fire_Support }
+		}
+	# Gerd Von Rundstedt
+		GER_CoStaff_Gerd_Von_Rundstedt = {
+			picture = Gerd_von_Rundstedt
+			allowed = { tag = GER }
+			available = {
+				date > 1938.1.1
+				date < 1953.2.24
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Gerd_Von_Rundstedt_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoStaff_School_Of_Manoeuvre }
+		}
+	# Kurt Zeitzler
+		GER_CoStaff_Kurt_Zeitzler = {
+			picture = Kurt_Zeitzler
+			allowed = { tag = GER }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Kurt_Zeitzler_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoStaff_School_Of_Defence }
+		}
+	# Walter Warlimont
+		GER_CoStaff_Walter_Warlimont = {
+			picture = Walter_Warlimont
+			allowed = { tag = GER }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Walter_Warlimont_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoStaff_School_Of_Fire_Support }
+		}
+	# Otto Riehs
+		GER_CoStaff_Otto_Riehs = {
+			picture = Otto_Riehs
+			allowed = { tag = GER }
+			available = {
+				date > 1975.1.1
+				date < 2008.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Otto_Riehs_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoStaff_School_Of_Psychology }
+		}
+	# Wilhelm Groener
+		GER_CoStaff_Wilhelm_Groener = {
+			picture = Wilhelm_Groener
+			allowed = { tag = GER }
+			available = {
+				date > 1914.1.1
+				date < 1939.5.3
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Wilhelm_Groener_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Defence }
+		}
+	# Wilhelm Heye
+		GER_CoStaff_Wilhelm_Heye = {
+			picture = Wilhelm_Heye
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1947.3.11
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Wilhelm_Heye_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Psychology }
+		}
+	# Ludwig Beck
+		GER_CoStaff_Ludwig_Beck = {
+			picture = Ludwig_Beck
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1945.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ludwig_Beck_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Manoeuvre }
+		}
+	# Erwin von Witzleben
+		GER_CoStaff_Erwin_von_Witzleben = {
+			picture = Erwin_von_Witzleben
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1945.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Erwin_von_Witzleben_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Fire_Support }
+		}
+	# Adolf Heusinger
+		GER_CoStaff_Adolf_Heusinger = {
+			picture = Adolf_Heusinger
+			allowed = { tag = GER }
+			available = {
+				date > 1942.1.1
+				date < 1982.11.30
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Adolf_Heusinger_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Mass_Combat }
+		}
+	# Erich von Manstein
+		GER_CoStaff_Erich_von_Manstein = {
+			picture = Erich_von_Manstein
+			allowed = { tag = GER }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Erich_von_Manstein_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Manoeuvre }
+		}
+	# Walther Buhle
+		GER_CoStaff_Walther_Buhle = {
+			picture = Walther_Buhle
+			allowed = { tag = GER }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Walther_Buhle_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Fire_Support }
+		}
+	# Erwin Rommel
+		GER_CoStaff_Erwin_Rommel = {
+			picture = Erwin_Rommel
+			allowed = { tag = GER }
+			available = {
+				date > 1943.1.1
+				date < 1945.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Erwin_Rommel_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Manoeuvre }
+		}
+	# Heinz Guderian
+		GER_CoStaff_Heinz_Guderian = {
+			picture = Heinz_Guderian
+			allowed = { tag = GER }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Heinz_Guderian_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Mass_Combat }
+		}
+	# Hans Speidel
+		GER_CoStaff_Hans_Speidel = {
+			picture = Hans_Speidel
+			allowed = { tag = GER }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Hans_Speidel_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoStaff_School_Of_Mass_Combat }
+		}
+	}
+#################################################
+### Chief of Army
+#################################################
+	Chief_of_Army = {
+	# Werner von Blomberg
+		GER_CoArmy_Werner_von_Blomberg = {
+			picture = Werner_von_Blomberg
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Werner_von_Blomberg_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoArmy_Guns_And_Butter_Doctrine }
+		}
+	# Wilhelm Keitel
+		GER_CoArmy_Wilhelm_Keitel = {
+			picture = Wilhelm_Keitel
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Wilhelm_Keitel_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoArmy_Armoured_Spearhead_Doctrine }
+		}
+	# Adolf Hitler
+		GER_CoArmy_Adolf_Hitler = {
+			picture = Adolf_Hitler
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Adolf_Hitler_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoArmy_Decisive_Battle_Doctrine }
+		}
+	# Paul Hausser
+		GER_CoArmy_Paul_Hausser = {
+			picture = Paul_Hausser
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Hausser_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoArmy_Armoured_Spearhead_Doctrine }
+		}
+	# Ferdinand Schörner
+		GER_CoArmy_Ferdinand_Schorner = {
+			picture = Ferdinand_Schorner
+			allowed = { tag = GER }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Ferdinand_Schorner_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoArmy_Elastic_Defence_Doctrine }
+		}
+	# Wilhelm Burgdorf
+		GER_CoArmy_Wilhelm_Burgdorf = {
+			picture = Wilhelm_Burgdorf
+			allowed = { tag = GER }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Wilhelm_Burgdorf_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoArmy_Decisive_Battle_Doctrine }
+		}
+	# Walther von Brauchitsch
+		GER_CoArmy_Walther_von_Brauchitsch = {
+			picture = Walther_von_Brauchitsch
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Walther_von_Brauchitsch_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoArmy_Armoured_Spearhead_Doctrine }
+		}
+	# Fedor von Bock
+		GER_CoArmy_Fedor_von_Bock = {
+			picture = Fedor_von_Bock
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Fedor_von_Bock_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoArmy_Decisive_Battle_Doctrine }
+		}
+	# Maximilian von Weichs
+		GER_CoArmy_Maximilian_von_Weichs = {
+			picture = Maximilian_von_Weichs
+			allowed = { tag = GER }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Maximilian_von_Weichs_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoArmy_Decisive_Battle_Doctrine }
+		}
+	# Walter Warlimont
+		GER_CoArmy_Walter_Warlimont = {
+			picture = Walter_Warlimont
+			allowed = { tag = GER }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Walter_Warlimont_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoArmy_Elastic_Defence_Doctrine }
+		}
+	# Kurt von Schleicher
+		GER_CoArmy_Kurt_von_Schleicher = {
+			picture = Kurt_von_Schleicher
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				A_Minister_Allowed = yes
+				date < 1934.1.1
+				NOT = { has_country_flag = Kurt_von_Schleicher_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Decisive_Battle_Doctrine }
+		}
+	# Kurt von Hammerstein Equord
+		GER_CoArmy_Kurt_von_Hammerstein_Equord = {
+			picture = Kurt_von_Hammerstein_Equord
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1943.4.24
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Kurt_von_Hammerstein_Equord_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Decisive_Battle_Doctrine }
+		}
+	# Werner von Fritsch
+		GER_CoArmy_Werner_von_Fritsch = {
+			picture = Werner_von_Fritsch
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1940.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Werner_von_Fritsch_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Armoured_Spearhead_Doctrine }
+		}
+	# Erich Ludendorff
+		GER_CoArmy_Erich_Ludendorff = {
+			picture = Erich_Ludendorff
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1937.12.20
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Erich_Ludendorff_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Elastic_Defence_Doctrine }
+		}
+	# Walter von Lüttwitz
+		GER_CoArmy_Walter_von_Luttwitz = {
+			picture = Walter_von_Luttwitz
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1942.9.20
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Walter_von_Luttwitz_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Decisive_Battle_Doctrine }
+		}
+	# Julius Ringel
+		GER_CoArmy_Julius_Ringel = {
+			picture = Julius_Ringel
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1967.2.11
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Julius_Ringel_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Guns_And_Butter_Doctrine }
+		}
+	# Günther von Kluge
+		GER_CoArmy_Gunther_von_Kluge = {
+			picture = Gunther_von_Kluge
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1959.8.19
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Gunther_von_Kluge_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Decisive_Battle_Doctrine }
+		}
+	# Erwin von Witzleben
+		GER_CoArmy_Erwin_von_Witzleben = {
+			picture = Erwin_von_Witzleben
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1945.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Erwin_von_Witzleben_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Static_Defence_Doctrine }
+		}
+	# Erwin Rommel
+		GER_CoArmy_Erwin_Rommel = {
+			picture = Erwin_Rommel
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1945.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Erwin_Rommel_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Doctrine_Of_Autonomy }
+		}
+	# Günther Blumentritt
+		GER_CoArmy_Gunther_Blumentritt = {
+			picture = Gunther_Blumentritt
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Gunther_Blumentritt_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Elastic_Defence_Doctrine }
+		}
+	# Walther Buhle
+		GER_CoArmy_Walther_Buhle = {
+			picture = Walther_Buhle
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Walther_Buhle_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Elastic_Defence_Doctrine }
+		}
+	# Reinhard Günzel
+		GER_CoArmy_Reinhard_Gunzel = {
+			picture = Reinhard_Gunzel
+			allowed = { tag = GER }
+			available = {
+				date > 1980.1.1
+				date < 2030.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Reinhard_Gunzel_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Commando_Doctrine_Army }
+		}
+	# Hans von Seeckt
+		GER_CoArmy_Hans_von_Seeckt = {
+			picture = Hans_von_Seeckt
+			allowed = { tag = GER }
+			available = {
+				date > 1914.1.1
+				date < 1936.12.27
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Hans_von_Seeckt_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoArmy_Decisive_Battle_Doctrine }
+		}
+	# Hans Speidel
+		GER_CoArmy_Hans_Speidel = {
+			picture = Hans_Speidel
+			allowed = { tag = GER }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Hans_Speidel_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoArmy_Decisive_Battle_Doctrine }
+		}
+	# Hans Kahle
+		GER_CoArmy_Hans_Kahle = {
+			picture = Hans_Kahle
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Hans_Kahle_unavailable }
+			}
+			
+			
+			traits = { ideology_C CoArmy_Decisive_Battle_Doctrine }
+		}
+}
+#################################################
+### Chief of Navy
+#################################################
+	Chief_of_Navy = {
+	# Erich Raeder
+		GER_CoNavy_Erich_Raeder = {
+			picture = Erich_Raeder
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1960.11.6
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Erich_Raeder_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoNavy_Decisive_Naval_Battle_Doctrine }
+		}
+	# Karl Dönitz
+		GER_CoNavy_Karl_Donitz = {
+			picture = Karl_Donitz
+			allowed = { tag = GER }
+			available = {
+				OR = {
+					date > 1939.1.1
+					has_completed_focus = GER_Donitz_UBoot_Fleet
+				}
+				date < 1980.11.24
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Karl_Donitz_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoNavy_Indirect_Approach_Doctrine }
+		}
+	# Wilhelm Marschall
+		GER_CoNavy_Wilhelm_Marschall = {
+			picture = Wilhelm_Marschall
+			allowed = { tag = GER }
+			available = {
+				date > 1941.1.1
+				date < 1976.3.20
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Wilhelm_Marschall_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoNavy_Open_Seas_Doctrine }
+		}
+	# Hans-Georg von Friedeburg
+		GER_CoNavy_HansGeorg_von_Friedeburg = {
+			picture = HansGeorg_von_Friedeburg
+			allowed = { tag = GER }
+			available = {
+				date > 1944.1.1
+				date < 1967.5.3
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = HansGeorg_von_Friedeburg_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoNavy_Open_Seas_Doctrine }
+		}
+	# Kurt Freiwald
+		GER_CoNavy_Kurt_Freiwald = {
+			picture = Kurt_Freiwald
+			allowed = { tag = GER }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Kurt_Freiwald_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoNavy_Base_Control_Doctrine }
+		}
+	# Alfred Saalwächter
+		GER_CoNavy_Alfred_Saalwachter = {
+			picture = Alfred_Saalwachter
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1958.12.6
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Alfred_Saalwachter_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoNavy_Open_Seas_Doctrine }
+		}
+	# Reinhard Scheer
+		GER_CoNavy_Reinhard_Scheer = {
+			picture = Reinhard_Scheer
+			allowed = { tag = GER }
+			available = {
+				date > 1914.1.1
+				date < 1930.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Reinhard_Scheer_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoNavy_Decisive_Naval_Battle_Doctrine }
+		}
+	# Conrad Albrecht
+		GER_CoNavy_Conrad_Albrecht = {
+			picture = Conrad_Albrecht
+			allowed = { tag = GER }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Conrad_Albrecht_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoNavy_Open_Seas_Doctrine }
+		}
+	# Walter Warzecha
+		GER_CoNavy_Walter_Warzecha = {
+			picture = Walter_Warzecha
+			allowed = { tag = GER }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Walter_Warzecha_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoNavy_Indirect_Approach_Doctrine }
+		}
+	# Erich Topp
+		GER_CoNavy_Erich_Topp = {
+			picture = Erich_Topp
+			allowed = { tag = GER }
+			available = {
+				date > 1947.1.1
+				date < 2005.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Erich_Topp_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoNavy_Indirect_Approach_Doctrine }
+		}
+	# Dieter Wellershoff
+		GER_CoNavy_Dieter_Wellershoff = {
+			picture = Dieter_Wellershoff
+			allowed = { tag = GER }
+			available = {
+				date > 1980.1.1
+				date < 2012.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Dieter_Wellershoff_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoNavy_Indirect_Approach_Doctrine }
+		}
+	# Fritz Scheelen
+		GER_CoNavy_Fritz_Scheelen = {
+			picture = Fritz_Scheelen
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Fritz_Scheelen_unavailable }
+			}
+			
+			
+			traits = { ideology_C CoNavy_Base_Control_Doctrine }
+		}
+}
+#################################################
+### Chief of Airforce
+#################################################
+	Chief_of_Airforce = {
+	# Hermann Göring
+		GER_CoAir_Hermann_Goring = {
+			picture = Hermann_Goring
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Hermann_Goring_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoAir_The_Iron_Knight }
+		}
+	# Hugo Sperrle
+		GER_CoAir_Hugo_Sperrle = {
+			picture = Hugo_Sperrle
+			allowed = { tag = GER }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Hugo_Sperrle_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoAir_Carpet_Bombing_Doctrine }
+		}
+	# Otto Dessloch
+		GER_CoAir_Otto_Dessloch = {
+			picture = Otto_Dessloch
+			allowed = { tag = GER }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Otto_Dessloch_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoAir_Army_Aviation_Doctrine }
+		}
+	# Robert Ritter von Greim
+		GER_CoAir_Robert_Ritter_von_Greim = {
+			picture = Robert_Ritter_von_Greim
+			allowed = { tag = GER }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Robert_Ritter_von_Greim_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoAir_Air_Superiority_Doctrine }
+		}
+	# Hans-Jürgen Stumpff
+		GER_CoAir_HansJurgen_Stumpff = {
+			picture = Hans_Jurgen_Stumpff
+			allowed = { tag = GER }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = HansJurgen_Stumpff_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoAir_Army_Aviation_Doctrine }
+		}
+	# Karl Koller
+		GER_CoAir_Karl_Koller = {
+			picture = Karl_Koller
+			allowed = { tag = GER }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Karl_Koller_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoAir_Army_Aviation_Doctrine }
+		}
+	# Erhard Milch
+		GER_CoAir_Eberhard_Milch = {
+			picture = Erhard_Milch
+			allowed = { tag = GER }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Erhard_Milch_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoAir_Air_Superiority_Doctrine }
+		}
+	# Albert Kesselring
+		GER_CoAir_Albert_Kesselring = {
+			picture = Albert_Kesselring
+			allowed = { tag = GER }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Albert_Kesselring_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoAir_Vertical_Envelopment_Doctrine }
+		}
+	# Hans Ulrich Rudel
+		GER_CoAir_Hans_Ulrich_Rudel = {
+			picture = Hans_Ulrich_Rudel
+			allowed = { tag = GER }
+			available = {
+				date > 1949.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = { has_country_flag = Hans_Ulrich_Rudel_unavailable }
+			}
+			
+			
+			traits = { ideology_F CoAir_Air_Superiority_Doctrine }
+		}
+	# Ernst von Hoeppner
+		GER_CoAir_Ernst_von_Hoeppner = {
+			picture = Ernst_von_Hoeppner
+			allowed = { tag = GER }
+			available = {
+				date > 1914.1.1
+				date < 1930.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ernst_von_Hoeppner_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoAir_Air_Superiority_Doctrine }
+		}
+	# Adolf Galland
+		GER_CoAir_Adolf_Galland = {
+			picture = Adolf_Galland
+			allowed = { tag = GER }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Adolf_Galland_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoAir_Air_Superiority_Doctrine }
+		}
+	}
+#################################################
+### High Command
+#################################################
+	high_command = {
+	# Ferdinand Schorner
+		GER_HC_Ferdinand_Schorner = {
+			picture = Ferdinand_Schorner
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ferdinand_Schorner_unavailable }
+			}
+			traits = { ideology_A army_infantry_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	# Erwin Rommel
+		GER_HC_Erwin_Rommel = {
+			picture = Erwin_Rommel
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Erwin_Rommel_unavailable }
+			}
+			traits = { ideology_A army_armored_3 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	# Gerd Von Rundsted
+		GER_HC_Gerd_Von_Rundstedt = {
+			picture = Gerd_von_Rundstedt
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Gerd_Von_Rundstedt_unavailable }
+			}
+			traits = { ideology_A army_regrouping_2 }
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+	# Werner Von Fritsch
+		GER_HC_Werner_Von_Fritsch = {
+			picture = Werner_von_Fritsch
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Werner_Von_Fritsch_unavailable }
+			}
+			traits = { ideology_A army_logistics_2 }
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+	# Hugo Sperrle
+		GER_HC_Hugo_Sperrle = {
+			picture = Hugo_Sperrle
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Hugo_Sperrle_unavailable }
+			}
+			traits = { ideology_A air_close_air_support_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	# Erhard Milch
+		GER_HC_Erhard_Milch = {
+			picture = Erhard_Milch
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Erhard_Milch_unavailable }
+			}
+			traits = { ideology_A air_bomber_interception_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	# Kurt Student
+		GER_HC_Kurt_Student = {
+			picture = Kurt_Student
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Kurt_Student_unavailable }
+			}
+			traits = { ideology_A air_airborne_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	# Erich Bey
+		GER_HC_Erich_Bay = {
+			picture = Erich_Bay
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Erich_Bey_unavailable }
+			}
+			traits = { ideology_A navy_naval_air_defense_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	# Gunther Lutjens
+		GER_HC_Gunther_Lutjens = {
+			picture = Gunther_Lutjens
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Gunther_Lutjens_unavailable }
+			}
+			traits = { ideology_A navy_fleet_logistics_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	# Viktor Schutze
+		GER_HC_Viktor_Schutze = {
+			picture = Viktor_Schutze
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Viktor_Schutze_unavailable }
+			}
+			traits = { ideology_A navy_anti_submarine_1 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+}

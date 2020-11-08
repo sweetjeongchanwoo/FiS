@@ -1,0 +1,25 @@
+state={
+	id=1372
+	name="STATE_1372"
+
+	history={
+		owner = RAJ
+		victory_points = {
+			14415 2
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RAJ
+		add_core_of = MNP
+
+	}
+
+	provinces={
+		1581 14415 
+	}
+	manpower=2855794
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

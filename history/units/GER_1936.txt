@@ -1,0 +1,810 @@
+﻿##############################################
+## German Templates
+##############################################
+division_template = {
+	name = "Infanterie-Division" 
+	division_names_group = GER_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_battalion = { x = 3 y = 0 }
+		artillery_battalion = { x = 3 y = 1 }
+		artillery_battalion = { x = 3 y = 2 }
+		artillery_battalion = { x = 3 y = 3 }
+		anti_tank_brigade = { x = 3 y = 4 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		military_police = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Kavallerie-Brigade"
+	division_names_group = GER_CAV_02
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		bicycle_battalion = { x = 2 y = 0 } # Motorcycle infantry battalion
+		motorized_artillery_battalion = { x = 3 y = 0 } # Horse artillery
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}	
+
+division_template = {
+	name = "Gebirgs-Brigade"
+	division_names_group = GER_MTN_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		artillery_battalion_light = { x = 2 y = 0 } # The artillery regiment was initially formed with only a single battalion
+		motorized_artillery_battalion = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}	
+
+division_template = {
+	name = "Panzer-Division"                            # Tank Division
+	division_names_group = GER_ARM_01
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized_artillery_battalion = { x = 3 y = 0 } # 2nd battalion of artillery not added until later in 1936
+		motorized_anti_tank_brigade = { x = 3 y = 1 }
+		bicycle_battalion = { x = 4 y = 0 } # Motorcycle infantry battalion
+	}
+	support = {
+		armored_car_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 } # Most other support units were not active until 1939
+	}
+}
+
+division_template = {
+	name = "SS-Verfügungstruppe" # The SS-VT was not motorized until late 1938
+	division_names_group = GER_SS_02
+	regiments = {
+		SS_infantry = { x = 0 y = 0 } # 'Deutschland' Regiment
+		SS_infantry = { x = 0 y = 1 }
+		SS_infantry = { x = 0 y = 2 }
+		SS_infantry = { x = 1 y = 0 } # 'Germania' Regiment
+		SS_infantry = { x = 1 y = 1 }
+		SS_infantry = { x = 1 y = 2 }
+		#SS_motorized = { x = 2 y = 0 } # 'Der Fuhrer' Regiment added in 1938
+		#SS_motorized = { x = 2 y = 1 }
+		#SS_motorized = { x = 2 y = 2 }
+		#bicycle_battalion = { x = 2 y = 3 } # Represents Motorcycle Battalion
+		#motorized_artillery_battalion = { x = 3 y = 0 }
+		#motorized_artillery_battalion = { x = 3 y = 1 }
+		#motorized_artillery_battalion = { x = 3 y = 2 }
+		#motorized_anti_tank_brigade = { x = 3 y = 3 } # SS-VT formed the artillery regiment, Pioneer battalion, recon battalion, anti-air battalion, anti-tank battalion in May 1939 when they were authorized to form a division.
+		#motorized_anti_air_brigade = { x = 3 y = 4 } # SS-VT formed the artillery regiment, Pioneer battalion, recon battalion, anti-air battalion, anti-tank battalion in May 1939 when they were authorized to form a division.
+	}
+	support = {
+		signal_company = { x = 0 y = 0 } # Signals units were raised at the formation of the SS-VT in 1934.
+		#armored_car_recon = { x = 0 y = 1 }
+		#engineer = { x = 0 y = 2 }
+	}
+	is_locked = yes
+	priority = 0
+}
+
+division_template = {
+	name = "SS-Standarte" # Represents LSSAH
+	division_names_group = GER_SS_02
+	regiments = {
+		SS_motorized = { x = 0 y = 0 }
+		SS_motorized = { x = 0 y = 1 }
+		SS_motorized = { x = 0 y = 2 }
+	}
+	support = {
+		armored_car_recon = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+	is_locked = yes
+	priority = 0
+}
+
+##############################################
+## German Land Units
+##############################################
+units = {
+
+### Infantry Divisions
+	division = { # 1. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 266 # Insterburg
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+	
+	division = { # 2. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6282 # Stettin
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 3. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9496 # Frankfurt (Oder)
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 4. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 514 # Dresden
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 5. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 11499 # Ulm
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}		
+
+	division = { # 6. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 9509 # Bielefeld
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 7. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 692 # Munich
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.90
+	}
+
+	division = { # 8. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 6512 # Opole
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 9. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 3397 # Gießen
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 10. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 9515 # Regensburg 
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 11. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 6375 # Allenstein
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 12. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 11276 # Schwerin
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 13. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 3522 # Magdeburg
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 14. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 3535 # Leipzig
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 15. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 9557 # Würzburg
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 16. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 6535 # Münster
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 17. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 11544 # Nürnberg
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 18. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 552 # Liegnitz
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 19. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 6377 # Hannover
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 20. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 9347 # Hamburg
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.8
+		}
+
+	division = { # 21. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 3380 # Elbing
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.90
+		}
+
+	division = { # 22. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 3326 # Bremen
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+
+	division = { # 23. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 3499 # Potsdam
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+		}
+
+	division = { # 24. Infanterie-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 9471 # Chemnitz
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+
+### Panzer Divisions
+	division = { # 1. Panzer-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6524 # Weimar
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+		force_equipment_variants = { Light_Tank_equipment_1934 = { owner = "GER" } }
+	}
+
+	division = { # 2. Panzer-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9557 # Würzburg
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+		force_equipment_variants = { Light_Tank_equipment_1934 = { owner = "GER" } }
+	}
+
+	division = { # 3. Panzer-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9428 # Wünsdorf
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+		force_equipment_variants = { Light_Tank_equipment_1934 = { owner = "GER" } }
+	}
+
+### SS-VT
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 692 # Munich
+		division_template = "SS-Verfügungstruppe"
+		start_experience_factor = 0.14
+	}
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6521 # Berlin
+		division_template = "SS-Standarte"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.84 # 2531 men when formed in 1934
+	}
+
+### Cavalry
+	division = {
+		name = "Kavallerie-Kommando Insterburg"
+		location = 266 # Insterburg
+		division_template = "Kavallerie-Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 1.0
+	}
+
+### Mountaineers
+	division = {
+		name = "Gebirgs-Brigade" # Yup this is what it was called.  Later it was Mountain Division.  Eventually it became 1st Mountain Division
+		location = 11620 # Mittenwald
+		division_template = "Gebirgs-Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 1.0
+	}
+
+
+
+##############################################
+## German Naval Units
+##############################################
+
+	fleet = {
+		name = "Kriegsmarine"
+		naval_base = 241 # Wilhemshaven
+		task_force = {
+			name = "Kriegsmarine"
+			location = 241 # Wilhemshaven
+			ship = { name = "Deutschland" definition = heavy_cruiser  equipment = { CA_equipment_1936 = { amount = 1 owner = GER } } }
+			ship = { name = "Admiral Scheer" definition = heavy_cruiser equipment = { CA_equipment_1936 = { amount = 1 owner = GER } } }
+			
+			ship = { name = "Nürnberg" definition = light_cruiser equipment = { CL_equipment_1936 = { amount = 1 owner = GER } } }
+			ship = { name = "Leipzig" definition = light_cruiser equipment = { CL_equipment_1933 = { amount = 1 owner = GER } } }
+			ship = { name = "Königsberg" definition = light_cruiser equipment = { CL_equipment_1933 = { amount = 1 owner = GER } } }
+			ship = { name = "Karlsruhe" definition = light_cruiser equipment = { CL_equipment_1933 = { amount = 1 owner = GER } } }
+			ship = { name = "Köln" definition = light_cruiser equipment = { CL_equipment_1933 = { amount = 1 owner = GER } } }
+			ship = { name = "Emden" definition = light_cruiser equipment = { CL_equipment_1933 = { amount = 1 owner = GER } } }
+			
+			ship = { name = "3. Zerstörergeschwader" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = GER } } }
+			ship = { name = "4. Zerstörergeschwader" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = GER } } }
+		}
+	}
+
+	fleet = {
+		name = "Baltische Flotte"
+		naval_base = 6332   # Konigsberg
+		task_force = {
+			name = "Baltische Flotte"
+			location = 6332   # Konigsberg
+			ship = { name = "Schleswig-Holstein" definition = battleship equipment = { BB_equipment_1895 = { amount = 1 owner = GER } } }
+			ship = { name = "Schlesien" definition = battleship equipment = { BB_equipment_1895 = { amount = 1 owner = GER } } }
+			ship = { name = "Hannover" definition = battleship equipment = { BB_equipment_1895 = { amount = 1 owner = GER } } }
+			
+			ship = { name = "1. Zerstörergeschwader" definition = destroyer equipment = { DD_equipment_1900 = { amount = 1 owner = GER } } }
+			ship = { name = "2. Zerstörergeschwader" definition = destroyer equipment = { DD_equipment_1900 = { amount = 1 owner = GER } } }
+			ship = { name = "5. Zerstörergeschwader" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = GER } } }
+			ship = { name = "6. Zerstörergeschwader" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = GER } } }
+		}
+	}
+
+	fleet = {
+		name = "I. Unterseebootsflotte"
+		naval_base = 241 # Wilhemshaven
+		task_force = {
+			name = "I. Unterseebootsflotte"
+			location = 241 # Wilhemshaven
+			ship = { name = "1. Unterseebootsflottille" definition = submarine equipment = { SS_equipment_1933 = { amount = 1 owner = GER } } }
+			ship = { name = "4. Unterseebootsflottille" definition = submarine equipment = { SS_equipment_1933 = { amount = 1 owner = GER } } }
+		}
+	}
+
+	fleet = {
+		name = "II. Unterseebootsflotte"
+		naval_base = 6389 # Kiel
+		task_force = {
+			name = "I. Unterseebootsflotte"
+			location = 6389 # Kiel
+			ship = { name = "2. Unterseebootsflottille" definition = submarine equipment = { SS_equipment_1933 = { amount = 1 owner = GER } } }
+			ship = { name = "3. Unterseebootsflottille" definition = submarine equipment = { SS_equipment_1933 = { amount = 1 owner = GER } } }
+		}
+	}
+}
+
+##############################################
+## German Air Units
+##############################################
+air_wings = {
+	### Luftflotte II - Berlin
+	64 = { 
+		# KG 2 'Holzhammer' (Do 11)
+		Tactical_Bomber_equipment_1933 = {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "KG 2 'Holzhammer'"
+
+		# KG 3 'Blitz' (Do 11)
+		Tactical_Bomber_equipment_1933 = {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "KG 3 'Blitz'"
+
+		# StG 51 (Hs 123)
+		CAS_equipment_0 = {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "StG 51"
+
+		# JG 2 'Richthofen' (He 51)	
+		Fighter_Bomber_equipment_1933 =  {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "JG 2 'Richthofen'"
+		ace={ 
+			modifier="fighter_genius"
+			name="Erich"
+			surname="Hartmann"
+			callsign="Bubi"
+			portrait=1 
+		}
+
+		# JG 26 'Schlageter' (He 51)	
+		Fighter_Bomber_equipment_1933 =  {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "JG 26 'Schlageter'"
+
+		# KG z.b.V. 172 'Hindenburg' (Ju 52/3m)
+		transport_plane_equipment_1 = {
+			owner = "GER" 
+			amount = 4
+		}
+		name = "KG z.b.V. 172 'Hindenburg'"
+	}
+
+	### Luftflotte III - Breslau
+	66 = { 
+		# KG 53 'Legion Condor' (Do 11)
+		Tactical_Bomber_equipment_1933 = {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "KG 53 'Legion Condor'"
+
+		# KG 25 (Do 11)
+		Tactical_Bomber_equipment_1933 = {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "KG 25"
+
+		# KG 30 'Adler' (Do 11)
+		Tactical_Bomber_equipment_1933 = {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "KG 30 'Adler'"	
+	}
+
+	### Luftflotte IV - Kassel
+	57 = { 
+		# KG 1 'Hindenburg' (Do 11)
+		Tactical_Bomber_equipment_1933 = {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "KG 1 'Hindenburg'"
+
+		# JG 3 'Udet' (He 51)	
+		Fighter_Bomber_equipment_1933 =  {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "JG 3 'Udet'"		
+	}
+
+	### Luftflotte V - Munich
+	52 = { 
+		# KG 4 'General Wever' (Do 11)
+		Tactical_Bomber_equipment_1933 = {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "KG 4 'General Wever'"
+	}
+}
+
+##############################################
+## German Production
+##############################################
+instant_effect = {
+# Kar 98k
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1935
+			creator = "GER"
+		}
+		requested_factories = 10
+		progress = 0.1
+		efficiency = 50
+	}
+# Support Equipment
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+# leFH18
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+# Pz IIs
+	add_equipment_production = {
+		equipment = {
+			type = Light_Tank_equipment_1936
+			creator = "GER"
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+# Opel Blitz
+	add_equipment_production = {
+		equipment = {
+			type = truck_equipment_1936
+			creator = "GER"
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+# Bf-109s
+	add_equipment_production = {
+		equipment = {
+			type = Fighter_equipment_1936
+			creator = "GER"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+# Ju-87s
+	add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+# He-111s
+	add_equipment_production = {
+		equipment = {
+			type = Tactical_Bomber_equipment_1936
+			creator = "GER"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+
+	#########################################################################
+	#  Ships Under Contruction
+	#########################################################################	
+	## The Formula used is X=100-(100Y)/T ; X= Progress, Y= Time Left, T= Total Building time
+	# CA: "Admiral Graf Spee"
+
+	add_equipment_production = {
+		equipment = {
+			type = CA_equipment_1933
+			creator = "GER"
+		}
+		name = "Admiral Graf Spee"
+		requested_factories = 2
+		progress = 0.90
+		amount = 1
+	}
+	# CA: "Admiral Hipper"
+	add_equipment_production = {
+		equipment = {
+			type = CA_equipment_1936
+			creator = "GER"
+		}
+		name = "Admiral Hipper"
+		requested_factories = 2
+		progress = 0.20
+		amount = 1
+	}
+	# CA: "Blücher"
+	add_equipment_production = {
+		equipment = {
+			type = CA_equipment_1936
+			creator = "GER"
+		}
+		name = "Blücher"
+		requested_factories = 2
+		progress = 0.10
+		amount = 1
+	}
+	# BC : "Gneisenau"
+	add_equipment_production = {
+		equipment = {
+			type = BC_equipment_1933
+			creator = "GER"
+		}
+		name = "Gneisenau"
+		requested_factories = 3
+		progress = 0.30
+		amount = 1
+	}
+	# BC:  "Scharnhorst"
+	add_equipment_production = {
+		equipment = {
+			type = BC_equipment_1933
+			creator = "GER"
+		}
+		name = "Scharnhorst"
+		requested_factories = 3
+		progress = 0.20
+		amount = 1
+	}
+	# DD: Zerstörergeschwader 7,8 & 9
+	add_equipment_production = {
+		equipment = {
+			type = DD_equipment_1933
+			creator = "GER"
+		}
+		name = "Zerstörergeschwader 7"
+		requested_factories = 1
+		progress = 0.10
+		amount = 3
+	} 
+}

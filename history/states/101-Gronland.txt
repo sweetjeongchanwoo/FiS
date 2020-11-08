@@ -1,0 +1,42 @@
+
+state={
+	id=101
+	name="STATE_101"
+
+	history={
+		owner = DEN
+		victory_points = {
+			10245 1
+		}
+		buildings = {
+			infrastructure = 1
+			10245 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = DEN
+		add_core_of = GRL
+		1941.6.22 = {
+			owner = USA
+
+		}
+		1946.1.1 = {
+			owner = DEN
+
+		}
+		1980.1.1 = {
+			set_province_name = { id = 10245 name = "Nuuk" }
+			
+		}
+
+	}
+
+	provinces={
+		7041 10245 10636 12022 12512 13066 13355 13356 
+	}
+	manpower=18000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

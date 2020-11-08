@@ -1,0 +1,130 @@
+﻿#########################################################################
+# Cuba - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 315
+	set_convoys = 20
+	oob = "CUB_1933"
+	#######################
+	# Research
+	#######################	
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+		Fighter_1933 = 1
+	}
+	#######################
+	# Politics
+	#######################	
+	set_country_flag = monroe_doctrine
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1936.1.10"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 10
+		democratic = 58
+		socialist = 30
+		communist = 2
+	}
+	#######################
+	# Leaders
+	#######################	
+	# Democracy
+	create_country_leader = {
+		name = "Gerardo Machado"
+		desc = ""
+		picture = "P_A_Gerardo_Machado.tga"
+		expire = "1965.1.1"
+		ideology = market_liberalism
+		traits = { 
+			POSITION_President 
+			SUBIDEOLOGY_Market_Liberalism 
+			HoS_Die_Hard_Reformer
+		}
+	}
+	# Communist
+	create_country_leader = {
+		name = "Fidél Castro"
+		desc = ""
+		picture = "P_C_Fidel_Castro.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = { 
+			POSITION_Prime_Minister 
+			SUBIDEOLOGY_Marxism_Leninism 
+			HoG_Flamboyant_Tough_Guy 
+		}
+	}	
+}
+
+#########################################################################
+# Cuba - 1936
+#########################################################################
+1936.1.1 = {
+	oob = "CUB_1936"
+	#######################
+	# Leaders
+	#######################	
+	# Democracy
+	create_country_leader = {
+		name = "José Agripino Barnet"
+		desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
+		picture = "P_D_Jose_Barnet.tga"
+		expire = "1965.1.1"
+		ideology = market_liberalism
+		traits = { 
+			POSITION_President 
+			SUBIDEOLOGY_Market_Liberalism 
+			HoS_Insignificant_Layman 
+		}
+	}	
+}
+#########################################################################
+# Cuba - 1939
+#########################################################################
+1939.9.1 = {
+	#######################
+	# Leaders
+	#######################	
+	# Democracy
+	create_country_leader = {
+		name = "Federico Laredo Brú"
+		desc = ""
+		picture = "P_D_Federico_Laredo_Bru.tga"
+		expire = "1965.1.1"
+		ideology = social_democracy
+		traits = { POSITION_President SUBIDEOLOGY_Social_Democracy HoS_Insignificant_Layman }
+	}
+
+}
+#########################################################################
+# Cuba - 1941
+#########################################################################
+1941.6.22 = {
+	#######################
+	# Leaders
+	#######################	
+	# Democracy
+	create_country_leader = {
+		name = "Fulgencio Batista"
+		desc = ""
+		picture = "P_D_Fulgencio_Batista.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism HoS_Resigned_Generalissimo }
+	}
+}

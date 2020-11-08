@@ -1,0 +1,214 @@
+﻿division_template = {
+	name = "Divisão de Infanteria"		# Infantry Division
+	division_names_group = BRA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Divisão de Infantaria com Artilharia"		# Infantry Division with Artillery
+	division_names_group = BRA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		artillery_battalion = { x = 1 y = 1 }
+		artillery_battalion = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Divisão de Cavalaria"  		# Cavalry Division
+	division_names_group = BRA_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Brigada de Milícia"		# Militia Brigade
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Brigada de milícia com antiaérea"		# Militia Brigade with Anti air
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		anti_air_brigade = { x = 2 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+	##### 1o Exército do Brasil #####
+	division = { # I Divisão de Infantaria
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10513 # Sao Paulo
+		division_template = "Divisão de Infantaria com Artilharia"
+		start_experience_factor = 0.2
+	}
+
+	division = { # II Divisão de Infantaria
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10513 # Sao Paulo
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "CCLXVIII Divisão do Guarda Civíl"
+		location = 10513 # Sao Paulo
+		division_template = "Brigada de milícia com antiaérea"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "CCLXIX Divisão do Guarda Civíl"
+		location = 10513 # Sao Paulo
+		division_template = "Brigada de Milícia"
+		start_experience_factor = 0.1
+	}
+	##### 2o Exército do Brasil #####
+	division = { # III Divisão de Infantaria
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10980 # Rio de Janeiro
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.2
+	}
+
+	division = { # XCII Divisão de Cavalaria
+		division_name = {
+			is_name_ordered = yes
+			name_order = 92
+		}
+		location = 10980 # Rio de Janeiro
+		division_template = "Divisão de Cavalaria"
+		start_experience_factor = 0.2
+	}
+
+	division = { # XCI Divisão de Cavalaria
+		division_name = {
+			is_name_ordered = yes
+			name_order = 91
+		}
+		location = 10980 # Rio de Janeiro
+		division_template = "Divisão de Cavalaria"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		division_name = { # IV Divisão de Infantaria
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 10980 # Rio de Janeiro
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.2
+	}
+
+	division = { # V Divisão de Infantaria
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.2
+	}
+
+	division = { # VI Divisão de Infantaria
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 10447 # Porto Alegre
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.2
+	}
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Marinha do Brasil"
+		naval_base = 10447 # Porto Alegre
+		task_force = {
+			name = "Marinha do Brasil"
+			location = 10447 # Porto Alegre
+			ship = { name = "NRB São Paulo" definition = battleship equipment = { BB_equipment_1900 = { amount = 1 owner = BRA } } }
+			ship = { name = "NRB Minas Gerais" definition = battleship equipment = { BB_equipment_1900 = { amount = 1 owner = BRA } } }
+			ship = { name = "NRB Bahia" definition = light_cruiser equipment = { CL_equipment_1900 = { amount = 1 owner = BRA } } }		
+			ship = { name = "NRB Rio Grande do Sul" definition = light_cruiser equipment = { CL_equipment_1900 = { amount = 1 owner = BRA } } }
+			ship = { name = "1. Flotilla de Contratorpedeiros" definition = destroyer equipment = { DD_equipment_1912 = { amount = 1 owner = BRA } } }
+			ship = { name = "2. Flotilla de Contratorpedeiros" definition = destroyer equipment = { DD_equipment_1912 = { amount = 1 owner = BRA } } }	
+		}
+	}
+}
+
+air_wings = {
+	### Aviação Militar -- Rio de Janiero
+	500 = {
+		# Fighter Air Group -- Boeing 256s
+		Fighter_equipment_1933 =  {
+			owner = "BRA" 
+			amount = 50
+		}
+	}
+}
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1900
+			creator = "BRA"
+		}
+		requested_factories = 1
+		progress = 0.59
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "BRA"
+		}
+		requested_factories = 1
+		progress = 0.22
+		efficiency = 100
+	}
+}

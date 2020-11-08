@@ -1,0 +1,221 @@
+# All equipment based on light tank chassis
+
+equipments = {
+	############################################################################################################
+	## Light Tanks
+	############################################################################################################
+	armored_car_equipment = {
+		year = 1917
+		
+		is_archetype = yes
+		is_buildable = no
+		is_convertable = yes
+		picture = archetype_armored_car_equipment	
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+		
+		maximum_speed = 10
+		reliability = 0.8
+		
+		defense = 4
+		breakthrough = 26
+		hardness = 0.8
+		armor_value = 10
+		
+		soft_attack = 10
+		hard_attack = 4
+		ap_attack = 10
+		air_attack = 0
+		
+		lend_lease_cost = 10
+		
+		build_cost_ic = 8
+		resources = {
+			#oil = 1
+			steel = 2
+		}
+		fuel_consumption = 2.4
+	}
+	################################
+	# 1911 Light Tank
+	################################
+	armored_car_equipment_1911 = {
+		year = 1911
+		
+		archetype = armored_car_equipment
+		priority = 60
+		visual_level = 1939
+		
+		# Technical Stats		
+		maximum_speed = 19
+		reliability = 0.8
+		build_cost_ic = 10
+		resources = { steel = 3 }
+		
+		# Combat Stats
+		soft_attack = 18
+		hard_attack = 9
+		air_attack = 0
+		defense = 6
+		breakthrough = 46
+		
+		# Armor Stats
+		armor_value = 20
+		ap_attack = 130
+		hardness = 0.8
+	}	
+	################################
+	# 1916 Light Tank
+	################################
+	armored_car_equipment_1916 = {
+		year = 1916
+		
+		archetype = armored_car_equipment
+		parent = armored_car_equipment_1911
+		priority = 60
+		visual_level = 1939
+		
+		# Technical Stats		
+		maximum_speed = 19
+		reliability = 0.8
+		build_cost_ic = 10
+		resources = { steel = 3 }
+		
+		# Combat Stats
+		soft_attack = 18
+		hard_attack = 9
+		air_attack = 0
+		defense = 6
+		breakthrough = 46
+		
+		# Armor Stats
+		armor_value = 20
+		ap_attack = 130
+		hardness = 0.8
+	}	
+	################################
+	# 1926 Light Tank
+	################################
+	armored_car_equipment_1926 = {
+		year = 1926
+		
+		archetype = armored_car_equipment
+		parent = armored_car_equipment_1916
+		priority = 60
+		visual_level = 1939
+		
+		# Technical Stats		
+		maximum_speed = 19
+		reliability = 0.8
+		build_cost_ic = 10
+		resources = { steel = 3 }
+		
+		# Combat Stats
+		soft_attack = 18
+		hard_attack = 9
+		air_attack = 0
+		defense = 6
+		breakthrough = 46
+		
+		# Armor Stats
+		armor_value = 20
+		ap_attack = 130
+		hardness = 0.8
+	}	
+	################################
+	# 1936 Light Tank
+	################################
+	armored_car_equipment_1936 = {
+		year = 1936
+		
+		archetype = armored_car_equipment
+		parent = armored_car_equipment_1926
+		priority = 60
+		visual_level = 1939
+		
+		# Technical Stats		
+		maximum_speed = 19
+		reliability = 0.8
+		build_cost_ic = 10
+		resources = { steel = 3 }
+		
+		# Combat Stats
+		soft_attack = 18
+		hard_attack = 9
+		air_attack = 0
+		defense = 6
+		breakthrough = 46
+		
+		# Armor Stats
+		armor_value = 20
+		ap_attack = 130
+		hardness = 0.8
+	}	
+	################################
+	# 1942 Light Tank
+	################################
+	armored_car_equipment_1942 = {
+		year = 1942
+		
+		archetype = armored_car_equipment
+		parent = armored_car_equipment_1936
+		priority = 60
+		visual_level = 1939
+		
+		# Technical Stats		
+		maximum_speed = 19
+		reliability = 0.8
+		build_cost_ic = 10
+		resources = { steel = 3 }
+		
+		# Combat Stats
+		soft_attack = 18
+		hard_attack = 9
+		air_attack = 0
+		defense = 6
+		breakthrough = 46
+		
+		# Armor Stats
+		armor_value = 20
+		ap_attack = 130
+		hardness = 0.8
+	}	
+	################################
+	# 1948 Light Tank
+	################################
+	armored_car_equipment_1945 = {
+		year = 1945
+		
+		archetype = armored_car_equipment
+		parent = armored_car_equipment_1942
+		priority = 60
+		visual_level = 1939
+		
+		# Technical Stats		
+		maximum_speed = 19
+		reliability = 0.8
+		build_cost_ic = 10
+		resources = { steel = 3 }
+		
+		# Combat Stats
+		soft_attack = 18
+		hard_attack = 9
+		air_attack = 0
+		defense = 6
+		breakthrough = 46
+		
+		# Armor Stats
+		armor_value = 20
+		ap_attack = 130
+		hardness = 0.8
+	}	
+}

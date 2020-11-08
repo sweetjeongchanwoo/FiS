@@ -1,0 +1,341 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+
+AZR_INF_01 = 
+{
+	name = "Infantry Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" "light_infantry" "shock_infantry" "bicycle_battalion" "garrison" "militia" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { AZR_MOT_01 AZR_MEC_01 AZR_MTN_01 }
+
+	fallback_name = "%dya Atıcı Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Atıcı Div." }
+		2 = { "%dya Atıcı Div." }
+		3 = { "%dya Atıcı Div." }
+		4 = { "%dya Atıcı Div." }
+		5 = { "%dya Atıcı Div." }
+		6 = { "%dya Atıcı Div." }
+		7 = { "%dya Atıcı Div." }
+		8 = { "%dya Atıcı Div." }
+		9 = { "%dya Atıcı Div." }
+		10 = { "%dya Atıcı Div." }
+		11 = { "%dya Atıcı Div." }
+		12 = { "%dya Atıcı Div." }
+		13 = { "%dya Atıcı Div." }
+		14 = { "%dya Atıcı Div." }
+		15 = { "%dya Atıcı Div." }
+		16 = { "%dya Atıcı Div." }
+		17 = { "%dya Atıcı Div." }
+		18 = { "%dya Atıcı Div." }
+		19 = { "%dya Atıcı Div." }
+		20 = { "%dya Atıcı Div." }
+		21 = { "%dya Atıcı Div." }
+		22 = { "%dya Atıcı Div." }
+		23 = { "%dya Atıcı Div." }
+		24 = { "%dya Atıcı Div." }
+		25 = { "%dya Atıcı Div." }
+
+	}
+}
+
+AZR_CAV_01 = 
+{
+	name = "Cavalry Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" "armored_car" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AZR_INF_01 }
+
+	fallback_name = "%dya Süvari Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Süvari Div." }
+		2 = { "%dya Süvari Div." }
+		3 = { "%dya Süvari Div." }
+		4 = { "%dya Süvari Div." }
+		5 = { "%dya Süvari Div." }
+		6 = { "%dya Süvari Div." }
+		7 = { "%dya Süvari Div." }
+		8 = { "%dya Süvari Div." }
+		9 = { "%dya Süvari Div." }
+		10 = { "%dya Süvari Div." }
+
+	}
+}
+
+AZR_MOT_01 = 
+{
+	name = "Motorised Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { AZR_INF_01 AZR_MEC_01 AZR_MTN_01 }
+
+	fallback_name = "%dya Motor Atıcı Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Motor Atıcı Div." }
+		2 = { "%dya Motor Atıcı Div." }
+		3 = { "%dya Motor Atıcı Div." }
+		4 = { "%dya Motor Atıcı Div." }
+		5 = { "%dya Motor Atıcı Div." }
+		6 = { "%dya Motor Atıcı Div." }
+		7 = { "%dya Motor Atıcı Div." }
+		8 = { "%dya Motor Atıcı Div." }
+		9 = { "%dya Motor Atıcı Div." }
+		10 = { "%dya Motor Atıcı Div." }
+		11 = { "%dya Motor Atıcı Div." }
+		12 = { "%dya Motor Atıcı Div." }
+		13 = { "%dya Motor Atıcı Div." }
+		14 = { "%dya Motor Atıcı Div." }
+		15 = { "%dya Motor Atıcı Div." }
+		16 = { "%dya Motor Atıcı Div." }
+		17 = { "%dya Motor Atıcı Div." }
+		18 = { "%dya Motor Atıcı Div." }
+		19 = { "%dya Motor Atıcı Div." }
+		20 = { "%dya Motor Atıcı Div." }
+		21 = { "%dya Motor Atıcı Div." }
+		22 = { "%dya Motor Atıcı Div." }
+		23 = { "%dya Motor Atıcı Div." }
+		24 = { "%dya Motor Atıcı Div." }
+		25 = { "%dya Motor Atıcı Div." }
+
+	}
+}
+
+AZR_ARM_01 = 
+{
+	name = "Armored Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AZR_INF_01 }
+
+	fallback_name = "%dya Panzer Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Panzer Div." }
+		2 = { "%dya Panzer Div." }
+		3 = { "%dya Panzer Div." }
+		4 = { "%dya Panzer Div." }
+		5 = { "%dya Panzer Div." }
+		6 = { "%dya Panzer Div." }
+		7 = { "%dya Panzer Div." }
+		8 = { "%dya Panzer Div." }
+		9 = { "%dya Panzer Div." }
+		10 = { "%dya Panzer Div." }
+
+	}
+}
+
+AZR_MEC_01 = 
+{
+	name = "Mechanized Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" "heavy_mechanized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { AZR_INF_01 AZR_MOT_01 AZR_MTN_01 }
+
+	fallback_name = "%dya Mexanikläşdirilmiş Piyada Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		2 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		3 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		4 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		5 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		6 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		7 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		8 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		9 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		10 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		11 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		12 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		13 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		14 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		15 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		16 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		17 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		18 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		19 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		20 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		21 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		22 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		23 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		24 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+		25 = { "%dya Mexanikläşdirilmiş Piyada Div." }
+
+	}
+}
+
+AZR_MAR_01 = 
+{
+	name = "Marine Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AZR_INF_01 }
+
+	fallback_name = "%dya Däniz Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Däniz Div." }
+		2 = { "%dya Däniz Div." }
+		3 = { "%dya Däniz Div." }
+		4 = { "%dya Däniz Div." }
+		5 = { "%dya Däniz Div." }
+		6 = { "%dya Däniz Div." }
+		7 = { "%dya Däniz Div." }
+		8 = { "%dya Däniz Div." }
+		9 = { "%dya Däniz Div." }
+		10 = { "%dya Däniz Div." }
+
+	}
+}
+
+AZR_MTN_01 = 
+{
+	name = "Mountain Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { AZR_INF_01 AZR_MOT_01 AZR_MEC_01 }
+
+	fallback_name = "%dya Dağ Silahlı Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Dağ Silahlı Div." }
+		2 = { "%dya Dağ Silahlı Div." }
+		3 = { "%dya Dağ Silahlı Div." }
+		4 = { "%dya Dağ Silahlı Div." }
+		5 = { "%dya Dağ Silahlı Div." }
+		6 = { "%dya Dağ Silahlı Div." }
+		7 = { "%dya Dağ Silahlı Div." }
+		8 = { "%dya Dağ Silahlı Div." }
+		9 = { "%dya Dağ Silahlı Div." }
+		10 = { "%dya Dağ Silahlı Div." }
+
+	}
+}
+
+AZR_PAR_01 = 
+{
+	name = "Paratrooper Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AZR_INF_01 }
+
+	fallback_name = "%dya Hava Hücumu Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Hava Hücumu Div." }
+		2 = { "%dya Hava Hücumu Div." }
+		3 = { "%dya Hava Hücumu Div." }
+		4 = { "%dya Hava Hücumu Div." }
+		5 = { "%dya Hava Hücumu Div." }
+		6 = { "%dya Hava Hücumu Div." }
+		7 = { "%dya Hava Hücumu Div." }
+		8 = { "%dya Hava Hücumu Div." }
+		9 = { "%dya Hava Hücumu Div." }
+		10 = { "%dya Hava Hücumu Div." }
+
+	}
+}

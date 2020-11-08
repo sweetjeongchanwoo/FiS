@@ -1,0 +1,1648 @@
+﻿division_template = {
+	name = "Strelkovaya Diviziya"			# Rifle Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 } 		# Recon bn had 16 L tanks, 10 ACs, 1x mot inf co #Eng and recon removed and they seem rather OP. Could revisit if balance changes
+		engineer = { x = 0 y = 1 } 	# (semi-mot) Engineer bn
+		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 1x 152mm bn + 2x 122mm bn
+	}
+}
+
+
+division_template = {
+	name = "Kavaleriyskaya Diviziya" 	# Cavalry Division
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+
+division_template = {
+	name = "Gornostrelkovaya Diviziya"		# Motor Rifle Division
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }	
+		mountaineers = { x = 2 y = 1 }	
+		mountaineers = { x = 2 y = 2 }	
+		mountaineers = { x = 3 y = 0 }	
+		mountaineers = { x = 3 y = 1 }	
+		mountaineers = { x = 3 y = 2 }	
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 		# Engineer bn
+		artillery = { x = 0 y = 1 } 	# Heavy Arty Regiment had 2x 122mm bn
+	}
+}
+
+
+
+division_template = {
+	name = "Tankovaya diviziya s motorizovannym"		# Tank Division with Motorised (Armoured Cars)
+											 
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Motostrelkovaya Diviziya"		# Motor Rifle Division
+											
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Gvardeyskaya diviziya NKVD"			# NKVD Guard Division - Garrison units (lower experience, older equipment)
+
+	regiments = {
+		garrison = { x = 0 y = 0 }	
+		garrison = { x = 0 y = 1 }
+		garrison = { x = 0 y = 2 }
+		garrison = { x = 1 y = 0 }
+		garrison = { x = 1 y = 1 }
+		garrison = { x = 1 y = 2 }
+	}
+	support = 	{
+		military_police = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+    ##### Voiska NKVD #####
+    division = {
+        name = "1-ya Konvoynaya Diviziya NKVD"
+        location = 6380 # Moscow
+        division_template = "Gvardeyskaya diviziya NKVD"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.7
+    }
+
+    division = {
+        name = "Diviziya o. n. Dzerzhinskogo"
+        location = 6380 # Moscow
+        division_template = "Motostrelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.75
+    }
+    ##### 1-i Strelkovyi Korpus #####
+    division = {
+        name = "16-ya Ulianovskaya Strelkovaya Diviziya"
+        location = 3151 # Leningrad
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+
+    division = {
+        name = "18-ya Yaroslavskaya Strelkovaya Diviziya"
+        location = 3151 # Leningrad
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "20-ya Strelkovaya Diviziya"
+        location = 3151 # Leningrad
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+    ##### 19-i Strelkovyi Korpus #####
+    division = {
+        name = "56-ya Moskovskaya Strelkovaya Diviziya"
+        location = 104 # Kingisepp
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+    ##### 5-i Kavaleriiski Korpus #####
+    division = {
+        name = "3-ya Bessarabskaya Kavaleriiskaya Diviziya"
+        location = 11202 # Pskov
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.75
+    }
+
+    division = {
+        name = "14-ya Maykopskaya Kavaleriiskaya Diviziya"
+        location = 11202 #Pskov
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.75
+    }
+    ##### 33-i Strelkovyi Korpus #####
+    division = {
+        name = "158-ya Strelkovaya Diviziya"
+        location = 104 # Kingisepp
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 29-i Strelkovyi Korpus #####
+    division = {
+        name = "54-ya Strelkovaya Diviziya"
+        location = 149 # Leningrad
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "153-ya Strelkovaya Diviziya"
+        location = 149 # Leningrad
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### Severnyi Voennyi Kommissariat #####
+    division = {
+        name = "10-ya Strelkovaya Diviziya"
+        location = 3338 # Arkhangelsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "88-ya Strelkovaya Diviziya"
+        location = 3338 # Arkhangelsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### Uralskyi Voennyi Okrug #####
+    division = {
+        name = "65-ya Strelkovaya Diviziya"
+        location = 1821 # Sverdlovsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "82-ya Strelkovaya Diviziya"
+        location = 1821 # Sverdlovsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "85-ya Strelkovaya Diviziya"
+        location = 1821 # Sverdlovsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "110-ya Strelkovaya Diviziya"
+        location = 1821 # Sverdlovsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "86-ya Strelkovaya Diviziya"
+        location = 1821 # Sverdlovsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "87-ya Strelkovaya Diviziya"
+        location = 1821 # Sverdlovsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 4-i Strelkovyi Korpus #####
+    division = {
+        name = "27-ya Omskaya Strelkovaya Diviziya"
+        location = 11370 # Minsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+
+    division = {
+        name = "2-ya Belorusskaya Strelkovaya Diviziya"
+        location = 3267 # Minsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.4
+    }
+
+    division = {
+        name = "8-ya Minskaya Strelkovaya Diviziya"
+        location = 11370 # Minsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+    ##### 5-i Strelkovyi Korpus #####
+    division = {
+        name = "4-ya Smolenskaya Strelkovaya Diviziya"
+        location = 6319 # Rechytsa
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.4
+    }
+
+    division = {
+        name = "37-ya Strelkovaya Diviziya"
+        location = 6319 # Rechytsa
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+
+    division = {
+        name = "43-ya Strelkovaya Diviziya"
+        location = 6319 # Rechytsa
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+    ##### 11-i Strelkovyi Korpus #####
+    division = {
+        name = "5-ya Vitebskaya Strelkovaya Diviziya"
+        location = 11241 # Vitebsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.4
+    }
+
+    division = {
+        name = "29-ya Finskaya Strelkovaya Diviziya"
+        location = 11241 # Vitebsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "64-ya Strelkovaya Diviziya"
+        location = 11241 # Vitebsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+    ##### 16-i Strelkovyi Korpus #####
+    division = {
+        name = "33-ya Samarskaya Strelkovaya Diviziya"
+        location = 11271 # Mogilev
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "48-ya Strelkovaya Diviziya"
+        location = 11271 # Mogilev
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "81-ya Kaluzhskaya Strelkovaya Diviziya"
+        location = 11271 # Mogilev
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+    ##### 3-i Kavaleriiski Korpus #####
+    division = {
+        name = "7-ya Samarskaya Kavaleriiskaya Diviziya"
+        location = 11370 # Minsk
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.75
+    }
+
+    division = {
+        name = "11-ya Orenburgskaya Kavaleriiskaya Diviziya"
+        location = 11216 # Minsk
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.75
+    }
+    ##### 6-i Kavaleriiski Korpus #####
+    division = {
+        name = "6-ya Changarskaya Kavaleriiskaya Diviziya"
+        location = 9466 # Korosten
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.75
+    }
+    ##### 7-i Kavaleriiski Korpus #####
+    division = {
+        name = "4-ya Leningradskaya Kavaleriiskaya Diviziya"
+        location = 360 # Slutsk
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.75
+    }
+    ##### 22-i Strelkovyi Korpus #####
+    division = {
+        name = "63-ya Strelkovaya Diviziya"
+        location = 3267 # Minsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "67-ya Strelkovaya Diviziya"
+        location = 11370 # Minsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 23-i Strelkovyi Korpus #####
+    division = {
+        name = "76-ya Strelkovaya Diviziya"
+        location = 6319 # Rechytsa
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "155-ya Strelkovaya Diviziya"
+        location = 6319 # Rechytsa
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 24-i Strelkovyi Korpus #####
+    division = {
+        name = "150-ya Strelkovaya Diviziya"
+        location = 11241 # Vitebsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "145-ya Strelkovaya Diviziya"
+        location = 11241 # Vitebsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 28-i Strelkovyi Korpus #####
+    division = {
+        name = "62-ya Strelkovaya Diviziya"
+        location = 11271 # Mogilev
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "66-ya Strelkovaya Diviziya"
+        location = 11271 # Mogilev
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "120-ya Strelkovaya Diviziya"
+        location = 11271 # Mogilev
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### Moskovskyi Voennyi Okrug #####
+    division = {
+        name = "5-i Mekhanizirovannyi Korpus"
+        location = 6380 # Moscow
+        division_template = "Tankovaya diviziya s motorizovannym"
+        start_experience_factor = 0.2
+    }
+
+    division = {
+        name = "Moskovskaya Proletarskaya Strelkovaya"
+        location = 6380 # Moscow
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "126-ya Strelkovaya Diviziya"
+        location = 6380 # Moscow
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 2-i Territorialnyi Korpus #####
+    division = {
+        name = "14-ya Strelkovaya Diviziya"
+        location = 378 # Vladimir
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "49-ya Krasnozamennaya Strelkovaya Diviziya"
+        location = 378 # Vladimir
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "55-ya Kurskaya Strelkovaya Diviziya"
+        location = 378 # Vladimir
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+    ##### 3-i Territorialnyi Korpus #####
+    division = {
+        name = "6-ya Orlovskaya Strelkovaya Diviziya"
+        location = 6262 # Tula
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "84-ya Tulskaya Strelkovaya Diviziya"
+        location = 6262 # Tula
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+    ##### 10-i Territorialnyi Korpus #####
+    division = {
+        name = "17-ya Gorkovskaya Strelkovaya Diviziya"
+        location = 11362 # Orekhovo-Zuyevo
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "19-ya Voronezhskaya Strelkovaya Diviziya"
+        location = 11362 # Orekhovo-Zuyevo
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+    ##### 20-i Strelkovyi Korpus #####
+    division = {
+        name = "68-ya Strelkovaya Diviziya"
+        location = 378 # Vladimir
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "113-ya Strelkovaya Diviziya"
+        location = 378 # Vladimir
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "142-ya Strelkovaya Diviziya"
+        location = 378 # Vladimir
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 21-i Strelkovyi Korpus #####
+    division = {
+        name = "77-ya Strelkovaya Diviziya"
+        location = 6262 # Tula
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "38-ya Strelkovaya Diviziya"
+        location = 6262 # Tula
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 30-i Strelkovyi Korpus #####
+    division = {
+        name = "59-ya Strelkovaya Diviziya"
+        location = 11362 # Orekhovo-Zuyevo
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "39-ya Strelkovaya Diviziya"
+        location = 11362 # Orekhovo-Zuyevo
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 40-i Strelkovyi Korpus #####
+    division = {
+        name = "60-ya Strelkovaya Diviziya"
+        location = 11362 # Orekhovo-Zuyevo
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "42-ya Strelkovaya Diviziya"
+        location = 11362 # Orekhovo-Zuyevo
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 41-i Strelkovyi Korpus #####
+    division = {
+        name = "127-ya Strelkovaya Diviziya"
+        location = 378 # Vladimir
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### Privolzhskyi Voennyi Okrug #####
+    division = {
+        name = "125-ya Strelkovaya Diviziya"
+        location = 6338 # Kazan
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "128-ya Strelkovaya Diviziya"
+        location = 6338 # Kazan
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "159-ya Strelkovaya Diviziya"
+        location = 6338 # Kazan
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "79-ya Strelkovaya Diviziya"
+        location = 6338 # Kazan
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 12-i Territorialnyi Korpus #####
+    division = {
+        name = "1-ya Strelkovaya Diviziya"
+        location = 11292 # Kazan
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "31-ya Stalingradskaya Strelkovaya Diviziya"
+        location = 11292 # Kazan
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "53-ya Strelkovaya Diviziya"
+        location = 11292 # Kazan
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "61-ya Strelkovaya Diviziya"
+        location = 11292 # Kazan
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+    ##### 34-i Strelkovyi Korpus #####
+    division = {
+        name = "111-ya Strelkovaya Diviziya"
+        location = 3365 # Kazan
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "97-ya Strelkovaya Diviziya"
+        location = 3365 # Kazan
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 26-i Strelkovyi Korpus #####
+    division = {
+        name = "129-ya Strelkovaya Diviziya"
+        location = 3365 # Kazan
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 42-i Strelkovyi Korpus #####
+    division = {
+        name = "108-ya Strelkovaya Diviziya"
+        location = 9354 # Kazan
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### Kievskyi Voennyi Okrug #####
+    division = {
+        name = "45-i Mekhanizirovannyi Korpus"
+        location = 525 # Kiev
+        division_template = "Tankovaya diviziya s motorizovannym"
+        start_experience_factor = 0.2
+    }
+    ##### 6-i Strelkovyi Korpus #####
+    division = {
+        name = "2-ya Kavkazskaya Strelkovaya Diviziya"
+        location = 525 # Kiev
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+
+    division = {
+        name = "24-ya Zheleznaya Strelkovaya Diviziya"
+        location = 525 # Kiev
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.4
+    }
+
+    division = {
+        name = "46-ya Strelkovaya Diviziya"
+        location = 525 # Kiev
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+    ##### 8-i Strelkovyi Korpus #####
+    division = {
+        name = "44-ya Kievskaya Strelkovaya Diviziya"
+        location = 11514 # Zhitomir
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.4
+    }
+
+    division = {
+        name = "51-ya Perekopskaya Strelkovaya Diviziya"
+        location = 11514 # Zhitomir
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+
+    division = {
+        name = "95-ya Strelkovaya Diviziya"
+        location = 11514 # Zhitomir
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+    ##### 15-i Strelkovyi Korpus #####
+    division = {
+        name = "2-ya Turkestanskaya Strelkovaya Diviziya"
+        location = 476 # Proskurov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "99-ya Strelkovaya Diviziya"
+        location = 476 # Proskurov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+
+    division = {
+        name = "100-ya Strelkovaya Diviziya"
+        location = 476 # Proskurov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+    ##### 17-i Strelkovyi Korpus #####
+    division = {
+        name = "7-ya Chernigovskaya Strelkovaya Diviziya"
+        location = 754 # Velyka-Mykhailivka
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "15-ya Sivashskaya Strelkovaya Diviziya"
+        location = 754 # Velyka-Mykhailivka
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "96-ya Strelkovaya Diviziya"
+        location = 754 # Velyka-Mykhailivka
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+
+    division = {
+        name = "58-ya Strelkovaya Diviziya"
+        location = 754 # Velyka-Mykhailivka
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+    ##### 1-i Kavaleriiski Korpus #####
+    division = {
+        name = "1-ya Lenina Kavaleriiskaya Diviziya"
+        location = 11514 # Zhitomir
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.75
+    }
+
+    division = {
+        name = "2-ya Krasnogo Znameni Kavaleriiskaya Diviziya"
+        location = 11514 # Zhitomir
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.75
+    }
+    ##### 2-i Kavaleriiski Korpus #####
+    division = {
+        name = "5-ya Kavaleriiskaya Diviziya"
+        location = 9451 # Vinnitsa
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.75
+    }
+
+    division = {
+        name = "9-ya Krimskaya Kavaleriiskaya Diviziya"
+        location = 9451 # Vinnitsa
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.75
+    }
+    ##### 35-i Strelkovyi Korpus #####
+    division = {
+        name = "159-ya Strelkovaya Diviziya"
+        location = 525 # Kiev
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 36-i Strelkovyi Korpus #####
+    division = {
+        name = "160-ya Strelkovaya Diviziya"
+        location = 11514 # Zhitomir
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "161-ya Strelkovaya Diviziya"
+        location = 11514 # Zhitomir
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 27-i Strelkovyi Korpus #####
+    division = {
+        name = "89-ya Strelkovaya Diviziya"
+        location = 476 # Proskurov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "101-ya Strelkovaya Diviziya"
+        location = 476 # Proskurov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "130-ya Strelkovaya Diviziya"
+        location = 476 # Proskurov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 37-i Strelkovyi Korpus #####
+    division = {
+        name = "131-ya Strelkovaya Diviziya"
+        location = 9576 # Zakharivka
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "140-ya Strelkovaya Diviziya"
+        location = 9576 # Zakharivka
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "152-ya Strelkovaya Diviziya"
+        location = 9576 # Zakharivka
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "47-ya Strelkovaya Diviziya"
+        location = 9576 # Zakharivka
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### Kharkovskyi Voennyi Okrug #####
+    division = {
+        name = "75-ya Strelkovaya Diviziya"
+        location = 418 # kharkov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "151-ya Strelkovaya Diviziya"
+        location = 418 # kharkov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 7-i Territorialnyi Korpus #####
+    division = {
+        name = "3-ya Krimskaya Strelkovaya Diviziya"
+        location = 11405 # Zaporozhye
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+
+    division = {
+        name = "25-ya Chapaeva Strelkovaya Diviziya"
+        location = 11405 # Zaporozhye
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "41-ya Strelkovaya Diviziya"
+        location = 11405 # Zaporozhye
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+    ##### 14-i Territorialnyi Korpus #####
+    division = {
+        name = "30-ya Irkutskaya Strelkovaya Diviziya"
+        location = 418 # kharkov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "80-ya Strelkovaya Diviziya"
+        location = 418 # kharkov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "23-ya Kharkovskaya Strelkovaya Diviziya"
+        location = 418 # kharkov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+    ##### 25-i Strelkovyi Korpus #####
+    division = {
+        name = "72-ya Strelkovaya Diviziya"
+        location = 6554 # Kharkov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "132-ya Strelkovaya Diviziya"
+        location = 6554 # Kharkov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "83-ya Strelkovaya Diviziya"
+        location = 6554 # Kharkov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "141-ya Strelkovaya Diviziya"
+        location = 3508 # Kharkov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "69-ya Strelkovaya Diviziya"
+        location = 3508 # Kharkov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "156-ya Strelkovaya Diviziya"
+        location = 3508 # Kharkov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "134-ya Strelkovaya Diviziya"
+        location = 418 # Kharkov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "139-ya Strelkovaya Diviziya"
+        location = 418 # Kharkov
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### Severokavkazskyi Voennyi Okrug #####
+    division = {
+        name = "10-ya Severokavkazskaya Kavaleriiskaya Diviziya"
+        location = 9417 # Rostov-on-Don
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.75
+    }
+
+    division = {
+        name = "28-ya Gorskaya Strelkovaya Diviziya"
+        location = 9417 # Rostov-on-Don
+        division_template = "Gornostrelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "12-ya Kubanskaya Kavaleriiskaya Diviziya"
+        location = 9417 # Rostov-on-Don
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.75
+    }
+    ##### 9-i Territorialnyi Korpus #####
+    division = {
+        name = "9-ya Krasnodarskaya Strelkovaya Diviziya"
+        location = 3734 # Krasnodar
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "13-ya Dagestanskaya Strelkovaya Diviziya"
+        location = 3734 # Krasnodar
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "22-ya Strelkovaya Diviziya"
+        location = 3734 # Krasnodar
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "74-ya Tamanskaya Strelkovaya Diviziya"
+        location = 3734 # Krasnodar
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+    ##### 38-i Strelkovyi Korpus #####
+    division = {
+        name = "103-ya Strelkovaya Diviziya"
+        location = 3752 # Krasnodar
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "118-ya Strelkovaya Diviziya"
+        location = 3752 # Krasnodar
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "119-ya Strelkovaya Diviziya"
+        location = 3760 # Krasnodar
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "157-ya Strelkovaya Diviziya"
+        location = 3760 # Krasnodar
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### Zakavkazskyi Voennyi Okrug #####
+    division = {
+        name = "1-ya Gorskaya Kavkazskaya Strelkovaya Diviziya"
+        location = 1599 # Tbilisi
+        division_template = "Gornostrelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "3-ya Gorskaya Kavkazskaya Strelkovaya Diviziya"
+        location = 1599 # Tbilisi
+        division_template = "Gornostrelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "1-ya Gorskaya Gruzinskaya Strelkovaya Diviziya"
+        location = 1599 # Tbilisi
+        division_template = "Gornostrelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+
+    division = {
+        name = "Gorskaya Azerbaidzhanskaya Strelkovaya Diviziya"
+        location = 1599 # Tbilisi
+        division_template = "Gornostrelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+
+    division = {
+        name = "Gorskaya Armianskaya Strelkovaya Diviziya"
+        location = 1599 # Tbilisi
+        division_template = "Gornostrelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.25
+    }
+
+    division = {
+        name = "2-ya Gruzinskaya Strelkovaya Diviziya"
+        location = 1599 # Tbilisi
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+    ##### Sredneaziatskyi Voennyi Okrug #####
+    division = {
+        name = "1-ya Gorskaya Turkestanskaya Strelkovaya Diviziya"
+        location = 1459 # Tashkent
+        division_template  = "Gornostrelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "3-ya Gorskaya Turkestanskaya Strelkovaya Diviziya"
+        location = 1459 # Tashkent
+        division_template = "Gornostrelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+    ##### Sibirskyi Voennyi Okrug #####
+    division = {
+        name = "73-ya Strelkovaya Diviziya"
+        location = 7274 # Novosibirsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "78-ya Strelkovaya Diviziya"
+        location = 7274 # Novosibirsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "94-ya Strelkovaya Diviziya"
+        location = 7274 # Novosibirsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
+    }
+
+    division = {
+        name = "109-ya Strelkovaya Diviziya"
+        location = 7274 # Novosibirsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "107-ya Strelkovaya Diviziya"
+        location = 7274 # Novosibirsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "91-ya Strelkovaya Diviziya"
+        location = 7274 # Novosibirsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### Zabaikalskyi Voennyi Okrug #####
+    division = {
+        name = "36-ya Strelkovaya Diviziya"
+        location = 12641 # Chita
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "57-ya Uralskaya Strelkovaya Diviziya"
+        location = 12641 # Chita
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "15-ya Kubanskaya Kavaleriiskaya Diviziya"
+        location = 12641 # Chita
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.75
+    }
+    ##### Osobaya Krasnozamennaya Dalnevostochnaya Armyia #####
+    division = {
+        name = "12-ya 'SibRevKoma' Strelkovaya Diviziya"
+        location = 12189 # Khabarovsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "21-ya Permskaya Strelkovaya Diviziya"
+        location = 12189 # Khabarovsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "34-ya Srednevolzhskaya Strelkovaya Diviziya"
+        location = 12189 # Khabarovsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "35-ya Sibirskaya Strelkovaya Diviziya"
+        location = 12189 # Khabarovsk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "40-ya Strelkovaya Diviziya"
+        location = 12189 # Khabarovsk
+        division_template = "Strelkovaya Diviziya" 
+    }
+
+    division = {
+        name = "8-ya Dalnevostochnaya Kavaleriiskaya Diviziya"
+        location = 12189 # Khabarovsk
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.75
+    }
+    ##### 18-i Strelkovyi Korpus #####
+    division = {
+        name = "1-ya Tikhookeanskaya Strelkovaya Diviziya"
+        location = 7763 # Blagoveshchensk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "26-ya Zlatoustovskaya Strelkovaya Diviziya"
+        location = 7763 # Blagoveshchensk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "32-ya Saratovskaya Strelkovaya Diviziya"
+        location = 7763 # Blagoveshchensk
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+    ##### Osobyi Kolkhoznyi Korpus #####
+    division = {
+        name = "1-ya Kolkhoznaya Strelkovaya Diviziya"
+        location = 957 # Vladivostok
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "2-ya Kolkhoznaya Strelkovaya Diviziya"
+        location = 957 # Vladivostok
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "3-ya Kolkhoznaya Strelkovaya Diviziya"
+        location = 957 # Vladivostok
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.65
+    }
+
+    division = {
+        name = "Kolkhoznaya Kavaleriiskaya Diviziya"
+        location = 957 # Vladivostok
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.75
+    }
+    ##### navy oob #####
+    fleet = {
+        name = "Krasnoznamenny Baltiisky Flot"
+        naval_base = 14696 # Kronstadt
+        task_force = {
+            name = "Krasnoznamenny Baltiisky Flot"
+            location = 14696 # Kronstadt
+            ship = { name = "Marat" definition = battleship equipment = { BB_equipment_1900 = { amount = 1 owner = SOV } } }
+            ship = { name = "Frunze" definition = battleship equipment = { BB_equipment_1900 = { amount = 1 owner = SOV } } }
+            ship = { name = "3 Diviziya Esmintsev" definition = destroyer equipment = { DD_equipment_1916 = { amount = 1 owner = SOV } } }
+            ship = { name = "2 Diviziya Esmintsev" definition = destroyer equipment = { DD_equipment_1912 = { amount = 1 owner = SOV } } }
+            ship = { name = "1 Diviziya Esmintsev" definition = destroyer equipment = { DD_equipment_1900 = { amount = 1 owner = SOV } } }
+            ship = { name = "1 Diviziya Podlodok" definition = submarine equipment = { SS_equipment_1916 = { amount = 1 owner = SOV } } }
+            ship = { name = "2 Diviziya Podlodok" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = SOV } } }
+        }
+    }
+
+    fleet = {
+        name = "Chernomorskiy Flot"
+        naval_base = 3686 # Sevastopol
+        task_force = {
+            name = "Chernomorskiy Flot"
+            location = 3686 # Sevastopol
+            ship = { name = "Parizhskaya Kommuna" definition = battleship equipment = { BB_equipment_1900 = { amount = 1 owner = SOV } } }
+            ship = { name = "Krasni Kavkaz" definition = heavy_cruiser equipment = { CA_equipment_1906 = { amount = 1 owner = SOV } } }
+            ship = { name = "Profintern" definition = light_cruiser equipment = { CL_equipment_1912 = { amount = 1 owner = SOV } } }
+            ship = { name = "Komintern" definition = light_cruiser equipment = { CL_equipment_1900 = { amount = 1 owner = SOV } } }
+            ship = { name = "Chervonaya Ukraina" definition = light_cruiser equipment = { CL_equipment_1912 = { amount = 1 owner = SOV } } }
+            ship = { name = "6 Diviziya Esmintsev" definition = destroyer equipment = { DD_equipment_1912 = { amount = 1 owner = SOV } } }
+            ship = { name = "7 Divizya Esmintsev" definition = destroyer equipment = { DD_equipment_1916 = { amount = 1 owner = SOV } } }
+            ship = { name = "3 Divizya Podlodok" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = SOV } } } 
+        }
+    }
+
+    fleet = {
+        name = "Severnyi Flot"
+        naval_base = 3134 # Murmansk
+        task_force = {
+            name = "Severnyi Flot"
+            location = 3134 # Murmansk
+            ship = { name = "8 Diviziya Esmintsev" definition = destroyer equipment = { DD_equipment_1912 = { amount = 1 owner = SOV } } }
+            ship = { name = "4 Diviziya Podlodok" definition = submarine equipment = { SS_equipment_1912 = { amount = 1 owner = SOV } } }
+        }
+    }
+
+    fleet = {
+        name = "Tikhookeanskiy Flot"
+        naval_base = 957 # Vladivostok
+        task_force = {
+            name = "Tikhookeanskiy Flot"
+            location = 957 # Vladivostok
+            ship = { name = "10. Divizion Esmintsev" definition = destroyer equipment = { DD_equipment_1900 = { amount = 1 owner = SOV } } }
+            ship = { name = "9. Divizion Esmintsev" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = SOV } } }
+            ship = { name = "5 Diviziya Podlodok" definition = submarine equipment = { SS_equipment_1912 = { amount = 1 owner = SOV } } }
+        }
+    }
+}
+
+air_wings = {
+    219 = {
+        # 403.IABR
+        Fighter_equipment_1933 = { # Polikarpov I-3 
+            owner = "SOV"
+            amount = 95
+        }
+    }
+
+    222 = {
+        # 11.TBABR
+        Strategic_Bomber_equipment_1933 = { # Tupolev TB-3
+            owner = "SOV"
+            amount = 70
+        }
+    }
+
+    195 = {
+        # 1.TBABR
+        Tactical_Bomber_equipment_1933 = { # Tupolev TB-1
+            owner = "SOV"
+            amount = 55
+        }
+        # 53.LBABR
+        Fighter_Bomber_equipment_1933 = { # Polikarpov I-5
+            owner = "SOV"
+            amount = 90
+        }
+    }
+
+    209 = {
+        # 3.IABR
+        Fighter_equipment_1933 = { # Polikarpov I-3
+            owner = "SOV"
+            amount = 90
+        }
+    }
+
+    224 = {
+        # 5.TBABR
+        Tactical_Bomber_equipment_1933 = { # Tupolev TB-1
+            owner = "SOV"
+            amount = 55
+        }
+        # 402.IABR
+        Fighter_equipment_1933 = { # Polikarpov I-3
+            owner = "SOV"
+            amount = 90
+        }
+    }
+
+    207 = {
+        # 40.LBABR
+        Fighter_Bomber_equipment_1933 = { # Polikarpov I-5
+            owner = "SOV"
+            amount = 65
+        }
+    }
+
+    202 = {
+        # 5.IABR
+        Fighter_equipment_1933 = { # Polikarpov I-3
+            owner = "SOV"
+            amount = 55
+        }
+    }
+
+    221 = {
+        # 16.LBABR
+        Fighter_Bomber_equipment_1933 = { # Polikarpov I-5
+            owner = "SOV"
+            amount = 45
+        }
+    }
+
+    563 = {
+        # 29.LBABR
+        Fighter_Bomber_equipment_1933 = { # Polikarpov I-5
+            owner = "SOV"
+            amount = 35
+        }
+    }
+
+    218 = {
+        # 55.LBABR
+        Fighter_Bomber_equipment_1933 = { # Polikarpov I-5
+            owner = "SOV"
+            amount = 25
+        }
+    }
+}
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1900
+			creator = "SOV"
+		}
+		requested_factories = 8
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 3
+		progress = 0.29
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 2
+		progress = 0.25
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = Light_Tank_equipment_1934
+			creator = "SOV" 
+		}
+		requested_factories = 3
+		progress = 0.32
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = truck_equipment_1936
+			creator = "SOV" 
+		}
+		requested_factories = 3
+		progress = 0.35
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = Fighter_equipment_1936
+			creator = "SOV" 
+		}
+		requested_factories = 2
+		progress = 0.15
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = Strategic_Bomber_equipment_1933
+			creator = "SOV" 
+		}
+		requested_factories = 2
+		progress = 0.17
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = DD_equipment_1900
+			creator = "SOV"
+		}
+		requested_factories = 2
+		progress = 0.70
+		amount = 4
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = SS_equipment_1916
+			creator = "SOV"
+		}
+		requested_factories = 1
+		progress = 0.80
+		amount = 11
+	}
+    
+    add_equipment_production = {
+		equipment = {
+			type = SS_equipment_1916
+			creator = "SOV"
+		}
+		requested_factories = 1
+		progress = 0.80
+		amount = 10
+	}
+    
+    add_equipment_production = {
+		equipment = {
+			type = SS_equipment_1916
+			creator = "SOV"
+		}
+		requested_factories = 1
+		progress = 0.80
+		amount = 10
+	}
+}

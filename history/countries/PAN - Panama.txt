@@ -1,0 +1,149 @@
+﻿#########################################################################
+# Panama - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 304
+	set_convoys = 10
+	oob = "PAN_1933"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+	}
+	#######################
+	# Politics
+	#######################	
+	set_country_flag = monroe_doctrine
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1932.6.5"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 0
+		democratic = 100
+		socialist = 0
+		communist = 0
+	}
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Harmodio Arias Madrid"
+		desc = "POLITICS_HARMODIO_ARIAS_MADRID_DESC"
+		picture = "P_D_Harmodio_Arias_Madrid.tga"
+		expire = "1965.1.1"
+		ideology = social_liberalism
+		traits = { POSITION_President SUBIDEOLOGY_Social_Liberalism HoS_Autocratic_Charmer }
+	}
+}
+#########################################################################
+# Panama - 1936
+#########################################################################
+1936.1.1 = {
+	oob = "PAN_1936"
+}
+#########################################################################
+# Panama - 1939
+#########################################################################
+1939.9.1 = {
+	set_party_name = {
+		ideology = democratic
+		name = PAN_democratic_party_1936
+		long_name = PAN_democratic_party_1936_long
+	}
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Juan Demóstenes Arosemena"
+		desc = ""
+		picture = "P_D_Juan_Demostenes_Arosemena.tga"
+		expire = "1965.1.1"
+		ideology = social_liberalism
+		traits = { POSITION_President SUBIDEOLOGY_Social_Liberalism HoS_Autocratic_Charmer }
+	}
+}
+#########################################################################
+# Panama - 1940
+#########################################################################
+1940.5.10 = {
+	set_party_name = {
+		ideology = democratic
+		name = PAN_democratic_party_1939
+		long_name = PAN_democratic_party_1939_long
+	}
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Augusto Samuel Boyd"
+		desc = ""
+		picture = "P_D_Augusto_Samuel_Boyd.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism HoS_Barking_Buffoon }
+	}
+}
+#########################################################################
+# Panama - 1941
+#########################################################################
+1941.6.22 = {
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Arnulfo Arías de la Madrid"
+		desc = ""
+		picture = "P_D_Arnulfo_Arias.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism HoS_Popular_Figurehead }
+	}
+}
+#########################################################################
+# Panama - 1942
+#########################################################################
+1942.11.22 = {
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Riccardo de la Guardia"
+		desc = ""
+		picture = "P_D_Riccardo_de_la_Guardia.tga"
+		expire = "1965.1.1"
+		ideology = social_liberalism
+		traits = { POSITION_President SUBIDEOLOGY_Social_Liberalism HoS_PowerHungry_Demagogue }
+	}
+}
+#########################################################################
+# Panama - 1946
+#########################################################################
+1946.1.1 = {
+	set_party_name = {
+		ideology = democratic
+		name = PAN_democratic_party_1936
+		long_name = PAN_democratic_party_1936_long
+	}
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Enrique Adolfo Jiménez"
+		desc = ""
+		picture = "P_D_Henrique_Adolfo_Jimenez.tga"
+		expire = "1965.1.1"
+		ideology = social_liberalism
+		traits = { POSITION_President SUBIDEOLOGY_Social_Liberalism HoS_Stern_Imperialist }
+	}
+}

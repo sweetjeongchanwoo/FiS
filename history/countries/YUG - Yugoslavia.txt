@@ -1,0 +1,333 @@
+﻿#########################################################################
+# Yugoslavia - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 107
+	oob = "YUG_1933"
+	set_research_slots = 3
+	set_convoys = 10
+	set_stability = 0.6
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		tech_support = 1		
+		tech_engineers = 1
+		tech_mountaineers = 1
+		# Infantry Tech		
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 0
+		Anti_Tank_Gun_1935 = 1
+		Anti_Aircraft_Gun_1935 = 1
+		Artillery_1910 = 1
+		Superior_Firepower = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		# Air Tech
+		Fighter_1933 = 1
+		#Naval Stuff
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		DD_1922 = 1
+		DD_1933 = 1
+		CL_1885 = 1	
+		SS_1895 = 1
+		SS_1912 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1935.5.3"
+		election_frequency = 36
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 2
+		authoritarian = 89
+		democratic = 0
+		socialist = 0
+		communist = 9
+	}	
+	add_ideas = {
+		YUG_Divided_Nation
+		YUG_Separatist_Terrorists
+		YUG_Inexperienced_Military
+		YUG_Anti_German_Sentiments
+	}
+	set_country_flag = Allows_Democratic_Ministers
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Dimitrije Ljotić"
+		desc = ""
+		picture = "P_F_Dimitrije_Ljotic.tga"
+		expire = "1965.1.1"
+		ideology = fascism
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Fascism HoG_Backroom_Backstabber }
+	}
+	# Authoritarian
+	create_country_leader = {
+		name = "Aleksandar I"
+		desc = ""
+		picture = "P_A_Aleksandar_I.tga"
+		expire = "1965.1.1"
+		ideology = monarchism
+		traits = { POSITION_King SUBIDEOLOGY_Monarchism HoS_Die_Hard_Reformer }
+	}
+	# democratic
+	create_country_leader = {
+		name = "Milan Grol"
+		desc = ""
+		picture = "P_D_Milan_Grol.tga"
+		expire = "1965.1.1"
+		ideology = social_liberalism
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Social_Liberalism HoG_Flamboyant_Tough_Guy }
+	}
+	# Socialism
+	create_country_leader = {
+		name = "Živko Topalović"
+		desc = ""
+		picture = "P_S_Zivko_Topalovic.tga"
+		expire = "1965.1.1"
+		ideology = democratic_socialism
+		traits = { POSITION_President SUBIDEOLOGY_Democratic_Socialism HoG_Happy_Amateur }
+	}
+	# Communism
+	create_country_leader = {
+		name = "Josip Broz Tito"
+		desc = ""
+		picture = "P_C_Josep_Broz_Tito.tga"
+		expire = "1965.1.1"
+		ideology = national_communism
+		traits = { POSITION_President SUBIDEOLOGY_National_Communism HoG_Revolutionary_Leader }
+	}
+	#######################
+	# Generals
+	#######################
+	create_corps_commander = {
+		name = "Vladimir Čukavac"
+		gfx = GFX_Portrait_yugoslavia_vladimir_cukavac
+		traits = { trickster  }
+		skill = 3
+
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Ivan Gošnjak"
+		gfx = GFX_Portrait_yugoslavia_ivan_gosnjak
+		traits = { urban_assault_specialist }
+		skill = 3
+		
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Milan Milovanović"
+		picture = "M_Milan_Milovanovic.tga"
+		traits = {
+			old_guard
+			skilled_staffer
+		}
+		skill = 2
+		attack_skill = 3
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 2
+	}
+	
+	create_corps_commander = {
+		name = "Vladimir Čukavac"
+		picture = "M_Vladimir_Cukavac.tga"
+		traits = {
+			trickster
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+	}
+	
+	create_corps_commander = {
+		name = "Milan Nedić"
+		picture = "M_Milan_Nedic.tga"
+		traits = {
+			organizer
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Petar Kosić"
+		gfx = GFX_Portrait_yugoslavia_petar_kosic
+		traits = {  }
+		skill = 2
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	
+	create_field_marshal = {
+		name = "Milutin Nedić"
+		gfx = GFX_Portrait_yugoslavia_milutin_nedic
+		traits = { thorough_planner }
+		skill = 3	
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 3
+	}
+	
+	create_field_marshal = {
+		name = "Danilo Kalafatović"
+		gfx = GFX_Portrait_yugoslavia_danilo_kalafatovic
+		traits = {  }
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 1
+	}
+	#######################
+	# Admirals
+	#######################
+	create_navy_leader = {
+		name = "Marijan Polić"
+		gfx = GFX_Portrait_yugoslavia_marijan_polic
+		traits = {  }
+		skill = 2
+	}
+}
+#########################################################################
+# Yugoslavia - 1936
+#########################################################################
+1936.1.1 = {
+	oob = "YUG_1936"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		tech_support = 1		
+		tech_engineers = 1
+		tech_mountaineers = 1
+		# Infantry Tech		
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		Anti_Tank_Gun_1935 = 1
+		Anti_Aircraft_Gun_1935 = 1
+		Artillery_1910 = 1
+		Superior_Firepower = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		# Air Tech
+		Fighter_1933 = 1
+		#Naval Stuff
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		DD_1922 = 1
+		DD_1933 = 1
+		CL_1885 = 1	
+		SS_1895 = 1
+		SS_1912 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1935.5.3"
+		election_frequency = 36
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 2
+		authoritarian = 89
+		democratic = 0
+		socialist = 0
+		communist = 9
+	}
+	set_party_name = { 
+		ideology = fascist
+		name = YUG_fascist_party_1935
+		long_name = YUG_fascist_party_1935_long
+	}
+	set_party_name = { 
+		ideology = authoritarian
+		name = YUG_authoritarian_party_1935
+		long_name = YUG_authoritarian_party_1935_long
+	}	
+	set_party_name = { 
+		ideology = democratic
+		name = YUG_democratic_party_1936
+		long_name = YUG_democratic_party_1936_long
+	}	
+	#######################
+	# Leaders
+	#######################
+	# Authoritarian
+	create_country_leader = {
+		name = "Pavle Karadjordjevic"
+		desc = ""
+		picture = "P_A_Prince_Paul.tga"
+		expire = "1965.1.1"
+		ideology = monarchism
+		traits = { POSITION_King SUBIDEOLOGY_Monarchism HoS_Benevolent_Gentleman }
+	}
+}
+#########################################################################
+# Yugoslavia - 1944
+#########################################################################
+1944.6.20 = {
+	set_politics = {
+		ruling_party = communist
+		last_election = "1935.5.3"
+		election_frequency = 36
+		elections_allowed = no
+	}	
+	set_cosmetic_tag = YUG_AVNOJ
+
+}
+#########################################################################
+# Yugoslavia - 1946
+#########################################################################
+1946.1.1 = {
+	drop_cosmetic_tag = yes
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = communist
+		last_election = "1935.5.3"
+		election_frequency = 36
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 2
+		authoritarian = 9
+		democratic = 0
+		socialist = 0
+		communist = 89
+	}
+}

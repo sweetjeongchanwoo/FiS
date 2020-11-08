@@ -1,0 +1,774 @@
+﻿l_english:
+ #################################################################
+ ## Chinese Warlords
+ #################################################################
+ GXC_LIANGGUANG_authoritarian:0 "Liangguang Clique"
+ GXC_LIANGGUANG_authoritarian_DEF:0 "The Liangguang Clique"
+
+ YUL_YUL_authoritarian:0 "Yulin Clique"
+ YUL_YUL_authoritarian_DEF:0 "Yulin Clique"
+ 
+ #################################################################
+ ## Iran/Persia
+ #################################################################
+ PER_PERSIA_authoritarian:0 "Imperial State of Persia"
+ PER_PERSIA_authoritarian_DEF:0 "The Imperial State of Persia"
+
+ #################################################################
+ ## France
+ #################################################################
+ FRA_PGFR_democratic:0 "Provisional Government of the French Republic"
+ FRA_PGFR_democratic_DEF:0 "The Provisional Government of the French Republic"
+
+ #################################################################
+ ## Germany
+ #################################################################
+ GER_WEIMAR_authoritarian:0 "German Reich"
+ GER_WEIMAR_authoritarian_DEF:0 "The German Reich"
+
+ GER_IMPERIAL_FLAG_fascist:0 "German Reich"
+ GER_IMPERIAL_FLAG_fascist_DEF:0 "The German Reich"
+
+ GER_GREATER_REICH_fascist:0 "Großdeutsches Reich"
+ GER_GREATER_REICH_fascist_DEF:0 "The Großdeutsches Reich"
+
+ GER_GREATER_GERMANIC_REICH_fascist:0 "Großgermanisches Reich"
+ GER_GREATER_GERMANIC_REICH_fascist_DEF:0 "The Großgermanisches Reich"
+ 
+ GER_SS_fascist:0 "SS-Ordenstaat Germania"
+ GER_SS_fascist_DEF:0 "Germania"
+
+ GER_OKH_authoritarian:0 "German Reich"
+ GER_OKH_authoritarian_DEF:0 "The German Reich"
+
+ GER_OKH_GCW_authoritarian:0 "Weimar Republic"
+ GER_OKH_GCW_authoritarian_DEF:0 "The Weimar Republic"
+
+ GER_NSDAP_GCW_fascist:0 "Government of National Salvation"
+ GER_NSDAP_GCW_fascist_DEF:0 "The Government of National Salvation"
+
+ DDR_KPD_GCW_communist:0 "German Soviet Republic"
+ DDR_KPD_GCW_communist_DEF:0 "The German Soviet Republic"
+
+ GER_SA_fascist:0 "Deutscher Sozialistischer Arbeiterstaat"
+ GER_SA_fascist_DEF:0 "The Deutscher Sozialistischer Arbeiterstaat"
+
+ GER_STRASSER_fascist:0 "Deutscher Volksstaat"
+ GER_STRASSER_fascist_DEF:0 "The Deutscher Volksstaat"
+
+ GER_GREATER_KAISERREICH_authoritarian:0 "Großdeutsches Kaiserreich"
+ GER_GREATER_KAISERREICH_authoritarian_DEF:0 "The Großdeutsches Kaiserreich"
+
+ GER_SOV_communist_autonomy_SSR:0 "German Soviet Socialist Republic"
+ GER_SOV_communist_autonomy_Soviet_Rep:0 "German Soviet Republic"
+ GER_SOV_communist_autonomy_satellite:0 "German Democratic Republic"
+ 
+ #################################################################
+ ## Austria
+ #################################################################
+ AUS_AUT_authoritarian:0 "Republic of Austria"
+ AUS_AUT_authoritarian_DEF:0 "The Republic of Austria"
+
+ #################################################################
+ ## Soviet Union/Russia
+ #################################################################
+ SOV_LENINGRAD_communist:0 "Soviet Provisional Government"
+ SOV_LENINGRAD_communist_DEF:0 "The Soviet Provisional Government"
+
+ SOV_RUSFED_democratic:0 "Russian Federation"
+ SOV_RUSFED_democratic_DEF:0 "The Russian Federation"
+
+ #################################################################
+ ## Communist China
+ #################################################################
+ PRC_JFS_communist:0 "Jiangxi–Fujian Soviet"
+ PRC_JFS_communist_DEF:0 "The Jiangxi–Fujian Soviet"
+ PRC_JFS_communist_ADJ:0 "Jiangxi–Fujian Soviet"
+
+ PRC_CSR_communist:0 "Chinese Soviet Republic" 
+ PRC_CSR_communist_DEF:0 "The Chinese Soviet Republic"
+ 
+ PRC_REDARMY_communist:0 "Chinese Red Army"
+ PRC_REDARMY_communist_DEF:0 "The Chinese Red Army"
+ 
+ PRC_REDARMY_1934_communist:0 "Chinese Red Army"
+ PRC_REDARMY_1934_communist_DEF:0 "The Chinese Red Army"
+
+ PRC_UNIFIED_communist:0 "People's Republic of China"
+ PRC_UNIFIED_communist_DEF:0 "The People's Republic of China"
+
+ #################################################################
+ ## Nationalist China
+ #################################################################
+ CHI_RIGHT_CCW_authoritarian:0 "Right Kuomintang"
+ RNG_LEFT_CCW_authoritarian:0 "Left Kuomintang"
+
+ #################################################################
+ ## Manchuria/Manchukuo
+ #################################################################
+ MAN_EMPIRE_authoritarian:0 "Chinese Empire"
+ MAN_EMPIRE_authoritarian_DEF:0 "The Chinese Empire"
+
+ MAN_REP_fascist:0 "State of Manchuria"
+ MAN_REP_fascist_DEF:0 "The State of Manchuria"
+ MAN_REP_authoritarian:0 "State of Manchuria"
+ MAN_REP_authoritarian_DEF:0 "The State of Manchuria"
+
+ #################################################################
+ ## Mengjiang
+ #################################################################
+ MEN_MILITARY_authoritarian:0 "Mongol Military Government"
+ MEN_MILITARY_authoritarian_DEF:0 "The Mongol Military Government"
+ MEN_MILITARY_fascist:0 "Mongol Military Government"
+ MEN_MILITARY_fascist_DEF:0 "The Mongol Military Government"
+ 
+ MEN_ASSEMBLY_authoritarian:0 "Mengjiang United Autonomous Government"
+ MEN_ASSEMBLY_authoritarian_DEF:0 "The Mengjiang United Autonomous Government"
+ MEN_ASSEMBLY_fascist:0 "Mengjiang United Autonomous Government"
+ MEN_ASSEMBLY_fascist_DEF:0 "The Mengjiang United Autonomous Government"
+
+ MEN_AUTFED_authoritarian:0 "Mongolian Autonomous Federation"
+ MEN_AUTFED_authoritarian_DEF:0 "The Mongolian Autonomous Federation"
+ MEN_AUTFED_fascist:0 "Mongolian Autonomous Federation
+ MEN_AUTFED_fascist_DEF:0 "The Mongolian Autonomous Federation"
+ 
+ MEN_mengkukuo_authoritarian:0 "Mengkukuo"
+ MEN_mengkukuo_authoritarian_DEF:0 "Mengkukuo"
+ MEN_ASSEMBLY_fascist:0 "Mengkukuo"
+ MEN_ASSEMBLY_fascist_DEF:0 "Mengkukuo"
+ 
+ MEN_EMPIRE_authoritarian:0 "Mongol Empire"
+ MEN_EMPIRE_authoritarian_DEF:0 "The Mongol Empire"
+ MEN_EMPIRE_fascist:0 "Mongol Empire"
+ MEN_EMPIRE_fascist_def:0 "The Mongol Empire
+ 
+ #################################################################
+ ## Japanese Puppet States in China
+ #################################################################
+ RNG_provisional_authoritarian:0 "Provisional Government of China"
+ RNG_provisional_authoritarian_DEF:0 "The Provisional Government of China"
+ 
+ EHB_JAP_NCAC_authoritarian:0 "North China Political Affairs Commission"
+ EHB_JAP_NCAC_authoritarian_DEF:0 "The North China Political Affairs Commission" 
+ EHB_JAP_NCAC_authoritarian_ADJ:0 "Chinese"
+
+ RNG_EAH_authoritarian_ADJ:0 "Hebeiensis"
+
+ #################################################################
+ ## Brazil
+ #################################################################
+ BRA_REP_1933_authoritarian:0 "Republic of the United States of Brazil"
+ BRA_REP_1933_authoritarian_DEF:0 "The Republic of the United States of Brazil"
+
+ #################################################################
+ ## Egypt
+ #################################################################
+ EGY_ARABREP_authoritarian:0 "Arab Republic of Egypt"
+ EGY_ARABREP_authoritarian_DEF:0 "the Arab Republic of Egypt"
+
+ EGY_UAR_authoritarian:0 "United Arab Republic"
+ EGY_UAR_authoritarian_DEF:0 "the United Arab Republic"
+ EGY_UAR_socialist:0 "United Arab Republic"
+ EGY_UAR_socialist_DEF:0 "the United Arab Republic"
+
+ #################################################################
+ ## East Turkestan
+ #################################################################
+ ETS_ISLAMIC_REP_authoritarian:0 "Islamic Republic of East Turkistan"
+ ETS_ISLAMIC_REP_authoritarian_DEF:0 "the Islamic Republic of East Turkistan"
+ ETS_FIRSTREP_authoritarian:0 "East Turkestan"
+ ETS_FIRSTREP_authoritarian_DEF:0 "East Turkestan"
+
+ TNG_EMPIRE_authoritarian:0 "Tungan Empire"
+ TNG_EMPIRE_authoritarian_DEF:0 "The Tungan Empire"
+
+ TNG_36TH_DIV_authoritarian:0 "36th Division"
+ TNG_36TH_DIV_authoritarian_DEF:0 "the 36th Division"
+
+ #################################################################
+ ## Yugoslavia
+ #################################################################
+ YUG_AVNOJ_communist:0 "Democratic Federal Yugoslavia"
+ YUG_AVNOJ_communist_DEF:0 "The Democratic Federal Yugoslavia"
+
+ #################################################################
+ ## Japan
+ #################################################################
+ JAP_OCCUPIED_authoritarian:0 "Allied Occupied Japan"
+ JAP_OCCUPIED_authoritarian_DEF:0 "Japan"
+ JAP_OCCUPIED_authoritarian_ADJ:0 "Japanese"
+
+ JAP_KOH_fascist:0 "Empire of Japan"
+ JAP_KOH_fascist_DEF:0 "The Empire of Japan"
+ JAP_KOH_fascist_ADJ:0 "Japanese"
+ 
+ JAP_TOH_fascist:0 "Empire of Japan"
+ JAP_TOH_fascist_DEF:0 "The Empire of Japan"
+ JAP_TOH_fascist_ADJ:0 "Japanese"
+
+ #################################################################
+ ## Albania
+ #################################################################
+ ALB_ITA_fascist:0 "Kingdom of Albania"
+ ALB_ITA_fascist_DEF:0 "The Kingdom of Albania"
+
+ #################################################################
+ ## Montenegro
+ #################################################################
+ MNT_ITA_fascist:0 "Kingdom of Montenegro"
+ MNT_ITA_fascist_DEF:0 "The Kingdom of Montenegro"
+ 
+ #################################################################
+ ## Greece
+ #################################################################
+ GRE_ITA_fascist:0 "Hellenic State"
+ GRE_ITA_fascist_DEF:0 "Hellenic State"
+ 
+ #################################################################
+ ## Indonesia
+ #################################################################
+ INS_subject:0 "$OVERLORDADJ$ East Indies"
+ INS_subject_DEF:0 "the $OVERLORDADJ$ East Indies"
+ INS_HOL_democratic:0 "Dutch East Indies"
+ INS_HOL_democratic_DEF:0 "the Dutch East Indies"
+
+ #################################################################
+ ## South Korea
+ #################################################################
+ KOR_USA_authoritarian:0 "USAMGIK"
+ KOR_USA_authoritarian_DEF:0 "USAMGIK"
+
+ #################################################################
+ ## Morocco
+ #################################################################
+ MOR_SPA_authoritarian:0 "Spanish protectorate in Morocco"
+ MOR_SPA_authoritarian_DEF:0 "Morocco"
+
+ #################################################################
+ ## Syria
+ #################################################################
+ SYR_ARAB_REP_socialist:0 "Syrian Arab Republic"
+ SYR_ARAB_REP_socialist_DEF:0 "The Syrian Arab Republic"
+
+ SYR_FRA_democratic:0 "Syrian Republic"
+ SYR_FRA_democratic_DEF:0 "The Syrian Republic"
+
+ #################################################################
+ ## Lebanon
+ #################################################################
+ LEB_FRA_democratic:0 "Lebanese Republic"
+ LEB_FRA_democratic_DEF:0 "The Lebanese Republic"
+
+ #################################################################
+ ## Vietnam
+ #################################################################
+ VIN_FRA_fascist:0 "Indochinese Union"
+ VIN_FRA_fascist_DEF:0 "Indochinese Union"
+ VIN_FRA_democratic:0 "Indochinese Union"
+ VIN_FRA_democratic_DEF:0 "Indochinese Union"
+ VIN_FRA_authoritarian:0 "Indochinese Union"
+ VIN_FRA_authoritarian_DEF:0 "Indochinese Union"
+ VIN_FRA_socialist:0 "Indochinese Union"
+ VIN_FRA_socialist_DEF:0 "Indochinese Union"
+ VIN_FRA_communist:0 "Indochinese Union"
+ VIN_FRA_communist_DEF:0 "The Indochinese Union"
+ VIN_FRA_fascist_ADJ:0 "Indochinese"
+ VIN_FRA_socialist_ADJ:0 "Indochinese"
+ VIN_FRA_democratic_ADJ:0 "Indochinese"
+ VIN_FRA_authoritarian_ADJ:0 "Indochinese"
+ VIN_FRA_communist_ADJ:0 "Indochinese"
+
+ VIE_DRV_communist:0 "Democratic Republic of Vietnam"
+ VIE_DRV_communist_DEF:0 "The Democratic Republic of Vietnam"
+
+ #################################################################
+ ## Slovakia
+ #################################################################
+ SLO_GER_fascist_autonomy_reichskommissariat:0 "Protektorat Slowakei"
+ SLO_GER_fascist_autonomy_reichskommissariat_DEF:0 "The Slovak Protectorate"
+ SLO_GER_fascist_autonomy_reichsprotectorate:0 "Protektorat Slowakei"
+ SLO_GER_fascist_autonomy_reichsprotectorate_DEF:0 "The Slovak Protectorate"
+ SLO_GER_fascist_autonomy_satellite:0 "Slovak Republic"
+ SLO_GER_fascist_autonomy_satellite_DEF:0 "The Slovak Republic"
+
+ #################################################################
+ ## Serbia
+ #################################################################
+ SER_GER_fascist:0 "Government of National Salvation"
+ SER_GER_fascist_DEF:0 "The Government of National Salvation"
+
+ #################################################################
+ ## Italy
+ #################################################################
+ ITA_GER_fascist:0 "Italian Reich"
+ ITA_GER_fascist_DEF:0 "Italian Reich"
+ ITA_GER_autonomy_satellite_fascist:0 "Italian Social Republic"
+ ITA_GER_autonomy_satellite_fascist_DEF:0 "Italian Social Republic"
+
+ #################################################################
+ ## Iceland
+ #################################################################
+ ICE_GER_fascist_autonomy_reichskommissariat:0 "Reichskommissariat Island"
+ ICE_GER_fascist_autonomy_reichsprotectorate:0 "Protektorat Island"
+ ICE_GER_fascist_autonomy_satellite:0 "Social Republic of Island"
+
+ #################################################################
+ ## Austria
+ #################################################################
+ AUS_GER_fascist_autonomy_reichskommissariat:0 "Deutschösterreich"
+ AUS_GER_fascist_autonomy_reichsprotectorate:0 "Protektorat Ostmark"
+ AUS_GER_fascist_autonomy_satellite:0 "Deutschösterreich"
+
+ #################################################################
+ ## Belgium
+ #################################################################
+ BEL_GER_authoritarian_autonomy_reichskommissariat:0 "Militärverwaltung in Belgien und Nordfrankreich"
+ BEL_GER_fascist_autonomy_reichskommissariat:0 "Reichskommissariat in Belgien und Nordfrankreich"
+ BEL_GER_fascist_autonomy_reichsprotectorate:0 "Protektorat Belgien und Nordfrankreich"
+ BEL_GER_fascist_autonomy_satellite:0 "Protektorat Belgien und Nordfrankreich"
+
+ #################################################################
+ ## Holland
+ #################################################################
+ HOL_GER_authoritarian_autonomy_reichskommissariat:0 "Militärverwaltung in Niederlande"
+ HOL_GER_fascist_autonomy_reichskommissariat:0 "Reichskommissariat Niederlande"
+ HOL_GER_fascist_autonomy_reichsprotectorate:0 "Protektorat Niederlande"
+ HOL_GER_fascist_autonomy_satellite:0 "Dutch State"
+
+ #################################################################
+ ## Denmark
+ #################################################################
+ DEN_GER_fascist_autonomy_reichskommissariat:0 "Reichskommissariat Nordmark"
+ DEN_GER_fascist_autonomy_reichsprotectorate:0 "Protektorat Dänemark"
+ DEN_GER_democratic_autonomy_reichsprotectorate:0 "Protektorat Dänemark"
+ DEN_GER_fascist_autonomy_satellite:0 "Social Republic of Denmark"
+
+ #################################################################
+ ## Norway
+ #################################################################
+ NOR_GER_fascist_autonomy_reichskommissariat:0 "Reichskommissariat Norwegen"
+ NOR_GER_fascist_autonomy_reichsprotectorate:0 "Protektorat Norwegen"
+ NOR_GER_fascist_autonomy_satellite:0 "National State of Norway"
+ NOR_NS_fascist:0 "National State of Norway"
+
+ #################################################################
+ ## Sweden
+ #################################################################
+ SWE_GER_fascist_autonomy_reichskommissariat:0 "Reichskommissariat Schweland"
+ SWE_GER_fascist_autonomy_reichsprotectorate:0 "Protektorat Schweland"
+ SWE_GER_fascist_autonomy_satellite:0 "Social Republic of Schweland"
+
+ #################################################################
+ ## United Kingdom
+ #################################################################
+ ENG_GEORGE_democratic:0 "Georgites"
+ ENG_GEORGE_democratic_DEF:0 "The Georgites"
+ 
+ ENG_EDWARD_authoritarian:0 "Edwardites"
+ ENG_EDWARD_authoritarian_DEF:0 "The Edwardites"
+
+ #################################################################
+ ## England
+ #################################################################
+ EGL_GER_fascist_autonomy_reichskommissariat:0 "Reichskommissariat England"
+ EGL_GER_fascist_autonomy_reichsprotectorate:0 "Protektorat England"
+ EGL_GER_fascist_autonomy_satellite:0 "Social Republic of England"
+
+ #################################################################
+ ## Scotland
+ #################################################################
+ SCO_GER_fascist_autonomy_reichskommissariat:0 "Reichskommissariat Schottland"
+ SCO_GER_fascist_autonomy_reichsprotectorate:0 "Protektorat Schottland"
+ SCO_GER_fascist_autonomy_satellite:0 "Social Republic of Schottland"
+
+ #################################################################
+ ## United States
+ #################################################################
+ USA_GER_Military_fascist_autonomy_reichskommissariat:0 "Gebiet des Militärbefehlshabers in Ostamerika"
+ CSA_GER_Military_fascist_autonomy_reichskommissariat:0 "Gebiet des Militärbefehlshabers des Nordamerikanischen Südens"
+ CAL_GER_Military_fascist_autonomy_reichskommissariat:0 "Gebiet des Militärbefehlshabers in Westamerika"
+ MTN_GER_Military_fascist_autonomy_reichskommissariat:0 "Gebiet des Militärbefehlshabers in Zentralnordamerika"
+ CAN_GER_Military_fascist_autonomy_reichskommissariat:0 "Gebiet des Militärbefehlshabers in Kanada"
+
+ USA_GER_fascist_autonomy_reichskommissariat:0 "Reichskommissariat Amerika"
+ USA_GER_fascist_autonomy_reichsprotectorate:0 "Amerikanischer Staat"
+ USA_GER_fascist_autonomy_satellite:0 "American Republic"
+
+ USA_MILITARY_authoritarian:0 "United States Army Military Government"
+ USA_MILITARY_authoritarian_DEF:0 "The United States Army Military Government"
+
+ USA_ASR_communist:0 "American Soviet Republic"
+ USA_ASR_communist_DEF:0 "The American Soviet Republic"
+
+ #################################################################
+ ## Confederate States
+ #################################################################
+ CSA_GER_fascist_autonomy_reichskommissariat:0 "Reichskommissariat Amerika"
+ CSA_GER_fascist_autonomy_reichsprotectorate:0 "Protektorat Südstaaten"
+ CSA_GER_fascist_autonomy_satellite:0 "Commonwealth of Dixie"
+
+ CSA_USA_LONG_authoritarian:0 "Provisional Government of the United States"
+ CSA_USA_LONG_authoritarian_DEF:0 "The Provisional Government of the United States"
+
+ #################################################################
+ ## Ukraine
+ #################################################################
+ UKR_SOV_communist_autonomy_SSR:0 "Ukrainian Soviet Socialist Republic"
+ UKR_SOV_communist_autonomy_Soviet_Rep:0 "Ukrainian Soviet Republic"
+ UKR_SOV_communist_autonomy_satellite:0 "Ukrainian People's Republic"
+
+ #################################################################
+ ## Belarus
+ #################################################################
+ BLR_SOV_communist_autonomy_SSR:0 "Belarussian Soviet Socialist Republic"
+ BLR_SOV_communist_autonomy_Soviet_Rep:0 "Belarussian Soviet Republic"
+ BLR_SOV_communist_autonomy_satellite:0 "Belarussian People's Republic"
+
+ #################################################################
+ ## Estonia
+ #################################################################
+ EST_SOV_communist_autonomy_SSR:0 "Estonian Soviet Socialist Republic"
+ EST_SOV_communist_autonomy_Soviet_Rep:0 "Estonian Soviet Republic"
+ EST_SOV_communist_autonomy_satellite:0 "Estonian People's Republic"
+
+ #################################################################
+ ## Latvia
+ #################################################################
+ LAT_SOV_communist_autonomy_SSR:0 "Latvian Soviet Socialist Republic"
+ LAT_SOV_communist_autonomy_Soviet_Rep:0 "Latvian Soviet Republic"
+ LAT_SOV_communist_autonomy_satellite:0 "Latvian People's Republic"
+
+ #################################################################
+ ## Lithuania
+ #################################################################
+ LIT_SOV_communist_autonomy_SSR:0 "Lithuanian Soviet Socialist Republic"
+ LIT_SOV_communist_autonomy_Soviet_Rep:0 "Lithuanian Soviet Republic"
+ LIT_SOV_communist_autonomy_satellite:0 "Lithuanian People's Republic"
+
+ #################################################################
+ ## Poland
+ #################################################################
+ POL_fascist_autonomy_reichskommissariat:0 "Generalgouvernement Polen"
+
+ POL_SOV_communist_autonomy_SSR:0 "Polish Soviet Socialist Republic"
+ POL_SOV_communist_autonomy_Soviet_Rep:0 "Polish Soviet Republic"
+ POL_SOV_communist_autonomy_satellite:0 "Polish People's Republic"
+
+ POL_SOV_1946_communist_autonomy_satellite:0 "Republic of Poland"
+
+ #################################################################
+ ## Bohemia
+ #################################################################
+ BOH_GER_fascist_autonomy_reichskommissariat:0 "Protektorat Böhmen und Mähren"
+ BOH_GER_fascist_autonomy_reichsprotectorate:0 "Protektorat Böhmen und Mähren"
+ BOH_GER_fascist_autonomy_satellite:0 "Protektorat Böhmen und Mähren"
+
+ #################################################################
+ ## Czechoslovakia/Czechia
+ #################################################################
+ CZE_GER_fascist_autonomy_reichskommissariat:0 "Protektorat Böhmen und Mähren"
+ CZE_GER_fascist_autonomy_reichsprotectorate:0 "Protektorat Böhmen und Mähren"
+ CZE_GER_fascist_autonomy_satellite:0 "Protektorat Böhmen und Mähren"
+
+ CZE_SOV_communist_autonomy_SSR:0 "Czechoslovak Soviet Socialist Republic"
+ CZE_SOV_communist_autonomy_Soviet_Rep:0 "Czechoslovak Soviet Republic"
+ CZE_SOV_communist_autonomy_satellite:0 "Czechoslovak Socialist Republic"
+
+ CZE_SOV_1946_communist_autonomy_satellite:0 "Czechoslovak Republic"
+
+ #################################################################
+ ## Hungary
+ #################################################################
+ HUN_SOV_communist_autonomy_SSR:0 "Hungarian Soviet Socialist Republic"
+ HUN_SOV_communist_autonomy_Soviet_Rep:0 "Hungarian Soviet Republic"
+ HUN_SOV_communist_autonomy_satellite:0 "Hungarian People's Republic"
+
+ HUN_SOV_1946_communist_autonomy_satellite:0 "Hungarian Republic"
+
+ #################################################################
+ ## Romania
+ #################################################################
+ ROM_SOV_communist_autonomy_SSR:0 "Romanian Soviet Socialist Republic"
+ ROM_SOV_communist_autonomy_Soviet_Rep:0 "Romanian Soviet Republic"
+ ROM_SOV_communist_autonomy_satellite:0 "Romanian People's Republic"
+
+ ROM_SOV_1946_communist_autonomy_satellite:0 "Kingdom of Romania"
+
+ #################################################################
+ ## Bulgaria
+ #################################################################
+ BUL_SOV_communist_autonomy_SSR:0 "Bulgarian Soviet Socialist Republic"
+ BUL_SOV_communist_autonomy_Soviet_Rep:0 "Bulgarian Soviet Republic"
+ BUL_SOV_communist_autonomy_satellite:0 "People's Republic of Bulgaria"
+
+ BUL_Republic:0 "Republic of Bulgaria"
+ BUL_Republic_DEF:0 "The Republic of Bulgaria"
+
+ #################################################################
+ ## Finland
+ #################################################################
+ FIN_GREATER_fascist:0 "Greater Finnish Empire"
+ FIN_GREATER_fascist_DEF:0 "Greater Finnish Empire"
+ FIN_GREATER_national_socialist:0 "Greater Finnish Empire"
+ FIN_GREATER_national_socialist_DEF:0 "Greater Finnish Empire"
+ 
+ #################################################################
+ ## Canada
+ #################################################################
+ CAN_ENG_democratic:0 "Dominion of Canada"
+ CAN_ENG_democratic_DEF:0 "The Dominion of Canada"
+ 
+ CAN_ENG_democratic_autonomy_puppet:0 "Province of Canada"
+ CAN_ENG_democratic_autonomy_puppet_DEF:0 "The Province of Canada"
+ CAN_ENG_democratic_autonomy_colony:0 "Canadian Confederation"
+ CAN_ENG_democratic_autonomy_colony_DEF:0 "The Canadian Confederation"
+ CAN_ENG_democratic_autonomy_dominion:0 "Dominion of Canada"
+ CAN_ENG_democratic_autonomy_dominion_DEF:0 "The Dominion of Canada"
+
+ #################################################################
+ ## Ireland
+ #################################################################
+ IRE_ENG_democratic_autonomy_dominion:0 "Irish Free State"
+ IRE_ENG_democratic_autonomy_dominion_DEF:0 "The Irish Free State"
+
+ IRE_EIRE_democratic:0 "Ireland"
+ IRE_EIRE_democratic_DEF:0 "Ireland"
+
+ #################################################################
+ ## India
+ #################################################################
+ RAJ_ENG_democratic:0 "British Raj"
+ RAJ_ENG_democratic_DEF:0 "the British Raj"
+ RAJ_ENG_authoritarian:0 "British Raj"
+ RAJ_ENG_authoritarian_DEF:0 "the British Raj"
+ RAJ_ENG_subject:0 "$OVERLORDADJ$ Raj"
+ RAJ_ENG_autonomy_dominion:0 "Dominion of India"
+ RAJ_ENG_autonomy_dominion_DEF:0 "the Dominion of India"
+
+ RAJ_INDIA_democratic:0 "Republic of India"
+ RAJ_INDIA_democratic_DEF:0 "The Republic of India"
+ RAJ_INDIA_authoritarian:0 "Republic of India"
+ RAJ_INDIA_authoritarian_DEF:0 "The Republic of India"
+
+ #################################################################
+ ## Malaysia
+ #################################################################
+ MAL_ENG_democratic:0 "British Malaya"
+ MAL_ENG_democratic_DEF:0 "British Malaya"
+
+ #################################################################
+ ## Newfoundland
+ #################################################################
+ NFL_ENG:0 "Dominion of Newfoundland"
+ NFL_ENG_DEF:0 "Dominion of Newfoundland"
+ NFL_ENG_ADJ:0 "Newfoundlander"
+
+ #################################################################
+ ## Spain
+ #################################################################
+ SPR_SPA_authoritarian:0 "Nationalist Spain"
+ SPR_SPA_authoritarian_DEF:0 "Nationalist Spain"
+ 
+ #################################################################
+ ## Hungary
+ #################################################################
+ HUN_EMPIRE_authoritarian:0 "Austria-Hungary"
+ HUN_EMPIRE_authoritarian_DEF:0 "Austria-Hungary"
+ HUN_EMPIRE_fascist:0 "Austro-Hungarian Empire"
+ HUN_EMPIRE_fascist_DEF:0 "the Austro-Hungarian Empire"
+ HUN_EMPIRE_democratic:0 "Danubian Confederation"
+ HUN_EMPIRE_democratic_DEF:0 "the Danubian Confederation"
+ HUN_EMPIRE_communist:0 "Association of Autonomous States"
+ HUN_EMPIRE_communist_DEF:0 "the Association of Autonomous States"
+
+ HUN_GREATER_authoritarian:0 "Greater Hungary"
+ HUN_GREATER_authoritarian_DEF:0 "Greater Hungary"
+ HUN_GREATER_fascist:0 "Greater Hungary"
+ HUN_GREATER_fascist_DEF:0 "Greater Hungary"
+
+ ####################################################################
+ ## Tanzania/Tanganyika
+ ####################################################################
+ TZN_TANGANYIKA_fascist:0 "State of Tanganyika"
+ TZN_TANGANYIKA_fascist_DEF:0 "The State of Tanganyika"
+ TZN_TANGANYIKA_authoritarian:0 "State of Tanganyika"
+ TZN_TANGANYIKA_authoritarian_DEF:0 "The State of Tanganyika"
+ TZN_TANGANYIKA_democratic:0 "Republic of Tanganyika"
+ TZN_TANGANYIKA_democratic_DEF:0 "The Republic of Tanganyika"
+ TZN_TANGANYIKA_socialist:0 "Republic of Tanganyika"
+ TZN_TANGANYIKA_socialist_DEF:0 "The  Republic of Tanganyika"
+ TZN_TANGANYIKA_communist:0 "Tanganyikan People's Republic"
+ TZN_TANGANYIKA_communist_DEF:0 "The Tanganyikan People's Republic"
+ TZN_TANGANYIKA_fascist_ADJ:0 "Tanganyikan"
+ TZN_TANGANYIKA_authoritarian_ADJ:0 "Tanganyikan"
+ TZN_TANGANYIKA_democratic_ADJ:0 "Tanganyikan"
+ TZN_TANGANYIKA_socialist_ADJ:0 "Tanganyikan"
+ TZN_TANGANYIKA_communist_ADJ:0 "Tanganyikan"
+
+ ####################################################################
+ ## Israel
+ ####################################################################
+ ISR_Jabotinsky_Tag_authoritarian:0 "Provisional Jewish Government"
+
+ ####################################################################
+ ## Iraq
+ ####################################################################
+ IRQ_NDG_fascist:0 "National Defense Government of Iraq"
+ IRQ_NDG_fascist_DEF:0 "the National Defense Government of Iraq"
+ IRQ_NDG_fascist_ADJ:0 "Iraqi"
+
+ ####################################################################
+ ## Congo (Leopoldville/Kinshasa)
+ ####################################################################
+ COG_ZAIRE_fascist:0 "State of Zaire"
+ COG_ZAIRE_fascist_DEF:0 "The State of Zaire"
+ COG_ZAIRE_authoritarian:0 "Republic of Zaire"
+ COG_ZAIRE_authoritarian_DEF:0 "The Republic of Zaire"
+ COG_ZAIRE_democratic:0 "Republic of Zaire"
+ COG_ZAIRE_democratic_DEF:0 "The Republic of Zaire"
+ COG_ZAIRE_socialist:0 "Socialist Republic of Zaire"
+ COG_ZAIRE_socialist_DEF:0 "The Socialist Republic of Zaire"
+ COG_ZAIRE_communist:0 "People's Republic of Zaire"
+ COG_ZAIRE_communist_DEF:0 "The People's Republic of Zaire"
+ COG_ZAIRE_fascist_ADJ:0 "Zairian"
+ COG_ZAIRE_authoritarian_ADJ:0 "Zairian"
+ COG_ZAIRE_democratic_ADJ:0 "Zairian"
+ COG_ZAIRE_socialist_ADJ:0 "Zairian"
+ COG_ZAIRE_communist_ADJ:0 "Zairian"
+
+ COG_DRC_fascist:0 "Democratic Republic of the Congo"
+ COG_DRC_fascist_DEF:0 "The Democratic Republic of the Congo"
+ COG_DRC_authoritarian:0 "Democratic Republic of the Congo"
+ COG_DRC_authoritarian_DEF:0 "The Democratic Republic of the Congo"
+ COG_DRC_democratic:0 "Democratic Republic of the Congo"
+ COG_DRC_democratic_DEF:0 "The Democratic Republic of the Congo"
+
+ ####################################################################
+ ## Jordan
+ ####################################################################
+ JOR_ENG_authoritarian_autonomy_puppet:0 "Emirate of Transjordan"
+ JOR_ENG_authoritarian_autonomy_puppet_DEF:0 "The Emirate of Transjordan"
+
+ JOR_1949_fascist:0 "Hashemite Kingdom of Jordan"
+ JOR_1949_fascist_DEF:0 "The Hashemite Kingdom of Jordan"
+ JOR_1949_authoritarian:0 "Hashemite Kingdom of Jordan"
+ JOR_1949_authoritarian_DEF:0 "The Hashemite Kingdom of Jordan"
+ JOR_1949_democratic:0 "Hashemite Kingdom of Jordan"
+ JOR_1949_democratic_DEF:0 "The Hashemite Kingdom of Jordan"
+ JOR_1949_socialist:0 "People's Republic of Jordan"
+ JOR_1949_socialist_DEF:0 "The People's Republic of Jordan"
+ JOR_1949_communist:0 "People's Republic of Jordan"
+ JOR_1949_communist_DEF:0 "The People's Republic of Jordan"
+ JOR_1949_fascist_ADJ:0 "Jordanian"
+ JOR_1949_authoritarian_ADJ:0 "Jordanian"
+ JOR_1949_democratic_ADJ:0 "Jordanian"
+ JOR_1949_socialist_ADJ:0 "Jordanian"
+ JOR_1949_communist_ADJ:0 "Jordanian"
+
+ ####################################################################
+ ## Kuwait
+ ####################################################################
+ KUW_ENG_authoritarian_autonomy_puppet:0 "Sheikhdom of Kuwait"
+ KUW_ENG_authoritarian_autonomy_puppet_DEF:0 "The Sheikhdom of Kuwait"
+
+ ####################################################################
+ ## Philippines
+ ####################################################################
+ PHI_USA_democratic_autonomy_integrated_puppet:0 "Insular Government of the Philippine Islands"
+ PHI_USA_democratic_autonomy_integrated_puppet_DEF:0 "The Insular Government of the Philippine Islands"
+ PHI_USA_democratic_autonomy_puppet:0 "Commonwealth of the Philippines"
+ PHI_USA_democratic_autonomy_puppet_DEF:0 "The Commonwealth of the Philippines"
+
+ ####################################################################
+ ## Crimea
+ ####################################################################
+ SSG_fascist:0 "Order-State of Gotenland"
+ SSG_fascist_DEF:0 "Order-State of Gotenland"
+ SSG_authoritarian:0 "Order-State of Gotenland"
+ SSG_authoritarian_DEF:0 "Order-State of Gotenland"
+ SSG_democratic:0 "Order-State of Gotenland"
+ SSG_democratic_DEF:0 "Order-State of Gotenland"
+ SSG_socialist:0 "Order-State of Gotenland"
+ SSG_socialist_DEF:0 "Order-State of Gotenland"
+ SSG_communist:0 "Order-State of Gotenland"
+ SSG_communist_DEF:0 "Order-State of Gotenland"
+ SSG_fascist_ADJ:0 "German"
+ SSG_authoritarian_ADJ:0 "German"
+ SSG_democratic_ADJ:0 "German"
+ SSG_socialist_ADJ:0 "German"
+ SSG_communist_ADJ:0 "German"
+ CRI_UKR_democratic_autonomy_integrated_puppet:0 "Autonomous Republic of Crimea"
+ CRI_UKR_democratic_autonomy_integrated_puppet_DEF:0 "The Autonomous Republic of Crimea"
+
+ ####################################################################
+ ## Madagascar
+ ####################################################################
+ RMD_fascist:0 "Madagaskar"
+ RMD_fascist_DEF:0 "Madagaskar"
+ RMD_authoritarian:0 "Madagaskar"
+ RMD_authoritarian_DEF:0 "Madagaskar"
+ RMD_democratic:0 "Madagaskar"
+ RMD_democratic_DEF:0 "Madagaskar"
+ RMD_communist:0 "Madagaskar"
+ RMD_communist_DEF:0 "Madagaskar"
+ RMD_socialist:0 "Madagaskar"
+ RMD_socialist_DEF:0 "Madagaskar"
+ RMD_fascist_ADJ:0 "German"
+ RMD_authoritarian_ADJ:0 "German"
+ RMD_democratic_ADJ:0 "German"
+ RMD_communist_ADJ:0 "German"
+ RMD_socialist_ADJ:0 "German"
+
+ ####################################################################
+ ## United Arab Emirates
+ ####################################################################
+ UAE_ENG:0 "Trucial States"
+ UAE_ENG_DEF:0 "The Trucial States"
+
+ ####################################################################
+ ## Saarland
+ ####################################################################
+ SAR_TERRITORY_democratic:0 "Territory of the Saar Basin"
+ SAR_TERRITORY_democratic_DEF:0 "The Territory of the Saar Basin"
+ 
+ SAR_PROTECTORATE_democratic:0 "Saar Protectorate"
+ SAR_PROTECTORATE_democratic_DEF:0 "The Saar Protectorate"
+
+ ####################################################################
+ ## East Timor
+ ####################################################################
+ TLE_UNN:0 "United Nations Transitional Administration in East Timor"
+ TLE_UNN_DEF:0 "The United Nations Transitional Administration in East Timor"
+ TLE_UNN_ADJ:0 "East Timorese"
+
+ ####################################################################
+ ## Tangier
+ ####################################################################
+ TIZ_International_Zone:0 "Tangier International Zone"
+ TIZ_International_Zone_DEF:0 "The Tangier International Zone"
+ TIZ_International_Zone_ADJ:0 "Tangerine"
+
+ ####################################################################
+ ## Libya
+ ####################################################################
+ LBA_CYRENAICA_authoritarian:0 "Emirate of Cyrenaica"
+ LBA_CYRENAICA_authoritarian_DEF:0 "The Emirate of Cyrenaica"
+
+ ####################################################################
+ ## Hatay
+ ####################################################################
+ HAT_STATE_fascist:0 "Hatay State"
+ HAT_STATE_fascist_DEF:0 "The Hatay State"
+ HAT_STATE_authoritarian:0 "Hatay State"
+ HAT_STATE_authoritarian_DEF:0 "The Hatay State"
+ HAT_STATE_democratic:0 "Hatay State"
+ HAT_STATE_democratic_DEF:0 "The Hatay State"
+ HAT_STATE_communist:0 "Hatay State"
+ HAT_STATE_communist_DEF:0 "The Hatay State"
+ HAT_STATE_socialist:0 "Hatay State"
+ HAT_STATE_socialist_DEF:0 "The Hatay State"
+ HAT_STATE_fascist_ADJ:0 "Hatayan"
+ HAT_STATE_authoritarian_ADJ:0 "Hatayan"
+ HAT_STATE_democratic_ADJ:0 "Hatayan"
+ HAT_STATE_communist_ADJ:0 "Hatayan"
+ HAT_STATE_socialist_ADJ:0 "Hatayan"

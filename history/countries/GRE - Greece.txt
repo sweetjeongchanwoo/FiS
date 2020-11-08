@@ -1,0 +1,262 @@
+﻿##################################
+# Greece - 1933
+##################################
+1933.1.1 = {
+	capital = 47
+	set_stability = 0.75
+	oob = "GRE_1933"
+	set_research_slots = 3
+	set_convoys = 10
+
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		Artillery_1910 = 1
+		tech_mountaineers = 1
+		tech_support = 1		
+		tech_recon = 1
+		Fighter_1933 = 1
+		Strategic_Bomber_1933 = 1
+		Naval_Bomber_1936 = 1
+	#Naval Stuff
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		DD_1922 = 1
+		DD_1933 = 1	
+
+		BB_1885 = 1
+		BB_1895 = 1
+	
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+	
+		CA_1885 = 1
+		CA_1895 = 1
+		CA_1906 = 1
+	
+		SS_1895 = 1
+		SS_1912 = 1
+		SS_1916 = 1
+		SS_1922 = 1	
+	
+		transport = 1
+	#
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1935.6.9"
+		election_frequency = 12
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 10
+		authoritarian = 32
+		democratic = 42
+		socialist = 10
+		communist = 6
+	}
+	add_ideas = {
+		GRE_National_Schism
+		GRE_Memories_of_1923
+	# Laws & Policies
+		one_year_service
+	}
+	#######################
+	# Leaders
+	#######################
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Georgios II"
+		desc = ""
+		picture = "P_A_Georgios_II.tga"
+		expire = "1965.1.1"
+		ideology = monarchism
+		traits = { POSITION_King SUBIDEOLOGY_Monarchism HoS_Insignificant_Layman }
+	}
+	create_country_leader = {
+		name = "Ioannis Metaxas"
+		desc = ""
+		picture = "P_F_Ioannis_Metaxas.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Authoritarian_Democracy HoG_Old_General }
+	}		
+	# Democracy
+	create_country_leader = {
+		name = "Panagis Tsaldaris"
+		desc = ""
+		picture = "P_D_Panagis_Tsaldaris.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Conservatism HoG_Flamboyant_Tough_Guy }
+	}
+	# Socialism
+	create_country_leader = {
+		name = "Kostas Gavriilides"
+		desc = ""
+		picture = "P_S_Kostas_Gavriilides.tga"
+		expire = "1965.1.1"
+		ideology = democratic_socialism
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Democratic_Socialism HoG_Happy_Amateur }
+	}
+	# Marxism-Leninism
+	create_country_leader = {
+		name = "Nikos Zachariadis"
+		desc = ""
+		picture = "P_C_Nikos_Zachariadis.tga"
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = { POSITION_General_Secretary SUBIDEOLOGY_Stalinism HoS_Autocratic_Charmer }
+	}
+	#######################
+	# Generals
+	#######################
+	create_field_marshal = {
+		name = "Alexandros Papagos"
+		picture = "M_Alexandros_Papagos.tga"
+		traits = { old_guard politically_connected }
+		skill = 4 
+		attack_skill = 4
+		defense_skill = 3 
+		planning_skill = 4
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Charalampos Katsimiros"
+		picture = "M_Charalampos_Katsimiros.tga"
+		traits = { infantry_officer hill_fighter }
+		skill = 4
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Konstantinos Davakis"
+		picture = "M_Konstantinos_Davakis.tga"
+		traits = { brilliant_strategist cavalry_officer }
+		skill = 4 
+		attack_skill = 5
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Vasileios Vrachnos"
+		picture = "M_Vasileios_Vrachnos.tga"
+		traits = { infantry_officer }
+		skill = 3  
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Georgios Bakos"
+		picture = "M_Georgios_Bakos.tga"
+		traits = { infantry_officer }
+		skill = 2 
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Georgios Tsokaloglou"
+		picture = "M_Georgios_Tsokaloglou.tga"
+		traits = { hill_fighter }
+		skill = 2 
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 2  
+		logistics_skill = 2
+	}
+
+	## Naval Officers ##
+
+	create_navy_leader = {
+		name = "Dimitrios Oikonomou"
+		picture = "M_Dimitrios_Oikonomou.tga"
+		traits = { old_guard_navy }
+		skill = 3 
+	}
+
+	create_navy_leader = {
+		name = "Alexandros Sakellariou"
+		picture = "M_Alexandros_Sakellariou.tga"
+		traits = { superior_tactician }
+		skill = 4 
+	}
+}
+##################################
+# Greece - 1936
+##################################
+1936.1.1 = {
+	capital = 47
+	set_stability = 0.75
+	oob = "GRE_1936"
+	set_research_slots = 3
+	set_convoys = 10
+
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		Artillery_1910 = 1
+		Anti_Aircraft_Gun_1935 = 1
+		tech_mountaineers = 1
+		tech_support = 1		
+		tech_recon = 1
+		Fighter_1933 = 1
+		Strategic_Bomber_1933 = 1
+		Naval_Bomber_1936 = 1
+	#Naval Stuff
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		DD_1922 = 1
+		DD_1933 = 1	
+
+		BB_1885 = 1
+		BB_1895 = 1
+	
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+	
+		CA_1885 = 1
+		CA_1895 = 1
+		CA_1906 = 1
+	
+		SS_1895 = 1
+		SS_1912 = 1
+		SS_1916 = 1
+		SS_1922 = 1	
+	
+		transport = 1
+	}
+	#######################
+	# Politics
+	#######################
+	add_ideas = {
+	# Laws & Policies
+		one_year_service
+	}
+}

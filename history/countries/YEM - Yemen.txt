@@ -1,0 +1,48 @@
+﻿##############################################
+# Yemen - 1933
+##############################################
+1933.1.1 = {
+	capital = 293
+	oob = "YEM_1933"
+	set_convoys = 5
+	# Starting tech
+	set_technology = {
+		Small_Arms_1916 = 1
+	}
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 10
+		authoritarian = 65
+		democratic = 20
+		socialist = 5
+		communist = 0
+	}
+	add_ideas = {
+		# Secondary Leader
+		YEM_HoS_Ahmed_bin_Yahya
+	}
+	####################################################
+	# Yemeni Leaders
+	####################################################
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Yahya Muhammad Hamid ed-Din"
+		desc = "POLITICS_IMAM_YAHYA_DESC"
+		picture = "P_A_Imam_Yahya.tga"
+		expire = "1965.1.1"
+		ideology = monarchism
+		traits = { POSITION_Imam SUBIDEOLOGY_Monarchism HoS_Stern_Imperialist }
+	}
+}
+##############################################
+# Yemen - 1936
+##############################################
+1936.1.1 = {
+	oob = "YEM_1936"
+
+}

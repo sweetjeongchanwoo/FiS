@@ -1,0 +1,153 @@
+﻿l_english: 
+#########################################################################
+#  Tunganistan Events
+#########################################################################
+#Tunganistan formation
+ DH_tunganistan.1.t:0 "Defeat Inevitable"
+ DH_tunganistan.1.d:0 "After a successive string of defeats military high command has deemed it necessary for us to pick up the remainders of our forces and undergo one of two possible alternatives. Either seek an armstice with Sinkiang, or advance down south towards the the southern Xinjiang where they will be forced to leave us for the time being. What shall we do?"
+ DH_tunganistan.1.a:0 "Seek armistice"
+ DH_tunganistan.1.b:0 "Advance south"
+#Backing from Ma Cliques
+ DH_tunganistan.2.t:0 "Tunganistan Requests Weapons"
+ DH_tunganistan.2.d:0 "Currently at war with the Sinkiang Clique, the tungans now request weapons from us, promising future assistance and such, the tungans hope to reward us for such actions in the future, do we accept?"
+ DH_tunganistan.2.a:0 "Yes"
+ DH_tunganistan.2.b:0 "no"
+ 
+ DH_tunganistan.3.t:0 "Ma Clique Accepts"
+ DH_tunganistan.3.d:0 "Having seen our request, the Ma Clique has accepted our demands for weapons and will supply us soon"
+ DH_tunganistan.3.a:0 "Excellent!"
+
+ DH_tunganistan.4.t:0 "Ma Clique Refuses"
+ DH_tunganistan.4.d:0 "Having seen our request, the Ma Clique has refused our demands for weapons and will not be sending us the supplies we need"
+ DH_tunganistan.4.a:0 "A Shame..."
+
+ DH_tunganistan.5.t:0 "Ma Zhongying is missing"
+ DH_tunganistan.5.d:0 "Mysteriously after our temporary peace with the Sinkiang Clique, our commanding officer Ma Zhongying dissapeared. Now it is a question of which suborbinate officer should take up control of the 36th Division. Ma Hushan or Ma Zhancang?"
+ DH_tunganistan.5.a:0 "Ma Hushan"
+ DH_tunganistan.5.b:0 "Ma Zhancang"
+
+ DH_tunganistan.6.t:0 "36th Division requests armistice"
+ DH_tunganistan.6.d:0 "Recent developments in the war has caused the 36th Division to request a temporary truce to our conflict. Shall we accept their proposal?"
+ DH_tunganistan.6.a:0 "Yes"
+ DH_tunganistan.6.b:0 "No"
+
+#########################################################################
+#  Tunganistan Focuses
+#########################################################################
+ TNG_The_Frontier:0 "The Frontier"
+ TNG_Kidnapping_and_Ransoms:0 "Kidnapping and Ransoms"
+ TNG_Search_for_Recruits:0 "Search for Recruits "
+ TNG_Backing_from_the_Ma_Cliques:0 "Backing from the Ma Clique"
+ TNG_Destroy_the_Soviet_Puppet:0 "Destroy the Soviet Puppet"
+ TNG_Crush_the_Ugyghur_Revolt:0 "Crush the Ugyghur Revolt"
+ TNG_Xinjiang_is_Ours:0 "Xinjiang is Ours!"
+ TNG_Reward_the_Defectors:0 "Reward the Defectors"
+ TNG_Power_to_Our_Commanders:0 "Power to Our Commanders"
+ TNG_Banquet_of_Death:0 "Banquet of Death"
+ TNG_Where_is_Ma_Zhongying:0 "Where is Ma Zhongying?"
+ TNG_Rule_of_the_Young_General:0 "Rule of the Young General"
+ TNG_Crush_the_Uyghur_Revolt:0 "Crush the Uyghur Revolt"
+ TNG_Centralize_Province_Affairs:0 "Centralize Province Affairs"
+ TNG_Make_Everything_Work:0 "Make Everything Work"
+ TNG_Shuffle_and_Topple_Officials:0 "Shuffle and Topple Officials"
+ TNG_Dominate_Trade:0 "Dominate Trade"
+ TNG_A_Tax_For_Everything:0 "A Tax For Everything"
+ TNG_The_Book_of_Lord_Shang:0 "The Book of Lord Shang"
+ TNG_Beyond_Recovery:0 "TNG_Beyond_Recovery"
+ TNG_Damaged_Beyond_Recovery:0 "Damaged Beyond Recovery"
+ TNG_Massacre_the_South:0 "Massacre the South"
+ TNG_Break_the_KMT:0 "Break the KMT"
+ TNG_New_National_Symbols:0 "New National Symbols"
+ TNG_Public_Trial_Showcases:0 "Public Trial Showcases"
+ TNG_Erect_Statues:0 "Erect Statues"
+ TNG_Rotting_in_Sinkiang:0 "Rotting in Sinkiang"
+ TNG_Claim_the_Mandate:0 "Claim the Mandate"
+ TNG_Rulers_Absolutism:0 "Rulers' Absolutism"
+ TNG_Technique_in_Ruling:0 "Technique in Ruling"
+ TNG_Redraft_Laws_and_Regulations:0 "Redraft Laws and Regulations"
+ TNG_Personal_Courting:0 "Personal Courting"
+ TNG_The_Legal_Corps:0 "The Legal Corps"
+ TNG_Submission_to_Authority:0 "Submission to Authority"
+ TNG_Legalism_in_Practice:0 "Legalism in Practice"
+ TNG_Ma_Hushans_Claws:0 "Ma Hushan's Claws"
+ TNG_Betrayal:0 "Betrayal"
+ TNG_Ma_Zhancangs_Gun:0 "Ma Zhancang's Gun"
+ TNG_New_Dihua_Plan:0 "New Dihua Plan"
+ TNG_Terror_in_Dihua:0 "Terror in Dihua"
+ TNG_Rule_by_Fear:0 "Rule by Fear"
+ TNG_Spies_Everywhere:0 "Spies Everywhere"
+ TNG_The_Dream_of_a_Khanate:0 "The Dream of a Khanate"
+ TNG_Slave_Driven_Economy:0 "Slave Driven Economy"
+ TNG_Commercial_Profitering:0 "Commercial Profitering"
+ TNG_Metal_Smelting:0 "Metal Smelting"
+ TNG_Invest_in_the_Silk_Industry:0 "Invest in the Silk Industry"
+ TNG_Expand_Local_Arsenals:0 "Expand Local Arsenals "
+ TNG_Expand_Local_Arsenals:0 "Expand Local Arsenals"
+ TNG_Laying_the_Roads:0 "Laying the Roads"
+ TNG_The_Model_Province:0 "The Model Province"
+ TNG_Exploit_the_Economy:0 "Exploit the Economy"
+ TNG_Exploit_the_Economy:0 "Exploit the Economy"
+ TNG_Excavate_Raw_Materials:0 "Excavate Raw Materials"
+ TNG_Massive_Arsenal_Production:0 "Massive Arsenal Production"
+ TNG_Keep_Taxing:0 "Keep Taxing"
+ TNG_Double_The_Taxes:0 "Double The Taxes"
+ TNG_Economic_Buildup:0 "Economic Buildup"
+ TNG_A_State_of_Despair:0 "A State of Despair"
+ TNG_Connect_the_Gansu_Corridor:0 "Connect the Gansu Corridor"
+ TNG_Opportunity_and_Banditry:0 "Opportunity and Banditry"
+ TNG_Links_with_the_Soviets:0 "Links with the Soviets"
+ TNG_Military_Loyalists:0 "Military Loyalists"
+ TNG_Accumulate_Wealth:0 "Accumulate Wealth"
+ TNG_Economic_Monopoly:0 "Economic Monopoly"
+ TNG_The_Sellout:0 "The Sellout"
+
+#########################################################################
+#  Tunganistan Decisions
+#########################################################################
+# Ma Zhongying
+ TNG_Ma_Zhongying:0 "Ma Zhongying"
+ TNG_Ma_Zhongying_desc:0 ""
+
+ TNG_Ma_Zhongying_Determined:0 "Determined"
+ TNG_Ma_Zhongying_Pleased:0 "Pleased"
+ TNG_Ma_Zhongying_Frustrated:0 "Frustrated"
+ TNG_Ma_Zhongying_Depressed:0 "Depressed"
+ TNG_Ma_Zhongying_Insane:0 "Insane"
+
+ TNG_Keep_a_Personal_Treasury:0 "Keep a Personal Treasury"
+ TNG_Keep_a_Personal_Treasury_desc:0 ""
+ TNG_Keep_a_Personal_Treasury_tt:0 "§YMa Zhongying§!'s Mood Gains: §G+2§!"
+ TNG_Pick_up_some_Girls:0 "Pick up some Girls"
+ TNG_Pick_up_some_Girls_desc:0 ""
+ TNG_Pick_up_some_Girls_tt:0 "Women: §R-3§!\n"
+ TNG_Go_on_a_Raid:0 "Go on a Raid"
+ TNG_Go_on_a_Raid_desc:0 ""
+ TNG_Hold_a_Party:0 "Hold a Party"
+ TNG_Hold_a_Party_desc:0 ""
+ TNG_Blood_and_Terror:0 "Blood and Terror"
+ TNG_Blood_and_Terror_desc:0 ""
+ TNG_Blood_and_Terror_tt:0 "§YMa Zhongying§!'s Mood Gains: §R-3§!"
+ TNG_Inspect_the_Divisions:0 "Inspect the Divisions"
+ TNG_Inspect_the_Divisions_desc:0 ""
+ TNG_Inspect_the_Divisions_tt:0 "§YMa Zhongying§!'s Mood Gains: §R-2§!"
+ 
+#########################################################################
+#  Tunganistan Ideas
+#########################################################################
+ TNG_Army_is_the_State:0 "Army is the State"
+ TNG_Army_is_the_State_desc:0 ""
+
+ TNG_Dungans_Armies:0 "Dungans Armies"
+ TNG_Dungans_Armies_desc:0 ""
+
+ TNG_Overwhelming_Illiterracy:0 "Overwhelming Illiterracy"
+ TNG_Overwhelming_Illiterracy_desc:0 ""
+
+ TNG_Centralised_Economy:0 "Centralised Economy"
+ TNG_Centralised_Economy_desc:0 ""
+
+ TNG_Centralised_Economy:0 "Uyghur unrest"
+ TNG_Centralised_Economy_desc:0 ""
+ 
+ TNG_Centralised_Economy_2:0 "Oppresion of Uyghurs"
+ TNG_Centralised_Economy_2_desc:0 ""

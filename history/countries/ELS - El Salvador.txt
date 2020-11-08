@@ -1,0 +1,83 @@
+﻿#########################################################################
+# El Salvador - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 314
+	set_convoys = 5
+	oob = "ELS_1933"
+	
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Fighter_1933 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_country_flag = monroe_doctrine
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1935.1.15"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 7
+		authoritarian = 49
+		democratic = 38
+		socialist = 6
+		communist = 0
+	}
+	#######################
+	# Leaders
+	#######################
+	# Autocracy
+	create_country_leader = {
+		name = "Maximiliano Hernández Martínez"
+		desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
+		picture = "P_A_Maximiliano_Martinez.tga"
+		expire = "1965.1.1"
+		ideology = military_dictatorship
+		traits = { POSITION_President SUBIDEOLOGY_Military_Dictatorship HoS_Resigned_Generalissimo }
+	}
+}
+#########################################################################
+# El Salvador - 1936
+#########################################################################
+1936.1.1 = {
+	oob = "ELS_1936"
+	#######################
+	# Research
+	#######################	
+	set_technology = {
+		Artillery_1910 = 1
+		Anti_Aircraft_Gun_1935 = 1
+	}
+}
+#########################################################################
+# El Salvador - 1944
+#########################################################################
+1944.6.20 = {
+	#######################
+	# Politics
+	#######################	
+	set_party_name = {
+		ideology = authoritarian 
+		name = ELS_authoritarian_military_dictatorship_party 
+		long_name = ELS_authoritarian_military_dictatorship_party_long 
+	}	
+	#######################
+	# Leaders
+	#######################
+	# Autocracy
+	create_country_leader = {
+		name = "Andrés Ignacio Menéndez"
+		desc = ""
+		picture = "P_A_Andres_Ignacio_Menendez.tga"
+		expire = "1965.1.1"
+		ideology = military_dictatorship
+		traits = { POSITION_President SUBIDEOLOGY_Military_Dictatorship HoS_Benevolent_Gentleman }
+	}
+}

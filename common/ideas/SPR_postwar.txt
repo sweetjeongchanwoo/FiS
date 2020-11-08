@@ -1,0 +1,279 @@
+ideas = {
+
+	country = {
+		SPR_civil_war_scars = { 
+			modifier = {
+				army_org_factor = -0.05
+				war_support_factor = -0.20
+				industrial_capacity_factory = -0.10
+				stability_factor = -0.3
+				MONTHLY_POPULATION = -2.0
+				political_power_gain = -0.5
+				research_speed_factor = -0.1
+				ai_get_ally_desire_factor = -1000
+			}
+		}
+		SPR_a_new_spain = { #No Parason
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				industry_repair_factor = 0.1
+			}
+		}
+		SPR_land_reform = {
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				global_building_slots_factor = 0.20
+			}
+		}
+		SPR_leading_economists = {
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		SPR_regional_autonomy = {
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		SPR_agrarian_fund = {
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = 0.02
+			}
+		}
+		SPR_war_rations = {
+			modifier = {
+				conscription_factor = 0.15
+				consumer_goods_factor = 0.05
+			}
+		}
+		SPR_modern_labor_laws = {
+			modifier = {
+				industrial_capacity_factory = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				consumer_goods_factor = 0.02
+			}
+		}
+		SPR_standardized_legislation = {
+			modifier = {
+				political_power_gain = 0.2
+				stability_factor = 0.05
+				consumer_goods_factor = 0.02
+			}
+		}
+		SPR_reconciliation_1 = {
+			modifier = {
+				political_power_gain = -1.0
+				stability_factor = 0.05
+			}
+		}
+		SPR_reconciliation_2 = {
+			modifier = {
+				political_power_gain = -1.0
+				stability_factor = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		SPR_reconciliation_3 = {
+			modifier = {
+				political_power_gain = -1.0
+				stability_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				democratic_drift = 0.1
+			}
+		}
+		SPR_reconciliation_4 = {
+			modifier = {
+				political_power_gain = -1.0
+				stability_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.05
+			}
+		}
+		SPR_reconciliation_5 = {
+			modifier = {
+				political_power_gain = -1.0
+				stability_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				democratic_drift = 0.1
+				research_speed_factor = 0.05
+			}
+		}
+		SPR_peoples_militia_1 = {
+			modifier = {
+				war_support_factor = 0.05
+				army_org_factor = -0.3
+				stability_factor = -0.1
+				army_morale_factor = 0.05
+				max_planning = -0.1
+			}
+			research_bonus = { land_doctrine = -0.1 }
+		}
+		SPR_peoples_militia_2 = {
+			modifier = {
+				war_support_factor = 0.05
+				army_org_factor = -0.2
+				stability_factor = -0.1
+				max_planning = -0.1
+			}
+			research_bonus = { land_doctrine = -0.1 }
+		}
+		SPR_peoples_militia_3 = {
+			modifier = {
+				conscription_factor = 0.1
+				industrial_capacity_factory = 0.05
+				war_support_factor = 0.05
+				army_org_factor = -0.2
+				stability_factor = -0.1
+				max_planning = -0.1
+			}
+			research_bonus = { land_doctrine = -0.1 }
+		}
+		SPR_peoples_militia_4 = { #Pacifism
+			modifier = {
+				conscription_factor = 0.1
+				industrial_capacity_factory = 0.05
+				war_support_factor = -0.05
+				army_org_factor = -0.2
+				max_planning = -0.1
+			}
+			research_bonus = { land_doctrine = -0.1 }
+		}
+		SPR_peoples_militia_5 = { #Defense of North and West
+			modifier = {
+				conscription_factor = 0.1
+				industrial_capacity_factory = 0.05
+				war_support_factor = 0.15
+				army_org_factor = -0.2
+				stability_factor = -0.05
+				max_planning = -0.1
+				army_core_defence_factor = 0.1
+			}
+			research_bonus = { land_doctrine = -0.1 }
+		}
+		SPR_peoples_militia_6 = { #Pacifism + Disarm Syndicates
+			modifier = {
+				conscription_factor = 0.1
+				industrial_capacity_factory = 0.05
+				war_support_factor = -0.05
+				army_org_factor = -0.1
+				max_planning = -0.1
+			}
+			research_bonus = { land_doctrine = -0.05 }
+		}
+		SPR_peoples_militia_7 = { #Defense of North and West + Disarm Syndicates
+			modifier = {
+				conscription_factor = 0.1
+				industrial_capacity_factory = 0.05
+				war_support_factor = 0.15
+				army_org_factor = -0.1
+				stability_factor = -0.05
+				max_planning = -0.1
+				army_core_defence_factor = 0.1
+			}
+			research_bonus = { land_doctrine = -0.05 }
+		}
+		SPR_peoples_militia_8 = { #Pacifism + Disarm Syndicates + Madrid Commands
+			modifier = {
+				conscription_factor = 0.1
+				industrial_capacity_factory = 0.05
+				war_support_factor = -0.05
+				max_command_power = 10
+			}
+			research_bonus = { land_doctrine = -0.05 }
+		}
+		SPR_peoples_militia_9 = { #Defense of North and West + Disarm Syndicates + Madrid Commands
+			modifier = {
+				conscription_factor = 0.1
+				industrial_capacity_factory = 0.05
+				war_support_factor = 0.15
+				stability_factor = -0.05
+				army_core_defence_factor = 0.1
+				max_command_power = 10
+			}
+			research_bonus = { land_doctrine = -0.05 }
+		}
+		SPR_peoples_militia_10 = { #Pacifism + Disarm Syndicates + The Provinces Command
+			modifier = {
+				conscription_factor = 0.1
+				conscription = 0.005
+				industrial_capacity_factory = 0.05
+				war_support_factor = -0.05
+				army_org_factor = -0.05
+				max_planning = -0.1
+			}
+			research_bonus = { land_doctrine = -0.05 }
+		}
+		SPR_peoples_militia_11 = { #Defense of North and West + Disarm Syndicates + The Provinces Command
+			modifier = {
+				conscription_factor = 0.1
+				conscription = 0.005
+				industrial_capacity_factory = 0.05
+				war_support_factor = 0.15
+				army_org_factor = -0.05
+				stability_factor = -0.05
+				max_planning = -0.1
+				army_core_defence_factor = 0.1
+			}
+			research_bonus = { land_doctrine = -0.05 }
+		}
+		SPR_peoples_militia_12 = { #Pacifism + Disarm Syndicates + Madrid Commands + Prof Army
+			modifier = {
+				conscription_factor = 0.1
+				industrial_capacity_factory = 0.05
+				war_support_factor = -0.05
+				max_command_power = 10
+				research_speed_factor = 0.02
+			}
+			research_bonus = { land_doctrine = -0.05 }
+		}
+		SPR_peoples_militia_13 = { #Defense of North and West + Disarm Syndicates + Madrid Commands + Prof Army
+			modifier = {
+				conscription_factor = 0.1
+				industrial_capacity_factory = 0.05
+				war_support_factor = 0.15
+				stability_factor = -0.05
+				army_core_defence_factor = 0.1
+				max_command_power = 10
+				research_speed_factor = 0.02
+			}
+			research_bonus = { land_doctrine = -0.05 }
+		}
+		SPR_peoples_militia_14 = { #Pacifism + Disarm Syndicates + The Provinces Command + Prof Army
+			modifier = {
+				conscription_factor = 0.1
+				conscription = 0.005
+				industrial_capacity_factory = 0.05
+				war_support_factor = -0.05
+				army_org_factor = -0.05
+				max_planning = -0.1
+				research_speed_factor = 0.02
+			}
+			research_bonus = { land_doctrine = -0.05 }
+		}
+		SPR_peoples_militia_15 = { #Defense of North and West + Disarm Syndicates + The Provinces Command + Prof Army
+			modifier = {
+				conscription_factor = 0.1
+				conscription = 0.005
+				industrial_capacity_factory = 0.05
+				war_support_factor = 0.15
+				army_org_factor = -0.05
+				stability_factor = -0.05
+				max_planning = -0.1
+				army_core_defence_factor = 0.1
+				research_speed_factor = 0.02
+			}
+			research_bonus = { land_doctrine = -0.05 }
+		}
+		SPR_liberal_welfare = {
+			modifier = {
+				political_power_gain = -0.5
+				stability_factor = 0.05
+			}
+		}
+	}
+}

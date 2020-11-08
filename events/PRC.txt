@@ -1,0 +1,313 @@
+﻿#########################################################################
+# Darkest Hour Events : PRC
+#########################################################################
+add_namespace = DH_PRC_CSR
+add_namespace = DH_PRC_CSR_Wang_Ming
+add_namespace = DH_PRC_CSR_Strengthen_28_Bolsheviks
+add_namespace = DH_PRC_CSR_Fortify_the_Bases
+add_namespace = DH_PRC_CSR_The_Left_Cannot_Be_Wrong
+add_namespace = DH_PRC_CSR_The_Long_March
+add_namespace = DH_PRC_CSR_Call_the_Generals
+add_namespace = DH_PRC_CSR_Call_the_Cadres
+add_namespace = DH_PRC_Fourth_Encirclement
+
+country_event = {
+	id = DH_PRC_Fourth_Encirclement.1
+	title = DH_PRC_Fourth_Encirclement.1.t
+	desc = DH_PRC_Fourth_Encirclement.1.d
+	picture = GFX_event_picture
+	fire_only_once = yes
+    is_triggered_only = yes
+
+	option = {
+		name = DH_PRC_Fourth_Encirclement.1.A
+	}
+}
+
+###########################
+#  Wang Ming Returns to China
+###########################
+country_event = {
+	id = DH_PRC_CSR_Wang_Ming.1
+	title = DH_PRC_CSR_Wang_Ming.1.t
+	desc = DH_PRC_CSR_Wang_Ming.1.d
+	picture = GFX_report_PRC_Wang_Ming
+	fire_only_once = yes
+    is_triggered_only = yes
+
+	# Welcome to the CSR
+	option = {
+		name = DH_PRC_CSR_Wang_Ming.1.A
+        create_country_leader = {
+            name = "Wang Ming"
+            desc = "Wang_Ming_desc"
+            picture = "P_C_Wang_Ming.tga"
+            expire = "1965.1.1"
+            ideology = marxism_leninism
+            traits = { POSITION_Chairman SUBIDEOLOGY_Marxism_Leninism HoS_Autocratic_Charmer }
+        }
+	}
+}
+
+country_event = {
+	id = DH_PRC_CSR_Strengthen_28_Bolsheviks.1
+	title = DH_PRC_CSR_Strengthen_28_Bolsheviks.1.t
+	desc = DH_PRC_CSR_Strengthen_28_Bolsheviks.1.d
+	picture = GFX_report_Strengthen_28_Bolsheviks
+	fire_only_once = yes
+    is_triggered_only = yes
+
+	# Strenghten 28 Bolsheviks
+	option = {
+		name = DH_PRC_CSR_Strengthen_28_Bolsheviks.1.A
+        add_political_power = 80
+	}
+}
+
+country_event = {
+	id = DH_PRC_CSR_Fortify_the_Bases.1 
+	title = DH_PRC_CSR_Fortify_the_Bases.1.t
+	desc = DH_PRC_CSR_Fortify_the_Bases.1.d
+	picture = GFX_report_Fortify_the_Bases.1
+	fire_only_once = yes
+    is_triggered_only = yes
+    #Jiangxi only
+	option = {
+		name = DH_PRC_CSR_Fortify_the_Bases.1.A
+        #Jiangnang forts
+		902 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 1138
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 10084
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 1006
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 7099
+				}
+		}
+		903 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 7141
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 1078
+				}
+		}
+	}
+	#give forts to main 3
+	option = {
+		name = DH_PRC_CSR_Fortify_the_Bases.1.B
+        #Jiangnang Forts
+        902 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 1006
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 1138
+				}
+		}
+		861 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 7201
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 5030
+				}
+		}
+		901 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 10144
+				}
+		}
+	}
+	#share forts
+	option = {
+		name = DH_PRC_CSR_Fortify_the_Bases.1.C
+		#Jiangnang forts
+		#Juilong forts
+        901 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 10144
+				}
+		}
+		861 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 7201
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 5030
+				}
+		}
+		909 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 12495
+				}
+		}
+		908 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 1083
+				}
+		}
+		902 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 1006
+				}
+		}
+	}
+}
+country_event = {
+	id = DH_PRC_CSR_The_Left_Cannot_Be_Wrong.1
+	title = DH_PRC_CSR_The_Left_Cannot_Be_Wrong.1.t
+	desc = DH_PRC_CSR_The_Left_Cannot_Be_Wrong.1.d
+	picture = GFX_report_The_Left_Cannot_Be_Wrong
+	fire_only_once = yes
+    is_triggered_only = yes
+
+	# Left Cannot be wrong
+	option = {
+		name = DH_PRC_CSR_The_Left_Cannot_Be_Wrong.1.A
+        retire_country_leader = yes
+		create_country_leader = {
+			name = "Zhou_Enlai"
+			desc = "POLITICS_ZHOU_ENLAI_DESC"
+			picture = ""
+			expire = "1976.1.1"
+			ideology = marxism_leninism
+			traits = {
+				POSITION_Chairman SUBIDEOLOGY_Maoism
+			}
+		}
+	}
+}
+country_event = {
+	id = DH_PRC_CSR_The_Long_March.1
+	title = DH_PRC_CSR_The_Long_March.1.t
+	desc = DH_PRC_CSR_The_Long_March.1.d
+	picture = GFX_report_The_Long_March
+	fire_only_once = yes
+    is_triggered_only = yes
+
+	# Left Cannot be wrong
+	option = {
+		name = DH_PRC_CSR_The_Long_March.1.A
+        #begin long march
+	}
+}
+country_event = {
+	id = DH_PRC_CSR_Call_the_Generals.1
+	title = DH_PRC_CSR_Call_the_Generals.1.t
+	desc = DH_PRC_CSR_Call_the_Generals.1.d
+	picture = GFX_report_Call_the_Generals
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	# Complete change
+	option = {
+		name = DH_PRC_CSR_Call_the_Generals.1.A
+        swap_ideas = {
+     		remove_idea = PRC_CoStaff_Liu_Bocheng
+     		add_idea = PRC_CoStaff_Ye_Jianying
+		}
+		swap_ideas = {
+     		remove_idea = PRC_CoArmy_Zhu_De
+     		add_idea = PRC_CoArmy_Peng_Dehuai
+		}
+		swap_ideas = {
+     		remove_idea = PRC_HoI_Li_Kenong
+     		add_idea = PRC_HoI_Luo_Ruiqing
+		}
+		#remove otto, add mao
+	}
+	# Limited reform
+	option = {
+		name = DH_PRC_CSR_Call_the_Generals.1.B
+        swap_ideas = {
+     		remove_idea = PRC_HoI_Li_Kenong
+     		add_idea = PRC_HoI_Luo_Ruiqing
+		}
+		#remove otto, add mao
+	}
+	# No change
+	option = {
+		name = DH_PRC_CSR_Call_the_Generals.1.C
+	}
+}
+country_event = {
+	id = DH_PRC_CSR_Call_the_Cadres.1
+	title = DH_PRC_CSR_Call_the_Cadres.1.t
+	desc = DH_PRC_CSR_Call_the_Cadres.1.d
+	picture = GFX_report_Call_the_Cadres
+	fire_only_once = yes
+    is_triggered_only = yes
+
+	# Zunyi Conference
+	option = {
+		name = DH_PRC_CSR_Call_the_Cadres.1.A
+        retire_country_leader = yes
+		create_country_leader = {
+			name = "Zhou_Enlai"
+			desc = "POLITICS_ZHOU_ENLAI_DESC"
+			picture = ""
+			expire = "1976.1.1"
+			ideology = marxism_leninism
+			traits = {
+				POSITION_Chairman SUBIDEOLOGY_Maoism 
+			}
+		}
+	}
+}

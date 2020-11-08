@@ -1,0 +1,147 @@
+﻿#########################################################################
+# Egypt - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 446
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+	}
+
+	set_convoys = 20
+
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1933.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 70
+		democratic = 30
+		socialist = 0
+		communist = 0
+	}
+	set_cosmetic_tag = EGY_KINGDOM
+	###############################
+	# Leaders 
+	###############################
+	# Fascism
+	create_country_leader = {
+		name = "Ahmed Husayn"
+		desc = ""
+		picture = ".tga"
+		expire = "1965.1.1"
+		ideology = fascism
+		traits = {}
+	}
+	# Authoritarianism
+	create_country_leader = {
+		name = "Fuad I"
+		desc = ""
+		picture = "P_A_Fuad_I.tga"
+		expire = "1936.4.28"
+		ideology = monarchism
+		traits = { POSITION_King SUBIDEOLOGY_Monarchism }
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Ali Mahir Pasha"
+		desc = ""
+		picture = ".tga"
+		expire = "1938.1.1"
+		ideology = social_conservatism
+		traits = {}
+	}
+	# Socialism
+	create_country_leader = {
+		name = "Gamal Abdel Nasser"
+		desc = ""
+		picture = "P_S_Gamel_Abdul_Nasser.tga"
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {}
+	}
+	# Communism
+	create_country_leader = {
+		name = "Abdel Hakim Amer"
+		desc = ""
+		picture = ".tga"
+		expire = "1965.1.1"
+		ideology = trotskyism
+		traits = {}
+	}
+}
+
+#########################################################################
+# Egypt - 1939
+#########################################################################
+1939.1.1 = {
+	###############################
+	# Leaders 
+	###############################
+	# Authoritarianism
+	create_country_leader = {
+		name = "Farouk I"
+		desc = ""
+		picture = "P_A_Farouk_I.tga"
+		expire = "1965.3.8"
+		ideology = monarchism
+		traits = { POSITION_King SUBIDEOLOGY_Monarchism }
+	}
+}
+
+#########################################################################
+# Egypt - 1953
+#########################################################################
+1953.1.1 = {
+	set_cosmetic_tag = EGY_ARABREP
+	###############################
+	# Leaders 
+	###############################
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Mohamed Naguib"
+		desc = ""
+		picture = "P_A_Mohamed_Naguib.tga"
+		expire = "1965.1.1"
+		ideology = military_dictatorship
+		traits = {}
+	}
+}
+#########################################################################
+# Egypt - 1960
+#########################################################################
+1960.1.1 = {
+	###############################
+	# Politics 
+	###############################
+	set_cosmetic_tag = EGY_UAR
+	set_politics = {
+		ruling_party = socialist
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 5
+		authoritarian = 15
+		democratic = 0
+		socialist = 80
+		communist = 0
+	}
+}

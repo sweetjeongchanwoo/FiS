@@ -1,0 +1,22 @@
+﻿l_english:
+
+ RULE_OPTION_GER_Fascist_Historical:0 "National Socialist - Historical"
+ RULE_OPTION_GER_Fascist_Historical_DESC:0 "The tides of history are now at a full course for war, and Hitler's Thousand Year Old Reich shall be the fire that will light up the world in flame."
+
+ RULE_OPTION_GER_Kaiserreich_Wilhelm_II:0 "Kaiserreich - Wilhelm II"
+ RULE_OPTION_GER_Kaiserreich_Wilhelm_II_DESC:0 "The Divine Rights of Kings and Kaisers are now restored, as Kaiser Wilhelm II shall turn the clock, back to an era where the fires of Monarchism shall burn bright, to die out the fires of Liberty and Republicanism."
+
+ RULE_OPTION_GER_Kaiserreich_Wilhelm_III:0 "Kaiserreich - Wilhelm III"
+ RULE_OPTION_GER_Kaiserreich_Wilhelm_III_DESC:0 "The monarchs of the old are now long forgotten, as a new generation of Kings and Kaisers shall arise, with Kaiser Wilhelm III as a symbol of a new era for Monarchism of the Modern Age."
+
+ RULE_OPTION_GER_Strasserist_Gregor:0 "Strasserist - Gregor"
+ RULE_OPTION_GER_Strasserist_Gregor_DESC:0 "While the Führer is long gone and his tyrannical rule at an end, his vision for Deutschland hasn't, and Gregor Strasser shall go down a different path, wherein Revanchism rules the revolution at hand!"
+
+ RULE_OPTION_GER_Strasserist_Otto:0 "Strasserist - Otto"
+ RULE_OPTION_GER_Strasserist_Otto_DESC:0 "While the Führer is long gone and his tyrannical rule at an end, his vision for Deutschland hasn't, and Gregor Strasser shall go down a different path, wherein Revanchism rules the revolution at hand!"
+
+ RULE_MAX_AMOUNT_OF_DIVISIONS_PER_GENERAL: "Max. amount of divisions per general"
+ RULE_MAX_AMOUNT_OF_DIVISIONS_PER_GENERAL_NORMAL: "§Y16§! Divisions"
+ RULE_MAX_AMOUNT_OF_DIVISIONS_PER_GENERAL_NORMAL_DESC: "A general can command up to §Y16§! Divisions."
+ RULE_MAX_AMOUNT_OF_DIVISIONS_PER_GENERAL_PLUS_8: "§Y24§! Divisions"
+ RULE_MAX_AMOUNT_OF_DIVISIONS_PER_GENERAL_PLUS_8_DESC: "A general can command up to §Y24§! Divisions."

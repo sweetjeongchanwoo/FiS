@@ -1,0 +1,80 @@
+﻿division_template = {
+	name = "Jalaväediviisi"
+	division_names_group = EST_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		artillery_battalion = { x = 1 y = 0 }
+		artillery_battalion = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		armored_car_recon = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	######## LAND OOB ########
+	##### Maavägi #####
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+        location = 11127 # Rakvere
+        division_template = "Jalaväediviisi"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.3 #These were all almost entirely cadre units
+    }
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+        location = 9221 # Tartu
+        division_template = "Jalaväediviisi"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.3 #These were all almost entirely cadre units
+    }
+
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+        location = 3152 # Tallinn
+        division_template = "Jalaväediviisi"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.3 #These were all almost entirely cadre units
+    }
+	##### No Naval OOB -- 2 SSs in 1937 #####
+}
+
+air_wings = {
+	### Eesti Ohuvägi
+	13 = {
+		# Hävitajate Grupp -- Bristol Bulldogs, GL 22.B3s
+		Fighter_equipment_1933 =  {
+			owner = "EST" 
+			amount = 50
+		}
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1936
+			creator = "EST"
+		}
+		requested_factories = 1
+		progress = 0.9
+		efficiency = 100
+	}
+}

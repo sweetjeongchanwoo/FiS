@@ -1,0 +1,281 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "División de Infantería" 		# Used for both regular infantry divisions and larger garrison divisions
+	# Note: Spanish divisions were 2x brigades of 2x2 rgts each, + support
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_battalion = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
+		engineer = { x = 0 y = 1 }   # Eng Bn
+	}
+}
+division_template = {
+	name = "División de Caballería"  		# Only one Cavalry Division (3x bge of 2x2 Rgts)
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		cavalry = { x = 2 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of motorcycles and ACs
+	}
+}
+division_template = {
+	name = "Brigada Montaña"  		# Mountain Brigades were 2x2 Rgts + support
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
+	}
+}
+division_template = {
+	name = "Commandancia"  		# Garrison troops
+
+	regiments = {
+		garrison = { x = 0 y = 0 }	
+		garrison = { x = 0 y = 1 }
+		garrison = { x = 1 y = 0 }
+		garrison = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Milicias Confederales"	#Quickly Trained Militia Units
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Milicias Syndicales"	#Quickly Trained Militia Units
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Brigada Internationale"	#International Volunteers
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+
+#### OOB ####
+units = {
+	### Asturias Republicans (Asturias) ###
+	division = {
+		name = "I Milicias Syndicales"
+		location = 3729  # Asturias
+		division_template = "Milicias Syndicales"
+	}
+	division = {
+		name = "1a Brigada Montaña"
+		location = 3729  # Asturias
+		division_template = "Brigada Montaña"
+	}
+	### Basque Republicans (Bilbao) ###
+	division = {
+		name = "II Milicias Syndicales"
+		location = 740  # Bilbao
+		division_template = "Milicias Syndicales"
+	}
+	division = {
+		name = "III Milicias Syndicales"
+		location = 740  # Bilbao
+		division_template = "Milicias Syndicales"
+	}
+	### Madrid Republicans (Madrid) ###
+	division = {
+		name = "1a División de Infantería"
+		location = 3938  # Madrid
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "2a División de Infantería"
+		location = 3938  # Madrid
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "IV Milicias Syndicales"
+		location = 3938  # Madrid
+		division_template = "Milicias Syndicales"
+	}
+	division = {
+		name = "I Milicias Confederales"
+		location = 3938  # Madrid
+		division_template = "Milicias Confederales"
+	}
+	division = {
+		name = "II Milicias Confederales"
+		location = 3938  # Madrid
+		division_template = "Milicias Confederales"
+	}
+	division = {
+		name = "III Milicias Confederales"
+		location = 3938  # Madrid
+		division_template = "Milicias Confederales"
+	}
+	### Catalonia Republicans (Barcelona) ###
+	division = {
+		name = "IV Milicias Confederales"
+		location = 9764  # Barcelona
+		division_template = "Milicias Confederales"
+	}
+	division = {
+		name = "V Milicias Confederales"
+		location = 9764  # Barcelona
+		division_template = "Milicias Confederales"
+	}
+	division = {
+		name = "VI Milicias Confederales"
+		location = 9764  # Barcelona
+		division_template = "Milicias Confederales"
+	}
+	division = {
+		name = "VII Milicias Confederales"
+		location = 9764  # Barcelona
+		division_template = "Milicias Confederales"
+	}
+	division = {
+		name = "División de Caballería"
+		location = 9764  # Barcelona
+		division_template = "División de Caballería"
+	}
+	division = {
+		name = "V Milicias Syndicales"
+		location = 9764  # Barcelona
+		division_template = "Milicias Syndicales"
+	}
+	### Valencia Republicans (Valencia) ###
+	division = {
+		name = "3a División de Infantería"
+		location = 6906  # Valencia
+		division_template = "División de Infantería"
+	}
+	division = {
+		name = "VIII Milicias Confederales"
+		location = 6906  # Valencia
+		division_template = "Milicias Confederales"
+	}
+	division = {
+		name = "IX Milicias Confederales"
+		location = 6906  # Valencia
+		division_template = "Milicias Confederales"
+	}
+	### Extremadura Republicans ###
+	division = {
+		name = "VI Milicias Syndicales"
+		location = 9877  # Extremadura 
+		division_template = "Milicias Syndicales"
+	}
+	division = {
+		name = "VII Milicias Syndicales"
+		location = 9877  # Extremadura 
+		division_template = "Milicias Syndicales"
+	}
+	### Granada Republicans ###
+	division = {
+		name = "VIII Milicias Syndicales"
+		location = 4095  # Granada 
+		division_template = "Milicias Syndicales"
+	}
+	division = {
+		name = "IX Milicias Syndicales"
+		location = 4095  # Granada 
+		division_template = "Milicias Syndicales"
+	}
+	### Republican Navy ###
+	navy = {
+		name = "Republican Navy"
+		base = 6906
+		location = 6906  #Valencia
+		ship = { name = "ARE Jaime I" definition = battleship equipment = { BB_equipment_1900 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Méndez Núñez" definition = light_cruiser equipment = { CL_equipment_1922 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE República" definition = light_cruiser equipment = { CL_equipment_1922 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { CL_equipment_1922 = { amount = 1 owner = SPR } } }
+		ship = { name = "Sánchez Barcáiztegui" definition = destroyer equipment = { DD_equipment_1916 = { amount = 1 owner = SPR } } }
+		ship = { name = "José Luis Díez" definition = destroyer equipment = { DD_equipment_1916 = { amount = 1 owner = SPR } } }
+		ship = { name = "Almirante Ferrándiz" definition = destroyer equipment = { DD_equipment_1916 = { amount = 1 owner = SPR } } }
+		ship = { name = "Lepanto" definition = destroyer equipment = { DD_equipment_1916 = { amount = 1 owner = SPR } } }
+		ship = { name = "Churruca" definition = destroyer equipment = { DD_equipment_1916 = { amount = 1 owner = SPR } } }
+		ship = { name = "Alcalá Galiano" definition = destroyer equipment = { DD_equipment_1916 = { amount = 1 owner = SPR } } }
+		ship = { name = "Almirante Valdés" definition = destroyer equipment = { DD_equipment_1916 = { amount = 1 owner = SPR } } }
+		ship = { name = "Almirante Antequera" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = SPR } } }
+		ship = { name = "Almirante Miranda" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = SPR } } }
+		ship = { name = "Císcar" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = SPR } } }
+		ship = { name = "Escaño" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = SPR } } }
+		ship = { name = "Gravina" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = SPR } } }
+		ship = { name = "Jorge Juan" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = SPR } } }
+		ship = { name = "Ulloa" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = SPR } } }		
+		ship = { name = "A-1" definition = submarine equipment = { SS_equipment_1916 = { amount = 1 owner = SPR } } }
+		ship = { name = "A-2" definition = submarine equipment = { SS_equipment_1916 = { amount = 1 owner = SPR } } }
+		ship = { name = "A-3" definition = submarine equipment = { SS_equipment_1916 = { amount = 1 owner = SPR } } }
+		ship = { name = "A-4" definition = submarine equipment = { SS_equipment_1916 = { amount = 1 owner = SPR } } }
+		ship = { name = "A-5" definition = submarine equipment = { SS_equipment_1916 = { amount = 1 owner = SPR } } }
+		ship = { name = "A-6" definition = submarine equipment = { SS_equipment_1916 = { amount = 1 owner = SPR } } }
+		ship = { name = "B-1" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = SPR } } }
+		ship = { name = "B-2" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = SPR } } }
+		ship = { name = "B-3" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = SPR } } }
+		ship = { name = "B-4" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = SPR } } }
+		ship = { name = "B-5" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = SPR } } }
+		ship = { name = "B-6" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = SPR } } }
+	}
+}
+
+### Air Wings
+air_wings = {
+	# Arma de Aviación -- Madrid (Getafe)
+	41 = { 
+		# Grupo n.1 de Caza FARE 'Alas Rojas'
+		Fighter_equipment_1933 = {
+			owner = "SPR" 
+			amount = 15
+		}
+		Naval_Bomber_equipment_1936 = {
+			owner = "SPR" 
+			amount = 10
+		}
+	}
+}

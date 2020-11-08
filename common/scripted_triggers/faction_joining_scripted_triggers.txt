@@ -1,0 +1,579 @@
+can_join_allies = {
+	custom_trigger_tooltip = {
+		tooltip = dh_faction_join_allies_neightbor_tt
+		OR = {
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = is_allies_faction
+						has_country_flag = is_allies_leader
+					}
+					capital_scope = { is_on_continent = asia }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = asia }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = is_allies_faction
+						has_country_flag = is_allies_leader
+					}
+					capital_scope = { is_on_continent = europe }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = europe }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = is_allies_faction
+						has_country_flag = is_allies_leader
+					}
+					capital_scope = { is_on_continent = north_america }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = north_america }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = is_allies_faction
+						has_country_flag = is_allies_leader
+					}
+					capital_scope = { is_on_continent = south_america }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = south_america }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = is_allies_faction
+						has_country_flag = is_allies_leader
+					}
+					capital_scope = { is_on_continent = australia }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = australia }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = is_allies_faction
+						has_country_flag = is_allies_leader
+					}
+					capital_scope = { is_on_continent = africa }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = africa }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = is_allies_faction
+						has_country_flag = is_allies_leader
+					}
+					capital_scope = { is_on_continent = middle_east }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = middle_east }
+				}
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = dh_faction_join_allies_leader_opinion_tt
+		any_country = {
+			has_country_flag = is_allies_leader
+			has_opinion = { target = FROM value > 20 }
+		}
+	}
+	OR = {
+		AND = {
+			threat > 0.8
+			NOT = { has_idea = neutrality_idea }
+		}
+		AND = {
+			threat > 0.5
+			has_defensive_war = yes
+			NOT = { has_idea = neutrality_idea }
+		}
+		AND = {
+			threat > 0.99
+			OR = {
+				has_idea = neutrality_idea
+			}
+		}
+	}
+}
+
+can_join_axis = {
+	custom_trigger_tooltip = {
+		tooltip = dh_faction_join_allies_neightbor_tt
+		OR = {
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_axis_faction
+						has_country_flag = is_axis_leader
+					}
+					capital_scope = { is_on_continent = asia }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = asia }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_axis_faction
+						has_country_flag = is_axis_leader
+					}
+					capital_scope = { is_on_continent = europe }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = europe }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_axis_faction
+						has_country_flag = is_axis_leader
+					}
+					capital_scope = { is_on_continent = north_america }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = north_america }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_axis_faction
+						has_country_flag = is_axis_leader
+					}
+					capital_scope = { is_on_continent = south_america }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = south_america }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_axis_faction
+						has_country_flag = is_axis_leader
+					}
+					capital_scope = { is_on_continent = australia }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = australia }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_axis_faction
+						has_country_flag = is_axis_leader
+					}
+					capital_scope = { is_on_continent = africa }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = africa }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_axis_faction
+						has_country_flag = is_axis_leader
+					}
+					capital_scope = { is_on_continent = middle_east }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = middle_east }
+				}
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = dh_faction_join_axis_leader_opinion_tt
+		any_country = {
+			has_country_flag = is_axis_leader
+			has_opinion = { target = FROM value > 20 }
+		}
+	}
+	OR = {
+		AND = {
+			threat > 0.8
+			NOT = { has_idea = neutrality_idea }
+		}
+		AND = {
+			threat > 0.5
+			has_defensive_war = yes
+			NOT = { has_idea = neutrality_idea }
+		}
+		AND = {
+			threat > 0.99
+			OR = {
+				has_idea = neutrality_idea
+			}
+		}
+	}
+}
+
+can_join_comintern = {
+	custom_trigger_tooltip = {
+		tooltip = dh_faction_join_allies_neightbor_tt
+		OR = {
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_comintern_faction
+						has_country_flag = is_comintern_leader
+					}
+					capital_scope = { is_on_continent = asia }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = asia }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_comintern_faction
+						has_country_flag = is_comintern_leader
+					}
+					capital_scope = { is_on_continent = europe }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = europe }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_comintern_faction
+						has_country_flag = is_comintern_leader
+					}
+					capital_scope = { is_on_continent = north_america }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = north_america }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_comintern_faction
+						has_country_flag = is_comintern_leader
+					}
+					capital_scope = { is_on_continent = south_america }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = south_america }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_comintern_faction
+						has_country_flag = is_comintern_leader
+					}
+					capital_scope = { is_on_continent = australia }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = australia }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_comintern_faction
+						has_country_flag = is_comintern_leader
+					}
+					capital_scope = { is_on_continent = africa }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = africa }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_comintern_faction
+						has_country_flag = is_comintern_leader
+					}
+					capital_scope = { is_on_continent = middle_east }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = middle_east }
+				}
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = dh_faction_join_comintern_leader_opinion_tt
+		any_country = {
+			has_country_flag = is_comintern_leader
+			has_opinion = { target = FROM value > 20 }
+		}
+	}
+	OR = {
+		AND = {
+			threat > 0.8
+			NOT = { has_idea = neutrality_idea }
+		}
+		AND = {
+			threat > 0.5
+			has_defensive_war = yes
+			NOT = { has_idea = neutrality_idea }
+		}
+		AND = {
+			threat > 0.99
+			OR = {
+				has_idea = neutrality_idea
+			}
+		}
+	}
+}
+
+can_join_asian = {
+	custom_trigger_tooltip = {
+		tooltip = dh_faction_join_allies_neightbor_tt
+		OR = {
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_asia_faction
+						has_country_flag = is_asia_leader
+					}
+					capital_scope = { is_on_continent = asia }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = asia }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_asia_faction
+						has_country_flag = is_asia_leader
+					}
+					capital_scope = { is_on_continent = europe }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = europe }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_asia_faction
+						has_country_flag = is_asia_leader
+					}
+					capital_scope = { is_on_continent = north_america }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = north_america }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_asia_faction
+						has_country_flag = is_asia_leader
+					}
+					capital_scope = { is_on_continent = south_america }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = south_america }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_asia_faction
+						has_country_flag = is_asia_leader
+					}
+					capital_scope = { is_on_continent = australia }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = australia }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_asia_faction
+						has_country_flag = is_asia_leader
+					}
+					capital_scope = { is_on_continent = africa }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = africa }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_asia_faction
+						has_country_flag = is_asia_leader
+					}
+					capital_scope = { is_on_continent = middle_east }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = middle_east }
+				}
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = dh_faction_join_asian_leader_opinion_tt
+		any_country = {
+			has_country_flag = is_asia_leader
+			has_opinion = { target = FROM value > 20 }
+		}
+	}
+	OR = {
+		AND = {
+			threat > 0.8
+			NOT = { has_idea = neutrality_idea }
+		}
+		AND = {
+			threat > 0.5
+			has_defensive_war = yes
+			NOT = { has_idea = neutrality_idea }
+		}
+		AND = {
+			threat > 0.99
+			OR = {
+				has_idea = neutrality_idea
+			}
+		}
+	}
+}
+
+can_join_internationale = {
+	custom_trigger_tooltip = {
+		tooltip = dh_faction_join_allies_neightbor_tt
+		OR = {
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_internationale_faction
+						has_country_flag = is_internationale_leader
+					}
+					capital_scope = { is_on_continent = asia }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = asia }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_internationale_faction
+						has_country_flag = is_internationale_leader
+					}
+					capital_scope = { is_on_continent = europe }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = europe }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_internationale_faction
+						has_country_flag = is_internationale_leader
+					}
+					capital_scope = { is_on_continent = north_america }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = north_america }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_internationale_faction
+						has_country_flag = is_internationale_leader
+					}
+					capital_scope = { is_on_continent = south_america }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = south_america }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_internationale_faction
+						has_country_flag = is_internationale_leader
+					}
+					capital_scope = { is_on_continent = australia }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = australia }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_internationale_faction
+						has_country_flag = is_internationale_leader
+					}
+					capital_scope = { is_on_continent = africa }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = africa }
+				}
+			}
+			AND = {
+				any_country = {
+					OR = {
+						has_country_flag = in_internationale_faction
+						has_country_flag = is_internationale_leader
+					}
+					capital_scope = { is_on_continent = middle_east }
+				}
+				ROOT = {
+					capital_scope = { is_on_continent = middle_east }
+				}
+			}
+		}
+	}
+	custom_trigger_tooltip = {
+		tooltip = dh_faction_join_internationale_leader_opinion_tt
+		any_country = {
+			has_country_flag = is_internationale_leader
+			has_opinion = { target = FROM value > 20 }
+		}
+	}
+	OR = {
+		AND = {
+			threat > 0.8
+			NOT = { has_idea = neutrality_idea }
+		}
+		AND = {
+			threat > 0.5
+			has_defensive_war = yes
+			NOT = { has_idea = neutrality_idea }
+		}
+		AND = {
+			threat > 0.99
+			OR = {
+				has_idea = neutrality_idea
+			}
+		}
+	}
+}

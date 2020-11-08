@@ -1,0 +1,123 @@
+﻿division_template = {
+	name = "Kxng thhār rāb"            # Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Kxng thhār rāb kab thhār mā"            # Infantry Division with Cavalry
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Kxng thhār rāb phrxm wiswkr"            # Infantry Division with Engineers
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+    }
+}
+
+division_template = {
+	name = "Kxng thhār xās̄ā s̄makhr"            # Militia Brigade
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+
+units = {
+	######## LAND OOB ########
+	##### Royal Thai Army #####
+	division = {
+		name = "1. Kxng thhār rāb"
+		location = 7544 # Nakhon Sawan
+		division_template = "Kxng thhār rāb"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+
+	division = {
+		name = "2. Kxng thhār rāb"
+		location = 7544 # Nakhon Sawan
+		division_template = "Kxng thhār rāb"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	##### Royal Thai Police Force #####
+	division = {
+		name = "Kxng bangkhabkār tarwc thiy"
+		location = 7408 # Bangkok
+		division_template = "Kxng thhār xās̄ā s̄makhr"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	######## NAVAL OOB ########
+	fleet = {
+		name = "Kxngthaph reux thiy"
+		naval_base = 7408 # Bangkok
+		task_force = {
+			name = "Kxngthaph reux thiy"
+			location = 7408 # Bangkok
+			ship = { name = "RTNS Sri Ayuthia" definition = light_cruiser equipment = { CL_equipment_1912 = { amount = 1 owner = SIA } } }
+			ship = { name = "RTNS Dhonburi" definition = light_cruiser equipment = { CL_equipment_1912 = { amount = 1 owner = SIA } } }
+			ship = { name = "Phra Ruang Flotille" definition = destroyer equipment = { DD_equipment_1912 = { amount = 1 owner = SIA } } }	
+		}
+	}			
+}
+
+air_wings = {
+	### Royal Siamese Air Force ###
+	289 = {
+		# 1st Air Wing -- Curtis Hawks
+		# 2nd Air Wing -- French WWI biplanes (SPAD.XIII, Ni.23)
+		Fighter_equipment_1933 =  {
+			owner = "SIA" 
+			amount = 60
+		}
+		# 3rd Air Wing -- 3rd gen. Short range Bomber
+		Tactical_Bomber_equipment_1933 =  {
+			owner = "SIA" 
+			amount = 20
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1900
+			creator = "SIA"
+		}
+		requested_factories = 1
+		progress = 0.27
+		efficiency = 100
+	}
+}

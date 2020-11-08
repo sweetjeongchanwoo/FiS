@@ -1,0 +1,488 @@
+﻿l_english:
+#########################################################################
+#  Finland Leaders
+#########################################################################
+ Pehr_Evind_Svinhufvud_desc:0 "When one thinks of a politician, one thinks of someone who serves his own interests. Either that or the interests of someone else. That usually ends up with the people suffering under the politician, and never getting the basic necessities of life.\nBut this politician is not the typical rank and file politician. Oh no, not him. He’s a unique brand of politician, one willing to throw himself for his country. You see, he saw the horrors of war, the carnage man created during the Independence War. Yet he also saw the bravery of his fellow Finn, inspiring him to do the same. He would join militia after militia, serving diligently against the Red Menace. After the war, when the Soviets degenerated into the totalitarian nightmare, he knew….\nHe was right all along.\nBut not just against the left, he was against any form of radicalism, for the country was young, and he would rather die than let it become a socialist hell hole or a fascist police state. When Mäntsälä happened, he made sure that the coup was foiled, but not through bullets, but rather through words. Those words helped to show the rebels the truth, and with just one speech, they dispersed.\nNow it has been nearly 2 decades since the country was set free from the Russian yoke, and he has something to show for it. Regent, Prime Minister, and now President. Truly, this is not your typical politician."
+ Kyosti_Kallio_desc:0 "Time. It is a linear concept. Always in one direction, never changing, never being changed. So one must use it wisely, or else they will have lived a life unfulfilled.\nNot this man. Not Kyösti Kallio.\nBorn to a small family in the Duchy of Finland, this man would eventually become something more than a simple citizen, more than a politician. Instead, he would become a symbol. To the Finnish people.\nKallio would find himself in a perilous situation following the liberation of the country from Provisional Rule. Mainly, where would the country go? Would it become a socialist den of debauchery? Or would it thrive in the flames of war?\nKallio, while a member of the agrarian league, saw the destruction the Reds had done, and instead decided to use the law to suppress these maniacs. \nYet he wasn’t just a man of the law, for he was able to be president multiple times in the ’20s, managing to steer the country towards a more prosperous path.\nKallio has shown us that time can be used more efficiently, achieving many things in such a small amount of time.\nTime may be linear, but it is certainly not uneventful."
+ Risto_Ryti_desc:0 "Finance, and politics. Now normally, those two things should not mix, since the times that happened resulted in less than savory results. Corruption, nepotism, and manipulation of the government to suit one’s needs. However, when the two mix in just the right way, they can produce some spectacular results.\nEnter Risto Ryti.A man who was more than a hideaway during the Independence War, he was able to rise through the government. Yet this was not because of connections, or by his political knowledge, but rather, but his acumen in finance and economics. When he was 23, he was appointed as finance minister under Juho Vennola, managing the economy with precision and efficiency.\nNothing would trump that until he became the governor of the national bank. \nThis one appointment would be his moment.\nHe managed to get the country running after Black Monday, stabilizing the economy and showing the world that Finland was not the backwater it was seen to be. Let this man be an example to all of us of the true strength of the Finnish people, and that we are not the backwater we once were!"
+ Carl_Gustaf_Emil_Mannerheim_desc:0 "Carl Gustaf Emil Mannerheim born 4th of June 1867 was a Finnish military leader born of a German-Swedish noble family, nevertheless he was no less loyal to Finland than any other man that could trace his heritage in Finland for hundreds of years. He was a keypoint figure in the great struggle for the existence of Finland as a self-determined state born of the dying Russian Empire and defender of democratic, republican ideals in spite of the Bolshevik revolution.\n\nMannerheim was, as a young man, trained extensively in the art of warfare on horseback, in fact throughout most of his military record in the Imperial Army he fought with and lead cavalry corps, from being part of the Chevalier Guard Regiment to commanding the Guards Cavalry Brigade; Not only was he highly capable in warfare he also had extensive knowledge and experience in on-the-field intelligence-gathering and espionage after several spent in Asia undercover for the Russian government.\nThe true test of his mettle and abilities came in 1918 with the Bolshevik revolution of Russia spreading itself in the newly formed independent state of Finland, where he didn't only fight the Finnish Red Guard but also remnants of the Russian Imperial Army. Despite the initial situation of advantage for the red guard Mannerheim managed to weather it through his tactical prowess and help from the German Empire. At the end of the day, following months of bloody fighting, the war was over and Mannerheim stood victorious.\n\nDuring the inter-war years, Mannerheim did not assume any political office and did not join any political parties. Although he had his sympathies for the right-wing and did not truly believe in democracy he pursued a policy of nonpartisan often trying to reconcile the right and left-wing in order to face adversities as one nation, united.\nThis policy has borne its fruits as the public opinion of him shifted into that of a uniter and a truly neutral party amongst the bickering of the political parties and as of 1933, he became the Field Marshal of Finland. As the Red Bear rises in the East and the Black Eagle in South Finland's position seems more precarious than ever and it is no doubt that Mannerheim will fill a central role in what is to be this nation's future."
+
+#########################################################################
+#  Finland Events
+#########################################################################
+ DH_finland.1.t:0 "Northern Flank: Finland"
+ DH_finland.1.d:0 "German diplomats have approached us with the offer to take over rightful Finnish territory. Karelia, the Kola Peninsula and Olonetsk are offered for our unconditional membership to the Axis faction. Their reason for abondoning the lands seems to evolve around the harsh winter conditions. Ah well, their problem. If we accept we are expected to function as Germany's northern flank, safeguarding the north of their new possessions in the east."
+ DH_finland.1.a:0 "We Gladly Accept"
+ DH_finland.1.b:0 "We don't need Germany's help"
+
+#########################################################################
+#  Finland Focuses
+#########################################################################
+ FIN_The_Kivimaki_Government_Holds_On:0 "The Kivimäki Government Holds On"
+ FIN_The_Kivimaki_Government_Holds_On_desc:0 ""
+ FIN_The_First_Red_Agrarian_Coalition:0 "The First Red-Agrarian Coalition"
+ FIN_The_First_Red_Agrarian_Coalition_desc:0 ""
+ FIN_A_New_Centrist_Government:0 "A New Centrist Government"
+ FIN_A_New_Centrist_Government_desc:0 ""
+ FIN_Red_Agrarian_Coalition_Emerges_Victorious:0 "Red-Agrarian Coalition Emerges Victorious"
+ FIN_Red_Agrarian_Coalition_Emerges_Victorious_desc:0 ""
+ FIN_Right_Wing_Coalition_Forms_the_Government:0 "Right-Wing Coalition Forms the Government"
+ FIN_Right_Wing_Coalition_Forms_the_Government_desc:0 ""
+ FIN_Second_Red_Agrarian_Coalition:0 "Second Red-Agrarian Coalition"
+ FIN_Second_Red_Agrarian_Coalition_desc:0 ""
+ FIN_The_End_of_the_Depression:0 "The End of the Depression"
+ FIN_The_End_of_the_Depression_desc:0 ""
+ FIN_Finnish_Army:0 "Finnish Army"
+ FIN_Finnish_Army_desc:0 "Every nation demands a strong and confident army. We are on currently in the process of making the great Finnish war machine, reforming the army shall make us stronger and make us competent with the other major countries that threaten our very own existence. Adding more experience to our army should be our first act that leads us to glory."
+
+ FIN_Finnish_Air_Force:0 "Finnish Air Force"
+ FIN_Finnish_Air_Force_desc:0 ""
+ FIN_Finnish_Navy:0 "Finnish Navy"
+ FIN_Finnish_Navy_desc:0 "The Finnish Navy is nothing more than a backwatered, outdated department in our armed forces, constantly being underfunded for the sake of funding others, especially the Army. The fact that we leave our navy at this state simply allows our adversaries access to our waters, allowing them to control our own seas, for the sake of submission to their rule. \n\nAs the fleets of the Soviet Union strengthen in size and in firepower, we must do the same, and implement reforms that allow our nation a chance to fight our enemies at the seas. No longer shall we neglect our waters, but instead, we shall weaponize them into a foe that no nation can defeat, but traumatized in fear."
+
+ FIN_Finno_German_Cooperation:0 "Finno-German Cooperation"
+ FIN_Finno_German_Cooperation_desc:0 ""
+ FIN_Reduce_Far_Right_Influence:0 "Reduce Far-Right Influence"
+ FIN_Reduce_Far_Right_Influence_desc:0 "After the horrific attacks in Mäntsälä, it is clear that we are in a weakened position, that even the reactionaries have decided to declare a coup against our democratic republic. This is an outrage. We cannot allow them to declare a second coup, as it will either weaken us, or overthrow us. \n\nThat is why we shall start a campaign of reducing these reactionary elements in our government, especially the military, as reactionary elements reside in them. Along with these, we shall ban the Lapuan liike, the main reactionary movement that vehemently supported these terroristic actions. The republic and her democracy shall survive, but the future of these rightists are most certainly at the end of their terrorism."
+
+ FIN_Strenghten_the_Coalition:0 "Strenghten the Coalition"
+ FIN_Strenghten_the_Coalition_desc:0 ""
+ FIN_Contain_the_IKL:0 "Contain the IKL"
+ FIN_Contain_the_IKL_desc:0 "The IKL is nothing but a mere front to the extremists who caused the rebellion that has terrorized our nation. Now, they are clamouring for war, both to the Soviets, and to the Swedish, with their misguided, self-righteous, and elusive dreams of a “Great Finland”, not even considering the geopolitical consequences of advocating such unthinkable doctrine of war based on revanchism. \n\nWe cannot allow them to have a foothold in national politics, as it merely reverses our efforts that we have done to ban their predecessors in the first place. By banning their leaders from entering politics, and enacting legislation that bans their symbols, they would be, at the very least, contained and controllable, to the point that they won’t be perceived as a threat to our government."
+
+ FIN_Democracy_Secured:0 "Democracy Secured"
+ FIN_Democracy_Secured_desc:0 "Recent efforts by our government have been effective at keeping the radical elements in our nation at bay. Our constant vigilance against the forces which would want to see our republic torn to bits will ensure a safe future for Finnish democracy."
+
+ FIN_Work_with_the_Industrialists:0 "Work with the Industrialists"
+ FIN_Work_with_the_Industrialists_desc:0 ""
+ FIN_Promote_Patriotism:0 "Promote Patriotism"
+ FIN_Promote_Patriotism_desc:0 ""
+ FIN_Valpo_Expansion:0 "Valpo Expansion"
+ FIN_Valpo_Expansion_desc:0 ""
+ FIN_Economic_Austerity:0 "Economic Austerity"
+ FIN_Economic_Austerity_desc:0 "The only way to climb out of this recession is by tightening our belts. While others call for more spending, our policy will be much more stable on the long run. The initial sting of austerity might hurt some, but this is necessary to drag our economy back to full potential."
+
+ FIN_Increase_Military_Spending:0 "Increase Military Spending"
+ FIN_Increase_Military_Spending_desc:0 ""
+ FIN_Unemployment_Measures:0 "Unemployment Measures"
+ FIN_Unemployment_Measures_desc:0 "The recession brought with it a wave of unemployment. Getting these young men and women back to work is a priority to get the wheels of our economy turning again. A array of unemployment measures will do just that, though some of them might be unpopular with the masses."
+
+ FIN_Shorten_the_Debt:0 "Shorten the Debt"
+ FIN_Shorten_the_Debt_desc:0 "Our economic policies have brought us more wealth than is currently required. Directing this money at shortening our debt instead of more spending will help us on the long run."
+
+ FIN_Prepare_for_Conflict:0 "Prepare for Conflict"
+ FIN_Prepare_for_Conflict_desc:0 ""
+ FIN_Collaborate_with_the_SDP:0 "Collaborate with the SDP"
+ FIN_Collaborate_with_the_SDP_desc:0 ""
+ FIN_Increase_the_Military_Budget:0 "Increase the Military Budget"
+ FIN_Increase_the_Military_Budget_desc:0 ""
+ FIN_Preparing_for_Conflict:0 "Preparing for Conflict"
+ FIN_Preparing_for_Conflict_desc:0 ""
+ FIN_The_Scandinavian_Direction:0 "The Scandinavian Direction"
+ FIN_The_Scandinavian_Direction_desc:0 "Previous governments have not paid enough attention to our relations with the scandinavian nations. Forming closer bonds with them will have both economic and political benefits."
+
+ FIN_Public_Works:0 "Public Works"
+ FIN_Public_Works_desc:0 ""
+ FIN_Spending_Spree:0 "Spending Spree"
+ FIN_Spending_Spree_desc:0 ""
+ FIN_Stabilize_the_Country:0 "Stabilize the Country"
+ FIN_Stabilize_the_Country_desc:0 ""
+ FIN_Economic_Recovery:0 "Economic Recovery"
+ FIN_Economic_Recovery_desc:0 ""
+ FIN_Limited_Military_Spending:0 "Limited Military Spending"
+ FIN_Limited_Military_Spending_desc:0 ""
+ FIN_Industrial_Development:0 "Industrial Development"
+ FIN_Industrial_Development_desc:0 ""
+ FIN_Reintroduction_of_Leftism:0 "Reintroduction of Leftism"
+ FIN_Reintroduction_of_Leftism_desc:0 ""
+ FIN_Ban_the_IKL:0 "Ban the IKL"
+ FIN_Ban_the_IKL_desc:0 ""
+ FIN_Dismiss_the_Radicals:0 "Dismiss the Radicals"
+ FIN_Dismiss_the_Radicals_desc:0 ""
+ FIN_Unity_in_the_Coalition:0 "Unity in the Coalition"
+ FIN_Unity_in_the_Coalition_desc:0 ""
+ FIN_Wounds_of_the_Civil_War:0 "Wounds of the Civil War"
+ FIN_Wounds_of_the_Civil_War_desc:0 ""
+ FIN_Pension_Reform:0 "Pension Reform"
+ FIN_Pension_Reform_desc:0 ""
+ FIN_Workers_Rights:0 "Workers Rights"
+ FIN_Workers_Rights_desc:0 ""
+ FIN_Healthcare_Reforms:0 "Healthcare Reforms"
+ FIN_Healthcare_Reforms_desc:0 ""
+ FIN_Soviet_Diplomacy:0 "Soviet Diplomacy"
+ FIN_Soviet_Diplomacy_desc:0 ""
+ FIN_Agrarian_Autarky:0 "Agrarian Autarky"
+ FIN_Agrarian_Autarky_desc:0 "It has become increasingly obvious in the past years that Finland can no longer rely on foreign grain. As the world grows ever closer to war and rival powers, including our suppliers, jostle for territory, the risk of our imports being cut off grows greater every day. \n\nThere is only one solution to safeguard the health of our people; we must become self-sufficient in grain production. This will be an uphill battle, especially considering the harsh climate of our native land, but if we succeed, our nation will become impervious to foreign attack; our children will never have to fear hunger so long as our farms stay running."
+
+ FIN_Further_Industrialization:0 "Further Industrialization"
+ FIN_Further_Industrialization_desc:0 ""
+ FIN_Expand_Crichton_Vulcan_Dockyards:0 "Expand Crichton-Vulcan Dockyards"
+ FIN_Expand_Crichton_Vulcan_Dockyards_desc:0 "The Crichton-Vulcan Dockyard once served as the heart of the Russian Navy in the Baltic Sea, as the Imperial Navy frequently docked its ships here, along with building new ones for their army. Now, it is a shadow of its former self, nothing more than a tool used by the Reich to create their weapons of war, especially their monstrous and dreadful U-Boats, undetectable to any detection system and with the firepower of a capital ship. \n\nConsidering how these foreign powers capitalize on our dockyards to fuel their own interests, it is high time that we assert our control over this lucrative dockyard, allow our shipbuilding companies to establish their operations there, manufacture our ships, and enable our superiority over our seas to begin!"
+
+ FIN_Raiding_Fleet_Doctrine:0 "Raiding Fleet Doctrine"
+ FIN_Raiding_Fleet_Doctrine_desc:0 ""
+ FIN_Foreign_Designs:0 "Foreign Designs"
+ FIN_Foreign_Designs_desc:0 ""
+ FIN_Building_up_the_Submarine_Fleet:0 "Building up the Submarine Fleet"
+ FIN_Building_up_the_Submarine_Fleet_desc:0 "If our capital ships fail in securing the seas, the best bet for us is to mass produce submarines and raid the enemies convoys and ships. Their radar technology is light years behind to notice our subs and they will be exposed to the mighty torpedos of our glorious submarines."
+
+ FIN_Coastal_Defense:0 "Coastal Defense"
+ FIN_Coastal_Defense_desc:0 "Our navies require better doctrines, which will lead to them be victorious in the cold northern seas. Strengthening the doctrines of our navies should be the priority in order to have the full control over the Baltic and Northern Sea. The Finland great navy has yet seen its glory days."
+
+ FIN_Escort_the_Capital_Ships:0 "Escort the Capital Ships"
+ FIN_Escort_the_Capital_Ships_desc:0 ""
+ FIN_Naval_AA_Support:0 "Naval AA Support"
+ FIN_Naval_AA_Support_desc:0 ""
+ FIN_Expand_the_Mannerheim_Line:0 "Expand the Mannerheim Line"
+ FIN_Expand_the_Mannerheim_Line_desc:0 ""
+ FIN_Coastal_Batteries:0 "Coastal Batteries"
+ FIN_Coastal_Batteries_desc:0 "If we fail at making our fleets stronger, we need protection for our coasts. Construction of coastal forts will be important against the enemy naval invasions. We should prioritize making coastal forts in our cities and our ports. The enemy will have a tough time breaking our steel and stone batteries."
+ 
+ FIN_Aland_Naval_Base:0 "Aland Naval Base"
+ FIN_Aland_Naval_Base_desc:0 "In order to make a big fleet, we need dockyards where we can produce the mighty Finnish navies. Aland is a perfect place to begin building the dockyards and start the production of our capital ships and start conquering the seas. The Aland engineers are the most advanced ones in our country and shall provide the perfect plans to build our ships."
+ 
+ FIN_Backup_Lines:0 "Backup Lines"
+ FIN_Backup_Lines_desc:0 "Defense in Depth is theorized to be a much more effective tactic than a linear, seemingly impenetrable line. For such reason high command has ordered the construction of secondary defense lines to slow down any advances through the Karelian Isthmus as it is the shortest path to our Capital from the Soviet border."
+ 
+ FIN_The_Salpa_Line:0 "Build the Salpa Line"
+ FIN_The_Salpa_Line_desc:0 "The defenses we have built so far heavily focus on the Karelian Isthmus and it is no doubt the wise choice as all of our intelligence indicates that a Soviet attack will most likely be through that attack vector. The rest of the country however remains mostly exposed. Despite the poor infrastructure and terrain of the north these areas are still poorly manned and are fertile grounds for a Soviet offensive. It is necessary to entrench our positions with a line that spans the length of the largely undefended border. This line won’t be supported by as many secondary lines for a proper defense in depth but for the environment it will be built in a high concentration attack is unlikely."
+ 
+ FIN_Doctrine_of_National_Defense:0 "Doctrine of National Defense"
+ FIN_Doctrine_of_National_Defense_desc:0 "Our country needs more experienced soldiers in it’s armies, by improving our doctrines our war goals will be more successful and the soldiers will carry out their orders with more efficiency. The might of the Finnish army is yet to be seen. No army shall stand in our way when fully militarized."
+ 
+ FIN_Ski_Troops:0 "Ski Troops"
+ FIN_Ski_Troops_desc:0 "Most of our country is covered in snow for a large part of the year; some areas are even in a permanent state of snow. This is both a blessing and a curse for our defenses. The snow will confuse and slow down the enemy severely as they advance in our territory, but it also prevents us from responding to breaches in a timely manner due to poor infrastructure. High Command has answered to this “hole” in our defenses by providing several light infantry regiments with Skis. These tools will allow our troops to move along the icy and snowy terrain with extreme agility, certainly faster than any land vehicle in the same conditions, outmaneuvering any enemy incursions through our lines."
+ FIN_Ski_Troops_tt:0 "Enables §HSki Troops§!\nArmy:\n    Cold Acclimitization Factor: §G+10%§!\n    Winter Attrition: §G-5%§!"
+ 
+ FIN_Improvised_AT_Weapons:0 "Improvised AT Weapons"
+ FIN_Improvised_AT_Weapons_desc:0 ""
+ FIN_Improvised_AT_Weapons_tt:0 "Enables §HImprovised AT Weapons§!\nAll Infantry & Mot/Mech:\n    Hard Attack: §G+25%§!\n    Piercing: §G+100%§!"
+ 
+ FIN_Support_the_Troops:0 "Support the Troops"
+ FIN_Support_the_Troops_desc:0 "The men of the FDF are the true guardians of our nation, without them we wouldn’t be here today and without them we won’t be here tomorrow. It is the duty of not only the state but all Finnish citizens to do what it is in their power to support our troops through morale or through materials regardless. When the men of our nation have their wives and daughters behind them they will fight twice as hard and when their sons see their fathers fighting for their nation they will follow in their footsteps. They will accomplish the ultimate sacrifice, and they will be forever honored by the people of this nation."
+ 
+ FIN_Import_Artilery:0 "Improve Artilery"
+ FIN_Import_Artilery_desc:0 "Most of our army still relies on mortars and smoothbore artillery pieces from the Great War. Their potential to be deadly is not to be doubted but the fact of the matter is that they are cumbersome and largely inaccurate. In the era of ever increasing precision falling behind is not acceptable. A contest for Suomi’s next standard use artillery piece has been drafted up, the conditions include: light weight, rifled barrel, treaded rubber tires, ability to be transported easily by horse, vehicle or train and most importantly to be within the industrial production capabilities of our nation."
+ 
+ FIN_New_Service_Rifles:0 "New Service Rifles"
+ FIN_New_Service_Rifles_desc:0 "Since the Great War, the FDF have used the Old Russian M1891 rifle and it has served us well but the time has come for a new design. The M1891 is still a good rifle, just not up to modern standards. As such our engineers have designed a new rifle, a carbine, that will cover all the duties the old rifle has but at the same time making it lighter, smaller and easier to produce."
+ 
+ FIN_Concentrated_Fire:0 "Concentrated Fire"
+ FIN_Concentrated_Fire_desc:0 "Our artillery corps is not as numerous as we’d like them to be and due to this we’ll have to make a workaround to increase the effectiveness of our already existing artillery pieces. The solution to this dilemma would be the concentration of fire doctrine: instead of using artillery all along the front, thus causing little or no damage, artillery fire should be coordinated into a single cone of fire to ensure maximum damage on the enemy lines, whether they are on the offensive or defensive."
+ FIN_Concentrated_Fire_tt:0 "Enables §HConcentrated Fire§!\nLine Artillery:\n    Soft Attack: §G+10%§!"
+ 
+ FIN_Guardians_of_the_North:0 "Guardians of the North"
+ FIN_Guardians_of_the_North_desc:0 "We Finnish stand as bulwarks against incursion by the East. For centuries, we have guarded the North from Russian incursion, fighting on despite overwhelming odds. We have an ancestral duty to protect the Scandinavian people, whether they fight with us or against us. \n\nAs we aim to redefine our military structure as a whole, we must instill this doctrine into the hearts of our men, so they know whom they fight and why they fight. This proud legacy will give them the courage to fight on against whatever new enemy arises the threaten the North."
+ 
+ FIN_Mandatory_Conscription:0 "Mandatory Conscription"
+ FIN_Mandatory_Conscription_desc:0 ""
+ FIN_Expand_the_Lotta_Svard:0 "Expand the Lotta Svärd"
+ FIN_Expand_the_Lotta_Svard_desc:0 "In preparing the defense of Finnish soil, we cannot afford to cut off any recruitable force, regardless of social norms; these traditions will mean nothing when enemy boots are marching through our home. This means, of course, that women must be able to support our army in any way they can, through service in hospitals, anti-air, social work and other auxiliary duties. \n\nIn this mind, we must expand an institution that has existed since our independence in 1918; the Lotta Svard. The women’s auxiliary corps has served us well in the past, but to fulfill the needs of a growing army and a growing world, they must be expanded. Through propaganda and incentives, we aim to double its numbers in the coming years, so that we may be ready to face any threat knowing our wives are at our sides."
+ 
+ FIN_Replace_Outdated_Fighters:0 "Replace Outdated Fighters"
+ FIN_Replace_Outdated_Fighters_desc:0 ""
+ FIN_British_Bomber_Designs:0 "British Bomber Designs"
+ FIN_British_Bomber_Designs_desc:0 ""
+ FIN_Airbase_Expansion:0 "Airbase Expansion"
+ FIN_Airbase_Expansion_desc:0 ""
+ FIN_Helsinki_AA_Defenses:0 "Helsinki AA Defenses"
+ FIN_Helsinki_AA_Defenses_desc:0 ""
+ FIN_Western_Support:0 "Western Support"
+ FIN_Western_Support_desc:0 ""
+ FIN_Repeal_the_IKL_Ban:0 "Repeal the IKL Ban"
+ FIN_Repeal_the_IKL_Ban_desc:0 ""
+ FIN_Limit_the_Military_Budget:0 "Limit the Military Budget"
+ FIN_Limit_the_Military_Budget_desc:0 ""
+ FIN_Develop_the_Civilian_Sector:0 "Develop the Civilian Sector"
+ FIN_Develop_the_Civilian_Sector_desc:0 ""
+ FIN_Constrain_Presidential_Powers:0 "Constrain Presidential Powers"
+ FIN_Constrain_Presidential_Powers_desc:0 ""
+ FIN_Purchase_Aircraft:0 "Purchase Aircraft"
+ FIN_Purchase_Aircraft_desc:0 ""
+ 
+ FIN_Expand_the_Turku_University:0 "Expand the Turku University"
+ FIN_Expand_the_Turku_University_desc:0 ""
+ 
+ FIN_Improve_Southern_Infastructure:0 "Improve Southern Infrastructure"
+ FIN_Improve_Southern_Infastructure_desc:0 ""
+ 
+ FIN_Subsidize_Private_Arms_Companies:0 "Subsidize Private Arms Companies"
+ FIN_Subsidize_Private_Arms_Companies_desc:0 ""
+ 
+ FIN_Attract_Foreign_Investment:0 "Attract Foreign Investment"
+ FIN_Attract_Foreign_Investment_desc:0 ""
+ 
+ FIN_Work_Towards_Urbanization:0 "Work Towards Urbanization"
+ FIN_Work_Towards_Urbanization_desc:0 ""
+ 
+ FIN_The_Finnish_Dream:0 "The Finnish Dream"
+ FIN_The_Finnish_Dream_desc:0 ""
+ 
+ FIN_Expand_Country_Roads:0 "Expand Country Roads"
+ FIN_Expand_Country_Roads_desc:0 ""
+ 
+ FIN_Spread_the_Wealth:0 "Spread the Wealth"
+ FIN_Spread_the_Wealth_desc:0 ""
+ 
+ FIN_Economy_of_the_People:0 "Economy of the People"
+ FIN_Economy_of_the_People_desc:0 ""
+ 
+ FIN_Begin_the_Mechanization_of_Agriculture:0 "Begin the Mechanization of Agriculture"
+ FIN_Begin_the_Mechanization_of_Agriculture_desc:0 ""
+ 
+ FIN_Strong_and_Stable:0 "Strong and Stable"
+ FIN_Strong_and_Stable_desc:0 ""
+ 
+ FIN_Promote_Tradition:0 "Promote Tradition"
+ FIN_Promote_Tradition_desc:0 ""
+ 
+ FIN_Revival_of_the_Moderate_Left:0 "Revival of the Moderate Left"
+ FIN_Revival_of_the_Moderate_Left_desc:0 ""
+ 
+ FIN_Tighten_the_Military_Budget:0 "Tighten the Military Budget"
+ FIN_Tighten_the_Military_Budget_desc:0 ""
+ 
+ FIN_Refit_the_Right:0 "Refit the Right"
+ FIN_Refit_the_Right_desc:0 ""
+ 
+ FIN_A_Strong_Republic:0 "A Strong Republic"
+ FIN_A_Strong_Republic_desc:0 ""
+ 
+ FIN_Strike_the_Left:0 "Strike the Left"
+ FIN_Strike_the_Left_desc:0 ""
+ 
+ FIN_Home_Religion_Fatherland:0 "Home Religion Fatherland"
+ FIN_Home_Religion_Fatherland_desc:0 ""
+ 
+ FIN_Imprison_Dissenters:0 "Imprison Dissenters"
+ FIN_Imprison_Dissenters_desc:0 ""
+ 
+ FIN_Nationalize_Arms_Companies:0 "Nationalize Arms Companies"
+ FIN_Nationalize_Arms_Companies_desc:0 ""
+ 
+ FIN_Loosen_Labor_Laws:0 "Loosen Labor Laws"
+ FIN_Loosen_Labor_Laws_desc:0 ""
+ 
+ FIN_Fight_the_Red_Threat:0 "Fight the Red Threat"
+ FIN_Fight_the_Red_Threat_desc:0 ""
+ 
+ FIN_A_Victory_Against_Bolshevism:0 "A Victory Against Bolshevism"
+ FIN_A_Victory_Against_Bolshevism_desc:0 ""
+ 
+ FIN_Crush_the_Socialists:0 "Crush the Socialists"
+ FIN_Crush_the_Socialists_desc:0 ""
+ 
+ FIN_Rally_the_Conservatives:0 "Rally the Conservatives"
+ FIN_Rally_the_Conservatives_desc:0 ""
+ 
+ FIN_Fascism_with_Finnish_Charasteristics:0 "Fascism with Finnish Characteristics"
+ FIN_Fascism_with_Finnish_Charasteristics_desc:0 ""
+ 
+ FIN_Seek_Foreign_Support:0 "Seek Foreign Support"
+ FIN_Seek_Foreign_Support_desc:0 ""
+ 
+ FIN_Implement_Corporatism:0 "Implement Corporatism"
+ FIN_Implement_Corporatism_desc:0 ""
+ 
+ FIN_Prepare_for_the_Liberation_War:0 "Prepare for the Liberation War"
+ FIN_Prepare_for_the_Liberation_War_desc:0 ""
+ 
+ FIN_Pan_Finnic_Zeal:0 "Pan-Finnic Zeal"
+ FIN_Pan_Finnic_Zeal_desc:0 ""
+ 
+ FIN_Approach_the_Soviets:0 "Approach the Soviets"
+ FIN_Approach_the_Soviets_desc:0 ""
+ 
+ FIN_Peace_and_Neutrality:0 "Peace and Neutrality"
+ FIN_Peace_and_Neutrality_desc:0 ""
+ 
+ FIN_Autarkic_Economy:0 "Autarkic Economy"
+ FIN_Autarkic_Economy_desc:0 ""
+ 
+ FIN_Expand_the_Paper_Industry:0 "Expand the Paper Industry"
+ FIN_Expand_the_Paper_Industry_desc:0 ""
+ 
+ FIN_Assemble_the_Welfare_State:0 "Assemble the Welfare State"
+ FIN_Assemble_the_Welfare_State_desc:0 ""
+ 
+ FIN_Reach_Across_the_Isle:0 "Reach Across the Isle"
+ FIN_Reach_Across_the_Isle_desc:0 ""
+ 
+ FIN_Embrace_the_Free_Market:0 "Embrace the Free Market"
+ FIN_Embrace_the_Free_Market_desc:0 ""
+ 
+ FIN_Cooperation_with_the_Unions:0 "Cooperation with the Unions"
+ FIN_Cooperation_with_the_Unions_desc:0 ""
+ 
+ FIN_Reapply_Austerity_Measures:0 "Reapply Austerity Measures"
+ FIN_Reapply_Austerity_Measures_desc:0 ""
+ 
+ FIN_Pacifistic_Policy:0 "Pacifistic Policy"
+ FIN_Pacifistic_Policy_desc:0 ""
+ 
+ FIN_Root_Out_Fascism:0 "Root Out Fascism"
+ FIN_Root_Out_Fascism_desc:0 ""
+
+ FIN_Foreign_Affairs:0 "Foreign Affairs"
+ FIN_Foreign_Affairs_desc:0 ""
+
+ FIN_Seek_Western_Support:0 "Seek Western Support"
+ FIN_Seek_Western_Support_desc:0 ""
+
+ FIN_Approach_the_Reich:0 "Approach the Reich"
+ FIN_Approach_the_Reich_desc:0 ""
+
+ FIN_Approach_Nordic_Nations:0 "Approach Nordic Nations"
+ FIN_Approach_Nordic_Nations_desc:0 ""
+
+ FIN_Approcah_Baltic_Entente:0 "Approcah Baltic Entente"
+ FIN_Approcah_Baltic_Entente_desc:0 ""
+
+ FIN_National_Interests:0 "National Interests"
+ FIN_National_Interests_desc:0 ""
+
+ FIN_Review_Finnish_Defense_Forces:0 "Review Finnish Defense Forces"
+ FIN_Review_Finnish_Defense_Forces_desc:0 ""
+
+ FIN_Renew_Naval_Effort:0 "Renew Naval Effort"
+ FIN_Renew_Naval_Effort_desc:0 ""
+
+ FIN_Expand_Crichton_Vulcan_Dockyards:0 "Expand Crichton-Vulcan Dockyards"
+ FIN_Expand_Crichton_Vulcan_Dockyards_desc:0 ""
+
+ FIN_Naval_Academy:0 "Naval Academy"
+ FIN_Naval_Academy_desc:0 ""
+
+ FIN_Capital_Ship_Construction:0 "Capital Ship Construction"
+ FIN_Capital_Ship_Construction_desc:0 ""
+
+ FIN_Coastal_Defense_Doctrine:0 "Coastal Defense Doctrine"
+ FIN_Coastal_Defense_Doctrine_desc:0 ""
+
+ FIN_Coastal_Jaegers:0 "Coastal Jaegers"
+ FIN_Coastal_Jaegers_desc:0 ""
+
+ FIN_Pragmatic_Defense:0 "Pragmatic Defense"
+ FIN_Pragmatic_Defense_desc:0 ""
+
+ FIN_Refit_Old_Ships:0 "Refit Old Ships"
+ FIN_Refit_Old_Ships_desc:0 ""
+
+ FIN_Naval_Supply_Line:0 "Naval Supply Line"
+ FIN_Naval_Supply_Line_desc:0 ""
+
+ FIN_Submerged_Defense:0 "Submerged Defense"
+ FIN_Submerged_Defense_desc:0 ""
+
+ FIN_Finnish_Military_Academy:0 "Finnish Military Academy"
+ FIN_Finnish_Military_Academy_desc:0 ""
+
+ FIN_Rise_of_the_National_Warrior:0 "Rise of the National Warrior"
+ FIN_Rise_of_the_National_Warrior_desc:0 ""
+
+ FIN_Improve_Our_Equipment:0 "Improve Our Equipment"
+ FIN_Improve_Our_Equipment_desc:0 ""
+
+ FIN_Soldiers_of_the_North:0 "Soldiers of the North"
+ FIN_Soldiers_of_the_North_desc:0 ""
+
+ FIN_Improvised_Weaponry:0 "Improvised Weaponry"
+ FIN_Improvised_Weaponry_desc:0 ""
+
+ FIN_Sissi:0 "Sissi"
+ FIN_Sissi_desc:0 ""
+
+ FIN_Doctrine_of_National_Defense:0 "Doctrine of National Defense"
+ FIN_Doctrine_of_National_Defense_desc:0 ""
+
+ FIN_Assemytric_Warfare:0 "Assemytric Warfare"
+ FIN_Assemytric_Warfare_desc:0 ""
+
+ FIN_Expand_the_Mannerheim_Line:0 "Expand the Mannerheim Line"
+ FIN_Expand_the_Mannerheim_Line_desc:0 ""
+
+ FIN_Create_Coastal_and_Backup_Lines:0 "Create Coastal and Backup Lines"
+ FIN_Create_Coastal_and_Backup_Lines_desc:0 ""
+
+ FIN_The_Salpa_Line:0 "The Salpa Line"
+ FIN_The_Salpa_Line_desc:0 ""
+
+ FIN_Finnish_Air_Force:0 "Finnish Air Force"
+ FIN_Finnish_Air_Force_desc:0 ""
+
+ FIN_Purchase_Aircraft:0 "Purchase Aircraft"
+ FIN_Purchase_Aircraft_desc:0 ""
+
+ FIN_Examine_British_Bomber_Designs:0 "Examine British Bomber Designs"
+ FIN_Examine_British_Bomber_Designs_desc:0 ""
+
+ FIN_Floatplane_Designs:0 "Floatplane Designs"
+ FIN_Floatplane_Designs_desc:0 ""
+
+ FIN_Airbase_Expansion:0 "Airbase Expansion"
+ FIN_Airbase_Expansion_desc:0 ""
+
+ FIN_Makeshift_Airfields:0 "Makeshift Airfields"
+ FIN_Makeshift_Airfields_desc:0 ""
+
+ FIN_Protect_Our_Cities:0 "Protect Our Cities"
+ FIN_Protect_Our_Cities_desc:0 ""
+
+ FIN_Organize_an_Air_Force_Academy:0 "Organize an Air Force Academy"
+ FIN_Organize_an_Air_Force_Academy_desc:0 ""
+
+ FIN_Lessons_from_Combat:0 "Lessons from Combat"
+ FIN_Lessons_from_Combat_desc:0 ""
+
+ FIN_Glider_Schools:0 "Glider Schools"
+ FIN_Glider_Schools_desc:0 ""
+
+ FIN_Expand_Lotta_Svard:0 "Expand Lotta Svärd"
+ FIN_Expand_Lotta_Svard_desc:0 ""
+
+ FIN_Expand_the_White_Guard:0 "Expand the White Guard"
+ FIN_Expand_the_White_Guard_desc:0 ""
+
+ FIN_Integrated_Mobilization_Centres:0 "Integrated Mobilization Centres"
+ FIN_Integrated_Mobilization_Centres_desc:0 ""
+
+ FIN_Military_Sports_Programs:0 "Military Sports Programs"
+ FIN_Military_Sports_Programs_desc:0 ""
+
+ FIN_Citizen_Soldier:0 "Citizen Soldier"
+ FIN_Citizen_Soldier_desc:0 ""
+
+ FIN_Integrated_White_Guard_Regiments:0 "Integrated White Guard Regiments"
+ FIN_Integrated_White_Guard_Regiments_desc:0 ""
+
+#########################################################################
+#  Finland Ideas
+#########################################################################
+ FIN_sisu_1:0 "Sisu"
+ FIN_sisu_1_desc:0 "Sisu is the uniquely Finnish expression for the resilience of the nation's people. Finland has faced harsh odds and will do so again."
+ FIN_sisu_2:0 "Sisu"
+ FIN_sisu_2_desc:0 "Sisu is the uniquely Finnish expression for the resilience of the nation's people. Finland has faced harsh odds and will do so again."
+ FIN_memories_of_mantsala_rebellion_1:0 "Memories Of The Mäntsälä Rebellion"
+ FIN_memories_of_mantsala_rebellion_1_desc:0 "The rebellion by the far right “Lapua Movement” group last year still haunts the minds of our politicians and peasants alike. While it led to the dissolution of the Lapua Movement and the loss of most of its members it clearly showed that Finland isn’t as united as we thought it was. Drastic measures have to be made so that we can finally move on."
+ FIN_memories_of_mantsala_rebellion_2:0 "Memories Of The Mäntsälä Rebellion"
+ FIN_memories_of_mantsala_rebellion_2_desc:0 "The rebellion by the far right “Lapua Movement” group last year still haunts the minds of our politicians and peasants alike. While it led to the dissolution of the Lapua Movement and the loss of most of its members it clearly showed that Finland isn’t as united as we thought it was. Drastic measures have to be made so that we can finally move on."
+ FIN_lingering_depression_1:0 "Lingering Depression"
+ FIN_lingering_depression_1_desc:0 "Our nation was mainly spared from the impact of the global economic depression, but it still has affected us. Unemployment and slow economic growth will need to be solved one way or another."
+ FIN_lingering_depression_2:0 "Lingering Depression"
+ FIN_lingering_depression_2_desc:0 "Our nation was mainly spared from the impact of the global economic depression, but it still has affected us. Unemployment and slow economic growth will need to be solved one way or another."
+ FIN_lingering_depression_3:0 "Lingering Depression"
+ FIN_lingering_depression_3_desc:0 "Our nation was mainly spared from the impact of the global economic depression, but it still has affected us. Unemployment and slow economic growth will need to be solved one way or another."
+ FIN_spending_spree_idea:0 "Spending Spree"
+ FIN_ban_on_communism:0 "Ban on Communism"
+ FIN_ban_on_communism_desc:0 "Through a campaign of terror, the Lapua Movement managed to get a ban on communism implemented. Many think that it is necessary to contain communism in our nation but many in the SDP think that it only divides the country further."
+ FIN_ban_on_fascism:0 "Ban on Fascism"
+ FIN_economic_austerity_idea:0 "Economic Austerity"
+ FIN_reapply_austerity_measures_idea:0 "Reapplied Austerity Measures"
+ FIN_loosen_labor_laws_idea:0 "Loosened Labor Laws"
+ FIN_agrarian_autarky_idea:0 "Agrarian Autarky"
+ FIN_cooperate_with_the_unions_idea:0 "Cooperation with the Unions"
+ FIN_workers_rights_idea:0 "Worker's Rights"
+ FIN_submarine_fleet:0 "Submarine Fleet"
+ FIN_naval_aa_idea:0 "Naval AA Support"
+ FIN_expanded_lotta_svard:0 "Expanded Lotta Svard"
+ FIN_traditional_values_idea:0 "Traditional Values"

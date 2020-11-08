@@ -1,0 +1,51 @@
+
+state={
+	id=614
+	name="STATE_614"
+
+	history={
+		owner = NEA
+		add_core_of = NEA
+		add_core_of = CHI
+		add_core_of = PRC
+
+		1936.1.1 = {
+			owner = HCP
+			add_core_of = HCP
+			remove_core_of = NEA
+			set_demilitarized_zone = yes
+		}
+		1937.1.1 = {
+			owner = EHB
+			controller = EHB
+			remove_core_of = HCP
+			set_demilitarized_zone = no
+		}
+		1940.1.1 = {
+			owner = RNG
+			controller = RNG
+		}	
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			4190 1 
+		}
+		victory_points = { 
+			1134 1 
+		}
+		1946.1.1 = {
+			owner = PRC
+			controller = PRC
+		}
+
+	}
+
+	provinces={
+		11933 1134 1169 1188 4032 4093 4137 4140 4190 4208 6828 7000 7092 7109 7129 9969 10003 10022 10053 10119 11944 11980 11996 12026 12062 
+	}
+	manpower=1000600
+	buildings_max_level_factor=1.000
+	state_category=town
+}

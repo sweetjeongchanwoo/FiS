@@ -1,0 +1,327 @@
+﻿################################
+# Argentina - 1933
+################################
+1933.1.1 = {
+	oob = "ARG_1933"
+	capital = 278
+	set_convoys = 120
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Special Forces Tech
+		tech_mountaineers = 1
+		### Arty Tech
+		Artillery_1910 = 1
+		Artillery_Range_Finding_and_Surveying_Tools = 1
+		Artillery_1916 = 1
+		### Armor Tech
+		Armored_Car_1911 = 1
+		Armored_Car_1916 = 1
+		Armored_Car_1926 = 1
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		Light_Tank_1917 = 1
+		Light_Tank_1919 = 1
+		### Air Tech
+		Unarmed_Recon_1910 = 1
+		Fighter_1914 = 1
+		Fighter_1916 = 1
+		Fighter_1918 = 1
+		Fighter_1924 = 1
+		### Heavy Air Tech
+		Tactical_Bomber_1910 = 1
+		Tactical_Bomber_1914 = 1
+		Tactical_Bomber_1916 = 1
+		Tactical_Bomber_1918 = 1
+		Tactical_Bomber_1925 = 1
+		Tactical_Bomber_1933 = 1
+		# Naval Tech
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		DD_1922 = 1
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+		CL_1922 = 1
+		CA_1885 = 1
+		CA_1895 = 1
+		CA_1906 = 1
+		CA_1922 = 1
+		SS_1895 = 1
+		SS_1912 = 1
+		SS_1916 = 1
+		SS_1922 = 1
+		BB_1885 = 1
+		BB_1895 = 1
+		BB_1900 = 1
+		BB_1906 = 1
+		BB_1912 = 1
+		BB_1916 = 1
+		BB_1922 = 1
+		transport = 1
+		### Land Doctrine Tech
+		Twentieth_Century_Warfare = 1
+		Leading_by_Order = 1
+		Strongpoint = 1
+		Mass_Charge = 1
+		Static_Defence = 1
+		Counterattack = 1
+		Defence_In_Depth = 1
+		Separate_Arms_Force = 1
+		Combined_Arms_Effort = 1
+		Specialized_Branch_Tactical_Experience = 1
+
+		Planning_Focus = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1931.11.8"
+		election_frequency = 72
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 52
+		democratic = 43
+		socialist = 5
+		communist = 0
+	}
+	add_ideas = {
+	# Cabinet
+		ARG_HoG_Julio_A_Roca
+		ARG_FM_Carlos_Saavedra_Lamas
+		ARG_AM_Alberto_Hueyo
+		ARG_MoS_Ramon_Castillo
+		ARG_HoI_Jorge_de_la_Torre
+	# Military Staff
+		ARG_CoStaff_Manuel_A_Rodriguez
+		ARG_CoArmy_Manuel_A_Rodriguez
+		ARG_CoNavy_Pedro_S_Casal
+		ARG_CoAir_Antonio_Parodi
+	}
+	#######################
+	# Diplomacy
+	#######################
+	set_country_flag = monroe_doctrine
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Juan Queraltó"
+		desc = ""
+		picture = "P_F_Juan_Queralto.tga"
+		expire = "1965.1.11"
+		ideology = national_socialism
+		traits = {
+			POSITION_Leader
+			SUBIDEOLOGY_National_Socialism
+			HoS_PowerHungry_Demagogue
+		}
+	}
+	# Autocracy
+	create_country_leader = {
+		name = "Agustín P. Justo"
+		desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
+		picture = "P_A_Agustin_Justo.tga"
+		expire = "1943.1.11"
+		ideology = authoritarian_democracy
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Authoritarian_Democracy
+			HoS_Resigned_Generalissimo
+		}
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Marcelo Torcuato de Alvear"
+		desc = ""
+		picture = "P_D_Marcelo_de_Alvear.tga"
+		expire = "1965.1.11"
+		ideology = social_liberalism
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Social_Liberalism
+			HoS_Die_Hard_Reformer
+		}
+	}
+	# Socialism
+	create_country_leader = {
+		name = "José Grunfeld"
+		desc = ""
+		picture = "P_S_Jose_Grunfeld.tga"
+		expire = "1965.1.11"
+		ideology = anarcho_communism
+		traits = {
+			POSITION_Leader
+			SUBIDEOLOGY_Anarcho_Communism
+			HoG_Revolutionary_Leader
+		}
+	}
+	# Marxism-Leninism
+	create_country_leader = {
+		name = "Victorio Codovilla"
+		desc = ""
+		picture = "P_C_Victorio_Codovilla.tga"
+		expire = "1965.1.11"
+		ideology = marxism_leninism
+		traits = {
+			POSITION_General_Secretary
+			SUBIDEOLOGY_Marxism_Leninism
+			HoS_Benevolent_Gentleman
+		}
+	}
+
+	#######################
+	# Generals
+	#######################
+	create_field_marshal = {
+		name = "Arturo Rawson"
+		picture = "M_Arturo_Rawson.tga"
+		traits = { defensive_doctrine }
+		skill = 3
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 1
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Juan Pistarini"
+		picture = "M_Juan_Pistarini.tga"
+		traits = { urban_assault_specialist fortress_buster }
+		skill = 3
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 4
+		logistics_skill = 3
+	}
+	#######################
+	# Admirals
+	#######################
+	create_navy_leader = {
+		name = "Alberto Teisaire"
+		picture = "M_Alberto_Teisaire.tga"
+		traits = { chief_engineer }
+		attack_skill = 2
+		defense_skill = 2
+		maneuvering_skill = 3
+		coordination_skill = 3
+	}
+}
+
+################################
+# Argentina - 1936
+################################
+1936.1.1 = {
+	oob = "ARG_1936"
+}
+################################
+# Argentina - 1939
+################################
+1939.9.1 = {
+	#######################
+	# Leaders
+	#######################
+	# Autocracy
+	create_country_leader = {
+		name = "Roberto M. Ortiz"
+		desc = ""
+		picture = "P_A_Roberto_Ortiz.tga"
+		expire = "1965.1.11"
+		ideology = authoritarian_democracy
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Authoritarian_Democracy
+			HoS_Pig_Headed_Isolationist
+		}
+	}
+}
+################################
+# Argentina - 1942
+################################
+1942.11.22 = {
+	#######################
+	# Leaders
+	#######################
+	# Autocracy
+	create_country_leader = {
+		name = "Ramón Castillo"
+		desc = ""
+		picture = "P_A_Ramon_Castillo.tga"
+		expire = "1965.1.11"
+		ideology = authoritarian_democracy
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Authoritarian_Democracy
+			HoS_Stern_Imperialist
+		}
+	}
+}
+################################
+# Argentina - 1943
+################################
+1943.7.26 = {
+	#######################
+	# Politics
+	#######################
+	set_party_name = {
+		ideology = authoritarian
+		name = ARG_authoritarian_Military_party
+		long_name = ARG_authoritarian_Military_party_long
+	}
+	#######################
+	# Leaders
+	#######################
+	# Autocracy
+	create_country_leader = {
+		name = "Pedro Pablo Ramirez"
+		desc = ""
+		picture = "P_A_Pedro_Pablo_Ramirez.tga"
+		expire = "1965.1.11"
+		ideology = military_dictatorship
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Military_Dictatorship
+			HoG_Old_General
+		}
+	}
+}
+################################
+# Argentina - 1944
+################################
+1944.6.20 = {
+	#######################
+	# Leaders
+	#######################
+	# Autocracy
+	create_country_leader = {
+		name = "Edelmiro Julián Farrell"
+		desc = ""
+		picture = "P_A_Edelmiro_Julian_Farrell.tga"
+		expire = "1965.1.11"
+		ideology = military_dictatorship
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Military_Dictatorship
+			HoS_Resigned_Generalissimo
+		}
+	}
+}

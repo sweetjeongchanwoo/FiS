@@ -1,0 +1,9 @@
+﻿units = {
+	division= {
+		name = "SS-Division (mot.) „Frundsberg“"
+		location = 6521 # Staff formed in Berlin, unit trained in France
+		division_template = "SS-Infanterie-Division (mot.)"
+		start_experience_factor = 0.14
+		start_equipment_factor = 1.0 
+	}
+}

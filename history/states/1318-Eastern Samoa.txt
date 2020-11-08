@@ -1,0 +1,32 @@
+state={
+	id=1318
+	name="STATE_1318"
+
+	history={
+		owner = USA
+		victory_points = {
+			13080 1
+		}
+		buildings = {
+			infrastructure = 3
+			13080 = {
+				naval_base = 1
+
+			}
+			14290 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SAM
+
+	}
+
+	provinces={
+		13080 14290 
+	}
+	manpower=55465
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

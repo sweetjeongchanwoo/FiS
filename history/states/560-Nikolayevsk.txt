@@ -1,0 +1,31 @@
+
+state={
+	id=560
+	name="STATE_560"
+	resources={
+		steel=18.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			12263 2
+		}
+		victory_points = {
+			12559 1
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		675 1714 1724 1772 1805 1807 3664 4246 4290 4701 4805 4810 4844 4881 7616 7748 7772 7871 9659 10571 10572 10577 10590 10598 12192 12261 12263 12518 12551 12559 12569 12638 12650 14399 14421 14423 14426 14427 
+	}
+	manpower=97663
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

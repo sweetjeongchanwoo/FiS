@@ -1,0 +1,184 @@
+﻿division_template = {
+	name = "Divisão de Infanteria"		# Infantry Division
+	division_names_group = POR_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Divisão de Infantaria com Artilharia"		# Infantry Division with Artillery
+	division_names_group = POR_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_battalion = { x = 2 y = 0 }
+		artillery_battalion = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Brigada de Cavalaria" 		# Cavalry Brigade
+	division_names_group = POR_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Brigada de Milícia" 		# Militia Brigade
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	###### Exército do Portugal #####
+	division = { # 1a Divisão de Infanteria
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11805 # Lisbon
+		division_template = "Divisão de Infantaria com Artilharia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.35
+	}
+
+	division = { # 2a Divisão de Infanteria
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11805 # Lisbon
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.35
+	}
+
+	division = { # 3a Divisão de Infanteria
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11805 # Lisbon
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.35
+	}
+
+	division = { # 4a Divisão de Infanteria
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9869 # Evora
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.35
+	}
+
+	division = { # 5a Divisão de Infanteria
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9869 # Evora
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.35
+	}
+
+	division = { # 6a Divisão de Infanteria
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 3798 # Coimbra
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.35
+	}
+
+	division = { # 7a Divisão de Infanteria
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 6996 # Covilha
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.35
+	}
+
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Marinha do Portugal"
+		naval_base = 11805 # Lisbon
+		task_force = {
+			name = "Marinha do Portugal"
+			location = 11805 # Lisbon
+			ship = { name = "Viana do Castello Flotilha" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = POR } } }
+			ship = { name = "Douro Flotilha" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = POR } } }
+			ship = { name = "1o Flotilha de Submarino" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = POR } } }
+		}
+	}
+}
+
+
+### Aeronáutica Militar ###
+air_wings = {
+	112 = {
+		# Noite Esquadrão de Bombardeiro  -- Ju 52/3m bombers
+		Tactical_Bomber_equipment_1933 = {
+			owner = "POR" 
+			amount = 55
+		}
+	}
+}
+### Starting Production
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1936
+			creator = "POR"
+		}
+		requested_factories = 1
+		progress = 0.47
+		efficiency = 100
+    }
+    
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "POR"
+		}
+		requested_factories = 1
+		progress = 0.74
+		efficiency = 100
+    }
+    
+    add_equipment_production = {
+        equipment = {
+            type = DD_equipment_1916
+            creator = "POR"
+        }
+        requested_factories = 2
+        progress = 0.44
+        amount = 2
+    }
+}

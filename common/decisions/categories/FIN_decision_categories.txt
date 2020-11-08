@@ -1,0 +1,43 @@
+#####################
+#### DH Finland #####
+#####################
+
+FIN_scandinavian_decisions = {
+	allowed = {
+		always = no
+	}
+
+	visible = {
+		always = yes
+	}
+}
+FIN_joint_wargames_decisions = {
+	allowed = {
+		always = no
+	}
+
+	visible = {
+		always = yes
+	}
+}
+FIN_winter_war_decisions = {
+	allowed = {
+		OR = {
+			has_country_flag = FIN_winter_war
+			has_country_flag = FIN_continuation_war
+		}
+	}
+
+	visible = {
+		always = yes
+	}
+}
+FIN_axis_victory_decisions = {
+	allowed = {
+		#s#has_completed_focus =
+	}
+
+	visible = {
+		always = yes
+	}
+}

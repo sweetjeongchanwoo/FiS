@@ -1,0 +1,144 @@
+﻿division_template = {
+	name = "Kajnieku Divizija"		# Infantry Division
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Kājnieku nodaļa ar inženieriem"		# Infantry Division with Engineers
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+    }
+}
+
+division_template = {
+	name = "Kājnieku nodaļa ar kavalēriju"		# Infantry Division with Cavalry
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Kājnieku nodaļa ar artilēriju"		# Infantry Division with Artillery
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_battalion = { x = 2 y = 0 }
+		artillery_battalion = { x = 2 y = 1 }
+		artillery_battalion = { x = 2 y = 2 }
+	}
+}
+
+units = {
+    ##### Latvijas Armija #####
+    division = {
+        name = "Kurzemes Divizija"
+        location = 9340 # Riga
+        division_template = "Kājnieku nodaļa ar inženieriem"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "Vidzemes Divizija"
+        location = 9340 # Riga
+        division_template = "Kājnieku nodaļa ar kavalēriju"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "Zemgales Divizija"
+        location = 9340 # Riga
+        division_template = "Kājnieku nodaļa ar artilēriju"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.35
+    }
+
+    division = {
+        name = "Latgales Divizija"
+        location = 9340 # Riga
+        division_template = "Kajnieku Divizija"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.4
+    }
+    ##### navy oob #####
+    fleet = {
+        name = "Latvijas Juras Speki"
+        naval_base = 9340 # Riga
+        task_force = {
+            name = "Latvijas Juras Speki"
+            location = 9340 # Riga
+            ship = { name = "1. Zemundens Flotile" definition = submarine equipment = { SS_equipment_1912 = { amount = 1 owner = LAT } } }
+        }
+    }
+        
+}
+
+air_wings = {
+    12 = {
+        # Aviacijas Pulks
+        Fighter_Bomber_equipment_1933 = { # Interwar Fighter
+            owner = "LAT"
+            amount = 20
+        }
+
+    }  
+}
+### Starting Production ###
+instant_effect = {
+    add_equipment_production = {
+        equipment = {
+            type = Small_Arms_equipment_1900
+            creator = "LAT"
+        }
+        requested_factories = 1
+        progress = 0.25
+        efficiency = 100
+    }
+
+    add_equipment_production = {
+        equipment = {
+            type = SS_equipment_1912
+            creator = "LAT"
+        }
+        requested_factories = 1
+        progress = 0.15
+        efficiency = 100
+    }
+}

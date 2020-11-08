@@ -1,0 +1,553 @@
+﻿###### OOB ######
+units = {
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 101
+		}
+		location = 3530  # Karlsruhe
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 102
+		}
+		location = 586  # Bayreuth
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 203
+		}
+		location = 6521  # Berlin
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 204
+		}
+		location = 362  # Danzig
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 105
+		}
+		location = 13264  # Dusseldorf
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 106
+		}
+		location = 6469  # Essen
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 107
+		}
+		location = 11544  # Nuremberg
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 108
+		}
+		location = 6582  # Halle
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 109
+		}
+		location = 9347  # Hamburg
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 110
+		}
+		location = 6488  # Frankfurt am Main
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 111
+		}
+		location = 3673  # Klagenfurt
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 112
+		}
+		location = 587  # Cologne
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 113
+		}
+		location = 9524  # Kassel
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 214
+		}
+		location = 3522  # Dessau
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 115
+		}
+		location = 9557  # Wurzburg
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 216
+		}
+		location = 9496  # Frankfurt an der Oder
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 217
+		}
+		location = 11276  # Schwerin
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 118
+		}
+		location = 11494  # Koblenz
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 119
+		}
+		location = 692  # Munich
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 220
+		}
+		location = 6723  # Krems
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 221
+		}
+		location = 9570  # Breslau/Wroclaw
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 122
+		}
+		location = 9665  # Linz
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 223
+		}
+		location = 6464  # Kattowitz
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 124
+		}
+		location = 6325  # Luneburg
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 125
+		}
+		location = 6332  # Konigsberg
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 226
+		}
+		location = 6282  # Stettin
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 227
+		}
+		location = 514  # Dresden
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 128
+		}
+		location = 688  # Salzburg
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 129
+		}
+		location = 6389  # Kiel
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 130
+		}
+		location = 708  # Augsburg
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 131
+		}
+		location = 9648  # Graz
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 232
+		}
+		location = 11401  # Reichenberg/Liberec
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 133
+		}
+		location = 6377  # Hanover
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 134
+		}
+		location = 6524  # Weimar
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 135
+		}
+		location = 11618  # Innsbruck
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 236
+		}
+		location = 6558  # Posen
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 137
+		}
+		location = 336  # Oldenburg
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 138
+		}
+		location = 6535  # Munster
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 139
+		}
+		location = 495  # Dortmund
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 140
+		}
+		location = 11531  # Saarbrücken
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 141
+		}
+		location = 11666  # Vienna
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 142
+		}
+		location = 9517  # Stuttgart
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 143
+		}
+		location = 11653  # Moosburg
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 303
+		}
+		location = 6521  # Berlin
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 304
+		}
+		location = 362  # Danzig
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 314
+		}
+		location = 3522  # Dessau
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 316
+		}
+		location = 9496  # Frankfurt an der Oder
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 317
+		}
+		location = 11276  # Schwerin
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 320
+		}
+		location = 6723  # Krems
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 321
+		}
+		location = 9570  # Breslau/Wroclaw
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 323
+		}
+		location = 6464  # Kattowitz
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 326
+		}
+		location = 6282  # Stettin
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 327
+		}
+		location = 514  # Dresden
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 332
+		}
+		location = 11401  # Reichenberg/Liberec
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 336
+		}
+		location = 6558  # Posen
+		division_template = "Volkssturm-Brigade"
+		start_experience_factor = 0.0 # This wave was as raw as it gets.
+		start_equipment_factor = 0.8 # Desertions and equipment shortages
+	}			
+}

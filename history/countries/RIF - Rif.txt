@@ -1,0 +1,75 @@
+﻿#########################################################################
+# Rif
+#########################################################################
+capital = 290
+#######################
+# Research
+#######################
+set_technology = {
+	Small_Arms_1916 = 1
+}
+
+#######################
+# Politics
+#######################
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 5
+	authoritarian = 80
+	democratic = 15
+	socialist = 0
+	communist = 0
+}
+
+#######################
+# Leaders
+#######################
+# Authoritarianism
+create_country_leader = {
+	name = "Abd el-Krim el-Khattabi"
+	desc = ""
+	picture = "P_A_Abd_elKrim_elKhattabi.tga"
+	expire = "1961.1.1"
+	ideology = authoritarian_democracy
+	traits = {
+		POSITION_President
+		SUBIDEOLOGY_Authoritarian_Democracy
+		HoG_Father_of_Guerrilla_Warfare
+	}
+}
+# Democracy
+create_country_leader = {
+	name = "Abd el-Krim el-Khattabi"
+	desc = ""
+	picture = "P_A_Abd_elKrim_elKhattabi.tga"
+	expire = "1961.1.1"
+	ideology = social_conservatism
+	traits = {
+		POSITION_President
+		SUBIDEOLOGY_Conservatism
+		HoG_Father_of_Guerrilla_Warfare
+	}
+}
+# Communist
+create_country_leader = {
+	name = "Ali Yata"
+	desc = ""
+	picture = "P_C_Ali_Yata.tga"
+	expire = "1961.1.1"
+	ideology = marxism_leninism
+	traits = {
+		POSITION_President
+		SUBIDEOLOGY_Marxism_Leninism
+		HoS_Insignificant_Layman
+	}
+}
+
+#######################
+# Generals
+#######################

@@ -1,0 +1,102 @@
+﻿capital = 70
+
+oob = "SLO_1939"
+
+set_technology = {
+	Artillery_1910 = 1
+	Artillery_1935 = 1
+	Anti_Aircraft_Gun_1935 = 1
+	Small_Arms_1916 = 1
+	Small_Arms_1935 = 1
+	Support_Weapons_1905 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	tech_engineers = 1
+	Fighter_1933 = 1
+	Tactical_Bomber_1933 = 1
+	CAS_1936 = 1
+}
+1939.9.1 = {
+	GER = {
+		set_autonomy = {
+			target = SLO
+			autonomy_state = autonomy_satellite
+		}
+	}
+	
+	#######################
+	# Generals
+	#######################
+	create_corps_commander = {
+		name = "Augustin Malar"
+		picture = "M_Augustin_Malar.tga"
+		traits = {
+			commando
+		}
+		skill = 2
+		attack_skill = 1
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Jozef Turanec"
+		picture = "M_Jozef_Turanec.tga"
+		traits = {
+			harsh_leader
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Ferdinand Catlos"
+		picture = "M_Ferdinand_Catlos.tga"
+		traits = {
+			trait_cautious
+		}
+		skill = 2
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 3
+		logistics_skill = 3
+	}
+}
+1946.1.1 = {
+	GER = {
+		set_autonomy = {
+			target = SLO
+			autonomy_state = autonomy_free
+		}
+	}
+}
+
+set_politics = {
+	ruling_party = fascist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascist = 60
+	authoritarian = 0
+	democratic = 28
+	socialist = 12
+	communist = 0
+}
+# Fascism
+create_country_leader = {
+	name = "Jozef Tiso"
+	desc = ""
+	picture = "P_F_Jozef_Tiso.tga"
+	expire = "1965.1.1"
+	ideology = fascism
+	traits = {
+		POSITION_President
+		SUBIDEOLOGY_Fascism
+		HoS_PowerHungry_Demagogue
+	}
+}

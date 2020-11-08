@@ -1,0 +1,86 @@
+﻿###########################
+# Darkest Hour Events : Cosmetics
+###########################
+
+add_namespace = DH_Cosmetics
+
+#########################################################################
+#  Soviet Union - Soviet Provisional Government
+#########################################################################
+country_event = {
+	id = DH_Cosmetics.1
+	title = DH_Cosmetics.1.t
+	desc = DH_Cosmetics.1.desc
+	fire_only_once = yes
+	hidden = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_cosmetic_tag = SOV_LENINGRAD
+		create_country_leader = {
+			name = "Mikhail Tukhachevsky"
+			desc = ""
+			picture = "P_C_Mikhail_Tukhachevsky.tga"
+			expire = "1965.1.1"
+			ideology = trotskyism
+			traits = {}
+		}		
+	}
+	
+	option = {}
+}
+
+#########################################################################
+#  Soviet Union - Soviet Provisional Government (Reset)
+#########################################################################
+country_event = {
+	id = DH_Cosmetics.2
+	title = DH_Cosmetics.1.t
+	desc = DH_Cosmetics.1.desc
+	fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+		original_tag = SOV
+		has_government = communist
+		has_civil_war = no
+		has_country_flag = SOV_Leningrad_Circle	
+	}
+	immediate = {
+		drop_cosmetic_tag = yes
+	}
+	
+	option = {
+		name = DH_Cosmetics.2.A
+	}
+}
+
+#########################################################################
+#  Ukraine Test
+#########################################################################
+country_event = {
+	id = DH_Cosmetics.4
+	title = DH_Cosmetics.4.t
+	desc = DH_Cosmetics.4.desc
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_politics = {	
+			ruling_party = communist
+		}
+		set_popularities = {
+			fascist = 0
+			authoritarian = 0
+			democratic = 0
+			socialist = 0
+			communist = 100
+		}		
+		# load_focus_tree = FRA_Commune
+		set_cosmetic_tag = FRA_COMMUNE
+	}
+	
+	option = {
+		name = DH_Cosmetics.4.A
+	}
+}

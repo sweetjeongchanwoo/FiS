@@ -1,0 +1,9 @@
+﻿units = {
+	division= {
+		name = "SS-Kavallerie-Division „Florian Geyer“"
+		location = 11467 # Actually trained in Debica, Poland
+		division_template = "SS-Kavallerie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 1.0 
+	}
+}

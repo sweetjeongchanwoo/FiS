@@ -1,0 +1,35 @@
+﻿l_english:
+#########################################################################
+#  Iranian Events
+######################################################################### 
+ DH_iran.1.t:0 "German-Iranian Treaty of Friendship"
+ DH_iran.1.d:0 "Berlin has approached us with a lucrative offer. By signing the German-Iranian Friendship Treaty the Germans offer us better research equipment and bring us up to speed on the latest scientific breakthroughs. Accepting such an offer however will bring us in a closer ambit of the Reich. Other major powers might see this foreign influence as a provocation."
+ DH_iran.1.a:0 "Accept"
+ DH_iran.1.b:0 "Decline"
+ 
+ DH_iran.2.t:0 "[From.GetName] has accepted the Treay"
+ DH_iran.2.d:0 "Our fellow Aryan friends of Iran have wisely accepted our generous offer. We have offered to bring them up to speed in the realm of science and technology, in return this will allow us to influence Iran's decisions in the long run."
+ DH_iran.2.a:0 "Excellent"
+ 
+ DH_iran.3.t:0 "[From.GetName] has decline the Treaty"
+ DH_iran.3.d:0 "It seems the Persians are not so keen on their Aryan kinship after all. They have rejected the German-Iranian Friendship Treaty, fearing that allowing Germany to influence their academia will bring harm to their international situation. Perhaps they will wake up to their geo-political reality some other time."
+ DH_iran.3.a:0 "Disappointing"
+
+ DH_iran.4.t:0 "Soviet Ultimatum"
+ DH_iran.4.d:0 "The Soviet Union is threatning an attack on our nation unless our Pro-German Shah steps down from his rule, what shall we do?"
+ DH_iran.4.a:0 "This is the only way."
+ DH_iran.4.b:0 "We Refuse!"
+ 
+ DH_iran.5.t:0 "Iran concedes"
+ DH_iran.5.d:0 "As a result of our persuasition the Shah of Iran has conceded to our demmands by abdicating in favor of his son."
+ DH_iran.5.a:0 "As excpected"
+ 
+ DH_iran.6.t:0 "Iran rejects our request"
+ DH_iran.6.d:0 "The Shah of Iran has proven stubborn and refused to listen to our request, therefore it is likely they are conspiring with Germany against us!"
+ DH_iran.6.a:0 "Do what must be done!"
+
+#########################################################################
+## Persian Ideas
+#########################################################################
+ PER_german_academic_influence:0 "German Academic Influence"
+ PER_german_academic_influence_desc:0 "German scientists are assisting us in our Research efforts." 

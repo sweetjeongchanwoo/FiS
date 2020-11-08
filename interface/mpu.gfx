@@ -1,0 +1,18 @@
+spriteTypes = {	
+	corneredTilespriteType = {
+		name = "GFX_mpu_tiled_header"
+		size= { x=543 y=41 }
+		textureFile = "gfx/interface/header_bg.dds"
+		borderSize = { x=64 y=3 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTilespriteType = {
+		name = "GFX_mpu_tiled_dialog"
+		size= {x=96 y=96 }
+		textureFile ="gfx/mpu/mpu_tiled_dialog.dds"
+		borderSize = { x=32 y=32 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+}	

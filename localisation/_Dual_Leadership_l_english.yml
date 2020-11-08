@@ -1,0 +1,97 @@
+﻿l_english:
+ #Leader Titles
+ leader_title_one_none:0 "Leader"
+ leader_title_two_none:0 ""
+
+ leader_title_one_generic:0 "Head of State"
+ leader_title_two_generic:0 "Head of Government"
+
+ POSITION_GER_Reichsprasident:0 "§WReichspräsident§!"
+ POSITION_GER_Reichskanzler:0 "§WReichskanzler§!"
+ POSITION_GER_Fuhrer:0 "§WFührer§!"
+ POSITION_GER_Deputy_Fuhrer:0 "§WDeputy Führer§!"
+ POSITION_GER_Parteikanzlei:0 "§WParteikanzlei§!"
+ POSITION_GER_Reichskommissar:0 "§WReichskommissar§!"
+ POSITION_GER_Reichsprotektor:0 "§WReichsprotektor§!"
+ POSITION_GER_Reich_Plenipotentiary:0 "§WReich Plenipotentiary§!"
+ POSITION_GER_Generalkommissar:0 "§WGeneralkommissar§!"
+ POSITION_GER_Reichsleiter:0 "§WReichsleiter§!"
+ POSITION_GER_Stabschef:0 "§WStabschef§!"
+ POSITION_GER_Generalgouverneur:0 "§WGeneralgouverneur§!"
+ POSITION_GER_Staatssekretar:0 "§WStaatssekretär§!"
+
+ POSITION_GER_Kaiser:0 "§WKaiser§!"
+ POSITION_GER_Militarbefehlshaber:0 "§WMilitärbefehlshaber§!"
+
+ POSITION_ROM_Conducator:0 "§WConducator§!"
+
+ POSITION_CRO_Poglavnik:0 "§WPoglavnik§!"
+
+ POSITION_SPA_Caudillo:0 "§WCaudillo§!"
+
+ POSITION_ITA_Duce:0 "§WDuce§!"
+ 
+ POSITION_Marshal:0 "§WMarshal§!"
+
+ POSITION_FRA_Chef_dEtat:0 "§WChef d'Etat§!"
+ POSITION_FRA_Chef_du_Gouvernement:0 "§WChef du Gouvernement§!"
+
+ POSITION_NOR_Forer:0 "§WFører§!"
+
+ POSITION_JAP_Tenno:0 "§WTenno§!"
+ POSITION_JAP_Shusho:0 "§WShusho§!"
+ 
+ POSITION_Leader:0 "§WLeader§!"
+ POSITION_Supreme_Leader:0 "§WSupreme Leader§!"
+ POSITION_Jefe_Supremo:0 "§WJefe Supremo§!"
+ POSITION_Jefe_Maximo:0 "§WJefe Maximo§!"
+ POSITION_President:0 "§WPresident§!"
+ POSITION_Acting_President:0 "§WActing President§!"
+ POSITION_Vice_President:0 "§WVice President§!"
+ POSITION_Prime_Minister:0 "§WPrime Minister§!"
+ POSITION_Chancellor:0 "§WChancellor§!"
+ POSITION_King:0 "§WKing§!"
+ POSITION_Regent:0 "§WRegent§!"
+ POSITION_Emir:0 "§WEmir§!"
+ POSITION_Emperor:0 "§WEmperor§!"
+ POSITION_Tsar:0 "§WTsar§!"
+ POSITION_Shah:0 "§WShah§!"
+ POSITION_Imam:0 "§WImam§!"
+ POSITION_Sultan:0 "§WSultan§!"
+ POSITION_Premier:0 "§WPremier§!"
+ POSITION_Chairman:0 "§WChairman§!"
+ POSITION_Generalissimo:0 "§WGeneralissimo§!"
+ POSITION_General_Secretary:0 "§WGeneral Secretary§!"
+ POSITION_Second_Secretary:0 "§WSecond Secretary§!"
+ POSITION_Military_Governor:0 "§WMilitary Governor§!"
+ POSITION_Commander:0 "§WCommander§!"
+ POSITION_Civil_Governor:0 "§WCivil Governor§!"
+ POSITION_Deputy_Commander:0 "§WDeputy Commander§!"
+ POSITION_Governor_General:0 "§WGovernor-General§!"
+ POSITION_Commander_in_Chief:0 "§WCommander-in-Chief§!"
+ POSITION_Senate_President:0 "§WSenate President§!"
+ POSITION_High_Commissioner:0 "§WHigh Commissioner§!"
+ POSITION_State_President:0 "§WState President§!"
+ POSITION_Commission_Chairman:0 "§WCommission Chairman§!"
+ POSITION_Chairman_of_the_Presidium:0 "§WChairman of the Presiudium§!"
+ POSITION_Administrator:0 "§WAdministrator§!"
+ POSITION_Transitional_Administrator:0 "§WTransitional Administrator§!"
+ POSITION_Patriarch:0 "§WPatriarch§!"
+ POSITION_Crown_Prince:0 "§WCrown Prince§!"
+ POSITION_President_Chamber_Deputies:0 "§WPresident of the Chamber of Deputies§!"
+ POSITION_Chief_Minister:0 "§WChief Minister§!"
+ POSITION_Chogyal:0 "§WChogyal§!"
+
+ #Leader names
+ leader_name_two_generic:0 "Vacant Position"
+ leader_desc_two_generic:0 ""
+
+ # Tooltips:
+ SAF_HoS_GHH_Villiers_desc:0 "§YStern Imperialist§!\n§W - Daily Political Power Gain:§!§G +0.05§!"
+
+ # GUI:
+ LEADER_NAME_DIPLO_VIEW: "§H[This.GetLeader]§! \n[This.leader_title_one] of §Y[This.GetNameWithFlag]§!."
+ SECOND_LEADER_NAME: "§H[This.leader_name_two]§!"
+ SECOND_LEADER_NAME_DIPLO_VIEW: "§H[This.leader_name_two]§! \n[This.leader_title_two] of §Y[This.GetNameWithFlag]§!."
+ SECOND_LEADER_DESC: "§L[This.leader_desc_two]§!"
+ 

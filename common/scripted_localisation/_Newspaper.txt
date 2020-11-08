@@ -1,0 +1,342 @@
+####################################################################
+#### Custom Newspaper Headers
+####################################################################
+defined_text = { 
+	name = GetNewsIcon
+	### Arab Countries
+	text = {
+		trigger = {
+			OR = {
+				tag = SAU
+				tag = YEM
+				tag = OMA
+				tag = IRQ
+				tag = SYR
+				tag = LEB
+				tag = EGY
+				tag = LBA
+				tag = ALG
+			}
+		}
+		localization_key = Newspaper_ARAB
+	}
+	### Austria - Socialist
+	text = {
+		trigger = {
+			tag = AUS
+			OR = {
+				has_government = socialist
+				has_government = communist
+			}
+		}
+		localization_key = Newspaper_AUS_socialist
+	}
+	### Brazil
+	text = {
+		trigger = {
+			tag = BRA
+			NOT = {
+				has_government = fascist
+			}
+		}
+		localization_key = Newspaper_BRA
+	}
+	### Brazil - Fascist
+	text = {
+		trigger = {
+			tag = BRA
+			has_government = fascist
+		}
+		localization_key = Newspaper_BRA_fascist
+	}
+	### Bulgaria
+	text = {
+		trigger = {
+			tag = BUL
+		}
+		localization_key = Newspaper_BUL
+	}
+	### Rep of China
+	text = {
+		trigger = {
+			tag = CHI
+		}
+		localization_key = Newspaper_CHI
+	}
+	### Croatia
+	text = {
+		trigger = {
+			tag = CRO
+		}
+		localization_key = Newspaper_CRO
+	}
+	### Democratic Rep of Germany
+	text = {
+		trigger = {
+			tag = DDR
+			date > 1945.1.1
+		}
+		localization_key = Newspaper_DDR
+	}
+	### Denmark
+	text = {
+		trigger = {
+			tag = DEN
+		}
+		localization_key = Newspaper_DEN
+	}
+	### United Kingdom
+	text = {
+		trigger = {
+			tag = ENG
+		}
+		localization_key = Newspaper_ENG
+	}
+	### Finland
+	text = {
+		trigger = {
+			tag = FIN
+		}
+		localization_key = Newspaper_FIN
+	}
+	### France
+	text = {
+		trigger = {
+			tag = FRA
+			NOT = {
+				OR = {
+					has_government = fascist
+					has_government = socialist
+					has_government = communist
+				}
+			}
+		}
+		localization_key = Newspaper_FRA
+	}
+	### France - Communist/Socialist
+	text = {
+		trigger = {
+			tag = FRA
+			OR = {
+				has_government = socialist
+				has_government = communist
+			}
+		}
+		localization_key = Newspaper_FRA_communist
+	}
+	### France - Fascist
+	text = {
+		trigger = {
+			tag = FRA
+			has_government = fascist
+		}
+		localization_key = Newspaper_FRA_fascist
+	}
+	### Germany - Communist
+	text = {
+		trigger = {
+			OR = { tag = GER tag = DDR }
+			has_government = communist
+		}
+		localization_key = Newspaper_GER_communist
+	}
+	### Germany - Democratic
+	text = {
+		trigger = {
+			tag = GER
+			has_government = democratic
+		}
+		localization_key = Newspaper_GER_democratic
+	}
+	### Germany - Fascist
+	text = {
+		trigger = {
+			tag = GER
+			has_government = fascist
+			NOT = { has_country_flag = GER_SS }
+		}
+		localization_key = Newspaper_GER_fascist
+	}
+	### Germany (SS State) - Fascist
+	text = {
+		trigger = {
+			tag = GER
+			has_government = fascist
+			has_country_flag = GER_SS
+			#has_cosmetic_tag = GER_SS
+		}
+		localization_key = Newspaper_GER_SS_fascist
+	}
+	### Germany
+	text = {
+		trigger = {
+			tag = GER
+		}
+		localization_key = Newspaper_GER
+	}	
+	### Greece
+	text = {
+		trigger = {
+			tag = GRE
+		}
+		localization_key = Newspaper_GRE
+	}
+	### Hungary
+	text = {
+		trigger = {
+			tag = HUN
+		}
+		localization_key = Newspaper_HUN
+	}
+	### Ireland
+	text = {
+		trigger = {
+			tag = IRE
+		}
+		localization_key = Newspaper_IRE
+	}
+	### Italy
+	text = {
+		trigger = {
+			tag = ITA
+		}
+		localization_key = Newspaper_ITA
+	}
+	### Japan
+	text = {
+		trigger = {
+			tag = JAP
+			NOT = {
+				has_government = socialist
+				has_government = communist
+			}
+		}
+		localization_key = Newspaper_JAP
+	}
+	### Japan - Socialist/Communist
+	text = {
+		trigger = {
+			tag = JAP
+			OR = {
+				has_government = socialist
+				has_government = communist
+			}
+		}
+		localization_key = Newspaper_JAP_communist
+	}
+	### Korea
+	text = {
+		trigger = {
+			tag = KOR
+		}
+		localization_key = Newspaper_KOR
+	}
+	### Norway
+	text = {
+		trigger = {
+			tag = NOR
+		}
+		localization_key = Newspaper_NOR
+	}
+	### Chinese Soviet Rep / People's Rep of China - Socialist/Communist
+	text = {
+		trigger = {
+			tag = PRC
+			OR = {
+				has_government = socialist
+				has_government = communist
+			}
+		}
+		localization_key = Newspaper_PRC_communist
+	}
+	### Romania
+	text = {
+		trigger = {
+			tag = ROM
+		}
+		localization_key = Newspaper_ROM
+	}
+	### Soviet Union - Red Army
+	text = {
+		trigger = {
+			tag = SOV
+			OR = {
+				has_government = socialist
+				has_government = communist
+			}
+			has_country_flag = SOV_March_on_the_Kremlin
+		}
+		localization_key = Newspaper_SOV_RED_ARMY_communist
+	}	
+	### Soviet Union - Socialist/Communist
+	text = {
+		trigger = {
+			tag = SOV
+			OR = {
+				has_government = socialist
+				has_government = communist
+			}			
+		}
+		localization_key = Newspaper_SOV_communist
+	}
+
+	### Nationalist Spain
+	text = {
+		trigger = {
+			tag = SPA
+		}
+		localization_key = Newspaper_SPA
+	}
+	### Sweden
+	text = {
+		trigger = {
+			tag = SWE
+		}
+		localization_key = Newspaper_SWE
+	}
+	### United States
+	text = {
+		trigger = {
+			tag = USA
+		}
+		localization_key = Newspaper_USA
+	}
+
+	### Generic
+	text = {
+		trigger = {
+			NOT = {
+				has_custom_newspaper = yes	
+			}
+			OR = {
+				has_government = authoritarian 
+				has_government = democratic 
+			}
+		}
+		localization_key = Newspaper_GENERIC
+	}
+	### Generic - Socialist/Communist
+	text = {
+		trigger = {
+			NOT = {
+				has_custom_newspaper = yes	
+			}
+			OR = {
+				has_government = socialist 
+				has_government = communist 
+			}
+
+		}
+		localization_key = Newspaper_GENERIC_communist
+	}
+	### Generic - Fascist
+	text = {
+		trigger = {
+			NOT = {
+				has_custom_newspaper = yes	
+			}
+			has_government = fascist 
+		}
+		localization_key = Newspaper_GENERIC_fascist
+	}
+}

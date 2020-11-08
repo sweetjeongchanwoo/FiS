@@ -1,0 +1,49 @@
+﻿division_template = {
+	name = "Juntuan"			# Template uses Chinese setup of a 'corps' made up of regiment-sized (2x bns.) 'divisions' 
+								
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    ##### Xizang Army #####
+    division = {
+        name = "1st 2nd 3rd Regiments"
+        location = 5033 # Lhasa
+        division_template = "Juntuan"
+        start_experience_factor = 0
+        start_equipment_factor = 0.18
+    }
+
+    division = {
+        name = "4th 5th 6th Regiments"
+        location = 5033 # Lhasa
+        division_template = "Juntuan"
+        start_experience_factor = 0
+        start_equipment_factor = 0.09
+    }
+
+    division = {
+        name = "7th 8th 9th 10th Regiments"
+        location = 5033 # Lhasa
+        division_template = "Juntuan"
+        start_experience_factor = 0
+        start_equipment_factor = 0.12
+    }
+}
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1900
+			creator = "TIB"
+		}
+		requested_factories = 1
+		progress = 0.42
+		efficiency = 78
+	}
+}

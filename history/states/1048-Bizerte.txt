@@ -1,0 +1,49 @@
+
+state={
+	id=1048
+	name="STATE_1048"
+
+	history={
+		owner = FRA
+		victory_points = {
+			11969 2 
+		}
+		buildings = {
+			infrastructure = 4
+			11969 = {
+				naval_base = 8
+
+			}
+
+		}
+		add_core_of = TUN
+		1941.6.22 = {
+			owner = VIC
+			controller = VIC
+
+		}
+		1942.11.22 = {
+			owner = FRA
+			controller = ITA
+
+		}
+		1943.7.26 = {
+			owner = FRA
+			controller = FRA
+
+		}
+		1972.1.1 = {
+			owner = TUN
+			controller = TUN
+
+		}
+
+	}
+
+	provinces={
+		11969 
+	}
+	manpower=142966
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

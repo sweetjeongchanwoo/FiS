@@ -1,0 +1,623 @@
+﻿#########################################################################
+# Republic of China - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 613	# Nanjing
+	oob = "CHI_1933"
+	set_convoys = 40
+	set_stability = 0.2
+	set_war_support = 0.5
+	save_global_event_target_as = WTT_current_china_leader
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+		Fighter_1933 = 1
+		Tactical_Bomber_1933 = 1
+		Mass_Assault = 1
+		fleet_in_being = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		#Naval Stuff
+		DD_1885 = 1
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+		CL_1922 = 1
+		CA_1885 = 1
+		CA_1895 = 1
+		BB_1885 = 1
+		BB_1895 = 1
+		#
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 15
+		authoritarian = 40
+		democratic = 20
+		socialist = 0
+		communist = 25
+	}
+
+	#Dynamic Variables
+	set_variable = { CHI_treaties_stability = -0.2 }
+	set_variable = { CHI_treaties_production_speed = -0.2 }
+	set_variable = { CHI_treaties_exports = 0.1 }
+	add_dynamic_modifier = { modifier = CHI_Unequal_Treaties }
+
+	set_variable = { CHI_Corruption_Political_Power = -0.5 }
+	set_variable = { CHI_Corruption_Consumer_Goods = 0.2 }
+	set_variable = { CHI_Corruption_Build_Speed = -0.1 }
+	set_variable = { CHI_Corruption_Stability = -0.3 }
+	set_variable = { CHI_Corruption_War_Support = -0.3 }
+
+	set_variable = { CHI_Max_Political_Corruption = -0.45 }
+	set_variable = { CHI_Max_Consumer_Corruption = 0.18 }
+	set_variable = { CHI_Max_Build_Corruption = -0.09 }
+	set_variable = { CHI_Max_Stability_Corruption = -0.27 }
+	set_variable = { CHI_Max_War_Corruption = -0.27 }
+	add_dynamic_modifier = { modifier = CHI_Corruption }
+	set_country_flag = CHI_max_corruption
+
+	set_variable = { CHI_Admin_Chaos_Build_Speed = -0.3 }
+	set_variable = { CHI_Admin_Chaos_Political_Power = -0.5 }
+	set_variable = { CHI_Admin_Chaos_Resources = -0.2 }
+	set_variable = { CHI_Admin_Chaos_Stablity = -0.05 }
+	set_variable = { CHI_Admin_Chaos_Taxes = -0.9 }
+	add_dynamic_modifier = { modifier = CHI_Rural_Administrative_Chaos }
+
+	set_variable = { rural_reconstruction_cost = 25 }
+
+	add_ideas = {
+		CHI_Faction_Infighting_Whampoa
+		CHI_Incompetent_NRA
+		CHI_Depression_1
+		free_trade
+		agrarian_economy
+		# Cabinet
+		CHI_HoG_Lin_Sen
+		CHI_FM_Zhang_Qun
+		CHI_AM_Yu_Feipeng
+		CHI_MoS_Dai_Chunfeng
+		CHI_HoI_Dai_Chunfeng
+		# Military Staff
+		CHI_CoStaff_He_Yingqin
+		CHI_CoArmy_He_Yingqin
+		CHI_CoNavy_Chen_Shaokuan
+		CHI_CoAir_Zhou_Zhirou
+	}
+	save_global_event_target_as = WTT_current_china_leader
+	#######################
+	# Diplomacy
+	#######################
+	add_opinion_modifier = {
+		target = PRC
+		modifier = hostile_status
+	}
+	set_autonomy = {
+		target = NEA
+		autonomous_state = autonomy_national_revolutionary_army
+	}
+	set_autonomy = {
+		target = GND
+		autonomous_state = autonomy_clique
+	}
+	set_autonomy = {
+		target = SHX
+		autonomous_state = autonomy_clique
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Chiang Kai-shek"
+		desc = "Chiang_Kai_Shek_desc"
+		picture = "P_A_Chiang_Kai_Shek.tga"
+		expire = "1965.1.1"
+		ideology = fascism
+		traits = {
+			dictator
+		}
+	}
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Wang Jingwei"
+		desc = "Wang_Jingwei_desc"
+		picture = "P_A_Wang_Jingwei.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = {
+			POSITION_Premier
+			SUBIDEOLOGY_Authoritarian_Democracy
+			HoG_Backroom_Backstabber
+		}
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Xu Fulin"
+		desc = ""
+		picture = "P_A_Xu_Fulin.tga"
+		expire = "1965.1.1"
+		ideology = democratic_socialism
+		traits = {
+		}
+	}
+	# Left-Wing Radicalism
+	create_country_leader = {
+		name = "Huang Qixiang"
+		desc = ""
+		picture = "P_S_Huang_Qixiang.tga"
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {
+		}
+	}
+	# Bolshevik-Leninism
+	create_country_leader = {
+		name = "Chen Duxiu"
+		desc = ""
+		picture = "P_C_Chen_Duxiu.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = {
+		}
+	}
+}
+
+#########################################################################
+# Republic of China - 1936
+#########################################################################
+1936.1.1 = {
+	capital = 613	# Nanjing
+	oob = "CHI_1936"
+	set_convoys = 40
+	set_stability = 0.2
+	set_war_support = 0.5
+	save_global_event_target_as = WTT_current_china_leader
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		Fighter_1933 = 1
+		Tactical_Bomber_1933 = 1
+		Mass_Assault = 1
+		fleet_in_being = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		#Naval Stuff
+		DD_1885 = 1
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+		CL_1922 = 1
+		CA_1885 = 1
+		CA_1895 = 1
+		BB_1885 = 1
+		BB_1895 = 1
+		#
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 10
+		authoritarian = 50
+		democratic = 15
+		socialist = 0
+		communist = 25
+	}
+	add_ideas = {
+		# Cabinet
+		CHI_HoG_Chiang_Kaishek
+		CHI_FM_Zhang_Qun
+		CHI_AM_Yu_Feipeng
+		CHI_MoS_Dai_Chunfeng
+		CHI_HoI_Dai_Chunfeng
+		# Military Staff
+		CHI_CoStaff_He_Yingqin
+		CHI_CoArmy_He_Yingqin
+		CHI_CoNavy_Chen_Shaokuan
+		CHI_CoAir_Zhou_Zhirou
+	}
+	save_global_event_target_as = WTT_current_china_leader
+	#######################
+	# Diplomacy
+	#######################
+	add_opinion_modifier = {
+		target = PRC
+		modifier = hostile_status
+	}
+	set_autonomy = {
+		target = NEA
+		autonomous_state = autonomy_national_revolutionary_army
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Chiang Kai-shek"
+		desc = "Chiang_Kai_Shek_desc"
+		picture = "P_A_Chiang_Kai_Shek.tga"
+		expire = "1965.1.1"
+		ideology = fascism
+		traits = {
+			generallissimo
+			POSITION_Generalissimo
+		}
+	}
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Chiang Kai-shek"
+		desc = "Chiang_Kai_Shek_desc"
+		picture = "P_A_Chiang_Kai_Shek.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = {
+			generallissimo
+			POSITION_Generalissimo
+		}
+	}
+	create_country_leader = {
+		name = "Lin Sen"
+		desc = "Lin_Sen_desc"
+		picture = "P_D_Lin_Sen.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = {
+			staunch_constitutionalist
+			POSITION_Chairman
+		}
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Xu Fulin"
+		desc = ""
+		picture = "P_A_Xu_Fulin.tga"
+		expire = "1965.1.1"
+		ideology = democratic_socialism
+		traits = {
+		}
+	}
+	# Left-Wing Radicalism
+	create_country_leader = {
+		name = "Huang Qixiang"
+		desc = ""
+		picture = "China_S_Huang_Qixiang.tga"
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {
+		}
+	}
+	# Bolshevik-Leninism
+	create_country_leader = {
+		name = "Chen Duxiu"
+		desc = ""
+		picture = "China_C_Chen_Duxiu.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = {
+		}
+	}
+}
+
+#########################################################################
+# Republic of China - 1939
+#########################################################################
+1939.1.1 = {
+	set_autonomy = {
+		target = SIC
+		autonomous_state = autonomy_national_revolutionary_army
+	}
+}
+
+#########################################################################
+# Republic of China - 1944
+#########################################################################
+1944.6.20 = {
+	oob = "CHI_1944"
+}
+
+#######################
+# Generals
+#######################
+create_field_marshal = {
+	name = "He Yingqin"
+	picture = "M_He_Yingqin.tga"
+	traits = {
+		offensive_doctrine
+		trait_cautious
+		harsh_leader
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Chen Cheng"
+	picture = "M_Chen_Cheng.tga"
+	traits = {
+		offensive_doctrine
+		old_guard
+		career_officer
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Zhang Xueliang"
+	picture = "M_Zhang_Xueliang.tga"
+	traits = {
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Xue Yue"
+	picture = "M_Xue_Yue.tga"
+	traits = {
+		offensive_doctrine
+		trait_reckless
+		brilliant_strategist
+		war_hero
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Du Yuming"
+	picture = "M_Du_Yuming.tga"
+	traits = {
+		trait_cautious
+		harsh_leader
+		defensive_doctrine
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Zhang Zizhong"
+	picture = "M_Zhang_Zizhong.tga"
+	traits = {
+		urban_assault_specialist
+		trickster
+	}
+	skill = 1
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Zhang Lingfu"
+	picture = "M_Zhang_Lingfu.tga"
+	traits = {
+		offensive_doctrine
+		trait_reckless
+		career_officer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Hu Zongnan"
+	picture = "M_Hu_Zongnan.tga"
+	traits = {
+		old_guard
+		politically_connected
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Tang Shengzhi"
+	picture = "M_Tang_Shengzhi.tga"
+	traits = {
+		old_guard
+		defensive_doctrine
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Sun Li-jen"
+	picture = "M_Sun_Li_Jen.tga"
+	traits = {
+		trickster
+		war_hero
+		armor_officer
+		brilliant_strategist
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Hu Lien"
+	picture = "M_Hu_Lien.tga"
+	traits = {
+		old_guard
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Dai Li"
+	picture = "China_F_Dai_Li.tga"
+	traits = {
+		politically_connected
+		harsh_leader
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Zhang Fakui"
+	picture = "M_Zhang_Fakui.tga"
+	traits = {
+		brilliant_strategist
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Chen Shaokun"
+	picture = "M_Chen_Shaokuan.tga"
+	traits = {
+		superior_tactician
+	}
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Lu Zhengcao"
+	picture = "lu_zhengcao.tga"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Liu Doujun"
+	picture = "liu_doujun.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Tang Yulin"
+	picture = "tangyulin.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Wan Fulin"
+	picture = "wanfulin.tga"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Wang Yizhe"
+	picture = "wangyizhe.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+#########################################################################
+# Republic of China - 1950
+#########################################################################
+1950.1.1 = {
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Chiang Kai-shek"
+		desc = "Chiang_Kai_Shek_desc"
+		picture = "P_A_Chiang_Kai_Shek_1945.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = {
+			generallissimo
+		}
+	}
+}

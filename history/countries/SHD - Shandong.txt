@@ -1,0 +1,47 @@
+﻿#########################################################################
+# Shandong
+#########################################################################
+capital = 597
+oob = "SHD_1936"
+set_convoys = 0
+#######################
+# Research
+#######################
+set_technology = {
+	Small_Arms_1916 = 1
+	Artillery_1910 = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascist = 0
+	authoritarian = 100
+	democratic = 0
+	socialist = 0
+	communist = 0
+}
+create_country_leader = {
+	name = "Han Fu-Fuju"
+	desc = "Han_Fuju_desc"
+	picture = "P_A_Han_Fuju.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democracy
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Han Fuju"
+	picture = "P_A_Han_Fuju.tga"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}

@@ -1,0 +1,105 @@
+﻿#############################################
+# Indonesia - 1933
+#############################################
+1933.1.1 = {
+	capital = 335 #Jakarta
+	oob = "INS_1933"
+	set_convoys = 25
+	set_research_slots = 2
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		tech_support = 1
+		tech_recon = 1
+		Fighter_1933 = 1
+		Tactical_Bomber_1933 = 1
+		transport = 1
+
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+
+		CA_1885 = 1
+		CA_1895 = 1
+
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+
+		SS_1895 = 1
+		SS_1912 = 1
+		SS_1916 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 27
+		democratic = 53
+		socialist = 20
+		communist = 0
+	}	
+	set_cosmetic_tag = INS_HOL # Netherlands East Indies
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Bonifacius Cornelis de Jonge"
+		desc = ""
+		picture = "P_D_Bonifacius_Cornelis_de_Jonge.tga"
+		expire = "1953.3.1"
+		ideology = social_conservatism
+		traits = {
+			POSITION_Governor_General
+			SUBIDEOLOGY_Conservatism
+			HoS_Benevolent_Gentleman
+		}
+	}
+}
+#############################################
+# Indonesia - 1936
+#############################################
+1936.1.1 = {
+	oob = "INS_1936"
+}
+#############################################
+# Indonesia - 1936
+#############################################
+1939.9.1 = {
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "A.T. van Starkenborgh-Stachouwer"
+		desc = ""
+		picture = "P_D_At_Van_Starkenborgh.tga"
+		expire = "1953.3.1"
+		ideology = social_conservatism
+		traits = {
+			POSITION_Governor_General
+			SUBIDEOLOGY_Conservatism
+			HoS_Benevolent_Gentleman
+		}
+	}
+}
+#############################################
+# Indonesia - 1936
+#############################################
+1956.1.1 = {
+	drop_cosmetic_tag = yes
+}

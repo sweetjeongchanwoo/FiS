@@ -1,0 +1,108 @@
+﻿division_template = {
+	name = "Peasant Armies"	
+	regiments = {
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 3 }
+		militia= { x = 1 y = 1 }
+		militia = { x = 2 y = 3 }
+		militia = { x = 2 y = 3 }
+	}
+}
+
+units = {
+	##### Eighth Route Army (CO: Mao Zedong, Zhu De) #####
+	division = {
+		name = "Chinese Workers' and Peasants' 1st Division"
+		location = 8049
+		division_template = "Peasant Armies"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Chinese Workers' and Peasants' 2nd Division"
+		location = 8049
+		division_template = "Peasant Armies"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Chinese Workers' and Peasants' 3rd Division"
+		location = 8049
+		division_template = "Peasant Armies"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Chinese Workers' and Peasants' 4th Division"
+		location = 8049
+		division_template = "Peasant Armies"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Chinese Workers' and Peasants' 5th Division"
+		location = 8049
+		division_template = "Peasant Armies"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Chinese Workers' and Peasants' 6th Division"
+		location = 8049
+		division_template = "Peasant Armies"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Chinese Workers' and Peasants' 7th Division"
+		location = 8049
+		division_template = "Peasant Armies"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Chinese Workers' and Peasants' 8th Division"
+		location = 8049
+		division_template = "Peasant Armies"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Chinese Workers' and Peasants' 9th Division"
+		location = 8049
+		division_template = "Peasant Armies"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Chinese Workers' and Peasants' 10th Division"
+		location = 8049
+		division_template = "Peasant Armies"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}
+
+##### STARTING PRODUCTION #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1900
+			creator = "PRC"
+		}
+		requested_factories = 2
+		progress = 0.33
+		efficiency = 100
+	}
+}

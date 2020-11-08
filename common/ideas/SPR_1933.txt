@@ -1,0 +1,139 @@
+ideas = {	
+	country = {
+		## Anarchist violence
+		SPR_anarchist_violence = {
+			picture = SPR_Anarchist_Violence
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+		## A divided state
+		SPR_collapsing_society = {
+			picture = SPR_A_Divided_State
+			modifier = {
+				stability_factor = -0.15
+			}
+		}
+		## Rivera's Debt
+		SPR_riveras_debt_1 = {
+			name = SPR_riveras_debt
+			picture = SPR_Riveras_Debt
+			modifier = {
+				money_expenses = -0.5
+			}
+		}
+		SPR_riveras_debt_2 = {
+			name = SPR_riveras_debt
+			picture = SPR_Riveras_Debt
+			modifier = { #-0.25 Daily Income (WIP)
+			money_expenses = -0.25
+			}
+		}
+		## Disgruntled Military
+		SPR_disgruntled_military_1 = {
+			picture = GENERIC_Demonstrations
+			modifier = {
+				supply_consumption_factor = -0.1
+				army_infantry_attack_factor = -0.15
+				army_infantry_defence_factor = -0.15
+				army_org_factor = -0.2
+				recruitable_population_factor = -0.3
+			}
+		}
+		SPR_disgruntled_military_2 = {
+			picture = GENERIC_Demonstrations
+			modifier = {
+				supply_consumption_factor = -0.1
+				army_infantry_attack_factor = -0.2
+				army_infantry_defence_factor = -0.2
+				army_org_factor = -0.1
+				recruitable_population_factor = -0.3
+			}
+		}
+		SPR_disgruntled_military_3 = {
+			picture = GENERIC_Demonstrations
+			modifier = {
+				supply_consumption_factor = -0.1
+				army_infantry_attack_factor = -0.1
+				army_infantry_defence_factor = -0.1
+				army_org_factor = -0.1
+				recruitable_population_factor = -0.3
+			}
+		}
+		## Combat la España Vacía
+		SPR_Combat_la_Espana_Vacia_1 = {
+			picture = SPR_Combat_la_España_Vacía
+			modifier = {
+				monthly_population = 0.2
+			}
+		}
+		SPR_Combat_la_Espana_Vacia_2 = {
+			picture = SPR_Combat_la_España_Vacía
+			modifier = {
+				monthly_population = 0.2
+				industrial_capacity_factory = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+		SPR_Combat_la_Espana_Vacia_3 = {
+			picture = SPR_Combat_la_España_Vacía
+			modifier = {
+				stability_factor = 0.025
+				monthly_population = 0.2
+				industrial_capacity_factory = 0.15
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+		## The Agrarian Reform
+		SPR_the_agrarian_reform = {
+			picture = SPR_The_Agrarian_Reform
+			modifier = {
+				stability_factor = 0.05
+				socialist_drift = 0.001
+			}
+		}
+		## Social Unrest
+		SPR_social_unrest = {
+			picture = SPR_The_Agrarian_Reform
+			modifier = {
+				stability_factor = -0.05
+				industrial_capacity_factory = -0.05
+			}
+		}
+		## Revive The Internal Economy
+		SPR_Industrial_Protectionism = {
+			picture = SPR_Industrial_Protectionism
+			modifier = {
+				industrial_capacity_factory = -0.1
+				consumer_goods_factor = -0.05
+				local_resources_factor = 0.05
+			}
+		}
+	}
+	hidden_ideas = {
+		## Saenz de Buruaga
+		SPR_Saenz_de_Buruaga = {
+			modifier = {
+				experience_gain_air	= 0.5
+			}
+		}
+		## Maintain Our Political Independence
+		SPR_maintain_our_political_independence = {
+			modifier = {
+				democratic_drift = 0.01
+			}
+		}
+		## Embrace CEDA
+		SPR_align_with_the_right = {
+				modifier = { #Should be conservative. (Which doesn't exist)
+				authoritarian_drift = 0.02
+			}
+		}
+		## Destitute Left-Wing Governors
+		SPR_rid_the_countryside_of_socialism = {
+			modifier = {
+				authoritarian_drift = 0.01
+			}
+		}
+	}
+}

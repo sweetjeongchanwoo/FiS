@@ -1,0 +1,39 @@
+﻿l_english:
+#########################################################################
+#  Sinkiang Focuses
+#########################################################################
+
+#########################################################################
+#  Sinkiang Events
+#########################################################################
+ DH_xinjiang.1.t:0 ""
+ DH_xinjiang.1.d:0 ""
+ DH_xinjiang.1.a:0 ""
+ DH_xinjiang.1.b:0 ""
+ 
+ #yes
+ DH_xinjiang.2.t:0 "Xinjiang Refuses"
+ DH_xinjiang.2.d:0 ""
+ DH_xinjiang.2.a:0 ""
+ #no
+ DH_xinjiang.3.t:0 "Xinjiang Accepts"
+ DH_xinjiang.3.d:0 ""
+ DH_xinjiang.3.a:0 ""
+#########################################################################
+#  Sinkiang Ideas
+#########################################################################
+ SIK_Opium_Stimulated_Army:0 "Opium Stimulated Army"
+ SIK_Opium_Stimulated_Army_desc:0 ""
+ 
+ SIK_Collapsing_Economic_Monopoly:0 "Collapsing Economic Monopoly"
+ SIK_Collapsing_Economic_Monopoly_desc:0 ""
+ 
+ SIK_Restless_Turkic_Population:0 "Restless Turkic Population"
+ SIK_Restless_Turkic_Population_desc:0 ""
+ 
+ SIK_Overwhelming_Illiterracy:0 "Overwhelming Illiterracy"
+ SIK_Overwhelming_Illiterracy_desc:0 ""
+ 
+ SIK_Warlord_State:0 "Warlord State"
+ SIK_Warlord_State_desc:0 ""
+ 

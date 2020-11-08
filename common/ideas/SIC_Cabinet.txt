@@ -1,0 +1,20 @@
+ideas = {
+	#################################################
+	### Head of Government
+	#################################################
+	Head_of_Government = {
+		SIC_HoG_Liu_Wenhui = {
+			picture = Liu_Wenhui
+				allowed = { tag = SIC }
+				available = {
+					date > 1933.1.1
+					date < 1989.1.1
+					A_Minister_Allowed = yes
+					NOT = { has_country_flag = Liu_Wenhui_unavailable }
+				}
+				
+				
+				traits = { ideology_A POSITION_Deputy_Commander }
+		}
+	}
+}

@@ -1,0 +1,57 @@
+
+state={
+	id=827
+	name="STATE_827"
+	resources={
+		steel=9.000
+	}
+
+	history={
+		owner = SHX
+		victory_points = {
+			10424 3
+		}
+		victory_points = {
+			12403 2
+		}
+		victory_points = {
+			4525 2
+		}
+		1944.6.20 = {
+			controller = MEN
+
+		}
+		1946.1.1 = {
+			controller = SHX
+
+		}
+		1950.1.1 = {
+			owner = PRC
+
+		}
+		1956.1.1 = {
+			set_state_name = Hohhot
+			set_province_name = {
+				id = 10424
+				name = Hohhot
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SHX
+		add_core_of = CHI
+		add_core_of = PRC
+
+	}
+
+	provinces={
+		4525 7048 7158 7631 10424 12331 12403 
+	}
+	manpower=1100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

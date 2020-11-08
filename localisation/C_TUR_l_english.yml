@@ -1,0 +1,701 @@
+﻿l_english:
+#########################################################################
+#  Turkey Events
+#########################################################################
+ DH_Turkey.1.t:0 "Kars Convention on the Subdivision of Transcaucasia"
+ DH_Turkey.1.d:0 "After the Great war Turkey and the Soviet Union agreed on a Caucasian border, in which the new Turkish state acknowledged the territory belonging to the three Caucasian Soviet republic of Armenia, Georgia, and Azerbaijan. Now the Germans want to redraw these borders, even offering us to take control of 2 of the Caucasian republics, namely Armenia and Georgia."
+ DH_Turkey.1.A:0 "Agree to the new sphere of influence"
+ DH_Turkey.1.B:0 "Tell the Germans to keep it"
+
+ DH_Turkey.2.t:0 "Cyprus Question"
+ DH_Turkey.2.d:0 "The British naval base at Cyprus has fallen into German hands, and it happens that Berlin is seeking a new master for the island. Since they have already approached us with the offer to grant Cyprus to Turkey it merely needs approval. The only concession on Turkish side is to join the Axis."
+ DH_Turkey.2.A:0 "Cyprus belongs to Turkey"
+ DH_Turkey.2.B:0 "We cannot commit at this time"
+
+ DH_Turkey.3.t:0 "[From.GetName] Trade Deal"
+ DH_Turkey.3.d:0 "German negotiators have approached the Turkish forieng ministry with a potentially lucrative trade arrangement. Following the non-Agression Pact, and in return for developing Turkish armaments industry, Germany will receive substantial amounts of Chromite ore. The deal runs for approximately 3 years, after which Germany will have to purchase chromium for market prices."
+ DH_Turkey.3.A:0 "Accept"
+ DH_Turkey.3.B:0 "Decline"
+
+ DH_Turkey.4.t:0 "[From.GetName] Accepted"
+ DH_Turkey.4.d:0 "[From.GetName] has accepted our trade deal"
+ DH_Turkey.4A:0 "Good"
+
+ DH_Turkey.5.t:0 "[From.GetName] Declines"
+ DH_Turkey.5.d:0 "[From.GetName] has declined out trade deal"
+ DH_Turkey.5.A:0 "Terrible"
+
+ DH_Turkey.6.t:0 "Deals over"
+ DH_Turkey.6.d:0 "Removes the chromium stuff due to the trukey trade deal"
+ DH_Turkey.6.A:0 "Finally"
+
+ DH_Turkey.7.t:0 "Multiparty system - more adds"
+ DH_Turkey.7.d:0 "Ataturk allowed forming more party"
+ DH_Turkey.7.A:0 "Good"
+
+ DH_Turkey.10.t:0 "Enacting Nationalist Laws"
+ DH_Turkey.10.d:0 "Enacting Nationalist Laws"
+ DH_Turkey.10.A:0 "Ya istiklal ya olum!"
+
+ DH_Turkey.12.t:0 "Question of the Militias"
+ DH_Turkey.12.d:0 "During our struggle for independence from the imperialists and their Ottoman allies, the national movement could not rely on professional troops alone. Several militia groups comprised of patriotic Turks fought alongside the Grand National Assembly, and these heroes were critical in our victory over the Sultan's forces.\n\nNow, the war is over, and our Republic is at peace- but the militias remain. Without an enemy to fight, they have little practical purpose and divert our young men from more productive endeavors.\n\nWhile few deny that the militias are a point of national pride, and would prove useful if our nation came under threat once more, some worry that party-aligned paramilitary forces could threaten Atatürk's vision of a free, democratic Turkey. A motion calling for the abolition of all militias has reached parliament, who will now vote on their ultimate fate."
+ DH_Turkey.12.A:0 "We still have a need of those heroes."
+ DH_Turkey.12.B:0 "Their time has passed."
+
+ DH_Turkey.15.t:0 "The Republic's Tenth Year"
+ DH_Turkey.15.d:0 "In a rousing speech given at the hippodrome in Ankara, Turkish president Mustafa Kemal Atatürk commemorated the republic’s tenth year since its foundation, a remarkable milestone, considering the instability of the former Ottoman Empire and the “War of Liberation” that preceded its establishment. \n\nIn his speech, the founder of the republic acknowledged the considerable progress the country made throughout the decade but urged the Turkish people to not stop there, as he believed the progress made to not be “sufficient”, and wanted to spur them on to “accomplish even more, and greater tasks”.\n\nThe president afterwards spoke of the Turkish nation’s “excellent character”, expressing his belief that the country had the ability to “overcome difficulties of national unity”, and continue to make great progress towards his vision for Turkey. He also spoke of the Turkish nation’s rich history and culture, no doubt an attempt to instill a sense of national pride within the people of Turkey.\n\nThe Turkish people will have to hope that the strong words that were spoken today by Atatürk will be followed up by considerable action, as despite the progress that has been made since the Independence War, there is still far to go, something that the president has identified and will hope to rectify in the coming years."
+ DH_Turkey.15.A:0 "Ne mutlu Türküm diyene!"
+
+ DH_TUR_Elections.1000.t:0 "Death of Atatürk"
+ DH_TUR_Elections.1000.d:0 "A great tragedy has hit the Turkish nation this morning. The beloved founder and President of the Republic of Turkey, Mustafa Kemal Atatürk, has passed away at the Dolmabahçe Palace. Aratürk was already suffering from bad health from a cirrhosis due to his heavy drinking. After a short period of good health result of trying to change his life-style, his condition only worsened. Nine medical professionals signed the death certificate stating hero of Turkish independence has finally collapsed from his illness. Sorrow invaded the hearts of the Turkish citzens when the news reached the public.\n\nToday, the people mourns the man that transformed Turkey into a modern democratic nation. His possessions will be donated to the Republican People's Party with the remaining funds designated to his sister and his adopted children, according to his will. Our officials are already preparing a state funeral to be held in a few days, with no decision made on where Atatürk's body should rest yet. Behind the scenes, there are also preparations on who should succeed him in power with Prime Minister Ismet İnönü being the most natural choice. But with our beloved leader gone, his replacement will have some big shoes to fill."
+ DH_TUR_Elections.1000.A:0 "Farewell to our Hero..."
+
+ DH_Turkey.17.t:0 "Kapali Carsi Fire"
+
+ DH_Turkey.18.t:0 "Foundation of Petrol Ofisi"
+
+ DH_Turkey.19.t:0 "Hatay Join the Republic"
+
+ DH_Turkey.20.t:0 "Enfranchisement of Women"
+
+ DH_Turkey.21.t:0 "Refah Disaster"
+
+ DH_Turkey.22.t:0 "Meeting in Cairo"
+
+ DH_Turkey.23.t:0 "Istanbul-Halic Fire"
+
+ DH_Turkey.24.t:0 "Varto Earthquake"
+
+ DH_Turkey.25.t:0 "Foundation of TTK"
+
+ DH_Turkey.26.t:0 "Foundation of TDK"
+
+ DH_Turkey.27.t:0 "Foundation of Is Bankasi"
+
+ DH_Turkey.28.t:0 "One Step Closer To Atatürk’s Vision"
+ DH_Turkey.28.d:0 "During the time of the Ottoman Empire and apart from the wives and mothers of the Sultan, women were afforded very few opportunities, and certainly not the chance to run for any official political post or vote. But that has now changed, as the women of the Turkish Republic have the ability to vote and run for seats in the Grand National Assembly of Turkey.\n\nThis is a great and momentous occasion for our country, as women’s suffrage is something that not every country has granted, and will certainly put our rapidly developing republic in the good graces of the democratic powers within the world. Women’s suffrage in Turkey also stands as one of the resounding successes of President Atatürk’s tenure, showcasing the immense progress that the country has made towards a modern, secular state, a substantial part of his vision for the country."
+ DH_Turkey.28.A:0 "May we continue to realise Atatürk’s vision."
+
+ DH_Turkey.29.t:0 "Women's Suffrage In Turkey"
+ DH_Turkey.29.d:0 "[FROM.GetNewsIcon]During the time of the Ottoman Empire, women were afforded very few opportunities, and certainly not the chance to run for any official political post or vote. But that has now changed, as the women of Turkey now have the ability to vote and run for seats in the Grand National Assembly of Turkey, the parliament of the young republic.\n\nThis is viewed as a great and momentous occasion for the country, as women’s suffrage is something that not every country has granted, and will quite likely play a part in improved relations between the democracies of the world and Turkey. The establishment of women’s suffrage within Turkey, which is now part of the considerable progress that the country has made towards modernisation and secularism, is being viewed upon favourably by the people of the country. This will surely please Atatürk, as his vision for Turkey seems to be being fulfilled quite successfully, providing a stark contrast to the state that the country was in prior to the establishment of his republic."
+ DH_Turkey.29.A:0 "We are now one step closer to a modern, secular state."
+ DH_Turkey.29.A:0 "Good for them."
+
+ DH_Turkey.30.t:0 "Turkey demands Mosul"
+
+ DH_Turkey.31.t:0 "A solution for Mosul"
+ DH_Turkey.31.A:0 "Only war can solve it!"
+ DH_Turkey.31.B:0 "Organize a Mutual Agreement"
+ DH_Turkey.31.C:0 "Back to Square one"
+
+ DH_Turkey.32.t:0 "Hatay Referendum"
+
+ DH_Turkey.33.t:0 "A Proposal have came"
+ DH_Turkey.33.A:0 "The Obvious Solution"
+ DH_Turkey.33.B:0 "Let's not go THAT far"
+ DH_Turkey.33.C:0 "This will only bring and endless war"
+
+ DH_Turkey.49.t:0 "The Death of the National Poet"
+ DH_Turkey.49.d:0 "Mehmet Akif Ersoy, widely regarded by the Turkish people as the National Poet, has sadly, passed away. Of Albanian descent, Ersoy was originally a citizen of the old Ottoman Empire and as the struggle for a republic to be declared wore on, he lent what support he could by using his incredible command of the Turkish language and his excellent oratory skills, delivering countless speeches that advocated for patriotism and nationalism.\n\nHowever, these speeches were not his crowning achievement, and certainly not the main reason behind his immense popularity — that position goes to the Turkish national anthem, a ten-versed poem that spoke of many important values, like hope, devotion and sacrifice in the pursuit of liberty, which was highly topical, as the War of Independence was being waged at that time.\n\nSo, it is only fitting that we give him the respect, honour and the proper send-off that he deserves by making him the first man in the history of the Republic of Turkey to have the national anthem played at his funeral ceremony."
+ DH_Turkey.49.A:0 "A great creative mind has left us."
+
+#########################################################################
+#  Turkey Focuses
+#########################################################################
+
+ TUR_Address_the_Republican_Issues:0 "Address the Republican Issues"
+ TUR_Address_the_Republican_Issues_desc:0 "The Republic of Turkey has come a long way since it’s establishment after the Independence War and under the leadership of President Mustafa Kemal Atatürk and is on its way to becoming a secular, modern state. However, it’s not all sunshine and rainbows, as the two attempts that the president made to implement a multi-party system ended in disaster, leaving Turkey with only the Republican People’s Party. \n\nBut the lack of a political spectrum in Turkey is not the only problem within the country. Minorities are rebelling against our attempts at establishing a proper “Turkish” culture, our economy is weak, the army is incompetent, and harbours elements disloyal to the country and Atatürk’s vision for it, while political corruption runs rampant. All of these things added together provide obstacles that will be hard to get past, but if good ideas are implemented correctly, we will make progress, and hopefully, create a great Turkey."
+
+ TUR_Internal_Affairs:0 "Internal Affairs"
+ TUR_Internal_Affairs_desc:0 "Since the inception of the republic, comprehensive reforms have been carried out by the government in an attempt to modernise and establish secularism within the country. However, these reforms are just the beginning. If President Atatürk’s vision for the country is to be realised, we must continue to stabilise the internal affairs of the nation, and attempt to find solutions for the problematic issues facing us. If left unchecked, these problems could have disastrous repercussions, and end up tearing apart the country that we worked so hard to form from within."
+
+ TUR_Provide_Economic_Freedom:0 "Provide Economic Freedom"
+ TUR_Provide_Economic_Freedom_desc:0 ""
+
+ TUR_Fight_the_Corruption:0 "Fight the Corruption"
+ TUR_Fight_the_Corruption_desc:0 "The level of corruption in this country, especially in politics, is an illness that has lingered for decades, and it is holding back the incredible progress that we could make. Unfortunately, there are few ways to combat corruption on this level. To prevent everything that has been built by Atatürk from falling apart, we must approach the sickness in an aggressive manner, and attempt to eliminate as much corruption from every sector from Turkish life as possible, so that we can continue with to enact the reforms needed for this country to achieve its potential."
+
+ TUR_Increased_Funds:0 "Fund the Landowners"
+ TUR_Increased_Funds_desc:0 "While many people oppose the Turkish Landowners, due to their rather evident corruption and call for widespread land reform, it is currently simply not sustainable and in the interests of our government, to enact radical measures against these cornerstones of the Turkish economy.\n\nWe have thus decided to profit from the immense wealth of the Landowners by supporting and subsidizing them, which will allow us to at least profit from their earnings, which then can be redistributed to other parts of the populace, not to mention the many jobs that will be saved.\n\nWhile this approach is not popular with the populace, the economy and especially the rich elites will thank us."
+
+ TUR_Anatolian_Economic_Program:0 "Anatolian Economic Program"
+ TUR_Anatolian_Economic_Program_desc:0 "After we've reformed main aspects of our economy by the guidance of our beloved President, we're now in our final steps where we'll begin a mobilization program in all territories of our nation, to improve the infrastructure and stop foreign accusations of us.\n\nLooking at the Public Works, we should assign Ali Çetinkaya, a renowned General that helped our nation in the Independence War, and a known loyalist politician that has experience in Construction and Public Works - especially military construction.\n\nIn the meanwhile, there are many lands that aren't used in our recent reforms and repairs, we could use this opportunity to placate our factories over there, and making some relocations of those undesirables that could harm our mass Economic Program."
+
+ TUR_The_Armenian_Question:0 "The Armenian Question"
+ TUR_The_Armenian_Question_desc:0 ""
+
+ TUR_Deal_with_the_Kurds:0 "Deal with the Kurds"
+ TUR_Deal_with_the_Kurds_desc:0 "The Kurdish minority in Turkey has had a troubled history. They have been discriminated against in the past, and are now feeling threatened by our government’s attempts to Turkify them and establish a proper “Turkish” culture as well as the implementation of secularism within the country. The Kurds’ dissatisfaction with the policies of Turkification and secularism has manifested in violence and at times, rebellion. \n\nThis presents the government of President Atatürk with a dilemma. Whether to continue intensifying the attempts at Turkification, or to ease the pressure and allow the Kurdish people more freedom and autonomy within the system."
+
+ TUR_Enact_Nationalist_Laws:0 "Enact Nationalist Laws"
+ TUR_Enact_Nationalist_Laws_desc:0 "While many Turks are proud citizens of their Nation and don´t hesitate to fulfill their duty to the nation, there are still many, that reject Turkish Nationalism, either considering it „reactionary“ or insisting on some made-up ethnicity and culture.\n\nTo combat these dissenters, it is of utmost importance that from now on Nationalism and the duty to the Nation will not only be some vague idea, but a defined concept anchored in Turkish law. We will thus enact a series of laws, which will promote Nationalist sentiments, while also increasing our efforts in turkifying the various ethnicities living inside Turkey's borders."
+
+ TUR_External_Affairs:0 "External Affairs"
+ TUR_External_Affairs_desc:0 ""“Peace at home, peace in the world.” That is the motto of President Atatürk and that is what guides us in our decision-making process regarding Turkish foreign policy. It also signifies what position we take and how we want to be seen on the world stage. We want to be keepers of the peace, not warmongers like the empire that came before our republic. If we were to go against that motto, it would be a great disservice to the global community and would make us not too dissimilar to the Ottomans. \n\nHowever, just because we want to keep the peace, doesn’t mean we have to be pushovers and make no demands ourselves. There are territories formerly owned by the Ottoman Empire that are outside of our control currently that we can claim in the future, and hopefully take back. There is also a decision we have to make regarding our relationships with our European neighbours.""
+
+ TUR_Eyes_on_Levant:0 "Eyes on Levant"
+ TUR_Eyes_on_Levant_desc:0 "There is a large area of land just past our Southern border, the Levant, a former part of the Ottoman Empire that preceded our republic. Despite the many differences between the current government and the old empire, there is still a belief that the lands in the Levant are part of the Turkish heartland. To return these territories to Turkish control, we must attempt serious diplomatic talks with the goal of returning these territories. \n\nHowever, if our requests are to be denied, we must not lower ourselves to the level of the imperialists that came before us, and maintain our adherence to the president’s motto “Peace at home, peace in the world”."
+
+ TUR_Borders_at_Europe:0 "Borders at Europe"
+ TUR_Borders_at_Europe_desc:0 ""
+
+ TUR_Invite_Foreign_Investors:0 "Invite Foreign Investors"
+ TUR_Invite_Foreign_Investors_desc:0 ""
+
+ TUR_Welcome_Foreign_Visitors:0 "Welcome Foreign Visitors"
+ TUR_Welcome_Foreign_Visitors_desc:0 ""
+
+ TUR_Anti_European_Sentiment:0 "Anti European Sentiment"
+ TUR_Anti_European_Sentiment_desc:0 "The countries of Europe have only brought disaster and grief to our nation, and that is evidenced by the Great War and the Independence War that preceded the establishment of our republic. As we set our sights on developing this republic and realising President Atatürk’s vision, we must treat them with the contempt and disdain that they deserve. By planting this seed of anti-European sentiment within the community, the Turkish people’s nationalistic beliefs will grow, and so will their support for our agenda. This will be essential if the president’s plans are to be implemented and for Turkey to be put on the path to prosperity."
+
+ TUR_Enemies_at_Sight:0 "Enemies at Sight"
+ TUR_Enemies_at_Sight_desc:0 ""
+
+ TUR_Vision_for_the_Future:0 "Vision for the Future"
+ TUR_Vision_for_the_Future_desc:0 ""
+
+ TUR_Five_Year_Plan:0 "Five Year Plan"
+ TUR_Five_Year_Plan_desc:0 ""
+
+ TUR_Massive_Labour_Works:0 "Massive Labour Works"
+ TUR_Massive_Labour_Works_desc:0 ""
+
+ TUR_Controlled_Nationalization:0 "Controlled Nationalization"
+ TUR_Controlled_Nationalization_desc:0 "While a full nationalization of our economy is a popular notion among the public and parts of the government, it is simply not viable, due to the massive bureaucratic bloat and subsequent inefficiencies caused by this increase of government responsibilities.\n\nHowever, that doesn´t mean that the entire economy should remain in private hands. We will nationalize key sectors of the economy, like infrastructure, natural resources and military industry. This will ensure that vital assets and their production will be removed from the general state of the economy and the whims of stockholders, while also granting our party the possibility to directly intervene in the economy should the need arise."
+
+ TUR_Military_Reforms:0 "Military Reforms"
+ TUR_Military_Reforms_desc:0 "A strong military is essential for any aspiring nation, and our young republic is not an exception to this rule. Currently, the Turkish armed forces are ineffective, and without significant changes and improvements, our country will be left practically defenceless against any potential enemies. As well as being ineffective, the military also harbours disloyal elements that refuse to get in line and support this new era for the nation. If this republic has any hope of surviving, every branch of the military must undergo a series of reforms that will develop it into a modern and capable fighting force."
+
+ TUR_Dealing_with_the_Militias:0 "Dealing with the Militias"
+ TUR_Dealing_with_the_Militias_desc:0 "While we were successful in containing the Militias that fought on our side during the war for independence, for the time being, the time to decide draws ever closer, with only two options viable to finally solve the Militia question for good.\n\nWe could either honor the militias and promote their existence, or we could crack down on them, destroying the organizations themselves alongside their influence. While the first option would assure us the support of the Public and of course the militia themselves, they could very well pose a threat to our rule further down the line. A threat which would be avoided by dissolving the militias by force."
+
+ TUR_Nationalist_Propaganda:0 "Nationalist Propaganda"
+ TUR_Nationalist_Propaganda_desc:0 "Nationalism is one of the key tenets of President Atatürk’s vision for Turkey and so, will be a critical part of this country’s future. To promote this spirit of unity through nationality, we must embark on a propaganda campaign with the aim of subtlely indoctrinating the people of Turkey with these nationalistic ideals. Ideally, this campaign should make the people of this country more supportive of the government and its policies, which will make it easier for the president’s vision for the country’s future to be implemented."
+
+ TUR_Instate_Direct_Rule:0 "Ensure Direct Rule"
+ TUR_Instate_Direct_Rule_desc:0 "While it can be said that the future of our government is sufficiently secured, there are still many groups and organizations inside Turkey, mainly Liberals and Islamists, that wish to undermine our rule and decrease our influence of the country. To counter-act them and their perfidious plots, we will pass a series of new laws, that will cement our party as the main governing force and ensure direct rule over the rural areas and minority regions of Turkey, that are constantly trying to evade our control."
+
+ TUR_Hunt_down_Opposition:0 "Hunt down Opposition"
+ TUR_Hunt_down_Opposition_desc:0 "In this series of reforms that were introduced by our President, Mustafa Kemal Atatürk, It has become apparent that there's still an active, yet small, opposition that's lurking behind the shadows and lies, trying to slow down the reforms and corrupt it to keep their unjust power to themselves.\n\nOn our reform journey, we stumble upon some difficulties and problems when enacting justice and pursuing the truth through reform, And after some investigations, we found out that the Islamists are trying to stop the government from secularizing and nationalizing the state while covering themselves within those who despise Atatürk but calling themselves his supporters. In the other hand, Liberals are trying to get us very dependent on those nations who destroyed our beautiful nation and divided it into colonies, claiming they're true Democracy that everyone shall join their front. After these, we have some concern that our army - the one who supported us in getting our country unified, is trying to backstab and betray us from behind.\n\nWe need to make our action or the beautiful country that we built together will be lost…"
+
+ TUR_A_Victory_for_Turkey:0 "A Victory for Turkey"
+ TUR_A_Victory_for_Turkey_desc:0 ""
+
+ TUR_President_Inonu:0 "President Inonu"
+ TUR_President_Inonu_desc:0 ""
+
+ TUR_Commence_the_2nd_Five_Year_Plan:0 "Commence the 2nd Five Year Plan"
+ TUR_Commence_the_2nd_Five_Year_Plan_desc:0 ""
+
+ TUR_Begin_Land_Reforms:0 "Begin Land Reforms"
+ TUR_Begin_Land_Reforms_desc:0 ""
+
+ TUR_Sidelining_the_Liberals:0 "Sidelining the Liberals"
+ TUR_Sidelining_the_Liberals_desc:0 ""
+
+ TUR_Industrialization_of_Anatolia:0 "Industrialization of Anatolia"
+ TUR_Industrialization_of_Anatolia_desc:0 ""
+
+ TUR_National_Protection_Act:0 "National Protection Act"
+ TUR_National_Protection_Act_desc:0 ""
+
+ TUR_Implement_Currency_Controls:0 "Implement Currency Controls"
+ TUR_Implement_Currency_Controls_desc:0 ""
+
+ TUR_Value_Tax_Act:0 "Value Tax Act"
+ TUR_Value_Tax_Act_desc:0 ""
+
+ TUR_Ensure_Industrial_Equality:0 "Ensure Industrial Equality"
+ TUR_Ensure_Industrial_Equality_desc:0 ""
+
+ TUR_Rehabilitation_of_the_Republic:0 "Rehabilitation of the Republic"
+ TUR_Rehabilitation_of_the_Republic_desc:0 ""
+
+ TUR_Establish_the_Village_Institutes:0 "Establish the Village Institutes"
+ TUR_Establish_the_Village_Institutes_desc:0 ""
+
+ TUR_Pearls_from_the_Countryside:0 "Pearls from the Countryside"
+ TUR_Pearls_from_the_Countryside_desc:0 ""
+
+ TUR_Better_Opportunities_for_Our_Children:0 "Better Opportunities for Our Children"
+ TUR_Better_Opportunities_for_Our_Children_desc:0 ""
+
+ TUR_Enhance_Living_Standars:0 "Enhance Living Standards"
+ TUR_Enhance_Living_Standars_desc:0 ""
+
+ TUR_Our_Duties_to_Our_People:0 "Our Duties to Our People"
+ TUR_Our_Duties_to_Our_People_desc:0 ""
+
+ TUR_Jewish_Amnesty:0 "Jewish Amnesty"
+ TUR_Jewish_Amnesty_desc:0 ""
+
+ TUR_Social_Security_Programs:0 "Social Security Programs"
+ TUR_Social_Security_Programs_desc:0 ""
+
+ TUR_Enshire_the_Six_Arrows:0 "Enshire the Six Arrows"
+ TUR_Enshire_the_Six_Arrows_desc:0 ""
+
+ TUR_Access_to_Religion_for_All:0 "Access to Religion for All"
+ TUR_Access_to_Religion_for_All_desc:0 ""
+
+ TUR_Democratilization_Effort:0 "Democratilization Effort"
+ TUR_Democratilization_Effort_desc:0 ""
+
+ TUR_Encourage_Political_Assemblies:0 "Encourage Political Assemblies"
+ TUR_Encourage_Political_Assemblies_desc:0 ""
+
+ TUR_Inheritor_of_Kemalist_Legacy:0 "Inheritor of Kemalist Legacy"
+ TUR_Inheritor_of_Kemalist_Legacy_desc:0 ""
+
+ TUR_President_Cakmak:0 "President Cakmak"
+ TUR_President_Cakmak_desc:0 ""
+
+ TUR_Army_Primacy:0 "Army Primacy"
+ TUR_Army_Primacy_desc:0 ""
+
+ TUR_Renew_the_Thracian_Maneuvers:0 "Renew the Thracian Maneuvers"
+ TUR_Renew_the_Thracian_Maneuvers_desc:0 ""
+
+ TUR_Doctrinal_Innavations:0 "Doctrinal Innovations"
+ TUR_Doctrinal_Innavations_desc:0 ""
+
+ TUR_Militaristic_Curriculum:0 "Militaristic Curriculum"
+ TUR_Militaristic_Curriculum_desc:0 ""
+
+ TUR_Loyal_Officers:0 "Loyal Officers"
+ TUR_Loyal_Officers_desc:0 ""
+
+ TUR_Patriot_Recruitment_Act:0 "Patriot Recruitment Act"
+ TUR_Patriot_Recruitment_Act_desc:0 ""
+
+ TUR_Little_Mehments_Never_Die:0 "Little Mehments Never Die"
+ TUR_Little_Mehments_Never_Die_desc:0 ""
+
+ TUR_Nationalist_Social_Engineering:0 "Nationalist Social Engineering"
+ TUR_Nationalist_Social_Engineering_desc:0 ""
+
+ TUR_Turanist_Symbolism:0 "Turanist Symbolism"
+ TUR_Turanist_Symbolism_desc:0 ""
+
+ TUR_Monuments_of_Turkish_Heroes:0 "Monuments of Turkish Heroes"
+ TUR_Monuments_of_Turkish_Heroes_desc:0 ""
+
+ TUR_Weaken_Secular_Institutions:0 "Weaken Secular Institutions"
+ TUR_Weaken_Secular_Institutions_desc:0 ""
+
+ TUR_Turk_Islam_Synthesis:0 "Turk Islam Synthesis"
+ TUR_Turk_Islam_Synthesis_desc:0 ""
+
+ TUR_United_and_Ready:0 "United and Ready"
+ TUR_United_and_Ready_desc:0 ""
+
+ TUR_Middle_of_the_Road_Economics:0 "Middle of the Road Economics"
+ TUR_Middle_of_the_Road_Economics_desc:0 ""
+
+ TUR_Reconsider_the_Five_Year_Plan:0 "Reconsider the Five Year Plan"
+ TUR_Reconsider_the_Five_Year_Plan_desc:0 ""
+
+ TUR_National_Development_Act:0 "National Development Act"
+ TUR_National_Development_Act_desc:0 ""
+
+ TUR_Protect_Turkish_Workers:0 "Protect Turkish Workers"
+ TUR_Protect_Turkish_Workers_desc:0 ""
+
+ TUR_Liberalize_Key_Industries:0 "Liberalize Key Industries"
+ TUR_Liberalize_Key_Industries_desc:0 ""
+
+ TUR_Nationalist_Liveralizm:0 "Nationalist Liberalism"
+ TUR_Nationalist_Liveralizm_desc:0 ""
+
+ TUR_Self_Sufficient_Nation:0 "Self Sufficient Nation"
+ TUR_Self_Sufficient_Nation_desc:0 ""
+
+ TUR_The_Wolf_Howls_Again:0 "The Wolf Howls Again"
+ TUR_The_Wolf_Howls_Again_desc:0 ""
+
+ TUR_A_True_Turkey:0 "A True Turkey"
+ TUR_A_True_Turkey_desc:0 ""
+
+ TUR_Industrial_Reforms:0 "Industrial Reforms"
+ TUR_Industrial_Reforms_desc:0 "A strong industrial base is critical for any nation, small or large. Without one, you wouldn’t be able to support any form of standing army or provide a good standard of life for the country’s citizens. Currently, Turkey has a weak one, or at least one that is not fulfilling its potential. It will take a long time for this situation to be fully remedied, but at the very least we can jumpstart the process immediately by implementing reforms and new policies that will allow us to make the best use possible of emerging technologies."
+
+ TUR_Establish_Communication_Centers:0 "Establish Communication Centers"
+ TUR_Establish_Communication_Centers_desc:0 ""
+
+ TUR_Begin_Radar_Works:0 "Begin Radar Works"
+ TUR_Begin_Radar_Works_desc:0 ""
+
+ TUR_Refined_Construction_Technique:0 "Refined Turkish Architecture"
+ TUR_Refined_Construction_Technique_desc:0 ""
+
+ TUR_Study_Foreign_Electronics:0 "Reform the ITU"
+ TUR_Study_Foreign_Electronics_desc:0 ""
+
+ TUR_Emphasize_National_Companies:0 "Emphasize National Compagnies"
+ TUR_Emphasize_National_Companies_desc:0 ""
+
+ TUR_Produce_Turkish_Devices:0 "Prioritize Production of Turkish Devices"
+ TUR_Produce_Turkish_Devices_desc:0 ""
+
+ TUR_Invite_International_Companies:0 "Invite International Compagnies"
+ TUR_Invite_International_Companies_desc:0 ""
+
+ TUR_Join_International_Market:0 "Take Part in International Market"
+ TUR_Join_International_Market_desc:0 ""
+
+ TUR_Technologies_of_the_Future:0 "Technologies of the Future"
+ TUR_Technologies_of_the_Future_desc:0 ""
+
+ TUR_Military_Buildup_for_the_Upcoming_War:0 "Military Buildup for the Upcoming War"
+ TUR_Military_Buildup_for_the_Upcoming_War_desc:0 "The Great War caused an incredible amount of suffering for the entire world and resulted in millions of casualties, and over three hundred thousand of those were Turkish. Now, it seems like another war on that scale seems to be on the horizon. Whether we get involved in it this time is anyone’s guess, but we must be prepared to protect ourselves and the republic that we worked so hard to create and continue to develop. In order to do that, we must build up the military and expand our production capabilities considerably."
+
+ TUR_Expand_the_Kirikkale_Arms_Factory:0 "Expand the Kirikkale Arms Factory"
+ TUR_Expand_the_Kirikkale_Arms_Factory_desc:0 ""
+
+ TUR_MKEK_Expansion_Focus:0 "Build MKEK Industrial Sites"
+ TUR_MKEK_Expansion_Focus_desc:0 ""
+
+ TUR_News_Dockyards:0 "The Haliç Dockyard"
+ TUR_News_Dockyards_desc:0 ""
+
+ TUR_Wealth_of_Anatolia:0 "Wealth of Anatolia"
+ TUR_Wealth_of_Anatolia_desc:0 ""
+
+ TUR_Commission_Sivas_Cement_Factory:0 "Commission Sivas Cement Factory"
+ TUR_Commission_Sivas_Cement_Factory_desc:0 ""
+
+ TUR_Inauguarate_the_Bursa_Merinos_Factory:0 "Inauguarate the Bursa Merinos Factory"
+ TUR_Inauguarate_the_Bursa_Merinos_Factory_desc:0 ""
+
+ TUR_Open_Divrigi_Ironworks:0 "Open Divriği Ironworks"
+ TUR_Open_Divrigi_Ironworks_desc:0 ""
+
+ TUR_Increase_Funding_for_the_Karabuk_Steel_Factory:0 "Karabük Iron & Steel"
+ TUR_Increase_Funding_for_the_Karabuk_Steel_Factory_desc:0 ""
+
+ TUR_Foundations_for_a_Petrolium_Membership:0 "Foundations of TPIC"
+ TUR_Foundations_for_a_Petrolium_Membership_desc:0 ""
+
+ TUR_Expand_the_Ironweb:0 "Expand the Ironweb"
+ TUR_Expand_the_Ironweb_desc:0 ""
+
+ TUR_Funds_on_the_Coast:0 "Protect the Cabotage"
+ TUR_Funds_on_the_Coast_desc:0 ""
+
+ TUR_Ankara_Istanbul_Railway:0 "Ankara Istanbul Railway"
+ TUR_Ankara_Istanbul_Railway_desc:0 ""
+
+ TUR_Develop_Southeastern_Anatolia:0 "Develop Southeastern Anatolia"
+ TUR_Develop_Southeastern_Anatolia_desc:0 ""
+
+ TUR_Ankara_Adana_Railway:0 "Ankara Adana Railway"
+ TUR_Ankara_Adana_Railway_desc:0 ""
+
+ TUR_Refined_Industrial_Program:0 "Refined Industrial Program"
+ TUR_Refined_Industrial_Program_desc:0 ""
+
+ TUR_Industry_Revised:0 "Industry Revised"
+ TUR_Industry_Revised_desc:0 ""
+
+ TUR_Assess_The_Military:0 "Assess the Military"
+ TUR_Assess_The_Military_desc:0 ""
+
+ TUR_Expand_the_Air_Force:0 "Expand the Air Force"
+ TUR_Expand_the_Air_Force_desc:0 ""
+
+ TUR_Reach_Out_Foreign_Contractors:0 "Reach Out Foreign Contractors"
+ TUR_Reach_Out_Foreign_Contractors_desc:0 ""
+
+ TUR_Support_Demirags_Ambition:0 "Support Demirags Ambition"
+ TUR_Support_Demirags_Ambition_desc:0 ""
+
+ TUR_Pilot_Training:0 "Pilot Training"
+ TUR_Pilot_Training_desc:0 ""
+
+ TUR_Joint_Air_Exercises:0 "Joint Air Exercises"
+ TUR_Joint_Air_Exercises_desc:0 ""
+
+ TUR_Study_Foreign_Doctrines:0 "Study Foreign Doctrines"
+ TUR_Study_Foreign_Doctrines_desc:0 ""
+
+ TUR_Assemble_the_Arial_Research_Delegation:0 "Assemble the Arial Research Delegation"
+ TUR_Assemble_the_Arial_Research_Delegation_desc:0 ""
+
+ TUR_Licensed_Aircraft_Production:0 "Licensed Aircraft Production"
+ TUR_Licensed_Aircraft_Production_desc:0 ""
+
+ TUR_Volunteer_Air_Wings:0 "Volunteer Air Wings"
+ TUR_Volunteer_Air_Wings_desc:0 ""
+
+ TUR_Perfect_Our_Designs:0 "Renew Our Designs"
+ TUR_Perfect_Our_Designs_desc:0 ""
+
+ TUR_Paratrooper_Corps:0 "Paratrooper Corps"
+ TUR_Paratrooper_Corps_desc:0 ""
+
+ TUR_Subsidies_for_THK:0 "Subsidies for THK"
+ TUR_Subsidies_for_THK_desc:0 ""
+
+ TUR_Establish_Training_Bases:0 "Establish Training Bases"
+ TUR_Establish_Training_Bases_desc:0 ""
+
+ TUR_Internationalize_Ataturk_Airport:0 "Internationalize Atatürk Airport"
+ TUR_Internationalize_Ataturk_Airport_desc:0 ""
+
+ TUR_The_Wolf_has_Wings:0 "The Future is in the Skies"
+ TUR_The_Wolf_has_Wings_desc:0 ""
+
+ TUR_Cakmaks_Initiatives:0 "Çakmak's Initiatives"
+ TUR_Cakmaks_Initiatives_desc:0 "Field Marshal Fevzi Çakmak is a highly decorated soldier, and served the Republic with distinction during the Independence War. His high rank and immense experience puts him in the perfect position to begin pushing reforms for all branches of the Turkish armed forces, which is currently dilapidated and ineffective, not the two words you want to hear when talking about your own military. To begin, the field marshal will put forward a series of initiatives aimed at kickstarting the military’s reformation process, a crucial step in improving the defences of the country."
+
+ TUR_Send_Invites_to_Foreign_Delegations:0 "Send Invites to Foreign Delegations"
+ TUR_Send_Invites_to_Foreign_Delegations_desc:0 ""
+
+ TUR_Ensure_Political_and_Military_Participation:0 "Ensure Political and Military Participation"
+ TUR_Ensure_Political_and_Military_Participation_desc:0 ""
+
+ TUR_Lessons_Learned:0 "Study War Politics"
+ TUR_Lessons_Learned_desc:0 ""
+
+ TUR_Seek_European_Arm_Deals:0 "Seek European Arm Deals"
+ TUR_Seek_European_Arm_Deals_desc:0 ""
+
+ TUR_Reach_out_to_the_Devil:0 "Reach out to the Germans"
+ TUR_Reach_out_to_the_Devil_desc:0 ""
+
+ TUR_Share_Superior_Tactics:0 "Share Superior Tactics"
+ TUR_Share_Superior_Tactics_desc:0 ""
+
+ TUR_Deal_with_the_Anglos:0 "Deal with the Anglos"
+ TUR_Deal_with_the_Anglos_desc:0 ""
+
+ TUR_Establish_Joint_Research:0 "Establish Joint Research"
+ TUR_Establish_Joint_Research_desc:0 ""
+
+ TUR_Doctrine_Research:0 "Area of Defense Doctrine"
+ TUR_Doctrine_Research_desc:0 ""
+
+ TUR_Infantry_Weapons_Research:0 "Fund the MKEK"
+ TUR_Infantry_Weapons_Research_desc:0 ""
+
+ TUR_Artillery_Advancements:0 "Refunctionalize Taksim Artillery Barracks"
+ TUR_Artillery_Advancements_desc:0 ""
+
+ TUR_The_Reform_Continues:0 "The Reform Continues"
+ TUR_The_Reform_Continues_desc:0 ""
+
+ TUR_Fund_Our_Veterans:0 "Encourage Our Veterans"
+ TUR_Fund_Our_Veterans_desc:0 ""
+
+ TUR_Turkish_Marines:0 "Lay the Foundations of SAS & SAT"
+ TUR_Turkish_Marines_desc:0 ""
+
+ TUR_Foundation_of_the_Gendamarine:0 "Foundations of the Gendamarine"
+ TUR_Foundation_of_the_Gendamarine_desc:0 ""
+
+ TUR_A_True_Army:0 "Armed Forces of the Turkish Republic"
+ TUR_A_True_Army_desc:0 ""
+
+ TUR_Restructure_the_Naval_Command:0 "Re-structure the Naval Command"
+ TUR_Restructure_the_Naval_Command_desc:0 ""
+
+ TUR_Lessons_from_the_Montreux_Convention:0 "Lessons of the Montreux Convention"
+ TUR_Lessons_from_the_Montreux_Convention_desc:0 ""
+
+ TUR_Fortify_the_Straits:0 "Fortify the Straits"
+ TUR_Fortify_the_Straits_desc:0 ""
+
+ TUR_Reinforce_Fortified_Area_Commands:0 "Reinforce Fortified Area Commands"
+ TUR_Reinforce_Fortified_Area_Commands_desc:0 ""
+
+ TUR_Defensive_Appoach:0 "Defensive Approach"
+ TUR_Defensive_Appoach_desc:0 ""
+
+ TUR_Watch_our_Coastlines:0 "Watch the Blue Motherland"
+ TUR_Watch_our_Coastlines_desc:0 ""
+
+ TUR_Aggresive_Measures:0 "Aggressive Measures"
+ TUR_Aggresive_Measures_desc:0 ""
+
+ TUR_Challenge_the_Regia_Marina:0 "Challenge the Regia Marina"
+ TUR_Challenge_the_Regia_Marina_desc:0 ""
+
+ TUR_Order_Foreign_Warships:0 "Order Foreign Warships"
+ TUR_Order_Foreign_Warships_desc:0 ""
+
+ TUR_Lay_the_Foundations_for_Naval_Education_Command:0 "Lay the Foundations for Naval War Schools"
+ TUR_Lay_the_Foundations_for_Naval_Education_Command_desc:0 ""
+
+ TUR_Cruiser_Yacuz_the_Gem_of_the_Four_Seas:0 "Cruiser Yacuz, the Gem of the Four Seas"
+ TUR_Cruiser_Yacuz_the_Gem_of_the_Four_Seas_desc:0 ""
+
+ TUR_Legacy_of_Barbaros_Hayreddin:0 "Legacy of Barbaros Hayreddin"
+ TUR_Legacy_of_Barbaros_Hayreddin_desc:0 ""
+
+#########################################################################
+#  Turkey Decisions
+#########################################################################
+# Regional Rebellion Risk
+ TUR_rebelliousness_of_the_minorities_category:0 "Regional Rebellion Risk"
+ TUR_rebelliousness_of_the_minorities_category_desc:0 "Nationalism and secularism are two of the key concepts of our republic, but our attempts at imposing a proper “Turkish” culture seem to be going a little bit too far. The ethnic and religious minorities that call our country home have become angry, prompting them to incite violence and disruption, which has started to affect the support and influence that our government wields. It is now beginning to seem like we are inching closer and closer to an armed rebellion that will have to be put down by force.\n\nIt would be a smart idea to be more careful in the future regarding our bids to “Turkify” them and secularise the country if we are to avoid losing support for our agenda and avoid the possibility of an armed conflict any time soon."
+ TUR_Bribe_Kurdish_Figureheads:0 "Bribe Kurdish Figureheads"
+ TUR_Adopt_Surname_Law:0 "Adopt Surname Law"
+ TUR_Promote_Turkish_Culture:0 "Promote Turkish Culture"
+ TUR_Send_Independence_Courts:0 "Send Turkish Courts"
+ TUR_Send_Independence_Courts_desc:0 "The practice of law by villagers, minorities and their courts, is one of the most corrupt, unjust, experiences in life, filled by disloyal and unreliable officials.\nAnother point that those pesky minorities could try and oppose the implementation of the reforms claiming it's unjust and immoral to their so-called culture and morals and religion, and if we had them continuing their "Justice", we could lose the support and loyalty of our proud Turkish citizens.\n\nThus, we shall replace them with loyal and pro-CHP officials to avoid getting such problems in the future."
+ TUR_Appoint_Turkish_Nationalist:0 "Appoint Turkish Nationalists"
+ TUR_Force_Turkish_Teachings:0 " Force Turkish Teachings"
+ TUR_Declare_Martial_Law_East:0 "Declare Martial Law in the East"
+ TUR_Disestablish_Martial_Law:0 "Disestablish Martial Law"
+ TUR_One_Child_Policy:0 "Enact One Child Policy"
+ TUR_Stop_Population_Controls:0 "Stop Population Controls"
+ TUR_Instate_Forced_Labor:0 "Instate Forced Labor"
+ TUR_Shutdown_Illegal_Labour_Camps:0 "Shutdown Illegal Labour Camps"
+ TUR_Reopen_Slave_Market:0 "Reopen the Slave Market"
+ TUR_CLose_the_Slave_Market:0 "Close the Slave Market"
+ TUR_Enact_Religion_Standard:0 "Enact Religion Standard"
+ TUR_Revert_Religion_Standard:0 "Revert Religion Standard"
+ TUR_Lift_The_Culture_Ban:0 "Lift the Culture Ban"
+ TUR_Lift_The_Language_Ban:0 "Lift the Language Ban"
+ TUR_Restore_the_Culture_Ban:0 "Restore the Culture Ban"
+ TUR_Restore_The_Language_Ban:0 "Restore the Language Ban"
+ TUR_Banish_Kuridish_Dissenters:0 "Banish Kurdish Dissenters"
+ TUR_Assassinate_Well_Known_Revolutionaries:0 "Assassinate Well Known Revolutionaries"
+ TUR_Resettle_Jewish_Communities:0 "Resettle Jewish Communities"
+ TUR_Lockdown_the_Kurdish_Province:0 "Lookdown the Kurdish Province"
+ TUR_Minorities_No_More:0 "Minorities No More"
+ TUR_Assign_Local_Courts:0 "Assign Local Courts"
+ TUR_Population_Exchange_Greece:0 "Population Exchange with Greece"
+ TUR_Build_Local_Schools:0 "Build Local Schools"
+ TUR_Invite_Investors_to_Kurdistan:0 "Invite Investors to Kurdistan"
+ TUR_Improve_Healthcare_in_Kurdistan:0 "Improve Healthcare in Kurdistan"
+ TUR_Allow_Kurdish_Parties:0 "Allow Kurdish Parties"
+ TUR_Build_Local_Radio_Shows:0 "Build Local Radio Stations"
+ TUR_A_New_Turkish_Province:0 "A New Turkish Province"
+
+# Diplomacy
+ TUR_Ask_for_Hatay:0 "Ask for Hatay"
+
+# First Five Year Plan
+ TUR_first_five_year_plan_category:0 "First Five Year Plan"
+ TUR_develop_civlian_industries:0 "Develop Civilian Industries"
+ TUR_expand_the_iron_web:0 "Expand the Iron Web"
+ TUR_search_for_the_resources_under_us:0 "Search for the Resources Under Us"
+ TUR_build_our_own_weapons:0 "Build Our Own Weapons"
+
+# Eyes to the East
+ TUR_eyes_to_the_east_category:0 "Eyes to the East"
+ TUR_eyes_to_the_east_category_desc:0 "As we look beyond our borders, we see territories — formerly controlled by the Ottoman Empire, that we regard as critical parts of our country. To have these lands returned to us and in line with our foreign policy, we must engage in extensive negotiations with the current owners of those regions. However, if dialogue fails to achieve a satisfactory result, we must pursue more... aggressive routes, even if it goes against the motto of the president, as these lands are required to be under our administration if Turkey is to have a great and prosperous future."
+ TUR_demand_mosul:0 "Demand Mosul"
+ TUR_a_solution_for_mosul:0 "A solution for Mosul"
+ TUR_demand_hatay:0 "Demand Hatay"
+ TUR_fund_the_freedom_fighters_in_hatay:0 "Fund the Freedom Fighters in Hatay"
+ TUR_integration_of_hatay:0 "Integration of Hatay"
+
+# Eyes to the West
+ TUR_eyes_to_the_west_category:0 "Eyes to the West"
+ TUR_demand_aegean_islands_and_thessaloniki:0 "Demand Aegean Islands and Thessaloniki"
+ TUR_demand_northern_thrace:0 "Demand Northern Thrace"
+
+# Recalling the Heroes 
+ TUR_recalling_the_heroes_category:0 "Recalling the Heroes"
+ TUR_phase_i:0 "Phase I"
+ TUR_phase_ii:0 "Phase II"
+ TUR_phase_iii:0 "Phase III"
+
+# Buying Foreign Designs
+ TUR_buying_foreign_designs:0 "Buying Foreign Designs"
+ TUR_buy_fighters_from_allies:0 "Buy Fighters from Allies"
+ TUR_buy_fighters_from_axis:0 "Buy Fighters from Axis"
+ TUR_buy_fighters_from_us:0 "Buy Fighters from US"
+ TUR_buy_fighters_from_ussr:0 "Buy Fighters from USSR"
+
+ TUR_buy_bombers_from_allies:0 "Buy Fighters from Allies"
+ TUR_buy_bombers_from_axis:0 "Buy Fighters from Axis"
+ TUR_buy_bombers_from_us:0 "Buy Fighters from US"
+ TUR_buy_bombers_from_ussr:0 "Buy Fighters from USSR"
+
+# International Wargames
+ TUR_international_wargames:0 "International Wargames"
+ TUR_invite_allied_delegation:0 "Invite Allied Delegation"
+ TUR_invite_axis_delegation:0 "Invite Axis Delegation"
+ TUR_invite_us_delegation:0 "Invite US Delegation"
+ TUR_invite_ussr_delegation:0 "Invite USSR Delegation"
+
+# Choosing a Side
+ TUR_choosing_a_side_category:0 "Choosing A Side"
+ TUR_send_invite_to_axis_consulate:0 "Send Invite to Axis Consulate"
+ TUR_send_invite_to_allies_consulate:0 "Send Invite to Allies Consulate"
+ TUR_send_invite_to_us_consulate:0 "Send Invite to US Consulate"
+ TUR_send_invite_to_ussr_consulate:0 "Send Invite to USSR Consulate"
+ TUR_deport_allies_consulate:0 "Deport Allies Consulate"
+ TUR_deport_axis_consulate:0 "Deport Axis Consulate"
+ TUR_deport_us_consulate:0 "Deport US Consulate"
+ TUR_deport_ussr_consulate:0 "Deport USSR Consulate"
+
+# Foreign Arms Deals
+ TUR_foreign_arms_deals_category:0 "Foreign Arms Deals"
+ TUR_sell_guns:0 "Sell Guns to [FROM.GetNameDef]"
+ TUR_buy_guns:0 "Buy Guns from [FROM.GetNameDef]"
+
+# Volunteer Air Wings
+ TUR_volunteer_air_wing_category:0 "Volunteer Air Wings"
+ TUR_send_air_wings_to_china:0 "Send Air Wings to China"
+ TUR_send_air_wings_to_france:0 "Send Air Wings to France"
+ TUR_send_air_wings_to_axis:0 "Send Air Wings to Axis"
+ TUR_send_air_wings_to_ussr:0 "Send Air Wings to USSR"
+
+# Fortification Projects
+ TUR_Fortify_Western_Border:0 "Fortify the Western Border"
+ TUR_Fortify_Western_Coast:0 "Fortify the Western Coast"
+ TUR_Fortify_Caucasus:0 "Fortify the Caucasus"
+ TUR_Fortify_South:0 "Fortify the South"
+
+#########################################################################
+#  Turkey Ideas
+#########################################################################
+ TUR_german_military_aid:0 "Germany Military Aid"
+ TUR_german_military_aid_desc:0 "Germany is helping us with our Military industry for the Chromium we are giving them."
+
+ TUR_Woes_of_Independence_War:0 "Woes of the Independence War"
+ TUR_Woes_of_Independence_War_desc:0 "The Turkish Independence War was a long, hard-fought four-year conflict fought by our people in a bid to take back the lands taken from us by the treaties signed by the failed Ottoman Empire. Our movement won, and our efforts were rewarded with the establishment of a great Turkish Republic based in Ankara, and first-hand knowledge of successful warfare. In just a decade, the republic has come on leaps and bounds, but still, the scars of the war still haunt our people and the very idea of participating in another major conflict and sending our men to battle once more is unthinkable to many of our people."
+
+ TUR_Rebellious_Minorities:0 "Rebellious Minorities"
+ TUR_Rebellious_Minorities_desc:0 "The Ottoman Empire was vast, and home to many minorities, both ethnic and religious. These minorities were afforded only limited rights, but they were mostly left alone and weren’t discriminated. But now, under the new Turkish Republic, which is attempting to “Turkify” the country by spreading a culture that is deemed “Turkish”, these minorities are being treated very poorly. This intense discrimination has resulted in these minorities fighting back and rebelling against this process of Turkification, in an attempt to preserve their own unique cultures. \n\n §Yand their Rebellion Risk is:§! §R[?rebelliousness_of_the_minorities_var|2%%]§!!"
+
+ TUR_Panturkic_Idealism:0 "Pan-Turkic Idealism"
+ TUR_Panturkic_Idealism_desc:0 "Since the four-year Turkish Independence War that was fought between the Turkish National Movement and the Allied backed proxies and resulted in the formation of our republic, the ideas of nationalism, extremist Pan-Turkism and Pan-Turanism have become increasingly popular among the people of our country, showing their willingness to accept expansionist policies once more, and support the unification of all Turkic peoples around the world, who share similar cultural, historical and linguistic roots to ourselves. "
+
+#########################################################################
+#  Turkey Traits
+#########################################################################
+  father_of_turks:0 "Father of the Turks"
+
+#########################################################################
+#  Turkey Country Flags
+#########################################################################
+  TUR_dead_ataturk:0 "Ataturk has died"
+  TUR_mkek_expanded:0 "MKEK Expanded"
+  TUR_President_Inonu_tt:0 "Ismet Inonu became President"
+  TUR_President_Cakmak_tt:0 "Fevzi Cakmak became President"
+
+#########################################################################
+#  Turkey Decision GUIs
+#########################################################################
+  TURKEY_REBILLIOUSNESS_OF_MINORITIES_VALUE_TEXT: "Rebellion Risk: §Y[?rebelliousness_of_the_minorities_var|2%%]§!"
+  TURKEY_REBILLIOUSNESS_OF_MINORITIES_TT: "We are currently §Y[?rebelliousness_of_the_minorities_var|2%%]§! towards a rebellion of minorities. When  this values reaches §R100.00%§!, the rebellion will start."
+
+  #Related
+
+   CRACKDOWN_KURD_CUSTOM_COST_TEXT: "§Y[?amount_of_money_to_check|2]§! £money_icon£"
+   CRACKDOWN_KURD_CUSTOM_COST_TEXT_blocked: "§R[?amount_of_money_to_check|2]§! £money_icon£"
+
+#########################################################################
+#  Turkey Scripted Effects
+#########################################################################
+  ADD_MINORITY_REBELLION_PROGRESS_TT: "Changes the rebellion risk by [?progress_to_add|=-2%%].\n"
+
+#########################################################################
+#  Turkey Custom Modifiers
+#########################################################################
+  weekly_rebellion_progress_growth: "Weekly Rebellion Risk Growth"

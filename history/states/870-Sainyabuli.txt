@@ -1,0 +1,37 @@
+state={
+	id=870
+	name="STATE_870"
+	
+	history = {
+		owner = VIN
+		add_core_of = LAO
+		victory_points = {
+		    10330 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+        1941.6.22 = {
+			owner = SIA
+			controller = SIA
+
+		}
+		1946.1.1 = {
+			owner = VIN
+			controller = VIN
+
+		}
+		1956.1.1 = {
+			owner = LAO
+			controller = LAO
+
+		}
+	}
+	
+	provinces={
+		10330 10356 10456
+	}
+	manpower=59940
+	buildings_max_level_factor=1.000
+	state_category=town
+}

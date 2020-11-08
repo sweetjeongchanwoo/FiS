@@ -1,0 +1,65 @@
+﻿#########################################################################################
+# Italian Social Republic - 1933
+#########################################################################################
+1933.1.1 = {
+	capital = 1320
+	set_convoys = 10
+	set_stability = 0.4
+	set_war_support = 0.25
+}
+
+#########################################################################################
+# Italian Social Republic - 1944
+#########################################################################################
+1944.6.20 = {
+	capital = 1320
+	set_war_support = 0.25
+	GER = {
+		set_autonomy = {
+			target = RSI
+			autonomy_state = autonomy_reichsprotectorate
+		}
+	}
+	#Politics
+	set_politics = {
+		ruling_party = fascist
+		last_election = "1934.3.26"
+		election_frequency = 60
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 73
+		authoritarian = 2
+		democratic = 24
+		socialist = 1
+		communist = 0
+	}
+	add_ideas = {
+		war_economy
+		all_adults_serve
+	}
+	create_country_leader = {
+		name = "Benito Mussolini"
+		desc = "Benito_Mussolini_desc"
+		picture = "P_F_Benito_Mussolini_1943.tga"
+		expire = "1965.1.1"
+		ideology = fascism
+		traits = {
+			POSITION_ITA_Duce
+			SUBIDEOLOGY_Fascism
+			HoG_Imperialist_Buffoon
+		}
+	}
+}
+
+#########################################################################################
+# Italian Social Republic - 1946
+#########################################################################################
+1946.1.1 = {
+	GER = {
+		set_autonomy = {
+			target = RSI
+			autonomy_state = autonomy_free
+		}
+	}
+}

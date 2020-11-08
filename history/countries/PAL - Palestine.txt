@@ -1,0 +1,62 @@
+﻿capital = 824
+
+# Starting tech
+set_technology = {
+	Small_Arms_1916 = 1
+	
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = fascist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	fascist = 55
+	authoritarian = 45
+	democratic = 0
+	socialist = 0
+	communist = 0
+}
+create_country_leader = {
+	name = "Ahmed Hilmi Pasha"
+	desc = ""
+	picture = "gfx/leaders/PAL/Portrait_Arabia_Generic_navy_1.dds"
+	ideology = social_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Amin al-Husseini"
+	desc = ""
+	picture = "P_F_Amin_Al_Hussaini.tga"
+	ideology = ultranationalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Prince Henry"
+	desc = ""
+	picture = "gfx/leaders/PAL/Portrait_Britain_George_VI.dds"
+	ideology = authoritarian_democracy
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Bulus Farah"
+	desc = ""
+	picture = "gfx/leaders/PAL/Portrait_Arabia_Generic_2.dds"
+	ideology = trotskyism
+	traits = {
+		#
+	}
+}

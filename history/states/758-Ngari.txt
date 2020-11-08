@@ -1,0 +1,31 @@
+
+state={
+	id=758
+	name="STATE_758"
+
+	history={
+		owner = TIB
+		victory_points = {
+			10802 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TIB
+		add_core_of = CHI
+		add_core_of = PRC
+		1953.3.7 = {
+			owner = PRC
+
+		}
+
+	}
+
+	provinces={
+		1961 5094 8029 8068 10802 12784 12801 14331 14333 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,47 @@
+
+state={
+	id=215
+	name="STATE_215"
+	resources={
+		steel=30.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			155 1
+		}
+		victory_points = {
+			6175 1
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SOV
+		1942.11.22 = {
+			FIN = {
+				set_province_controller = 9074
+				set_province_controller = 6175
+				set_province_controller = 6098
+				set_province_controller = 9119
+				set_province_controller = 11054
+				set_province_controller = 157
+				set_province_controller = 13130
+			}
+
+		}
+		1945.1.1 = {
+			controller = SOV
+
+		}
+
+	}
+
+	provinces={
+		36 86 94 134 155 157 170 176 3008 3067 3071 3189 6021 6029 6096 6098 6175 9074 9119 9195 9198 11045 11054 11096 11175 11181 13130 
+	}
+	manpower=214858
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

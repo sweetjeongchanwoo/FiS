@@ -1,0 +1,30 @@
+
+state={
+	id=841
+	name="STATE_841"
+
+	impassable = yes
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = DEN
+		add_core_of = GRL
+		1941.6.22 = {
+			owner = USA
+		}
+		1946.1.1 = {
+			owner = DEN
+		}
+
+	}
+
+	provinces={
+		13058
+	}
+	manpower=37
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

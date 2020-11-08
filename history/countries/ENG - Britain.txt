@@ -1,0 +1,960 @@
+#########################################################################
+# United Kingdom - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 126
+	oob = "ENG_1933"
+	set_stability = 0.6
+	set_war_support = 0.1
+	set_research_slots = 3
+	set_convoys = 800
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+		tech_support = 1		
+		tech_engineers = 1
+		tech_recon = 1
+		truck_1936 = 1
+		Artillery_1910 = 1
+		Anti_Aircraft_Gun_1935 = 1
+		# Armour Tech
+        Heavy_Tank_1916 = 1
+        Heavy_Tank_1917 = 1
+        Light_Tank_1917 = 1
+        Light_Tank_1919 = 1
+		Medium_Tank_1926 = 1
+		Light_Tank_1934 = 1
+
+        Light_Tank_1926 = 1
+		# Air Tech	
+		Fighter_1933 = 1
+		cv_Fighter_1933 = 1
+		Fighter_Bomber_1933 = 1
+		Torpedo_bomber_1936 = 1
+		Naval_Bomber_1936 = 1
+		Tactical_Bomber_1933 = 1
+		CAS_1936 = 1
+		cv_CAS_1933 = 1
+		Strategic_Bomber_1933 = 1
+		Strategic_Bomber_1936 = 1
+		#Naval Tech
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		DD_1922 = 1
+		DD_1933 = 1		
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+		CL_1922 = 1
+		CL_1933 = 1	
+		CL_1936 = 1		
+		CA_1885 = 1
+		CA_1895 = 1
+		CA_1906 = 1
+		CA_1922 = 1
+		CA_1933 = 1	
+		CA_1936 = 1		
+		BC_1906 = 1
+		BC_1912 = 1
+		BC_1916 = 1
+		BC_1933 = 1	
+		BB_1885 = 1
+		BB_1895 = 1
+		BB_1900 = 1
+		BB_1906 = 1
+		BB_1912 = 1
+		BB_1916 = 1
+		BB_1922 = 1	
+		BB_1933 = 1		
+		CV_1912 = 1
+		CV_1916 = 1
+		CV_1922 = 1	
+		CV_1930 = 1
+		CV_1933 = 1	
+		SS_1895 = 1
+		SS_1912 = 1
+		SS_1916 = 1
+		SS_1922 = 1	
+		SS_1933 = 1	
+		transport = 1
+		
+		#Army Doctrine
+		Twentieth_Century_Warfare = 1
+		Leading_by_Order = 1
+		Strongpoint = 1
+		Mass_Charge = 1
+		Static_Defence = 1
+		Counterattack = 1
+		Defence_In_Depth = 1
+		Separate_Arms_Force = 1
+		Combined_Arms_Effort = 1
+		Cross_Branch_Tactical_Experience = 1
+		Planning_Focus = 1
+		#Naval Doctrine
+		fleet_in_being = 1
+		#Rsearch
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+	}	
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1931.10.27"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 2
+		authoritarian = 2
+		democratic = 94
+		socialist = 2
+		communist = 0
+	}
+	### Great Depression/Unemployment
+	set_variable = { unemployment_value_modifier = 1.50 }
+	set_variable = { current_unemployment = 0.16 }
+	clamp_variable = {
+		var = current_unemployment
+		min = 0
+		max = 1
+	}
+	update_unemployment_modifier = yes	
+	add_ideas = {
+		ENG_Pax_Britannica
+		ENG_World_War_One_Reparations
+		GENERIC_London_Naval_Treaty
+		# Cabinet
+		ENG_HoS_George_V
+		ENG_FM_John_Simon
+		ENG_AM_Neville_Chamberlain
+		ENG_MoS_Herbert_Samuel
+		# Military Staff
+		ENG_CoStaff_A_MontgomeryMassingberd
+		ENG_CoArmy_A_MontgomeryMassingberd
+		ENG_CoNavy_Ernle_Chatfield
+		ENG_CoAir_Owen_Boyd
+	}
+	add_timed_idea = { idea = ENG_World_War_One_Reparations days = 1460 }
+	create_intelligence_agency = {
+  		name = "SIS"
+ 		icon = "GFX_intelligence_agency_logo_uk"
+	}
+	######################
+	# Diplomacy
+	#######################
+	OMA = { give_resource_rights = { receiver = ENG state = 294 } }
+	PER = {
+		give_resource_rights = { receiver = ENG state = 413 } # Iran
+		give_resource_rights = { receiver = ENG state = 412 } # Iran
+		give_resource_rights = { receiver = ENG state = 411 } # Iran
+	}
+	IRQ = {
+		give_resource_rights = { receiver = ENG state = 291 } # Iraq
+	}
+	# Faction
+	create_faction = "Allies"
+	add_to_faction = ENG
+	add_to_faction = CAN
+	add_to_faction = AST
+	add_to_faction = NZL
+	add_to_faction = SAF
+	add_to_faction = RAJ
+	add_to_faction = MAL
+	add_to_faction = IRQ
+	give_military_access = RAJ
+	
+	add_to_tech_sharing_group = commonwealth_research
+	
+	# Subjects
+	set_autonomy = {
+		target = MAL
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = ZNB
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = BRU
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = SKK
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = JOR
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = KUW
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = EGY
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = RAJ
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = NFL
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = IRE
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.9
+	}
+	set_autonomy = {
+		target = SAF
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = AST
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = NZL
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = IRQ
+		autonomous_state = autonomy_supervised_state
+		freedom_level = 0.6
+	}
+	give_guarantee = POL
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Oswald Mosley"
+		desc = ""
+		picture = "P_F_Oswald_Mosley.tga"
+		expire = "1965.1.1"
+		ideology = fascism
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Fascism HoG_Flamboyant_Tough_Guy }
+	}
+	# Authoritarianism
+	create_country_leader = {
+		name = "Edward VIII"
+		desc = ""
+		picture = "P_A_Edward_VIII.tga"
+		expire = "1965.1.1"
+		ideology = monarchism
+		traits = { POSITION_King SUBIDEOLOGY_Monarchism HoS_Autocratic_Charmer }
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Ramsay MacDonald"
+		desc = "Ramsay_MacDonald_desc"
+		picture = "P_D_Ramsay_MacDonald.tga"
+		expire = "1938.1.1"
+		ideology = social_democracy
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Social_Democracy HoG_Corporate_Suit }
+	}
+	# Socialism
+	create_country_leader = {
+		name = "James Maxton"
+		desc = ""
+		picture = "P_S_James_Maxton.tga"
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Socialism HoG_Ambitious_Union_Boss }
+	}
+	# Communism
+	create_country_leader = {
+		name = "Harry Pollitt"
+		desc = ""
+		picture = "P_C_Harry_Pollitt.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = { POSITION_General_Secretary SUBIDEOLOGY_Marxism_Leninism HoG_Political_Protege }
+	}
+	#######################
+	# Generals
+	#######################
+	create_field_marshal = {
+		name = "Alan Brooke"
+		picture = "M_Alan_Brooke.tga"
+		traits = { defensive_doctrine trait_cautious career_officer }
+		skill = 5
+		attack_skill = 3
+		defense_skill = 5
+		planning_skill = 5
+		logistics_skill = 3
+	}
+	
+	create_field_marshal = {
+		name = "Bernard Montgomery"
+		picture = "M_Bernard_Montgomery.tga"
+		traits = { logistics_wizard offensive_doctrine media_personality trait_cautious inflexible_strategist organizer }
+		skill = 4 
+		attack_skill = 2
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 4
+	}
+	
+	create_corps_commander = {
+		name = "Claude Auchinleck"
+		picture = "M_Claude_Auchinleck.tga"
+		traits = { inflexible_strategist career_officer }
+		skill = 5
+		attack_skill = 3
+		defense_skill = 5
+		planning_skill = 3
+		logistics_skill = 5
+	}
+	
+	create_corps_commander = {
+		name = "Neil Ritchie"
+		picture = "M_Neil_Ritchie.tga"
+		traits = { inflexible_strategist armor_officer politically_connected  }
+		skill = 4
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	
+	create_corps_commander = {
+		name = "Alan Cunningham"
+		picture = "M_Alan_Cunningham.tga"
+		traits = {}
+		skill = 4
+		attack_skill = 4
+		defense_skill = 1
+		planning_skill = 4
+		logistics_skill = 4
+	}
+	
+	create_corps_commander = {
+		name = "William Slim"
+		picture = "M_William_Slim.tga"
+		traits = { trickster war_hero }
+		skill = 5
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 5
+		logistics_skill = 5
+	}
+	
+	create_corps_commander = {
+		name = "Richard O'Connor"
+		picture = "M_Richard_OConnor.tga"
+		traits = {  }
+		skill = 4
+		attack_skill = 2
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 3
+	}
+		
+	create_corps_commander = {
+		name = "George Giffard"
+		picture = "M_George_Giffard.tga"
+		traits = { career_officer }
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	
+	create_corps_commander = {
+		name = "Harold Alexander"
+		picture = "M_Harold_Alexander.tga"
+		traits = { politically_connected }
+		skill = 5
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 5
+	}
+	
+	create_corps_commander = {
+		name = "Jackie Smyth"
+		picture = "M_Jackie_Smyth.tga"
+		traits = { old_guard }
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	
+	create_corps_commander = {
+		name = "Thomas Jacomb Hutton"
+		picture = "M_Thomas_Jacomb_Hutton.tga"
+		traits = { old_guard }
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 1
+	}
+	
+	create_corps_commander = {
+		name = "Arthur Percival"
+		picture = "M_Arthur_Percival.tga"
+		traits = {  trait_cautious }
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 1
+	}
+	
+	create_corps_commander = {
+		name = "Merton Beckwith-Smith"
+		picture = "M_Merton_Beckwith_Smith.tga"
+		traits = { commando }
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	
+	create_corps_commander = {
+		name = "Henry Pownall"
+		picture = "M_Henry_Pownall.tga"
+		traits = {  trickster }
+		skill = 2
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	
+	create_corps_commander = {
+		name = "John Vereker Lord Gort"
+		picture = "M_John_Verecer_Lord_Gort.tga"
+		traits = { politically_connected trait_cautious }
+		skill = 4
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 4
+		logistics_skill = 3
+	}
+	
+	create_corps_commander = {
+		name = "Henry Wilson"
+		picture = "M_Henry_Wilson.tga"
+		traits = { old_guard politically_connected }
+		skill = 4
+		attack_skill = 2
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 3
+	}
+	
+	create_corps_commander = {
+		name = "William Gott"
+		picture = "M_William_Gott.tga"
+		traits = { armor_officer war_hero inflexible_strategist }
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 3
+	}
+	
+	create_corps_commander = {
+		name = "Jock Campbell"
+		picture = "M_Jock_Campbell.tga"
+		traits = { armor_officer  }
+		skill = 4
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 4
+	}
+	
+	create_corps_commander = {
+		name = "Oliver Leese"
+		picture = "M_Oliver_Leese.tga"
+		traits = {  armor_officer harsh_leader politically_connected }
+		skill = 4
+		attack_skill = 4
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 4
+	}
+	
+	create_corps_commander = {
+		name = "Miles Dempsey"
+		picture = "M_Miles_Dempsey.tga"
+		traits = { brilliant_strategist infantry_officer career_officer }
+		skill = 4
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 2
+	}
+	
+	create_corps_commander = {
+		name = "Brian Horrocks"
+		picture = "M_Brian_Horrocks.tga"
+		traits = {  armor_officer career_officer war_hero }
+		skill = 3
+		
+		attack_skill = 1
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	
+	create_corps_commander = {
+		name = "Archibald Wavell"
+		picture = "M_Archibald_Wavell.tga"
+		traits = { career_officer }
+		skill = 4
+		attack_skill = 4
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 4
+	}
+	#######################
+	# Admirals
+	#######################
+	create_navy_leader = {
+		name = "James Fownes Somerville"
+		picture = "M_James_Fowness_Somerville.tga"
+		traits = { superior_tactician }
+		skill = 5
+	}
+	
+	create_navy_leader = {
+		name = "Henry Harwood"
+		picture = "M_Henry_Harwooda.tga"
+		traits = { old_guard_navy blockade_runner }
+		skill = 3
+	}
+	
+	create_navy_leader = {
+		name = "Andrew Cunningham"
+		picture = "M_Andrew_Cunningham.tga"
+		traits = { blockade_runner superior_tactician }
+		skill = 5
+	}
+	
+	create_navy_leader = {
+		name = "Bruce Fraser"
+		picture = "M_Bruce_Fraser.tga"
+		traits = { blockade_runner }
+		skill = 4
+	}
+	
+	create_navy_leader = {
+		name = "John Tovey"
+		picture = "M_John_Tovey.tga"
+		traits = { superior_tactician }
+		skill = 4
+	}
+	
+	create_navy_leader = {
+		name = "Bernard Rawlings"
+		picture = "M_Bernard_Rawlings.tga"
+		traits = {  }
+		skill = 1
+	}
+	
+	create_navy_leader = {
+		name = "John Cunningham"
+		picture = "M_John_Cunningham.tga"
+		traits = {  }
+		skill = 4
+	}
+	
+	create_navy_leader = {
+		name = "Charles Forbes"
+		picture = "M_Charles_Forbes.tga"
+		traits = { fly_swatter }
+		skill = 3
+	}
+	
+	create_navy_leader = {
+		name = "Algernon Willis"
+		picture = "M_Algernon_Willis.tga"
+		traits = { spotter }
+		skill = 3
+	}
+	
+	create_navy_leader = {
+		name = "Arthur Power"
+		picture = "M_Arthur_Power.tga"
+		traits = {  }
+		skill = 2
+	}	
+}
+#########################################################################
+# United Kingdom - 1936
+#########################################################################
+1936.1.1 = {
+	capital = 126
+	oob = "ENG_1936"
+	set_stability = 0.6
+	set_war_support = 0.1
+	set_research_slots = 3
+	set_convoys = 800
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		tech_support = 1		
+		tech_engineers = 1
+		tech_recon = 1
+		truck_1936 = 1
+		Artillery_1910 = 1
+		Anti_Aircraft_Gun_1935 = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		Light_Tank_1926 = 1
+		Light_Tank_1934 = 1
+		# Air Tech	
+		Fighter_1933 = 1
+		cv_Fighter_1933 = 1
+		Torpedo_bomber_1936 = 1
+		Naval_Bomber_1936 = 1
+		Tactical_Bomber_1933 = 1
+		CAS_1936 = 1
+		cv_CAS_1933 = 1
+		Strategic_Bomber_1933 = 1
+		Strategic_Bomber_1936 = 1
+		#Naval Tech
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		DD_1922 = 1
+		DD_1933 = 1		
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+		CL_1922 = 1
+		CL_1933 = 1	
+		CL_1936 = 1		
+		CA_1885 = 1
+		CA_1895 = 1
+		CA_1906 = 1
+		CA_1922 = 1
+		CA_1933 = 1	
+		CA_1936 = 1		
+		BC_1906 = 1
+		BC_1912 = 1
+		BC_1916 = 1
+		BC_1933 = 1	
+		BB_1885 = 1
+		BB_1895 = 1
+		BB_1900 = 1
+		BB_1906 = 1
+		BB_1912 = 1
+		BB_1916 = 1
+		BB_1922 = 1	
+		BB_1933 = 1		
+		CV_1912 = 1
+		CV_1916 = 1
+		CV_1922 = 1	
+		CV_1930 = 1
+		CV_1933 = 1
+		CVE_1940 = 1		
+		SS_1895 = 1
+		SS_1912 = 1
+		SS_1916 = 1
+		SS_1922 = 1	
+		SS_1933 = 1	
+		transport = 1
+		
+		Trench_Warfare = 1
+		fleet_in_being = 1
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+	}
+	# Subjects
+	set_autonomy = {
+		target = NFL
+		autonomous_state = autonomy_free
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1935.11.14"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 2
+		authoritarian = 2
+		democratic = 94
+		socialist = 2
+		communist = 0
+	}	
+	add_ideas = {
+		# Cabinet
+		ENG_HoS_George_V
+		ENG_FM_Samuel_Hoare
+		ENG_AM_Neville_Chamberlain
+		ENG_MoS_John_Simon
+		# Military Staff
+		ENG_CoStaff_A_MontgomeryMassingberd
+		ENG_CoArmy_A_MontgomeryMassingberd
+		ENG_CoNavy_Ernle_Chatfield
+		ENG_CoAir_Owen_Boyd
+	}
+	######################
+	# Diplomacy
+	#######################
+	# Faction
+	add_to_faction = FRA
+	add_to_faction = BEL
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Stanley Baldwin"
+		desc = "Stanley_Baldwin_desc"
+		picture = "P_D_Stanley_Baldwin.tga"
+		expire = "1947.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Conservatism HoG_Naive_Optimist }
+	}
+}
+##################################
+# United Kingdom - 1939
+##################################
+1939.9.1 = {
+	add_to_faction = POL
+	add_to_faction = BEL
+	add_to_faction = LUX
+	oob = "ENG_1939"
+	
+	add_ideas = {
+		# Cabinet
+		ENG_HoS_George_VI
+		ENG_FM_Anthony_Eden
+		ENG_AM_John_Simon
+		ENG_MoS_Samuel_Hoare
+		# Military Staff
+		ENG_CoStaff_A_MontgomeryMassingberd
+		ENG_CoArmy_A_MontgomeryMassingberd
+		ENG_CoNavy_Ernle_Chatfield
+		ENG_CoAir_Owen_Boyd
+	}
+	# Subjects
+	set_autonomy = {
+		target = EGY
+		autonomous_state = autonomy_free
+	}
+	give_military_access = EGY
+	give_guarantee = EGY
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Neville Chamberlain"
+		desc = ""
+		picture = "P_D_Neville_Chamberlain.tga"
+		expire = "1941.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Conservatism HoG_The_Pacifier }
+	}	
+}
+if = {
+	limit = {
+		has_start_date > 1939.9.1
+		has_start_date < 1946.01.01
+	}
+	declare_war_on = {
+		target = GER
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = SLO
+		type = annex_everything
+	}
+}
+##################################
+# United Kingdom - 1940
+##################################
+1940.5.10 = {
+	add_ideas = {
+		# Cabinet
+		ENG_HoS_George_VI
+		ENG_FM_Lord_Halifax
+		ENG_AM_Kingsley_Wood
+		ENG_MoS_Herbert_Morrison
+		# Military Staff
+		ENG_CoStaff_A_MontgomeryMassingberd
+		ENG_CoArmy_A_MontgomeryMassingberd
+		ENG_CoNavy_Ernle_Chatfield
+		ENG_CoAir_Owen_Boyd
+	}
+	oob = "ENG_1940"
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Winston Churchill"
+		desc = ""
+		picture = "P_D_Winston_Churchill.tga"
+		expire = "1941.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Conservatism HoG_Bulldog }
+	}	
+}
+1941.6.22 = {
+	add_ideas = {
+		ENG_FM_Anthony_Eden
+	}
+}
+1944.6.20 = {
+	add_ideas = {
+		ENG_AM_John_Anderson
+	}
+}
+##################################
+# United Kingdom - 1946
+##################################
+1946.1.1 = {
+	diplomatic_relation = {
+		country = EGY
+		relation = guarantee
+		active = no
+	}
+	diplomatic_relation = {
+		country = EGY
+		relation = military_access
+		active = no
+	}
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Clement Attlee"
+		desc = ""
+		picture = "P_D_Clement_Attlee.tga"
+		expire = "1941.1.1"
+		ideology = social_democracy
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Social_Democracy HoG_Silent_Workhorse }
+	}	
+}
+
+##################################
+# United Kingdom - 1950
+##################################
+1950.1.1 = {
+	set_autonomy = {
+		target = IRE
+		autonomy_state = autonomy_free
+	}
+	set_autonomy = {
+		target = SKK
+		autonomy_state = autonomy_free
+	}
+	set_autonomy = {
+		target = JOR
+		autonomy_state = autonomy_free
+	}
+	set_autonomy = {
+		target = RAJ
+		autonomy_state = autonomy_dominion
+	}	
+}
+
+##################################
+# United Kingdom - 1953
+##################################
+1953.3.7 = {
+	set_autonomy = {
+		target = RAJ
+		autonomy_state = autonomy_free
+	}	
+}
+
+##################################
+# United Kingdom - 1960
+##################################
+1960.1.1 = {
+	set_autonomy = {
+		target = MAL
+		autonomy_state = autonomy_free
+	}
+}
+
+##################################
+# United Kingdom - 1972
+##################################
+1972.1.1 = {
+	set_autonomy = {
+		target = SAF
+		autonomy_state = autonomy_free
+	}
+	set_autonomy = {
+		target = ZNB
+		autonomy_state = autonomy_free
+	}
+	set_autonomy = {
+		target = KUW
+		autonomy_state = autonomy_free
+	}
+}
+
+##################################
+# United Kingdom - 1991
+##################################
+1991.1.1 = {
+	set_autonomy = {
+		target = CAN
+		autonomy_state = autonomy_free
+	}
+	set_autonomy = {
+		target = AST
+		autonomy_state = autonomy_free
+	}
+	set_autonomy = {
+		target = BRU
+		autonomy_state = autonomy_free
+	}
+}

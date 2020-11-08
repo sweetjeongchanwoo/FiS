@@ -1,0 +1,35 @@
+state={
+	id=916
+	name="STATE_916"
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			10433 5 
+		}
+			victory_points = {
+			6964 1 
+		}
+		1946.1.1 = {
+			owner = SOV
+			controller = SOV
+
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+		}
+	}
+	provinces={
+		783 927 944 973 3791 3929 3944 6806 6811 6964 9766 9782 9897 10376 10503 11823 11862 11893 11906 12355 12412 12482 10433
+	}
+	manpower=1020000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=919
+	name="STATE_919"
+
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			1545 1
+		}
+		1936.1.1 = {
+			owner = MAN
+			controller = MAN
+		}
+		1946.1.1 = {
+			owner = SOV
+			controller = SOV
+			remove_core_of = MAN
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+		}
+	}
+
+	provinces={
+		1545 1732 10368 10698
+	}
+	manpower=24174
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

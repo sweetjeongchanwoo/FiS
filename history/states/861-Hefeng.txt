@@ -1,0 +1,33 @@
+state={
+	id=861
+	name="STATE_861"
+	
+	history={
+		owner = PRC
+		add_core_of = CHI
+		add_core_of = PRC
+		1936.1.1 = {
+			owner = CHI
+		}
+		1950.1.1 = {
+			owner = PRC
+		}
+
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			7201 1 
+		}
+	}
+	
+	provinces={
+		4896 7201 12414 5030
+	}
+	manpower=561400
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,32 @@
+state={
+	id=1125
+	name="STATE_1125"
+	
+	history={
+		owner = NOR
+		victory_points = {
+			9127 1
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = NOR
+		1940.5.10 = {
+			controller = GER
+
+		}
+		1946.1.1 = {
+			controller = NOR
+
+		}
+
+	}
+	
+	provinces={
+		102 188 3093 3096 3180 6204 9127 9216 11100 
+	}
+	manpower=265540
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

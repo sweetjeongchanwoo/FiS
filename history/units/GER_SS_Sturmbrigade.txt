@@ -1,0 +1,135 @@
+﻿division_template = {
+	name = "SS-Sturmtruppen"
+	is_locked = yes
+
+	division_names_group = GER_SS_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1. SS-Sturmtruppen"
+		location = 692  # Munich
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "2. SS-Sturmtruppen"
+		location = 692  # Munich
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "3. SS-Sturmtruppen"
+		location = 692  # Munich
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "4. SS-Sturmtruppen"
+		location = 692  # Munich
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "5. SS-Sturmtruppen"
+		location = 692  # Munich
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "6. SS-Sturmtruppen"
+		location = 692  # Munich
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "7. SS-Sturmtruppen"
+		location = 11544  # Nuremberg
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "8. SS-Sturmtruppen"
+		location = 11544  # Nuremberg
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "9. SS-Sturmtruppen"
+		location = 11544  # Nuremberg
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "10. SS-Sturmtruppen"
+		location = 11544  # Nuremberg
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "11. SS-Sturmtruppen"
+		location = 11544  # Nuremberg
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "12. SS-Sturmtruppen"
+		location = 11544  # Nuremberg
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "13. SS-Sturmtruppen"
+		location = 3535  # Leipzig
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "14. SS-Sturmtruppen"
+		location = 3535  # Leipzig
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "15. SS-Sturmtruppen"
+		location = 3535  # Leipzig
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "16. SS-Sturmtruppen"
+		location = 3535  # Leipzig
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "17. SS-Sturmtruppen"
+		location = 3535  # Leipzig
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "18. SS-Sturmtruppen"
+		location = 3535  # Leipzig
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "19. SS-Sturmtruppen"
+		location = 6521  # Berlin
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "20. SS-Sturmtruppen"
+		location = 6521  # Berlin
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "21. SS-Sturmtruppen"
+		location = 6521  # Berlin
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "22. SS-Sturmtruppen"
+		location = 6521  # Berlin
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "23. SS-Sturmtruppen"
+		location = 6521  # Berlin
+		division_template = "SS-Sturmtruppen"
+	}
+	division = {
+		name = "24. SS-Sturmtruppen"
+		location = 6521  # Berlin
+		division_template = "SS-Sturmtruppen"
+	}
+}

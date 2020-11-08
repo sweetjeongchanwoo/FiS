@@ -1,0 +1,411 @@
+ideas = {
+#################################################
+### Head of Government
+#################################################
+	Head_of_Government = {
+	# Lu Rongting
+		CGX_HoG_Lu_Rongting = {
+			picture = CGX_Lu_Rongting
+			allowed = { tag = GXC }
+			available = {
+				date > 1886.1.1
+				date < 1925.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Lu_Rongting_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoG_Old_General }
+		}
+	# Zhu Qinglan
+		CGX_HoG_Zhu_Qinglan = {
+			picture = CGX_Zhu_Qinglan
+			allowed = { tag = GXC }
+			available = {
+				date > 1893.1.1
+				date < 1942.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhu_Qinglan_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoG_Old_General }
+		}
+	# Ma Junwu
+		CGX_HoG_Ma_Junwu = {
+			picture = CGX_Ma_Junwu
+			allowed = { tag = GXC }
+			available = {
+				date > 1902.1.1
+				date < 1925.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Ma_Junwu_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoG_Happy_Amateur }
+		}
+	# Li Guoyun
+		CGX_HoG_Li_Guoyun = {
+			picture = CGX_Li_Guoyun
+			allowed = { tag = GXC }
+			available = {
+				date > 1903.1.1
+				date < 1925.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Li_Guoyun_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoG_Naive_Optimist }
+		}
+	# Li Zongren
+		CGX_HoG_Li_Zongren = {
+			picture = CGX_Li_Zongren
+			allowed = { tag = GXC }
+			available = {
+				date > 1910.1.1
+				date < 1950.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Li_Zongren_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoG_Flamboyant_Tough_Guy }
+		}
+	# Huang Shaohong
+		CGX_HoG_Huang_Shaohong = {
+			picture = CGX_Huang_Shaohong
+			allowed = { tag = GXC }
+			available = {
+				date > 1924.1.1
+				date < 1961.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Huang_Shaohong_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoG_Silent_Workhorse }
+		}
+}
+#################################################
+### Foreign Minister
+#################################################
+	Foreign_Minister = {
+	# Lu Rongting
+		CGX_FM_Lu_Rongting = {
+			picture = CGX_Lu_Rongting
+			allowed = { tag = GXC }
+			available = {
+				date > 1886.1.1
+				date < 1925.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Lu_Rongting_unavailable }
+			}
+			
+			
+			traits = { ideology_A FM_Biased_Intellectual }
+		}
+	# Zhu Qinglan
+		CGX_FM_Zhu_Qinglan = {
+			picture = CGX_Zhu_Qinglan
+			allowed = { tag = GXC }
+			available = {
+				date > 1893.1.1
+				date < 1942.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhu_Qinglan_unavailable }
+			}
+			
+			
+			traits = { ideology_A FM_General_Staffer }
+		}
+	# Li Zongren
+		CGX_FM_Li_Zongren = {
+			picture = CGX_Li_Zongren
+			allowed = { tag = GXC }
+			available = {
+				date > 1910.1.1
+				date < 1950.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Li_Zongren_unavailable }
+			}
+			
+			
+			traits = { ideology_A FM_Iron_Fisted_Brute }
+		}
+}
+#################################################
+### Minister of Security
+#################################################
+	Minister_of_Security = {
+	# Zhu Qinglan
+		CGX_MoS_Zhu_Qinglan = {
+			picture = CGX_Zhu_Qinglan
+			allowed = { tag = GXC }
+			available = {
+				date > 1893.1.1
+				date < 1942.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhu_Qinglan_unavailable }
+			}
+			
+			
+			traits = { ideology_A MoS_Man_Of_The_People }
+		}
+}
+#################################################
+### Armaments Minister
+#################################################
+	Armaments_Minister = {
+	# Chen Bingkun
+		CGX_AM_Chen_Bingkun = {
+			picture = CGX_Chen_Bingkun
+			allowed = { tag = GXC }
+			available = {
+				date > 1904.1.1
+				date < 1925.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Chen_Bingkun_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Resource_Industrialist }
+		}
+	# Yu Hanmou
+		CGX_AM_Yu_Hanmou = {
+			picture = CGX_Yu_Hanmou
+			allowed = { tag = GXC }
+			available = {
+				date > 1920.1.1
+				date < 1962.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Yu_Hanmou_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Infantry_Proponent }
+		}
+	# Huang Shaohong
+		CGX_AM_Huang_Shaohong = {
+			picture = CGX_Huang_Shaohong
+			allowed = { tag = GXC }
+			available = {
+				date > 1924.1.1
+				date < 1961.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Huang_Shaohong_unavailable }
+			}
+			
+			
+			traits = { ideology_A AM_Keynesian_Economy }
+		}
+	# Wang Shuming
+		CGX_AM_Wang_Shuming = {
+			picture = CGX_Wang_Shuming
+			allowed = { tag = GXC }
+			available = {
+				date > 1936.1.1
+				date < 1970.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Wang_Shuming_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Air_To_Sea_Proponent }
+		}
+}
+#################################################
+### Head of Intelligence
+#################################################
+	Head_of_Intelligence = {
+	# Zhu Qinglan
+		CGX_HoI_Zhu_Qinglan = {
+			picture = CGX_Zhu_Qinglan
+			allowed = { tag = GXC }
+			available = {
+				date > 1893.1.1
+				date < 1942.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhu_Qinglan_unavailable }
+			}
+			
+			
+			traits = { ideology_A HoI_Political_Specialist }
+		}
+	# Li Jishen
+		CGX_HoI_Li_Jishen = {
+			picture = CGX_Li_Jishen
+			allowed = { tag = GXC }
+			available = {
+				date > 1944.1.1
+				date < 1950.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Li_Jishen_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoI_Dismal_Enigma }
+		}
+}
+#################################################
+### Chief of Staff
+#################################################
+	Chief_of_Staff = {
+	# Lu Rongting
+		CGX_CoStaff_Lu_Rongting = {
+			picture = CGX_Lu_Rongting
+			allowed = { tag = GXC }
+			available = {
+				date > 1886.1.1
+				date < 1925.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Lu_Rongting_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Mass_Combat }
+		}
+	# Bai Chongxi
+		CGX_CoStaff_Bai_Chongxi = {
+			picture = CGX_Bai_Chongxi
+			allowed = { tag = GXC }
+			available = {
+				date > 1915.1.1
+				date < 1959.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Bai_Chongxi_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoStaff_School_Of_Manoeuvre }
+		}
+	# Li Jishen
+		CGX_CoStaff_Li_Jishen = {
+			picture = CGX_Li_Jishen
+			allowed = { tag = GXC }
+			available = {
+				date > 1911.1.1
+				date < 1950.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Li_Jishen_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoStaff_School_Of_Manoeuvre }
+		}
+}
+#################################################
+### Chief of Army
+#################################################
+	Chief_of_Army = {
+	# Tan Haoming
+		CGX_CoArmy_Tan_Haoming = {
+			picture = CGX_Tan_Haoming
+			allowed = { tag = GXC }
+			available = {
+				date > 1893.1.1
+				date < 1925.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Tan_Haoming_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Decisive_Battle_Doctrine }
+		}
+	# Chen Jitang
+		CGX_CoArmy_Chen_Jitang = {
+			picture = CGX_Chen_Jitang
+			allowed = { tag = GXC }
+			available = {
+				date > 1908.1.1
+				date < 1936.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Chen_Jitang_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Guns_And_Butter_Doctrine }
+		}
+	# Huang Shaohong
+		CGX_CoArmy_Huang_Shaohong = {
+			picture = CGX_Huang_Shaohong
+			allowed = { tag = GXC }
+			available = {
+				date > 1924.1.1
+				date < 1961.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Huang_Shaohong_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoArmy_Decisive_Battle_Doctrine }
+		}
+}
+#################################################
+### Chief of Navy
+#################################################
+	Chief_of_Navy = {
+	# Lin Baoyi
+		CGX_CoNavy_Lin_Baoyi = {
+			picture = CGX_Lin_Baoyi
+			allowed = { tag = GXC }
+			available = {
+				date > 1894.1.1
+				date < 1928.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Lin_Baoyi_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoNavy_Decisive_Naval_Battle_Doctrine }
+		}
+	# Bai Chongxi
+		CGX_CoNavy_Bai_Chongxi = {
+			picture = CGX_Bai_Chongxi
+			allowed = { tag = GXC }
+			available = {
+				date > 1915.1.1
+				date < 1959.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Bai_Chongxi_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoNavy_Indirect_Approach_Doctrine }
+		}
+}
+#################################################
+### Chief of Airforce
+#################################################
+	Chief_of_Airforce = {
+	# Lu Rongting
+		CGX_CoAir_Lu_Rongting = {
+			picture = CGX_Lu_Rongting
+			allowed = { tag = GXC }
+			available = {
+				date > 1886.1.1
+				date < 1925.1.1
+				A_Minister_Allowed = yes
+				NOT = { has_country_flag = Lu_Rongting_unavailable }
+			}
+			
+			
+			traits = { ideology_A CoAir_Army_Aviation_Doctrine }
+		}
+	# Wang Shuming
+		CGX_CoAir_Wang_Shuming = {
+			picture = CGX_Wang_Shuming
+			allowed = { tag = GXC }
+			available = {
+				date > 1936.1.1
+				date < 1970.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Wang_Shuming_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoAir_Vertical_Envelopment_Doctrine }
+		}
+	}
+}

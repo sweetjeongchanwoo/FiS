@@ -1,0 +1,13 @@
+﻿l_english:
+#########################################################################
+#  Danzig Spirit
+#########################################################################
+ DNZ_Free_City_of_Danzig:0 "Free City of Danzig"
+ DNZ_Free_City_of_Danzig_desc:0 "Ever since the Treaty of Versailles went into effect in 1920, the Free City of Danzig has enjoyed semi-independence on the Baltic Coast. Essentially a trade port for the neighboring §YSecond Polish Republic§!, the Polish have say in Danzigian politics and are sure to quash any independence movements."
+
+#########################################################################
+#  Cabinet
+#########################################################################
+ DNZ_HoS_Helmer_Rosting:0 "Helmer Rosting"
+ DNZ_HoS_Sean_Lester:0 "Sean Lester"
+ DNZ_HoS_Carl_Jakob_Burckhardt:0 "Carl Jakob Burckhardt"

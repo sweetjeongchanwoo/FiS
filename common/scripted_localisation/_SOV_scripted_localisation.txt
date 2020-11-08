@@ -1,0 +1,25 @@
+####################################################################
+#### Custom Report Headers
+####################################################################
+defined_text = { 
+	name = Dynamic_SOV_17th_Congress
+	### Generic
+	text = {
+		trigger = {
+			has_country_flag = kirov_path
+		}
+		localization_key = GFX_news_SOV_Kirov
+	}
+	text = {
+		trigger = {
+			has_country_flag = bukharin_path
+		}
+		localization_key = GFX_news_SOV_Bukharin
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = GFX_news_SOV_17th_Congress
+	}
+}

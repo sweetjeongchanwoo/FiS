@@ -1,0 +1,104 @@
+ideas = {
+
+	country = {
+		SPA_la_guerra_civil = {
+			modifier = {
+				war_support_factor = 0.20
+				production_speed_buildings_factor = -0.15
+				industrial_capacity_factory = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				research_speed_factor = 0.1
+				ai_get_ally_desire_factor = -1000
+			}
+		}
+		SPA_civilwar_army_1 = {
+			modifier = {
+				army_org_Factor = 0.10
+				conscription_factor = -0.5
+				army_attack_factor = 0.05
+			}
+		}
+		SPA_civilwar_army_2 = {
+			modifier = {
+				army_org_Factor = 0.10
+				conscription_factor = -0.5
+				army_attack_factor = 0.1
+			}
+		}
+		SPA_civilwar_army_3 = {
+			modifier = {
+				army_org_Factor = 0.15
+				conscription_factor = -0.5
+				army_attack_factor = 0.1
+				planning_speed = 0.20
+			}
+		}
+		SPA_civilwar_church = {
+			modifier = {
+				political_power_gain = 0.5
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}	
+		SPA_african_army_1 = {
+			modifier = {
+				army_org_Factor = 0.10
+			}
+		}
+		SPA_african_army_2 = {
+			modifier = {
+				army_org_Factor = 0.10
+				political_power_gain = 0.5
+			}
+		}
+		SPA_african_army_3 = {
+			modifier = {
+				army_org_Factor = 0.10
+				army_attack_factor = 0.05
+				conscription_factor = 0.1
+			}
+		}
+		SPA_african_army_4 = {
+			modifier = {
+				army_org_Factor = 0.10
+				army_attack_factor = 0.05
+				conscription_factor = 0.1
+				political_power_gain = 0.5
+			}
+		}
+		SPA_carlist_leadership = {
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		SPA_political_militias_1 = {
+			modifier = {
+				max_dig_in = 1
+				conscription = 0.01
+				army_morale_factor = 0.1
+			}
+		}
+		SPA_political_militias_2 = {
+			modifier = {
+				max_dig_in = 1
+				conscription = 0.02
+				army_morale_factor = 0.1
+				army_org_Factor = -0.05
+			}
+		}
+		SPA_military_power_struggles_1 = {
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				max_command_power = -20
+			}
+		}
+		SPA_military_power_struggles_2 = {
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.1
+			}
+		}		
+	}
+}

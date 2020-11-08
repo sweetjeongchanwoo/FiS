@@ -1,0 +1,44 @@
+
+state={
+	id=728
+	name="STATE_728"
+
+	history={
+		owner = VIN
+		victory_points = {
+			11981 2
+		}
+		buildings = {
+			infrastructure = 3
+			11981 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		1946.1.1 = {
+			owner = CHI
+			set_state_name = Zhanjiang
+			set_province_name = {
+				id = 11981
+				name = Zhanjiang
+
+			}
+
+		}
+		1950.1.1 = {
+			owner = PRC
+
+		}
+
+	}
+
+	provinces={
+		11981 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

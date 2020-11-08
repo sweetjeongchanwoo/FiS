@@ -1,0 +1,32 @@
+state={
+	id=1063
+	name="STATE_1063"
+	
+	history={
+		owner = ETH
+		victory_points = {
+			12714 1
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ETH
+		1939.9.1 = {
+			owner = ITA
+
+		}
+		1942.11.22 = {
+			owner = ETH
+
+		}
+
+	}
+	
+	provinces={
+		8036 10775 12714 12992 13513 13515 13517 13519 
+	}
+	manpower=246000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

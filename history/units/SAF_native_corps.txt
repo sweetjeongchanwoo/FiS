@@ -1,0 +1,31 @@
+﻿division_template = {
+	name = "Infantry Division"				# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+    ##### South African Army #####
+    division = {
+        name = "1st South African Native Infantry Division"
+        location = 10400 # Johannesburg (Praetoria)
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "2nd South African Native Infantry Division"
+        location = 10400 # Johannesburg (Praetoria)
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+}

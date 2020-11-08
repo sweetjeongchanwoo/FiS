@@ -1,0 +1,9 @@
+﻿units = {
+	division= {
+		name = "SS-Freiwilligen-Grenadier-Division „Wallonien“"
+		location = 11467 # Actually trained in Debica, Poland
+		division_template = "SS-Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 1.0 
+	}
+}

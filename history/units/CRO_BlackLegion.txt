@@ -1,0 +1,25 @@
+﻿division_template = {
+	name = "Black Legion"				# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "Black Legion"
+		location = 11581  # Zagreb
+		division_template = "Black Legion"
+		start_experience_factor = 1
+	}
+}

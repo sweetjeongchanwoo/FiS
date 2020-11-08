@@ -1,0 +1,38 @@
+state={
+	id=1221
+	name="STATE_1221"
+
+	history={
+		owner = TIZ
+		victory_points = {
+			13235 5 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+
+		}
+		add_core_of = MOR
+		add_core_of = TIZ
+		1941.6.22 = {
+			owner = SPA
+
+		}
+		1946.1.1 = {
+			owner = TIZ
+
+		}
+		1960.1.1 = {
+			owner = MOR
+
+		}
+
+	}
+
+	provinces={
+		13235 
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

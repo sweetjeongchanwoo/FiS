@@ -1,0 +1,1190 @@
+﻿l_english:
+#########################################################################
+#  Soviet Union Events
+#########################################################################
+ DH_soviet.1.t:0 "German-Soviet Commercial Agreement"
+ DH_soviet.1.d:0 "It seems that the Germans have need of raw material from Mother Russia. In return for the supply of oil and chromium we are to be granted letters of credit, with which we can buy consumer goods. This will relieve our population's needs for everyday goods, thus strengthening our legitimacy. On the flipside, it will also improve Germany's capacity to produce war material."
+ DH_soviet.1.a:0 "Accept the offer"
+ DH_soviet.1.b:0 "It is too dangerous"
+
+ DH_soviet.2.t:0 "Commercial Agreement Annulled"
+ DH_soviet.2.d:0 "Our contracting party does not seem so trusthworthy afterall."
+ DH_soviet.2.a:0 "We will make do"
+
+ DH_SOV_Death_of_Stalin.1.t:0 "Death of Joseph Stalin"
+ DH_SOV_Death_of_Stalin.1.d:0 "Our Great Leader Joseph Stalin has passed away, leaving behind a grateful people, happy to have experienced his light. On this we will make sure concensus is reached."
+ DH_SOV_Death_of_Stalin.1.A:0 "Beria will assume power for now."
+
+ DH_SOV_Death_of_Stalin.2.t:0 "Succession of Stalin"
+ DH_SOV_Death_of_Stalin.2.d:0 "With the passing of Stalin the position of Chairman of the Council of Ministers has become vacant. Currently, 4 men seem to have come forth to claim new leadership. Comrade, who shall it be?"
+ DH_SOV_Death_of_Stalin.2.A:0 "Nikita S. Khrushchev."
+ DH_SOV_Death_of_Stalin.2.B:0 "Georgy Malenkov."
+ DH_SOV_Death_of_Stalin.2.C:0 "Lavrenti P. Beria."
+ DH_SOV_Death_of_Stalin.2.D:0 "Georgy Zhukov."
+
+ DH_soviet.5.t:0 "Proposition from Berlin"
+ DH_soviet.5.d:0 "It seems that Berlin has finally come around, and acknowledges our shared duty in spreading the world revolution to all four corners. Combined, Germany and the Soviet Union shall embark on a crusade against the west. It merely requries our pledge of allegiance."
+ DH_soviet.5.a:0 "Let's bury the West"
+ DH_soviet.5.b:0 "We need more time"
+
+ DH_soviet.6.t:0 "Move Industry to the Urals"
+ DH_soviet.6.d:0 "It would be smart of us to move our industry to the Urals as a war with germany seems inevitable."
+ DH_soviet.6.a:0 "Agreed"
+ DH_soviet.6.b:0 "Don't be ridiculous"
+
+ DH_SOV_Stalin_Constitution.1.t:0 "History in One Stroke"
+ DH_SOV_Stalin_Constitution.1.d:0 "[ROOT.GetNewsIcon]Again our glorious government has moved further in achieving class equality and in furthering the interests of the hardworking workers of the Union in a single stroke, by having adopted a new Constitution.\n\nThe new “Stalin’s” Constitution will be replacing the heavily revised 1924 constitution. The new Constitution has been termed as an unprecedented step for the Soviet people, the Constitution enumerates economic rights not included in constitutions of the so-called Western “Democracies”. It has repealed restrictions on voting, abolishing the “lishentsy” category of people, and has added universal direct suffrage and the right to work. In addition, the new Constitution has recognized collective social and economic rights including the rights to work, rest and leisure, health protection, care in old age and sickness, housing, education, and cultural benefits. The new Constitution also provides for the direct election of all government bodies and their reorganization into a single, uniform system.\n\nOur General Secretary Joseph Stalin, genius of the new world, the wisest man of the epoch, the great leader of communism, has personally chaired over a special commission of 31 members in the creation of this new constitution which has already been enacted by the Congress of Soviets, which itself has been reformed into the Supreme Soviet."
+ DH_SOV_Stalin_Constitution.1.a:0 "Rejoice, Comrades."
+
+ DH_SOV_Repurpose_Naval_Guns.1.t:0 "Repurpose Old Naval Guns"
+ DH_SOV_Repurpose_Naval_Guns.1.d:0 "The Red Navy has recently submitted a report to the People's Commissariat of Defense of the Soviet Union, highlighting a large surplus of naval guns in the inventory. These guns, though antiquated, can easily be repurposed into land-based heavy guns, suitable for ground combat. Their large-caliber would allow their usage in demolishing enemy strong points and bunkers and can be very useful for the Red Army. And at the same time, their large size and limited mobility would create difficulties for them to keep up with the advancing Red Army. These old guns can at the same time be repurposed into permanently stationary coastal battery emplacements and can be used to create fortress cities and bases, already naval planners have created plans to emplace these guns, with particular plans for Sevastopol, which can easily be turned into an impenetrable fortress."
+ DH_SOV_Repurpose_Naval_Guns.1.A:0 "Repurpose the steel monstrosities into Artillery Pieces."
+ DH_SOV_Repurpose_Naval_Guns.1.B:0 "Repurpose the steel monstrosities into Coastal Batteries."
+
+ DH_SOV_Transpolar_Flight.1.t:0 "Via the North Pole"
+ DH_SOV_Transpolar_Flight.1.t.SOV:0 "Glory to Stalin's Falcons"
+ DH_SOV_Transpolar_Flight.1.d:0 "[ROOT.GetNewsIcon]Yesterday, June 20, 1937, a specially outfitted Soviet ANT-25 landed in Vancouver in the United States of America, completing the first-ever transpolar airplane flight. It flew from the Soviet Union to the United States across the North Pole, the aircraft being piloted by our very own falcons - pilot Valery Chkalov, co-pilot Georgy Baidukov, and navigator Alexander Belyakov.\n\nLong and careful preparations were made for the flight, as a forced landing in the Polar Regions would mean certain death for the entire crew, after taking off the first 24 hours of the trans-polar flight proved to be routine and uneventful, but the remainder of the long flight would test the mettle of the Soviet Union’s elite flyers. As the flight neared the Polar Regions, the aircraft’s magnetic compass became inoperable; navigation had to rely solely on dead reckoning and a solar heading indicator, with corrections made by regular sun and star observations. But Despite all the odds, the flight landed at Vancouver's Pearson Airfield successfully after a flight of 63 hours and 16 minutes and were welcomed as heroes.\n\nWhile they do a nation-wide tour of the United States, which includes a meeting with President Roosevelt and a parade in New York City, the people at home desperately await to welcome the heroes."
+ DH_SOV_Transpolar_Flight.1.A:0 "Congrats, to the air pioneers."
+ DH_SOV_Transpolar_Flight.1.B:0 "Congrats, to the air pioneers."
+
+ DH_SOV_Transpolar_Flight.2.t:0 "The Lost Falcons"
+ DH_SOV_Transpolar_Flight.2.d:0 "Yesterday, we lost contact with Valery Chkalov and his crew of three. They were flying a specially outfitted ANT 25 and were tasked with attempting the world's first-ever transpolar flight. Prior to their unfortunate disappearance, Chkalov reported that all instruments were functioning properly and that his crew was in good condition, which has raised questions about their disappearance. The last sighting of the aircraft was near the 75th parallel.\n\nDue to the highly secretive nature of the mission, Canadian and American authorities were not informed, but there will be no need to tell them now. We have already sent planes into the air to search the area for Chkalov and his crew, however, the chances of finding them are quite low.\n\nTo avoid any trouble, Comrade Stalin has ordered the covering up of all records related to the flight and its fate. Yesterday, we lost contact with Valery Chkalov and his crew of three. They were flying a specially outfitted ANT 25 and were tasked with attempting the world's first-ever transpolar flight. Prior to their unfortunate disappearance, Chkalov reported that all instruments were functioning properly and that his crew was in good condition, which has raised questions about their disappearance. The last sighting of the aircraft was near the 75th parallel.\n\nDue to the highly secretive nature of the mission, Canadian and American authorities were not informed, but there will be no need to tell them now. We have already sent planes into the air to search the area for Chkalov and his crew, however, the chances of finding them are quite low.\n\nTo avoid any trouble, Comrade Stalin has ordered the covering up of all records related to the flight and its fate."
+ DH_SOV_Transpolar_Flight.2.A:0 "Their fate shall be forever shrouded in mystery"
+
+ DH_SOV_COMECON.1.t:0 "Join the COMECOM"
+ DH_SOV_COMECON.1.d:0 "You should join the COMECON Comrade!"
+ DH_SOV_COMECON.1.a:0 "We shall indeed"
+ DH_SOV_COMECON.1.b:0 "DAMN YOU COMMIES!"
+
+ DH_SOV_Liquidate_The_Church.1.t:0 "End of the Churches"
+ DH_SOV_Liquidate_The_Church.1.d:0 "The Orthodox Church has wielded considerable influence over the citizenry of our country, this influence especially prevailed during the time of the rotten Tsars, it was greatly reduced after our glorious revolution, but it still continues and persists in large parts of the society.\n\nThe State has decided, in accordance with its official mandate of state atheism or “Gosatzeism” to launch a new wave of attacks at the Church, aimed at eliminating or greatly curbing the influence of the Orthodox Church in the Soviet Society.\n\nWe can launch widespread raids, these would include confiscating Church property, deporting the church clergy, and conduct lynchings of the “believers“. This will create some apprehension in the society, on the other hand, a softer and longer but more effective way would be to initiate a cultural program where the tenets of “Socialist Science” will be promoted along with “Gostazeism”, the stigma faced by religious Christians in the society as a whole and in terms of their professional life will in most likelihood commit many to denounce the Orthodox Church, and fully integrate themselves into the Soviet society."
+ DH_SOV_Liquidate_The_Church.1.A:0 "They have subverted the socialist cause long enough, burn their institutions"
+ DH_SOV_Liquidate_The_Church.1.B:0 "A gradual process and change will allow the workers to embrace “Godatzeism” much more extensively."
+
+ DH_SOV_Introduce_Childcare.1.t:0 "A New Step for Women in the USSR"
+ DH_SOV_Introduce_Childcare.1.d:0 "[ROOT.GetNewsIcon]Though the Soviet state had established women equal in all spheres and walks of life since the revolution, in reality, due to limited economic independence, their individuality remained dependent on men.\n\nThe state has long looked at women as an untapped labor force, which even the most western countries shy away from. In a bid to strengthen the women and encourage greater participation in the industrialization program sweeping through the country, the state has instituted a massive childcare system, whose facilities will be available to all working mothers at a highly subsidized rate.\n\nThis progressive move has left many foreign commentators in awe, some who have long criticized the Soviet Union as highly repressive have been left speechless, while others are reporting how other countries, especially the “Democratic” ones should take a look at the Soviet system, which has come a long way in combating societal inequalities."
+ DH_SOV_Introduce_Childcare.1.A:0 "We applaude these progressive reforms"
+ DH_SOV_Introduce_Childcare.1.B:0 "An unnecessary upsetting of the social order"
+ DH_SOV_Introduce_Childcare.1.C:0 "A progressive step, perhaps one we should take ourselves"
+
+ DH_SOV_Russification.1.t:0 "Russification of the USSR"
+ DH_SOV_Russification.1.d:0 "Primus inter pares\n\nOur great nation,the home of the great revolution, consists of several smaller and some larger republics. Despite attempts in the early 20s during the “Korenizatsiya” policy to encourage representation of individuals from each republic in the Soviet system and usage of native languages, the Russians have continued to dominate the Soviet society, and it is clear that they will continue to do so. The Soviet Union needs to become a singular entity and needs to be based around a single culture, the Russian culture, even many in the higher echelons of the party leadership are Russified individuals and native Russians.\n\nThough not officially “superior”, the state directive will be simply that among the equal republics of the great Union, the Russian Republic is “more equal”. With a single language, there would be better functioning of the state, better coordination with local administrations, and in the army, Regional units would be able to coordinate in a more effective manner. A common culture would enable and foster camaraderie between the people, all the way from the workers in Vladivostok to the workers in Baku."
+ DH_SOV_Russification.1.A:0 "Let’s bind the glorious Union with the thread of a single culture."
+
+ #### The Great Purge Events
+ DH_SOV_Great_Purge.1.t:0 "The Yagoda Proposal"
+ DH_SOV_Great_Purge.1.d:0 "NKVD chief Genrikh Yagoda has submitted to the Politburo, earlier today, a rather controversial proposal. Within he suggests the complete and utter removal of the Trotskyist influence, which still haunts the USSR to this day, via the method of "remote camps". Quite obviously, this has caused outrage from both the Right Opposition and those within the Politburo who still sympathize with the theories of Trotsky. Hard-line communists already appear to be leaning in support of Yagoda's radical plans. Whatever happens, it is clear the party is still open to infighting and will continue to be so for the foreseeable future unless decisive action is taken."
+ DH_SOV_Great_Purge.1.A:0 "We must fend off all threats of the revolution!"
+
+ DH_SOV_Great_Purge.2.t:0 "Proposal Approved by the Politburo"
+ DH_SOV_Great_Purge.2.d:0 "NKVD chief Genrikh Yagoda submitted a proposal to the Politburo for sending "all the Trotskyists" into the "remote camps"... Under Comrade Stalin’s order, Trotsky was been taken from Power, expelled from the party and exiled. The threat of an uprising against the state, however, must be preemptively shut down by excluding the Trotskyites from our society to camps far, far away, in order to ensure a peaceful people within Russian borders. With the Politburo now on board, all the USSR shall be freed from Trotskyist influence."
+ DH_SOV_Great_Purge.2.A:0 "Stalin's leadership must be secured!"
+
+ DH_SOV_Moscow_Trials.1.t:0 "Trial of the Sixteen"
+ DH_SOV_Moscow_Trials.1.d:0 "The trial of the Sixteen, the first of what will be many of these trials, marks the beginning of a new age in Soviet politics. A cleansing, of sorts, as we rid ourselves of the corrupt and Trotskyist influences within our government. Sometimes it is better to amputate the limb, rather than let the gangrene fester and spread until the whole body is engulfed and destroyed. We have decided to take similar measures in the purging of many Soviet politicians. Although through the use of show trials, their guilt on the actions they are accused of may be questionable, they are undoubtedly a corrupting source within our administration. In the October house of unions in Moscow, sixteen individuals who had been suspected of a plethora of crimes, ranging from terrorism to plotting an assassination on Joseph Stalin, were found guilty of all charges. They were promptly sentenced to death and subsequently brought to the cellars of Lubyanka Prison were they each had a bullet put through their skulls. Prominent members of the sixteen executed individuals include Grigory Zinoviev and Lev Kamenev and whilst their absence leaves a hole in our political governance, their deaths mark the beginning of a greater struggle for purity within the USSR."
+ DH_SOV_Moscow_Trials.1.A:0 "Sometimes it is better to amputate the limb"
+
+ DH_SOV_Moscow_Trials.2.t:0 "Trial of the Sixteen"
+ DH_SOV_Moscow_Trials.2.d:0 "Second of the so-called ‘Moscow Trials’, the trial of the Anti-Soviet Trotskyist Centre involves the persecution of seventeen politicians, including figures such as Karl Radek. Whilst thirteen of the initial suspects were taken away and shot immediately, we have decided it best to spare several of the implicated traitors including Radek. Radek has provided us with useful information, particularly in regards to the potential treachery of many other prominent politicians and generals, including Bukharin and Tukhachevsky. Whilst the trial itself may not have been as significant as the last, it sets the stage for important later trials that will take place. The implications of Radek have made it clear that the military, along with many other political sections, is not to be trusted. We will see to them in the future. As for Radek, a labor camp seems the appropriate response, considering the information he has provided. We will dispose of him at a later date."
+ DH_SOV_Moscow_Trials.2.A:0 "Are we safe from the Counter-Revolutionaries?"
+
+ DH_SOV_Moscow_Trials.3.t:0 "Trial of the Anti-Soviet Military Organization"
+ DH_SOV_Moscow_Trials.3.d:0 "We have found out that more of our "loyal" generals and officers are secretly avid supporters of the traitor that is Leon Trotsky!\nThis cannot be, they must be trialed and hopefully, executed. The treacherous back-stabbers include Yakov Alksnis, Konstantin Rokossovsky, Yelisey Goryachev, Vasili Ulrikh and even Mikhail Tukhachevsky, who has been charged with the creation of a Right-Wing Trotskyist miltary conspiracy. We have to make sure that none can question Joseph Stalin's authority and that no one will ever think of replacing him."
+ DH_SOV_Moscow_Trials.3.A:0 "Tukhachevsky must be tried in secret and executed immediately!"
+ DH_SOV_Moscow_Trials.3.B:0 "Rokossovsky refuses to confess, but cannot be allowed to live!"
+
+ DH_SOV_Moscow_Trials.4.t:0 "Trial of the Twenty-One"
+ DH_SOV_Moscow_Trials.4.d:0 "The third show trial, which commenced earlier this month, tied together all the loose threads from earlier trials. It includes 21 defendants alleged to belong to the so-called " Bloc of Rightists and Trotskyites". As part of the great purge, an overwhelmingly saddening task necessary to ensure loyalty to our motherland, the Trial of the Twenty-One will finish our struggle with the defiant upper class. Ambassadors, heads of mighty organizations and plain doctors alike will fall by our hand, doth they betrayed our motherland!"
+ DH_SOV_Moscow_Trials.4.A:0 "The navy and air force have been getting off easy so far."
+ DH_SOV_Moscow_Trials.4.B:0 "As we suspected, enemies are everywhere!"
+
+ DH_SOV_Leningrad_Circle.1.t:0 "The Meeting"
+ DH_SOV_Leningrad_Circle.1.d:0 "“But that's not in the spirit of the revolution that Comrade Lenin wanted” said one of the Red Army Generals present in the meeting, “Well Comrade Lenin sure as hell didn't want Stalin in power”, said Marshal Tukhachevsky.\n\nThe group of Generals all held some of the most important ranks in the Red Army, each of the Military districts had at least one officer or more representing them in this meeting, on their orders the entire Red Army could be mobilized immediately for war or for any other “purpose”.\n\nMarshal Tukhachevsky ranted on how political interference had prevented him from capturing Warsaw in 1920, with many other officers also concurring and lamenting how almost daily interference by Political Commissars and their authority to countermand unit officer’s orders prevents them from doing something as trivial as regular shooting practices. A relatively junior officer from the Volga Military District pointed out how the Red Army’s leadership is being culled of the so-called “Trotskyites” and has made many of the commanders fearful of their lives, as executions and dismissals have become almost regular. After several hours of discussion, the officers dispersed, promising to meet again soon."
+ DH_SOV_Leningrad_Circle.1.A:0 "Lenin's Legacy will no longer be tarnished!"
+
+ DH_SOV_Leningrad_Circle.2.t:0 "Tukachevsky's Secret Speech"
+ DH_SOV_Leningrad_Circle.2.d:0 "Every single of these “Secret Meetings” has ended with the officers agreeing on nothing, with none of them ready to take any decisive action. However, this meeting was different.\n\n“They killed all of my sons and nephews, that Pig Stalin himself handed me their “confession letters, still damp with their own blood,” said one of the Generals. Many in the meeting had been serving since the Civil War, begging for reforms of any kind, but were deeply disappointed with the party apparatus' inaction. These Reformists held most of the sway in these meetings, and their support was necessary if anything substantial was to come out of these meetings. Marshal Tukhachevsky, often the most vocal in these meetings, began by expressing his dissatisfaction with the lack of action that had been taken, lamenting over how even Comrade Lenin’s closest associates had not been spared in the ongoing violent purge, and how only the “removal” of Stalin could stop the madness. Many were visibly aghast at the word “removal” but encouraged by the “Ayes” of the others, specifically the Reformists, Tukhachevsky resumed by enumerating that the purge would never end, possibly until he himself got shot. He only ended when the desk tapping had become so loud that even he could not hear his own words."
+ DH_SOV_Leningrad_Circle.2.A:0 "Cowards die many times before their deaths, but the valiant never taste death, but once"
+
+ DH_SOV_Leningrad_Circle.3.t:0 "March on the Kremlin"
+ DH_SOV_Leningrad_Circle.3.d:0 "After cutting all the landlines going out of Moscow, Tukhachevsky’s troops from the Leningrad Military district poured into the city. Soon the guards at the Kremlin were overpowered without any significant struggle, save for a couple of firefights. The Marshal personally entered the Kremlin with a detachment of troops to arrest Stalin and other Party members present in the Kremlin.\n\nMarshal Tukhachevsky leading a group of officers kicked down the door of Stalin’s personal office in the Kremlin Senate to find him hiding behind his desk, he motioned his adjutant to arrest him, Stalin spat all manners of abuses and threats while being lifted and handcuffed.\n\nInitially thought to be a Coup involving only a few Red Army units, it’s full scope and extent was soon revealed when later in the evening several cars entered Moscow with Red Army officers from the surrounding military districts, “escorting” Politburo members that had not been present in the City earlier in the day.\n\nThe nearly bloodless coup has been largely successful. Already proceedings have begun in a special court set up in Moscow, headed by the Marshal himself to sentence the “Traitors” of the Union."
+ DH_SOV_Leningrad_Circle.3.A:0 "There's no turning back now..."
+
+ DH_SOV_Leningrad_Circle.4.t:0 "Civil War!"
+ DH_SOV_Leningrad_Circle.4.d:0 "After severing all lines of communication to and from Moscow, thousands of troops from the Leningrad Military District poured all over the city, establishing checkpoints and perimeters all over the city, most sites of the governmental and key locations being quickly secured, but at the Kremlin, there were short but intense firefights, the outnumbered guards being constantly ordered to stand their ground by Joseph Stalin who had barricaded himself in the office.\n\nAfter subduing the guards, Marshal Tukhachevsky and his top aides made their way to Stalin’s office, and dragged the General Secretary out, who was cowardly hiding behind his desk, initially hurling abuses defiantly, he soon began to sob helplessly. His desperate pleas were being constantly interrupted by punches, kicks and his own crying and sobbing, after reaching the Red Square, he was thrown face down onto the pavement, breaking his nose, and causing his blood to stain the brick. Not long after, a truck arrived, carrying fifteen of the most senior NKVD officials that had been present at the Lubyanka building, which had surrendered almost immediately after realizing the overwhelming number of the Army troops.\n\nFollowing an improvised proceeding in the middle of the nearly empty Red Square, the Marshal sentenced Stalin and the NKVD personnel, sixteen men who represented a symbolic reprisal for the sixteen who had been “convicted” at the start of the Purge. Stalin, who had crawled like an infant in the ground, was still wailing and was forced to get on his knees, with the others. Tukhachevsky then took out his own service weapon to shoot each of the 16 while pausing in between to reload. Within minutes there were 16 lifeless bodies slumped in the Red Square, bodies of “traitors” as the Marshal’s adjutant wrote in his official report."
+ DH_SOV_Leningrad_Circle.4.A:0 "Not that I loved Caesar less, but that I loved Rome more"
+ DH_SOV_Leningrad_Circle.4.B:0 "Za Rodinu! Za Stalina!"
+
+ DH_SOV_Leningrad_Circle.5.t:0 "Coup d'Etat in the Soviet Union!"
+ DH_SOV_Leningrad_Circle.5.d:0 "[ROOT.GetNewsIcon]"
+ DH_SOV_Leningrad_Circle.5.A:0 "This can't be good"
+ DH_SOV_Leningrad_Circle.5.B:0 "To Victory!"
+ DH_SOV_Leningrad_Circle.5.C:0 "Good...The rotten structure is crumbling"
+
+ ###  Baltic Events
+ DH_baltics.1.t:0 "Soviets Demmand Basing Rights"
+ DH_baltics.1.d:0 "The Soviet Union demmands of us military access and is threatning to use force if we do not concede to these demmands, how shall we respond?"
+ DH_baltics.1.a:0 "Accept"
+ DH_baltics.1.b:0 "Refuse"
+
+ DH_baltics.2.t:0 "Soviets Demmand Basing Rights"
+ DH_baltics.2.d:0 "The Soviet Union demmands of us military access and is threatning to use force if we do not concede to these demmands, how shall we respond?"
+ DH_baltics.2.a:0 "Accept"
+ DH_baltics.2.b:0 "Refuse"
+
+ DH_baltics.3.t:0 "Soviets Demmand Basing Rights"
+ DH_baltics.3.d:0 "The Soviet Union demmands of us military access and is threatning to use force if we do not concede to these demmands, how shall we respond?"
+ DH_baltics.3.a:0 "Accept"
+ DH_baltics.3.b:0 "Refuse"
+
+ DH_baltics.4.t:0 "We have been denied"
+ DH_baltics.4.d:0 "Estonia has denied us basing rights! They know the consequences of their actions and so do we."
+ DH_baltics.4.a:0 "To War!"
+
+ DH_baltics.5.t:0 "Estonia allows us basing rights"
+ DH_baltics.5.d:0 "Estonia has allowed us basing rights, as expected after our pursuasion."
+ DH_baltics.5.a:0 "As expected"
+
+ DH_baltics.6.t:0 "Latvia denies basing rights"
+ DH_baltics.6.d:0 "Latvia has denied us basing rights! They know the consequences of their actions and so do we."
+ DH_baltics.6.a:0 "To War!"
+
+ DH_baltics.7.t:0 "Latvia allows us basing rights"
+ DH_baltics.7.d:0 "Latvia has allowed us basing rights, as expected after our pursuasion."
+ DH_baltics.7.a:0 "As expected"
+
+ DH_baltics.8.t:0 "Lithuania denies us basing rights"
+ DH_baltics.8.d:0 "Lithuania has denied us basing rights! They know the consequences of their actions and so do we."
+ DH_baltics.8.a:0 "To War!"
+
+ DH_baltics.9.t:0 "Lithuania allows us basing rights"
+ DH_baltics.9.d:0 "Lithuania has allowed us basing rights, as expected after our pursuasion."
+ DH_baltics.9.a:0 "As expected"
+
+ #### Politburo Weakened Events
+ DH_SOV_Politburo_Weakened.1.t:0 "Rise of the Stalin Opposition"
+ DH_SOV_Politburo_Weakened.1.d:0 "The Politics and the leadership of our great Union both have had peculiar histories, expected to lead a global revolution, the untimely death of our Country’s founding father brought much sorrow to our country. After Lenin’s death, a "troika" consisting of Grigory Zinoviev of the Ukrainian SSR, Lev Kamenev of the Russian SFSR, and Joseph Stalin of the Transcaucasian SFSR led the nation after a brief struggle against Leon Trotsky and his supporters, with the power being eventually consolidated under the seat of the incumbent General Secretary Joseph Stalin.\n\nThough seemingly a powerful and strong figure to some, the leader has had his fair share of failings - a debatable involvement in the eventual disaster in the Polish campaign, destructive attitudes in fulfilling his policies of industrialization and collectivization that have killed many and even generated famines, it is alleged that even the founding father, Lenin in his last days was concerned about Stalin and had tried to facilitate his dismissal to prevent his future involvement in the government’s policies.\n\nMuch of the critique against him has generally been random and unorganized, but finally and for the greater good, unfounded as well as founded accounts indicate that the dissension against him has been consolidated and is now organized among and with the patronage of some high ranking Politburo members. Though the extent and scope is not fully known, it has become quite evident that opposition against Stalin and his policies is starting to manifest and has become indicative to other Party members as well."
+ DH_SOV_Politburo_Weakened.1.A:0 "Maintain the Status-quo"
+ DH_SOV_Politburo_Weakened.1.A.tt:0 "We will maintain the current §YPolitburo§!'s Strenght\nPolitburo & Orgburo Strenght: §YModerate§!"
+ DH_SOV_Politburo_Weakened.1.B:0 "The revolution has already been subverted enough!"
+ DH_SOV_Politburo_Weakened.1.B:0 "We will push for even more empowering of the §YStalin Opposition§! within the §OPolitburo§!, this could give us an §Gedge§! over the §RStalinist Faction§!, However this could §Rbackfire...§!"
+
+ DH_SOV_Politburo_Weakened.2.t:0 "The Politiburo Supports the Opposition"
+ DH_SOV_Politburo_Weakened.2.d:0 "After much ramblings, uncertainties, and intrigue in the higher echelons of the political structure and leadership of the Soviet Union, it has become quite evident that the “Opposition” has consolidated itself and has a more than significant presence in the party circles.\n\nSeveral members of the Politburo, who are not supposed to give in to “factionalism” have made their intentions clear, and indicated that they will do everything in their power to remove General Secretary Stalin, this development has effectively led to the de-facto creation of an anti-Stalinist power bloc. \n\nThough not with certainty, it is widely believed that the oppositionists themselves are divided into their own sections, it is suspected that there are 3 main constituents, Nikolai Bukharin, leading the right-leaning members, highly improbable but rumored Sergei Kirov from the Party Center, and insignificant yet present Lev Kamenev and Grigory Zinoviev who lead the left elements. Kamenev and Zinoviev have long been considered as Stalin rivals and even Nikolai Bukharin’s disagreements with the General Secretary regarding the decision of collectivization, which led to millions of deaths and his subsequent drifting away from Stalin all indicate their possible involvement in the “Opposition”. But the rumors about Sergei Kirov’s involvement, which some think to be absurd are the real shockers considering his personal relationship with the General Secretary, though seemingly improbable, he is an influential member and commands enough respect to even refuse Stalin’s directives, whatever the case maybe it remains clear for any action to be taken against Stalin by the politburo, all the sections will play decisive roles, especially with the 17th Congress of the All-Union Communist Party coming up, which will elect the Central Committee."
+ DH_SOV_Politburo_Weakened.2.A:0 "Hopefully…..the Union and the party will know peace once more."
+ DH_SOV_Politburo_Weakened.2.A.tt:0 "§RStalin§! has been overpowered by the §OPolitburo§!\nPolitburo & Orgburo Strenght: §GOverwelming§!"
+
+ DH_SOV_Politburo_Weakened.3.t:0 "Stalin Denounces the Opposition's Plot"
+ DH_SOV_Politburo_Weakened.3.d:0 "Party General Secretary Joseph Stalin has long been viewed as a man of action, many observers and commentators have been restlessly anticipating his reply and course of action against the “Opposition” that has seemingly assembled against him, who claim their existence is an answer to the incompetent leadership, brutality and the atrocities for which the General Secretary has been held responsible. \n\nIn his address to the party members present in the last Politburo session held, the so-called “Man of Steel” has denounced the “Opposition” which has been rallying against himself. In his speech he highlighted his achievements and his work for the socialist cause, enumerating his “contribution” to the society by mentioning the recently completed first five-year plan and his collectivization policies, at that moment there was a snide remark by a party member “Millions Dead, seem to be a good enough contribution to the cause”, Stalin was confounded by such a brazen disrespect of his authority, and with no opposition from any other party members, the full scope of the “Opposition” became evident.\n\nAfter fumbling, never used to such an interruption Stalin continued albeit now with less clarity and proceeded with further attacks against his critics, accusing them of being agents of Trotsky attempting to bring down the State from within to fulfill the nefarious goals of anti-revolutionaries. Despite some cheers and approvals from some of the Stalinist supporters, the indifferent attitudes and rhetorics by many clearly indicated that the General Secretary had lost a large amount of approval, which would in all cases be evident and manifest in the upcoming 17th Congress of the All-Union Communist Party."
+ DH_SOV_Politburo_Weakened.3.A:0 "The dying throes of a bygone man."
+ DH_SOV_Politburo_Weakened.3.A.tt:0 "§RStalin§! has detered our effort to empower the §OPolitburo§!\nPolitburo & Orgburo Strenght: §GOverwelming§!"
+
+ #### 17th Congress Events
+ DH_SOV_XVII_Congress.1.t:0 "First day of the 17th Congress"
+ DH_SOV_XVII_Congress.1.d:0 "[FROM.GetNewsIcon]It is another historic event here today in the capital Moscow, for revolutionaries from all sides of the political aisle have gathered here today to convene the 17th Congress of the All-Union Communist Party. \n\nAttended by more than a thousand delegates who have been handpicked to proactively and pragmatically represent the many sectors and party members in the Communist Party, this Congress will discuss a wide variety of issues from Party Organization Reform to the status of the brilliant Five Year Plan which has brought unprecedented levels of prosperity never before seen in Russia in history, along with electing various of our comrades into the important organs of the Party.\n\nThis is a historic day, whose deliberations and decisions shall shape our glorious Union forever!"
+ DH_SOV_XVII_Congress.1.A:0 "I hereby call to order..."
+
+ DH_SOV_XVII_Congress.2.t:0 "Comrade Stalin's Reports"
+ DH_SOV_XVII_Congress.2.d:0 "“Comrades, more than three years have passed since the Sixteenth Congress. That is not a very long period. But it has been fuller in content than any other period- I do not think that any period in the last decade has been so rich in events like this one.”\n\nStalin's report centers on three main areas:\n-The great depression ravaging the capitalist world, which is unprecedented in its length and severity. In contrast to this, the USSR's production has more than doubled,\nclearly showing the superiority of the socialist model.\n-The growing tensions between the European powers, and between Japan and China, which threaten to plunge the world into war once more.\n-Soviet diplomatic relations with the rest of the world, which have improved greatly with the signing of nonaggression pacts with Poland, Finland, Italy, and France. Relations have been restored with the United States and China as they see our increasing economic and military might.\n\nAs the speech comes to an end, applause can be heard ringing throughout the congress chambers- even some members of Nikolai Bukharin's right opposition can be seen clapping and cheering. As the applause dies down, the General Secretary makes one last remark..."
+ DH_SOV_XVII_Congress.2.A:0 "Praise the good work of the Party"
+ DH_SOV_XVII_Congress.2.B:0 "Makes a neutral and Bureaucratic Discourse"
+ DH_SOV_XVII_Congress.2.C:0 "Criticize the party and demand improvements"
+
+ DH_SOV_XVII_Congress.3.t:0 "The Party recognizes their failures"
+ DH_SOV_XVII_Congress.3.d:0 "We expected today a rejection of blame from the party- what we did not expect was that they would accept the criticism, and that is what has come to pass.\nThe party is not monolithic, and there is always dissent, but on most occasions, a compromise is made and a decision announced. Stalin's harsh criticism of the party hasn't made him any new friends, but it seems enough of the politburo to see the truth in Stalin's criticisms to make a statement. However, by carefully examining the reactions of the politburo members, a deeper truth can be found. It seems that the decision to accept culpability for what many see as Stalin's failures was hotly contested behind closed doors and that a large bloc of the politburo does not agree with their peers. Going forward, this split will likely affect the politburo's decision making for the rest of the congress, if not longer. A delegate to the left whispers ominously.\n\n“What was it that American President said?”"
+ DH_SOV_XVII_Congress.3.A:0 "The Party will betray the revolution nevermore."
+
+ DH_SOV_XVII_Congress.4.t:0 "The Members did not Accept Criticisms"
+ DH_SOV_XVII_Congress.4.d:0 "After Comrade Stalin put forth fierce criticism of the CPSU and its members in his reports about the general state of the Union, many were quick to disregard these accusations as outrageous and the specific problems as “blown out of proportion“ and “not representative for the state of the Union and Revolution“. And while many party members were content with these statements, fine with the reassuring pat on their back put forth by their fellow comrades, there were others who were deeply affected by Comrade Stalin's reports.\nWhat did the party truly achieve from the start of the Revolution?\nTrue they won the war against the Reactionaries but after that? The dream of the world revolution died before Warsaw, the dream of eternal prosperity died with the plethora of international sanctions and the revolutionary spirit of 1917 drowned in a sea of misery and war. The dream of the communist utopia simply vanished in the face of the cold reality.  But who could be blamed? The farmer who toils in the fields to prevent another famine from plaguing the country? The factory worker who works long hours in the factories to ensure that the Union is on par with the capitalist countries? \nThe soldiers, who are ready to give their blood and lives to keep the revolution going? No, they can´t be blamed, for they still give everything for the Revolution.  Soon the delegates realized that only the party can be blamed and that only they can correct the mistakes they made, that improvement is needed to rekindle the flame of the Revolution. And improve they will, for only the party will be able to guide the proletariat towards utopia"
+ DH_SOV_XVII_Congress.4.A:0 "A house divided against itself..."
+
+ DH_SOV_XVII_Congress.5.t:0 "The Five Year Plan Debate"
+ DH_SOV_XVII_Congress.5.d:0 "Next on our agenda is a speech from Vyacheslav Molotov, Chairman of the Council of People's Commissars, and Valerian Kuybyshev, Chairman of the State Planning Committee, on the necessity of a second 5-year plan. While the first 5-year plan overhauled agriculture in the union, seeing state-enforced collectivization, the "liquidation" of the Kulaks, and the construction of a foundation for heavy industry, it did not fully meet all of its goals- greatest of them a full transition of the economy to socialism. Molotov and Kuybyshev propose a second 5-year plan that will achieve the remaining uncompleted objectives of the first, as well as create further heavy industry and infrastructure. Both Molotov and Kuybyshev are close allies of Stalin's, and going through with the plan will greatly increase the General Secretary's power over the state and economy. On the other hand, as many of the delegates have observed, the first 5-year plan's successes came at a cost and even so weren't entirely successful."
+ DH_SOV_XVII_Congress.5.A:0 "We must rally the workers for this historic task"
+ DH_SOV_XVII_Congress.5.B:0 "Reinforce criticism of the brutal collectivization"
+ DH_SOV_XVII_Congress.5.B.tt:0 "Such harsh criticism will help “disjoint” §RJoseph Stalin§! from power"
+
+ DH_SOV_XVII_Congress.6.t:0 "Organizational Issues"
+ DH_SOV_XVII_Congress.6.d:0 "To be a card-carrying member of the party no longer means what it used to, and Lazar Kaganovich has come before the politburo to tell us of what can be done. Since the Bolsheviks under Lenin seized the apparatus of the state, party membership has become more and more necessary for everyday life in the union. As such, membership has exploded, and many of these new members are... less than dedicated to our goals. Kaganovich suggests that we extend party membership only to those who have proven themselves through work in a social organization, and increase the number of recommendations required to join. Finally, Kaganovich proposes that we replace the current Rabkrin, the committee designed to expose corruption and government wrongdoing, with a new People's Control Commission dedicated to the oversight of the many oblasts, krais and autonomous republics of the Union."
+ DH_SOV_XVII_Congress.6.A:0 "The Rabkrin will be enough, with a little revision"
+ DH_SOV_XVII_Congress.6.A.tt:0 "End the §RRabkrin System§! and pass their areas of action to the §OPeople's Control Commission§!"
+ DH_SOV_XVII_Congress.6.B:0 "I move to create the Peoples' Control Comission"
+ DH_SOV_XVII_Congress.6.B.tt:0 "The §ORabkrin System§! is efficient and doesn't need to end. We will only do some §Greforms§!."
+
+ DH_SOV_XVII_Congress.7.t:0 "Elections to the Central Organs of the Party"
+ DH_SOV_XVII_Congress.7.d:0 "At last, the most important issue on our agenda is the matter of elections to the party's Central Committee. The Politburo will stay largely the same as it is now, with only one position changing hands, but the Secretariat will see radical change, with a majority of its members being replaced. Despite all these changes, most delegates expect Josef Stalin to retain the post of General Secretary. However, perhaps there is one who could challenge Stalin for leadership- Sergei Kirov. Kirov has always had the support of a wide swathe of the party and has started to drift away from Stalinism, exerting more and more independence from Moscow every day. Perhaps Stalin's ten-year rule will soon come to an end."
+ DH_SOV_XVII_Congress.7.A:0 "Significant Votes against Stalin."
+ DH_SOV_XVII_Congress.7.A.tt:0 "§OThe Politburo§! has chosen to vote §RStalin§! out of office"
+ DH_SOV_XVII_Congress.7.B:0 "Overwhelming Victory for Comrade Stalin"
+ DH_SOV_XVII_Congress.7.B.tt:0 "§OThe Politburo§! has chosen to vote for comrade §GStalin§!"
+
+ DH_SOV_XVII_Congress.8.t:0 "Significant Votes Against Stalin"
+ DH_SOV_XVII_Congress.8.d:0 "The early votes have come in, and they paint a grim picture for Stalin's continued leadership. The party leadership uses a voting system where candidates are voted against, and the candidate with the fewest votes against takes the position- Stalin has already received a significant amount of those votes. What might have been unthinkable a few years ago now presents itself as a tantalizing opportunity- the removal of General Secretary Joseph Stalin? Much of the party has always hated the old enforcer, some even claiming Lenin tried to prevent Stalin's leadership from his deathbed, but they have never had a good way to oust him- until now. In dim backrooms and hotel rooms, a plot is beginning to coalesce. They can get the votes, all they need now is a candidate to take the General Secretaryship, and they already have someone in mind. Though once a Stalin ally, he has slowly drifted away from Stalin in recent years, preferring vibrant St. Petersburg to the halls of power in Moscow."
+ DH_SOV_XVII_Congress.8.A:0 "The Party Goes with the Opposition"
+ DH_SOV_XVII_Congress.8.A.tt:0 "It seems even a 'man of steel' rusts away.\n§OThe Politburo§! chose §YNikolai Ivanovich Bukharin§!"
+ DH_SOV_XVII_Congress.8.B:0 "The Party Calls a Provisional Goverment."
+ DH_SOV_XVII_Congress.8.B.tt:0 "It seems even a 'man of steel' rusts away.\n§OThe Politburo§! chose §YSergei Mironovich Kirov§!"
+
+ DH_SOV_XVII_Congress.9.t:0 "The Party calls for a Provisional Government"
+ DH_SOV_XVII_Congress.9.d:0 "Long after a party spokesman was expected to announce the next general secretary, a nervous young man dashes to the podium to deliver a hastily prepared statement. The unlucky aide looks out over the crowd, visibly shaken, and speaks so quickly it's hard to understand his words. "The party has decided that to maintain strong leadership in this time of crisis, comrades Kirov, Molotov, and Kalinin will form a provisional government." The chambers are silent for a moment before they explode into activity, a tsunami of sound washing over the seated crowd. Delegates scramble across the floor for hurried discussions with their friends and allies.\n“This is unprecedented!”\n“Is that legal? Can they do that?”\n“At least Kirov's on the provisional government.”\n“Now this is why we should have voted for Stalin.”\n\nAfter a time, the discussion dies down, and the new troika, reminiscent of the triumvirates of Rome, will begin their work to lead and protect the revolution."
+ DH_SOV_XVII_Congress.9.A:0 "But which will be Caesar?"
+
+ DH_SOV_XVII_Congress.10.t:0 "The Party goes with the Opposition"
+ DH_SOV_XVII_Congress.10.d:0 "A heavy silence smothers the congress chambers when the party's decision is announced, and Nikolai Bukharin's opposition is asked to create a new government. Making up the "right" wing of the Party, the opposition and their allies had been in decline all over the socialist world- until now. Bukharin slowly walks up to the front of the room, and every single footstep can be heard echoing through the vast emptiness of the congregation hall. As the old revolutionary takes the podium, every single eye is fixed on him, scanning, searching for any clue for his next words.\nComrade Bukharin smiles and humbly accepts the monumental task of leading the revolution in these most perilous of times.\nWhen our Union is threatened, when the reactionaries circle like hungry wolves around us, Bukharin will do everything to protect the revolution, our revolution, from those who would crush the workers under their boot."
+ DH_SOV_XVII_Congress.10.A:0 "Lenin lives, Bukharin lives."
+
+ DH_SOV_XVII_Congress.11.t:0 "Poltiburo Votes for Stalin"
+ DH_SOV_XVII_Congress.11.d:0 "After many stressful and long days we, The Party, have chosen Josef Stalin as the man who shall lead our nation to more prosperous times. Our comrade's Stalin's fate was known from his birth, he was set to lead the Party, and The Motherland to a more prosperous and better future, we believe he has everything that The Party asks for and we believe he truly is the right man for the Soviet Union. Sergei Kirov lacked the will and determination to our glorious cause and he shall be remembered as a loser against comrade Stalin and shall be forgotten by history. Our comrade Stalin certainly lacked neither the will nor the determination to The Motherland, he knows what it takes to be a true member of The Party. His name shall be written in history books as was foretold. May he leads us to glory and once more the world shall fear the Red Menace."
+ DH_SOV_XVII_Congress.11.A:0 "You there. Get me... Sergei Kirov."
+
+ DH_SOV_XVII_Congress.12.t:0 "Kirov denounces a plot against Stalin"
+ DH_SOV_XVII_Congress.12.d:0 "Scandal at the congress! Leningrad party boss Sergei Kirov, once a steadfast ally of General Secretary Stalin, has come forward claiming he was approached by a rogue faction of the politburo after last night's proceedings. Kirov says the traitors offered him the post of General Secretary upon ousting comrade Stalin, but he immediately refused and went straight to Stalin to report the plot. While the plot has been foiled, for now, this incident has shown that dissent does exist in the highest echelons of the party. Worse still, the dissenters are bold enough to go about their plotting right under the General Secretary's nose. Bukharin is safe, for now, but it may be wise for him to find other allies."
+ DH_SOV_XVII_Congress.12.A:0 "Even the sword doesn't cut the head of the one who confesses."
+
+ DH_SOV_XVII_Congress.13.t:0 "The End of the 17th Congress"
+ DH_SOV_XVII_Congress.13.d:0 "[FROM.GetNewsIcon]After a grueling 15 days, the 17th Congress of the All-Union Communist Party has finally come to an end. A party functionary calls the congress to a close with what might have been a small sigh of relief, and the event is finally over. The assembly begins to shuffle out of the congress chambers and down the halls, dog tired.\nAll the delegates are happy to return home to their wives and families at long last, and some prepare for a long journey to the furthest corners of the Union in the Caucasus and far east.\n\nAfter weeks of constant cacophony, the Kremlin finally falls silent.\n\nDecisions made these two weeks will guide the course of both the Soviet Union and the international socialist revolution for years to come, and will surely change the world as well. Here though, the citizens of the USSR can only hope that the delegates have acted in their best interest, and time will tell if they have."
+ DH_SOV_XVII_Congress.13.d1:0 "[FROM.GetNewsIcon]After much deliberations, the proceedings of the 17th Congress of the All-Union Communist Party have concluded in the city of Moscow, the capital of the country. The meeting has been labeled as the "Congress of Victors" to mark the success of the first five-year plan and the collectivization of agriculture.\n\nApart from the main agendas discussed by the body, the composition of the Central Committee was also elected, and to the shock of many, the Congress voted out the current General Secretary, Joseph Stalin with well over one hundred votes against him.\n\nSergei Kirov, a very prominent politician, part of the “Old Guard ” and a personal friend of Joseph Stalin himself has been elected as the new General Secretary and will be heading a Troika comprising of Party veterans Vyacheslav Molotov and Mikhail Kalinin as the leaders of the Central Committee. Kirov, the current head of the Communist Party in Leningrad only received 3 votes against. His ideas are well known in the party, a strong supporter of industrialization and collectivization in the Country, it is widely believed in the country that the new General Secretary will bring much glory to the Worker’s cause."
+ DH_SOV_XVII_Congress.13.d2:0 "[FROM.GetNewsIcon]The recently organized 17th Congress of the All-Union Communist Party in Moscow has finally concluded after nearly 2 weeks of proceedings. It was one of the largest party gatherings to have yet taken place, with almost if not all of the top hierarchy of the party in attendance.\n\nSupposed to be the “Congress of Victors” to mark the achievements of the successes of the first five-year plan and the collectivization instituted in the agricultural sector. But instead, the highlight has been the formation of a “Provisional Government”, headed by long time party member Nikolai Bukharin.\n\nThe current General Secretary Joseph Stalin received more than 100 votes against him for the Central Committee elections, making it evident that it was impossible for him to be elected in the face of such great opposition from Party ranks. A staunch proponent of the New economic policy during the early 1920s, many are scratching their heads, trying to predict the direction in which Comrade Bukharin will steer the nation to, but rest assured the people of the glorious Soviet Union will continue to thrive under his guiding hand."
+ DH_SOV_XVII_Congress.13.A:0 "Order the NKVD Chief to Persecue Kirov"
+ DH_SOV_XVII_Congress.13.A.tt:0 "§RKirov§! is a menace to our power, he has to go\n§OComrade Stalin§! to lead us until further notice"
+ DH_SOV_XVII_Congress.13.B:0 "Keep a eye on Kirov"
+ DH_SOV_XVII_Congress.13.B.tt:0 "The §ONKVD§! should monitor §RKirov§!'s movements\n§OComrade Stalin§! to lead us until further notice"
+ DH_SOV_XVII_Congress.13.C:0 "Kirov is loyal to the party"
+ DH_SOV_XVII_Congress.13.C.tt:0 "We dont need to do anything about him\n§OComrade Stalin§! to lead us until further notice"
+ DH_SOV_XVII_Congress.13.D:0 "Lenin lives, Kirov lives."
+ DH_SOV_XVII_Congress.13.D.tt:0 "A new chapter in the Soviet experiment"
+ DH_SOV_XVII_Congress.13.E:0 "Lenin lives, Bukharin lives."
+ DH_SOV_XVII_Congress.13.E.tt:0 "A new chapter in the Soviet experiment"
+ DH_SOV_XVII_Congress.13.Com_Stalin:0 "Congrats, to Comrade Stalin."
+ DH_SOV_XVII_Congress.13.Com_Kirov:0 "Congrats, to Comrade Kirov."
+ DH_SOV_XVII_Congress.13.Com_Bukharin:0 "Many well wishes to Comrade Bukharin."
+ DH_SOV_XVII_Congress.13.Fas:0 "Enjoy it, while it lasts."
+ DH_SOV_XVII_Congress.13.Neu:0 "Lets see what the future holds for the Soviet people."
+
+ #### Kirov's Assassination Events
+ DH_SOV_Kirov_Question.1.t:0 "Kirov Refused our invitation"
+ DH_SOV_Kirov_Question.1.d:0 ""
+ DH_SOV_Kirov_Question.1.A:0 "So this snake doesn't respect the man who give him everything"
+
+ DH_SOV_Kirov_Question.2.t:0 "Yagoda/Agranov Accepts to replace the Leningrad NKVD Leadership"
+ DH_SOV_Kirov_Question.2.d:0 ""
+ DH_SOV_Kirov_Question.2.A:0 "Perfect"
+ 
+ DH_SOV_Kirov_Question.3.t:0 "Kirov interfered in our decision"
+ DH_SOV_Kirov_Question.3.d:0 ""
+ DH_SOV_Kirov_Question.3.A:0 "So Kirov thinks that he could do that?"
+ 
+ DH_SOV_Kirov_Question.4.t:0 "Yagoda/Agranov Presents his Suggestion"
+ DH_SOV_Kirov_Question.4.d:0 ""
+ DH_SOV_Kirov_Question.4.A:0 "We do not need to get your hands dirty"
+ DH_SOV_Kirov_Question.4.A.tt:0 "Let's just see how this will develop..."
+ DH_SOV_Kirov_Question.4.B:0 "Find Nikolayev and assist him in his plot"
+ 
+ DH_SOV_Kirov_Question.5.t:0 "Nikolayev Accepts"
+ DH_SOV_Kirov_Question.5.d:0 ""
+ DH_SOV_Kirov_Question.5.A:0 "Good Boy"
+
+ DH_SOV_Kirov_Question.6.t:0 "Sergei Kiroff Assassinated in Suspicious Circunstances"
+ DH_SOV_Kirov_Question.6.d:0 "[FROM.GetNewsIcon]"
+ DH_SOV_Kirov_Question.6.A:0 "Tragic"
+ DH_SOV_Kirov_Question.6.B:0 "Tragic"
+
+ DH_SOV_Kirov_Question.7.t:0 "Nikolayev arrested in a probable assassination attempt"
+ DH_SOV_Kirov_Question.7.d:0 ""
+ DH_SOV_Kirov_Question.7.A:0 "Release him with his weapon"
+ DH_SOV_Kirov_Question.7.B:0 "Traitor! Sentence him for forced labour"
+
+ DH_SOV_Kirov_Question.8.t:0 "Kiroff, High Soviet Leader, Slain"
+ DH_SOV_Kirov_Question.8.d:0 "[FROM.GetNewsIcon]"
+ DH_SOV_Kirov_Question.8.A:0 "Tragic"
+ DH_SOV_Kirov_Question.8.B:0 "Tragic"
+
+ ### Soviet Special Events
+ DH_soviet_special.1.t:0 "German Betrayal"
+ DH_soviet_special.1.d:0 "Germany signed a treaty with us and dares break it!? This must not go without punishment!"
+ DH_soviet_special.1.a:0 "For the Motherland!"
+
+ DH_soviet_special.2.t:0 "Great Patriotic War"
+ DH_soviet_special.2.d:0 "Germany pushes into the Motherland farther then we thought they could. We must put a end to this!"
+ DH_soviet_special.2.a:0 "For the Motherland!"
+
+#########################################################################
+#  Soviet Union Focuses
+#########################################################################
+ SOV_NKVD_Agency:0 "NKVD"
+ SOV_NKVD_Agency_desc:0 "Counterrevolutionaries and agents of the West seek to subvert the cause of our great revolution, both from the inside and the outside. It is evident we need to charge an organisation with countering these threats, the organisation must be equally ruthless and merciless to counter the threats to our great nation. It has been decided to reform the NKVD or the People’s Commissariat for Internal Affairs, which had been disbanded in 1930, in its latest form, it will be reinstated as an All-Union Ministry, and be handed all the responsibilities of the OGPU and more. The greatly strengthened NKVD will immediately begin countering internal subversive activities and carry out tasks in foreign lands to further the socialist cause."
+
+ SOV_Yagodas_Iron_Fist:0 "Yagoda's Iron Fist"
+ SOV_Yagodas_Iron_Fist_desc:0 "Whatever benefits and advantages the other possible candidates offer for the post of heading the NKVD, seems redundant when compared to Genrikh Yagoda. Yagoda is a man of passion and energy combined with the necessary ruthlessness needed to run the state based security apparatus, the NKVD. He will be entrusted with the task for rooting out all subversive and counter revolutionary activities in the nation, a long drawn out task, but a task suitable for Yagoda who will no doubt excel in it...for the time being at least."
+ 
+ SOV_Agranovs_Pragmatic_Approach:0 "Agranov's Pragmatic Approach"
+ SOV_Agranovs_Pragmatic_Approach_desc:0 "Now that a State based security apparatus has been firmly established, what must be decided upon is who should lead the NKVD and its approach in countering the national threats. While it is evident that the leadership would need to be ruthless and merciless, it seems some measure of cunningness and pragmatism will also be required. Yakov Agranov, a highly effective and competent individual, has an extensive record of countering subversive activities in the union in the past years, and his pragmatism, at least compared to the “other” option, seems to offer considerably more merit."
+ 
+ SOV_Socialist_Justice:0 "Socialist Justice"
+ SOV_Socialist_Justice_desc:0 "Our nation and its ideology exist for the benefit of the worker and the peasant. In Western Countries, the courts and the laws all exist to favour the greedy money men, men who seek to rob the common man for everything he’s worth, unlike our nation where the working class is not only respected, but revered, for it is the driver of the nation and its economy. The people of our nation need to be reminded of the tenets of the socialist cause, and hence it is in the national interest, to propagate “Socialist Justice”. The People's Commissariat for Justice, which was once chastised by our founding father- Lenin himself, needs to once again be reminded of its duties in working to end the class struggle and to promote equality among all."
+ 
+ SOV_Arrest_Political_Enemies:0 "Arrest Political Enemies"
+ SOV_Arrest_Political_Enemies_desc:0 "Some members in the VKP(b) are still uncomfortable with Comrade Stalin being the General Secretary, despite his numerous achievements, they often oppose his proposals in the Presidium of the Supreme Soviet. It is a well known fact that all of Comrade Stalin’s proposals are in the most sincere interests of the nation and for furthering the socialist cause, but some of his political enemies refuse to see the bigger picture. The NKVD has recently uncovered some “links” between hid political enemies and some Trotskyite cells operating in the country, forget the personal animosity between these traitors and Comrade Stalin, they need to be arrested immediately to prevent further subversion of the socialist cause."
+ 
+ SOV_Total_Party_Censorship:0 "Total Party Censorship"
+ SOV_Total_Party_Censorship_desc:0 "There always has been a culture of spreading unconfirmed incidents and rumours in the party circles, the VKP(b) and its members are entrusted with the very important task of preserving the integrity of the socialist cause in the Soviet Union. Misinformation and rumours are distractions that only prohibit the members of the Party in completing their duties and seeing the complete picture. Keeping the National and Socialist interests at heart, the best course of action to prevent further unfiltered information from reaching the ears of the party members and the general population as well, is to begin extending the censorship laws, to the general population as well as to the members of the VKP(b)."
+ 
+ SOV_1937_Constitutional_Elections:0 "1937 Constitutional Elections"
+ SOV_1937_Constitutional_Elections_desc:0 "After the Stalin constitution which among its several other points promised democratic proceedings for the election of all governmental bodies, it is time to begin implementing such a practice in actuality. The upcoming legislative elections to the Supreme Soviet, will follow a complete “democratic” approach. Though the process is more or less redundant, as the population understands the need for the important figures, prime among them, the current General Secretary Stalin himself, instead of any other “alternative” candidates, on top of that the NKVD will ensure no “counterrevolutionary” can contest in the elections."
+ 
+ SOV_XVIII_Congress:0 "XVIII Congress"
+ SOV_XVIII_Congress_desc:0 "Very soon, in Moscow, the 18th Congress of the All-Union Communist Party will begin. It will be the first one after the “purification” of the leadership from trotskyites, counterrevolutionaries and other subversive elements. Among its many agendas, it will conduct an analysis of the internal and international situation of the country, as well as its future development perspectives, and discuss important aspects of the foreign policy of the USSR, particularly our disappointment with the western democracies and their failure to adopt the policy of collective security. In the aspect of party affairs it will also attempt to sanction the new Party's statute which needs to be revised to reflect changes in the class structure of the Soviet society."
+ 
+ SOV_Purges_in_the_Red_Army:0 "Purges in the Red Army"
+ SOV_Purges_in_the_Red_Army_desc:0 "Our initial assumption that only the KPSS had been infiltrated by the “fifth columnists” has proven to be wrong, among other sections of the society, even the Red Army has been affected by subversive individuals, working from within the organisation itself. It’s astonishing but the latest NKVD report is very definite, and has implicated senior commanders all the way from the division level to Army level for traitorous offences, ranging from having trotskyite sympathies to being actively involved in spying and collaborating with Foreign entities…...even a few of the Marshals have been implicated. Comrade Stalin has authorised the NKVD to begin extending the purge to the Red Army as well and cleanse it of these traitorous individuals immediately."
+ 
+ SOV_State_Defense_Committee:0 "State Defense Committee"
+ SOV_State_Defense_Committee_desc:0 "War is upon us, the very existence of the revolution and its birthplace has been threatened, we cannot afford to lose this battle of survival. Our Nation covers an extraordinarily wide expanse of land, stretching for thousands of kilometres from the Baltic Sea, all the way to the Pacific ocean. The wide expanse creates several organisational difficulties, in an attempt to better coordinate national efforts, especially for war, it has been decided to centralise power and form a national organisation, i.e. the State Defense Committee(GKO or ГКО). The GKO which staffed by the top members of the KPSS, including General Secretary Stalin himself, will be tasked with coordinating all the national wartime efforts to maximise operability and functionality."
+ 
+ SOV_Zhdanovs_Party_Supremacy:0 "Zhdanov's Party Supremacy"
+ SOV_Zhdanovs_Party_Supremacy_desc:0 "In the difficult decision to adopt whose ideas in the functioning of the State Defense Committee, its chairman- General Secretary Stalin himself, has selected Zhdanov’s line of thinking. Andrei Zhdanov has long been admired by the General Secretary, and some of his ideas as to how the GKO should function has been well received by Comrade Stalin. In addition he was an active participant in the purging of the KPSS and other state organisations and hence his political reliability and sincerity towards the cause is that of the highest order. Effective immediately Zhdanov has been granted the necessary authorization to begin shaping the activities of the GKO in the way he seems it to be the most appropriate, keeping the national interests at hearts."
+ 
+ SOV_Malenkovs_Pragmatic_Faction:0 "Malenkov's Pragmatic Faction"
+ SOV_Malenkovs_Pragmatic_Faction_desc:0 "Georgy Malenkov heads a “pragmatic” faction opposed to Zhdanov’s policies, who favour science and engineering as conduits for moving the nation forwards. Malenkov stresses upon the universal values of science and engineering, and proposes to promote the technological experts to the highest positions in the Soviet administrative elite. Despite some opposition to his ideas, it seems Malenkov’s “pragmatic”approach offers considerably more benefits, and will most definitely allow for the maximum potential in the mobilisation of both material human resources."
+ 
+ SOV_Triumph_of_Zhdanovchina:0 "Triumph of Zhdanovchina"
+ SOV_Triumph_of_Zhdanovchina_desc:0 ""Zhdanovshchina", as advocated by Andrei Zhdanov, places high emphasis on a purified communist ideology, though many party members are receptive to his way of thinking and its tenets, some of the people from Malenkov’s “pragmatic” approach are opposed to it. Despite their consternations, Comrade Stalin has decided to adopt Zhdanov’s ideas. The General Secretary agrees with Zhdanov, in the belief that proper ideology trumps science and has called for the prioritization of political education and ideological purity. It is a general consensus in the VKP(b), and specifically in the mind of the General Secretary to go ahead with Zhdanov's ideas in their entirety."
+ 
+ SOV_Socialist_Science_The_Peoples_Vanguard:0 "Socialist Science, The Peoples Vanguard"
+ SOV_Socialist_Science_The_Peoples_Vanguard_desc:0 "Due to the inherent ability of the socialist cause to be more efficient and the innate brilliance of our populace, along with the contribution of Malenkov’s approaches have led to an increased productivity in terms of industrial production and technological innovations all around. Among the many tenets that have arisen out of our achievements is Socialist Science, essential meaning, by methods of understanding and predicting social, economic and material phenomena by examining their historical trends through the use of the scientific method we are deriving outcomes and future developments, all exceedingly in favour of and contributing towards societal development in the nation. No doubt the citizenry of the Soviet Union are extremely proud of these national achievements."
+ 
+ SOV_The_Bloody_Dwarf:0 "The Bloody Dwarf"
+ SOV_The_Bloody_Dwarf_desc:0 "Nikolai Yezhov, also known as the “Bloody Dwarf” has been a loyal supporter and participant in the purges happening in the country, he personally and admirably gathered “evidence” against the Kirov Murder Case conspirators. While Yagoda in his current role in heading the People’s Commissariat of Internal Affairs has recently shown hesitancy and leniency in carrying out the General Secretary's wishes, Yezhov with his ruthlessness has overseen more and more cases against the “fifth columnists”, and successfully brought justice to their crimes. It is time for the NKVD to go through some personnel changes, firstly among the changes, the circumstances call for the appointment of Yezhov to head the NKVD."
+ 
+ SOV_Stalins_Shooting_List:0 "Stalin's Shooting List"
+ SOV_Stalins_Shooting_List_desc:0 "It has finally happened, all the way from General Secretary Stalin himself, orders have been issued to the People’s Commissariat of Internal Affairs to begin its drive of purging the Soviet Society of the “fifth columnists”. Anti- Soviets, Trotskyites, Capitalists, wreckers, intellectual traitors, foreign spies, along with any and all actively working to subvert the socialist cause in any manner will be purged from the all spheres of life of the Soviet society. Doctors, Lawyers, even members of the party itself will be interrogated to verify their loyalties and will be used for gaining intel on other “fifth columnists”."
+ 
+ SOV_Stalins_Protege:0 "Stalin's Protege"
+ SOV_Stalins_Protege_desc:0 "Georgy Malenkov has been a longtime established member of the VKP(b), personally having formed a relationship with the father of the revolution- Vladimir Lenin himself during the early days of the Union, guaranteeing his rise and prominence in the party. General Secretary Stalin holds a very favourable opinion of him, he has shown himself to be a competent and effective organiser, participating in the recent purges with great zeal, confirming his motivation and political reliability. It is time his role was expanded, and accordingly the People’s Commissariat of Affairs will be placed under his disposal to better effectivise the ongoing purges. His appointment will aim to fix “some” of the issues that have occurred due to Yezhov’s rabid bloodletting, where in the past year or so he has caused considerable irreparable damage to the economic, political and military structures of the Soviet society."
+ 
+ SOV_The_Beria_Flight:0 "The Beria Flight"
+ SOV_The_Beria_Flight_desc:0 "In the latest wave of arrest order, an interesting name has come up, that of Lavrentiy Beria. Beria enjoy’s the General Secretary Stalin’s trust, having developed a relationship while working in the Transcaucasian region, and thwarting an assasination “attempt” on him, nevertheless he was effective, ruthless and very competent while leading the Georgian OGPU, dismantling Turkish and Iranian intelligence networks in the region, while building our own in them. It seems his dismissal will be a great loss, especially when we need ruthless and reliable men like him during these uncertain times. Only if he could present his case……."
+ 
+ SOV_Yezhovchina:0 "Yezhovchina"
+ SOV_Yezhovchina_desc:0 "Though sections of the society have been purged of several “fifth columnists”, many remain, continuing to spread their traitorous anti- socialist propaganda freely to poison the socialist spirit in the Soviet people. Nikolai Yezhov, heading the People’s Commissariat of Internal Affairs since Yagoda’s “dismissal” has been spearheading the purges to cleanse the Soviet society. It has slowly become evident that a more heavy handed approach is needed to better crack down on the “fifth columnists”, and accordingly Yezhov has been given the authority to step up his operations. The bloodletting will be stepped up, and this year will forever be remembered as “Yezhovshchina” , or the “Time of Yezhov”."
+ 
+ SOV_Molotov_Doctrine:0 "The Molotov Doctrine"
+ SOV_Molotov_Doctrine_desc:0 ""
+ 
+ SOV_The_Enemy_of_my_Enemy:0 "The Enemy of my Enemy"
+ SOV_The_Enemy_of_my_Enemy_desc:0 ""
+ 
+ SOV_Peaceful_Coexistance:0 "Peaceful Coexistance"
+ SOV_Peaceful_Coexistance_desc:0 ""
+ 
+ SOV_Direct_Rule_from_Moscow:0 "Direct Rule from Moscow"
+ SOV_Direct_Rule_from_Moscow_desc:0 "The Soviet Union is the home of the revolution, the only place where the socialist experiment was implemented, and that too with an overwhelming success. Consequentially our country needs to become the rallying point for socialist movements across the world, with Moscow as the guiding hand. In his latest address, these intentions were announced by General Secretary Stalin, with both members of the VKP(b) and foreign Communist Parties in attendance, all showing their appreciation and enthusiasm for the greater role the Soviet Union will play in the international socialist movements."
+ 
+ SOV_Contain_the_German_Threat:0 "Contain the German Threat"
+ SOV_Contain_the_German_Threat_desc:0 "Extremism has taken root in Germany, their leader Adolf Hitler speaks in an anti communist rhetoric, always portraying the socialist cause as absolute evil, he’s a rabid fanatical maniac who threatens the world order. While we may not necessarily share borders with Germany, the threat still stands, the possibility of a revanchist and militant Germany reborn is too big a danger that we cannot afford to ignore. No doubt that we aren’t the only ones threatened by Germany, we must begin earnest talks with the west to begin implementing policies and that too effectively in order to contain the German threat. Some view talking with the west as a betrayal of the socialist cause and contradictory in our goals to triumph in the class struggle, but most understand that the threat of a revived Germany will harms us the most, we all remember too well the destruction Germany and its allies caused in Eastern Europe and in our lands."
+ 
+ SOV_Trans_Siberian_Railway:0 "Trans-Siberian Railway"
+ SOV_Trans_Siberian_Railway_desc:0 "Perhaps one of the biggest logistical nightmares of a nation as big as ours is transportation between our western, industrial heartland, the vast Siberian wastes and into our ports in the Pacific ocean. Since the resounding success of the First Five-Year Plan, the People's Commissariat of Transportation has put forth a proposition to, rather than maintain our lifeline into the east as it is, expand our tracks in parallel and ensure that the people of the Soviet Union will no longer suffer from the bottlenecks in supply lines left by archaic, Tsarist designs."
+
+ SOV_Baku_Oilfields:0 "Baku Oilfields"
+ SOV_Baku_Oilfields_desc:0 "The city of Baku or ‘The City of Winds’ is the most heavily populated urban center in the Caspian Sea and Caucasus region. As well as acting as the central administrative point in the governing of the Azerbaijan Soviet Socialist Republic, the city is home to rich and plentiful oil fields. With the rapid economic and industrial development our nation is experiencing, it is vital that we secure a stable source of oil from within our own borders. With the expansion of the Baku oil fields, we enable ourselves to reap the benefits from an inexhaustible fountain of black gold."
+
+ SOV_Ural_Mining:0 "Ural Mining"
+ SOV_Ural_Mining_desc:0 "The Ural Mountains form the natural border between the continents of Asia and Europe. With the cultural heartland of Russia lying to the West and the barren, windswept steppes and forests of Siberia to the East, their rocky peaks lie undeveloped and harbour great potential for exploitation. In the strive for economic greatness, mining operations should be established within resource rich veins lying beneath the mountains."
+
+ SOV_PCDI:0 "PCDI"
+ SOV_PCDI_desc:0 "With the recent surge in technological advancement in the west, the state of the People's Commissariats has left much to be desired. The amount of work delegated to them is overwhelming, and any attempt at solving problems is dwarfed by our bureaucracy. The Presidium has called into motion a plan to create a single entity, bound to develop and produce warplanes, ships, weapons and ammunition for the defense of the Motherland. The People's Commissariat of Defence Industry of the USSR will bring us triumph over the enemies of the proletariat."
+
+ SOV_H_Bomb:0 "Sakharov's Bomb"
+ SOV_H_Bomb_desc:0 "Andrei Sakharov, one of our principal nuclear weapons scientists, has shown his skill and scientific ability to us before. After all, he was one of the key scientific advisers to Kurchatov and proved his renowned in the development of the first Soviet weaponized thermonuclear devices. Further development in the field of nuclear physics has meant we are coming ever closer to the first working design for a megaton-range Hydrogen bomb. The design, coined ‘Sakharov’s Third Idea’, produced rather disappointing results at first, but with further experimentation and adaptation, we can create nuclear weapons with a destructive capability unlike any other. The RDS-37 will be the first design for a Soviet Hydrogen bomb to be tested and marks a spearhead into the territory of boundless thermonuclear havoc."
+
+ SOV_Space_Program:0 "Semyorka"
+ SOV_Space_Program_desc:0 "Designed in the city of Korolyov, better known as the cradle of Soviet space exploration, the Semyorka R7 has proved to be a revolutionary new design in the race for increasingly advanced armaments. The R7 is 35-meter-high, rocket-propelled Inter-Continental Ballistic Missile (ICMB) and the first of its kind. With a range of 8000 kilometers and a maximum speed, 20 times that of the speed of sound, the projectile is able to be weaponized with a single thermonuclear warhead, and with time, the magnitude of this payload will inevitably increase. As well as the innovative genius of the new design being able to be put into combat use, the raw power of the engine, combined with the sleekness of the missile frame may be exactly the kind of technology needed to further our efforts in the space race. In particular, our Sputnik programs may be equipped with variants of the R-7."
+
+ SOV_MiG_Project:0 "Mikoyan's Projekt"
+ SOV_MiG_Project_desc:0 "Our first turbojet fighter was developed by the Mikoyan-Gurevich OKB and was called the MiG-9. Once again, we were forced to reverse-engineer the technology of others in order to improve our own planes, and we copied the German BMW 003 engines. Even with this shameful necessity, the MiG-9 was ineffective, suffering from weak, unreliable engines and control problems. Our aviation minister Mikhail Khrunichev and aircraft designer A. S. Yakovlev suggested we buy some of the far more advanced Rolls-Royce Nene engines for the purpose of copying them, which was met with skepticism. Our Premier even said, "What fool will sell us his secrets?" However, despite his doubts, the British allowed the license for them and the technical blueprints when we approached them on this matter. Soon, the engines were reverse-engineered and adapted for our needs and renamed the Klimov RD-45. With this new engine being produced, we assigned the project of using it to design a jet-powered interceptor to the Mikoyan-Gurevich OKB. We even supplied them with other foreign models to incorporate into the design. The result? An effective, fast interceptor to catch and destroy enemy bombers daring to bomb Soviet soil. 2 23 mm Nudelman-Rikhter NR-23 autocannons and a 37 mm Nudelman N-37 autocannon shred enemy planes and send them burning to the ground. Although it can't yet fly at Mach 1, since it lacks an all-flying tail, it can still outmaneuver our enemies well enough to be mass-produced. Soon, the MiG-15 will be certain proof that we are superior."
+
+ SOV_Tupolev_Project:0 "Tupolev's Projekt"
+ SOV_Tupolev_Project_desc:0 "We have been strongly committed to matching our capitalist enemies in the West in air power for quite some time now. However, despite Soviet superiority, we have been unable to catch up to, much less surpass, the imperialists. Our pride, the long-ranged Tu-4, is but a copy of the American B-29, and it shames our nation to be unable to develop our own, more efficient planes. However, we have recently created the notably powerful Mikulin AM-3 turbojet. This engine might allow us to create a sizable jet-powered bomber. This project has been once again assigned to the Tupolev OKB, which has never failed us before, not even in the struggles of reverse-engineering American bombers. After many months of arduous work, we have gotten results: the Tu-88 prototype has won a competition against the Il-46 and has been approved for production under the service designation Tu-16. Three turbojets power this monster, which can carry a single FAB-9000 9,000 kg bomb or several nuclear weapons. It also carries several Raduga-type anti-ship missiles, for attacks against the enemy navy, and can defend itself with 6 to 7 23 mm Afanasev Makarov AM-23 cannons. The Americans think their B-17 is a "Flying Fortress?" Obviously, they haven't seen Soviet bombers yet."
+
+ SOV_Lessons_of_War:0 "Lessons of War"
+ SOV_Lessons_of_War_desc:0 "Our experiences on the battlefield have shown that our tactics and doctrines are outdated and ineffective against the enemy. This also allows us to find new tactics, as the officers that have proven themselves in our wars have cooked up new ideas about the very nature of warfare. The devastation of our past wars still needs to be healed, but we can profit from what we have learned to outsmart our enemies the next time invaders set foot on Soviet soil."
+
+ SOV_Main_Battle_Tanks:0 "Main Battle Tanks"
+ SOV_Main_Battle_Tanks_desc:0 "The T-34 was once thought the pinnacle of Soviet ingenuity and design. It had the best balance of firepower, protection, mobility and cost for any tank of its time. But its time has passed. Technology forges ahead, and we cannot wait for progress to come on its own. Therefore, we have put substantial resources into the development of a new kind of armored vehicle, one never before seen on the battlefield. Our main battle tanks, the first of which will be called the T-54, will thunder through our enemies' defenses and spread the Soviet way by force if need be. These tanks will become the armor of the Soviet Union and all those under our influence, protecting against imperialism and capitalist ways. The T-54 should begin production as soon as possible."
+
+ SOV_BTR:0 "Bronetransportery"
+ SOV_BTR_desc:0 "During our previous wars, the regular Soviet infantryman lacked the speed and the protection of a regular tank, leaving them more vulnerable to enemy fire while prohibiting our generals to do complex formations. The addition of both factors meant that it took more time more men and in general, more supplies and dedication to secure smaller territories, this, in turn, slowed our general advance and inflicted upon us more casualties. As the general demographics in the Soviet Union are becoming more and more imbalanced due to our previous 'troubles' both in the Homefront and the multiple conflicts we faced abroad, we can not allow ourselves to sacrifice waves of young Soviet men anymore. That is why we have conceived a new type of armored vehicle, our brave engineers at Zavod simply called it the 'armored transporter' ... well ... although the name isn't inspiring, this armored vehicle will allow us to drop our troops directly on the battlefield and support them on the long term allowing us to limit casualties and seize any objectives at lighting speed!"
+
+ SOV_MVD:0 "MVD"
+ SOV_MVD_desc:0 ""
+
+ SOV_KGB:0 "KGB"
+ SOV_KGB_desc:0 "KGB"
+
+ SOV_Sturmovik:0 "Sturmovik"
+ SOV_Sturmovik_desc:0 "Our scientists and engineers had longed for the opportunity to create a ground-attack aircraft ever since, in the early 1930s, the Ukrainian Dmitry Pavlovich Grigorovich designed the TSh-1 and TSh-2 armored biplanes. However, we had always lacked the engines needed to provide these heavy fighters with sufficient performance. As soon as we developed these engines, we decided the first step to obtaining heavy fighters was to have them designed by the Central Design Bureau. Sergey Ilyushin and his skilled team of engineers have created the TsKB-55. We awarded it the VVS designation BSh-2, but our hopes were dashed - it underperformed in combat situations because of its weight, which was more than it could carry. Because of this, it was redesigned as the TsKB-57, a lighter single-seat design, which passed the Acceptance Trials and was baptized as the Il-2. This new heavy fighter has overcome the limitations of its predecessor and proved capable for actual combat missions. Its maximum speed of 414 km/h will allow it to dash past its competitors, and its range of 720 km will allow it to perform longer missions. With an armament of 2 × fixed forward-firing 23×152mm VYa-23 cannons that contain 150 rounds per gun, 2 × fixed forward-firing 7.62×54mmR ShKAS machine guns that contain 750 rounds per gun, 1 × manually aimed 12.7×108mm Berezin UBT machine gun in rear cockpit that contains 300 rounds, and up to 600 kg (1,320 lb) of bombs and 8 × RS-82 rockets 4 × RS-132 rockets, this fighter will be unchallenged in the sky."
+
+ SOV_Soviet_Airforce:0 "Soviet Airforce"
+ SOV_Soviet_Airforce_desc:0 "Although at the beginning of the Great Patriotic War, we had a weak and tiny airforce, as the war continued, we began to develop more planes like the MIG-3 and the MIG-5 or the Yakolev Yak-1 and the Yakolev Yak-9. These "flying machines" have become essential in the wars of the 20th century. We will continue evolving them, as the Soviet Air Force is not nearly as big as it should be. We will show the pathetic western powers the ideas of our Soviet engineers and the quality of our armed forces. We shall show them that we are not their little toys, we shall show them who the superpower of the earth is!"
+
+ SOV_Frontal_Aviation:0 "Frontal Aviation"
+ SOV_Frontal_Aviation_desc:0 "The purpose of aircraft in modern warfare is varied. Whilst our long-range bombers can pound and raze our opponents industrial and urban centers from high in the sky, it is also important that we develop new and innovative technologies regarding more close-range air missions. Investment in high-tech fighters and close air support planes will allow us to organize our combat operations in a more holistic manner. The increasing use and development of jets rather than the traditional propeller engines open the path to a new breed of potentially super-sonic fighter planes. The MiG-9 is a new and innovative design for the next generation of Soviet fighters, investment in these new technologies is vital."
+
+ SOV_Long_Range_Aviation:0 "Long Range Aviation"
+ SOV_Long_Range_Aviation_desc:0 "Our army high command has seen the need for a strategic bombing capability similar to that of the United States. We have already designed the four-engined Pe-8, but it has become obsolete compared to superior American bombers. Luckily, we have been able to capture several B-29s as they crashed in our territory following American raids on their enemies. The Tupolev OKB was assigned to cloning and reverse-engineering these models, and they have had success. However, difficulties have arisen; for example, the imperial system, which is rarely used, is employed to determine the thickness of its armor plating. Even if this issue seems easy to fix, converting the measurements into our superior metric system has proven troublesome. Despite these drawbacks, our TU-4 only weighs about 340 kg more than its American counterpart. With a maximum speed of 558 km/h at 10,250 m of height, 5,400 km of range, the ability to hold 6 x 1,000 kg bombs, and an offensive armament of 10 × 23 mm Nudelman-Suranov NS-23 aircraft cannons and 2 x KS-1 Komet standoff missiles, it is truly a technological marvel. These bombers will be able to strike deep into the enemy heartland and hit them where it hurts on the home front."
+
+ SOV_Soviet_Air_Defence_Forces:0 "Soviet Air Defence Forces"
+ SOV_Soviet_Air_Defence_Forces_desc:0 "Keeping our airspace safe is fundamental to having peace and prosperity in our country: the only problem is, we lack the resources to do it. Therefore, the time has come for us to establish a modernized and numerous air defense force, capable of fulfilling every defense task that it is given. We need to invest in the research of better interceptors and in the construction of Anti-Air guns in strategic locations, in order to be able to withstand any sort of enemy attack to our airspace."
+
+ SOV_Yakovlev_Fighters:0 "Yakovlev Fighters"
+ SOV_Yakovlev_Fighters_desc:0 "Formed in 1934 under the comrade Alexander Sergeyevich Yakovlev and codenamed Experimental Design Bureau-115 , the Yakovlev aircraft manufacturer is specialized in the design and production of high speed interceptors , something that could be vital in case of conflict , for if any enemy takes control of our airspace this could spell deep troubles and engender catastrophic results, as it means that our cities, factories, and infrastructures are exposed to bombardment that could and will weaken our capability to wage war . Something that the Soviet Union can not allow!"
+
+ SOV_Military_Reorganization:0 "Military Reorganization"
+ SOV_Military_Reorganization_desc:0 "The Great Purge has left the officer core of the Red Army in quite a state to say the least. Although ridding the military organisation of many of the NCOs and command staff may have been a necessary sacrifice, it certainly has proved a devastating blow in the fighting capabilities of our army. The power vacuum left by the absence of our old commanders, must be filled by a new generation of young, fresh and eager officers. The situation may look dire at its contemporary stage, but the overhaul of military staff will pave the way for a new and innovative generation of Soviet command staff. A full military reorganisation must take place if we wish to stand a hope in hell in the coming wars…"
+
+ SOV_Third_Year_Plan:0 "3rd Five Year Plan"
+ SOV_Third_Year_Plan_desc:0 "Given the success of our other plans, a third Five Year Plan is the obvious option. We need to focus on heavy industry and developing our natural resources if we are ever to triumph in the endless struggle against Capitalism. However, many paths lay before us. We need to either focus on armaments, in case of war or consumer goods, in order to create a worker's paradise. Another problem is that we can only choose to develop either our oil production in Baku or hunt for the valuable minerals that sit deep in the Ural Mountains. No matter what, our plans must go forward. Together, we will make the USSR a developed, self-sufficient power to rival the capitalist system."
+ SOV_Third_Year_Plan_tt:0 "§YUnlocks the 3rd Five Year Plan Focuses§!"
+ SOV_Finished_Second_FYP:0 "Has Completed §YThe Second Five Year Plan§!  Program"
+ SOV_Fourth_Year_Plan:0 "4th Five Year Plan"
+ SOV_Fourth_Year_Plan_desc:0 "Following the devastation caused by the war, our country is in a dire state. Experts have estimated our industrial levels to be less than half of their 1940 levels, but what has hit us the hardest, is the death up to 20 million Russian citizens. Truly, our country in its current state, is not to be envied, but the future is bright. Joseph Stalin, our guiding light in the dark times of the past, has promised that the combined industries of the SSRs will lead the global stage. A fourth five-year plan is necessary, especially considering the success of the previous initiatives, in order to achieve such an ambitious goal. What is for sure, though, the future of the world is the colour of glorious red."
+ SOV_Fourth_Year_Plan_tt:0 "§YUnlocks the 4th Five Year Plan Focuses§!"
+
+ SOV_Armaments_Concern:0 "Armaments Concern"
+ SOV_Armaments_Concern_desc:0 "The Red Army is an essential component of our great nation. Unfortunately, such an enormous Army has a high cost, which needs to be covered in order for it to work perfectly. That’s why we shall concentrate all our resources on building more military factories which will help us sustain our glorious war machine even in the more challenging times. Our enemies should tremble in front of our new Red Army!"
+
+ SOV_Consumer_Goods:0 "Consumer Goods"
+ SOV_Consumer_Goods_desc:0 "As apart of our rapid industrialization, Group A, or the heavy industry, has been focused on for too long. The General Secretary has come up with an outline for the new Soviet industry to focus on the people of the people of the union. With this new outline, we can contuine to follow the Soviet idea of "Peace, Land, and Bread.""
+
+ SOV_Palace_of_the_Soviets:0 "Palace of the Soviets"
+ SOV_Palace_of_the_Soviets_desc:0 "Whilst the undeniable truth of Soviet greatness remains firm within the knowledge of our political leaders, as well as in the forefront of the minds of the Russian people, we must show the world the power of the Communist ideology. We must endeavor upon grand feats of engineering and architecture, in order to display the global dominance of the nation-state, as well as the political will of its people. The palace of the Soviets, blue printed in neo-classical grandeur, was originally designed in 1931 by Boris Iofan and would stand at a formidable 495m. The construction of such an audacious project presents a prime opportunity to display the engineering prowess of our people as well as the relentless drive for progress burning in the hearts of the Soviet man."
+
+ SOV_Reconstruction_Effort:0 "Reconstruction Effort"
+ SOV_Reconstruction_Effort_desc:0 "Yes, men, you have been victorious against the enemy ! Even with the many battles you fought and the casualties you took, our precious flag is rising across all their cities! So let us celebrate what has been gained, and rebuild what has been lost, for these times are times of peace and prosperity, now Onward!"
+
+ SOV_Seek_Foreign_Aid:0 "Seek Foreign Aid"
+ SOV_Seek_Foreign_Aid_desc:0 ""
+
+ SOV_Comecon:0 "COMECON"
+ SOV_Comecon_desc:0 "The Council for Mutual Economic Assistance or, COMECON, is a potential organization to be established to assert more tight control on the economies of the Eastern Bloc nations, as well as various other communist governments around the world. By establishing such an organization, we will be able to keep our puppet nations in the palm of our hand and away from the greedy, commercialized maw of the Americans. Besides, the economies and infrastructure of Eastern Europe are in a dire state following the war, it should be our responsibility to help fellow Bolsheviks to achieve their full economic potential as well as recover from the scars left by Nazi Germany."
+ comecon_tech_share_group_name:0 "COMECON"
+
+ SOV_Transformation_of_Nature:0 "Transformation of Nature"
+ SOV_Transformation_of_Nature_desc:0 "Given the recent developments in our Union, it is hard not to notice the backward state Soviet agriculture has been left in, to the woe of our farmers. Because of this, The Secretary-General has proposed a series of projects, entitled the "Great Plan for the Transformation of Nature" wherein we shall make use of the vast swathe of territory in the steppes, creating a massive network of windbreaks, and thus protect our new crops. While this project operates, we shall institute the use of artificial ponds and improved irrigation, new power lines, and the correct usage of crops in determined terrain. These practices will ensure that no drought or war will again plague our people with another famine."
+
+ SOV_Breadbasket_of_the_Union:0 "Breadbasket of the Union"
+ SOV_Breadbasket_of_the_Union_desc:0 "Nicknamed "Breadbasket of the Soviet Union" the fertile steppes of the Ukrainian SSR which contains some of the world’s richest soil have been underperforming these years , mainly because of the series of unfortunate events that happened in the 1930's due the now long gone threat of the capitalist kulaks , now that the farms have been returned to the peasants and the land secured, it is time to once more invest in this region, for the Soviet Union needs bread!"
+
+ SOV_New_Constitution:0 "New Constitution"
+ SOV_New_Constitution_desc:0 "The time has come, comrades, to draft a new constitution for our great Union, portrayed as redesigning the government towards democracy. In this document, we will create a highly democratic society, while entrenching the power of the Communist Party, which will forever lead this nation. Liberals in the United States and other such countries will portray it as a hoax to solidify our Premier's Power. Listen not to their lies. This constitution will expand the rights and freedoms of every worker in our borders, and soon, every man who labours under the fist of capitalism will behold our perfect society and know the time is right to throw off the yoke of his oppressors. From now on, today will be celebrated as Constitution Day in the Union of Soviet Socialist Republics."
+
+ SOV_Stalin_Cult:0 "Stalin Cult"
+ SOV_Stalin_Cult_desc:0 "Comrade Stalin must be seen as an all-powerful, all-knowing leader who guides the Soviet people towards a modern world. Our journalism will refer to him as the Father of Nations, a parent to the people who shelter and aids them. The press takes upon itself the duty to show our citizens that our leader cares deeply about the plight of the people, that there exists a direct link between him and every common man. The love of the people must be directed away from the church and towards the Father of the Soviet people. He carries on the Bolshevik legacy, forging ahead on the same path Lenin first took. Therefore, none can stand in his way, since he is the only one who can create a perfect society for us."
+
+ SOV_Finish_Collectivization:0 "Finish Collectivization"
+ SOV_Finish_Collectivization_desc:0 "In order to create a higher food supply for the workers and farmers of our Union, we started collectivizing the farms of our nation as part of the first Five Year Plan. The plan was to consolidate individual land holdings into collective farms, or kolkhozy. Our leader also demanded the liquidation of the Kulak class, those who exploit fellow farmers. This seemed the perfect solution to the crisis of agricultural distribution. However, we have encountered some ... difficulties, but these are insignificant numbers compared to the obvious improvement in our society this provides. 90% of farms are collectivized so far. We must not slow the march of progress, so we will put even more effort into collectivization!"
+
+ SOV_Centralized_Economy:0 "Centralized Economy"
+ SOV_Centralized_Economy_desc:0 "Our economy must be regulated fiercely to prevent the ruthless exploitation of workers that can be easily spotted in those capitalist countries that call themselves "democratic." Centralising our economy may seem purely capitalist to one who does not understand. Our Soviet-type economic planning, or STP, involves centralized economic decisions taken by the government, administrative allocation of economic inputs by the Gossnab, material balances to reach equilibrium between available inputs and targeted outputs, and to some extent the use of linear optimization to optimize the plans. This will enable our economy to outpace the capitalists, no matter how hard they ride the oppressed within their borders, and create a true, communist economy."
+
+ SOV_Lenin_Cult:0 "Lenin Cult"
+ SOV_Lenin_Cult_desc:0 "Vladimir Ilyich Ulyanov, better known to the people as Lenin, created our nation single-handedly. No other leader should be compared to our founder, much less thought his equal. We must foster the people's love for him, and create a "Lenin Cult," which will encourage each and every citizen of the nation Lenin forged with blood and steel to admire and work towards the better future that Lenin sought for every worker of the world. We must not take away freedoms of the people to entrench our leadership; this is not what Lenin would have wanted. As Lenin once said, "When there is a state there can be no freedom, but when there is freedom there will be no state."
+
+ SOV_Positive_Heroism:0 "Positive Heroism"
+ SOV_Positive_Heroism_desc:0 "Rather than emphasizing the collective, our Premier has decided that we should focus on glorifying "Heroes of the Union." This will enable us to establish a goal for our Soviet children. This admiration can be directed towards our generals and others within the high command, which will make sure the next generation is war-minded and ready to serve. Needless to say, our generals will be happy their faces are on our posters..."
+
+ SOV_Progress_Cult:0 "Progress Cult"
+ SOV_Progress_Cult_desc:0 "The world is changing, and we need to do so as well. We cannot permit our great country to stand last in the race for new technologies and industrialization. By valorising our brilliant minds through honors and privileges, we can increase the amount of effort and dedication they put in their work. Of course, we shall take advantage of this new situation, for the good of the nation."
+
+ SOV_Collectivist_Propaganda:0 "Collectivist Propaganda"
+ SOV_Collectivist_Propaganda_desc:0 "Our main cultural value, shared by every free worker and farmer in our Union, is collectivism. We work as one; we work for all. We must put resources into propaganda to encourage this ideal among all citizens. This will convince them to give up personal comforts, which guarantees that we have a better budget for military and industrial research, and accept the government's policies without protest, which guarantees stability. The nation must work together for a better future for all of mankind. Every man must know that sacrificing his life for the good of the collective is the most honorable death."
+
+ SOV_Militarized_Schools:0 "Militarized Schools"
+ SOV_Militarized_Schools_desc:0 "The world is cruel and the enemies that live on it are ruthless, in case of war the poor children's of our braves workers, soldiers, and peasants of our beautiful Union would not be spared by our disgusting foes , so let us train them and show them the way of the warrior, for war is near and our enemies numerous."
+
+ SOV_Socialist_Science:0 "Socialist Science"
+ SOV_Socialist_Science_desc:0 "Our Soviet Science was birthed by the intellectuals who the Tsarists attempted to repress and who we welcomed with open arms. We surpass all others and stand at the forefront of science. Research and development is a national priority in our Union, for we must find new and better ways to free those crushed by capitalism. Our science is free from bourgeois politics and religious limitations. It surpasses all barriers and even at this moment, our well-funded, brave scientists are creating things the world could never imagine. Karl Marx once said, 'in the bourgeois world the pure light of science seems unable to shine but on the dark background of ignorance. We have remedied this and pushed forward past capitalism. Forward Science!'"
+
+ SOV_Return_to_NEP:0 "Return to NEP"
+ SOV_Return_to_NEP_desc:0 "Our founder, Vladimir Lenin, decided that, after the destruction of the Glorious Revolution and the subsequent Civil War, our economy needed time to recover and grow. Therefore, he created the New Economic Policy, in which he allowed a free market and capitalism, with both subject to state control. This was a state-controlled "mixed economy." Lenin understood that to achieve true socialism, one must first have capitalism to provide the base (which can later be removed.) Joseph Stalin abolished this policy in 1928. However, we have decided a return to the NEP is required, given the slow movement of our government away from authoritarianism, and it should be put in place soon. This will ensure no more of our people starve through sudden collectivization like what happened in 1932-33 in Ukraine. We move together towards a socialist future and, therefore, a slower change seems for the better."
+
+ SOV_Private_Commerce:0 "Private Commerce"
+ SOV_Private_Commerce_desc:0 "While we liberalize our regime, an interesting opportunity has presented itself. We could once again allow private commerce in our country, a capitalist element that has been banned since the Revolution. This may meet resistance from our more... extremist colleagues, but it will also grant financial leeway since we will be able to levy higher taxes. This seems to be the best course of action in the current de-Stalinization process."
+
+ SOV_Workers_Culture:0 "Stakhanovite Culture"
+ SOV_Workers_Culture_desc:0 "Although the founding ideas of our ideology embody the principles of equality and a collectivized struggle for progress, there is no reason why we cannot reward the individual for displays of exemplary work or behavior. Building on the idea of Socialist Emulation, we can develop a healthy culture of competition, between both the larger enterprises within the nation-state, but potentially more importantly, within the individual workers in our industries. The encouragement of the Stakhanovite movement, Soviet workers following the exemplar of Alexey Stakhanov, a Soviet miner and hero of the union, will increase the industrial capacity of our economy as our workers strive to produce more than what is required."
+
+ SOV_Dustbin_of_History:0 "Death of [From.GetLeader]"
+ SOV_Dustbin_of_History:0 "§RWIP§!"
+
+ SOV_Red_Guards:0 "Red Guards"
+ SOV_Red_Guards_desc:0 "The title of ‘Soviet Guard’ was awarded to only the most outstanding and distinguished combat units, following the introduction of the title following the Great Patriotic War, commencing in 1941. By establishing these elite rifle divisions, we can use their superior martial abilities to great strategic effect, as well as strike fear into the hearts of our enemies. These units will only be equipped with the latest and most sophisticated ordinance, and furthermore will solely comprise of the most courageous and skilled Russian warriors."
+
+ SOV_Strategic_Bombers:0 "Strategicheskiy Bombardirovshchik"
+ SOV_Strategic_Bombers_desc:0 "Comrades we are in a dire need of heavy bombers, although our air force is powerful enough to protect us, it lacks the tool to take the fight to the enemy , that is why we have approached one of our fellow comrade, the aeronautical engineer Vladimir Mikhailovich Petlyakov to conceive a four-engine long-range bomber named 'TB-7' the blueprint has already been conceived and the prototype is almost built, the only thing left is the green light."
+
+ SOV_Lavochkin_Fighters:0 "Lavochkin Fighters"
+ SOV_Lavochkin_Fighters_desc:0 "In case of any future wars having a cheap but capable dogfighter could prove essential for us , for it will allow us to achieve tactical and field superiority by providing us with air intel , but most importantly it will allow us to secure our airspace making impossible for our foes to have any type of air support while providing us with some . That is why we have chosen the Design Bureau-301 also known as Lavoshkin , headed by comrade designer Vladimir Gorbunov there cheap but impressive polyvalent fighters while allow us to reach those goal , and , secure victory from our enemies dead hands!"
+
+ SOV_Lavochkin_Fighters:0 "Lavochkin Fighters"
+ SOV_Lavochkin_Fighters_desc:0 "In case of any future wars having a cheap but capable dogfighter could prove essential for us , for it will allow us to achieve tactical and field superiority by providing us with air intel , but most importantly it will allow us to secure our airspace making impossible for our foes to have any type of air support while providing us with some . That is why we have chosen the Design Bureau-301 also known as Lavoshkin , headed by comrade designer Vladimir Gorbunov there cheap but impressive polyvalent fighters while allow us to reach those goal , and , secure victory from our enemies dead hands!"
+
+
+
+ SOV_Reaffirm_Role_of_The_Politburo:0 "Reaffirm Role of The Politburo"
+ SOV_Reaffirm_Role_of_The_Politburo_desc:0 "Today, the Union is at a turning point; will we stand as the bastion of communism, forever immortalized in the hearts of a grateful world? or will we be swept into the dustbin of history as our Western enemies wish? To answer this question, we will turn no further than the Politburo. As one of the oldest and greatest building blocks of our great Union, it has, ever since its birth in the forging in the fires of the Russian Revolution, served faithfully, ensuring strong, effective leadership in the many trials to come. We must assure and reaffirm its role in bringing the Union into a new, glorious age of supremacy."
+
+ SOV_Reduce_The_Power_of_The_Politburo:0 "Reduce The Power of The Politburo"
+ SOV_Reduce_The_Power_of_The_Politburo_desc:0 "It has become increasingly obvious to the higher powers of our nation that the Politburo has outlived its usefulness. Originally created to ensure strong leadership throughout the revolution, it has evolved undesirably into a bureaucratic, overreaching organisation that interferes too much with the efficient running of our nation. If we wish to truly bring the Union into the future and into dominance, we must sweep the past away. Nothing can stand in our way, not even such venerated institutions as the Politburo."
+ SOV_Reduce_The_Power_of_The_Politburo_tt:0 "The Power of the §RPolitburo§! will be hampered\nPolitburo & Orgburo Strenght: §RWeak§!"
+
+ SOV_Maintain_the_Litvinov_Protocol:0 "Maintain the Litvinov Protocol"
+ SOV_Maintain_the_Litvinov_Protocol_desc:0 "Maxim Litvinov, the current People’s Commissar for Foreign affairs has been heading his respective Commissariat for the past few years, favouring a moderate foreign policy, and more or less pursuing it as he sees fit, due to a lack of interest from the General Secretary and the rest of the Party Apparatus. He formulated the Litvinov Protocol, and in 1929 concluded it officially as a peace treaty of sorts with several notable signing countries. In recent times the Soviet Union has started a slow drift away from the ideological points of the protocol, it’s time that we reaffirm our obligations and continue to advance the socialist cause using “peaceful” methods."
+
+ SOV_Replace_Litvinov:0 "Replace Litvinov"
+ SOV_Replace_Litvinov_desc:0 "Litvinov in his position as the People’s Commissar of Foreign Affairs has been directing his respective Ministry for quite a few years, and has performed reasonably well in that position. He has favoured a moderate policy and emphasising diplomatic talks between countries to solve disputes and issues, and has more or less been free to do so, with minimal interference from other state institutions. But recent events in the world have caused the application of a more heavy handed foreign policy, and in such a circumstance, Litvinov’s softness is unsuitable. While he has performed admirably so far, it is time to replace Litvinov with another candidate."
+
+ SOV_XVII_Congress:0 "XVII Congress"
+ SOV_XVII_Congress_desc:0 "The 17th Congress is here, at a time when a paradigm shift is on the horizon for our glorious Union. In this congress, the Union will have to face various issues, from its bureaucracy, the socialist dream, the reactionary powers surrounding us, and most importantly, our leadership.\n\nThe Union is now on the road to power and industrial might, but many within the regime still adhere to the old concepts that Comrade Lenin and Trotsky adhere to. What's worse is that some are even more radical than our former comrades, and are ought to destroy the Union from within. Our power and might shall be tested, and for our Union's sake, it shall prevail!"
+
+ SOV_Stalin_Outmaneuvered:0 "Stalin Outmaneuvered"
+ SOV_Stalin_Outmaneuvered_desc:0 "Although comrade Stalin has been leading the revolution for 10 years lately his actions have shown a faltering faith in its ideals. It seems that if he is to continue his mandate he will inevitably lead us to ruin and to the betrayal of the revolution. Thankfully, through various blunders and slips on his part, he has rendered himself vulnerable to the honest and orthodox people of the party that still have the fire of 1917 burning within their breast. Within the party the seas have already started shifting, secret talk and hallway whispers have begun, the plan is being laid in motion and when the right moment comes we shall strike."
+
+ SOV_A_Second_Powerstruggle:0 "A Second Powerstruggle"
+ SOV_A_Second_Powerstruggle_desc:0 "The events during the 17th Congress is nothing more than an unparalleled disaster. Our Union is now more fragile than ever before, as the opposition to our power have suddenly gained unprecedented levels of power within the Party. We must brace ourselves, for we are entering a new chapter of Mother Russia's history. We are now at the calm...before the storm.\n\n"
+
+ SOV_The_Kirov_Assassination:0 "The Kirov Assassination"
+ SOV_The_Kirov_Assassination_desc:0 "Today is a tragic day, for one of the primary instigators of the revolution...is dead. A man by the name of Leonid Nikolayev was responsible for murdering a well known revolutionary. This piece of filth, this trash, has been dealt with in a manner that best suits him. Yet we have more pressing matters to attend to. If this could happen to a well known comrade, then it could happen with anyone! Members of the Politburo, Gosplan, and the party itself could be threatened by these malignancies! Who’s to say there aren’t thousands of them, or even tens of thousands of threats within the party itself! We need action...soon. What type of action you ask? Well, we’ll cross that bridge when we get there."
+
+ SOV_Denounce_The_Fascist_Plot:0 "Denounce the Fascist Plot"
+ SOV_Denounce_The_Fascist_Plot_desc:0 "The assassination of Kirov was carried out by Trotskyist plotters within our ranks. These plotters, despite their supposed commitment to Socialism, are in truth conspirators with the Fascist powers in undermining Socialism from within.  We must expose and confront these Fascist plotters wherever they hide!"
+
+ SOV_Get_Rid_of_Opposition:0 "Get Rid of Opposition"
+ SOV_Get_Rid_of_Opposition_desc:0 "This, Opposition, is causing more problems than the economy, at long last we shall rid the earth from their scourge and bring forth true Communism and finally make our country one not of sadness and famine but a country revered the world over. At long last, We can finally rid the earth of their stain and finally go to the future."
+
+ SOV_Rule_By_Force:0 "Rule by Force"
+ SOV_Rule_By_Force_desc:0 "To lead as large a country as the USSR is no easy task, not even for the most competent and educated of comrades of the Council of People's Commissars. Peoples of all backgrounds, young and old have their home in the great Union but to manage them all and to make sure they stay abiding by the teachings of Communism is a considerable challenge.\n\nWe must eliminate the bureaucracy and inefficient systems of the aged passed, we must silence those whom wish to subvert the revolution and crush any ambition they might have. To curtail and protect the revolution a system has to be put in place.\n\nIt is necessary to give maximum authority to the general secretary so that his guiding hand may not be obstructed by petty things such as individuals whom think they have the right idea of what Lenin's vision was."
+
+ SOV_Force_The_Politburo_to_Cooperate:0 "Force the Politburo to Cooperate"
+ SOV_Force_The_Politburo_to_Cooperate_desc:0 "Not everyone in the Politburo is supportive of our efforts to build Socialism within the Soviet Union through the path that we have taken.  The Left and Right Opposition, along with their sympathizers in the Politburo, both agitate for policies that would be detrimental to our nation while challenging Comrade Stalin's legitimacy as Lenin's rightful successor.  We should deal with these acts of treason by forcing the Politburo to cooperate with our policies, those that refuse will be exposed as the traitors that they really are."
+
+ SOV_Order_The_Execution_of_The_Opposition_Leaders:0 "Order the Execution of the Opposition Leaders"
+ SOV_Order_The_Execution_of_The_Opposition_Leaders_desc:0 "The opposition has been a thorn in our side and must be swept aside so that our true dreams of equality can take hold on mother Russia. The opposition have voted against measures we need and have been rallying the public against us, It is time to put the rabid dogs down and bring forth a new dawn for our great country."
+
+ SOV_Consolidate_Power:0 "Consolidate Power"
+ SOV_Consolidate_Power_desc:0 "The 17th Congress of the All-Union Communist Party has gone as planned; our glorious leader, Josef Stalin, has prevailed against his most prevalent political opponents and come out on top, with the formal opposition to his regime but a distant memory. With the main opponents gone, the true followers of the revolution can now enjoy sweet solitude and vast power, a power they can utilize to benefit the whole of the Soviet Union.\n\nHowever, now is not the time to be weeping for those allied to the revolution being lost, but a time to celebrate the victory of the people and of the Union! The people have prevailed and the people need strong leadership to stay stable, for, without the All-Union Communist Party, the people would be without direction, without meaning.\n\nWith the newfound political hegemony our General Secretary finds himself with, he is prepared to implement changes that will better those in and out of the Union, by peaceful means and other means."
+
+ SOV_The_Stalin_Constitution:0 "The Stalin Constitution"
+ SOV_The_Stalin_Constitution_desc:0 "Penned by a commission of 31, with General Secretary Stalin himself leading the group, a new constitution is to be passed. The constitution is an unprecedented step towards equality and personal freedoms for the citizens of the Union. It abolishes the “lishentsy” category of non voting people, adds universal direct suffrage, and guarantees the right to work. In addition, the Constitution also recognizes collective social and economic rights including the rights to rest and leisure, health protection, care in old age and sickness, housing, education and cultural benefits. In addition to the previous points, it also provided for the direct election of all government bodies and their reorganization into a single, uniform system. The constitution is not just a national achievement but a global one for the socialist cause."
+
+ SOV_Start_the_Great_Purge:0 "Start the Great Purge"
+ SOV_Start_the_Great_Purge_desc:0 "The Soviet Premier, Joseph Stalin, has initiated a repression of those enemies of the people who dare call themselves communists. He sees a future in which our glorious Union, the first bastion of communism in a capitalist world, may be under assault from outside forces, and the "Fifth Column" of wreckers, terrorists and spies might weaken us from inside. Therefore, this organization must be rooted out and destroyed, no matter the impact to our central command, before they can cause any more harm. We should also stage show trials for those Trotskyites and others who may wish to subvert the revolution. These operations will be carried out by the NKVD. However, Stalin has some doubts about the loyalties of its chief, Nikolai Yehzov..."
+
+ SOV_The_Leningrad_Circle:0 "The Leningrad Circle"
+ SOV_The_Leningrad_Circle_desc:0 "Stalin’s madness has gone on long enough, these bloody purges are destroying the very fabric of our country, in the interests of the socialist cause these atrocities must be stopped at once. The General Secretary in his bloodlust is refusing to listen to any sort of reason, a secret group of Red Army officers have begun voicing their concerns over the purges, and are allegedly led by the famed Marshal Tukhachevsky himself. Marshal Tukhachevsky, a keen reformer and theoretician in the Red Army commands the strategically important Leningrad Military District. His popular nature, the important command he heads, and his opposition to these “purges” coupled with his animosity with Stalin has made him a central figure for the Anti-Stalin members of the Red Army. In any case quick and decisive action will be needed to prevent further damage to the Union by Stalin’s maniacal tendencies."
+
+ SOV_Abandon_the_Third_Period:0 "Abandon the Third Period"
+ SOV_Abandon_the_Third_Period_desc:0 ""
+
+ SOV_Collective_Security:0 "Collective Security"
+ SOV_Collective_Security_desc:0 "It is has now become clear that in order to face the threat of Germany, we need allies to help us out. Our country has always been slow and behind economic and industrial development compared to the other Great Powers. And despite Germany’s current miserable state, it still possesses a considerable industrial base, which can be rapidly remilitarised and be turned into an effective and deadly war machine. The British, French and several other European countries, especially those sharing borders with us need to understand the necessity of collective security. Especially against such a menacing threat as that of Germany , and how it is necessary to promote regional stability and protection from unwarranted aggressions."
+
+ SOV_Peoples_Front_Theory:0 "People's Front Theory"
+ SOV_Peoples_Front_Theory_desc:0 "The idea of the People's Front daily finds an increasing number of adherents among all those who cherish democracy, freedom, and advocate peace among nations. The effort to form a People's Front is growing as well in countries where the bourgeois-democratic revolution has still by no means had its last say, for instance in Japan, where the fascist-feudal military clique, with its rapacious military adventures on Chinese territory, is thrusting the Japanese people into an abyss of most terrible calamities. And it is growing also in the so-called classic countries of bourgeois democracies. For so long those who seek to harm the socialist cause have successfully applied the well-known crafty motto - "divide and rule.", but the workers of our nation will persevere, and triumph in their struggle all over the world."
+
+ SOV_Reinforce_Third_Periodism:0 "Reinforce Third Periodism"
+ SOV_Reinforce_Third_Periodism_desc:0 "The Third Period is an ideological concept adopted by the Comintern at the Sixth World Congress, held in Moscow in the summer of 1928. The Congress saw a "First Period" that followed the Great War where there was a revolutionary upsurge and defeat of the working class, with a "Second Period" of capitalist consolidation for most of the decade of the 1920s. The current phase of world economy from 1928 onward, the so-called "Third Period," is and will be a time of widespread economic collapse and mass working class radicalisation and mobilisation. The economic and political chaos that will soon be upon the world will make it ripe for a revolution, with the communist parties around the world leading it. It is a time for preparation for the Socialist institutions throughout the world, who will need to strike at the correct moment, for our triumph in this struggle."
+
+ SOV_Ignore_the_Kellogg_Briand_Pact:0 "Ignore the Kellogg-Briand Pact"
+ SOV_Ignore_the_Kellogg_Briand_Pact_desc:0 "The Kellogg–Briand Pact (or Pact of Paris) was an international agreement in which signatory states promised not to use war to resolve "disputes or conflicts of whatever nature or of whatever origin they may be, which may arise among them". With our subsequent signing and implementation of Litvinov Protocol, we became de facto adherents to the pact. However, recent tensions rising throughout the globe have called for a reconsideration of foreign policy, to name a few- Japan’s aggressions in the East, and the rising extremism in Europe in the West all bear bad news for the nascent socialist movements in the regions. After thorough discussions at the top hierarchy of the VKP(b) it has been decided to wilfully ignore the Kellogg-Briand Pact and its articles. In this context, many members of the Presidium called it a classical western imperialistic imposition, and as a result this decision has been quite popular, especially among those who call for an increasing aggressive stance in spreading the Socialist cause."
+
+ SOV_Worldwide_Overlook:0 "Worldwide Overlook"
+ SOV_Worldwide_Overlook_desc:0 ""
+
+ SOV_Seventh_World_Congress_of_the_Comintern:0 "7th World Congress of the Comintern"
+ SOV_Seventh_World_Congress_of_the_Comintern_desc:0 "The 7th World Congress of the Communist International (Comintern) will soon begin in Moscow. It will be a multinational conference, and will be attended by numerous delegates and representatives of ruling and non-ruling communist parties from around the world and invited guests representing other political and organized labor organizations. There will be discussion on several important agendas, but perhaps the most crucial one that will be debated upon will be the future of the socialist movement and how it will interact with and in the current world order. It maybe that we should continue with Litvinov's policies and attitudes of peaceful coexistence and diplomacy, or as some others suggest, adopt a more aggressive stance, keeping in mind the recent global events that have transpired."
+
+ SOV_The_Litvinov_Doctrine:0 "The Litvinov Doctrine"
+ SOV_The_Litvinov_Doctrine_desc:0 "So far our foreign policy has more or less shaped by the attitudes of Maxim Litvinov, encouraging diplomatic talks and other peaceful manners of negotiation. Due to the very prudent nature of such attitudes or due to Litvinov's personal efforts, our international standing has more or less been maintained, while we even have amenable relations with a large part of the international order as a result of such policies. Consequentially we will strengthen our resolve to and encourage fellow socialist movements throughout the world to achieve Socialism through peaceful means, to maintain both legitimacy of the movement and the stability in the respective country."
+
+ SOV_New_Minister_New_Direction:0 "New Minister New Direction"
+ SOV_New_Minister_New_Direction_desc:0 ""
+
+ SOV_The_Moscow_Trials:0 "The Moscow Trials"
+ SOV_The_Moscow_Trials_desc:0 "What we all feared has happened, Anti Soviets, Counterrevolutionaries, Trotskyites and all manners of “fifth columnists” have been able to get into the top echelons of the VKP(b). All are actively conspiring together to engage in Anti Soviet activities and subvert the socialist cause from the inside of the party itself. The General Secretary - Comrade Stalin has been astonished as to the extent and prevalence these individuals have been able to reach to spread their filth, he has ordered the People’s Commissariat of Internal Affairs to begin holding trials, though merely a formality considering the “guilt” of these traitors has already been established."
+
+ SOV_NKVD_Primacy:0 "NKVD Primacy"
+ SOV_NKVD_Primacy_desc:0 "The danger of a Trotskyist plot in the Soviet Union must be avoided, at all costs. The purging of the accursed Red Army Officials and Communist Party members and the hard repression of saboteurs peasants is not enough. We need to have a stricter control on the population and on our Officials still in charge so that we can certify their loyalty. Because of this, special laws should be made, in order to give the NKVD, our secret police agency, more freedom to act. Not everybody will be happy for the consequences this will involve, but our Great Nation must be preserved form Trotsky’s evilness."
+
+ SOV_Rehabilitate_The_Red_Army:0 "Rehabilitate the Red Army"
+ SOV_Rehabilitate_The_Red_Army_desc:0 "While damaging to an extent, the purges were a necessary evil that had to be conducted to be able to preserve the integrity of the socialist cause in the nation. Among the various sections affected, the Red Army might have very well suffered the most, losing the majority of its senior commanders at all levels, division, corp, and all army level commands were thoroughly purged of traitorous personnel. Now comes the long drawn out process of rebuilding and rehabilitating the Red Army, to begin with, new politically reliable officers will be appointed and given commands, even a few of the personnel who were dismissed for minor infractions will be reinstated to aid in the rebuilding of the Red Army Officer Corps. The rehabilitation of the Red Army will be essential, for it to once again become capable of serving the Union."
+
+
+ #### Red Army stuff
+ SOV_Red_Army_Airforce:0 "The Red Army Airforce"
+ SOV_Red_Army_Airforce_desc:0 "Our enemies rain steel upon our helpless soldiers on the ground. Nothing stops them from achieving domination of the skies, since our air force is weak and helpless. It's time for this to change. Our enemies will learn to fear the sound of Soviet aircraft as they clean the skies of inferior airplanes. But it is not enough to have superiority in numbers or design. We must outsmart our opponents in the sky as we outmaneuver them on the ground."
+
+ SOV_Red_Army:0 "The Red Army"
+ SOV_Red_Army_desc:0 "Created after Lenin's October Revolution and made up of brave workers and peasants , the proud Red Army is the shield and sword of the mighty Soviet Union , although a capable and proven force , the multiple wars , limited conflicts , and clashes have proven that this apparatus needs to be updated once more if the people's union wants to survive the troubled times ahead and triumphs against the Capitalist and fascist menace."
+
+ SOV_Red_Fleet:0 "The Red Fleet"
+ SOV_Red_Fleet_desc:0 "'The Red Menace' ,  as our enemies call us, can attack from the land or the air. The only place our enemies have yet to fear us is the Sea. High Command has approved a considerable budget towards the expansion of our weak fleet. We have decided to spend this budget on developing each part of our navy at a time. However, we should also allocate funds to researching newer, better ships. We should also attempt to imitate the submarines that the Germans have developed. Soon, no imperialist sailor will be safe from our ships. We will liberate the oppressed workers, starting from the sea."
+
+ SOV_Aviation_Cult:0 "Aviation Cult"
+ SOV_Aviation_Cult_desc:0 ""
+
+ SOV_Solve_the_Shell_Hunger:0 "Solve the "Shell Hunger""
+ SOV_Solve_the_Shell_Hunger_desc:0 ""
+
+ SOV_BT_Cavalry_Tanks:0 "BT Cavalry Tanks"
+ SOV_BT_Cavalry_Tanks_desc:0 ""
+
+ SOV_Multi_Turreted_Tanks:0 "Multi-Turreted Tanks"
+ SOV_Multi_Turreted_Tanks_desc:0 ""
+
+ SOV_Peoples_Commissariat_of_Defense:0 "People's Commissariat of Defense"
+ SOV_Peoples_Commissariat_of_Defense_desc:0 ""
+
+ SOV_Baltic_Fleet:0 "Baltic Fleet"
+ SOV_Baltic_Fleet:0 "During the glorious revolution in which we overthrew the Tsars, we counted among our most ardent supporters the brave sailors in the Baltic Fleet. Now that our power has been firmly established, it seems we should look towards modernizing this fleet. We should put resources into updating the tsarist warships that still rest in Leningrad's ports. This fleet is one of the most important in our navy, and therefore, we must not neglect it."
+ SOV_Baltic_Fleet_tt:0 "§YNew Facilities will be built for the Baltic Sea Flot§!"
+
+ SOV_Black_Fleet:0 "Black Sea Fleet"
+ SOV_Black_Fleet_desc:0 "During our Civil War, we were forced to scuttle the majority of our once proud Black Sea Fleet. Now, we should begin a large-scale reconstruction in an effort to restore this crucial part of our navy to its former glory. We should also build new dockyards in the Crimea and expand our Sevastopol Port. Resources will also be directed towards developing cruisers and other capital ships so, should the need arise, we can break through the Bosporus Strait into the Mediterranean."
+ SOV_Black_Fleet_tt:0 "§YNew Facilities will be built in the Black Sea§!"
+
+ SOV_Northern_Fleet:0 "Northern Fleet"
+ SOV_Northern_Fleet_desc:0 "The descendant of the Arctic Ocean Flotilla from the tsarist era, our Northern Flotilla is weak and unable to contest enemy forces. The naval command has decided to put more resources into it so that we may be able to protect our shipping to and from the Murmansk port. We will develop this port and attempt to create better models of our antiquated ships so they may cut through the ice of the Arctic towards our enemies. Soon, it will grow to outmatch the poor fleets of the Scandinavian Nations and might enable us to pursue expansion there..."
+ SOV_Northern_Fleet_tt:0 "§YNew Facilities will be built for the Northern Sea Flot§!"
+
+ SOV_Pacific_Fleet:0 "Pacific Fleet"
+ SOV_Pacific_Fleet_desc:0 "Worried about the constant border incursions across Manchuria and the looming threat of Japanese Imperialism, we had established a Pacific fleet on 13 April 1932. It is currently small, weak, and unable to contest the Rising Sun. Therefore, more resources have been allocated to M. Viktorov, the commander of this fleet. We will start constructions in the Transamur area immediately, and we will develop the Vladivostok port to outmatch even the ports of Tokyo. Soon, none will be able to challenge our hold on the Pacific."
+ SOV_Pacific_Fleet_tt:0 "§YNew Facilities will be built for the Pacific Flot§!"
+
+ SOV_Naval_Infantry:0 "Morskaya Pekhota"
+ SOV_Naval_Infantry_desc:0 "Our brave Marines have defended our homeland for centuries. During the Napoleonic Wars, our naval infantry defended our West. During the Russo-Japanese War, they defended our East. During the Crimean War, they defended the South. More resources should be spent for these brave men. New tactics should be developed so they can fight better. New equipment should be research so they can fight harder. Our budget more then compensates for this project, so let's use it to make sure our Morskaya Pekhota get what they need."
+
+ SOV_Reorganize_the_Red_Army:0 "Reorganize the Red Army"
+ SOV_Reorganize_the_Red_Army_desc:0 ""
+
+ SOV_Defense_in_Depth:0 "Defense in Depth"
+ SOV_Defense_in_Depth_desc:0 ""
+
+ SOV_Tupovlev_SB:0 "Tupovlev SB Bombers"
+ SOV_Tupovlev_SB_desc:0 ""
+
+ SOV_Transpolar_Flight:0 "Transpolar Flight"
+ SOV_Transpolar_Flight_desc:0 "The Arctic circle, skirting the Northern coast of Russia is an impenetrable wilderness of wind and ice, a true symbol of the omnipotent force of mother nature. Perhaps, this needs no longer be the case… Soviet ingenuity has led to daring new missions in which brave pioneers are venturing into the unknown once more, as previous generations did in the 17th century with the conquest of Siberia. One of these pioneers, the pilot Valery Chkalov, will embark on a non-stop transpolar flight, from Moscow to Washington state. If successful, this flight marks the beginning of a new age in Soviet aviation and paves the way for future aeronautical accomplishments. It would also present a fine opportunity for propaganda."
+ SOV_Transpolar_Flight_tt:0 "§YWe will send an ANT-25 in a mission to Washington  State, US§!"
+
+ SOV_Pacific_Military_School:0 "Pacific Military School"
+ SOV_Pacific_Military_School_desc:0 "Our Pacific navy and army employs people from across the Soviet Union. Most of them aren't accommodated to the conditions and the tactics employed in this region. As so, it's damaging our armed force's efficiency and organization. As tension gets higher between us and the Japanese imperialists and as the capitalist United States expands their influence in Asia, this position of unpreparedness is intolerable. Therefore, the high command has ordered the founding of a dedicated Pacific military school in Vladivostok."
+
+ SOV_Mass_Mobilization:0 "Mass Mobilization"
+ SOV_Mass_Mobilization_desc:0 "With the massive shortages of equipment in our armies and the fact that we stand alone in the world's politics , we can not allow ourselves to wait time on dreams and hopes of 'future economic development' and 'combined arms' . Instead let us use the reliable and proven methods of our Comrade brother Mao and his People's Liberation Army who used simple peasants to beat regular army units time and time again , saving the revolution in his country . So let us train our brave citizens and organize them into militias and let us build more railroads ! So that in case of sudden conflict the proud Soviet bear will always have sharpened teethes. "
+
+ SOV_Peoples_Army:0 "People's Army"
+ SOV_Peoples_Army_desc:0 "Grand battleplans, in the end, are never followed: therefore, they are useless. Mechanised and armored divisions are too expensive to be produced in mass scale and just some of them are perfectly equipped and ready-to-fight: therefore, they are useless. In one way or another, it comes up that men are our main resource and therefore that men shall be our army’s main pillar. We need to officialize this new mindset by renaming the “Red Army” into the “People’s Army” so that everybody could see that our men are what is leading us to victory!"
+
+ SOV_Bronetransporter:0 "Bronetransporter"
+ SOV_Bronetransporter_desc:0 "Under the command of the Stavka's strategic reserve, a new artillery pieces is now in use. Nicknamed "Stalin's Sledgehammer" by our trembling enemies, its 203 mm shells will destroy our enemies' fortifications easily, crushing bunkers where our enemies cower in fear. No longer will concrete walls or hastily built barriers slow our army's inexorable march. Forward, comrades!"
+
+ SOV_NKVD_Internal_Troops:0 "NKVD Internal Troops"
+ SOV_NKVD_Internal_Troops_desc:0 "The recent successes of the NKVD’s raids on potential traitors have pushed the Agency’s executive, Nikolai Yezhov, to ask for a meeting with Stalin himself. In this encounter, Yezhov showed Stalin how the creation of some Divisions directly dependent on the NKVD would benefit and help the process of preventing the fulfillment of any external or internal plot. Although the creation of Army Divisions independent from our Military High Command is extremely risky, the security and stability that this action will bring in our country are much greater."
+
+ SOV_SMERSH:0 "SMERSH"
+ SOV_SMERSH_desc:0 "The Premier has decided to create an umbrella organization called SMERSH, or "Death to Spies", for three independent counter-intelligence agencies within our army. It will have many important duties during wartime, and therefore must be staffed with exceptional men. It will subvert terrorism, root out enemy spies, fight anti-Soviet action in the military, and investigate traitors to our glorious cause. This organization will be given free hand to carry out whatever actions it sees fit. This will ensure our security within the Union as we continue the struggle against imperialism outside it."
+
+ SOV_Gulag_Based_Economic_Programs:0 "Gulag Based Economic Programs"
+ SOV_Gulag_Based_Economic_Programs_desc:0 "While in our drive to weed out counter revolutionaries in the Union has been with results, now the question arises, as to what the fate should be- that of the thousands of politically unreliable individuals now in our custody. To engage these prisoners in productive work for our glorious Union, it has been decided to expand the Main Directorate of Camps (GULAG or ГУЛАГ) under the People’s Commissariat of Internal Affairs, and begin employing the prisoners in hard labour for their reformation and for the economical gain of the nation, where they will be employed in construction, agricultural and industrial activities."
+
+ SOV_Closed_Cities:0 "Closed Cities"
+ SOV_Closed_Cities_desc:0 "With the establishment of ‘Closed Cities’, specific communities and urban centres that will have visitation restrictions imposed upon them, we can greatly increase our research potential. The secretive nature of these stations enables us to conduct our confidential scientific endeavours in a state of greater security and privacy. We should establish an intricate network of Closed Cities. This would give the Soviet scientists greater freedom to conduct large scale experiments on experimental new projects. These could prove especially useful in the weaponization of nuclear energy…"
+
+ SOV_A_Bomb:0 "Kurchatov's Bomb"
+ SOV_A_Bomb_desc:0 "Ever since splitting the atom became feasible, we have noticed a concerning lack of publishing on that topic in the Western countries. This may mean they are researching possible applications of this science and have found enough that they are not keen to let the rest of the world know. Georgii Flerov has addressed a secret leader to (get leader name) on this topic, and it has convinced the Premier to devote additional resources to it. He has also chosen Igor Kurchatov, a scientist at the Soviet Academy of Sciences who is known for his experience in nuclear physics, to develop whatever comes of his research. Perhaps it may yield weapons to fight capitalism, but only time will tell."
+
+ SOV_Red_Rockets:0 "Red Rockets' Glare"
+ SOV_Red_Rockets_desc:0 "Although the advent of the rocket engine initially came from German minds, this does not mean that we cannot learn from this technology ourselves. The use of rocket engines offers a whole new range of possibilities, in terms of their use in for strategic bomber operations, as well as a potential delivery method for a nuclear payload. Furthermore, rocket engines can be used for civilian and scientific purposes, as aviation techniques modernize, humanity is becoming closer and closer to pushing our limits beyond our atmosphere. Time will tell what we can make use of this technology. Needless to say, investment into the research of these new engines is crucial to our scientific advancement, let the Red Rocket’s Glare light up the world!"
+
+ SOV_Develop_Aeroflot:0 "Develop Aeroflot"
+ SOV_Develop_Aeroflot_desc:0 "As a great nation, we need to instill greatness in every aspect of our society, even the ones which might seem secondary. For example, our national planes company, the Aeroflot, is lacking a lot of basic infrastructures and even planes to be able to do its work properly. By greatly investing in the development of the company, our international prestige would increase by no means; also, some of the equipment produced for the company and the new airports across the country could be used with military purposes."
+ SOV_Develop_Aeroflot_tt:0 "§YAeroflot transport planes will be available§!"
+
+ SOV_VDV:0 "VDV"
+ SOV_VDV_desc:0 "It is no secret that the Union has, for a long time, had interest in conducting wide-scale airborne operations. During recent developments, staff within the STAVKA have demonstrated the adaptability of such airborne units, and their suitability not only in operations behind enemy lines but acting as support riflemen alongside greater offensives. Our counselors have pointed out the advantage of having such mobile units as both infiltration and support units would be invaluable, and that conversion of divisions into Airborne Corps should start immediately."
+
+ SOV_OKB:0 "Experimental Design Bureaus"
+ SOV_OKB_desc:0 "We should establish the OKBs, or Experimental Design Bureaus, in order to focus research efforts on certain technologies with military applications. The first of these will be headed by Sergei Korolev and will focus on our space program and rocket technology. These will allow us to fund additional research in ares of science that interest us most and advance our military capabilities. One day, perhaps these OKBs will yield technology beyond our dreams."
+ SOV_OKB_tt:0 "§YUnlocks Air Companies§!"
+
+ SOV_Frontline_Aviation:0 "Frontline Aviation"
+ SOV_Frontline_Aviation_desc:0 ""
+
+ SOV_Kiev_Maneuvers:0 "Big Kiev Maneuvers"
+ SOV_Kiev_Maneuvers_desc:0 ""
+
+ SOV_Guard_Units:0 "Guard Units"
+ SOV_Guard_Units_desc:0 "The title of ‘Soviet Guard’ was awarded to only the most outstanding and distinguished combat units, following the introduction of the title following the Great Patriotic War, commencing in 1941. By establishing these elite rifle divisions, we can use their superior martial abilities to great strategic effect, as well as strike fear into the hearts of our enemies. These units will only be equipped with the latest and most sophisticated ordinance, and furthermore will solely comprise the most courageous and skilled Russian warriors."
+
+ SOV_Main_Battle_Tanks:0 "Main Battle Tanks"
+ SOV_Main_Battle_Tanks_desc:0 "The Great War showed the world how effective psychological warfare can be and what devastating effects it could have on the morale of the enemy’s troops. The RNII (or maybe Our military research teams, more explicit) recently developed the BM-13 Katyusha Rocket Launcher, shortly after nicknamed “Stalin’s Organ", the first of our new generation of rocket artillery weapons. Some might say the weapon is too inaccurate and weak, but its cheapness and its devastating psychological effect might be just what we are looking for."
+
+ SOV_Mass_Mechanization:0 "Mass Mechanization"
+ SOV_Mass_Mechanization_desc:0 "Our predecessors were the first in the world to accept armored cars for service. However, even today, our enemy races towards us in tanks and cars while our military trudges through the snow. This is a problem that cripples our military effectiveness, and we can no longer depend on numbers to triumph in the changing landscape of modern warfare. Our military leadership offers a solution: a campaign to fully equip our army with the latest vehicles to ferry them to and from the battlefield. It will tax our resources and sap our budget, but it will ensure our troops can't be outmaneuvered and trapped in a pocket. Now, that would be bad."
+
+ SOV_Koshkins_Tank_Design:0 "Koshkin's Tank Design"
+ SOV_Koshkins_Tank_Design_desc:0 "As technological advancements are made, the nature of modern warfare is changing. The tank was originally developed in the Great War by the British and turned out to be crucial to defeating the Germans. To keep up with the times we must develop our own tank programs but potentially the developments can be made with a slightly more ‘Soviet’ touch. Our recent industrial expansion has left us with a monstrous capacity to produce these armored war machines. Maybe our efforts against the Germans may be better spent in the mobilization of an unstoppable wave of T-34s or potentially we should focus our time on the development of a smaller number of heavy tanks. Nevertheless, our tanks shall go onwards towards Berlin!"
+
+ SOV_Deep_Battle_Plan:0 "Deep Battle Plan"
+ SOV_Deep_Battle_Plan_desc:0 ""
+
+ SOV_STAVKA:0 "STAVKA"
+ SOV_STAVKA_desc:0 "During the First Imperialist War, our predecessors, the despicable Tsars, called their central command, headed by the hated Tsar Nicholas II, the Stavka, named after the tents they resided in. In order to perfect this, our Premier (leader name) has signed a top secret decree to reestablish this institution as a method of creating a rigid command structure after the necessary purges of the military. This will improve our overall coordination between the Supreme Main Command and each individual soldier defending our borders against imperialism."
+
+ SOV_Human_Wave_Tactics:0 "Human Wave Tactics"
+ SOV_Human_Wave_Tactics_desc:0 "We can no longer afford to equip every soldier with weapons and equipment. As war drags on, the Stavka has decided to employ a method that our enemies may call barbaric, but that we know is necessary. We have become forced to use a technique known as the human wave. The Japanese employed it on our artillery during the Siege of Port Arthur, to disastrous results and immense loss of life. We now adopt the same method, however horrible it may be. This will allow us to overwhelm our enemies with sheer numbers, for many reside within the Union who are brave enough to sacrifice their lives for the revolution."
+
+ SOV_Sevastopol_Krepost:0 "Sevastopol Krepost"
+ SOV_Sevastopol_Krepost_desc:0 "The great city of Sevastopol was founded in June 1783 as a base for a naval squadron. Now, it is so much more. It is our hand, reaching through the Black Sea into the Mediterranean. Therefore, we must make sure it never falls into enemy hands. We must start a program of extensive fortification along its coast and in the city itself. This incredible city should never fall to enemy hands."
+ SOV_Sevastopol_Krepost_tt:0 "§YThe Port City of Sevastopol will be heavily fortified§!"
+
+ SOV_Naval_Bombers:0 "Morskoy Bombardirovshchik"
+ SOV_Naval_Bombers_desc:0 "Our Naval Airforce covers the ocean skies from Murmansk to Sevastopol, yet it is outmatched by our opponents. It has begun to grow, but slowly. As the importance of naval aviation grows, we must not neglect this instrumental part of our military. We begun developing bombers that will be able to strike our enemies' ships from the sky, where they will least expect it. More funding should be put into this project."
+
+ SOV_Women_in_Aviation:0 "Women in Aviation"
+ SOV_Women_in_Aviation_desc:0 ""
+
+ SOV_Tukhachevskys_Reformists:0 "Tukhachevsky's Reformists"
+ SOV_Tukhachevskys_Reformists_desc:0 ""
+
+ SOV_Voroshilovs_Old_Guard:0 "Voroshilov's Old Guard"
+ SOV_Voroshilovs_Old_Guard_desc:0 ""
+
+ SOV_Deep_Operations:0 "Deep Operations"
+ SOV_Deep_Operations_desc:0 ""
+
+ SOV_Massive_Partisan_Effort:0 "Massive Partisan Effort"
+ SOV_Massive_Partisan_Effort_desc:0 ""
+
+ SOV_Shock_Army:0 "Shock Army"
+ SOV_Shock_Army_desc:0 ""
+
+ SOV_Long_Range_Aviation:0 "Long Range Aviation"
+ SOV_Long_Range_Aviation_desc:0 ""
+
+ SOV_Guerrilla_Warfare:0 "Guerrilla Warfare"
+ SOV_Guerrilla_Warfare_desc:0 ""
+
+ SOV_Continuous_Offensives:0 "Continuous Offensives"
+ SOV_Continuous_Offensives_desc:0 ""
+
+ SOV_The_Second_Five_Year_Plan:0 "The Second Five Year Plan"
+ SOV_The_Second_Five_Year_Plan_desc:0 "The industrial might that our grand union can muster certainly knows no bounds. And with the rising tension in Europe and the Far East, it is imperative that we utilize a second Five Year Plan. After all, we saw the immense success of our previous Five Year Plan; albeit, with some difficulties regarding our methods. However, these supposed mistakes will not be repeated, and the successes of the previous plan will only be increased. Our main objective for this Five Year Plan is to continue the mass mechanization we have been experiencing over the past few years. We will also see to the empowerment of our dear workers, who toil the collective farmland with such rigor, and their families, who provide the children to continue the revolutionary cause.\n\nWe will see our glorious Union achieve industrial, agricultural, and cultural success to rival and even surpass that of the dreaded Germans."
+
+ SOV_The_Third_Five_Year_Plan:0 "The Third Five Year Plan"
+ SOV_The_Third_Five_Year_Plan_desc:0 "Our First and Second Five Year Plans have been nothing more than revolutionary. In just 10 years, we have turned Russia from a pariah state to an emerging economic powerhouse, able to finally uplift and emancipate all the citizens of this nation, with no one left behind compared to the Tsars who ruled the lands for hundreds of years, with development nothing short of stagnant.\n\nHowever, while we have risen faster than ever before, we should not stop, but move forward. We shall embark on a new Five Year Plan, one dedicated to rapid industrialization, efficient use of the Caucasus and most importantly, the establishment of a military industry, Russification of all ethnic minorities in Russia, and the establishment of a “New Foreign Policy” one based on a global Soviet image. The future looks bright for the motherland, but should we tread carelessly, our plans reduce to rubble."
+
+ SOV_Halt_The_Third_Five_Year_Plan:0 "Halt The Third Five Year Plan"
+ SOV_Halt_The_Third_Five_Year_Plan_desc:0 ""
+
+ SOV_Consolidate_Consumer_Production:0 "Consolidate Consumer Production"
+ SOV_Consolidate_Consumer_Production_desc:0 "To further increase the wellbeing of every Soviet Citizens it is most imperative, that every worker and factory manager will work with renewed vigour and enthusiasm, to meet the production quotas for consumer good, set by Comrade Stalin in his third five year plan. These new tractors, radios, cars, etc. will be one of the pillars of the new Communist Utopia, which will finally be able to disperse the ridiculous notion, that the decadent Capitalist countries have a “higher standard of living“, while also showing to the world that the Soviet Union is the only state that truly cares about the wellbeing of its citizens. And the fact, that these Consumer Goods will earn us a quite a bit of money, which can be invested in the armaments industry, is pretty nice too."
+
+ SOV_Promote_Kolkoz_Farms:0 "Promote Kolkoz Farms"
+ SOV_Promote_Kolkoz_Farms_desc:0 ""
+
+ SOV_Focalize_on_Sovkhov_Farms:0 "Focalize on Sovkhov Farms"
+ SOV_Focalize_on_Sovkhov_Farms_desc:0 ""
+
+ SOV_Pragmatic_Command_Economy:0 "Pragmatic Command Economy"
+ SOV_Pragmatic_Command_Economy_desc:0 "The free market is a system that has been failing, we need a change in our economics. We shall implement the Command Economy, instead of the free market we will decide which goods are going to be produced and which goods are not going to be produced. This will ensure the things we need are there to be used and we can finally start being competent with the German economy."
+
+ SOV_Establish_Central_Asian_Estates:0 "Establish Central Asian Estates"
+ SOV_Establish_Central_Asian_Estates_desc:0 ""
+
+ SOV_Innovate_Agricultural_Methods:0 "Innovate Agricultural Methods"
+ SOV_Innovate_Agricultural_Methods_desc:0 "As we go deeper into reforming our agricultural sector, we must think of the future. Currently, our emphasis has been to merely expand the land used to plow our crops, to farm our produce, etc etc. However, simply zoning fertile land for agricultural purposes is far from enough. Science has shown great potential in all fields, and agriculture is no exception.\n\nRecently, our great scientists have been drawing up key designs for the mechanization of our agriculture industry, from tractors to irrigation methods, that are expected to increase our agricultural output three-fold, using merely half of the land that we currently use to feed our starving comrades. We should invest heavily into these emerging technologies, as they shall be our lifeline lest the Germans were able to push us back towards the Urals."
+
+ SOV_Renew_Military_Production:0 "Renew Military Production"
+ SOV_Renew_Military_Production_desc:0 "It is obvious that Socialism in the Soviet Union is surrounded by enemies on all sides, whether they be the decadent Capitalists and Fascists in the west or the Imperialist Japan and the United States in the east, the Union is cornered in by reactionaries on all sides. To further the negate the fact that Capitalism and Fascism are mobilising right as we speak for its last desperate attempt to defeat the Revolution, it is most important to Comrade Stalin that we are prepared to match the militaries of almost the entire world united against us. This will require of us that we will renew our efforts in the military industries, to finally show the World that the Will of the Workers is armed to the teeth and determined to defend every inch of the motherland!"
+
+ SOV_Renew_Anti_Capitalist_Sentiment:0 "Renew Anti-Capitalist Sentiment"
+ SOV_Renew_Anti_Capitalist_Sentiment_desc:0 "According to the local officials and our agents in the NKVD, the sentiment for Anti-Capitalism is faltering, due to the so-called “harsh conditions of the Union”, which is prompting many of the impoverished sectors of our society to turn to the dreadful economic system of Capitalism. The people unfortunately have such a poor memory, for Capitalism brought nothing but oppression and humiliation to our society. The people may live in harsh conditions, but subscribing to Capitalism is the worst option out of all options.\n\nWe must jumpstart the feverous Anti-Capitalist sentiment that brought down the Capitalists who ruled this nation with an iron fist, and promote popular support to our regime, ensuring stability in the Union, a precursor to economic development."
+
+ SOV_Liquidate_The_Church:0 "Liquidate The Church"
+ SOV_Liquidate_The_Church_desc:0 "The Church has long been the revolution’s greatest adversary. As highlighted in the “Pyramid of the Capitalist System”, the Church stands as the propaganda arm of Capitalists, who utilize religion as a means to exert influence towards the people, eventually “fooling” them to bend to their wishes. In the Union, the Church here is no exception. They have influenced almost every sector of society, from the lowliest of the masses, to the inner circles of the revolution. They are a roadblock to a secular society, one wherein policy and society are no longer influenced by reactionary concepts. As such, we must purge the religious sect of society, by liquidating their assets and evicting them from our territories. We must progress, not regress."
+
+ SOV_Design_Contemporary_Equipment_Standards:0 "Design Contemporary Equipment Standards"
+ SOV_Design_Contemporary_Equipment_Standards_desc:0 "To keep up with other European powers in terms of advanced equipment for our army, we must focus most of our research on new, more reliable, and accurate models for better use in the field. To achieve this we must withdraw resources from other areas, most notably by mass producing the equipment with no time to change flaws, making reliability a contentious issue especially should the enemy find us when our weapons are jammed. However, these steps are necessary to keep up with powers like France, the Reich, Italy and Britain. Of course, over time we would be able to gain our original efficiency back, but that would take a while. In the meantime, we shall strive to be a modernised and elite army, with the intelligent and cunning generals we have as of now."
+
+ SOV_Envision_New_Military_Complexes:0 "Envision New Military Complexes"
+ SOV_Envision_New_Military_Complexes_desc:0 "To properly train the Red Army in ways to defend the Rosina whilst being able to accomplish offensive manoeuvres, we should rebuild the old Moscow military complex from the old days of the Tsar. This facility shall have top notch equipment, and shall be used to train our young soldiers in modern infantry tactics, cooperation with the Red Air Force, and breakthrough operations with the mechanised corps.\n\nGenerals Zhukov, Rokossovsky and Shaposhnikov aren’t just in favor of this plan, but expanding it. They want to see Russia as a hub of military strength and skill, and the production of new military complexes all over the motherland shall make this vision a reality. Soon, the Capitalists and the Fascists shall bleed at the hands of the glorious revolutionary armies of the USSR!"
+
+ SOV_Introduce_Childcare:0 "Introduce Childcare"
+ SOV_Introduce_Childcare_desc:0 "Apart from our goals to tear down the Capitalist system, we must implement socio-economic reforms that will uplift our society and emancipate all disenfranchised members of our society who have been casted aside by the Tsars who ruled Russia with an iron fist. One of these sectors are women. Women have long been relegated to the home, a societal norm that has allowed women to be nothing more than housekeepers. This reactionary way of thought is everything we abhor in our society, and we must purge it.\n\nHowever, women aren’t able to gain full rights as men, specifically because they wouldn’t have anyone to take care of their children. By introducing state childcare for all of the Union’s youth, we can emancipate women from their position in the social ladder, while allowing our youth to be enlightened by the concepts of Communism and Equality."
+
+ SOV_Invigorate_the_Working_Class:0 "Invigorate The Working Class"
+ SOV_Invigorate_the_Working_Class_desc:0 "We have implemented plenty of reforms to ignite our Anti-Capitalist Sentiment throughout our Union. We have defied some of the most entrenched norms of our society, norms that were seen as impossible to reform or abolish. Now, we are on the road to true equality, to follow the Communist dream of equality for all and none shall be forgotten. Now, as we march on towards our dream, we are faced with adversaries, with the Capitalists and the Fascists knocking on our door, prepared to invade our lands and corrupt whatever teachings we have to our people.\n\nAs such, we must invigorate our working class, inspire them to work harder and better. Production Quotas are key elements to our strategy, as these shall exert pressure towards workers, to train them to become productive members of our society, all collectively working towards an end goal - equality and the absence of social stratification."
+
+ SOV_Construct_Heavy_Industrial_Complexes:0 "Construct Heavy Industrial Complexes"
+ SOV_Construct_Heavy_Industrial_Complexes_desc:0 "The only way to win a war is through sheer industrial prowess. In light of recent occurrences in the German nation, many high ranking officials have decided that building the military capacity of the many republics to an amount that would propel our Union to astronomical levels is a very important, even necessary, goal. Even our population knows that conflict with our western neighbors is inevitable. Therefore, we must build munition factories to supply our inevitable war."
+
+ SOV_Propagate_an_Industrial_Ethos:0 "Propagate an Industrial Ethos"
+ SOV_Propagate_an_Industrial_Ethos_desc:0 "While building factories to prepare for the future conflict is a noble and imperative task, why have factories when the workers do not work? Without backing from and the willpower of the workers, a communist state such as ours is sure to collapse upon itself.\n\nOur just cause of expanding our industrial capability already holds the hearts and minds of many in the party and beyond. But it is for those who have doubt that we worry for. A perfect tool we could utilize to win over these confused workers is propaganda. This will allow them to provide for the betterment of the military we wish to supply."
+
+ SOV_Continue_Tight_Work_Discipline:0 "Continue Tight Work Discipline"
+ SOV_Continue_Tight_Work_Discipline_desc:0 "A lazy worker creates a lazy environment. To realize our industrial dreams, we must rid the workplace- the factories, the farms- of any and all laziness. Any worker who refuses to comply with discipline will not see his family again. Perhaps the peasants' religion can come in handy as well; one of their sins is sloth. They wouldn't want to be sinful, would they?"
+
+ SOV_Propel_Steel_Production:0 "Propel Steel Production"
+ SOV_Propel_Steel_Production_desc:0 "A bustling industry is powered by coal and oil and is witnessed by the steel constructing the mighty factories and armaments produced. Steel, as a material, has always been important to the revolutionary cause; steel made up the firearms used in the civil war and steel forms the frames and bodies of the Red Army’s weapons.\n\nA communist state must strive to achieve autarky and even surpass our western neighbors in resource production. We must strive to become the world’s leading producer of steel in order to provide for the Communist International."
+
+ SOV_Support_Zveno_and_Brigadir_Structrures:0 "Support Zveno and Brigadir Structrures"
+ SOV_Support_Zveno_and_Brigadir_Structrures_desc:0 ""
+
+ SOV_Gigatomaniac_Agrotowns:0 "Gigatomaniac Agrotowns"
+ SOV_Gigatomaniac_Agrotowns_desc:0 "While we have implemented plenty of reforms to our agricultural sector, which has increased our food production and fed our comrades all over the Union, we must do more, to ensure our food security is maintained and keep our economy growing.\n\nRecently, our policymakers have devised a new strategy for large scale collectivized agriculture. Dubbed as “Gigatomaniac Agrotowns”, the plan is to survey local government lands of its fertility and to provide incentives or other means to coerce local officials into establishing their economies as Agrowtowns. With this system, it is expected to increase our food supply three-fold, along with spurring economic development in areas with rich, fertile soil. Of course, there will be some opposition from local officials, who would rather waste our resources into other plans, but like the tyrannical Capitalists who ruled this land before, we could simply execute them should they go out of line."
+
+ SOV_Stamp_down_Tolkachi_on_Industries:0 "Stamp down Tolkachi on Industries"
+ SOV_Stamp_down_Tolkachi_on_Industries_desc:0 "While most of our factory managers agree that our production quotas are realistic and individually fitted to the needs of each factory and area, there are still some that claim that these quotas are “unrealistic“,“utopian“ or “distanced from reality“. To appease and convince these critical voices Comrade Stalin has introduced the “Tolkachi“ that will help the factories to meet their production quotas through any means necessary.\n\nThis will greatly improve the cooperation and coordination between the factories and the state, while also improving productivity. And having a pair of extra ears inside the factories will ensure,that any reactionary sentiment, will be reported and dealt with quickly."
+
+ SOV_Develop_Caucasus_Infrastructure:0 "Develop Caucasus Infrastructure"
+ SOV_Develop_Caucasus_Infrastructure_desc:0 "With our plans to modernize the Union at full force, we must look towards a different region for our economic growth - The Caucasus. Currently, it holds untapped petroleum resources that can fuel our Union’s industrial growth with unlimited possibilities. The Caucasus also proves useful in our efforts to spread global revolution to the Middle East, specifically nations like Turkey and Iran, all of which are striking distance and contain valuable strategic assets, such as petroleum for Iran, and access to the Mediterranean for Turkey.\n\nHowever, the Caucasus is one of the most underdeveloped regions in the Union, especially considering its neighbor regions report vast amounts of economic development, yet the roads and railways here are underdeveloped. No longer shall this status-quo remain, and we must develop the Caucasus region, build its infrastructure up, for the benefit of the Union and the people residing there."
+
+ SOV_Solidify_SSFR_Administrations:0 "Solidify SSFR Administrations"
+ SOV_Solidify_SSFR_Administrations_desc:0 "As part of our regional administrative hierarchy, we have established “SSFRs” all throughout the Union. They are political entities that are endowed with regional autonomy, allowing them to execute decisions autonomously, but their subservience and dependence to the overall Union ensure that one simply cannot secede outright, as they will be faced with certain issues, such as resource shortages, and overall civil unrest.\n\nHowever, their power in the Union is very weak, as they are unable to quell rebellion, allocate resources efficiently, and are often rampant with corruption and graft. As such, to alleviate the issues, we must solidify the SSFRs, ensure that they are empowered enough to deal with local issues, while still remaining dependent on the Union for survival. After all, self-sufficiency merely entices the ambitious to secede, something that we certainly do not want."
+
+ SOV_Explore_Oil_Expansion_in_the_Caucasus:0 "Explore Oil Expansion in The Caucasus"
+ SOV_Explore_Oil_Expansion_in_the_Caucasus_desc:0 "The Caucasus is considered the Union’s region for “Black Gold” that fuels our economy and our warmachine. Now more than ever, we are dependent on petroleum, especially as the reactionaries are preparing their armies to invade the Soviet heartland. However, oil is limited in the Union, leaving us no choice but being dependent to the imports from foreign nations, opening us to exploitation.\n\nHowever, we have our silver lining - the fields of Baku. Baku’s tapped petroleum reserves accounts for a significant portion of the Union’s petroleum output. Not only that, geological surveys in the region have prove that there are thousands upon thousands of untapped reserves in Baku and the surrounding region. It is probably best that we expand our operations in the Baku oil fields, by setting up more refineries and extraction facilities, allowing us to capitalize on our rich oil reserves against the impending war on the reactionaries."
+
+ SOV_Foment_Oil_Security_from_Baku:0 "Foment Oil Security from Baku"
+ SOV_Foment_Oil_Security_from_Baku_desc:0 "After our recent endeavors into the petroleum fields in Baku, we have become increasingly dependent on it for the entire Union. After all, oil security is of paramount importance, especially as our adversaries are in overwhelming wealth of this “Black Gold”. Unfortunately, the fact that our petroleum is centralized in our operations in Baku, it presents the enemy a strategic target to exploit. We cannot and shall not allow the reactionaries to establish a foothold in the region, for it shall spell the starvation of the Union’s warmachine.\n\nAs such, we must place investments to ensuring our oil security is well protected, and that Baku shall prosper along with it, as to ensure their loyalty. Factories and industrial centers shall be made, along with acquisitioning huge tracts of land for government purposes, such as refineries and extraction facilities, to ensure Baku’s survival. If Baku falls, the Union falls."
+
+ SOV_Reverse_Korenizatsiya:0 "Reverse Korenizatsiya"
+ SOV_Reverse_Korenizatsiya_desc:0 "In our effort to homogenize the national identity of the Union, we have come across a rather difficult stumbling block; the deep integration of local officials into the governments of our constituent republics. This is the product of the Korenizatsiya program, a sadly misguided idea engendered by none other than Stalin himself that aimed to put greater powers in the hands of regional peoples.\n\nHowever, in this day and age, we can no longer allow such diversity in government. This only causes strife in legislating laws to emancipate our citizens. Therefore, we must root out nationalists in the ranks of these administrations and replace them with pure-blooded, loyal Slavs who will serve the ethnic peoples far better than they themselves could."
+
+ SOV_Formalize_Southern_Industries:0 "Formalize Southern Industries"
+ SOV_Formalize_Southern_Industries_desc:0 "While the more centrally located areas of our Union developed splendidly during the First and Second Year Plan, it has not gone unnoticed to the general population that the Area around Stalingrad and the Kaukasus Mountains, has remained untouched by our industrialization.\n\nTo correct this minor inconvenience, we have ordered that special funding and investment should be put on these areas to ensure that they are on the same level of industrialization than the rest of the country. Soon new factories, oil wells and roads will be built, that will ensure that every area of the country can experience the prosperity provided by the Five Year Plans."
+
+ SOV_Amplify_Agricultural_Export:0 "Amplify Agricultural Export"
+ SOV_Amplify_Agricultural_Export_desc:0 "The vast, rich lands of our glorious Union have the potential to feed every starved worker, every impoverished victim of capitalism who is lucky enough to reach our shores. The great agricultural breadbaskets of Ukraine and Russia bring plenty to our citizens, ensuring that no one goes hungry.\n\nWith recent advancements in farming technology, our loyal farmers can reap twice the amount of crops, many of which are no longer needed for our own people. Instead, our advisors tell us that we could export the surplus abroad, a idea that could both put bread in the hands of workers suffering in the West and bring in raw materials upon which the our people rely."
+
+ SOV_Stalinist_Mega_Monuments:0 "Stalinist Mega Monuments"
+ SOV_Stalinist_Mega_Monuments_desc:0 "Comrade Stalin’s revolutionary philosophy, dubbed Stalinism by his many admirers and followers, must remain the core of our state, both in mind and spirit. It must remain immortal, far past his death, in the hearts of our people, in order to maintain his dream of true socialism in our homeland.\n\nTherefore, we will build monuments to our great leader across the immense lands that he has saved from reactionaries and traitors, thus reminding the workers protected by the Union whom exactly they can accredit their liberation to, and whose philosophy they should forever follow."
+
+ SOV_Adopt_New_Russification_Policies:0 "Adopt New Russification Policies"
+ SOV_Adopt_New_Russification_Policies_desc:0 "The Union must be, above all else, united. This cannot be realized when minorities across our republics still have unique identities. Their nationalism will cause only strife, building walls between our people, keeping them separate without cohesive Soviet pride.\n\nIn that mind, the Politburo has decided to resume the practices of Tsarist Russia, however difficult that may be, by reintroducing Russification. Our agents will work tirelessly to break nationalism in our constituent republics and promote instead a collective, Russian identity and devotion to the Union."
+
+ SOV_Portray_a_Global_Soviet_Image:0 "Portray a Global Soviet Image"
+ SOV_Portray_a_Global_Soviet_Image_desc:0 "At home, our people love the Union, worshipping at the pedestal of true communism. Our regime’s support has never been stronger among the common Russian. But abroad, workers who might be rallied to our cause are distrustful of us, beguiled by Western propaganda depicting us as an authoritarian, repressive dictatorship. This cannot stand.\n\nWe will begin a new campaign of propaganda, this time focusing on creating a global image of the Soviet Union as a worker’s state, the home of a revolution that will eventually sweep over the whole of Europe. We must win over the common folk so that they might join us to drive out the feeble, parasitic stain of capitalism."
+
+#########################################################################
+#  Soviet Union Decisions
+#########################################################################
+ SOV_The_Kirov_Question_category:0 "The Kirov Question"
+ SOV_The_Kirov_Question_category_desc:0 "\n\n\n£decision_header_Kirov£\n\n\n\n The Soviet Premier, §YJoseph Stalin§!, has initiated a repression of those §Renemies of the people§! who dare call themselves communists. \nHe sees a future in which our glorious Union, the first bastion of communism in a capitalist world, may be under assault from outside forces, and the §R“Fifth Column”§! of wreckers, terrorists and spies might weaken us from inside. \n\nTherefore, this organization must be rooted out and destroyed, no matter the impact to our central command, before they can cause any more harm. We should also stage §Gshow trials§! for those Trotskyites and others who may wish to subvert the revolution. These operations will be carried out by the NKVD. \n\nHowever, Stalin has some doubts about the loyalties of its chief, §YNikolai Yehzov§!..."
+
+ SOV_Resolve_the_Kirov_Question:0 "§RResolve the Kirov Question§!"
+ SOV_Resolve_the_Kirov_Question_tt:0 "§OSergei Kirov§!'s Popularity is on the Rise§!"
+ SOV_Invite_Kirov_to_Leave_Leningrad:0 "Invite Kirov to Leave Leningrad"
+ SOV_Replace_the_Head_of_the_Leningrad_Branch_of_the_NKVD:0 "Replace the Head of the Leningrad Branch of the NKVD"
+ SOV_Ask_the_NKVD_for_a_Solution_to_the_Kirov_Question:0 "Ask the NKVD for a Solution to the Kirov Question"
+ SOV_Unassign_Kirovs_Bodyguards:0 "Unassign Kirov's Bodyguards"
+ SOV_Unassign_The_Smolny_Institute_Guard_Post:0 "Unassign The Smolny Institute Guard Post"
+
+
+ SOV_The_Great_Purge_category:0 "The Great Purge"
+ SOV_The_Great_Purge_category_desc:0 "\n\n\n£decision_header_Great_Purge£\n\n\n\n The Soviet Premier, §YJoseph Stalin§!, has initiated a repression of those §Renemies of the people§! who dare call themselves communists. \nHe sees a future in which our glorious Union, the first bastion of communism in a capitalist world, may be under assault from outside forces, and the §R“Fifth Column”§! of wreckers, terrorists and spies might weaken us from inside. \n\nTherefore, this organization must be rooted out and destroyed, no matter the impact to our central command, before they can cause any more harm. We should also stage §Gshow trials§! for those Trotskyites and others who may wish to subvert the revolution. These operations will be carried out by the NKVD. \n\nHowever, Stalin has some doubts about the loyalties of its chief, §YNikolai Yehzov§!..."
+ 
+#Phase 1
+ SOV_Deportations_of_Germans_and_Poles:0 "Deportations of Germans and Poles"
+ SOV_The_Trial_of_the_Sixteen:0 "The Trial of the Sixteen"
+ SOV_Place_Yezhov_as_NarKom:0 "Place Yezhov as NarKom"
+ SOV_Deportations_of_Iranian_Kulaks_and_Mullahs:0 "Deportations of Iranian Kulaks and Mullahs"
+ SOV_Case_of_the_Anti_Soviet_Trotskyist_Center:0 "Case of the Anti-Soviet Trotskyist Center"
+ SOV_Expel_Officers_Excluded_from_the_Party:0 "Expel Officers Excluded from the Party""
+ SOV_Liquidate_the_Menshevik_Underground:0 "Liquidate the "Menshevik Underground""
+ SOV_Replace_Agranov:0 "Replace Agranov"
+ SOV_Tukhachevsky_Case:0 "Tukhachevsky Case"
+ SOV_Purge_Anti_Soviet_Army_Officers:0 "Purge Anti-Soviet Army Officers"
+ SOV_Repress_Political_Enemies:0 "Repress Political Enemies"
+ SOV_Intensify_NKVD_Work_Against_the_Churches:0 "Intensify NKVD Work Against the Churches"
+ SOV_Purge_Spies_in_the_Party:0 "Purge Spies in the Party"
+ SOV_Imminent_Counterrevolution:0 "Imminent Counter-revolution"
+ #Phase 2
+ SOV_Mass_Formation_of_NKVD_Troikas:0 "Mass Formation of NKVD Troikas"
+ SOV_Purge_Germans_from_Military_Industry:0 "Purge Germans from Military Industry"
+ SOV_Start_the_German_Operation:0 "Start the German Operation"
+ SOV_Purge_the_Red_Army_Intelligence_Services:0 "Purge the Red Army Intelligence Services"
+ SOV_Execute_the_Kulak_Operation:0 "Execute the Kulak Operation"
+ SOV_Deport_Koreans_to_Central_Asia:0 "Deport Koreans to Central Asia"
+ SOV_Deport_Kurds_from_Azerbaijan:0 "Deport Kurds from Azerbaijan"
+ SOV_Launch_Latvian_Operation:0 "Launch Latvian Operation"
+ SOV_Purge_Estonians_Finns_Bulgarians_and_Greeks:0 "Purge Estonians, Finns, Bulgarians and Greeks"
+ SOV_Expand_the_Kulak_Operation:0 "Expand the Kulak Operation"
+ SOV_Trial_of_the_Twenty_One:0 "Trial of the Twenty-One"
+ SOV_Send_Frinovsky_to_the_Far_East:0 "Send Frinovsky to the Far East"
+ SOV_Appoint_Beria_as_Deputy_NKVD_Chief:0 "Appoint Beria as Deputy NKVD Chief"
+ SOV_Form_Local_Special_Troikas:0 "Form Local Special Troikas"
+ SOV_Purge_Remaining_Kulaks:0 "Purge Remaining Kulaks"
+ SOV_Find_Industrial_Saboteurs:0 "Find Industrial Saboteurs"
+ SOV_Step_up_Mass_Operations:0 "Step up Mass Operations"
+ SOV_Commit_to_Ethnic_Operations:0 "Commit to Ethnic Operations"
+ SOV_Imminent_Counter_Revolution:0 "Imminent Counter-revolution"
+ #Phase 3
+ SOV_Purge_NKVD_Itself:0 "Purge NKVD Itself"
+ SOV_Stop_the_Activities_of_Extrajudicial_Organs:0 "Stop the Activities of Extrajudicial Organs"
+ SOV_Appoint_Beria_as_NarKom:0 "Appoint Beria as NarKom"
+ SOV_Restore_Socialist_Legality:0 "Restore Socialist Legality"
+ SOV_Invalidate_Extrajudicial_Sentences:0 "Invalidate Extrajudicial Sentences"
+ SOV_Remove_Yezhov:0 "Remove Yezhov"
+ #Yezhovshchina
+ SOV_Recall_Frinovsky:0 "Recall Frinovsky"
+ SOV_Restore_NKVD_Troikas:0 "Restore NKVD Troikas"
+ SOV_Second_Kulak_Operation:0 "Second Kulak Operation"
+ SOV_Rokossovsky_Case:0 "Rokossovsky Case"
+ SOV_Purge_Local_NKVD_and_Party_Committees:0 "Purge Local NKVD and Party Committees"
+ SOV_Start_the_Georgian_Operation:0 "Start the Georgian Operation"
+ SOV_Repress_the_Beria_Anti_Soviet_Group:0 "Repress the Beria Anti-Soviet Group"
+ SOV_Purge_Anti_Soviet_Elements_in_the_Navy_and_Air_Force:0 "Purge Anti-Soviet Elements in the Navy and Air Force"
+ SOV_Trial_of_the_Fifteen:0 "Trial of the Fifteen"
+ SOV_Proclaim_the_Party_Cleansed:0 "Proclaim the Party Cleansed"
+ SOV_Purge_Former_Kulaks:0 "Purge Former Kulaks"
+ SOV_Find_Industrial_Saboteurs:0 "Find Industrial Saboteurs"
+ SOV_Purge_Spies_in_the_Party:0 "Purge Spies in the Party"
+ SOV_Purge_Anti_Soviet_Army_Officers:0 "Purge Anti-Soviet Army Officers"
+ SOV_Commit_to_Stability_of_the_Regime:0 "Commit to Stability of the Regime"
+
+
+ SOV_Demand_Bessarabia:0 "Demand Bessarabia"
+ SOV_Demand_Bessarabia_desc:0 "Now that we have acquired our claims in the North, it is time to face attention to the Balkans once more. Romania holds a once key part of the Russian Empire - the province of Bessarbia, with a significant Russian population. It is time to continue our expansion into Europe."
+ SOV_Demand_Karjala:0 "Demand Finish Karelia"
+ SOV_Demand_Karjala_desc:0 "Finnish Karelia is a stolen enclave of the Karelian SR that was taken from us during the Russian Civil War by the White Finnish forces. Now that the allies are too busy to intervene, it's time to exert our demands over the Finns."
+ SOV_Integration_of_Tanna_Tuva:0 "Integration of Tanna Tuva"
+ SOV_Integration_of_Tanna_Tuva_desc:0 "The Tuvan People's Republic was a loyal, partially-recognised state that was put under Soviet influence after the end of the Russian Civil War. Seeing as the population is largely communist and that the nation's existence is largely denied, there's not a more perfect moment for an extra bit of land."
+ SOV_Baltic_Basing_Rights:0 "Ask for basing rights the Baltic"
+ SOV_Baltic_Basing_Rights_desc:0 "Now that Germany is seeking claims in the East, we must prepare for a possible event of a mass German invasion of our motherland. We should exert our influence over the Baltic and seek military presence in Riga, Tallinn and Kaunas."
+ SOV_Iran_Invasion:0 "Soviet Invasion of Iran"
+ SOV_Iran_Invasion_desc:0 "Iran is a corrupt, fascist dictatorship and the underbelly of our nation. If they were to join Germany on Barbarossa or cut off our supply routes, it would have disastrous consequences on our morale. We must force the Shah to step down, or face a pre-emptive strike."
+ SOV_Occupy_Estonia_And_Latvia:0 "Occupy Estonia and Latvia"
+ SOC_Occupy_Estonia_And_Latvia_desc:0 "Now that the west is distracted with Germany's aggression, it is finally the ideal time for expansion. The Red Army shall march into Riga and Talinn and put an end to the authoritarian regimes of Latvia and Estonia."
+ SOV_Occupy_Lithuania:0 "Occupy Lithuania"
+ SOV_Occupy_Lithuania_desc:0 "Now that Latvia and Estonia has been dealt with, now is the time to seize the last of the Baltic states. Lithuania's industry shall come in very useful once the inevitable finally arrives."
+ SOV_Invade_Germany:0 "Invade Germany"
+ SOV_Invade_Germany_desc:0 "The German Reich in the west is becoming increasingly aggressive towards it's neighbours, invading nations from Scandinavia to the Balkans as a means of expanding their influence. Despite their non-aggression pact with us, It's only a matter of time before they come knocking on our doorstep. It is finally time to intervene in the Second World War."
+ SOV_Invade_Japan:0 "Declare War on Japan"
+ SOV_Invade_Japan_desc:0 ""For too long Japan was a thorn on our back. With their aggressive expansion into China and their skirmishes on our borders against our own troops, it's finally time to put down the imperialist dog of the East from it's misery."
+
+
+
+#########################################################################
+#  Soviet Union Ideas
+#########################################################################
+ SOV_The_Great_Soviet_Famine:0 "The Great Soviet Famine"
+ SOV_The_Great_Soviet_Famine_desc:0 "Even though the Politburo tries to push the current problems out of the public eye, it is an open secret that the collective efforts of the CPSU in both Ukraine and Kasachztan have led to massive famines ravaging the SSRs and its population, even though both areas are commonly known as the “breadbasket of the Union“.  Experts have already handed over several secret reports to Moscow, that predict that “if the problems regarding the agricultural sector of both the Kazakh and Ukrainian SSRs are not solved with utmost urgency, these areas will lose approximately 25 to 40% of their population, 75% of their livestock, 40% of their economic potential and their remaining loyalty to both the Soviet Union and the guidance of comrade Stalin.“ So far the leadership of the Soviet Union hasn't formulated a plan in combatting the critical situation, but it is clear that something must be done to prevent the Ukrainian and Kazakh workers from abandoning the Union."
+
+ SOV_Aftermath_of_the_Ryutin_Affair:0 "Aftermath of the Ryutin Affair"
+ SOV_Aftermath_of_the_Ryutin_Affair_desc:0 "While chairman Stalin has been the leader of the Union for quite a few years now, there are still forces inside the party which oppose Stalin and his authoritarian way to achieving communism. While these forces mostly operate in secret groups inside the party recently a group under the leadership of Martemyan Ryutin and Nikolai Bukharin has openly positioned itself against Stalin by formulating a pamphlet called “Appeal to All Members of the All-Union Communist Party“ and a 200-page document “Stalin and the Crisis of the Proletarian Dictatorship“, which both fiercely criticized Stalin, referring to him as “gravedigger of the Revolution“, and his policies of rapid industrialization and forced collectivization.\n\nDespite the fact that it is unlikely that the Ryutin group will assume power anytime soon, the “Ryutin affair“ has shown and opened up deep wounds inside the CPSU, which will have to be tended to in order to save the revolution."
+
+ SOV_Final_Phase_of_the_Decossackization:0 "Final Phase of the Decossackization"
+ SOV_Final_Phase_of_the_Decossackization_desc:0 "Considered by many a nomadic, militaristic, and reactionary people, the cossacks present a challenge on our path to socialism. The Cossacks have long upheld the old order, repressing the peasants in the days of the Tsardom and fighting alongside Denikin's White Army in the Civil War. Since 1919 we have made several concerted efforts to eliminate the Cossacks as a class and as a culture. Agricultural collectivization has stripped the wealthiest cossacks of their lands, and cossacks from the Don to Irkutsk found guilty of counterrevolutionary activities in the thousands. Those once-mighty Cossacks, the right arm of the Tsar, are rapidly losing their identity, and the idea of a distinct cossack culture is fast becoming a distant memory."
+
+ SOV_Deficient_Economy:0 "Deficient Economy"
+ SOV_Deficient_Economy_desc:0 "While the first five year plans have been largely successful in transforming the Soviet Union from a primitive agrarian nation to a modern, industrial world global power, which is perfectly able to stand up to the economies of the western reactionaries in both size and production output, there are still a variety of inefficiencies preventing the Soviet Union from becoming the perfect example of an effective socialist economy.\n\nBut despite the progress reported and achieved by the Politburo, it is undeniable that exactly this rapid expansion has created a variety of problems, that have put a lid on the general efficiency of our economy through both uncoordinated planning and lackluster modernization efforts, while both bureaucratic obstacles and red tape have been growing rapidly since the start of the five-year plans. While these problems are definitely not overly dramatic and unsolvable, it will still need a large amount of work and optimization to fix these issues and finally make the Soviet economy a force to be reckoned with."
+
+ SOV_Soviet_Collectivization:0 "Soviet Collectivization"
+ SOV_Soviet_Collectivization_desc:0 ""
+
+ SOV_Soviet_CollectivizationC1:0 "Soviet Collectivization"
+ SOV_Soviet_CollectivizationC1_desc:0 ""
+
+ SOV_Soviet_CollectivizationC2:0 "Soviet Collectivization"
+ SOV_Soviet_CollectivizationC2_desc:0 ""
+ 
+ SOV_Soviet_CollectivizationI1:0 "Soviet Collectivization"
+ SOV_Soviet_CollectivizationI1_desc:0 ""
+
+ SOV_Soviet_CollectivizationI2:0 "Soviet Collectivization"
+ SOV_Soviet_CollectivizationI2_desc:0 ""
+
+ SOV_Soviet_CollectivizationP1:0 "Soviet Collectivization"
+ SOV_Soviet_CollectivizationP1_desc:0 ""
+
+ SOV_Soviet_CollectivizationP2:0 "Soviet Collectivization"
+ SOV_Soviet_CollectivizationP2_desc:0 ""
+
+ SOV_Soviet_CollectivizationT1:0 "Soviet Collectivization"
+ SOV_Soviet_CollectivizationT1_desc:0 ""
+
+ SOV_Soviet_CollectivizationT2:0 "Soviet Collectivization"
+ SOV_Soviet_CollectivizationT2_desc:0 ""
+
+ SOV_Loyalty_to_the_Motherland:0 "Ultimate Loyalty to the Motherland"
+ SOV_Loyalty_to_the_Motherland_desc:0 ""
+
+ SOV_Loyalty_to_the_Motherland2:0 "Ultimate Loyalty to the Motherland"
+ SOV_Loyalty_to_the_Motherland2_desc:0 ""
+
+ SOV_High_Agricultural_Employment:0 "High Agricultural Employment"
+ SOV_High_Agricultural_Employment_desc:0 ""
+
+### OLD
+ SOV_Centerally_Planned_Economy:0 "Centrally Planned Economy"
+ SOV_Centerally_Planned_Economy_desc:0 ""
+
+ SOV_Pragmatic_Command_Economy_idea:0 "Centrally Planned Economy"
+ SOV_Pragmatic_Command_Economy_idea_desc:0 ""
+
+ SOV_Design_Contemporary_Equipment_Standards_idea:0 "Centrally Planned Economy"
+ SOV_Design_Contemporary_Equipment_Standards_idea_desc:0 ""
+ SOV_Design_Contemporary_Equipment_Standards_tt:0 "Modify §YIndustrial Ethos§! by\n§YMilitary Factory§! construction speed: §G+5.00%§!\nIndustrial Research Speed: §G10%§!\nWeapons and Equipment Research Speed: §G+10%§!"
+
+ SOV_Soviet_Collectivization1:0 "Soviet Collectivization"
+ SOV_Soviet_Collectivization1_desc:0 ""
+ 
+ SOV_Soviet_Collectivization2:0 "Soviet Collectivization"
+ SOV_Soviet_Collectivization1_desc:0 ""
+ 
+ SOV_Soviet_Collectivization3:0 "Soviet Collectivization"
+ SOV_Soviet_Collectivization1_desc:0 ""
+
+ SOV_High_Agricultural_Employment1:0 "High Agricultural Employment"
+ SOV_High_Agricultural_Employment1_desc:0 ""
+
+ SOV_Collectivization_Process:0 "Soviet Collectivization Process"
+ SOV_Collectivization_Process_desc:0 ""
+
+ SOV_Industrial_Ethos:0 "Industrial Ethos"
+ SOV_Industrial_Ethos_desc:0 ""
+ 
+ SOV_Industrial_Ethos1:0 "Industrial Ethos"
+ SOV_Industrial_Ethos1_desc:0 ""
+ 
+ SOV_Industrial_Ethos2:0 "Industrial Ethos"
+ SOV_Industrial_Ethos2_desc:0 ""
+
+ SOV_Patronage_Networks:0 "Patronage Networks"
+ SOV_Patronage_Networks_desc:0 ""
+
+ SOV_Ethnic_Nationalism:0 "Ethnic Nationalism"
+ SOV_Ethnic_Nationalism_desc:0 ""
+
+ SOV_Ethnic_Nationalism_1:0 "Ethnic Nationalism"
+ SOV_Ethnic_Nationalism_1_desc:0 ""
+
+ SOV_Reverse_Korenizatsiya_idea:0 "Regional Breakdown"
+ SOV_Reverse_Korenizatsiya_idea_desc:0 ""
+
+ SOV_Production_Quotas:0 "Production Quotas"
+ SOV_Production_Quotas_desc:0 ""
+
+ SOV_Production_Quotas_1:0 "Production Quotas"
+ SOV_Production_Quotas_1_desc:0 ""
+
+ SOV_Production_Quotas_2:0 "Production Quotas"
+ SOV_Production_Quotas_2_desc:0 ""
+
+ SOV_Production_Quotas_3:0 "Production Quotas"
+ SOV_Production_Quotas_3_desc:0 ""
+
+ SOV_Ryutin_Affair:0 "Ryutin Affair"
+ SOV_Ryutin_Affair_desc:0 ""
+
+ SOV_Stakhanovite_Movement:0 "Stakhanovite Movement"
+ SOV_Stakhanovite_Movement_desc:0 ""
+
+ SOV_Stamp_down_Tolkachi_on_Industries_idea:0 "Patronage Networks"
+ SOV_Stamp_down_Tolkachi_on_Industries_idea_desc:0 ""
+
+ SOV_repurpose_guns:0 "Repurposed Guns"
+ SOV_repurpose_guns_desc:0 ""
+
+ SOV_repurpose_hulls:0 "Repurposed Hulls"
+ SOV_repurpose_hulls_desc:0 ""
+
+ SOV_Soviet_Democracy:0 "Soviet Democracy"
+ SOV_Soviet_Democracy_desc:0 ""
+
+ SOV_Unstable_Democracy:0 "Unstable Democracy"
+ SOV_Unstable_Democracy_desc:0 ""
+
+ SOV_New_Economic_Policy:0 "New Economic Policy"
+ SOV_New_Economic_Policy_desc:0 ""
+
+ SOV_anti_bureaucratic_measures:0 "Anti-bureaucratic Measures"
+ SOV_anti_bureaucratic_measures_desc:0 ""
+
+ SOV_socialist_libertarianism:0 "Socialist Libertarianism"
+ SOV_socialist_libertarianism_desc:0 ""
+
+ SOV_nep:0 "NEP"
+ SOV_nep_desc:0 ""
+
+ SOV_Adopt_New_Russificaion_Policies_idea:0 "Russification"
+ SOV_Adopt_New_Russificaion_Policies_idea_desc:0 ""
+
+ SOV_Liquidate_The_Church_idea:0 "Elimination of the Church"
+ SOV_Liquidate_The_Church_idea_desc:0 ""
+
+ SOV_Introduce_Childcare_idea:0 "Women in the Workforce"
+ SOV_Introduce_Childcare_idea_desc:0 ""
+
+ SOV_Promote_Kolkoz_farms_1:0 "Kolkoz Agricultural Model"
+ SOV_Promote_Kolkoz_farms_1_desc:0 ""
+
+ SOV_Promote_Kolkoz_farms_2:0 "Kolkoz Agricultural Model"
+ SOV_Promote_Kolkoz_farms_2_desc:0 ""
+
+ SOV_Propagate_an_Industrial_Ethos_idea:0 "Industrial Ethos"
+ SOV_Propagate_an_Industrial_Ethos_idea_desc:0 ""
+
+ SOV_Focalize_on_Sovkhoz_Farms_1:0 "Sovkhov Agricultural Model"
+ SOV_Focalize_on_Sovkhoz_Farms_1_desc:0 ""
+
+ SOV_Focalize_on_Sovkhoz_Farms_2:0 "Sovkhov Agricultural Model"
+ SOV_Focalize_on_Sovkhoz_Farms_2_desc:0 ""
+
+ SOV_Focalize_on_Sovkhoz_Farms_3:0 "Sovkhov Agricultural Model"
+ SOV_Focalize_on_Sovkhoz_Farms_3_desc:0 ""
+
+ SOV_Voroshiloctchina:0 "Voroshiloctchina"
+ SOV_Voroshiloctchina_desc:0 ""
+ 
+ SOV_Stalin_Mass_Repression:0 "Stalin's Mass Repression"
+ SOV_Stalin_Mass_Repression_desc:0 ""
+ 
+ SOV_Zhdanov_Doctrine:0 "Zhdanovchina"
+ SOV_Zhdanov_Doctrine_desc:0 ""
+ 
+ SOV_Gulag_Based_Economy_Projects:0 "Gulag Based Economy Projects"
+ SOV_Gulag_Based_Economy_Projects_desc:0 ""
+ 
+ SOV_Socialism_Achieved:0 "Socialism Achieved"
+ SOV_Socialism_Achieved_desc:0 ""
+ 
+ SOV_Active_Opposition:0 "Active Opposition"
+ SOV_Active_Opposition_desc:0 ""
+ 
+ SOV_Reign_of_Terror:0 "Reign of Terror"
+ SOV_Reign_of_Terror_desc:0 ""
+
+ SOV_NKVD_1:0 "NKVD"
+ SOV_NKVD_2:0 "NKVD"
+
+ 
+## Special Ideas
+ SOV_german_betrayal:0 "German Betrayal"
+ SOV_german_betrayal_desc:0 "Germany has proven herself to be untrustworthy by declaring war on the Soviet Union, breaking the pact between us. But rest assured, that this betrayal will not go unpunished."
+
+ SOV_patrotic_war:0 "The Great Patriotic War"
+ SOV_patrotic_war_desc:0 "The fascist invader may have driven deep into the Soviet Union, but the Red Army and Red Navy are self-sacrificingly disputing every inch of Soviet Soil. The Soviet people must realise this and adandon all heedlessness, they must mobilise themselves and re-focus all their work on wartime production. There can be no mercy for the enemy."
+
+ cult_of_personality:0 "Cult of Personality"
+ cult_of_personality_desc:0 ""
+
+## 17th Congress Ideas
+ SOV_Congress_Policies_on_Improvement:0 "Policies on Improvement"
+ SOV_Congress_Disjointed_Politburo:0 "Disjointed Politburo"
+ SOV_Congress_End_Rabkrin_System:0 "People's Control Commission on Charge"
+ SOV_Congress_Reform_Rabkrin_System:0 "The Rabkrin System Reform"

@@ -1,0 +1,357 @@
+ideas = {
+	#########################################################################
+	#  National Spirits
+	#########################################################################
+	country = {
+		### The Fading Ballot Box
+		JAP_The_Fading_Ballot_Box = {
+			picture = JAP_Fading_Ballot
+			available = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.1
+			}
+		}
+		### The Military Ascendant
+		JAP_The_Military_Ascendant = {
+			picture = JAP_Military_Ascendant
+			available = {
+				always = yes
+			}
+			modifier = {
+				war_support_weekly = 0.01
+				conscription = 0.02
+				political_power_gain = -0.01
+			}
+		}
+		### The Rivalries of War - Neutral
+		JAP_Rivalries_Of_War_Neutral = {
+			picture = JAP_Rivalries_War_Neutral
+			available = {
+				always = yes
+			}
+		}
+		### The Rivalries of War - Army Dominant
+		JAP_Rivalries_Of_War_Army_Dominant = {
+			picture = JAP_Rivalries_War_Army_Dominant
+			research_bonus = {
+				naval_equipment = -0.1
+				naval_doctrine = -0.1
+				land_doctrine = 0.05
+			}
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = -0.2
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = -0.2
+			}
+		}
+		### The Rivalries of War - Army Strengthened
+		JAP_Rivalries_Of_War_Army_Strengthened = {
+			picture = JAP_Rivalries_War_Army_Strengthened
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = -0.1
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = -0.1
+			}
+		}
+		### The Rivalries of War - Navy Strengthened
+		JAP_Rivalries_Of_War_Navy_Strengthened = {
+			picture = JAP_Rivalries_War_Navy_Strengthened
+			modifier = {
+				production_speed_arms_factory_factor = -0.1
+				production_speed_dockyard_factor = 0.1
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = 0.05
+			}
+		}
+		### The Rivalries of War - Navy Dominant
+		JAP_Rivalries_Of_War_Navy_Dominant = {
+			picture = JAP_Rivalries_War_Navy_Dominant
+			research_bonus = { 
+				land_doctrine = -0.1
+				naval_doctrine = 0.05
+			}
+			modifier = {
+				production_speed_arms_factory_factor = -0.2
+				production_speed_dockyard_factor = 0.2
+				planning_speed = -0.1
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = 0.1
+			}
+		}
+		### Shintaisei
+		JAP_Shintaisei_1 = {
+		#	picture = JAP_Shintaisei
+			name = JAP_Shintaisei
+
+			modifier = {
+				political_power_gain = 0.5
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		JAP_Shintaisei_2 = {
+		#	picture = JAP_Shintaisei
+			name = JAP_Shintaisei
+
+			modifier = {
+				political_power_gain = 0.5
+				stability_factor = 0.10
+				war_support_factor = 0.05
+				fascist_drift = 0.05
+			}
+		}
+		JAP_Shintaisei_3 = {
+		#	picture = JAP_Shintaisei
+			name = JAP_Shintaisei
+
+			modifier = {
+				political_power_gain = 0.5
+				stability_factor = 0.05
+				war_support_factor = 0.10
+				consumer_goods_factor = -0.03
+			}
+		}
+		JAP_Shintaisei_4 = {
+		#	picture = JAP_Shintaisei
+			name = JAP_Shintaisei
+
+			modifier = {
+				political_power_gain = 0.5
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				fascist_drift = 0.05
+				consumer_goods_factor = -0.03
+			}
+		}
+		JAP_Shintaisei_5 = {
+		#	picture = JAP_Shintaisei
+			name = JAP_Shintaisei
+
+			modifier = {
+				political_power_gain = 1.0
+				stability_factor = 0.15
+				war_support_factor = 0.05
+				fascist_drift = 0.05
+			}
+		}
+		JAP_Shintaisei_6 = {
+		#	picture = JAP_Shintaisei
+			name = JAP_Shintaisei
+
+			modifier = {
+				political_power_gain = 0.5
+				stability_factor = 0.1
+				war_support_factor = 0.10
+				consumer_goods_factor = -0.03
+				fascist_drift = 0.05
+			}
+		}
+		JAP_Shintaisei_7 = {
+		#	picture = JAP_Shintaisei
+			name = JAP_Shintaisei
+
+			modifier = {
+				political_power_gain = 0.5
+				stability_factor = 0.10
+				war_support_factor = 0.20
+				consumer_goods_factor = -0.05
+			}
+		}
+		JAP_Shintaisei_8 = {
+		#	picture = JAP_Shintaisei
+			name = JAP_Shintaisei
+
+			modifier = {
+				political_power_gain = 1.0
+				stability_factor = 0.15
+				war_support_factor = 0.1
+				fascist_drift = 0.05
+				consumer_goods_factor = -0.03
+			}
+		}
+		JAP_Shintaisei_9 = {
+		#	picture = JAP_Shintaisei
+			name = JAP_Shintaisei
+
+			modifier = {
+				political_power_gain = 0.5
+				stability_factor = 0.15
+				war_support_factor = 0.2
+				fascist_drift = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		JAP_Shintaisei_10 = {
+		#	picture = JAP_Shintaisei
+			name = JAP_Shintaisei
+
+			modifier = {
+				political_power_gain = 1.0
+				stability_factor = 0.15
+				war_support_factor = 0.10
+				fascist_drift = 0.05
+				consumer_goods_factor = -0.03
+			}
+		}
+		JAP_Shintaisei_11 = {
+		#	picture = JAP_Shintaisei
+			name = JAP_Shintaisei
+
+			modifier = {
+				political_power_gain = 0.5
+				stability_factor = 0.15
+				war_support_factor = 0.20
+				fascist_drift = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		JAP_Shintaisei_12 = {
+		#	picture = JAP_Shintaisei
+			name = JAP_Shintaisei
+			
+			modifier = {
+				political_power_gain = 1.0
+				stability_factor = 0.20
+				war_support_factor = 0.20
+				fascist_drift = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		### Hakkō Ichiu
+		JAP_Eight_Crowns = {
+		#	picture = JAP_Eight_Crown
+		
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+		### Tōa Shin Chitsujo
+		JAP_East_New_Order = {
+		#	picture = JAP_East_New_Order
+			
+			modifier = {
+				ai_get_ally_desire_factor = -1000
+				war_support_factor = 0.05
+			}
+		}
+		### Dai Tōa Kyōeiken
+		JAP_Co_Prosperity_Sphere = {
+		#	picture = JAP_New_Order_in_East_Asia
+			
+			modifier = {
+				war_support_factor = 0.10
+			}
+		}
+		### The Yen Bloc
+		JAP_Supremacy_of_Technology = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = jap_supremacy_of_technology
+			
+			research_bonus = {
+				infantry_weapons = 0.05
+				armor = 0.05
+			}
+		}
+		### The Yen Bloc
+		JAP_Superior_Will = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = jap_supremacy_of_will
+			
+			modifier = {
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1
+				army_morale_factor = 0.1
+			}
+		}
+		### Expand the SNLF
+		JAP_Expand_the_SNLF = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_naval_manufacturer_1
+			
+			modifier = {
+				special_forces_cap = 0.02
+			}
+		}		
+		### The Yen Bloc
+		JAP_Yen_Bloc = {
+		#	picture = JAP_Yen_Bloc
+
+			modifier = {
+				political_power_gain = 0.05
+			}
+		}
+		JAP_Yen_Bloc_1 = {
+		#	picture = JAP_Yen_Bloc
+			name = JAP_Yen_Bloc
+
+			targeted_modifier = {
+				tag = JAP
+				cic_to_target_factor = 0.10
+				mic_to_target_factor = 0.10
+			#	extra_trade_to_target_factor = 0.10
+			#	trade_cost_for_target_factor = -0.10
+			}
+		}
+		JAP_Yen_Bloc_2 = {
+		#	picture = JAP_Yen_Bloc
+			name = JAP_Yen_Bloc
+			
+			targeted_modifier = {
+				tag = JAP
+				cic_to_target_factor = 0.20
+				mic_to_target_factor = 0.20
+			#	extra_trade_to_target_factor = 0.20
+			#	trade_cost_for_target_factor = -0.20
+			}					
+		}
+	}
+	
+	#########################################################################
+	#  Factions
+	#########################################################################	
+	hidden_ideas = {
+		### The Divided Rising Sun - National Unity Cabinet
+		JAP_Divided_Rising_Sun_NUC = {
+			picture = JAP_Civil_Military_Government
+			available = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = -0.05	
+			}
+		}
+	}	
+}

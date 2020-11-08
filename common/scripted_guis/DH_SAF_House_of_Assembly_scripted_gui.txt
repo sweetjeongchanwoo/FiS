@@ -1,0 +1,15 @@
+scripted_gui = {
+
+	SAF_congress_decision_ui = {
+		context_type = decision_category
+		window_name = "SAF_congress_decision_ui_window"
+
+		properties = {
+			house_icon = {
+				frame = current_house_icon_frame
+			}
+		}
+	}
+	
+}
+

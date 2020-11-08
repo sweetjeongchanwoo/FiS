@@ -1,0 +1,33 @@
+state={
+	id=962
+	name="STATE_962"
+	
+	history={
+		owner = GER
+		victory_points = {
+			6934 2
+		}
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = GER
+		1946.1.1 = {
+			owner = FRA
+			controller = FRA
+
+		}
+		1950.1.1 = {
+			owner = FRG
+
+		}
+
+	}
+	
+	provinces={
+		519 694 3679 6934 9655 11486 13126 
+	}
+	manpower=227331
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,1229 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "SA-Brigade"  	# SA-Brigade varied in size, but 5 standarten and 1 reiter standarten is pretty typical.
+    is_locked = yes
+	priority = 0
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+###### OOB ######
+units = {
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = XXX  # 	Gumbinnen
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = XXX  # 	Allenstein
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = XXX  # 	Lötzen
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = XXX  # 	Königsberg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = XXX  # 	Elbing
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = XXX  # 	Danzig
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = XXX  # 	Neustettin
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = XXX  # 	Schneidemühl
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = XXX  # 	Stettin
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = XXX  # West Pomerania: Stettin?
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = XXX  # 	Schwerin
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = XXX  # 	Hamburg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = XXX  # Sudholstein: Hamburg?
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = XXX  # 	Eutin
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = XXX  # 	Itzehoe
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = XXX  # 	Schleswig
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = XXX  # 	Oppeln
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = XXX  # 	Schweidnitz
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = XXX  # 	Görlitz
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = XXX  # 	Breslau
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = XXX  # 	Liegnitz
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = XXX  # 	Küstrin 
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = XXX  # Landsberg/Warthe
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = XXX  # 	Cottbus
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = XXX  # 	Potsdam
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = XXX  # 	Bernau
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = XXX  # 	Rathenow
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = XXX  # 	Berlin
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = XXX  # 	Berlin
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		}
+		location = XXX  # 	Berlin
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}
+		location = XXX  # Berlin
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}
+		location = XXX  # Berlin
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 33
+		}
+		location = XXX  # 	Dresden
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		}
+		location = XXX  # 	Chemnitz
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = XXX  # 	Leipzig
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 36
+		}
+		location = XXX  # 	Plauen
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 37
+		}
+		location = XXX  # 	Wittenberg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 38
+		}
+		location = XXX  # 	Halle
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 39
+		}
+		location = XXX  # 	Dessau
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers	}
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 40
+		}
+		location = XXX  # 	Stendal
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 41
+		}
+		location = XXX  # 	Gera
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = XXX  # 	Erfurt
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 43
+		}
+		location = XXX  # 	Nordhausen
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 44
+		}
+		location = XXX  # 	Eisenach
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 45
+		}
+		location = XXX  # Nordhausen 
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}
+		location = XXX  # 	Fulda
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 47
+		}
+		location = XXX  # 	Kassel
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 48
+		}
+		location = XXX  # 	Marburg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 49
+		}
+		location = XXX  # 	Frankfurt/Main
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers	}
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 50
+		}
+		location = XXX  # 	Darmstadt
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 51
+		}
+		location = XXX  # 	Neustadt
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 52
+		}
+		location = XXX  # 	Koblenz
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 53
+		}
+		location = XXX  # 	Karlsruhe
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 54
+		}
+		location = XXX  # 	Freiburg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 55
+		}
+		location = XXX  # 	Stuttgart
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 56
+		}
+		location = XXX  # 	Ulm
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 57
+		}
+		location = XXX  # Göttingen
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 58
+		}
+		location = XXX  # 	Braunschweig
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 59
+		}
+		location = XXX  # Clausthal-Zellerfeld
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers	}
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 60
+		}
+		location = XXX  # Uelzen
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 61
+		}
+		location = XXX  # 	Hannover
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 62
+		}
+		location = XXX  # 	Bremen
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 63
+		}
+		location = XXX  # 	Oldenburg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 64
+		}
+		location = XXX  # 	Osnabrück
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 65
+		}
+		location = XXX  # 	Detmold
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 66
+		}
+		location = XXX  # 	Münster
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 67
+		}
+		location = XXX  # 	Dortmund
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 68
+		}
+		location = XXX  # 	Arnsberg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 69
+		}
+		location = XXX  # 	Hagen
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers	}
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 70
+		}
+		location = XXX  # 	Recklinghausen
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 71
+		}
+		location = XXX  # 	Köln
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 72
+		}
+		location = XXX  # 	Wuppertal
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 73
+		}
+		location = XXX  # 	Essen
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 74
+		}
+		location = XXX  # 	Duisburg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 75
+		}
+		location = XXX  # 	Düsseldorf
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 76
+		}
+		location = XXX  # 	Aachen
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 77
+		}
+		location = XXX  # 	Bayreuth
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 78
+		}
+		location = XXX  # 	Nürnberg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 79
+		}
+		location = XXX  # 	Würzburg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers	}
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 80
+		}
+		location = XXX  # 	Passau
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 81
+		}
+		location = XXX  # 	Regensburg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 82
+		}
+		location = XXX  # 	Amberg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 83
+		}
+		location = XXX  # XXX
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 84
+		}
+		location = XXX  # 	Rosenheim
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.2 # I'll give the hunters credit for being at least militia trained.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 85
+		}
+		location = XXX  # 	München
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 86
+		}
+		location = XXX  # 	Augsburg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 87
+		}
+		location = XXX  # 	Posen
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 88
+		}
+		location = XXX  # 	Leslau
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 89
+		}
+		location = XXX  # 	Znaim
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers	}
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 90
+		}
+		location = XXX  # 	Wien
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 91
+		}
+		location = XXX  # 	Wien
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 92
+		}
+		location = XXX  # 	Krems
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 93
+		}
+		location = XXX  # Baden bei Wien
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 94
+		}
+		location = XXX  # 	Linz
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 95
+		}
+		location = XXX  # Graz
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.2 # I'll give the hunters credit for being at least militia trained.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 96
+		}
+		location = XXX  # Leoben
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.2 # I'll give the hunters credit for being at least militia trained.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 97
+		}
+		location = XXX  # 	Klagenfurt
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 98
+		}
+		location = XXX  # Salzburg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.2 # I'll give the hunters credit for being at least militia trained.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 99
+		}
+		location = XXX  # Innsbruck
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.2 # I'll give the hunters credit for being at least militia trained.
+		start_equipment_factor = 0.9 # Stragglers	}
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = XXX  # 	Karlsbad
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 101
+		}
+		location = XXX  # Teplitz-Schönau
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 102
+		}
+		location = XXX  # 	Reichenberg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 103
+		}
+		location = XXX  # Mährisch Schönberg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 104
+		}
+		location = XXX  # 	Troppau
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 105
+		}
+		location = XXX  # 	Bromberg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 106
+		}
+		location = XXX  # 	Thorn
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 122
+		}
+		location = XXX  # 	Guben
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 133
+		}
+		location = XXX  # 	Bautzen
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 137
+		}
+		location = XXX  # 	Magdeburg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers	}
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 138
+		}
+		location = XXX  # 	Magdeburg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.2 # I'll give the hunters credit for being at least militia trained.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 147
+		}
+		location = XXX  # 	Gießen
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 150
+		}
+		location = XXX  # 	Mainz
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 151
+		}
+		location = XXX  # 	Saarbrücken
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 152
+		}
+		location = XXX  # 	Trier
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 153
+		}
+		location = XXX  # 	Heidelberg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 162
+		}
+		location = XXX  # 	Minden
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 187
+		}
+		location = XXX  # 	Litzmannstadt
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 202
+		}
+		location = XXX  # 	Zichenau
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 217
+		}
+		location = XXX  # 	Kattowitz
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers	}
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 250
+		}
+		location = XXX  # St. Ingbert
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 253
+		}
+		location = XXX  # 	Straßburg
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 254
+		}
+		location = XXX  # 	Colmar
+		division_template = "SA-Brigade"
+		start_experience_factor = 0.08 # As far as militia goes, they are almost trained.  They have paramilitary organization and experience taking orders.  Some experience with brawling but no fighting training.
+		start_equipment_factor = 0.9 # Stragglers
+		}			
+}

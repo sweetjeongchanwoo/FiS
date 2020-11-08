@@ -1,0 +1,32 @@
+state={
+	id=942
+	name="STATE_942"
+	
+	history={
+		owner = DEN
+		add_core_of = DEN
+		add_core_of = ICE
+		1940.5.10 = {
+			owner = ENG
+
+		}
+		1941.6.22 = {
+			owner = USA
+
+		}
+		1944.6.20 = {
+			owner = ICE
+			remove_core_of = DEN
+
+		}
+
+	}
+	
+	provinces={
+		10869 
+	}
+	manpower=50
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+    impassable = yes
+}

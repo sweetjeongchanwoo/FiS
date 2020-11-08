@@ -1,0 +1,19 @@
+#########################################################################
+#  South African Categories
+#########################################################################
+###########################
+# South African Parliament
+###########################
+SAF_Parliament = {
+	icon = usa_congress
+
+	#picture = GFX_decision_cat_generic_mefo_bills
+
+	scripted_gui = SAF_congress_decision_ui
+	priority = 85
+	#visible_while_empty = yes
+
+	allowed = {
+		original_tag = SAF
+	}
+}

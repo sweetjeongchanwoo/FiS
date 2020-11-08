@@ -1,0 +1,1068 @@
+﻿division_template = {
+	name = "Divisione Fanteria" # Infantry Division
+	division_names_group = ITA_INF_01
+	
+	regiments = {
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_battalion = { x = 3 y = 0 }  # artillery was 4 battalions, two light, two regular.
+		artillery_battalion = { x = 3 y = 1 }
+		artillery_battalion_light = { x = 3 y = 2 }
+		artillery_battalion_light = { x = 3 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Brigata Fanteria" # Infantry Brigade
+	division_names_group = ITA_INF_02
+	
+	regiments = {
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Divisione Motorizzata"
+	division_names_group = ITA_MOT_01
+	
+	regiments = {
+		motorized = { x = 0 y = 0 } 
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized_artillery_battalion = { x = 3 y = 0 }
+		motorized_artillery_battalion = { x = 3 y = 1 }
+		motorized_artillery_battalion = { x = 3 y = 2 }
+		motorized_anti_tank_brigade = { x = 3 y = 3 }
+		motorized_anti_air_brigade = { x = 3 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Divisione Fanteria Autotrasportabile"
+	division_names_group = ITA_MOT_01
+	
+	regiments = {
+		motorized = { x = 0 y = 0 } 
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized_artillery_battalion = { x = 3 y = 0 }
+		motorized_artillery_battalion = { x = 3 y = 1 }
+		motorized_artillery_battalion = { x = 3 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+		anti_air = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Divisione Alpina"					# Divisione Alpina
+	division_names_group = ITA_MTN_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }			# Elite Alpina Regiments
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		artillery_battalion_light = { x = 2 y = 0 }
+		artillery_battalion_light = { x = 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Divisione Celere" 		# Divisione Celere (Fast Division)
+	division_names_group = ITA_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		bicycle_battalion = { x = 2 y = 0 }		# (elite) Bersaglieri Regiment initially cyclists
+		bicycle_battalion = { x = 2 y = 1 }
+		motorized_artillery_battalion = { x = 3 y = 0 }
+		motorized_artillery_battalion = { x = 3 y = 1 }
+		motorized_artillery_battalion = { x = 3 y = 2 }
+		motorized_anti_air_brigade = { x = 3 y = 3 }
+		medium_armor = { x = 4 y = 0 }	# L3/35 Tankette Battaltion
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Divisione CC.NN."
+	division_names_group = ITA_CCNN_01
+	
+	regiments = {
+		SS_infantry = { x = 0 y = 0 } 
+		SS_infantry = { x = 0 y = 1 }
+		SS_infantry = { x = 1 y = 0 }
+		SS_infantry = { x = 1 y = 1 }
+		SS_infantry = { x = 2 y = 0 }
+		SS_infantry = { x = 2 y = 1 }
+		artillery_battalion = { x = 3 y = 0 }
+		artillery_battalion = { x = 3 y = 1 }
+		artillery_battalion_light = { x = 3 y = 2 }
+		artillery_battalion_light = { x = 3 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Divisione Coloniale" 			# a compromise between the Libyan and Eritrean divisions
+	division_names_group = ITA_COL_01
+
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 0 y = 3 }
+		light_infantry = { x = 0 y = 4 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+		light_infantry = { x = 1 y = 3 }
+		light_infantry = { x = 1 y = 4 }
+		artillery_battalion_light = { x = 2 y = 0 }
+		artillery_battalion_light = { x = 2 y = 1 }
+    }
+	support = {
+		engineer = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+    priority = 0
+}
+
+##### OOB #####
+units = {
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+        location = 6780 # Turin
+        division_template = "Brigata Fanteria"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		} 
+       location = 776 # Novara
+         division_template = "Brigata Fanteria"
+       start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		} 
+        location = 771 # Alessandria
+        division_template = "Divisione Fanteria"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		} 
+        location = 11723 # Cuneo
+        division_template = "Divisione Fanteria"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		} 
+        location = 3780 # Milano
+        division_template = "Divisione Fanteria"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		} 
+        location = 11568 # Brescia
+        division_template = "Divisione Fanteria"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		} 
+        location = 6790 # Piacenza
+        division_template = "Divisione Motorizzata"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		} 
+        location = 3604 # Verona
+        division_template = "Divisione Fanteria Autotrasportabile"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		} 
+        location = 3604 # Padova
+        division_template = "Divisione Fanteria Autotrasportabile"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		} 
+        location = 11598 # Bolzano
+        division_template = "Divisione Fanteria"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		} 
+        location = 6626 # Trieste
+        division_template = "Divisione Fanteria"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		} 
+        location = 628 # Udine
+        division_template = "Divisione Fanteria"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		} 
+        location = 11595 # Gorizia
+        division_template = "Divisione Fanteria"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		} 
+        location = 11735 # Abbazia
+        division_template = "Divisione Fanteria"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		} 
+        location = 6606 # Bologna
+        division_template = "Divisione Fanteria"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		} 
+        location = 9924 # Ravenna
+        division_template = "Divisione Fanteria"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		} 
+        location = 925 # Ancona
+        division_template = "Divisione Fanteria"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		} 
+        location = 6946 # Livorno
+        division_template = "Divisione Fanteria"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		} 
+        location = 9904 # Roma
+        division_template = "Divisione Fanteria"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		} 
+        location = 3885 # Perugia
+        division_template = "Brigata Fanteria"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		} 
+        location = 9784 # Bari
+        division_template = "Divisione Fanteria" 
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		} 
+        location = 819 # Napoli
+        division_template = "Divisione Fanteria" 
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		} 
+        location = 10074 # Palermo
+        division_template = "Divisione Fanteria" 
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		} 
+        location = 9772 # Sassari
+        division_template = "Brigata Fanteria"
+        start_experience_factor = 0.10
+        start_equipment_factor = 0.85
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+        location = 6780 # Turin
+        division_template = "Divisione Alpina"
+        start_experience_factor = 0.18
+        start_equipment_factor = 0.7
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+        location = 6780 # Turin
+        division_template = "Divisione Alpina"
+        start_experience_factor = 0.18
+        start_equipment_factor = 0.7
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+        location = 628 # Udine
+        division_template = "Divisione Alpina"
+        start_experience_factor = 0.18
+        start_equipment_factor = 0.7
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+        location = 11723 # Cuneo
+        division_template = "Divisione Alpina"
+        start_experience_factor = 0.18
+        start_equipment_factor = 0.7
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+        location = 628 # Udine
+        division_template = "Divisione Celere"
+        start_experience_factor = 0.18
+		force_equipment_variants = { Light_Tank_equipment_1934 = { owner = "ITA" } }
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+        location = 6793 # Ferrara
+        division_template = "Divisione Celere"
+        start_experience_factor = 0.18
+		force_equipment_variants = { Light_Tank_equipment_1934 = { owner = "ITA" } }
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+        location = 3780 # Milano
+        division_template = "Divisione Celere"
+        start_experience_factor = 0.18
+		force_equipment_variants = { Light_Tank_equipment_1934 = { owner = "ITA" } }
+    }
+	## Eritrea Front ##
+	# 1st Corps #
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		} 
+        location = 12766
+        division_template = "Divisione Fanteria" 
+        start_experience_factor = 0.14
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		} 
+        location = 12766
+        division_template = "Divisione Fanteria" 
+        start_experience_factor = 0.14
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+        location = 12766
+        division_template = "Divisione Alpina"
+        start_experience_factor = 0.18
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+        location = 12766
+        division_template = "Divisione CC.NN."
+        start_experience_factor = 0.10
+    }
+	# 2nd Corps #
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		} 
+        location = 12723
+        division_template = "Divisione Fanteria"
+        start_experience_factor = 0.14
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		} 
+        location = 12723
+        division_template = "Divisione Fanteria" 
+        start_experience_factor = 0.14
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+        location = 12723
+        division_template = "Divisione CC.NN."
+        start_experience_factor = 0.10
+    }
+	# Eritrean Corps #
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}
+        location = 12766
+        division_template = "Divisione Coloniale"
+        start_experience_factor = 0.1
+		acclimatization={
+			hot_climate=12300.000
+			max_acclimatization=12300.000
+		}
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}
+        location = 12766
+        division_template = "Divisione Coloniale"
+        start_experience_factor = 0.1
+		acclimatization={
+			hot_climate=12300.000
+			max_acclimatization=12300.000
+		}
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+        location = 12766
+        division_template = "Divisione CC.NN."
+        start_experience_factor = 0.10
+    }
+	# 3rd Corps #
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		} 
+        location = 13440
+        division_template = "Divisione Fanteria" 
+        start_experience_factor = 0.14
+    }
+	# 4th Corps #
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		} 
+        location = 11954 # Bengazi
+        division_template = "Divisione Fanteria"
+        start_experience_factor = 0.14
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+        location = 8043
+        division_template = "Divisione CC.NN."
+        start_experience_factor = 0.10
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+        location = 8043
+        division_template = "Divisione CC.NN."
+        start_experience_factor = 0.10
+    }
+	## Somali Front ##
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		} 
+        location = 2020 # Messina
+        division_template = "Divisione Fanteria" 
+        start_experience_factor = 0.14
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+        location = 2020 # Messina
+        division_template = "Divisione Coloniale"
+        start_experience_factor = 0.1
+		acclimatization={
+			hot_climate=12300.000
+			max_acclimatization=12300.000
+		}
+    }
+    division = {
+        name = "Regio Corpo Truppe Coloniali della Somalia Italiana"
+        location = 2020 # Messina
+        division_template = "Divisione Coloniale"
+        start_experience_factor = 0.1
+		acclimatization={
+			hot_climate=12300.000
+			max_acclimatization=12300.000
+		}
+    }
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+        location = 2020 # Messina
+        division_template = "Divisione CC.NN."
+        start_experience_factor = 0.08 #This division was made up of WWI veterans, including an entire battalion of amputees.
+	}
+	##### NAVAL UNITS #####
+### 	Italian Royal Navy ###
+#---------------------   Prima Squadra - Taranto ------------------------------------------------
+	navy = {
+		name = "Prima Squadra" 
+		base = 11837
+		location = 11837 #Taranto
+		ship = { name = "RN Alberico da Barbiano" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = ITA } } }	
+		ship = { name = "RN Alberto da Giussano" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = ITA } } }	
+		ship = { name = "RN Armando Diaz" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = ITA } } }	
+		ship = { name = "RN Luigi Cadorna" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = ITA } } }	
+
+		ship = { name = "RN Giuseppe Miraglia" definition = escort_carrier equipment = { CV_equipment_1912 = { amount = 1 owner = ITA } } air_wings = {} }	
+		
+		ship = { name = "VIII Squadriglia Cacciatorpediniere" definition = destroyer equipment = { DD_equipment_1933 = {amount = 1 owner = ITA } } }			
+	}
+#---------------------   Seconda Squadra - Genoa ------------------------------------------------
+	navy = {
+		name = "Seconda Squadra" 
+		base = 6973
+		location = 6973 # La Spezia
+		ship = { name = "RN Pola" definition = heavy_cruiser equipment = { CA_equipment_1933 = {amount = 1 owner = ITA } } }	
+		ship = { name = "RN Trento" definition = heavy_cruiser equipment = { CA_equipment_1922 = {amount = 1 owner = ITA } } }	
+		ship = { name = "RN Bolzano" definition = heavy_cruiser equipment = { CA_equipment_1922 = {amount = 1 owner = ITA } } }	
+		ship = { name = "RN Trieste" definition = heavy_cruiser equipment = { CA_equipment_1922 = {amount = 1 owner = ITA } } }	
+		
+		ship = { name = "RN Duca d'Aosta" definition = light_cruiser equipment = { CL_equipment_1933 = {amount = 1 owner = ITA } } }	
+		ship = { name = "RN Muzio Attendolo" definition = light_cruiser equipment = { CL_equipment_1933 = {amount = 1 owner = ITA } } }	
+		ship = { name = "RN Raimondo Montecuccoli" definition = light_cruiser equipment = { CL_equipment_1933 = {amount = 1 owner = ITA } } }	
+				
+	}
+	
+#---------------------   Comando Navale Mar Egeo - Kalymnos ------------------------------------------------
+	navy = {
+		name = "Comando Navale Mar Egeo" 
+		base = 10007 
+		location = 10007 # Rhodes	
+
+		ship = { name = "IV Squadriglia Cacciatorpediniere" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = ITA } } }			
+		ship = { name = "VIII Squadriglia Torpediniere" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = ITA } } }				
+	}
+#---------------------   V Gruppo Sottomarini - Kalymnos ------------------------------------------------
+	navy = {
+		name = "V Gruppo Sottomarini" 
+		base = 10007 
+		location = 10007 # Rhodes	
+
+		ship = { name = "LI Squadriglia Sottomarini" definition = submarine equipment = { SS_equipment_1912 = {amount = 1 owner = ITA } } }			
+		ship = { name = "LII Squadriglia Sottomarini" definition = submarine equipment = { SS_equipment_1912 = {amount = 1 owner = ITA } } }				
+	}	
+#---------------------   XI Squadriglia Torpediniera - Tripoli ------------------------------------------------
+	navy = {
+		name = "XI Squadriglia Torpediniera" 
+		base = 6973
+		location = 6973 # La Spezia (Placeholder)
+
+		ship = { name = "XI Squadriglia Torpediniera" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = ITA } } }			
+	}	
+#---------------------   Comando Navale Libia - Tobruk ------------------------------------------------
+	navy = {
+		name = "Comando Navale Libia" 
+		base = 1130 
+		location = 1130 # Tobruk	
+		ship = { name = "RN San Giorgio" definition = heavy_cruiser equipment = { CA_equipment_1895 = {amount = 1 owner = ITA } } }	
+		
+		ship = { name = "RN Libia" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = ITA } } }	
+
+		ship = { name = "I Squadriglia Cacciatorpediniere" definition = destroyer equipment = { DD_equipment_1885 = {amount = 1 owner = ITA } } }			
+		ship = { name = "XII Squadriglia Torpediniere" definition = destroyer equipment = { DD_equipment_1885 = {amount = 1 owner = ITA } } }							
+	}
+#---------------------   VI Gruppo Sommergibili - Tobruk ------------------------------------------------
+	navy = {
+		name = "VI Gruppo Sommergibili" 
+		base = 1130 
+		location = 1130 # Tobruk	
+
+		ship = { name = "LXI Squadra Sommergibili" definition = submarine equipment = { SS_equipment_1912 = {amount = 1 owner = ITA } } }								
+	}
+#---------------------   Comando Navale AOI - Massawa ------------------------------------------------
+	navy = {
+		name = "Comando Navale Libia" 
+		base = 12766 
+		location = 12766 # Asmara, Eritrea
+		ship = { name = "III Squadriglia Cacciatorpediere" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = ITA } } }			
+		ship = { name = "V Squadriglia Cacciatorpediere" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = ITA } } }							
+	}
+#---------------------   VIII Gruppo Sottomarini - Massawa ------------------------------------------------
+	navy = {
+		name = "VIII Gruppo Sottomarini" 
+		base = 12766 
+		location = 12766 # Asmara, Eritrea
+		ship = { name = "LXXXI Squadra" definition = submarine equipment = { SS_equipment_1912 = {amount = 1 owner = ITA } } }								
+		ship = { name = "LXXXII Squadra" definition = submarine equipment = { SS_equipment_1912 = {amount = 1 owner = ITA } } }								
+	}	
+#---------------------   Comando Flotta Sommergibili-I Gruppo - Genoa ------------------------------------------------
+	navy = {
+		name = "Comando Flotta Sommergibili-I Gruppo" 
+		base = 6973
+		location = 6973 # La Spezia
+		ship = { name = "XI Squadriglia Sommergibili" definition = submarine equipment = { SS_equipment_1922 = {amount = 1 owner = ITA } } }								
+		ship = { name = "XII Squadriglia Sommergibili" definition = submarine equipment = { SS_equipment_1922 = {amount = 1 owner = ITA } } }								
+		ship = { name = "XIII Squadriglia Sommergibili" definition = submarine equipment = { SS_equipment_1922 = {amount = 1 owner = ITA } } }								
+		ship = { name = "XIV Squadriglia Sommergibili" definition = submarine equipment = { SS_equipment_1922 = {amount = 1 owner = ITA } } }								
+		ship = { name = "XV Squadriglia Sommergibili" definition = submarine equipment = { SS_equipment_1922 = {amount = 1 owner = ITA } } }								
+		ship = { name = "XVII Squadriglia Sommergibili" definition = submarine equipment = { SS_equipment_1922 = {amount = 1 owner = ITA } } }								
+	}	
+#---------------------   Comando Flotta Sommergibili-II Gruppo - Napoli ------------------------------------------------
+	navy = {
+		name = "Comando Flotta Sommergibili-II Gruppo" 
+		base = 819
+		location = 819 # Naples
+		ship = { name = "XXI Squadriglia Sommergibili" definition = submarine equipment = { SS_equipment_1933 = {amount = 1 owner = ITA } } }								
+		ship = { name = "XXII Squadriglia Sommergibili" definition = submarine equipment = { SS_equipment_1933 = {amount = 1 owner = ITA } } }								
+	}	
+#---------------------   Dip. Mil. Mar. 'Jonio e Basso Adriatico' - Taranto ------------------------------------------------
+	navy = {
+		name = "Dip. Mil. Mar. 'Jonio e Basso Adriatico'" 
+		base = 11837
+		location = 11837 #Taranto
+		ship = { name = "RN Taranto" definition = light_cruiser equipment = { CL_equipment_1900 = {amount = 1 owner = ITA } } }	
+		ship = { name = "RN Bari" definition = light_cruiser equipment = { CL_equipment_1912 = {amount = 1 owner = ITA } } }	
+
+		ship = { name = "II Squadriglia Cacciatorpediniere" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = ITA } } }			
+
+		ship = { name = "RN Zara" definition = heavy_cruiser equipment = { CA_equipment_1933 = {amount = 1 owner = ITA } } }	
+		ship = { name = "RN Gorizia" definition = heavy_cruiser equipment = { CA_equipment_1933 = {amount = 1 owner = ITA } } }	
+		ship = { name = "RN Fiume" definition = heavy_cruiser equipment = { CA_equipment_1933 = {amount = 1 owner = ITA } } }	
+
+		ship = { name = "XIV Squadriglia Cacciatorpediniere" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = ITA } } }			
+	}
+#---------------------   I Squadra di Marina Trasporti - Naples ------------------------------------------------
+	navy = {
+		name = "I Squadra di Marina Trasporti" 
+		base = 819
+		location = 819 # Naples
+		ship = { name = "4a Flottiglia Torpediniere" definition = destroyer equipment = { DD_equipment_1885 = {amount = 1 owner = ITA } } }			
+		ship = { name = "6a Flottiglia Torpediniere" definition = destroyer equipment = { DD_equipment_1885 = {amount = 1 owner = ITA } } }							
+	}
+#---------------------   II Squadra di Marina Trasporti - Naples ------------------------------------------------
+	navy = {
+		name = "II Squadra di Marina Trasporti" 
+		base = 819
+		location = 819 # Naples
+		ship = { name = "1a Flottiglia Torpediniere" definition = destroyer equipment = { DD_equipment_1885 = {amount = 1 owner = ITA } } }			
+		ship = { name = "2a Flottiglia Torpediniere" definition = destroyer equipment = { DD_equipment_1885 = {amount = 1 owner = ITA } } }							
+	}
+#---------------------   1a Squadra di Marina - Naples ------------------------------------------------
+	navy = {
+		name = "1a Squadra di Marina" 
+		base = 819
+		location = 819 # Naples
+		ship = { name = "3a Flottiglia Torpediniere" definition = destroyer equipment = { DD_equipment_1885 = {amount = 1 owner = ITA } } }			
+		ship = { name = "5a Flottiglia Torpediniere" definition = destroyer equipment = { DD_equipment_1885 = {amount = 1 owner = ITA } } }							
+	}
+#---------------------   3a Squadra di Marina - Taranto ------------------------------------------------
+	navy = {
+		name = "1a Squadra di Marina" 
+		base = 11837
+		location = 11837 #Taranto
+		ship = { name = "VI Squadriglia Torpediniere" definition = destroyer equipment = { DD_equipment_1916 = {amount = 1 owner = ITA } } }			
+		ship = { name = "XVI Squadriglia Cacciatorpediniere" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = ITA } } }							
+		ship = { name = "XV Squadriglia Cacciatorpediniere" definition = destroyer equipment = { DD_equipment_1912 = {amount = 1 owner = ITA } } }							
+	}
+#---------------------   4a Squadra di Marina - Genoa ------------------------------------------------
+	navy = {
+		name = "1a Squadra di Marina" 
+		base = 6973
+		location = 6973 # La Spezia
+		ship = { name = "X Squadriglia Cacciatorpediniere" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = ITA } } }			
+
+		ship = { name = "RN Bartolomeo Colleoni" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = ITA } } }	
+		ship = { name = "RN Giovanni dalle Bande Nere" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = ITA } } }	
+	}	
+}
+
+### Air Wings ###
+air_wings = {
+	### 1a Squadra Aerea -- Milan/Turin
+	158 = { 
+		# 2a Divisione Aerea 'Borea'
+		Fighter_equipment_1933 = {
+			owner = "ITA" 
+			amount = 80
+		}
+		# 4a Divisione Aerea 'Drago'
+		# 6a Divisione Aerea 'Falco'
+		Tactical_Bomber_equipment_1933 =  {
+			owner = "ITA" 
+			amount = 128
+		}
+	}
+
+	### 2a Squadra Aerea -- Palermo
+	115 = {
+		# 1a Divisione Aerea 'Aquila'
+		Fighter_equipment_1933 = {
+			owner = "ITA" 
+			amount = 80
+		}
+		# 3a Divisione Aerea 'Centauro'
+		Tactical_Bomber_equipment_1933 =  {
+			owner = "ITA" 
+			amount = 32
+		}
+	}
+
+	### 3a Squadra Aerea -- Rome
+	2 = {
+		# 5a Divisione Aerea 'Eolo'
+		Tactical_Bomber_equipment_1933 =  {
+			owner = "ITA" 
+			amount = 64
+		}
+		# 8a Divisione Aerea 'Ibis'
+		Fighter_equipment_1933 = {
+			owner = "ITA" 
+			amount = 80
+		}
+	}
+
+	### 4a Squadra Aerea -- Bari
+	156 = {
+		# 9a Divisione Aerea 'Leone'
+		Naval_Bomber_equipment_1936 = {
+			owner = "ITA" 
+			amount = 48
+		}
+	}
+
+	### Commando Aeronautica Sardegna -- Caligari
+	114 = {
+		# 10a Divisione Aerea 'Marte'
+		Naval_Bomber_equipment_1936 = {
+			owner = "ITA" 
+			amount = 24
+		}
+	}
+
+	### Commando Aeronautica Libia -- Tripoli
+	448 = {
+		Fighter_equipment_1933 =  {
+			owner = "ITA" 
+			amount = 20
+		}
+		Tactical_Bomber_equipment_1933 =  {
+			owner = "ITA" 
+			amount = 32
+		}
+	}
+
+	### Commando Aeronautica Africa Orientale -- Eritrea
+	550 = {
+		Fighter_equipment_1933 =  {
+			owner = "ITA" 
+			amount = 40
+		}
+		Tactical_Bomber_equipment_1933 =  {
+			owner = "ITA" 
+			amount = 32
+		}
+		CAS_equipment_1 =  {
+			owner = "ITA" 
+			amount = 48
+		}
+	}
+}
+
+	
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+
+	if = {
+		limit = { is_tutorial = no }
+
+		add_equipment_production = {
+			equipment = {
+				type = Small_Arms_equipment_1936
+				creator = "ITA"
+			}
+			requested_factories = 4
+			progress = 0.1
+			efficiency = 50
+		}
+
+		add_equipment_production = {
+			equipment = {
+				type = support_equipment_1
+				creator = "ITA" 
+			}
+			requested_factories = 1
+			progress = 0.3
+			efficiency = 50
+		}
+
+		add_equipment_production = {
+			equipment = {
+				type = Light_Tank_equipment_1934
+				creator = "ITA" 
+			}
+			requested_factories = 1
+			progress = 0.4
+			efficiency = 50
+		}
+
+		add_equipment_production = {
+			equipment = {
+				type = truck_equipment_1936
+				creator = "ITA" 
+			}
+			requested_factories = 2
+			progress = 0.4
+			efficiency = 50
+		}
+
+		add_equipment_production = {
+			equipment = {
+				type = CAS_equipment_1
+				creator = "ITA" 
+			}
+			requested_factories = 1
+			progress = 0.2
+			efficiency = 50
+		}
+
+		### Under Contruction Notes ###
+		# BB: RM Conte di Cavour (BB_2: Caio Duilio Class) (Refit, Recomm. 1-Jun, 1937) 	
+		add_equipment_production = {
+			equipment = {
+				type = BB_equipment_1933
+				creator = "ITA" 
+			}
+			requested_factories = 1
+			progress = 0.20
+			amount = 1
+		}
+		# BB: RM Giulio Cesare (BB_2: Caio Duilio Class) (Refit, Recomm. 3-Jun, 1937)
+		add_equipment_production = {
+			equipment = {
+				type = BB_equipment_1933
+				creator = "ITA" 
+			}
+			requested_factories = 1
+			progress = 0.20
+			amount = 1
+		}
+		# CL: RM Eugenio di Savoia (Montecuccoli variant) (Comm. 16-Jan, 1936)
+		add_equipment_production = {
+			equipment = {
+				type = CL_equipment_1936
+				creator = "ITA"
+			}
+			requested_factories = 1
+			progress = 0.95
+			amount = 1
+		}
+		# DD: Maestrale variant (x2) ("Perseo" "Sirio")
+		add_equipment_production = {
+			equipment = {
+				type = DD_equipment_1936
+				creator = "ITA"
+			}
+			requested_factories = 2
+			progress = 0.70
+			amount = 2
+		}
+		# SS: Sirena variant (x1) ("Enrico Tazzoli")
+		add_equipment_production = {
+			equipment = {
+				type = SS_equipment_1936
+				creator = "ITA"
+			}
+			requested_factories = 1
+			progress = 0.50
+			amount = 1
+		}
+	}
+
+}
+	#####################

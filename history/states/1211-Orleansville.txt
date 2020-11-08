@@ -1,0 +1,41 @@
+state={
+	id=1211
+	name="STATE_1211"
+
+	history={
+		owner = FRA
+		victory_points = {
+			1013 2
+		}
+		victory_points = {
+			13871 2
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ALG
+		1941.6.22 = {
+			owner = VIC
+
+		}
+		1942.11.22 = {
+			owner = FRA
+
+		}
+		1972.1.1 = {
+			owner = ALG
+			set_state_name = Chlef
+			set_province_name = { id = 1013 name = "Chlef" }
+
+		}
+
+	}
+
+	provinces={
+		1013 4146 7040 12020 12760 13871 13876 13877 
+	}
+	manpower=1013718
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,195 @@
+###########################
+# Plan Z - U
+###########################
+defined_text = {
+    name = GetFocusName_GER_Plan_Z
+    # Plan Z
+    text = {
+        trigger = {
+            NOT = {
+                #has_completed_focus =GER_Donitz_UBoot_Fleet
+            }
+        }
+        localization_key = GER_Plan_Z_2
+    }
+    # Plan U
+    text = {
+        trigger = {
+           #has_completed_focus =GER_Donitz_UBoot_Fleet
+        }
+        localization_key = GER_Plan_U
+    }
+}
+###########################
+# Ma Zhonzying's Mood
+###########################
+defined_text = { #
+	name = GetMaZhongyingMoodLevel
+	text = {
+		trigger = {
+			check_variable = { var = TNG_Ma_Zhongying_Mood value = 20 compare = greater_than_or_equals }
+			check_variable = { var = TNG_Ma_Zhongying_Mood value = 30 compare = less_than_or_equals }
+		}
+		localization_key = TNG_Ma_Zhongying_Determined
+	}
+	text = {
+		trigger = {
+			check_variable = { var = TNG_Ma_Zhongying_Mood value = 0 compare = greater_than_or_equals }
+			check_variable = { var = TNG_Ma_Zhongying_Mood value = 20 compare = less_than }
+
+		}
+		localization_key = TNG_Ma_Zhongying_Pleased
+	}
+	text = {
+		trigger = {
+			check_variable = { var = TNG_Ma_Zhongying_Mood value = -10 compare = greater_than_or_equals }
+			check_variable = { var = TNG_Ma_Zhongying_Mood value = 0 compare = less_than }
+
+		}
+		localization_key = TNG_Ma_Zhongying_Frustrated
+	}
+	text = {
+		trigger = {
+			check_variable = { var = TNG_Ma_Zhongying_Mood value = -20 compare = greater_than_or_equals }
+			check_variable = { var = TNG_Ma_Zhongying_Mood value = -10 compare = less_than }
+
+		}
+		localization_key = TNG_Ma_Zhongying_Depressed
+	}
+	text = {
+		trigger = {
+			check_variable = { var = TNG_Ma_Zhongying_Mood value = -30 compare = greater_than_or_equals }
+			check_variable = { var = TNG_Ma_Zhongying_Mood value = -20 compare = less_than }
+
+		}
+		localization_key = TNG_Ma_Zhongying_Insane
+	}
+}
+###########################
+# House/Road building Condition
+###########################
+defined_text = {
+    name = GetHouseBuildingConditions
+	text = {
+		trigger = {
+			check_variable = { house_building_condition < 3 }
+		}
+		localization_key = "House_Building_Abysmal"
+	}
+	text = {
+		trigger = {
+			check_variable = { house_building_condition > 3 }
+			check_variable = { house_building_condition < 7 }
+		}
+		localization_key = "House_Building_Mediocre"
+	}
+	text = {
+		trigger = {
+			check_variable = { house_building_condition > 7 }
+		}
+		localization_key = "House_Building_Excellent"
+	}
+}
+
+defined_text = {
+    name = GetHouseBuildingPrecentage
+	text = {
+		trigger = {
+			check_variable = { house_building_condition = 0 }
+		}
+		localization_key = "House_Building_0"
+	}
+	text = {
+		trigger = {
+			check_variable = { house_building_condition = 2 }
+		}
+		localization_key = "House_Building_20"
+	}
+	text = {
+		trigger = {
+			check_variable = { house_building_condition = 4 }
+		}
+		localization_key = "House_Building_40"
+	}
+	text = {
+		trigger = {
+			check_variable = { house_building_condition = 6 }
+		}
+		localization_key = "House_Building_60"
+	}
+	text = {
+		trigger = {
+			check_variable = { house_building_condition = 8 }
+		}
+		localization_key = "House_Building_80"
+	}
+	text = {
+		trigger = {
+			check_variable = { house_building_condition = 10 }
+		}
+		localization_key = "House_Building_100"
+	}
+}
+
+defined_text = {
+    name = GetRoadBuildingConditions
+	text = {
+		trigger = {
+			check_variable = { Road_building_condition < 3 }
+		}
+		localization_key = "Road_Building_Abysmal"
+	}
+	text = {
+		trigger = {
+			check_variable = { Road_building_condition > 3 }
+			check_variable = { house_building_condition < 7 }
+		}
+		localization_key = "Road_Building_Mediocre"
+	}
+	text = {
+		trigger = {
+			check_variable = { house_building_condition > 7 }
+		}
+		localization_key = "Road_Building_Excellent"
+	}
+}
+
+defined_text = {
+    name = GetRoadBuildingPrecentage
+	text = {
+		trigger = {
+			check_variable = { Road_building_condition = 0 }
+		}
+		localization_key = "Road_Building_0"
+	}
+	text = {
+		trigger = {
+			check_variable = { house_building_condition = 2 }
+		}
+		localization_key = "Road_Building_20"
+	}
+	text = {
+		trigger = {
+			check_variable = { house_building_condition = 4 }
+		}
+		localization_key = "Road_Building_40"
+	}
+	text = {
+		trigger = {
+			check_variable = { house_building_condition = 6 }
+		}
+		localization_key = "Road_Building_60"
+	}
+	text = {
+		trigger = {
+			check_variable = { house_building_condition = 8 }
+		}
+		localization_key = "Road_Building_80"
+	}
+	text = {
+		trigger = {
+			check_variable = { house_building_condition = 10 }
+		}
+		localization_key = "Road_Building_100"
+	}
+}

@@ -1,0 +1,401 @@
+﻿#########################################################################
+# Australia - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 674
+	oob = "AST_1933"
+	set_convoys = 100
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+		tech_support = 1		
+		tech_engineers = 1
+		tech_recon = 1
+		### Arty Tech
+		Artillery_1910 = 1
+		Artillery_Range_Finding_and_Surveying_Tools = 1
+		Artillery_1916 = 1
+		### Armor Tech
+		Armored_Car_1911 = 1
+		Armored_Car_1916 = 1
+		Armored_Car_1926 = 1	
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		Light_Tank_1917 = 1
+		Light_Tank_1919 = 1
+		### Light Air Tech
+		Unarmed_Recon_1910 = 1
+		Fighter_1914 = 1
+		Fighter_1916 = 1
+		Fighter_1918 = 1
+		Fighter_1924 = 1
+		Fighter_1933 = 1
+		Fighter_Bomber_1916 = 1
+		Fighter_Bomber_1918 = 1
+		Fighter_Bomber_1924 = 1
+		cv_Fighter_1933 = 1
+		### Heavy Air Tech
+		Tactical_Bomber_1910 = 1
+		Tactical_Bomber_1914 = 1
+		Tactical_Bomber_1916 = 1
+		Tactical_Bomber_1918 = 1
+		Tactical_Bomber_1925 = 1
+		Tactical_Bomber_1933 = 1
+		Strategic_Bomber_1916 = 1
+		Strategic_Bomber_1933 = 1
+		### Naval Tech	
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		DD_1922 = 1
+		DD_1933 = 1	
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+		CL_1922 = 1
+		CL_1933 = 1	
+		CA_1885 = 1
+		CA_1895 = 1
+		CA_1906 = 1
+		CA_1922 = 1
+		CA_1933 = 1	
+		BC_1906 = 1
+		BC_1912 = 1
+		BC_1916 = 1
+		CV_1912 = 1
+		### Land Doctrine Tech
+		Twentieth_Century_Warfare = 1
+		Leading_by_Order = 1
+		Strongpoint = 1
+		Mass_Charge = 1
+		Static_Defence = 1
+		Counterattack = 1
+		Defence_In_Depth = 1
+		Separate_Arms_Force = 1
+		Combined_Arms_Effort = 1
+		Specialized_Branch_Tactical_Experience = 1
+		### Naval Doctrine
+		fleet_in_being = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1934.9.15"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 2
+		democratic = 97
+		socialist = 1
+		communist = 0
+	}
+	add_ideas = {
+	# Cabinet
+		AST_HoS_Isaac_Isaacs
+		AST_FM_George_F_Pearce
+		AST_AM_Robert_A_Parkhill
+		AST_MoS_Thomas_Paterson
+		AST_HoI_Alexander_McLachlan
+	# Military Staff
+		AST_CoStaff_Joseph_A_Lyons
+		AST_CoArmy_John_Lavarack
+		AST_CoNavy_Ragnar_M_Colvin
+		AST_CoAir_Richard_Williams
+	}
+	#######################
+	# Diplomacy
+	#######################
+	add_to_tech_sharing_group = commonwealth_research
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Eric Campbell"
+		desc = ""
+		picture = "P_F_Eric_Campbell.tga"
+		expire = "1965.1.1"
+		ideology = fascism
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Fascism HoS_Barking_Buffoon }
+	}
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "William Birdwood"
+		desc = ""
+		picture = "P_A_William_Birdwood.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = { POSITION_Governor_General SUBIDEOLOGY_Authoritarian_Democracy HoS_Autocratic_Charmer }
+	}
+	# Democracy
+	create_country_leader = { 
+		name = "Joseph A. Lyons" 
+		desc = "" 
+		picture = "P_D_Joseph_Lyons.tga" 
+		expire = "1965.1.1" 
+		ideology = social_conservatism 
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Conservatism HoG_Flamboyant_Tough_Guy }
+	}
+	# Left-Wing Radicalism
+	create_country_leader = {
+		name = "Ernie Judd"
+		desc = ""
+		picture = "P_S_Ernie_Jude.tga"
+		expire = "1965.1.1"
+		ideology = syndicalism
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Syndicalism HoG_Ambitious_Union_Boss }
+	}
+	# Marxism-Leninism
+	create_country_leader = {
+		name = "Lance Sharkey"
+		desc = ""
+		picture = "P_C_Lance_Sharkey.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = { POSITION_General_Secretary SUBIDEOLOGY_Marxism_Leninism HoS_Barking_Buffoon }
+	}
+	#######################
+	# Generals
+	#######################
+	create_corps_commander = {
+		name = "Leslie Morshead"
+		picture = "M_Leslie_Morshead.tga"
+		traits = { }
+		skill = 4
+    	attack_skill = 4
+    	defense_skill = 2
+    	planning_skill = 5
+    	logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Thomas Blamey"
+		picture = "M_Thomas_Blamey.tga"
+		traits = { }
+		skill = 4
+    	attack_skill = 4
+    	defense_skill = 3
+    	planning_skill = 3
+    	logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Henry Wynter"
+		picture = "M_Henry Wynter.tga"
+		traits = { }
+		skill = 4
+    	attack_skill = 3
+    	defense_skill = 4
+    	planning_skill = 3
+    	logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Alan Vasey"
+		picture = "M_Alan_Vasey.tga"
+		traits = { hill_fighter }
+		skill = 3
+    	attack_skill = 2
+    	defense_skill = 4
+    	planning_skill = 3
+    	logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Horace Robertson"
+		picture = "M_Horace_Robertson.tga"
+		traits = { desert_fox }
+		skill = 3
+    	attack_skill = 3
+    	defense_skill = 1
+    	planning_skill = 3
+    	logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "John Northcott"
+		picture = "M_John_Northcott.tga"
+		traits = { armor_officer}
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	#######################
+	# Admirals
+	#######################
+	create_navy_leader = {
+		name = "Harold Farncomb"
+		gfx = "M_Harold_Farncomb.tga"
+		traits = { aviation_enthusiast naval_lineage }
+		skill = 4
+		attack_skill = 3
+		defense_skill = 3
+		maneuvering_skill = 3
+		coordination_skill = 4
+	}
+
+	create_navy_leader = {
+		name = "Victor Crutchley"
+		gfx = "M_Victor Crutchley.tga"
+		traits = { bold }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 2
+		maneuvering_skill = 3
+		coordination_skill = 2
+	}
+}
+#########################################################################
+# Australia - 1936
+#########################################################################
+1936.1.1 = {
+	capital = 674
+	oob = "AST_1936"
+	set_convoys = 202
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		tech_support = 1		
+		tech_engineers = 1
+		tech_recon = 1
+		Artillery_1910 = 1
+	
+		Fighter_1933 = 1
+		Fighter_1936 = 1
+		cv_Fighter_1933 = 1
+		Torpedo_bomber_1936 = 1
+		Strategic_Bomber_1933 = 1
+		Naval_Bomber_1936 = 1
+		Tactical_Bomber_1933 = 1
+		Tactical_Bomber_1936 = 1
+		CAS_1936 = 1
+	#Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+	# Naval stuff	
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		DD_1922 = 1
+		DD_1933 = 1	
+	
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+		CL_1922 = 1
+		CL_1933 = 1	
+	
+		CA_1885 = 1
+		CA_1895 = 1
+		CA_1906 = 1
+		CA_1922 = 1
+		CA_1933 = 1	
+		
+		BC_1906 = 1
+		BC_1912 = 1
+		BC_1916 = 1
+	
+		CV_1912 = 1
+	#	
+		Trench_Warfare = 1
+
+		fleet_in_being = 1
+	}
+	####################### 
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1934.9.15"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 2
+		democratic = 97
+		socialist = 1
+		communist = 0
+	}
+	add_ideas = {
+	# Cabinet
+		AST_FM_George_F_Pearce
+		AST_AM_Robert_A_Parkhill
+		AST_MoS_Thomas_Paterson
+		AST_HoI_Alexander_McLachlan
+	# Military Staff
+		AST_CoStaff_Joseph_A_Lyons
+		AST_CoArmy_John_Lavarack
+		AST_CoNavy_Ragnar_M_Colvin
+		AST_CoAir_Richard_Williams
+	}
+}
+#########################################################################
+# Australia - 1939
+#########################################################################
+1939.9.1 = {
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = { 
+		name = "Robert G. Menzies" 
+		desc = "" 
+		picture = "P_D_Robert_Menzies.tga" 
+		expire = "1965.1.1" 
+		ideology = social_conservatism 
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Conservatism HoG_Backroom_Backstabber }
+	}
+}
+#########################################################################
+# Australia - 1941
+#########################################################################
+1941.6.22 = {
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = { 
+		name = "John J. Curtin" 
+		desc = "John_Curtin_desc" 
+		picture = "P_D_John_Curtin.tga" 
+		expire = "1965.1.1" 
+		ideology = social_democracy 
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Social_Democracy HoG_Silent_Workhorse }
+	}
+}
+#########################################################################
+# Australia - 1946
+#########################################################################
+1946.1.1 = {
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = { 
+		name = "Ben Chifley" 
+		desc = "Ben_Chifley_desc" 
+		picture = "P_D_Ben_Chifley.tga" 
+		expire = "1965.1.1" 
+		ideology = social_democracy 
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Social_Democracy HoG_Political_Protege }
+	}
+}

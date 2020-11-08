@@ -1,0 +1,72 @@
+﻿#########################################################################
+# East Turkestan - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 287
+	oob = "ETS_1933"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+	
+		Support_Weapons_1905 = 1
+		Support_Weapons_1936 = 1
+		
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		
+		construction1 = 1
+		construction2 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 10
+		authoritarian = 60
+		democratic = 20
+		socialist = 10
+		communist = 0
+	}
+	add_ideas = {
+		# Spirits
+		ETS_Nomadic_Thoughts
+		ETS_Separatist_Agendas
+		ETS_Turkics_of_Different_Kinds
+		ETS_Overwhelming_Illiterracy
+		# Laws and Policies
+		limited_exports
+		one_year_service
+		partial_economic_mobilisation
+		#Government
+		ETS_HoG_Sabit_Damolla
+	}
+	#######################
+	# Leaders
+	#######################
+	create_country_leader = {
+		name = "Muhammad Amin Bughra"
+		desc = "Muhammad_Amin_Bughra_desc"
+		picture = "P_A_Muhammad_Amin_Bughra.tga"
+		expire = "1965.1.1"
+		ideology = monarchism
+		traits = { POSITION_Emir SUBIDEOLOGY_Monarchism HoS_Autocratic_Charmer }
+	}
+}

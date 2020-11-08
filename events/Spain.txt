@@ -1,0 +1,604 @@
+﻿####################################
+# Darkest Hour Events : Spain 1936
+####################################
+
+add_namespace = DH_Spain_Politics
+add_namespace = DH_Spain_Elections
+add_namespace = DH_Spain
+
+### 1933 Start Date (events start at 100) ###
+#########################################################################
+# The 2nd republic
+#########################################################################
+country_event = { #ON STARTUP
+	id = DH_Spain.101
+	title = DH_Spain.101.t
+	desc = DH_Spain.101.d
+	picture = GFX_report_SPR_The_Young_Republic
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+		has_start_date < 1933.01.02
+	}
+	
+	#república, siempre república
+	option = {
+		name = DH_Spain.101.A
+	}
+}
+#########################################################################
+# Azana Resigns
+#########################################################################
+country_event = {
+	id = DH_Spain.102
+	title = DH_Spain.102.t
+	desc = DH_Spain.102.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+		has_government = democratic
+		date > 1933.9.12
+		has_start_date < 1933.9.12
+	}
+	
+	#He anticipates the results
+	option = {
+		name = DH_Spain.102.A
+		add_ideas = SPR_HoG_Alejandro_Lerroux_Garcia
+	}
+}
+#########################################################################
+# 1933 General Election
+#########################################################################
+country_event = {
+	id = DH_Spain.103
+	title = DH_Spain.103.t
+	desc = DH_Spain.103.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+		has_government = democratic
+		date > 1933.11.19
+		has_start_date < 1933.11.19
+	}
+	
+	immediate = {
+		add_ideas = { SPR_FM_Leonardo_Pita SPR_AM_Antonio_Zarate }
+		add_popularity = { ideology = fascist popularity = 0.02 }
+		add_popularity = { ideology = democratic popularity = 0.19 }
+		add_popularity = { ideology = socialist popularity = -0.21 }
+		set_party_name = { ideology = democratic long_name = "CEDA-RR Coalition" name = "CEDA-RR Coalition" }
+	}
+	
+	#Victoria para la derecha
+	option = {
+		name = DH_Spain.103.A
+		add_political_power = -100
+		add_stability = 0.05
+		hidden_effect = { complete_national_focus = SPR_1933_CEDA_Victory }
+		hidden_effect = { country_event = { id = DH_Spain.104 days = 2 } }
+	}
+}
+#########################################################################
+# The Leftists leave the Government
+#########################################################################
+country_event = {
+	id = DH_Spain.104
+	title = DH_Spain.104.t
+	desc = DH_Spain.104.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#At least we scared the bastards!
+	option = {
+		name = DH_Spain.104.A
+		add_political_power = -50
+		add_stability = -0.05
+	}
+}
+#########################################################################
+# Revolutionary Strikes!
+#########################################################################
+country_event = {
+	id = DH_Spain.105
+	title = DH_Spain.105.t
+	desc = DH_Spain.105.d
+	picture = GFX_news_SPR_Asturian_Miners_Strike
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+		has_government = democratic
+		date > 1934.1.4
+		has_start_date < 1936.01.01
+	}
+	
+	#Punish these Traitors!
+	option = {
+		name = DH_Spain.105.A
+		add_ideas = SPR_revolutionary_strikes
+	}
+}
+#########################################################################
+# Asturian Organized Coal Strike
+#########################################################################
+news_event = {
+	id = DH_Spain.106
+	title = DH_Spain.106.t
+	desc = DH_Spain.106.d
+	picture = GFX_news_SPR_1934_Revolution
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+		has_government = democratic
+		date > 1934.10.4
+		has_start_date < 1936.01.01
+	}
+	
+	#Punish these Traitors!
+	option = {
+		name = DH_Spain.106.A
+		add_stability = -0.1
+		add_war_support = 0.05	
+	}
+}
+#########################################################################
+# Straperlo Affair
+#########################################################################
+country_event = {
+	id = DH_Spain.107
+	title = DH_Spain.107.t
+	desc = DH_Spain.107.d
+	picture = GFX_news_SPR_Straperlo_Affair
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+		has_government = democratic
+		date > 1935.9.25	
+		has_start_date < 1936.01.01
+	}
+	
+	#The corrupt must leave!
+	option = {
+		name = DH_Spain.107.A
+		add_political_power = -100
+		add_ideas = SPR_HoG_Joaquin_Chapaprieta_y_Torregrosa
+		add_popularity = { ideology = democratic popularity = -0.05 }
+		add_popularity = { ideology = socialist popularity = 0.05 }
+	}
+}
+#########################################################################
+# Divisions within the Right
+#########################################################################
+country_event = {
+	id = DH_Spain.108
+	title = DH_Spain.108.t
+	desc = DH_Spain.108.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+		has_government = democratic
+		date > 1935.12.14	
+		has_start_date < 1936.01.01
+	}
+	
+	#The old Chapaprieta has had enough
+	option = {
+		name = DH_Spain.108.A
+		add_ideas = SPR_HoG_Manuel_Portela_Valladares
+		add_political_power = -100
+		add_popularity = { ideology = democratic popularity = -0.05 }
+		add_popularity = { ideology = socialist popularity = 0.05 }
+	}
+}
+### Politics of the Right Events ###
+#########################################################################
+# The Issue of Land Reform
+#########################################################################
+country_event = {
+	id = DH_Spain.201
+	title = DH_Spain.201.t
+	desc = DH_Spain.201.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#These are communist policies! Repeal them!
+	option = {
+		name = DH_Spain.201.A
+		add_political_power = -50
+	}
+	#We need to compromise!
+	option = {
+		name = DH_Spain.201.B
+		add_stability = 0.05
+	}
+}
+#########################################################################
+# Eight Hour Workday
+#########################################################################
+country_event = {
+	id = DH_Spain.202
+	title = DH_Spain.202.t
+	desc = DH_Spain.202.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#The unions are enslaving our economy!
+	option = {
+		name = DH_Spain.202.A
+		add_political_power = -50
+	}
+	#We need modern policies!
+	option = {
+		name = DH_Spain.202.B
+		add_stability = 0.05
+	}
+}
+#########################################################################
+# The Church and the Republic
+#########################################################################
+country_event = {
+	id = DH_Spain.203
+	title = DH_Spain.203.t
+	desc = DH_Spain.203.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#It is time to put Christ before these atheists!
+	option = {
+		name = DH_Spain.203.A
+		add_political_power = -100
+		add_stability = 0.05
+	}
+	#Let's find a rational separation of church and state.
+	option = {
+		name = DH_Spain.203.B
+		add_stability = 0.1
+	}
+}
+
+
+
+### 1936 Start Date (Events start at 1) ###
+
+#########################################################################
+# Popular Front Forms
+#########################################################################
+country_event = {
+	id = DH_Spain_Elections.1
+	title = DH_Spain_Elections.1.t
+	desc = DH_Spain_Elections.1.d
+	picture = GFX_DH_1936_Elections
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+		if = {
+			limit = { has_start_date > 1936.01.01 }
+			date > 1936.1.4
+		}
+		else_if = {
+			limit = { has_start_date < 1936.01.01 }
+			date > 1936.1.4
+		}
+	}
+	immediate = {
+		hidden_effect = { set_country_flag = SPR_popular_front_formed }
+		set_country_flag = SPR_popular_front_formed
+	}
+	
+	#The left finds strength in numbers!
+	option = {
+		name = DH_Spain_Elections.1.A
+		add_stability = -0.05
+		add_political_power = -100
+		add_war_support = 0.05
+		set_party_name = { ideology = socialist long_name = "Frente Popular" name = "FP" }
+		add_popularity = { ideology = democratic popularity = -0.15 }
+		add_popularity = { ideology = socialist popularity = 0.15 }
+		create_country_leader = { 
+			name = "Niceto Alcalá-Zamora" 
+			desc = "" 
+			picture = "P_D_Niceto_Alcala_Zamora.tga" 
+			expire = "1965.1.1" 
+			ideology = social_democracy 
+			traits = {}
+		}
+	}
+}
+#########################################################################
+# CEDA's Campaign
+#########################################################################
+country_event = {
+	id = DH_Spain.1
+	title = DH_Spain.1.t
+	desc = DH_Spain.1.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	trigger = {
+		tag = SPR
+		has_government = democratic
+		date > 1936.1.6
+	}
+	
+	#Confide in our progress
+	option = {
+		name = DH_Spain.1.A
+		ai_chance = { factor = 100 }
+		add_stability = 0.05
+		hidden_effect = { country_event = { id = DH_Spain.2 days = 36 } }
+	}
+	
+	#We need to make stronger changes and promises now!
+	# option = {
+		# name = DH_Spain.1.B
+		# ai_chance = { factor = 0 }
+		# add_stability = -0.05
+		# hidden_effect = { country_event = { id = DH_Spain.3 days = 36 } }
+	# }
+}
+#########################################################################
+# Leftist Prisoners are Released
+#########################################################################
+country_event = {
+	id = DH_Spain.2
+	title = DH_Spain.2.t
+	desc = DH_Spain.2.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#There is little we can do
+	option = {
+		name = DH_Spain.2.A
+		add_political_power = -200
+		hidden_effect = { country_event = { id = DH_Spain.4 days = 1 } }
+	}
+}
+#########################################################################
+# Leftist Prisoners Stay in Jail
+#########################################################################
+country_event = {
+	id = DH_Spain.3
+	title = DH_Spain.3.t
+	desc = DH_Spain.3.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#No brigands will be allowed to leave!
+	option = {
+		name = DH_Spain.3.A
+		add_political_power = -200
+		hidden_effect = { country_event = { id = DH_Spain.5 days = 1 } }
+	}
+}
+#########################################################################
+# Catalonia Explodes
+#########################################################################
+country_event = {
+	id = DH_Spain.4
+	title = DH_Spain.4.t
+	desc = DH_Spain.4.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Attempt to contain these fanatics!
+	option = {
+		name = DH_Spain.4.A
+		add_ideas = SPR_catalonia_turmoil_1
+		hidden_effect = { country_event = { id = DH_Spain_Elections.2 days = 2 } }
+	}
+}
+#########################################################################
+# Radical Leftists leave the Popular Front
+#########################################################################
+country_event = {
+	id = DH_Spain.5
+	title = DH_Spain.5.t
+	desc = DH_Spain.5.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#The Left crumbles!
+	option = {
+		name = DH_Spain.5.A
+		add_stability = -0.1
+		hidden_effect = { country_event = { id = DH_Spain.7 days = 2 } }
+	}
+}
+#########################################################################
+# 1936 General Election
+#########################################################################
+country_event = {
+	id = DH_Spain_Elections.2
+	title = DH_Spain_Elections.2.t
+	desc = DH_Spain_Elections.2.d
+	picture = GFX_DH_1936_Elections
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		add_popularity = { ideology = authoritarian popularity = 0.1 }
+		add_popularity = { ideology = democratic popularity = -0.1 }
+	}
+	
+	#The Popular Front Wins!
+	option = {
+		name = DH_Spain_Elections.2.A
+		add_ideas = SPR_1936_popular_front
+		hidden_effect = { complete_national_focus = SPR_Popular_Front_Victory }
+		hidden_effect = { country_event = { id = DH_Spain.6 days = 2 } }
+	}
+}
+#########################################################################
+# The Army and Fascists Consolidate
+#########################################################################
+country_event = {
+	id = DH_Spain.6
+	title = DH_Spain.6.t
+	desc = DH_Spain.6.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#The radical right is organizing
+	option = {
+		name = DH_Spain.6.A
+		add_war_support = 0.1
+		add_popularity = { ideology = authoritarian popularity = 0.1 }
+		add_popularity = { ideology = democratic popularity = -0.1 }
+		hidden_effect = { country_event = { id = DH_Spain.8 days = 22 } }
+	}
+}
+#########################################################################
+# The Arrest of Primo de Rivera
+#########################################################################
+country_event = {
+	id = DH_Spain.8
+	title = DH_Spain.8.t
+	desc = DH_Spain.8.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#He is too dangerous
+	option = {
+		name = DH_Spain.8.A
+		add_stability = 0.05
+		add_war_support = 0.1
+		hidden_effect = { country_event = { id = DH_Spain_Politics.2 days = 24 } }
+	}
+}
+#########################################################################
+# Niceto Alcalá-Zamora removed from power
+#########################################################################
+country_event = {
+    id = DH_Spain_Politics.2 # For Future Modders, it's Politics.2 because Politics.1 was part of an outdated version
+    title = DH_Spain_Politics.2.t
+    desc = DH_Spain_Politics.2.d
+    picture = GFX_DH_Alcala_Zamora
+	is_triggered_only = yes
+
+	# He wasn't one of us
+    option = {
+        name = DH_Spain_Politics.2.A
+		retire_country_leader = yes
+		create_country_leader = { 
+			name = "Diego Martínez Barrio" 
+			desc = "" 
+			picture = "P_D_Diego_Martinez_Barrio.tga" 
+			expire = "1965.1.1" 
+			ideology = social_democracy 
+			traits = {}
+		}
+		hidden_effect = { country_event = { id = DH_Spain.10 days = 22 } }
+    }
+}
+#########################################################################
+# May 1st Demonstrations
+#########################################################################
+country_event = {
+	id = DH_Spain.10
+	title = DH_Spain.10.t
+	desc = DH_Spain.10.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Spain is in Danger!!!!!!
+	option = {
+		name = DH_Spain.10.A
+		add_ideas = SPR_may_1st_demonstrations
+		hidden_effect = { country_event = { id = DH_Spain_Politics.3 days = 10 } }
+	}
+}
+#########################################################################
+# Manuel Azaña steps into power
+#########################################################################
+country_event = {
+    id = DH_Spain_Politics.3
+    title = DH_Spain_Politics.3.t
+    desc = DH_Spain_Politics.3.d
+    picture = GFX_DH_Manual_Azana
+ 
+    fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			create_country_leader = { 
+				name = "Manuel Azaña" 
+				desc = "" 
+				picture = "P_D_Manuel_Azana.tga" 
+				expire = "1965.1.1" 
+				ideology = social_democracy 
+				traits = {}
+			}
+		}
+	}
+    option = {
+        name = DH_Spain_Politics.3.A
+		hidden_effect = { country_event = { id = DH_Spain.12 days = 1 } }
+    }
+}
+#########################################################################
+# Mola Organizes Generals
+#########################################################################
+country_event = {
+	id = DH_Spain.12
+	title = DH_Spain.12.t
+	desc = DH_Spain.12.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#The Officers are acting Strangely
+	option = {
+		name = DH_Spain.12.A
+		hidden_effect = { country_event = { id = DH_Spain.14 days = 32 } }
+	}
+}
+#########################################################################
+# The Death of José Castillo
+#########################################################################
+country_event = {
+	id = DH_Spain.14
+	title = DH_Spain.14.t
+	desc = DH_Spain.14.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#¡Carajo! The left is furious!
+	option = {
+		name = DH_Spain.14.A
+		add_war_support = 0.05
+		hidden_effect = { country_event = { id = DH_Spain.16 days = 1 } }
+	}
+}
+#########################################################################
+# The Death of José Sotelo
+#########################################################################
+country_event = {
+	id = DH_Spain.16
+	title = DH_Spain.16.t
+	desc = DH_Spain.16.d
+	picture = Italy_Pizza_Funeral
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#¡Carajo! The right is furious!
+	option = {
+		name = DH_Spain.16.A
+		add_war_support = 0.05
+		hidden_effect = { country_event = { id = DH_Spain_CW.1 days = 4 } }
+	}
+}

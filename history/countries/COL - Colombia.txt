@@ -1,0 +1,169 @@
+﻿################################
+# Colombia - 1933
+################################
+1933.1.1 = {
+	oob = "COL_1933"
+	capital = 306
+	set_convoys = 10
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+		tech_support = 1		
+		tech_engineers = 1
+		Artillery_1910 = 1
+		Anti_Aircraft_Gun_1935 = 1
+		Fighter_1933 = 1
+		cv_Fighter_1933 = 1
+	# Armour Tech
+	
+		Heavy_Tank_1916 = 1
+	
+		Heavy_Tank_1917 = 1
+	#Naval Stuff
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+	}
+	
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1934.2.11"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 0
+		democratic = 71
+		socialist = 19
+		communist = 10
+	}
+	#######################
+	# Diplomacy
+	#######################
+	set_country_flag = monroe_doctrine
+	#######################
+	# Leaders
+	#######################
+	# Conservatism
+	create_country_leader = {
+		name = "Enrique Olaya Herrera"
+		desc = ""
+		picture = "P_D_Enrique_Olaya_Herrera.tga"
+		expire = "1965.1.1"
+		ideology = social_liberalism
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Social_Liberalism
+			HoS_Die_Hard_Reformer
+		}
+	}
+	#######################
+	# Generals
+	#######################
+	create_corps_commander = {
+		name = "Gustavo Rojas Pinilla"
+		portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+		traits = {  trickster urban_assault_specialist }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 1
+		planning_skill = 3
+		logistics_skill = 3
+	}	
+}
+
+################################
+# Colombia - 1936
+################################
+1936.1.1 = {
+	oob = "COL_1936"
+
+	#######################
+	# Politics
+	#######################
+	set_party_name = {
+		ideology = authoritarian
+		name = ARG_authoritarian_Military_party
+		long_name = ARG_authoritarian_Military_party_long
+	}
+	#######################
+	# Leaders
+	#######################
+	# Conservatism
+	create_country_leader = {
+		name = "Alfonso López Pumarejo"
+		desc = "POLITICS_ALFONSO_LOPEZ_PUMAREJO_DESC"
+		picture = "P_D_Alfonso_Lopez.tga"
+		expire = "1965.1.1"
+		ideology = social_democracy
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Social_Democracy
+			HoS_Weary_Stiff_Neck
+		}
+	}
+}
+################################
+# Colombia - 1939
+################################
+1939.9.1 = {
+	oob = "COL_1936"
+
+	#######################
+	# Leaders
+	#######################
+	# Conservatism
+	create_country_leader = {
+		name = "Eduardo Santos Montejo"
+		desc = ""
+		picture = "P_D_Eduardo_Santos.tga"
+		expire = "1965.1.1"
+		ideology = social_liberalism
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Social_Liberalism
+			HoS_Autocratic_Charmer
+		}
+	}	
+}
+################################
+# Colombia - 1942
+################################
+1942.11.22 = {
+	oob = "COL_1936"
+
+	#######################
+	# Leaders
+	#######################
+	# Conservatism
+	create_country_leader = {
+		name = "Alfonso López Pumarejo"
+		desc = "POLITICS_ALFONSO_LOPEZ_PUMAREJO_DESC"
+		picture = "P_D_Alfonso_Lopez.tga"
+		expire = "1965.1.1"
+		ideology = social_democracy
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Social_Democracy
+			HoS_Weary_Stiff_Neck
+		}
+	}	
+}

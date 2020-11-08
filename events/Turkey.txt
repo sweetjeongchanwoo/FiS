@@ -1,0 +1,2086 @@
+﻿###########################
+# Darkest Hour Events : Turkey
+###########################
+add_namespace = DH_Turkey
+#Domestic Events
+add_namespace = DH_TUR_Elections
+add_namespace = DH_Kurdistan
+#########################################################################
+#  The Kars Convention on the Subdivision of Transcaucasia
+#########################################################################
+country_event = {
+	id = DH_Turkey.1
+	title = DH_Turkey.1.t
+	desc = DH_Turkey.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { #accept puppets
+		name = DH_Turkey.1.A
+		ai_chance = {
+			factor = 75
+			modifier = {
+				TUR = {
+					OR = {
+						is_democratic = yes
+						is_democratic = yes
+						is_democratic = yes
+						has_government = communist
+						has_government = communist
+						has_government = socialist
+					}
+				}
+				factor = 0.04
+			}
+		}
+		TUR = {
+			release_puppet = GEO
+			release_puppet = ARM
+			if = {
+				limit = {
+					NOT = {
+						TUR = {
+							is_in_faction_with = GER
+						}
+					}
+				}
+				GER = { add_to_faction = TUR }
+			}
+		}
+	}
+	option = {
+		name = DH_Turkey.1.B
+		ai_chance = {
+		factor = 25
+			modifier = {
+				TUR = {
+					OR = {
+						has_government = fascist
+						has_government = fascist
+						is_in_faction_with = GER
+					}
+				}
+				factor = 0
+			}
+		}
+		GER = { country_event = DH_germany.10 }
+	}
+}
+
+#########################################################################
+#  State of Cyprus
+#########################################################################
+country_event = {
+	id = DH_Turkey.2
+	title = DH_Turkey.2.t
+	desc = DH_Turkey.2.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { #accept cyprus
+		name = DH_Turkey.2.A
+		TUR = {
+			transfer_state = 183
+			add_state_core = 183
+		}
+		add_opinion_modifier = { target = GER modifier = fascist_leanings_good }
+	}
+
+	option = { #refuse cyprus
+		name = DH_Turkey.2.B
+		ITA = { country_event = { hours = 6 id = DH_italy.3 }}
+	}
+}
+
+#########################################################################
+#  German Trade Deal
+#########################################################################
+country_event = {
+	id = DH_Turkey.3
+	title = DH_Turkey.3.t
+	desc = DH_Turkey.3.d
+	picture = GFX_news_event_002
+	#fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { #Accept
+		name = DH_Turkey.3.A
+		ai_chance = {
+			factor = 100
+			modifier = {
+				TUR = {
+					is_democratic = yes
+					is_democratic = yes
+					is_democratic = yes
+				}
+			factor = 0
+			}
+		}
+		TUR = {
+			add_timed_idea = {
+				idea = TUR_german_military_aid
+				days = 1095
+			}
+			diplomatic_relation = {
+				country = GER
+				relation = non_aggression_pact
+			}
+			add_opinion_modifier = {
+				target = GER
+				modifier = TUR_germany_pact
+				days = 1095
+			}
+			341 = {
+				add_resource = {
+					type = chromium
+					amount = -20
+					state = 341 #istanbul
+				}
+			}
+		}
+		GER = {
+			add_opinion_modifier = {
+				target = TUR
+				modifier = TUR_germany_pact
+				days = 1095
+			}
+			64 = {
+				add_resource = {
+					type = chromium
+					amount = 20
+					state = 64 #berlin
+				}
+			}
+		}
+		GER = { country_event = { hours = 6 id = DH_Turkey.4 }}
+		#TUR = { country_event = { id = DH_Turkey.7 }}
+	}
+
+	option = { #Deny
+		name = DH_Turkey.3.B
+		ai_chance = {
+			factor = 0
+			modifier = {
+				TUR = {
+					is_democratic = yes
+					is_democratic = yes
+					is_democratic = yes
+				}
+			factor = 100
+			}
+		}
+		TUR = {
+			add_opinion_modifier = {
+				target = GER
+				modifier = TUR_anti_german_trade
+				days = 365
+			}
+			add_opinion_modifier = {
+				target = GER
+				modifier = protest_action_strong
+			}
+		}
+
+		GER = {
+			add_opinion_modifier = {
+				target = TUR
+				modifier = GER_anti_turkey_trade
+				days = 365
+			}
+			add_opinion_modifier = {
+				target = TUR
+				modifier = protest_action_strong
+			}
+		}
+		GER = { country_event = { hours = 6 id = DH_Turkey.5 }}
+	}
+}
+
+#########################################################################
+#  Turkey Accepts Deal
+#########################################################################
+country_event = {
+	id = DH_Turkey.4
+	title = DH_Turkey.4.t
+	desc = DH_Turkey.4.d
+	picture = GFX_news_event_002
+	#fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.4.A
+		custom_effect_tooltip = "This trade agreement runs for three years"
+		64 = {
+			add_resource = {
+				type = chromium
+				amount = 20
+				state = 64 #berlin
+			}
+		}
+	}
+}
+
+#########################################################################
+#  Turkey Declines Deal
+#########################################################################
+country_event = {
+	id = DH_Turkey.5
+	title = DH_Turkey.5.t
+	desc = DH_Turkey.5.d
+	picture = GFX_news_event_002
+	#fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.5.A
+	}
+}
+
+#########################################################################
+#  Remove chromium from Trade deal
+#########################################################################
+country_event = {
+	id = DH_Turkey.6
+	fire_only_once = yes
+	hidden = yes
+
+    trigger = {
+        OR = {
+            TUR = {
+                NOT = {
+                    has_idea = TUR_german_military_aid
+                }
+            }
+            GER = { has_capitulated = yes }
+        }
+    }
+
+	option = {
+		add_resource = {
+			type = chromium
+			amount = -20
+			state = 64 #berlin
+		}
+		add_resource = {
+			type = chromium
+			amount = 20
+			state = 341 #istanbul
+		}
+	}
+}
+
+#########################################################################
+#  Multiparty Event
+#########################################################################
+
+country_event = {
+	id = DH_Turkey.7
+	title = DH_Turkey.7.t
+	desc = DH_Turkey.7.d
+	picture = GFX_news_event_002
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.7.A
+		set_country_flag = Allows_Democratic_Ministers
+	}
+}
+
+#########################################################################
+#  Armenian Question Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.8
+	title = DH_Turkey.8.t
+	desc = DH_Turkey.8.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.8.A
+		set_temp_variable = { progress_to_add = 5 }
+    	add_minority_rebellion_progress = yes
+	}
+}
+
+#########################################################################
+#  Dealing with the Kurds Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.9
+	title = DH_Turkey.9.t
+	desc = DH_Turkey.9.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.9.A
+        set_temp_variable = { progress_to_add = 5 }
+    	add_minority_rebellion_progress = yes
+	}
+}
+
+#########################################################################
+#  Suriname Law Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.10
+	title = DH_Turkey.10.t
+	desc = DH_Turkey.10.d
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.10.A
+		set_country_flag = TUR_Nationalist_Laws_1
+	}
+}
+
+#########################################################################
+# Finding Investors Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.11
+	title = DH_Turkey.11.t
+	desc = DH_Turkey.11.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.11.A
+	}
+}
+
+#########################################################################
+# What to do with the Militias Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.12
+	title = DH_Turkey.12.t
+	desc = DH_Turkey.12.d
+	picture = GFX_report_TUR_Question_of_the_Militias
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	# Keep them for patriotic stuff
+	option = {
+		name = DH_Turkey.12.A
+		set_temp_variable = { faction_id = 11 }
+		set_temp_variable = { loyalty_to_add = 5 }
+		change_faction_influence = yes
+		set_temp_variable = { faction_id = 15 }
+		set_temp_variable = { influence_to_add = 3 }
+		change_faction_influence = yes
+		set_temp_variable = { faction_id = 15 }
+		set_temp_variable = { loyalty_to_add = 3 }
+		change_faction_loyalty = yes
+	}
+
+	# Dismantle them
+	option = {
+		name = DH_Turkey.12.B
+		set_temp_variable = { faction_id = 11 }
+		set_temp_variable = { loyalty_to_add = -5 }
+		change_faction_influence = yes
+		set_temp_variable = { faction_id = 15 }
+		set_temp_variable = { influence_to_add = -3 }
+		change_faction_influence = yes
+		set_temp_variable = { faction_id = 15 }
+		set_temp_variable = { loyalty_to_add = -3 }
+		change_faction_loyalty = yes
+	}
+}
+
+#########################################################################
+# Question about the 2nd Five Year Plan Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.13
+	title = DH_Turkey.13.t
+	desc = DH_Turkey.13.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.13.A
+	}
+}
+
+#########################################################################
+# Renovation of Yavuz Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.14
+	title = DH_Turkey.14.t
+	desc = DH_Turkey.14.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.14.A
+	}
+}
+
+#########################################################################
+# 10th Year Speech Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.15
+	title = DH_Turkey.15.t
+	desc = DH_Turkey.15.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.15.A
+		add_stability = 0.05
+	}
+}
+
+#########################################################################
+# Death of Atatürk Event
+#########################################################################
+country_event = {
+	id = DH_TUR_Elections.1000
+	title = DH_TUR_Elections.1000.t
+	desc = DH_TUR_Elections.1000.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_TUR_Elections.1000.A
+		set_country_flag = TUR_dead_ataturk
+		country_event = {
+			id = DH_TUR_Elections.1
+			days = 2
+		}
+	}
+}
+
+#########################################################################
+# Foundation of Petrol Ofisi Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.17
+	title = DH_Turkey.17.t
+	desc = DH_Turkey.17.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.17.A
+	}
+}
+
+#########################################################################
+# Kapali Carsi Fire Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.18
+	title = DH_Turkey.18.t
+	desc = DH_Turkey.18.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.18.A
+	}
+}
+
+#########################################################################
+# Hatay Join the Republic Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.19
+	title = DH_Turkey.19.t
+	desc = DH_Turkey.19.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.19.A
+	}
+}
+
+#########################################################################
+# Enfranchisement of Women Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.20
+	title = DH_Turkey.20.t
+	desc = DH_Turkey.20.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.20.A
+	}
+}
+
+#########################################################################
+# Refah Disaster Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.21
+	title = DH_Turkey.21.t
+	desc = DH_Turkey.21.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.21.A
+	}
+}
+
+#########################################################################
+# Meeting in Cairo Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.22
+	title = DH_Turkey.22.t
+	desc = DH_Turkey.22.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.22.A
+	}
+}
+
+#########################################################################
+# Istanbul-Halic Fire Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.23
+	title = DH_Turkey.23.t
+	desc = DH_Turkey.22.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.23.A
+	}
+}
+
+#########################################################################
+# Varto Earthquake Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.24
+	title = DH_Turkey.24.t
+	desc = DH_Turkey.24.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.24.A
+	}
+}
+
+#########################################################################
+# Foundation of TTK Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.25
+	title = DH_Turkey.25.t
+	desc = DH_Turkey.25.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.25.A
+	}
+}
+
+#########################################################################
+# Foundation of TDK Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.26
+	title = DH_Turkey.26.t
+	desc = DH_Turkey.26.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.26.A
+	}
+}
+
+#########################################################################
+# Foundation of Is Bankasi Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.27
+	title = DH_Turkey.27.t
+	desc = DH_Turkey.27.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.27.A
+	}
+}
+
+#########################################################################
+# One Step Closer To Atatürks Vision Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.28
+	title = DH_Turkey.28.t
+	desc = DH_Turkey.28.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	# May we continue to realise Atatürk’s vision.
+	option = {
+		name = DH_Turkey.28.A
+	}
+}
+
+#########################################################################
+# Women's Suffrage In Turkey Event
+#########################################################################
+news_event = {
+	id = DH_Turkey.29
+	title = DH_Turkey.29.t
+	desc = DH_Turkey.29.d
+
+	major = yes
+
+	is_triggered_only = yes
+
+	# We are now one step closer to A modern, secular state.
+	option = {
+		name = DH_Turkey.29.A
+		trigger = {
+			tag = TUR
+		}
+	}
+
+	# Good for them.
+	option = {
+		name = DH_Turkey.29.B
+		trigger = {
+			not = { tag = TUR }
+		}
+	}
+}
+
+#########################################################################
+# Turkey Demands Mosul Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.30
+	title = DH_Turkey.30.t
+	desc = DH_Turkey.30.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = DH_Turkey.30.A
+		TUR = {
+			transfer_state = 676
+		}
+	}
+
+	# Good for them.
+	option = {
+		name = DH_Turkey.30.B
+		TUR = {
+			set_country_flag = TUR_a_solution_for_mosul_unlock
+			unlock_decision_tooltip = TUR_a_solution_for_mosul
+		}
+	}
+}
+
+
+#########################################################################
+# A solution for Mosul Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.31
+	title = DH_Turkey.31.t
+	desc = DH_Turkey.31.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = DH_Turkey.31.A
+		declare_war_on = {
+			target = IRQ
+			type = take_state_focus
+			generator = { 676 }
+		}
+	}
+
+	option = {
+		name = DH_Turkey.31.B
+
+	}
+
+	option = {
+		name = DH_Turkey.31.C
+
+	}
+}
+
+#########################################################################
+# Hatay Referendum Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.32
+	title = DH_Turkey.32.t
+	desc = DH_Turkey.32.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = DH_Turkey.32.A
+		TUR = {
+			set_country_flag = TUR_integration_of_hatay_available
+			unlock_decision_tooltip = TUR_integration_of_hatay
+		}
+	}
+
+	option = {
+		name = DH_Turkey.32.B
+		TUR = {
+			set_country_flag = TUR_fund_the_freedom_fighters_in_hatay_available
+			unlock_decision_tooltip = TUR_fund_the_freedom_fighters_in_hatay
+		}
+	}
+}
+
+#########################################################################
+# A Proposal have came Event
+#########################################################################
+country_event = {
+	id = DH_Turkey.33
+	title = DH_Turkey.33.t
+	desc = DH_Turkey.33.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+
+	option = { # The Obvious Solution
+		name = DH_Turkey.33.A
+
+	}
+
+	option = { # Let's not go THAT far
+		name = DH_Turkey.33.B
+
+	}
+
+	option = { # This will only bring an endless war!
+		name = DH_Turkey.33.C
+
+	}
+}
+#########################################################################
+# Question about Thrace and the Islands
+#########################################################################
+country_event = {
+	id = DH_Turkey.34
+	title = DH_Turkey.34.t
+	desc = DH_Turkey.34.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+
+	option = { # Just lay claim
+		name = DH_Turkey.34.A
+		1109 = {
+			add_claim_by = TUR
+		}
+		184 = {
+			add_claim_by = TUR
+		}
+		187 = {
+			add_claim_by = TUR
+		}
+		1118 = {
+			add_claim_by = TUR
+		}
+		1119 = {
+			add_claim_by = TUR
+		}
+	}
+
+	option = { # Demand it !
+		name = DH_Turkey.34.C
+		1109 = {
+			add_claim_by = TUR
+		}
+		184 = {
+			add_claim_by = TUR
+		}
+		187 = {
+			add_claim_by = TUR
+		}
+		1118 = {
+			add_claim_by = TUR
+		}
+		1119 = {
+			add_claim_by = TUR
+		}
+		every_country = {
+			limit = {
+				OR = {
+					owns_state = 1109
+					owns_state = 184
+					owns_state = 187
+					owns_state = 1118
+					owns_state = 1119
+				}
+			}
+			country_event = {
+				id = DH_Turkey.35
+				days = 1
+			}
+		}
+	}
+}
+#########################################################################
+# Turkey demands Thrace and the Islands
+#########################################################################
+country_event = {
+	id = DH_Turkey.35
+	title = DH_Turkey.35.t
+	desc = DH_Turkey.35.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+
+	option = { # We aren't strong enough ...
+		name = DH_Turkey.35.A
+		TUR = {
+			transfer_state = 1109
+			transfer_state = 184
+			transfer_state = 187
+			transfer_state = 1118
+			transfer_state = 1119
+		}
+	}
+
+	option = { # How could they !
+		name = DH_Turkey.35.B
+		TUR = {
+			country_event = {
+				id = DH_Turkey.36
+				days = 1
+			}
+		}
+	}
+}
+#########################################################################
+# FROM refuses ...
+#########################################################################
+country_event = {
+	id = DH_Turkey.36
+	title = DH_Turkey.36.t
+	desc = DH_Turkey.36.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+
+	option = { # The Obvious Solution
+		name = DH_Turkey.36.A
+		create_wargoal = {
+		    type = take_claimed_state
+		    target = FROM
+		}
+	}
+}
+#########################################################################
+# Question about Dodecanese
+#########################################################################
+country_event = {
+	id = DH_Turkey.37
+	title = DH_Turkey.37.t
+	desc = DH_Turkey.37.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+
+	option = { # Just lay claim
+		name = DH_Turkey.37.A
+		164 = {
+			add_claim_by = TUR
+		}
+	}
+
+	option = { # Demand it !
+		name = DH_Turkey.37.C
+		164 = {
+			add_claim_by = TUR
+		}
+		every_country = {
+			limit = {
+				owns_state = 164
+			}
+			country_event = {
+				id = DH_Turkey.38
+				days = 1
+			}
+		}
+	}
+}
+#########################################################################
+# Turkey demands Dodecanese
+#########################################################################
+country_event = {
+	id = DH_Turkey.38
+	title = DH_Turkey.38.t
+	desc = DH_Turkey.38.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+
+	option = { # We aren't strong enough ...
+		name = DH_Turkey.38.A
+		TUR = {
+			transfer_state = 164
+		}
+	}
+
+	option = { # How could they !
+		name = DH_Turkey.38.B
+		TUR = {
+			country_event = {
+				id = DH_Turkey.36
+				days = 1
+			}
+		}
+	}
+}
+
+#########################################################################
+# Turkey proposes A Berlin Ankara railway
+#########################################################################
+country_event = {
+	id = DH_Turkey.39
+	title = DH_Turkey.39.t
+	desc = DH_Turkey.39.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+
+	option = { # A good idea !
+		name = DH_Turkey.39.A
+		set_temp_variable = {
+			money_to_gain = -200
+		}
+		add_money_with_tooltip_effect = yes
+		TUR = {
+			country_event = {
+				id = DH_Turkey.40
+				days = 1
+			}
+		}
+		1057 = {
+			add_building_construction = {
+			    type = infrastructure
+			    level = 2
+			    instant_build = yes
+			}
+		}
+		64 = {
+			add_building_construction = {
+			    type = infrastructure
+			    level = 2
+			    instant_build = yes
+			}
+		}
+		65 = {
+			add_building_construction = {
+			    type = infrastructure
+			    level = 2
+			    instant_build = yes
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 69
+					any_country = {
+						is_subject_of = GER
+						owns_state = 69
+					}
+				}
+			}
+			69 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 9
+					any_country = {
+						is_subject_of = GER
+						owns_state = 9
+					}
+				}
+			}
+			9 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 1105
+					any_country = {
+						is_subject_of = GER
+						owns_state = 1105
+					}
+				}
+			}
+			1105 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 4
+					any_country = {
+						is_subject_of = GER
+						owns_state = 4
+					}
+				}
+			}
+			4 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 973
+					any_country = {
+						is_subject_of = GER
+						owns_state = 973
+					}
+				}
+			}
+			973 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 155
+					any_country = {
+						is_subject_of = GER
+						owns_state = 155
+					}
+				}
+			}
+			155 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 975
+					any_country = {
+						is_subject_of = GER
+						owns_state = 975
+					}
+				}
+			}
+			975 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 973
+					any_country = {
+						is_subject_of = GER
+						owns_state = 973
+					}
+				}
+			}
+			973 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 1084
+					any_country = {
+						is_subject_of = GER
+						owns_state = 1084
+					}
+				}
+			}
+			1084 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 819
+					any_country = {
+						is_subject_of = GER
+						owns_state = 819
+					}
+				}
+			}
+			819 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 107
+					any_country = {
+						is_subject_of = GER
+						owns_state = 107
+					}
+				}
+			}
+			107 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 1092
+					any_country = {
+						is_subject_of = GER
+						owns_state = 1092
+					}
+				}
+			}
+			1092 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 108
+					any_country = {
+						is_subject_of = GER
+						owns_state = 108
+					}
+				}
+			}
+			108 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 1098
+					any_country = {
+						is_subject_of = GER
+						owns_state = 1098
+					}
+				}
+			}
+			1098 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 211
+					any_country = {
+						is_subject_of = GER
+						owns_state = 211
+					}
+				}
+			}
+			211 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+	}
+
+	option = { # we have other business right now ...
+		name = DH_Turkey.39.B
+		TUR = {
+			country_event = {
+				id = DH_Turkey.41
+				days = 1
+			}
+		}
+	}
+}
+#########################################################################
+# Germany agrees
+#########################################################################
+country_event = {
+	id = DH_Turkey.40
+	title = DH_Turkey.40.t
+	desc = DH_Turkey.40.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+
+	option = { # A good idea !
+		name = DH_Turkey.40.A
+		set_temp_variable = {
+			money_to_gain = -200
+		}
+		add_money_with_tooltip_effect = yes
+		341 = {
+			add_building_construction = {
+			    type = infrastructure
+			    level = 2
+			    instant_build = yes
+			}
+		}
+		347 = {
+			add_building_construction = {
+			    type = infrastructure
+			    level = 2
+			    instant_build = yes
+			}
+		}
+		341 = {
+			add_building_construction = {
+			    type = infrastructure
+			    level = 2
+			    instant_build = yes
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 69
+					any_country = {
+						is_subject_of = GER
+						owns_state = 69
+					}
+				}
+			}
+			69 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 9
+					any_country = {
+						is_subject_of = GER
+						owns_state = 9
+					}
+				}
+			}
+			9 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 1105
+					any_country = {
+						is_subject_of = GER
+						owns_state = 1105
+					}
+				}
+			}
+			1105 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 4
+					any_country = {
+						is_subject_of = GER
+						owns_state = 4
+					}
+				}
+			}
+			4 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 973
+					any_country = {
+						is_subject_of = GER
+						owns_state = 973
+					}
+				}
+			}
+			973 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 155
+					any_country = {
+						is_subject_of = GER
+						owns_state = 155
+					}
+				}
+			}
+			155 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 975
+					any_country = {
+						is_subject_of = GER
+						owns_state = 975
+					}
+				}
+			}
+			975 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 973
+					any_country = {
+						is_subject_of = GER
+						owns_state = 973
+					}
+				}
+			}
+			973 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 1084
+					any_country = {
+						is_subject_of = GER
+						owns_state = 1084
+					}
+				}
+			}
+			1084 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 819
+					any_country = {
+						is_subject_of = GER
+						owns_state = 819
+					}
+				}
+			}
+			819 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 107
+					any_country = {
+						is_subject_of = GER
+						owns_state = 107
+					}
+				}
+			}
+			107 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 1092
+					any_country = {
+						is_subject_of = GER
+						owns_state = 1092
+					}
+				}
+			}
+			1092 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 108
+					any_country = {
+						is_subject_of = GER
+						owns_state = 108
+					}
+				}
+			}
+			108 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 1098
+					any_country = {
+						is_subject_of = GER
+						owns_state = 1098
+					}
+				}
+			}
+			1098 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					owns_state = 211
+					any_country = {
+						is_subject_of = GER
+						owns_state = 211
+					}
+				}
+			}
+			211 = {
+				add_building_construction = {
+				    type = infrastructure
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+	}
+}
+#########################################################################
+# Germany refuses ...
+#########################################################################
+country_event = {
+	id = DH_Turkey.41
+	title = DH_Turkey.41.t
+	desc = DH_Turkey.41.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.41.A
+	}
+}
+#########################################################################
+# Which Borders We Should Protect
+#########################################################################
+country_event = {
+	id = DH_Turkey.42
+	title = DH_Turkey.42.t
+	desc = DH_Turkey.42.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+
+	option = { # The western one !
+		name = DH_Turkey.42.A
+		set_country_flag = TUR_Fortify_West
+		unlock_decision_tooltip = TUR_Fortify_Western_Coast
+		unlock_decision_tooltip = TUR_Fortify_Western_Border
+	}
+
+	option = { # The eastern one !
+		name = DH_Turkey.42.B
+		set_country_flag = TUR_Fortify_East
+		unlock_decision_tooltip = TUR_Fortify_Caucasus
+		unlock_decision_tooltip = TUR_Fortify_South
+	}
+}
+#########################################################################
+# CODE EVENT NO LOC
+#########################################################################
+country_event = {
+	id = DH_Turkey.43
+	title = DH_Turkey.43.t
+	desc = DH_Turkey.43.d
+	hidden = yes
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.43.A
+		country_event = {
+			days = 180
+			id = DH_Turkey.44
+		}
+	}
+}
+#########################################################################
+# CODE EVENT NO LOC
+#########################################################################
+country_event = {
+	id = DH_Turkey.44
+	title = DH_Turkey.44.t
+	desc = DH_Turkey.44.d
+	hidden = yes
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.44.A
+		set_country_flag = TUR_Slave_Labor
+	}
+}
+#########################################################################
+# Turkey proposes A population exchange
+#########################################################################
+country_event = {
+	id = DH_Turkey.45
+	title = DH_Turkey.45.t
+	desc = DH_Turkey.45.d
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { # A good idea !
+		name = DH_Turkey.45.A
+		remove_state_core = 341
+		every_controlled_state = {
+			limit = {
+				is_core_of = GRE
+			}
+			add_manpower = 5000
+		}
+		TUR = {
+			country_event = {
+				id = DH_Turkey.46
+			}
+		}
+	}
+	option = { # A stupid idea ...
+		name = DH_Turkey.45.B
+		TUR = {
+			country_event = {
+				id = DH_Turkey.47
+			}
+		}
+	}
+}
+#########################################################################
+# Greece accepts the exchange
+#########################################################################
+country_event = {
+	id = DH_Turkey.46
+	title = DH_Turkey.46.t
+	desc = DH_Turkey.46.d
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.46.A
+		set_temp_variable = { progress_to_add = -10 }
+		add_minority_rebellion_progress = yes
+		set_temp_variable = { faction_id = 12 }
+		set_temp_variable = { loyalty_to_add = -5 }
+		change_faction_loyalty = yes
+		add_stability = 0.05
+		341 = {
+			add_manpower = -60000
+		}
+		339 = {
+			add_manpower = -20000
+		}
+		340 = {
+			add_manpower = -10000
+		}
+		354 = {
+			add_manpower = -10000
+		}
+	}
+}
+#########################################################################
+# Greece refuses the Exchange
+#########################################################################
+country_event = {
+	id = DH_Turkey.47
+	title = DH_Turkey.47.t
+	desc = DH_Turkey.47.d
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.47.A
+	}
+}
+
+#########################################################################
+# A Speech to the People
+#########################################################################
+country_event = {
+	id = DH_Turkey.48
+	title = DH_Turkey.48.t
+	desc = DH_Turkey.48.d
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.48.A
+		add_stability = 0.03
+		add_war_support = 0.05
+		set_temp_variable = { faction_id = 11 }
+		set_temp_variable = { influence_to_add = 3 }
+		change_faction_influence = yes
+	}
+}
+
+#########################################################################
+# Death of the National Poet
+#########################################################################
+country_event = {
+	id = DH_Turkey.49
+	title = DH_Turkey.49.t
+	desc = DH_Turkey.49.d
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Turkey.49.A
+	}
+}
+
+#########################################################################
+# The Kurdish Declaration of Independence
+#########################################################################
+country_event = {
+	id = DH_Kurdistan.1
+	title = DH_Kurdistan.1.t
+	desc = DH_Kurdistan.1.d
+	fire_only_once = yes
+	trigger = {
+		tag = TUR
+		TUR = {
+			check_variable = {
+			    rebelliousness_of_the_minorities_var > 99.9
+			}
+			has_country_flag = TUR_kurdish_rebellion
+		}
+	}
+
+	immediate = {
+		KUR = {
+			transfer_state = 350
+			transfer_state = 352
+			transfer_state = 353
+			load_oob = "KUR_Independence"
+		}
+		set_country_flag = TUR_kurdish_rebellion
+	}
+
+	option = {
+		name = DH_Kurdistan.1.A
+		declare_war_on = {
+			target = KUR
+			type = annex_everything
+		}
+	}
+
+	option = {
+		name = DH_Kurdistan.1.B
+		KUR = {
+			change_tag_from = TUR
+		}
+	}
+}
+#########################################################################
+# Who Should be the Next President
+#########################################################################
+country_event = {
+	id = DH_TUR_Elections.1
+	title = DH_TUR_Elections.1.t
+	desc = DH_TUR_Elections.1.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { # Let the people decide
+		name = DH_TUR_Elections.1.A
+		country_event = {
+			days = 1
+			id = DH_TUR_Elections.3
+		}
+	}
+	option = { # Check Ataturk's message
+		name = DH_TUR_Elections.1.B
+		country_event = {
+			days = 1
+			id = DH_TUR_Elections.2
+		}
+	}
+}
+#########################################################################
+# Inonu is the man !
+#########################################################################
+country_event = {
+	id = DH_TUR_Elections.2
+	title = DH_TUR_Elections.2.t
+	desc = DH_TUR_Elections.2.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { # Good luck to our new President
+		name = DH_TUR_Elections.2.A
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Mustafa Ismet Inönü"
+			desc = "POLITICS_MUSTAFA_ISMET_INONU_DESC"
+			picture = "P_A_Ismet_Inonu.tga"
+			expire = "1965.1.1"
+			ideology = authoritarian_democracy
+			traits = { POSITION_President SUBIDEOLOGY_Authoritarian_Democracy HoG_Political_Protege }
+		}
+		add_ideas = { TUR_HoG_Mahmud_Celal_Bayar }
+		set_country_flag = Allows_Democratic_Ministers
+		complete_national_focus = TUR_President_Inonu
+	}
+}
+#########################################################################
+# Concerns about Security !
+#########################################################################
+country_event = {
+	id = DH_TUR_Elections.3
+	title = DH_TUR_Elections.3.t
+	desc = DH_TUR_Elections.3.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { # The Military Shall Guard the Nations Future
+		name = DH_TUR_Elections.3.A
+		set_country_flag = TUR_Military_Elections
+		country_event = {
+			id = DH_TUR_Elections.4
+			days = 3
+		}
+	}
+	option = { # Use the Police Force
+		name = DH_TUR_Elections.3.B
+		set_country_flag = TUR_Police_Elections
+		country_event = {
+			id = DH_TUR_Elections.4
+			days = 3
+		}
+	}
+}
+#########################################################################
+# Cakmak Rallies in Ankara !
+#########################################################################
+country_event = {
+	id = DH_TUR_Elections.4
+	title = DH_TUR_Elections.4.t
+	desc = DH_TUR_Elections.4.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { # The Military Strikes !
+		name = DH_TUR_Elections.4.A
+		trigger = {
+			has_country_flag = TUR_Military_Elections
+		}
+		country_event = {
+			id = DH_TUR_Elections.5
+			days = 3
+		}
+	}
+	option = { # Arrest him !
+		name = DH_TUR_Elections.4.B
+		trigger = {
+			has_country_flag = TUR_Police_Elections
+		}
+		set_country_flag = Fevzi_Cakmak_unavailable
+		country_event = {
+			id = DH_TUR_Elections.6
+			days = 3
+		}
+	}
+}
+#########################################################################
+# Cakmak Wins !
+#########################################################################
+country_event = {
+	id = DH_TUR_Elections.5
+	title = DH_TUR_Elections.5.t
+	desc = DH_TUR_Elections.5.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { # Good luck to our president !
+		name = DH_TUR_Elections.5.A
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Fevzi Çakmak"
+			desc = "POLITICS_FEVZI_CAZMAK_DESC"
+			picture = "M_Mustafa_Fevzi_Cakmak.tga"
+			expire = "1965.1.1"
+			ideology = military_dictatorship
+			traits = { POSITION_President SUBIDEOLOGY_Military_Dictatorship }
+		}
+		set_country_flag = TUR_President_Cakmak_tt
+	}
+}
+#########################################################################
+# Cakmak is arrested and Inonu Wins !
+#########################################################################
+country_event = {
+	id = DH_TUR_Elections.6
+	title = DH_TUR_Elections.6.t
+	desc = DH_TUR_Elections.6.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { # Good luck to our president !
+		name = DH_TUR_Elections.6.A
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Mustafa Ismet Inönü"
+			desc = "POLITICS_MUSTAFA_ISMET_INONU_DESC"
+			picture = "P_A_Ismet_Inonu.tga"
+			expire = "1965.1.1"
+			ideology = authoritarian_democracy
+			traits = { POSITION_President SUBIDEOLOGY_Authoritarian_Democracy HoG_Political_Protege }
+		}
+		add_ideas = { TUR_HoG_Mahmud_Celal_Bayar }
+		set_country_flag = Allows_Democratic_Ministers
+		set_country_flag = TUR_President_Inonu_tt
+	}
+}

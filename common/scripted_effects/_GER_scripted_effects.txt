@@ -1,0 +1,394 @@
+#########################################################################
+#  Position Christianity Effects
+#########################################################################
+###########################
+# Irreligious Pop
+###########################
+# example usage:
+## set_temp_variable = { GER_Irreligious_Population_gain = 0.5 }
+## add_unemployment_effect = yes
+add_irreligious_population_effect = {
+	clamp_temp_variable = {
+		var = GER_Irreligious_Population_gain
+		min = -1
+		max = 1
+	}
+	add_to_variable = { GER_Irreligious_Population = GER_Irreligious_Population_gain }
+	custom_effect_tooltip = GER_Irreligious_Population_gain_tt
+}
+###########################
+# Irreligious Pop
+###########################
+add_positive_christian_effect = {
+	clamp_temp_variable = {
+		var = GER_Positive_Christian_Population_gain
+		min = -1
+		max = 1
+	}
+	add_to_variable = { GER_Positive_Christian_Population = GER_Positive_Christian_Population_gain }
+	custom_effect_tooltip = GER_Positive_Christian_Population_gain_tt
+}
+###########################
+# Irreligious Pop
+###########################
+add_protestant_effect = {
+	clamp_temp_variable = {
+		var = GER_Protestant_Population_gain
+		min = -1
+		max = 1
+	}
+	add_to_variable = { GER_Protestant_Population = GER_Protestant_Population_gain }
+	custom_effect_tooltip = GER_Protestant_Population_gain_tt
+}
+###########################
+# Irreligious Pop
+###########################
+add_catholic_effect = {
+	clamp_temp_variable = {
+		var = GER_Catholic_Population_gain
+		min = -1
+		max = 1
+	}
+	add_to_variable = { GER_Catholic_Population = GER_Catholic_Population_gain }
+	custom_effect_tooltip = GER_Catholic_Population_gain_tt
+}
+#########################################################################
+#  Custom Effects
+#########################################################################
+###########################
+# Anschluss Effect
+###########################
+GER_Anschluss_effect = {
+	# If they own the states, and everything is alright
+	if = {
+		limit = {
+			country_exists = AUS
+			AUS = {
+				has_civil_war = no
+				OR = {
+					owns_state = 4
+					owns_state = 152
+					owns_state = 153
+					owns_state = 774
+				}
+			}
+		}
+		GER = {
+			country_event = DH_GER_Anschluss.1
+		}
+	}
+	# If they're in a civil war, the Anschluss should occure to the country that's in a civil war
+	if = {
+		limit = {
+			any_other_country = {
+				original_tag = AUS
+				has_civil_war = yes
+				OR = {
+					owns_state = 4
+					owns_state = 152
+					owns_state = 153
+					owns_state = 774
+				}
+			}
+		}
+		custom_effect_tooltip = germany.126.warning
+		random_other_country = {
+			limit = {
+				original_tag = AUS
+				OR = {
+					has_government = fascist
+					AND = {
+						has_government = authoritarian
+						NOT = {
+							any_other_country = {
+								original_tag = AUS
+								has_government = fascist
+							}
+						}
+					}
+					NOT = {
+						any_other_country = {
+							original_tag = AUS
+							OR = {
+								has_government = fascist
+								has_government = authoritarian
+							}
+						}
+					}
+				}
+			}
+			country_event = {
+				id = DH_GER_Anschluss.2
+				days = 1
+			}
+		}
+	}
+}
+###########################
+# Ostmark Integration Effect
+###########################
+GER_Ostmark_Integration_effect = {
+	# Add Core to the states if the Owner isn't Austria
+	if = {
+		limit = {
+			4 = {
+				owner = {
+					NOT = {
+						tag = AUS
+					}
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+		}
+		add_state_core = 4
+	}
+	if = {
+		limit = {
+			152 = {
+				owner = {
+					NOT = {
+						tag = AUS
+					}
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+		}
+		add_state_core = 152
+	}
+	if = {
+		limit = {
+			153 = {
+				owner = {
+					NOT = {
+						tag = AUS
+					}
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+		}
+		add_state_core = 153
+	}
+	if = {
+		limit = {
+			774 = {
+				owner = {
+					NOT = {
+						tag = AUS
+					}
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+		}
+		add_state_core = 774
+	}
+	if = {
+		limit = {
+			973 = {
+				owner = {
+					NOT = {
+						tag = AUS
+					}
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+		}
+		add_state_core = 973
+	}
+	if = {
+		limit = {
+			974 = {
+				owner = {
+					NOT = {
+						tag = AUS
+					}
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+		}
+		add_state_core = 974
+	}
+	if = {
+		limit = {
+			977 = {
+				owner = {
+					NOT = {
+						tag = AUS
+					}
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+		}
+		add_state_core = 977
+	}
+}
+###########################
+# Demand Sudetenland Effect
+###########################
+GER_Demand_Sudetenland_effect = {
+	69 = {
+		add_claim_by = GER
+	}
+	74 = {
+		add_claim_by = GER
+	}
+	1105 = {
+		add_claim_by = GER
+	}
+	if =  {
+		limit = {
+			OR = {
+				ENG = { exists = no }
+				ENG = {
+					is_subject = yes
+				}
+				has_war_with = ENG
+				has_war_with = FRA
+				AND = {
+					CZE = { is_subject = yes }
+					OR = {
+						CZE = {
+							NOT = {
+								is_puppet_of = HUN
+							}
+						}
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
+				}
+				CZE = { has_war_with = ENG }
+				CZE = { has_war_with = FRA }
+				CZE = { is_in_faction_with = GER }
+			}
+			CZE = { 
+				controls_state = 69 
+				controls_state = 74 
+				controls_state = 1105 
+			}
+		}
+		if = {
+			limit = {
+				CZE = { is_subject = no }
+			}
+			CZE = {
+				country_event = { id = germany.122 }
+			}
+			else = {
+				CZE = {
+					OVERLORD = { country_event = { id = germany.122 } }
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			ENG = { exists = yes }
+			ENG = { is_subject = no }
+			NOT = { has_war_with = ENG }
+			NOT = { has_war_with = FRA }
+			CZE = { is_subject = no }
+			CZE = { NOT = { is_in_faction_with = GER } }
+			CZE = { NOT = { has_war_with = ENG } }
+			CZE = { controls_state = 69 }
+			CZE = { controls_state = 74 }
+			CZE = { controls_state = 1105 }
+		}
+		ENG = {
+			country_event = { id = germany.40 }
+		}
+		add_named_threat = { threat = 3 name = GER_demand_sudetenland_threat }
+	}
+	else_if = {
+		limit = {
+			NOT = { 
+				CZE = { 
+					controls_state = 69 
+					controls_state = 74 
+					controls_state = 1105 
+				} 
+			}
+			NOT = {
+				69 = {
+					is_controlled_by = HUN 
+				}
+				74 = {
+					is_controlled_by = HUN 
+				}
+				1105 = {
+					is_controlled_by = HUN 
+				}
+			}
+			69 = {
+				controller = {
+					NOT = { is_in_faction_with = GER }
+				}
+			}
+			74 = {
+				controller = {
+					NOT = { is_in_faction_with = GER }
+				}
+			}
+			1105 = {
+				controller = {
+					NOT = { is_in_faction_with = GER }
+				}
+			}
+		}
+		add_named_threat = { threat = 3 name = GER_demand_sudetenland_threat }
+		69 = {
+			controller = {
+				GER = {
+					create_wargoal = {
+						type = take_state_focus
+						target = PREV
+						generator = { 69 74 1105 }
+					}
+				}
+			}
+		}
+	}
+}
+###########################
+# Influence
+###########################
+# example usage:
+## set_temp_variable = { GER_Influence_to_add = 5 }
+## add_influence = yes
+add_influence = {	
+	add_to_variable = { GER_Influence = GER_Influence_to_add }
+	set_temp_variable = { GER_Influence_to_add_display = GER_Influence_to_add }
+	clamp_temp_variable = {
+		var = GER_Influence
+		min = 0
+		max = 100
+	}
+	divide_temp_variable = { GER_Influence_to_add_display = 100 }
+	set_variable = { GER_Influence_display = GER_Influence }
+	divide_variable = { GER_Influence_display = 100 }
+	if = {
+		limit = {
+			check_variable = { GER_Influence_to_add > 0 }
+
+		}
+		custom_effect_tooltip = GER_Influence_Gain
+	} 
+	if = {
+		limit = {
+			check_variable = { GER_Influence_to_add < 0 }
+
+		}
+		custom_effect_tooltip = GER_Influence_Loss
+	} 
+}

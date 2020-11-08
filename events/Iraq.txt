@@ -1,0 +1,409 @@
+##############################
+# Darkest Hour Events : Iraq #
+##############################
+
+add_namespace = DH_Iraq_Shawkat
+add_namespace = DH_Iraq_Faisal
+add_namespace = DH_Iraq_Muharram
+
+### ------------------------- Iraq -------------------------###
+
+#########################################################################
+#  Resignation of Shawkat event chain
+#########################################################################
+
+# A crisis in the Government Bloc
+country_event = { 
+	id = DH_Iraq_Shawkat.1 
+	title = DH_Iraq_Shawkat.1.t
+	desc = DH_Iraq_Shawkat.1.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+	mean_time_to_happen = { days = 14 }
+
+	trigger = {tag = IRQ}
+
+	option = { # Mission failed we'll get them next time
+		name = DH_Iraq_Shawkat.1.a
+		hidden_effect = {
+			random_list = {
+	    		50 = {
+	        		country_event = {
+	    				id = DH_Iraq_Shawkat.2
+	    				days = 14
+	        		}
+	    		}
+	    		50 = {
+	        		country_event = {
+	    				id = DH_Iraq_Shawkat.3
+	    				days = 14
+					}
+	    		}
+			}
+		}
+	}
+
+	option = { #Stay
+		name = DH_Iraq_Shawkat.1.a
+		hidden_effect = {
+			country_event = {
+				id = DH_Iraq_Shawkat.4
+				days = 14
+			}
+		}
+	}
+}
+
+country_event = { #Al-Said demands a resignation! 
+	id = DH_Iraq_Shawkat.2
+	title = DH_Iraq_Shawkat.2.t
+	desc = DH_Iraq_Shawkat.2.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = DH.Iraq_Shawkat.2.a
+		country_event = {
+			id = DH_Iraq_Shawkat.5
+			days = 14
+		}
+	}
+}
+
+country_event = { #Al-Gaylani demands a resignation! 
+	id = DH_Iraq_Shawkat.3
+	title = DH_Iraq_Shawkat.3.t
+	desc = DH_Iraq_Shawkat.3.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = DH.Iraq_Shawkat.3.a
+		country_event = {
+			id = DH_Iraq_Shawkat.5
+			days = 14
+		}
+	}
+}
+
+country_event = { #Assasination of Naji
+	id = DH_Iraq_Shawkat.4
+	title = DH_Iraq_Shawkat.4.t
+	desc = DH_Iraq_Shawkat.4.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #Begin an investigation
+		name = DH_Iraq_Shawkat.4.a
+
+		#ALT Hist, not available
+	}
+
+	option = { #Let it slide
+		name = DH_Iraq_Shawkat.4.b
+		set_country_flag = IRQ_Crisis_Gov_Solved
+	}
+}
+
+country_event = { #Naji resigns
+	id = DH_Iraq_Shawkat.5
+	title = DH_Iraq_Shawkat.5.t
+	desc = DH_Iraq_Shawkat.5.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Iraq_Shawkat.5.a
+
+		hidden_effect = { set_country_flag = IRQ_Crisis_Gov_Solved }
+	}
+}
+
+
+#########################################################################
+#  Death of Faisal I
+#########################################################################
+
+country_event = { #A visit to Switzerland
+	id = DH_Iraq_Faisal.1
+	title = DH_Iraq_Faisal.1.t
+	desc = DH_Iraq_Faisal.1.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = DH.Iraq_Faisal.1.a
+		country_event = {
+			id = DH_Iraq_Faisal.2
+			days = 14
+		}
+	}
+}
+
+country_event = { #Our king is poisoned!
+	id = DH_Iraq_Faisal.2
+	title = DH_Iraq_Faisal.2.t
+	desc = DH_Iraq_Faisal.2.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #It was an investigation!
+		name = DH.Iraq_Faisal.2.a
+		country_event = {
+			id = DH_Iraq_Faisal.4
+			days = 14
+		}
+		news_event = {
+			id = DH_Iraq_Faisal.3
+			days = 7
+		}
+	}
+	option = { #Fate is unescapable...
+		name = DH.Iraq_Faisal.2.b
+		country_event = {
+			id = DH_Iraq_Faisal.5
+			days = 14
+		}
+		news_event = {
+			id = DH_Iraq_Faisal.3
+			days = 7
+		}		
+	}
+}
+
+news_event = { #Death of Faisal I
+	id = DH_Iraq_Faisal.3
+	title = DH_Iraq_Faisal.3.t
+	desc = DH_Iraq_Faisal.3.d
+	picture = GFX_news_GER_von_Schleicher_Dismissed #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Iraq_Faisal.3.a
+	}
+}
+
+country_event = { #Begin an investigation
+	id = DH_Iraq_Faisal.4
+	title = DH_Iraq_Faisal.4.t
+	desc = DH_Iraq_Faisal.4.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = DH.Iraq_Faisal.4.a
+		news_event = {
+			id = DH_Iraq_Faisal.6
+			days = 14
+		}
+	}
+}
+
+country_event = { #A great funeral
+	id = DH_Iraq_Faisal.5
+	title = DH_Iraq_Faisal.5.t
+	desc = DH_Iraq_Faisal.5.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = DH.Iraq_Faisal.5.a
+		news_event = {
+			id = DH_Iraq_Faisal.6
+			days = 14
+		}
+	}
+}
+
+news_event = { #Coronation
+	id = DH_Iraq_Faisal.6
+	title = DH_Iraq_Faisal.6.t
+	desc = DH_Iraq_Faisal.6.d
+	picture = GFX_news_GER_von_Schleicher_Dismissed #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Iraq_Faisal.6.a
+	}
+}
+
+#########################################################################
+#  Ban on Ashora Commemorations
+#########################################################################
+
+country_event = { #Muharram begins
+	id = DH_Iraq_Muharram.1
+	title = DH_Iraq_Muharram.1.t
+	desc = DH_Iraq_Muharram.1.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Iraq_Muharram.1.a
+		country_event = {
+			id = DH_Iraq_Muharram.2
+			days = 14
+		}
+	}
+}
+
+country_event = { #Shiite commemorating
+	id = DH_Iraq_Muharram.2
+	title = DH_Iraq_Muharram.2.t
+	desc = DH_Iraq_Muharram.2.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #Crackdown
+		name = DH_Iraq_Muharram.2.a
+		country_event = {
+			id = DH_Iraq_Muharram.3
+			days = 14
+		}
+	}
+	option = { #Lift the ban
+		name = DH_Iraq_Muharram.2.b
+		country_event = {
+			id = DH_Iraq_Muharram.8
+			days = 14
+		}
+	}
+}
+
+country_event = { #Shia unrest
+	id = DH_Iraq_Muharram.3
+	title = DH_Iraq_Muharram.3.t
+	desc = DH_Iraq_Muharram.3.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #Assault
+		name = DH_Iraq_Muharram.3.a
+		country_event = {
+			id = DH_Iraq_Muharram.4
+			days = 14
+		}
+	}
+	option = { #Ignore
+		name = DH_Iraq_Muharram.3.b
+		country_event = {
+			id = DH_Iraq_Muharram.5
+			days = 14
+		}
+	}
+}
+
+country_event = { #Fatwa against us
+	id = DH_Iraq_Muharram.4
+	title = DH_Iraq_Muharram.4.t
+	desc = DH_Iraq_Muharram.4.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Iraq_Muharram.4.a
+		country_event = {
+			id = DH_Iraq_Muharram.6
+			days = 14
+		}
+	}
+}
+
+country_event = { #Youth begin destruction
+	id = DH_Iraq_Muharram.5
+	title = DH_Iraq_Muharram.5.t
+	desc = DH_Iraq_Muharram.5.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #Send in the army
+		name = DH_Iraq_Muharram.5.a
+		country_event = {
+			id = DH_Iraq_Muharram.4
+			days = 14
+		}
+	}
+	option = { #Lift the ban
+		name = DH_Iraq_Muharram.2.b
+		country_event = {
+			id = DH_Iraq_Muharram.7
+			days = 14
+		}
+	}
+}
+
+country_event = { #1920 2 : the electric boogaloo
+	id = DH_Iraq_Muharram.6
+	title = DH_Iraq_Muharram.6.t
+	desc = DH_Iraq_Muharram.6.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Iraq_Muharram.6.a
+		news_event = {
+			id = DH_Iraq_Muharram.9
+			days = 14
+		}
+	}
+}
+
+country_event = { #Abortion of stupidity
+	id = DH_Iraq_Muharram.7
+	title = DH_Iraq_Muharram.7.t
+	desc = DH_Iraq_Muharram.7.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Iraq_Muharram.7.a
+		country_event = {
+			id = DH_Iraq_Muharram.8
+			days = 14
+		}
+	}
+}
+
+country_event = { #Ashora goes peacefully
+	id = DH_Iraq_Muharram.8
+	title = DH_Iraq_Muharram.8.t
+	desc = DH_Iraq_Muharram.8.d
+	picture = GFX_DH_Generic_Elections #PLACEHOLDER
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = DH.Iraq_Muharram.8.a
+	}
+}
+
+news_event = { #Ashora revolution
+	id = DH_Iraq_Muharram.9
+	title = DH_Iraq_Muharram.9.t
+	desc = DH_Iraq_Muharram.9.d
+	picture = GFX_news_GER_von_Schleicher_Dismissed
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = DH_Iraq_Muharram.9.a
+	}	
+}

@@ -1,0 +1,33 @@
+state={
+	id=1330
+	name="STATE_1330"
+
+	history={
+		owner = NZL
+		buildings = {
+			infrastructure = 1
+			14313 = {
+				naval_base = 1
+
+			}
+			14315 = {
+				naval_base = 1
+
+			}
+			14316 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CKI
+
+	}
+
+	provinces={
+		14313 14315 14316 
+	}
+	manpower=2764
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

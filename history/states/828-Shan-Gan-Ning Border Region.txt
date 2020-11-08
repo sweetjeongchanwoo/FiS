@@ -1,0 +1,33 @@
+
+state={
+	id=828
+	name="STATE_828"
+
+	history={
+		owner = NXM
+		add_core_of = NXM
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+		victory_points = {
+			3745 1 
+		}
+		1936.1.1 = {
+			owner = PRC
+		}
+		1950.1.1 = {
+			owner = PRC
+		}
+	}
+
+	provinces={
+		517 3745 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

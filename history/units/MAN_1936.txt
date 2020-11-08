@@ -1,0 +1,350 @@
+﻿division_template = {
+	name = "Huncheng Lu" 			# Manchurian Army Mixed Brigades: 1 infantry regiment, 1 cavalry regiment
+	division_names_group = MAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry  = { x = 1 y = 0 }
+		cavalry  = { x = 1 y = 1 }
+		cavalry  = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Bùbīng lu" 			# Infantry Brigade
+	division_names_group = MAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Qibing Lu" 			# Manchurian Army Cavalry Brigades
+	division_names_group = MAN_CAV_01
+	regiments = {
+		cavalry  = { x = 0 y = 0 }
+		cavalry  = { x = 1 y = 0 }
+		cavalry  = { x = 2 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Zhùjūn lu" 			# Garrison Brigade
+	regiments = {
+		garrison = { x = 0 y = 0 }
+		garrison = { x = 0 y = 1 }
+		garrison = { x = 0 y = 2 }
+		garrison = { x = 1 y = 0 }
+		garrison = { x = 1 y = 1 }
+		garrison = { x = 1 y = 2 }
+    }
+    priority = 0
+}
+
+division_template = {
+	name = "Mínbīng lu" 			# Militia Brigade
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+	##### Di'1 Fang'tien Jüntuan #####
+	division = {
+		name = "1 Man'chu Lu"
+		location = 11771 # Shenyang (Mukden)
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "2 Man'chu Lu"
+		location = 11771 # Shenyang (Mukden)
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "3 Man'chu Lu"
+		location = 11771 # Shenyang (Mukden)
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "4 Man'chu Lu"
+		location = 11771 # Shenyang (Mukden)
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "5 Man'chu Lu"
+		location = 11771 # Shenyang (Mukden)
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "6 Man'chu Lu"
+		location = 11771 # Shenyang (Mukden)
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	##### Di'2 Ji'lin Jüntuan #####
+	division = {
+		name = "7 Man'chu Lu"
+		location = 11864 # Jilin
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "8 Man'chu Lu"
+		location = 11864 # Jilin
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "9 Man'chu Lu"
+		location = 11864 # Jilin
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "10 Man'chu Lu"
+		location = 11864 # Jilin
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = { # 1 Man'chu Qi'Bing
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11864 # Jilin
+		division_template = "Qibing Lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+	}
+
+	division = { # 2 Man'chu Qi'Bing
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11864 # Jilin
+		division_template = "Qibing Lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+	}
+
+	division = { # 3 Man'chu Qi'Bing
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11864 # Jilin
+		division_template = "Qibing Lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+	}
+	##### Di'3 Qiqihar Jüntuan #####
+	division = {
+		name = "11 Man'chu Lu"
+		location = 12485 # Qiqihaer
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "12 Man'chu Lu"
+		location = 12485 # Qiqihaer
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "13 Man'chu Lu"
+		location = 12485 # Qiqihaer
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "14 Man'chu Lu"
+		location = 12485 # Qiqihaer
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "15 Man'chu Lu"
+		location = 12485 # Qiqihaer
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = { # 4 Man'chu Qi'Bing
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 12485 # Qiqihaer
+		division_template = "Qibing Lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+	}
+	##### Di'4 Harbin Jüntuan #####
+	division = {
+		name = "16 Man'chu Lu"
+		location = 10433 # Harbin
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "17 Man'chu Lu"
+		location = 10433 # Harbin
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "18 Man'chu Lu"
+		location = 10433 # Harbin
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "19 Man'chu Lu"
+		location = 10433 # Harbin
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "20 Man'chu Lu"
+		location = 10433 # Harbin
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "21 Man'chu Lu"
+		location = 10433 # Harbin
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "22 Man'chu Lu"
+		location = 10433 # Harbin
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "23 Man'chu Lu"
+		location = 10433 # Harbin
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = { # 5 Man'chu Qi'Bing
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 10433 # Harbin
+		division_template = "Qibing Lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+	}
+	##### Di'5 Chengde Jüntuan #####
+	division = {
+		name = "24 Man'chu Lu"
+		location = 9873 # Chengde
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "25 Man'chu Lu"
+		location = 9873 # Chengde
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "26 Man'chu Lu"
+		location = 9873 # Chengde
+		division_template = "Mínbīng lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = { # 6 Man'chu Qi'Bing
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 9873 # Chengde
+		division_template = "Qibing Lu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1936
+			creator = "MAN"
+		}
+		requested_factories = 1
+		progress = 0.52
+		efficiency = 100
+	}
+}

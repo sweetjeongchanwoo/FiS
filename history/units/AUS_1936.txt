@@ -1,0 +1,230 @@
+﻿# 1 year conscription in 1936
+
+division_template = {
+	name = "Infanterie-Division"
+	division_names_group = AUS_GEN_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		bicycle_battalion = { x = 3 y = 0 }			# Divisions had a bicycle recon battalion
+		anti_tank_brigade = { x = 3 y = 1 }			# Only some divisions had antitank battalions.
+		artillery_battalion_light = { x = 4 y = 0 } # All Austrian artillery was 8cm or smaller.
+		artillery_battalion_light = { x = 4 y = 1 }
+		artillery_battalion_light = { x = 4 y = 2 } # One of the three battalions was specifically mountain howizters
+	}
+	support = {
+		recon = { x = 0 y = 0 } # Dragoons squadron
+		engineer = { x = 0 y = 1 }   # Pioneer Bn
+		signal_company = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Alpenjäger-Division" #4,5,6,7 Division were all or partially alpine.
+	division_names_group = AUS_GEN_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+		bicycle_battalion = { x = 3 y = 0 }			# Divisions had a bicycle recon battalion
+		artillery_battalion_light = { x = 4 y = 0 } # All Austrian artillery was 8cm or smaller.
+		artillery_battalion_light = { x = 4 y = 1 }
+		artillery_battalion_light = { x = 4 y = 2 } # One of the three battalions was specifically mountain howizters
+	}
+	support = {
+		recon = { x = 0 y = 0 } # Dragoons squadron
+		engineer = { x = 0 y = 1 }   # Pioneer Bn
+		signal_company = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Infanterie-Brigade"
+	division_names_group = AUS_GEN_02
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		bicycle_battalion = { x = 2 y = 0 }			# Divisions had a bicycle recon battalion
+		artillery_battalion_light = { x = 3 y = 0 } # All Austrian artillery was 8cm or smaller.
+		artillery_battalion_light = { x = 3 y = 1 }
+		artillery_battalion_light = { x = 3 y = 2 } # One of the three battalions was specifically mountain howizters
+	}
+	support = {
+		recon = { x = 0 y = 0 } # Dragoons squadron
+		engineer = { x = 0 y = 1 }   # Pioneer Bn
+		signal_company = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Schnelle Division" 
+	division_names_group = AUS_MOB_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }	# 2 regiments of cavalry with 2 squadrons each
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }	# 4 battalions of motorized infantry
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 2 y = 3 }
+		motorized_artillery_battalion = { x = 3 y = 0 } # All Austrian artillery was 8cm or smaller. Motorized
+		motorized_artillery_battalion = { x = 3 y = 1 }
+		motorized_artillery_battalion = { x = 3 y = 2 }
+		medium_armor = { x = 4 y = 0 }	# 1 battalion light tanks
+	}
+	support = {
+		armored_car_recon = { x = 0 y = 0 }      # 1 armored car company 
+		engineer = { x = 0 y = 1 }   # Pioneer Bn
+		signal_company = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	##### Oberkommando des Bundesheeres #####
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11666  # Vienna
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.39 # Total strength in 1938 was 60k.  That was in 7 infantry divisions, 1 infantry brigade, and the fast division.
+	}
+
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11666  # Vienna
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.39 # Total strength in 1938 was 60k.  That was in 7 infantry divisions, 1 infantry brigade, and the fast division.
+	}
+
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 13207 # St Poelten
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.39 # Total strength in 1938 was 60k.  That was in 7 infantry divisions, 1 infantry brigade, and the fast division.
+	}
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9665 # Linz
+		division_template = "Alpenjäger-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.39 # Total strength in 1938 was 60k.  That was in 7 infantry divisions, 1 infantry brigade, and the fast division.
+	}
+	
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9648  # Graz
+		division_template = "Alpenjäger-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.39 # Total strength in 1938 was 60k.  That was in 7 infantry divisions, 1 infantry brigade, and the fast division.
+	}
+	
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 11618  # Innsbruck
+		division_template = "Alpenjäger-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.39 # Total strength in 1938 was 60k.  That was in 7 infantry divisions, 1 infantry brigade, and the fast division.
+	}
+
+##7. Division not formed until 1 February
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 688  # Salzburg
+		division_template = "Infanterie-Brigade"
+		start_experience_factor = 0.1 # New formation
+		start_equipment_factor = 0.66 # Actual strength was less than 7k.
+	}
+
+	division= {	# 1. Schnelle-Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11666  # Vienna
+		division_template = "Schnelle Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.63 # Actual strength was around 7.6k.
+		force_equipment_variants = { Light_Tank_equipment_1926 = { owner = "ITA" } }
+	}
+}
+
+# No Air Force according to Hoi2 
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1936
+			creator = "AUS"
+		}
+		requested_factories = 1
+		progress = 0.54
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "AUS"
+		}
+		requested_factories = 1
+		progress = 0.74
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "AUS"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 100
+	}
+}

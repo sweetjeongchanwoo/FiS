@@ -1,0 +1,41 @@
+
+state={
+	id=1097
+	name="STATE_1097"
+	
+	history={
+		owner = BUL
+		victory_points = {
+			9783 5 
+		}
+		victory_points = {
+			9612 2
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			9783 = {
+				naval_base = 3
+			}
+
+		}
+		add_core_of = BUL
+		1950.1.1 = {
+			set_state_name = Stalin
+			set_province_name = { id = 9783 name = "Stalin" }
+
+		}
+		1960.1.1 = {
+			set_state_name = Varna
+			set_province_name = { id = 9783 name = "Varna" }
+
+		}
+	}
+	
+	provinces={
+		649 9612 9769 9783 
+	}
+	manpower=336505
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

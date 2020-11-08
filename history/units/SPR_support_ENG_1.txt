@@ -1,0 +1,12 @@
+units = {
+    division = {
+		name = "British Battalion"
+		location = 3938  # Madrid
+		division_template = "Brigada Internationale"
+	}
+	division = {
+		name = "Connolly Column"
+		location = 3938  # Madrid
+		division_template = "Brigada Internationale"
+	}
+}

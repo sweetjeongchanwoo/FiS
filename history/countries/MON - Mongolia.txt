@@ -1,0 +1,52 @@
+﻿#########################################################################
+# Mongolia - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 330
+	oob = "MON_1933"
+	# Starting tech
+	set_technology = {
+		Small_Arms_1916 = 1
+	}
+
+	add_ideas = {
+		MON_HoG_Peljidiyn_Genden
+		one_year_service
+	}
+
+	set_politics = {
+		ruling_party = communist
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 4
+		democratic = 11
+		socialist = 0
+		communist = 85
+	}
+	#######################
+	# Leaders
+	#######################
+	# Bolshevik-Leninism
+	create_country_leader = {
+		name = "Agdanbuugiyn Amar"
+		desc = "POLITICS_ANANDYN_AMAR_DESC"
+		picture = "P_C_Agdanbuugiyn_Amar.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = {
+			POSITION_Chairman
+			SUBIDEOLOGY_Marxism_Leninism
+			HoS_Weary_Stiff_Neck
+		}
+	}
+}
+#########################################################################
+# Mongolia - 1936
+#########################################################################
+1936.1.1 = {
+	oob = "MON_1936"
+}

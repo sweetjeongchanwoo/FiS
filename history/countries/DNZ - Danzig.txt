@@ -1,0 +1,125 @@
+﻿#########################################################################
+# Danzig - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 85
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1931.5.28"
+		election_frequency = 24
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 50
+		authoritarian = 6
+		democratic = 37
+		socialist = 0
+		communist = 7
+	}
+	add_ideas = {
+		DNZ_Free_City_of_Danzig	
+		# Cabinet
+		DNZ_HoS_Helmer_Rosting	
+	}
+	set_cosmetic_tag = DNZ_FREE_CITY
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Hermann Rauschning"
+		desc = ""
+		picture = "P_F_Hermann_Rauschning.tga"
+		expire = "1982.2.8"
+		ideology = national_socialism
+		traits = { POSITION_Senate_President SUBIDEOLOGY_National_Socialism HoS_Autocratic_Charmer }
+	}
+	# Authoritarianism
+	create_country_leader = {
+		name = "Ernst Ziehm"
+		desc = ""
+		picture = "P_A_Ernst_Ziehm.tga"
+		expire = "1962.7.7"
+		ideology = authoritarian_democracy
+		traits = { POSITION_Senate_President SUBIDEOLOGY_Authoritarian_Democracy HoS_Popular_Figurehead }
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Arthur Brill"
+		desc = ""
+		picture = "P_A_Ernst_Ziehm.tga"
+		expire = "1956.9.19"
+		ideology = social_democracy
+		traits = { POSITION_Senate_President SUBIDEOLOGY_Social_Democracy HoS_Weary_Stiff_Neck }
+	}
+}
+#########################################################################
+# Danzig - 1936
+#########################################################################
+1936.1.1 = {
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = fascist
+		last_election = "1935.4.7"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 59
+		authoritarian = 4
+		democratic = 34
+		socialist = 0
+		communist = 3
+	}
+	add_ideas = {
+		# Cabinet
+		DNZ_HoS_Sean_Lester	
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Arthur Greiser"
+		desc = ""
+		picture = "P_F_Arthur_Greiser.tga"
+		expire = "1946.7.21"
+		ideology = national_socialism
+		traits = { POSITION_Senate_President SUBIDEOLOGY_National_Socialism HoS_PowerHungry_Demagogue }
+	}
+}
+#########################################################################
+# Danzig - 1939
+#########################################################################
+1939.9.1 = {
+	#######################
+	# Politics
+	#######################
+	add_ideas = {
+		# Cabinet
+		DNZ_HoS_Carl_Jakob_Burckhardt
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Albert Forster"
+		desc = ""
+		picture = "P_F_Albert_Forster.tga"
+		expire = "1952.2.28"
+		ideology = national_socialism
+		traits = { POSITION_State_President SUBIDEOLOGY_National_Socialism HoS_Stern_Imperialist }
+	}
+}

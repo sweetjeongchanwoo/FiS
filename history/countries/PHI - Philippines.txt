@@ -1,0 +1,108 @@
+﻿#########################################################################
+# Philippines - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 327
+	set_convoys = 5
+	oob = "PHI_1936"
+
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		tech_support = 1
+		tech_engineers = 1
+		Artillery_1910 = 1
+		Fighter_1933 = 1
+		Tactical_Bomber_1933 = 1
+	}
+
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1929.9.15"
+		election_frequency = 72
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 17
+		democratic = 83
+		socialist = 0
+		communist = 0
+	}
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Theodore Roosevelt Jr."
+		desc = ""
+		picture = "P_D_Theodore_Roosevelt_Jr.tga"
+		expire = "1935.11.15"
+		ideology = social_conservatism
+		traits = { POSITION_Governor_General SUBIDEOLOGY_Conservatism }
+	}
+	# Authoritarianism
+	create_country_leader = {
+		name = "Jose P. Laurel"
+		desc = ""
+		picture = "P_A_Jose_P_Laurel.tga"
+		expire = "1945.8.17"
+		ideology = authoritarian_democracy
+		traits = { POSITION_President SUBIDEOLOGY_Authoritarian_Democracy }
+	}
+}
+
+##########################################################
+# Philippines - 1936
+##########################################################
+1936.1.1 = {
+	#######################
+	# Politics
+	#######################
+	add_ideas = {
+		PHI_HoG_Sergio_Osmena
+	}
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Manuel Luis Quezón"
+		desc = ""
+		picture = "P_D_Manuel_Luis_Quezon.tga"
+		expire = "1944.8.1"
+		ideology = social_conservatism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism }
+	}
+}
+
+##########################################################
+# Philippines - 1945
+##########################################################
+1945.1.1 = {
+	#######################
+	# Politics
+	#######################
+	remove_ideas = {
+		PHI_HoG_Sergio_Osmena
+	}
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Sergio Osmeña"
+		desc = ""
+		picture = "P_D_Sergio_Osmena.tga"
+		expire = "1961.10.19"
+		ideology = social_conservatism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism }
+	}
+}
+

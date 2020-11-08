@@ -1,0 +1,55 @@
+﻿#########################################################################
+# Kuwait - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 656
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1933.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 100
+		democratic = 0
+		socialist = 0
+		communist = 0
+	}
+	#######################
+	# Leaders
+	#######################
+	# Authoritarianism
+	create_country_leader = {
+		name = "Ahmad al-Jaber al-Sabah"
+		desc = ""
+		picture = "P_A_Ahmad_al_Jaber_al_Sabah.tga"
+		expire = "1951.7.20"
+		ideology = monarchism
+		traits = { POSITION_Emir SUBIDEOLOGY_Monarchism }
+	}
+	#######################
+	# Generals
+	#######################
+}
+#########################################################################
+# Kuwait - 1940
+#########################################################################
+1940.5.10 = {
+	set_cosmetic_tag = KUW_1940
+}
+#########################################################################
+# Kuwait - 1972
+#########################################################################
+1972.1.1 = {
+	set_cosmetic_tag = KUW_1961
+}

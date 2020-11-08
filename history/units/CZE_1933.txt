@@ -1,0 +1,498 @@
+﻿division_template = {
+	name = "Pěší Divize"					# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Pěší divize s protiletadlovými zbraněmi"	# Infantry Division with Anti Air 
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		anti_air_brigade = { x = 2 y = 0 }
+		anti_air_brigade = { x = 2 y = 1 }
+		anti_air_brigade = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Pěší divize s dělostřelectvem"				# Infantry Division with Artillery
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_battalion = { x = 2 y = 0 }
+		artillery_battalion = { x = 2 y = 1 }
+		artillery_battalion = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Pěší divize s inženýry"					# Infantry Division with Engineers
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+    }
+    
+    support = {
+        engineer = { x = 0 y = 0 }
+    }
+}
+
+division_template = {
+	name = "Horská Divize"					# Mountain Division
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Rychlá Divize"	#Fast division		
+    
+    regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+    
+    support = {
+		recon = { x = 0 y = 0 }      # includes 1x AC comp, 1x L tank comp
+	}
+}
+
+division_template = {
+    name = "Posádková divize" # Garrison Division
+    
+    regiments = {
+        garrison = { x = 0 y = 0 }
+        garrison = { x = 0 y = 1 }
+        garrison = { x = 1 y = 0 }
+        garrison = { x = 1 y = 1 }
+    }
+    is_locked = yes
+    priority = 0 
+}
+
+units = {
+    ##### Generální Rezervy #####
+    division = {
+        name = "1. Horská Brigada"
+        location = 3414 # Ostrava
+        division_template = "Horská Divize"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.2
+    }
+
+    division = {
+        name = "2. Horská Brigada"
+        location = 3414 # Ostrava
+        division_template = "Horská Divize"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.2
+    }
+
+    division = {
+        name = "13. Divize"
+        location = 3414 # Ostrava
+        division_template = "Pěší Divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "15. Divize"
+        location = 3414 # Ostrava
+        division_template = "Pěší Divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "18. Divize"
+        location = 3414 # Ostrava
+        division_template = "Pěší Divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "21. Divize"
+        location = 3414 # Ostrava
+        division_template = "Pěší Divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "22. Divize"
+        location = 3414 # Ostrava
+        division_template = "Pěší Divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### I. Armáda #####
+    division = {
+        name = "1. Rychlá Brigada"
+        location = 11542 # Prague
+        division_template = "Rychlá Divize"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.2
+    }
+
+    division = {
+        name = "2. Divize"
+        location = 11542 # Prague
+        division_template = "Pěší divize s dělostřelectvem"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.6
+    }
+
+    division = {
+        name = "1. Divize"
+        location = 11542 # Prague
+        division_template = "Posádková divize"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.6
+    }
+
+    division = {
+        name = "3. Divize"
+        location = 11542 # Prague
+        division_template = "Pěší divize s protiletadlovými zbraněmi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.6
+    }
+
+    division = {
+        name = "4. Divize"
+        location = 11542 # Prague
+        division_template = "Pěší divize s dělostřelectvem"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.6
+    }
+
+    division = {
+        name = "5. Divize"
+        location = 11542 # Prague
+        division_template = "Pěší divize s dělostřelectvem"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.6
+    }
+
+    division = {
+        name = "16. Divize"
+        location = 11542 # Prague
+        division_template = "Pěší divize s inženýry"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "17. Divize"
+        location = 11542 # Prague
+        division_template = "Pěší Divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### II. Armáda #####
+    division = {
+        name = "7. Divize"
+        location = 3569 # Brno
+        division_template = "Pěší divize s protiletadlovými zbraněmi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.6
+    }
+
+    division = {
+        name = "8. Divize"
+        location = 3569 # Brno
+        division_template = "Pěší divize s dělostřelectvem"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.6
+    }
+
+    division = {
+        name = "6. Divize"
+        location = 3569 # Brno
+        division_template = "Pěší divize s dělostřelectvem"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.6
+    }
+
+    division = {
+        name = "2. Rychlá Brigada"
+        location = 3569 # Brno
+        division_template = "Rychlá Divize"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.2
+    }
+    ##### III. Armáda #####
+    division = {
+        name = "10. Divize"
+        location = 9692 # Bratislava
+        division_template = "Pěší divize s dělostřelectvem"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.6
+    }
+
+    division = {
+        name = "9. Divize"
+        location = 9692 # Bratislava
+        division_template = "Pěší divize s dělostřelectvem"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.6
+    }
+
+    division = {
+        name = "3. Rychlá Brigada"
+        location = 9692 # Bratislava
+        division_template = "Rychlá Divize"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.2
+    }
+    ##### IV. Armáda #####
+    division = {
+        name = "12. Divize"
+        location = 6573 # Kosice
+        division_template = "Pěší divize s protiletadlovými zbraněmi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.6
+    }
+
+    division = {
+        name = "11. Divize"
+        location = 6573 # Kosice
+        division_template = "Pěší divize s dělostřelectvem"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
+    }
+
+    division = {
+        name = "19. Divize"
+        location = 6573 # Kosice
+        division_template = "Pěší Divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+
+    division = {
+        name = "20. Divize"
+        location = 6573 # Kosice
+        division_template = "Pěší Divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 32. Hranicní Oblast #####
+    division = {
+        name = "32. Hranicní Oblast"
+        location = 6470 # Karlovy Vary
+        division_template = "Posádková divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 33. Hranicní Oblast #####
+    division = {
+        name = "33. Hranicní Oblast"
+        location = 11401 # Liberec
+        division_template = "Posádková divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 34. Hranicní Oblast #####
+    division = {
+        name = "34. Hranicní Oblast"
+        location = 11401 # Liberec
+        division_template = "Posádková divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 35. Hranicní Oblast #####
+    division = {
+        name = "35. Hranicní Oblast"
+        location = 583 # Hradec Kralov
+        division_template = "Posádková divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 36. Hranicní Oblast #####
+    division = {
+        name = "36. Hranicní Oblast"
+        location = 3583 # Opava
+        division_template = "Posádková divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 37. Hranicní Oblast #####
+    division = {
+        name = "37. Hranicní Oblast"
+        location = 3583 # Opava
+        division_template = "Posádková divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 39. Hranicní Oblast #####
+    division = {
+        name = "39. Hranicní Oblast"
+        location = 9692 # Bratislava
+        division_template = "Posádková divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 40. Hranicní Oblast #####
+    division = {
+        name = "40. Hranicní Oblast"
+        location = 3716 # Komarno
+        division_template = "Posádková divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 41. Hranicní Oblast #####
+    division = {
+        name = "41. Hranicní Oblast"
+        location = 6573 # Kosice
+        division_template = "Posádková divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 42. Hranicní Oblast #####
+    division = {
+        name = "42. Hranicní Oblast"
+        location = 11536 # Uzhorod
+        division_template = "Posádková divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 31. Hranicní Oblast #####
+    division = {
+        name = "31. Hranicní Oblast"
+        location = 11525 # Znojmo
+        division_template = "Posádková divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+    ##### 38. Hranicní Oblast #####
+    division = {
+        name = "38. Hranicní Oblast"
+        location = 9541 # Prachatice
+        division_template = "Posádková divize"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.05
+    }
+}
+
+air_wings = {
+    9 = {
+        # 4. Letecky Pluk
+        Fighter_equipment_1933 = { # Aero A.18
+            owner = "CZE"
+            amount = 45
+        }
+         # 2. Letecky Pluk
+         Fighter_equipment_1933 = { # Aero A.18
+         owner = "CZE"
+         amount = 45
+        }
+    }
+
+    70 = {
+        # 4. Letecky Pluk
+        Fighter_equipment_1933 = { # Aero A.18
+            owner = "CZE"
+            amount = 40
+        }
+        # 1. Letecky Pluk
+        Fighter_Bomber_equipment_1933 = { # Avia BH.21
+            owner = "CZE"
+            amount = 25
+        }
+    }
+}
+### Starting Production ###
+instant_effect = {
+    add_equipment_production = {
+        equipment = {
+            type = Small_Arms_equipment_1900
+            creator = "CZE"
+        }
+        requested_factories = 3
+        progress = 0.18
+        efficiency = 100
+    }
+
+    add_equipment_production = {
+        equipment = {
+            type = support_equipment_1
+            creator = "CZE"
+        }
+        requested_factories = 1
+        progress = 0.48
+        efficiency = 100
+    }
+
+    add_equipment_production = {
+        equipment = {
+            type = artillery_equipment_1
+            creator = "CZE"
+        }
+        requested_factories = 2
+        progress = 0.24
+        efficiency = 100
+    }
+
+    add_equipment_production = {
+        equipment = {
+            type = Anti_Aircraft_Gun_equipment_1935
+            creator = "CZE"
+        }
+        requested_factories = 1
+        progress = 0.22
+        efficiency = 100
+    }
+
+    add_equipment_production = {
+        equipment = {
+            type = Light_Tank_equipment_1934
+            creator = "CZE"
+        }
+        requested_factories = 2
+        progress = 0.10
+        efficiency = 100
+    }
+}

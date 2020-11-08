@@ -1,0 +1,267 @@
+#########################################################################
+#  Historical Germany
+#########################################################################
+GER_historical = {
+	name = "German Reich (Historical)"
+	desc = "Essentially historical behaviour for Germany"
+
+	enable = {
+		original_tag = GER
+		is_historical_focus_on = yes
+	}
+	abort = {}
+
+	# ai_national_focuses = {
+		# # 1933
+		# GER_Chancellor_Hitler
+		# GER_Reichswehr
+		# GER_Enabling_Act
+		# GER_Gleichschaltung
+		# GER_Second_Rearmament_Program
+		# GER_Establish_The_Gestapo
+		# GER_Reichsluftfahrtministerium
+		# GER_Deutsche_Arbeitsfront
+		# GER_Privatizations_and_Austerity
+		# GER_Volkswohlfahrt
+		# GER_Kirchenkampf
+		# GER_Reinhardt_Programme
+		# GER_Reichsautobahn
+		# GER_Kraft_durch_Freude
+		# # 1934
+		# GER_Luftrustungsprogramme
+		# GER_Reichsmarine
+		# GER_Schiffebauplan
+		# GER_LSSAH
+		# GER_Unternehmen_Kolibri
+		# GER_Issue_MEFO_Bills
+		# GER_Ein_Volk_Ein_Reich_Ein_Fuhrer
+		# GER_Panzer_Development
+		# GER_SS_VT
+		# GER_Agreement_with_IG_Farben
+		# # 1935
+		# GER_The_Saar_Plebiscite
+		# GER_Renounce_the_Disarmament_Clauses
+		# GER_Establish_the_Wehrmacht
+		# GER_Luftwaffe
+		# GER_Heer
+		# GER_BFW
+		# GER_Kriegsmarine
+		# GER_Nuremberg_Laws
+		# # 1936
+		# GER_Panzertruppen
+		# GER_Rhineland
+		# GER_Four_Year_Plan
+		# GER_Frontlinienflieger
+		# GER_Ordnungspolizei
+		# # 1937
+		# GER_Anti_Comintern_Pact
+		# GER_Reichswerke_Hermann_Goering
+		# GER_VoMi
+		# GER_Achtung_Panzer
+		# GER_Heeresversuchsanstalt_Peenemunde
+		# GER_Naval_Air_Effort
+		# # 1938
+		# GER_Heim_ins_Reich
+		# GER_OKW
+		# GER_Todt
+		# GER_Volkswagen
+		# GER_Fallschirmtruppen
+		# GER_Abwehr
+		# # 1939
+		# GER_Reichssicherheitsamt
+		# GER_Schwerer_Kreuzer
+		# GER_Stahlpakt
+		# GER_Plan_Z
+		# GER_Eye_to_The_East
+		# GER_Increasing_The_Attack_Power
+		# GER_Jagdwaffe
+		# GER_Panzerknacker
+		# # 1940
+		# GER_Bewegungskrieg
+		# GER_SS_Fuhrungshauptamt
+		# GER_SS_Freiwillige_Divisions
+		# GER_Tripartite_Pact
+		# GER_Unrestricted_Submarine_Warfare
+		# # 1941
+		# GER_Panzerkorps
+		# GER_Kampfgruppe
+		# GER_Generalplan_Ost
+		# GER_UBoot_Bunkers
+		# GER_Social_Autarky
+		# GER_Wunderwaffen
+		# # 1942
+		# GER_The_Genius_Organizer
+		# GER_Atlantikwall
+		# GER_Expand_The_Waffen_SS
+		# GER_Tiger_Tank
+		# GER_ENIGMA
+		# GER_Jet_Engines
+		# GER_Uranprojekt
+		# # 1943
+		# GER_Total_War
+		# GER_Plankalkul
+		# GER_Panther_Tank
+		# GER_Vergeltungswaffen
+		# GER_Blitzbomber
+		# # 1944
+		# GER_Amerika_Bomber
+	# }
+}
+#########################################################################
+#  Strasserist Germany
+#########################################################################
+GER_Strasserist_Gregor = {
+	name = "German Worker's State (Strasserist - Gregor)"
+	desc = "Strasserist Germany, Lead by Gregor Strasser and his Ultranationalist Faction"
+
+	enable = {
+		original_tag = GER
+		has_game_rule = {
+			rule = GER_ai_behavior
+			option = STRASSERIST_GREGOR
+		}
+	}
+	abort = {}
+
+	# ai_national_focuses = {
+		# # 1933
+		# GER_Chancellor_Hitler
+		# GER_Reichswehr
+		# GER_Enabling_Act
+		# GER_Gleichschaltung
+		# GER_Second_Rearmament_Program
+		# GER_Establish_The_Gestapo
+		# GER_Reichsluftfahrtministerium
+		# GER_Deutsche_Arbeitsfront
+		# GER_Privatizations_and_Austerity
+		# GER_Volkswohlfahrt
+		# GER_Kirchenkampf
+		# GER_Reinhardt_Programme
+		# GER_Reichsautobahn
+		# GER_Kraft_durch_Freude
+		# # 1934
+		# GER_Luftrustungsprogramme
+		# GER_Reichsmarine
+		# GER_Schiffebauplan
+		# GER_LSSAH
+		# GER_The_Brown_Revolution
+		# # SA Takeover Tree
+		# GER_The_Brown_Tide
+		# GER_Dealing_with_the_inner_circle
+		# GER_Talks_with_Strasser
+		# GER_Nights_of_the_Rope
+		# # Strasserist Tree
+		# GER_Zweite_Revolution
+		# GER_Advocate_for_Paligenesis
+		# GER_Embrace_Ultranationalism
+	# }
+}
+GER_Strasserist_Otto = {
+	name = "German Worker's State (Strasserist - Otto)"
+	desc = "Strasserist Germany, Lead by Otto Strasser and his Socialist Faction"
+
+	enable = {
+		original_tag = GER
+		has_game_rule = {
+			rule = GER_ai_behavior
+			option = STRASSERIST_OTTO
+		}
+	}
+	abort = {}
+
+	# ai_national_focuses = {
+		# # 1933
+		# GER_Chancellor_Hitler
+		# GER_Reichswehr
+		# GER_Enabling_Act
+		# GER_Gleichschaltung
+		# GER_Second_Rearmament_Program
+		# GER_Establish_The_Gestapo
+		# GER_Reichsluftfahrtministerium
+		# GER_Deutsche_Arbeitsfront
+		# GER_Privatizations_and_Austerity
+		# GER_Volkswohlfahrt
+		# GER_Kirchenkampf
+		# GER_Reinhardt_Programme
+		# GER_Reichsautobahn
+		# GER_Kraft_durch_Freude
+		# # 1934
+		# GER_Luftrustungsprogramme
+		# GER_Reichsmarine
+		# GER_Schiffebauplan
+		# GER_LSSAH
+		# GER_The_Brown_Revolution
+		# # SA Takeover Tree
+		# GER_The_Brown_Tide
+		# GER_Dealing_with_the_inner_circle
+		# GER_Talks_with_Strasser
+		# GER_Nights_of_the_Rope
+		# # Strasserist Tree
+		# GER_Zweite_Revolution
+		# GER_Advocate_for_Paligenesis
+		# GER_A_Socialist_Outlook
+	# }
+}
+#########################################################################
+#  Kaiserreich Germany
+#########################################################################
+GER_Kaiserreich_Wilhelm_II = {
+	name = "German Reich (Kaiserreich - Wilhelm II)"
+	desc = "WIP"
+
+	enable = {
+		original_tag = GER
+		has_game_rule = {
+			rule = GER_ai_behavior
+			option = KAISERREICH_WILHELM_II
+		}
+	}
+	abort = {}
+
+	# ai_national_focuses = {
+		# # 1933
+		# GER_Chancellor_Hitler
+		# GER_Reichswehr
+		# GER_Enabling_Act
+		# GER_Gleichschaltung
+		# GER_Second_Rearmament_Program
+		# GER_Establish_The_Gestapo
+		# GER_Reichsluftfahrtministerium
+		# GER_Deutsche_Arbeitsfront
+		# GER_Privatizations_and_Austerity
+		# GER_Volkswohlfahrt
+		# GER_Kirchenkampf
+		# GER_Reinhardt_Programme
+		# GER_Reichsautobahn
+		# GER_Kraft_durch_Freude
+		# # 1934
+		# GER_Luftrustungsprogramme
+		# GER_Reichsmarine
+		# GER_Schiffebauplan
+		# GER_LSSAH
+		# GER_Unternehmen_Kolibri
+		# GER_Issue_MEFO_Bills
+		# GER_Ein_Volk_Ein_Reich_Ein_Fuhrer
+		# GER_Panzer_Development
+		# GER_SS_VT
+		# GER_Agreement_with_IG_Farben
+		# # 1935
+		# GER_The_Saar_Plebiscite
+		# GER_Renounce_the_Disarmament_Clauses
+		# GER_Establish_the_Wehrmacht
+		# GER_Luftwaffe
+		# GER_Heer
+		# GER_BFW
+		# GER_Kriegsmarine
+		# GER_Nuremberg_Laws
+		# # 1936
+		# GER_Panzertruppen
+		# GER_OKH_Putsch
+		# # Wermacht Takeover tree
+		# GER_Establish_Provisional_Government
+		# GER_Denazification
+		# GER_Reeducation_Program
+		# GER_Lift_Martial_Law
+		# GER_Restore_the_Kaiserreich
+	# }
+}

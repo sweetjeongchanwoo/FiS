@@ -1,0 +1,9 @@
+﻿units = {
+	division= {
+		name = "SS- und Polizei-Division"
+		location = 514 # Dresden
+		division_template = "SS-Infanterie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 1.0 
+	}
+}

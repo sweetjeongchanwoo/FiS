@@ -1,0 +1,36 @@
+state={
+	id=1360
+	name="STATE_1360"
+
+	history={
+		owner = OMA
+		victory_points = {
+			14381 1
+		}
+		buildings = {
+			infrastructure = 3
+			14381 ={
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = RAJ
+		add_core_of = PAK
+		1950.1.1 = {
+			remove_core_of = RAJ
+
+		}
+		1960.1.1 = {
+			owner = PAK
+
+		}
+
+	}
+	provinces={
+		14381 
+	}
+	manpower=90762
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

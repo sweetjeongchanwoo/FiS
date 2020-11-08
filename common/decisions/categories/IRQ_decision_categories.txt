@@ -1,0 +1,7 @@
+
+IRQ_a_religious_schism_category = {
+
+	allowed = {
+		original_tag = IRQ
+	}
+}

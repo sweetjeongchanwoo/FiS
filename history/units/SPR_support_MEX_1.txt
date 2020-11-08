@@ -1,0 +1,7 @@
+units = {
+    division = {
+		name = "Español Battalion"
+		location = 3938  # Madrid
+		division_template = "Brigada Internationale"
+	}
+}

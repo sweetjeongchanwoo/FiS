@@ -1,0 +1,1349 @@
+﻿#########################################################################
+# Weimar Republic - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 1057
+	set_stability = 0.8
+	set_war_support = 0.3
+	add_to_variable = {
+		money = 70
+	}
+	oob = "GER_1933"
+	set_research_slots = 4
+	set_convoys = 200
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		# Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		# Support Units
+		tech_recon = 1
+		tech_support = 1
+		tech_engineers = 1
+		tech_mountaineers = 1
+		tech_logistics_company = 1
+		# Artillery Tech
+		Artillery_1910 = 1
+        Artillery_Range_Finding_and_Surveying_Tools = 1
+        Artillery_1916 = 1
+        High_Explosive_Shells = 1
+		Anti_Aircraft_Gun_1935 = 1
+		# Armour Tech
+		truck_1936 = 1
+		Armored_Car_1911 = 1
+        Armored_Car_1916 = 1
+        Armored_Car_1926 = 1
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		Super_Heavy_Tank_1917 = 1
+		Light_Tank_1917 = 1
+		Light_Tank_1919 = 1
+		Light_Tank_1926 = 1
+		Light_Tank_1934 = 1
+		Medium_Tank_1926 = 1
+		# Air Tech
+		Unarmed_Recon_1910 = 1
+        Fighter_1914 = 1
+        Fighter_1916 = 1
+        Fighter_1918 = 1
+        Fighter_1924 = 1
+		Fighter_1933 = 1
+		Fighter_Bomber_1916 = 1
+        Fighter_Bomber_1918 = 1
+        Fighter_Bomber_1924 = 1
+		Fighter_Bomber_1933 = 1
+		Tactical_Bomber_1910 = 1
+        Tactical_Bomber_1914 = 1
+        Tactical_Bomber_1916 = 1
+        Tactical_Bomber_1918 = 1
+        Tactical_Bomber_1925 = 1
+		Tactical_Bomber_1933 = 1
+		Strategic_Bomber_1916 = 1
+		Strategic_Bomber_1933 = 1
+		Naval_Bomber_1918 = 1
+        Naval_Bomber_1925 = 1
+		CAS_1933 = 1
+		#Naval Stuff
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		DD_1922 = 1
+		DD_1933 = 1
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+		CL_1922 = 1
+		CL_1933 = 1
+		CA_1885 = 1
+		CA_1895 = 1
+		CA_1906 = 1
+		CA_1922 = 1
+		CA_1933 = 1
+		SS_1895 = 1
+		SS_1912 = 1
+		SS_1916 = 1
+		SS_1922 = 1
+		SS_1933 = 1
+		BC_1906 = 1
+		BC_1912 = 1
+		BC_1916 = 1
+		BC_1933 = 1
+		BB_1885 = 1
+		BB_1895 = 1
+		BB_1900 = 1
+		BB_1906 = 1
+		BB_1912 = 1
+		BB_1916 = 1
+		BB_1922 = 1
+		BB_1933 = 1
+		CV_1912 = 1
+		CV_1916 = 1
+		CV_1922 = 1
+		CV_1930 = 1
+		CV_1933 = 1
+		transport = 1
+		# Land Doctrine Tech
+		Twentieth_Century_Warfare = 1
+		Leading_by_Task = 1
+		Strongpoint = 1
+		Mass_Charge = 1
+		Static_Defence = 1
+		Counterattack = 1
+		Schwerpunkt = 1
+		Separate_Arms_Force = 1
+		Combined_Arms_Effort = 1
+		Cross_Branch_Tactical_Experience = 1
+		Mobility_Focus = 1
+		Spearhead = 1
+		# Naval Doctrine Tech
+		trade_interdiction = 1
+		synth_oil_experiments = 1
+	}
+	#######################
+	# Variant
+	#######################
+	create_equipment_variant = {
+		name = "PzKpfw. I Ausf. C"
+		type = Light_Tank_equipment_1934
+		upgrades = {
+		}
+	}
+	#######################
+	# Politics
+	#######################
+	set_cosmetic_tag = GER_WEIMAR
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1932.11.5"
+		election_frequency = 4
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 43
+		authoritarian = 8
+		democratic = 31
+		socialist = 2
+		communist = 16
+	}
+	### Positive Christianity
+	set_variable = {
+		GER_Catholic_Population = 0.4
+	}
+	set_variable = {
+		GER_Protestant_Population = 0.55
+	}
+	set_variable = {
+		GER_Irreligious_Population = 0.02
+	}
+	set_variable = {
+		GER_Positive_Christian_Population = 0.03
+	}
+	### Great Depression/Unemployment
+	set_variable = { unemployment_value_modifier = 1.25 }
+	set_variable = { current_unemployment = 0.33 }
+	clamp_variable = {
+		var = current_unemployment
+		min = 0
+		max = 1
+	}
+	update_unemployment_modifier = yes
+	add_ideas = {
+		GER_A_State_Within_a_State
+		GER_The_Weimar_Era
+		GER_Destroyed_German_Spirit
+		GER_Treaty_of_Versailles
+		# Laws and Policies
+		free_trade
+		volunteer_only
+		social_market_economy
+		civilian_economy
+		# Cabinet
+		GER_HoG_Kurt_von_Schleicher
+		GER_FM_Konstantin_von_Neurath
+		GER_AM_Alfred_Hugenberg
+		GER_MoS_Franz_Bracht
+		GER_HoI_Konrad_Patzig
+		# Military Staff
+		GER_CoStaff_Wilhelm_Heye
+		GER_CoArmy_Kurt_von_Hammerstein_Equord
+		GER_CoNavy_Erich_Raeder
+	}
+	set_variable = {
+		var = unemployment
+		value = 28
+	}
+	create_intelligence_agency = {
+		name = "Abwehr"
+		icon = "GFX_intelligence_agency_logo_ger"
+	}
+	#######################
+	# Diplomacy
+	#######################
+	add_opinion_modifier = {
+		target = POL
+		modifier = GER_POL_Customs_War
+	}
+	reverse_add_opinion_modifier = {
+		target = POL
+		modifier = GER_POL_Customs_War
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Hermann Göring"
+		desc = ""
+		picture = "P_F_Hermann_Goring_1933.tga"
+		expire = "1965.1.1"
+		ideology = national_socialism
+		traits = {
+			POSITION_GER_Reichskanzler
+			SUBIDEOLOGY_National_Socialism
+			HoS_Barking_Buffoon
+		}
+	}
+	create_country_leader = {
+		name = "Adolf Hitler"
+		desc = "Adolf_Hitler_desc"
+		picture = "P_F_Adolf_Hitler_1932.tga"
+		expire = "1965.1.1"
+		ideology = national_socialism
+		traits = {
+			POSITION_GER_Reichskanzler
+			SUBIDEOLOGY_National_Socialism
+			HoS_Paranoid_Megalomaniac
+		}
+	}
+	# Authoritarianism
+	create_country_leader = {
+		name = "Paul von Hindenburg"
+		desc = "Paul_von_Hindenburg_desc"
+		picture = "P_A_Paul_von_Hindenburg.tga"
+		expire = "1934.8.3"
+		ideology = authoritarian_democracy
+		traits = {
+			POSITION_GER_Reichsprasident
+			SUBIDEOLOGY_Authoritarian_Democracy
+			HoS_Resigned_Generalissimo
+		}
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Otto Wels"
+		desc = ""
+		picture = "P_D_Otto_Wels.tga"
+		expire = "1965.1.1"
+		ideology = social_democracy
+		traits = {
+			POSITION_GER_Reichsprasident
+			SUBIDEOLOGY_Social_Democracy
+			HoG_Silent_Workhorse
+		}
+	}
+	# Socialism
+	create_country_leader = {
+		name = "Otto Rühle"
+		desc = ""
+		picture = "P_S_Otto_Ruhle.tga"
+		expire = "1965.1.1"
+		ideology = luxemburgism
+		traits = {
+			POSITION_GER_Reichsprasident
+			SUBIDEOLOGY_Luxemburgism
+			HoG_Ambitious_Union_Boss
+		}
+	}
+	# Communism
+	create_country_leader = {
+		name = "Ernst Thälmann"
+		desc = ""
+		picture = "P_C_Ernst_Thalmann.tga"
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {
+			POSITION_Chairman
+			SUBIDEOLOGY_Stalinism
+			HoG_Backroom_Backstabber
+		}
+	}
+	
+	# Starting off the Reichskanzler Hitler focus normal select_effect
+	if = {
+		limit = {
+			has_start_date < 1933.01.04
+		}
+		country_event = {
+			id = DH_GER_Reichskanzler_Hitler.1
+			days = 4				#Jan. 4, 1933
+		}
+	}
+	
+	#######################
+	# Generals
+	#######################
+	add_namespace = {
+		name = "ger_unit_leader"
+		type = unit_leader
+	}
+	### Field Marshal
+	### Corps Commander
+	create_corps_commander = {
+		name = "Walter Model"
+		picture = "M_Walther_Model.tga"
+		traits = {
+			GER_KR_suspicious_general
+			defensive_doctrine
+			brilliant_strategist
+			trait_cautious
+			politically_connected
+		}
+		skill = 4
+		id = 10
+		attack_skill = 5
+		defense_skill = 5
+		planning_skill = 3
+		logistics_skill = 4
+	}
+	create_corps_commander = {
+		name = "Erich von Manstein"
+		picture = "M_Erich_Von_Manstein.tga"
+		traits = {
+			GER_KR_suspicious_general
+			trickster
+			armor_officer
+			brilliant_strategist
+			trait_engineer
+		}
+		skill = 4
+		id = 5
+		attack_skill = 2
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 4
+	}
+	create_corps_commander = {
+		name = "Heinz Guderian"
+		picture = "M_Heinz_Guderian.tga"
+		traits = {
+			trickster
+			brilliant_strategist
+			panzer_leader
+			armor_officer
+			career_officer
+		}
+		skill = 4
+		id = 6
+		attack_skill = 2
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Erwin Rommel"
+		picture = "M_Erwin_Rommel.tga"
+		traits = {
+			trickster
+			trait_reckless
+			war_hero
+			armor_officer
+			media_personality
+		}
+		skill = 4
+		id = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 2
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Eugen Ritter von Schobert"
+		picture = "M_Eugen_Ritter_von_Schobert.tga"
+		traits = {
+			old_guard
+			trait_engineer
+			trickster
+			ranger
+		}
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Paul Ludwig Ewald von Kleist"
+		picture = "M_Paul_Ludwig_Ewald_von_Kleist.tga"
+		traits = {
+			old_guard
+			armor_officer
+			panzer_leader
+			ranger
+		}
+		attack_skill = 4
+		defense_skill = 2
+		planning_skill = 4
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Werner von Blomberg"
+		picture = "M_Werner_von_Blomberg.tga"
+		traits = {
+			inflexible_strategist
+			politically_connected
+			# defensive_doctrine
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Carl-Heinrich von Stülpnagel"
+		picture = "M_Carl_Heinrich_von_Stulpnagel.tga"
+		traits = {
+			career_officer
+			infantry_officer
+			skilled_staffer
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 4
+	}
+	create_corps_commander = {
+		name = "Gerd von Rundstedt"
+		picture = "M_Gerd_von_Rundstedt.tga"
+		traits = {
+			defensive_doctrine
+			offensive_doctrine
+			old_guard
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 2
+		id = 1
+	}
+	create_corps_commander = {
+		name = "Günther von Kluge"
+		picture = "M_Gunther_von_Kluge.tga"
+		traits = {
+			offensive_doctrine
+			armor_officer
+		}
+		skill = 3
+		id = 2
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Friedrich Paulus"
+		picture = "M_Friedrich_Paulus.tga"
+		traits = {
+			trait_cautious
+			armor_officer
+		}
+		skill = 1
+		id = 3
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Wilhelm List"
+		picture = "M_Wilhelm_List.tga"
+		traits = {
+			career_officer
+			inflexible_strategist
+		}
+		skill = 2
+		id = 7
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Helmuth Weidling"
+		desc = ""
+		picture = "M_Helmuth_Weidling.tga"
+		traits = {
+			infantry_officer
+			urban_assault_specialist
+		}
+		skill = 2
+		id = 8
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Fedor von Bock"
+		picture = "M_Fedor_Von_Bock.tga"
+		traits = {
+			harsh_leader
+			trait_cautious
+		}
+		skill = 4
+		id = 9
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 4
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Maximilian von Weichs"
+		picture = "M_Maximilian_Von_Weichs.tga"
+		traits = {
+			cavalry_officer
+		}
+		skill = 4
+		id = 11
+		attack_skill = 4
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 4
+	}
+	create_corps_commander = {
+		name = "Wilhelm Ritter von Leeb"
+		picture = "M_Wilhelm_Ritter_von_Leeb.tga"
+		traits = {
+			old_guard
+			infantry_officer
+		}
+		skill = 3
+		id = 13
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 1
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Georg-Hans Reinhardt"
+		picture = "M_Georg_Hans_Reinhardt.tga"
+		traits = {
+			trait_cautious
+			armor_officer
+		}
+		skill = 3
+		id = 14
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 4
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Walter Krüger"
+		picture = "M_Walter_Kruger.tga"
+		traits = {
+			armor_officer
+			trait_reckless
+			politically_connected
+		}
+		skill = 3
+		id = 15
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 1
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Kurt Student"
+		picture = "M_Kurt_Student.tga"
+		traits = {
+			commando
+			trait_reckless
+		}
+		skill = 4
+		id = 16
+		attack_skill = 4
+		defense_skill = 2
+		planning_skill = 4
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Erwin von Witzleben"
+		picture = "M_Erwin_Von_Witzleben.tga"
+		traits = {
+			infantry_officer
+			career_officer
+		}
+		skill = 4
+		id = 17
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 4
+	}
+	create_corps_commander = {
+		name = "Hermann Hoth"
+		picture = "M_Hermann_Hoth.tga"
+		traits = {
+			trait_reckless
+			armor_officer
+		}
+		skill = 3
+		id = 18
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Johannes Blaskowitz"
+		picture = "M_Johannes_Blaskowitz.tga"
+		traits = {
+			infantry_officer
+		}
+		skill = 3
+		id = 19
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Paul Hausser"
+		picture = "M_Paul_Hausser.tga"
+		traits = {
+			GER_KR_suspicious_general
+			armor_officer
+			politically_connected
+		}
+		skill = 4
+		id = 20
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 4
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Friedrich Schulz"
+		picture = "M_Friedrich_Schulz.tga"
+		traits = {
+			infantry_officer
+		}
+		skill = 3
+		id = 21
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 1
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Georg von Küchler"
+		picture = "M_Georg_von_Kuchler.tga"
+		traits = {
+			bearer_of_artillery
+
+		}
+		skill = 4
+		id = 22
+		attack_skill = 2
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Alfred Jodl"
+		picture = "M_Alfred_Jodl.tga"
+		traits = {
+			politically_connected
+			career_officer
+		}
+		skill = 3
+		id = 23
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Alexander von Falkenhausen"
+		picture = "M_Alexander_Von_Falkenhousen.tga"
+		traits = {
+			infantry_officer
+			guerilla_fighter
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Sepp Dietrich"
+		picture = "M_Sepp_Dietrich.tga"
+		traits = {
+			GER_KR_suspicious_general
+			GER_SS
+			armor_officer
+			politically_connected
+			brilliant_strategist
+			trait_reckless
+		}
+		skill = 4
+		id = 24
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 4
+		logistics_skill = 4
+	}
+	create_corps_commander = {
+		name = "Hasso von Manteuffel"
+		picture = "M_Hasso_Von_Manteuffel.tga"
+		traits = {
+			armor_officer
+			career_officer
+			trait_cautious
+		}
+		skill = 4
+		id = 25
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Albert Kesselring"
+		picture = "M_Albert_Kesselring.tga"
+		traits = {
+			brilliant_strategist
+			trait_cautious
+			war_hero
+		}
+		skill = 4
+		id = 32
+		attack_skill = 2
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 4
+	}
+	create_corps_commander = {
+		name = "Gotthard Heinrici"
+		picture = "M_Gotthard_Heinrici.tga"
+		traits = {
+			trait_engineer
+			infantry_officer
+			trait_cautious
+		}
+		skill = 3
+		id = 33
+		attack_skill = 3
+		defense_skill = 1
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Ernst-Eberhard Hell"
+		picture = "M_Ernst_Eberhard_Hell.tga"
+		traits = {
+			winter_specialist
+			trait_engineer
+			war_hero
+		}
+		skill = 3
+		id = 34
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Felix Steiner"
+		picture = "M_Felix_Steiner.tga"
+		traits = {
+			GER_SS
+		}
+		skill = 3
+		id = 35
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 2
+	}
+	#######################
+	# Admirals
+	#######################
+	create_navy_leader = {
+		name = "Karl Dönitz"
+		picture = "M_Karl_Donitz.tga"
+		traits = {
+			navy_career_officer
+			seawolf
+		}
+		skill = 5
+		id = 26
+		attack_skill = 5
+		defense_skill = 3
+		maneuvering_skill = 3
+		coordination_skill = 5
+	}
+	create_navy_leader = {
+		name = "Erich Raeder"
+		picture = "M_Erich_Raedar.tga"
+		traits = {
+			naval_lineage
+			battleship_adherent
+		}
+		skill = 4
+		id = 27
+		attack_skill = 3
+		defense_skill = 4
+		maneuvering_skill = 3
+		coordination_skill = 3
+	}
+	create_navy_leader = {
+		name = "Alfred Saalwächter"
+		picture = "M_Alfred_Saalwachter.tga"
+		traits = {
+			old_guard_navy
+			bold
+		}
+		skill = 4
+		id = 28
+		attack_skill = 4
+		defense_skill = 2
+		maneuvering_skill = 3
+		coordination_skill = 4
+	}
+	create_navy_leader = {
+		name = "Hermann Boehm"
+		picture = "M_Hermann_Boehm.tga"
+		traits = {
+			craven
+			superior_tactician
+		}
+		skill = 4
+		id = 29
+		attack_skill = 3
+		defense_skill = 4
+		maneuvering_skill = 4
+		coordination_skill = 2
+	}
+	create_navy_leader = {
+		name = "Wilhelm Marschall"
+		picture = "M_Wilhelm_Marschall.tga"
+		traits = {
+			old_guard_navy
+			bold
+		}
+		skill = 4
+		id = 30
+		attack_skill = 4
+		defense_skill = 2
+		maneuvering_skill = 3
+		coordination_skill = 4
+	}
+	create_navy_leader = {
+		name = "Günther Lütjens"
+		picture = "M_Gunther_Lutjens.tga"
+		traits = {
+			gentlemanly
+			navy_career_officer
+			superior_tactician
+		}
+		skill = 3
+		id = 31
+		attack_skill = 4
+		defense_skill = 1
+		maneuvering_skill = 1
+		coordination_skill = 4
+	}
+}
+
+#########################################################################
+# German Reich - 1936
+#########################################################################
+1936.1.1 = {
+	set_stability = 0.5
+	set_war_support = 0.3
+	oob = "GER_1936"
+	set_research_slots = 4
+	set_convoys = 200
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		GER_SS_VT = 1
+		# Infantry Tech
+		Small_Arms_1935 = 1
+		Uniform_1935 = 1
+		SAW_1935 = 1
+		Mortar_1936 = 1
+		tech_military_police = 1
+		paratroopers = 1
+		marines = 1
+		tech_mountaineers = 1
+		# Artillery Tech
+		Split_Trail_Carriage = 1
+        Motor_Compatible_Carriage = 1
+        Optical_Sighting_Mechanism = 1
+		Artillery_1935 = 1
+		Anti_Tank_Gun_1935 = 1
+		# Doctrine Tech
+		Armored_Schwerpunkt = 1
+		Delay = 1
+		Combined_Arms_Offensive = 1
+		Elastic_Defense = 1
+		formation_flying = 1
+	}
+	#######################
+	# National Focuses
+	#######################
+	unlock_national_focus = GER_Chancellor_Hitler
+	unlock_national_focus = GER_Enabling_Act
+	unlock_national_focus = GER_Gleichschaltung
+	unlock_national_focus = GER_Kirchenkampf
+	unlock_national_focus = GER_Reichskonkordat
+	unlock_national_focus = GER_Subdue_the_Lander
+	unlock_national_focus = GER_A_One_Party_State
+	unlock_national_focus = GER_Officialize_the_Hitler_Youth
+	unlock_national_focus = GER_Leave_the_League_of_Nations
+	unlock_national_focus = GER_A_Loudspeaker_in_Every_Home
+	unlock_national_focus = GER_Reconstruct_the_Reich
+	unlock_national_focus = GER_Ein_Volk_Ein_Reich_Ein_Fuhrer
+	unlock_national_focus = GER_Enact_the_Nuremberg_Laws
+	unlock_national_focus = GER_Seek_a_Naval_Agreement_with_Britain
+	unlock_national_focus = GER_Renounce_the_Disarmament_Clauses
+	unlock_national_focus = GER_Establish_The_Gestapo
+	unlock_national_focus = GER_Unternehmen_Kolibri
+	unlock_national_focus = GER_SS_VT
+	### Economic
+	unlock_national_focus = GER_The_Economic_Recovery_Policy
+	unlock_national_focus = GER_Issue_MEFO_Bills
+	unlock_national_focus = GER_Privatizations_and_Austerity
+	unlock_national_focus = GER_Deal_with_IG_Farben
+	unlock_national_focus = GER_Reichsautobahn
+	unlock_national_focus = GER_Deutsche_Arbeitsfront
+	unlock_national_focus = GER_Volkswohlfahrt
+	unlock_national_focus = GER_Kraft_durch_Freude
+	unlock_national_focus = GER_Commence_Rearmament	
+	### Military
+	unlock_national_focus = GER_Reichsluftfahrtministerium
+	unlock_national_focus = GER_Reichswehr
+	unlock_national_focus = GER_Reichsmarine
+	unlock_national_focus = GER_Establish_the_Wehrmacht	
+	#######################
+	# Politics
+	#######################
+	drop_cosmetic_tag = yes
+	set_politics = {
+		ruling_party = fascist
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 86
+		authoritarian = 7
+		democratic = 1
+		socialist = 0
+		communist = 0
+	}
+	set_party_name = {
+		ideology = authoritarian
+		long_name = GER_authoritarian_party_Wehrmacht_long
+		name = GER_authoritarian_party_Wehrmacht
+	}
+	set_party_name = {
+		ideology = democratic
+		long_name = GER_democratic_party_sympathizers_long
+		name = GER_democratic_party_sympathizers
+	}
+	set_party_name = {
+		ideology = socialist
+		long_name = GER_socialist_party_sympathizers_long
+		name = GER_socialist_party_sympathizers
+	}
+	set_party_name = {
+		ideology = communist
+		long_name = GER_communist_party_sympathizers_long
+		name = GER_communist_party_sympathizers
+	}
+	add_ideas = {
+		GER_mefo_bills_1
+		sour_loser
+		GER_Great_General_Staff
+		# Laws and Policies
+		limited_exports
+		one_year_service
+		corporatism
+		partial_economic_mobilisation
+		# Cabinet
+		GER_HoG_Rudolf_Hess
+		GER_FM_Konstantin_von_Neurath
+		GER_AM_Werner_von_Blomberg
+		GER_MoS_Wilhelm_Frick
+		GER_HoI_Wilhelm_Canaris
+		# Military Staff
+		GER_CoStaff_Ludwig_Beck
+		GER_CoArmy_Werner_von_Fritsch
+		GER_CoNavy_Erich_Raeder
+		GER_CoAir_Hermann_Goring
+	}
+	remove_ideas = {
+		GER_Treaty_of_Versailles
+		GER_Destroyed_German_Spirit
+		GER_Great_Depression
+		GER_Mass_Unemployment
+		GER_The_Weimar_Era
+	}
+	activate_mission = GER_mefo_bills_mission
+	set_variable = {
+		var = wehrmacht_anger
+		value = 0
+	}
+	set_variable = {
+		var = ss_anger
+		value = 0
+	}
+	#######################
+	# Diplomacy
+	#######################
+	create_faction = Axis
+	add_to_faction = GER
+	create_import = {
+		resource = tungsten
+		factories = 1
+		exporter = SWE
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Adolf Hitler"
+		desc = "Adolf_Hitler_desc"
+		picture = "P_F_Adolf_Hitler.tga"
+		expire = "1965.1.1"
+		ideology = national_socialism
+		traits = {
+			POSITION_GER_Fuhrer
+			SUBIDEOLOGY_National_Socialism
+			HoS_Paranoid_Megalomaniac
+		}
+	}
+	# Authoritarianism
+	create_country_leader = {
+		name = "Ludwig Beck"
+		desc = ""
+		picture = "P_A_Ludwig_Beck.tga"
+		expire = "1965.1.1"
+		ideology = military_dictatorship
+		traits = {
+			POSITION_Commander_in_Chief
+			SUBIDEOLOGY_Military_Dictatorship
+			HoS_Resigned_Generalissimo
+		}
+	}
+}
+
+#########################################################################
+# German Reich - 1939
+#########################################################################
+1939.9.1 = {
+	oob = "GER_1939"
+	set_research_slots = 5
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		# Infantry Tech
+		Small_Arms_1939 = 1
+		paratroopers2 = 1
+		Support_Weapons_1936 = 1
+		MANPATS_MANPADS_1936 = 1
+		# Armour Tech
+		Armored_Car_1936 = 1
+		Light_Tank_1936 = 1
+		Light_Tank_1939 = 1
+		Medium_Tank_1936 = 1
+		# Air Tech
+		Fighter_1936 = 1
+		Fighter_Bomber_1936 = 1
+		cv_Fighter_1936 = 1
+		Heavy_Fighter_1936 = 1
+		Tactical_Bomber_1936 = 1
+		Strategic_Bomber_1936 = 1
+		Naval_Bomber_1936 = 1
+		# Land Doctrine Tech
+		Combined_Arms_Offensive = 1
+		Elastic_Defense = 1
+	}
+	SLO = {
+		set_cosmetic_tag = SLO_GER
+	}
+	BOH = {
+		set_cosmetic_tag = BOH_GER
+		set_politics = {
+			ruling_party = fascist
+			elections_allowed = no
+		}
+	}
+	if = {
+		limit = {
+			has_start_date > 1939.8.1
+			has_start_date < 1946.01.01
+		}
+		declare_war_on = {
+			target = POL
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = FRA
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = ENG
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = AST
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = NZL
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = RAJ
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = CAN
+			type = annex_everything
+		}
+	}
+}
+
+#########################################################################
+# German Reich - 1940
+#########################################################################
+1940.5.10 = {
+	oob = "GER_1940"
+	add_to_faction = ITA
+	add_to_faction = HUN
+	set_technology = {
+		# Infantry Tech
+		Anti_Tank_Gun_1940 = 1 
+		tech_mountaineers2 = 1
+		# Armour Tech
+		Medium_Tank_1939 = 1
+		Heavy_Tank_1939 = 1
+		# Air Tech
+		Fighter_1940 = 1
+		Fighter_Bomber_1940 = 1
+		cv_Fighter_1940 = 1
+		Heavy_Fighter_1940 = 1
+		CAS_1940 = 1
+		Tactical_Bomber_1940 = 1
+		Naval_Bomber_1940 = 1
+		Strategic_Bomber_1940 = 1		
+	}
+	if = {
+		limit = {
+			has_start_date > 1940.5.9
+			has_start_date < 1946.1.1
+		}
+		declare_war_on = {
+			target = BEL
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = LUX
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = HOL
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = NOR
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = DEN
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = INS
+			type = annex_everything
+		}
+	}
+}
+
+#########################################################################
+# German Reich - 1941.6.22
+#########################################################################
+1941.6.22 = {
+	oob = "GER_1941"
+	set_technology = {
+		GER_Waffen_SS = 1
+		# Infantry Tech
+		Enhanced_Muzzlebreaks_and_Removable_Barrels = 1
+		# Armour Tech
+		Medium_Tank_1941 = 1
+		APC_1941 = 1
+	}
+	if = {
+		limit = {
+			has_start_date > 1941.6.21
+			has_start_date < 1946.1.1
+		}
+		declare_war_on = {
+			target = SOV
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = MON
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = TAN
+			type = annex_everything
+		}
+	}
+	add_to_faction = ROM
+	add_to_faction = SLO
+}
+
+#########################################################################
+# German Reich - 1943.7.26
+#########################################################################
+1942.12.21 = {
+	oob = "GER_1942"
+	set_technology = {
+		# Infantry Tech 
+		Small_Arms_1942 = 1
+		Uniform_1942 = 1
+		SAW_1942 = 1
+		Support_Weapons_1942 = 1
+		Mortar_1942 = 1
+		MANPATS_MANPADS_1942 = 1
+		Artillery_1942 = 1
+		Anti_Tank_Gun_1942 = 1
+		# Armour Tech
+		Armored_Car_1942 = 1
+	}
+	if = {
+		limit = {
+			has_start_date > 1942.11.22
+			has_start_date < 1946.01.01
+		}
+		declare_war_on = {
+			target = USA
+			type = annex_everything
+		}
+	}
+}
+
+#########################################################################
+# German Reich - 1943.7.26
+#########################################################################
+1943.7.26 = {
+	set_cosmetic_tag = GER_GREATER_REICH
+	oob = "GER_1943"
+	set_technology = {
+		# Infantry Tech
+		paratroopers3 = 1
+		High_Velocity_Armor_Piercing_Rounds = 1
+		# Armour Tech
+		Light_Tank_1943 = 1
+		Medium_Tank_1943 = 1
+		Heavy_Tank_1943 = 1
+		APC_1943 = 1
+		# Air Tech
+		Fighter_1943 = 1
+		Fighter_Bomber_1943 = 1
+		cv_Fighter_1943 = 1
+		Heavy_Fighter_1943 = 1
+		CAS_1943 = 1
+		Tactical_Bomber_1943 = 1
+		Strategic_Bomber_1943 = 1
+	}
+}
+
+#########################################################################
+# German Reich - 1944.6.20
+#########################################################################
+1944.6.20 = {
+	oob = "GER_1944"
+	add_ideas = {
+		all_adults_serve
+		war_economy
+	}
+	set_technology = {
+		# Armour Tech
+		Super_Heavy_Tank_1944 = 1
+
+	}
+}
+
+#########################################################################
+# German Reich - 1945
+#########################################################################
+1945.1.1 = {
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Adolf Hitler"
+		desc = "Adolf_Hitler_desc"
+		picture = "P_F_Adolf_Hitler_1945.tga"
+		expire = "1965.1.1"
+		ideology = national_socialism
+		traits = {
+			POSITION_GER_Fuhrer
+			SUBIDEOLOGY_National_Socialism
+			HoS_Paranoid_Megalomaniac
+		}
+	}
+}
+
+#########################################################################
+# German Reich - 1946
+#########################################################################
+1945.12.31 = {
+	dismantle_faction = yes
+}

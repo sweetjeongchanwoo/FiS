@@ -1,0 +1,1998 @@
+﻿## How to show expeditionaries:
+#expeditionary_owner="SLO"
+#logical_country="GER"
+division_template = {
+	name = "Infanterie-Division"					#Improved with more support than in 1939
+	division_names_group = GER_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_battalion = { x = 3 y = 0 }
+		artillery_battalion = { x = 3 y = 1 }
+		artillery_battalion = { x = 3 y = 2 }
+		artillery_battalion = { x = 3 y = 3 }
+		anti_tank_brigade = { x = 3 y = 4 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Gebirgs-Division"						# Gebirgs-Divisions
+	division_names_group = GER_MTN_01
+	regiments = {
+	    mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+   		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+  		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+		artillery_battalion = { x = 3 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+		name = "Sicherungs-Division"   
+		division_names_group = GER_GAR_01      # Garrison
+		regiments = {
+			garrison = { x = 0 y = 0 }
+			garrison = { x = 0 y = 1 }
+			garrison = { x = 0 y = 2 }
+			garrison = { x = 1 y = 0 }
+			garrison = { x = 1 y = 1 }
+			garrison = { x = 1 y = 2 }
+			garrison = { x = 2 y = 0 }
+			garrison = { x = 2 y = 1 }
+			garrison = { x = 2 y = 2 }	
+		}
+		priority = 0
+	}
+
+
+division_template = {
+	name = "Kavallerie-Brigade"
+	division_names_group = GER_CAV_02
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		bicycle_battalion = { x = 2 y = 0 } # Motorcycle infantry battalion
+		motorized_artillery_battalion = { x = 3 y = 0 } # Horse artillery
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = { 						
+	name = "Fallschirmjäger-Division"				# Represents 7. Flieger Division
+	division_names_group = GER_PAR_01
+
+	regiments = {
+	    paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+   		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+  		paratrooper = { x = 2 y = 0 }
+		paratrooper = { x = 2 y = 1 }
+		paratrooper = { x = 2 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+		paratrooper = { x = 1 y = 3 }
+
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+	}	
+}
+division_template = {
+	name = "Infanterie-Division (mot.)"
+	division_names_group = GER_MOT_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized_artillery_battalion = { x = 2 y = 0 }
+		motorized_artillery_battalion = { x = 2 y = 1 }
+		motorized_artillery_battalion = { x = 2 y = 2 }
+		motorized_anti_tank_brigade = { x = 2 y = 3 }
+		#bicycle_battalion = { x = 3 y = 0 } # Motorcycle - ADDED IN 1941
+		# they also had an armoured car battalion, which has been omitted.
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		#anti_air = { } ADDED IN 1941
+ 	}
+}
+	
+
+division_template = {
+	name = "Panzer-Division"				# 
+	division_names_group = GER_Arm_01
+
+	regiments = {
+	    medium_armor = { x = 0 y = 0 }		# 
+		medium_armor = { x = 0 y = 1 }		
+		medium_armor = { x = 0 y = 2 }
+		medium_armor = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }           #these are supposed to be armoured cars
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized_artillery_battalion = { x = 2 y = 0 } #yes panzer divisions did have these
+	    motorized_anti_tank_brigade = { x = 2 y = 1 }
+	    motorized_anti_air_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+	}
+}
+division_template = {
+	name = "SS-Infanterie-Division (mot.)" #  the SS-VT division, and Totenkopf.
+	# Although they were not exactly the same, they are similar enough for gameplay purposes.
+	division_names_group = GER_SS_02
+	regiments = {
+		SS_motorized = { x = 0 y = 0 } # 'Deutschland' Regiment
+		SS_motorized = { x = 0 y = 1 }
+		SS_motorized = { x = 0 y = 2 }
+		SS_motorized = { x = 1 y = 0 } # 'Germania' Regiment
+		SS_motorized = { x = 1 y = 1 }
+		SS_motorized = { x = 1 y = 2 }
+		SS_motorized = { x = 2 y = 0 } # 'Der Fuhrer' Regiment
+		SS_motorized = { x = 2 y = 1 }
+		SS_motorized = { x = 2 y = 2 }
+		anti_tank_brigade = { x = 2 y = 3 } # Note: this is not related to the Der Fuhrer Regiment
+		motorized_artillery_battalion = { x = 3 y = 0 }
+		motorized_artillery_battalion = { x = 3 y = 1 }
+		motorized_artillery_battalion = { x = 3 y = 2 }
+		bicycle_battalion = { x = 3 y = 3 } # Represents Motorcycle Battalion
+	}
+	support = {
+		armored_car_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		anti_tank = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+	}
+	is_locked = yes
+}
+division_template = {
+	name = "SS-Standarte" # Represents LSSAH
+	division_names_group = GER_SS_02
+	regiments = {
+		SS_motorized = { x = 0 y = 0 }
+		SS_motorized = { x = 0 y = 1 }
+		SS_motorized = { x = 0 y = 2 }
+		bicycle_battalion = { x = 1 y = 0 }
+	}
+	support = {
+		armored_car_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		anti_tank = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+	}
+	is_locked = yes
+}
+division_template = {
+	name = "SS-Infanterie-Division" # Represents the Polizei, which were ill trained.
+	division_names_group = GER_SS_02
+	regiments = {
+		SS_infantry = { x = 0 y = 0 }
+		SS_infantry = { x = 0 y = 1 }
+		SS_infantry = { x = 0 y = 2 }
+		SS_infantry = { x = 1 y = 0 }
+		SS_infantry = { x = 1 y = 1 }
+		SS_infantry = { x = 1 y = 2 }
+		SS_infantry = { x = 2 y = 0 }
+		SS_infantry = { x = 2 y = 1 }
+		SS_infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+	is_locked = yes
+}
+	#division_template = { ######not ready until 1941
+	#	name = "SS Panzer-Division"
+	#	division_names_group = GER_SS_01
+	#	regiments = {
+	#		SS_armor = { x = 0 y = 0 }
+	#		SS_armor = { x = 0 y = 1 }
+	#		SS_motorized = { x = 1 y = 0 }
+	#		SS_motorized = { x = 1 y = 1 }
+	#		SS_motorized = { x = 1 y = 2 }
+	#		motorized_anti_tank_brigade = { x = 2 y = 0 }
+	#		motorized_artillery_battalion = { x = 2 y = 1 }
+	#	}
+	#	support = {
+	#		artillery = { x = 0 y = 0 }
+	#		engineer = { x = 0 y = 1 }
+	#		recon = { x = 0 y = 2 }
+	#		field_hospital = { x = 0 y = 3 }
+	#		signal_company = { x = 0 y = 4 }
+	#	}
+	#	priority = 2
+	#}
+	#division_template = { ##1942
+	#	name = "Luftwaffen-Feld-Division"
+	#	division_names_group = GER_LFD_01
+	#	regiments = { 
+	#		light_infantry = { x = 0 y = 0 } #Light Jager Infantry
+	#		light_infantry = { x = 0 y = 1 }
+	#		light_infantry = { x = 1 y = 0 }
+	#		light_infantry = { x = 1 y = 1 }
+	#	}
+	#	support = {
+	#		recon = { x = 0 y = 0 }
+	#		engineer = { x = 0 y = 1 }
+	#	}
+	#
+	#}
+
+units = {
+	
+			# Two SS Divisions #
+			# Not under official command of any armies
+		# These are the Totenkopf, and the Polizei
+		# Difficult to source, this was when they were in their early stages
+		# Placed them here, just because.
+		# Edison out! Peace!
+		division= {
+			division_name = { # SS Division Totenkopf
+					is_name_ordered = yes
+					name_order = 3 
+			}
+			location = 3488 # Belgium Reserve
+			division_template = "SS-Infanterie-Division (mot.)"
+			start_experience_factor = 0.18 # Concentration camp guards brought to the field
+			force_equipment_variants = { Small_Arms_1935 = { owner = CZE } } # Given captured Czech equipment
+			start_equipment_factor = 0.85
+		}
+		division= {
+			division_name = { # SS Division Polizei
+					is_name_ordered = yes
+					name_order = 4
+			}
+			location = 11435 # On the Rhineland, close to the Ardennes Region
+			division_template = "SS-Infanterie-Division"
+			start_experience_factor = 0.16 # Untrained. Raised as police division
+			force_equipment_variants = { Small_Arms_1935 = { owner = CZE } } # Given captured Czech equipment
+			start_equipment_factor = 0.85
+		}
+
+                # OKH RESERVES #
+
+       # Second Army - General of Cavalry Maximilian von Weichs
+
+    division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 267
+		}
+		location = 9486
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 294
+		}
+		location = 9486
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 15
+		}
+		location = 9486
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 205
+		}
+		location = 9486
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 34
+		}
+		location = 9486
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 45
+		}
+		location = 9486
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 295
+		}
+		location = 9486
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 9486
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 293
+		}
+		location = 9486
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+
+	# Ninth Army - Generaloberst Johannes Blaskowitz #
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 211
+		}
+		location = 9517
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 50
+		}
+		location = 9517
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 291
+		}
+		location = 9517
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 88
+		}
+		location = 9517
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 96
+		}
+		location = 9517
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 292
+		}
+		location = 9517
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 25
+		}
+		location = 9517
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 81
+		}
+		location = 9517
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 290
+		}
+		location = 9517
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+             	# GERMAN ARMY GROUP A - BELGIUM #
+
+             # Fourth Army - Generaloberst Günther von Kluge #	
+		# Frontier of Cologne Offensive
+    division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 12
+		}
+		location = 9574 # Advance into Belgium
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 32
+		}
+		location = 11562 # Maastricht
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 211
+		}
+		location = 9522
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 251
+		}
+		location = 6537 # Liege
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 263
+		}
+		location = 11407 # Belgian Offensive
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = 9574 # Advance into Belgium
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.32
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 28
+		}
+		location = 3547
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 87
+		}
+		location = 3547
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 267
+		}
+		location = 3547
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+    division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 62
+		}
+		location = 3547
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+	    division_name = { # 5. Panzer Division
+			is_name_ordered = yes
+			name_order = 5
+		}	
+	    location = 11407 # Belgium, advance to Lille
+	    division_template = "Panzer-Division"
+		force_equipment_variants = { Light_Tank_1936 = { owner = "GER" } }
+	    start_experience_factor = 0.34
+		}
+	division= { # 7. Panzer Division
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+	    location = 11407 # Advance to the Meuse
+	    division_template = "Panzer-Division"
+		force_equipment_variants = { Light_Tank_1939 = { owner = "GER" } }
+		start_experience_factor = 0.32
+		start_equipment_factor = 0.86
+		}
+
+	#	Twelfth Army - Generaloberst Wilhelm List    #
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 11470
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 23
+		}
+		location = 11470
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 52
+		}
+		location = 11470
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 16
+		}
+		location = 11470
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 24
+		}
+		location = 11470
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 11470
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 21
+		}
+		location = 11470
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 25
+		}
+		location = 11470
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "1. Gebirgs-Division"
+		location = 11470
+		division_template = "Gebirgs-Division"
+		start_experience_factor = 0.35
+	}
+
+	# Sixteenth Army - General of Infantry Ernst Busch #	
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 36
+		}
+		location = 9575
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 68
+		}
+		location = 9575
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 15
+		}
+		location = 9575
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 17
+		}
+		location = 9575
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 10
+		}
+		location = 9575
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 34
+		}
+		location = 9575
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 58
+		}
+		location = 9575
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 76
+		}
+		location = 9575
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 26
+		}
+		location = 9575
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+	# Panzer Group Kleist - General of Cavalry Paul Ludwig Ewald von Kleist #
+	# Trier, near Luxembourg
+	division= {
+	    division_name = { # 6. Panzer Division
+			is_name_ordered = yes
+			name_order = 6
+		}
+	    location = 11435
+	    division_template = "Panzer-Division"
+		force_equipment_variants = { Light_Tank_1936 = { owner = "GER" } }
+	    start_experience_factor = 0.36
+		}
+	division= {
+	    division_name = { # 8. Panzer Division
+			is_name_ordered = yes
+			name_order = 8
+		}
+	    location = 11435
+	    division_template = "Panzer-Division"
+		force_equipment_variants = { Light_Tank_1936 = { owner = "GER" } }
+	    start_experience_factor = 0.35
+		}
+	division= {
+	    division_name = { # 2. Panzer Division
+			is_name_ordered = yes
+			name_order = 2
+		}
+	    location = 11435
+	    division_template = "Panzer-Division"
+		force_equipment_variants = { Light_Tank_1936 = { owner = "GER" } }
+	    start_experience_factor = 0.43
+		}
+	division= {
+	    division_name = { # 1. Panzer Division
+			is_name_ordered = yes
+			name_order = 1
+		}
+	    location = 11435
+	    division_template = "Panzer-Division"
+		force_equipment_variants = { Light_Tank_1939 = { owner = "GER" } } #pz. 38t. The rest are still pz IIs
+		start_experience_factor = 0.43
+	}
+	division= {
+	    division_name = { # 10. Panzer Division
+			is_name_ordered = yes
+			name_order = 10
+		}
+	    location = 11435
+	    division_template = "Panzer-Division"
+		force_equipment_variants = { Light_Tank_1936 = { owner = "GER" } }
+	    start_experience_factor = 0.32
+	}
+	division= {
+		division_name = { # 2. Infanterie-Division (mot.) 
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11435
+		division_template = "Infanterie-Division (mot.)"
+		start_experience_factor = 0.35
+	}
+	division= {
+		division_name = { # 13. Infanterie-Division (mot.) 
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 11435
+		division_template = "Infanterie-Division (mot.)"
+		start_experience_factor = 0.33
+	}
+	division= {
+		division_name = { # 29. Infanterie-Division (mot.) 
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = 11435
+		division_template = "Infanterie-Division (mot.)" 
+		start_experience_factor = 0.31
+	}
+	division= {
+		division_name = { # Infanterie-Division (mot.) Grossdeutschland
+			is_name_ordered = yes
+			name_order = 932
+		}
+		location = 11435
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.5
+	}
+
+	# RESERVES - HEERESGRUPPE A #
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 6444
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.34
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = 6444
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.34
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 6444
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.35
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 27
+		}
+		location = 6444
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 71
+		}
+		location = 6444
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 73
+		}
+		location = 6444
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+	# German Army Group B Commanded by Generaloberst Fedor von Bock - Netherlands/Belgium
+
+    # Sixth Army - Generaloberst Walter von Reichenau #
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 3512
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.35
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 33
+		}
+		location = 11456 # Utrecht
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 15
+		}
+		location = 3512
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 205
+		}
+		location = 3512
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 3512
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.31
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 211
+		}
+		location = 3512
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 253
+		}
+		location = 6500 # Limberg
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 31
+		}
+		location = 3444
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 269
+		}
+		location = 6500 # limburg
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.28
+		start_equipment_factor = 0.8
+	}
+	division= {
+	    division_name = { # 3. Panzer Division
+			is_name_ordered = yes
+			name_order = 3
+		}
+	    location = 9574 # Advance into Belgium - From the North
+	    division_template = "Panzer-Division"
+	    start_experience_factor = 0.33
+		}
+	division= {
+	    division_name = { # 4. Panzer Division
+			is_name_ordered = yes
+			name_order = 4
+		}
+	    location = 6537 # Liege
+	    division_template = "Panzer-Division"
+		start_experience_factor = 0.32
+		start_equipment_factor = 0.9
+	}
+
+		# Eighteenth Army - General of Artillery Georg von Küchler #
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}		
+		location = 11456 # Utrecht
+		division_template = "Kavallerie-Brigade"
+		start_experience_factor = 0.28
+		start_equipment_factor = 0.6
+	}
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} # SS Leibstandarte 'Adolf Hitler'
+		location = 11456 # Utrecht
+		division_template = "SS-Standarte"
+		start_experience_factor = 0.35
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		} # SS Verfugunstruppe
+		location = 6241 # Arnhem
+		division_template = "SS-Infanterie-Division (mot.)"
+		start_experience_factor = 0.35
+	}
+	division= {
+	    division_name = { # 9. Panzer Division
+			is_name_ordered = yes
+			name_order = 9
+		}
+	    location = 6241 # Arnhem, Advance into Holland
+	    division_template = "Panzer-Division"
+	    start_experience_factor = 0.34
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 227
+		}
+		location = 11346
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 256
+		}
+		location = 6286 # Zwolle - Holland
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.32
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 254
+		}
+		location = 6286 # Zwolle - Holland
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.28
+		start_equipment_factor = 0.8
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 208
+		}
+		location = 9309 # Holland
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 225
+		}
+		location = 9309 # Advance Into Holland
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 526
+		}
+		location = 11360
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.32
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 207                                    
+		}
+		location = 11318 # Holland Advance
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.28
+		start_equipment_factor = 0.9
+	}
+
+
+		# German Army Group C Commanded by Generaloberst Wilhelm Ritter von Leeb - MAGINOT #
+
+		# First Army - Generaloberst Erwin von Witzleben #
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 197
+		}
+		location = 9575
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 246
+		}
+		location = 9575
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 215
+		}
+		location = 9575
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 262
+		}
+		location = 9575
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 257
+		}
+		location = 11531
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 60
+		}
+		location = 11531
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 252
+		}
+		location = 11531
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 168
+		}
+		location = 11531
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 75
+		}
+		location = 563
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 268
+		}
+		location = 563
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 198
+		}
+		location = 563
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 258
+		}
+		location = 563
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 93
+		}
+		location = 3558
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 79
+		}
+		location = 3558
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 95
+		}
+		location = 3558
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 167
+		}
+		location = 3558
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+
+   # Seventh Army - Generaloberst Friedrich Dollmann #
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 213
+		}
+		location = 3530
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 554
+		}
+		location = 3530
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 556
+		}
+		location = 6542
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 239
+		}
+		location = 6542
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 557
+		}
+		location = 6712
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 555
+		}
+		location = 6712
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "6. Gebirgs-Division"
+		location = 11640
+		division_template = "Gebirgs-Division"
+		start_experience_factor = 0.3
+				}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 218
+		}
+		location = 11640
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 221
+		}
+		location = 11640
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+    # Operation Weserübung #
+	
+	
+	##########Befehlshaber Norwegen###############Norway soldiers
+	division= {
+		division_name = { #69th Inf
+				is_name_ordered = yes
+				name_order = 69
+		}
+		location = 199 #Alesund
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = { #163rd Inf
+				is_name_ordered = yes
+				name_order = 163
+		}
+		location = 6115 #Oslo
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes #181st Inf
+				name_order = 181
+		}
+		location = 3022 #Trondheim
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {
+		division_name = { #214th Inf
+				is_name_ordered = yes
+				name_order = 214
+		}
+		location = 9296 #Kristiansand
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	##############GRUPPE XXI#################
+	#########CO: Nehring##############
+	
+	division= {
+		division_name = { #196th Inf
+				is_name_ordered = yes
+				name_order = 196
+		}
+		location = 6041 #Bodo
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {
+		name = "2. Gebirgs-Division"
+		location = 6173 #Bodo
+		division_template = "Gebirgs-Division"
+		start_experience_factor = 0.4
+	}
+	division= {
+		name = "3. Gebirgs-Division"
+		location = 9069 #Bodo
+		division_template = "Gebirgs-Division"
+		start_experience_factor = 0.4
+	}
+	#########Befh.Deut.Tr.in Dänemark############
+	####CO: Paulus#############
+	#Denmark Divisions
+	division= {
+		division_name = { #198th Inf
+				is_name_ordered = yes
+				name_order = 198
+		}
+		location = 6364 #Arhus
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = { # 11. Infanterie-Division (mot.)
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 6287 #Copenhagen
+		division_template = "Infanterie-Division (mot.)"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = { #170th Inf
+				is_name_ordered = yes
+				name_order = 170
+		}
+		location = 6235 #Aalborg
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	
+	
+	
+	
+	
+	#############PARATROOPERS##############
+	#NOTE: Unable to find source for 7. Flieger Division(Renamed in 1943 to 1st Fallschirmjager division)
+	#Unable to locate their exact location and which army they were under. Instead, I had to calculate using approximate
+	#known locations. Around this date, they launched an attack on the Hague, so I place them near the front line of Holland.
+	# - Cheers, Edison
+
+	division= { # 7. Flieger Division
+		division_name = {
+			is_name_ordered = yes
+			name_order = 501
+		}
+		location = 6241 # Arnhem
+		division_template = "Fallschirmjäger-Division"
+		start_experience_factor = 0.55
+	}
+	
+	
+
+	# Sicherungs - Division #
+
+		division= {	
+		name = "Grenzkommando Klagenfurt"
+		location = 11612
+		division_template = "Sicherungs-Division"
+		force_equipment_variants = { Small_Arms_1935 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Grenzschutz-Abschnitts-Kommando 9"
+		location = 6558
+		division_template = "Sicherungs-Division"
+		force_equipment_variants = { Small_Arms_1935 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+
+	}
+	# Grenzschutz-Abschnitts-Kommando Eiffel (CO: ) #
+	division= {	
+		name = "Grenzschutz-Abschnitts-Kommando 3"
+		location = 3484
+		division_template = "Sicherungs-Division"
+		force_equipment_variants = { Small_Arms_1935 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "Grenzschutz-Abschnitts-Kommando 8"
+		location = 11399
+		division_template = "Sicherungs-Division"
+		force_equipment_variants = { Small_Arms_1935 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Grenzkommando Italien"
+		location = 11618
+		division_template = "Sicherungs-Division"
+		force_equipment_variants = { Small_Arms_1935 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+
+	}
+	division= {	
+		name = "Grenzschutz-Abschnitts-Kommando 15"
+		location = 11386
+		division_template = "Sicherungs-Division"
+		force_equipment_variants = { Small_Arms_1935 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Grenzkommando Danzig"
+		location = 3380
+		division_template = "Sicherungs-Division"
+		force_equipment_variants = { Small_Arms_1935 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+
+	}
+	division= {	
+		name = "Festung Königsberg"
+		location = 6332
+		division_template = "Sicherungs-Division"
+		force_equipment_variants = { Small_Arms_1935 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Festung Lötzen"
+		location = 9327
+		division_template = "Sicherungs-Division"
+		force_equipment_variants = { Small_Arms_1935 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Grenzschutz-Abschnitts-Kommando 1"
+		location = 466
+		division_template = "Sicherungs-Division"
+		force_equipment_variants = { Small_Arms_1935 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Grenzschutz-Abschnitts-Kommando 2"
+		location = 3544
+		division_template = "Sicherungs-Division"
+		force_equipment_variants = { Small_Arms_1935 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+
+	}
+	division= {	 
+		name = "Grenzschutz-Abschnitts-Kommando 12"
+		location = 3544
+		division_template = "Sicherungs-Division"
+		force_equipment_variants = { Small_Arms_1935 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Grenzschutz-Abschnitts-Kommando 13"
+		location = 9427
+		division_template = "Sicherungs-Division"
+		force_equipment_variants = { Small_Arms_1935 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+
+	}
+	division= {	
+		name = "Grenzschutz-Abschnitts-Kommando 14"
+		location = 9427
+		division_template = "Sicherungs-Division"
+		force_equipment_variants = { Small_Arms_1935 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Grenzschutz-Abschnitts-Kommando 30"
+		location = 9508
+		division_template = "Sicherungs-Division"
+		force_equipment_variants = { Small_Arms_1935 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+
+		
+
+
+}	
+air_wings = {
+
+	1057 = { #Berlin
+
+	## Luftflotte I
+
+		#Kampfgeschwader 28 (Heinkel He 111)
+		Tactical_Bomber_equipment_1936 = {
+			owner = "GER" 
+			amount = 50
+		}
+		name = "Kampfgeschwader 28"
+		#JG 3 'Udet' (Bf 109E)
+		Fighter_equipment_1936 = {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "JG 3 'Udet'"
+	}
+	
+	809 = { #Essen
+
+	# Jagfliegerfuhrer 1
+
+		#JG 1 'Oesau' (Bf 109E)
+		Fighter_equipment_1936 = {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "JG 1 'Oesau'"
+		#Lehrgeschwader 2 (Bf 109E)
+		Fighter_equipment_1936 = {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "Lehrgeschwader 2"
+		#Fliegergruppe 122 (Heinkel He 111)
+		Tactical_Bomber_equipment_1936 = {
+			owner = "GER" 
+			amount = 70
+		}
+		name = "Fliegergruppe 122"
+
+	#IV. Fliegerkorps
+
+		#Lehrgeschwader 1 (Heinkel He 111)
+		Tactical_Bomber_equipment_1936 = {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "Lehrgeschwader 1"
+		#KG 27 'Boelcke' (Heinkel He 111)
+		Tactical_Bomber_equipment_1936 = {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "KG 27 'Boelcke'"
+		#KG 30 'Adler' (Junkers Ju 88)
+		Tactical_Bomber_equipment_1940 = {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "KG 27 'Boelcke'"
+
+	#VIII. Fliegerkorps
+
+		#Kampfgeschwader 77 (Dornier 17)
+		Tactical_Bomber_equipment_1933 = {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "Kampfgeschwader 77"
+		#StG 2 'Immelmann' (Ju 87B)
+		CAS_equipment_1936 = {
+			owner = "GER" 
+			amount = 100
+		}
+		name = "StG 2 'Immelmann'"
+		#Sturzkampfgeschwader 76 (Junkers Ju 87)
+		CAS_equipment_1936 = {
+			owner = "GER"
+			amount = 40
+		}
+		name = "Sturzkampfgeschwader 76"
+		#Sturzkampfgeschwader 77 (Junkers Ju 87)
+		CAS_equipment_1936 = {
+			owner = "GER"
+			amount = 70
+		}
+		name = "Sturzkampfgeschwader 77"
+		#Jagdgeschwader 21 (Bf 109E)
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount = 50
+		}
+		name = "Jagdgeschwader 21"
+		#Jagdgeschwader 27 (Bf 109E)
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount = 100
+		}
+		name = "Jagdgeschwader 27"
+	
+	#Luftlandekorps
+
+		#Kampfgeschwader z.b.V. 1 (Ju 52)
+		transport_plane_equipment_1 = {
+			owner = "GER"
+			amount = 100
+		}
+		name = "Kampfgeschwader z.b.V. 1"
+		#Kampfgeschwader z.b.V. 2 (Ju 52) 
+		transport_plane_equipment_1 = {
+			owner = "GER"
+			amount = 50
+		}
+		name = "Kampfgeschwader z.b.V. 2"
+		#Kampfgruppe z.b.V. 9/172 (Ju 52)
+		transport_plane_equipment_1 = {
+			owner = "GER"
+			amount = 100
+		}
+		name = "Kampfgruppe z.b.V. 9/172"
+		#Kampfgruppe z.b.V. 11/12
+		transport_plane_equipment_1 = {
+			owner = "GER"
+			amount = 100
+		}
+		name = "Kampfgruppe z.b.V. 11/12"
+	}
+
+	59 = { #Bremen
+
+	#Fliegerkorps z.b.V.2
+
+		#KG 4 'General Wever' (Heinkel He 111)
+		Tactical_Bomber_equipment_1936 = {
+			owner = "GER"
+			amount = 100
+		}
+		name = "KG 4 'General Wever'"
+		#KG 54 'Totenkopf' (Heinkel He 111)
+		Tactical_Bomber_equipment_1936 = {
+			owner = "GER"
+			amount = 100
+		}
+		name = "KG 54 'Totenkopf'"
+	}
+	55 = { #Kassel
+
+	#Jagfliegerführer 2
+
+		#ZG 26 'Horst Wessel' (Bf 109D) - Interceptors not implemented
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount = 70
+		}
+		name = "ZG 26 'Horst Wessel'"
+		#Zerstörergeschwader 1 (Bf 109D) - Interceptors not implemented
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount = 70
+		}
+		name = "Zerstorergeschwader 1"
+		#JG 26 'Schlageter' (Bf 109E)
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount =100
+		}
+		name = "JG 26 'Schlageter'"
+		#JG 51 'Mölders' (Bf 109E)
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount = 50
+		}
+		name = "JG 51 'Molders'"
+		#Jagdgeschwader 20 (Bf 109E)
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount = 50
+		}
+		name = "Jagdgeschwader 20"
+	}
+
+	50 = { #Wurttemberg-Baden
+
+	#Luftflotte III 
+
+		#Fliegergruppe 123 (Heinkel He 111)
+		Tactical_Bomber_equipment_1936 = {
+			owner = "GER"
+			amount = 50
+		}
+		name = "Fliegergruppe 123"
+	
+	#Jagfliegerführer 3
+
+		#Zerstörergeschwader 2 (Bf 109D) - Interceptors, but don't yet exist in-game
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount = 35
+		}
+		name = "Zerstorergeschwader 2"
+		#JG 2 'Richthofen' (Bf 109E)
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount = 90
+		}
+		name = "JG 2 'Richthofen'" 
+		#JG 53 'Pik As' (Bf 109E)
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount = 100
+		}
+		name = "JG 53 'Pik As'"
+		#Jagdgeschwader 76 (BF 109E)
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount = 50
+		}
+		name = "Jagdgeschwader 76"
+	}
+
+	808 = { #Frankfurt/Main
+
+	#I. Fliegerkorps
+
+		#KG 1 'Hindenburg' (Heinkel He 111)
+		Tactical_Bomber_equipment_1936 = {
+			owner = "GER"
+			amount = 100
+		}
+		name = "KG 1 'Hindenburg'"
+		#Kampfgeschwader 76 (Dornier Do 17)
+		Tactical_Bomber_equipment_1933 = {
+			owner = "GER"
+			amount = 100
+		}
+		name = "Kampfgeschwader 76"
+		#Sturzkampfgeschwader 51 (Ju 87B)
+		CAS_equipment_1936 = {
+			owner = "GER"
+			amount = 40
+		}
+		name = "Sturzkampfgeschwader 51"
+		#Zerstörergeschwader 72 (Bf 109D) - Interceptors, not yet implemented
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount = 35
+		}
+		name = "Zerstörergeschwader 72"
+		#Zerstörergeschwader 76 (Bf 109D) - Interceptors, not yet implemented
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount = 75
+		}
+		name = "Zerstörergeschwader 76"
+		#JG 77 'Herz As' (Bf 109E)
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount = 95
+		}
+		name = "JG 77 'Herz As'"
+
+	#II. Fliegerkorps
+
+		#KG 2 'Holzhammer' (Do 17)
+		Tactical_Bomber_equipment_1933 = {
+				owner = "GER"
+				amount = 100
+		}
+		name = "KG 2 'Holzhammer'"
+		#KG 3 'Blitz' (Do 17)
+		Tactical_Bomber_equipment_1933 = {
+			owner = "GER"
+			amount = 100
+		}
+		name = "KG 3 'Blitz'"
+		#KG 53 'Legion Condor' (He 111)
+		Tactical_Bomber_equipment_1936 = {
+			owner = "GER"
+			amount = 100
+		}
+		name = "KG 53 'Legion Condor'"
+		#Sturzkampfgeschwader 1 (Ju 87B)
+		CAS_equipment_1936 = {
+			owner = "GER"
+			amount = 90
+		}
+		name = "Sturzkampfgeschwader 1"
+		#Fliegergruppe 121 (He 111)
+		Tactical_Bomber_equipment_1936 = {
+			owner = "GER"
+			amount = 25
+		}
+		name = "Fliegergruppe 121"
+	}
+
+	52 = { #Oberbayern Munich
+
+	#V. Fliegerkorps
+
+		#KG 51 'Edelweiß' (He 111)
+		Tactical_Bomber_equipment_1936 = {
+			owner = "GER"
+			amount = 100
+		}
+		name = "KG 51 'Edelweiss'"
+		#Kampfgeschwader 52 (He 111)
+		Tactical_Bomber_equipment_1936 = {
+			owner = "GER"
+			amount = 100
+		}
+		name = "Kampfgeschwader 52"
+		#Jagdgeschwader 52 (Bf 109E)
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount = 95
+		}
+		name = "Jagdgeschwader 52"
+		#JG 54 'Grünherz' (Bf 109E)
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount = 90
+		}
+		name = "JG 54 'Grunherz'"
+		#Zerstörergeschwader 52 (Bf 109D) - Interceptors, but not implemented atm
+		Fighter_equipment_1936 = {
+			owner = "GER"
+			amount = 100
+		}
+		name = "Zerstorergeschwader 52"
+
+	}
+
+	110 = { #Viken(Oslo)
+
+	#X. Fliegerkorps
+ 
+		#Kampfgeschwader 40 (He 111)
+		Tactical_Bomber_equipment_1936 = {
+			owner = "GER"
+			amount = 35
+		}
+		name = "Kampfgeschwader 40"
+		#Kampfgruppe z.b.V. 107/108 (Ju 52)
+		transport_plane_equipment_1 = {
+			owner = "GER"
+			amount = 50
+		}
+		name = "Kampfgruppe z.b.V. 107/108"
+	}
+
+	1125 = { #Alesund
+
+	#Fliegerführer Trondheim
+
+		#KG 26 'Löwen' (He 111)
+		Tactical_Bomber_equipment_1936 = { 
+			owner = "GER"
+			amount = 100
+		}
+		name = "KG 26 'Lowen'"
+	}
+}
+
+
+
+
+
+
+
+#####################

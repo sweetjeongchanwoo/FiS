@@ -1,0 +1,33 @@
+state={
+	id=1173
+	name="STATE_1173"
+	
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = POL
+		1940.5.10 = {
+			owner = GGP
+
+		}
+		1945.1.1 = {
+			controller = SOV
+
+		}		
+		1946.1.1 = {
+			owner = POL
+			controller = POL
+			
+		}
+	}
+	
+	provinces={
+		11385 
+	}
+	manpower=52792
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

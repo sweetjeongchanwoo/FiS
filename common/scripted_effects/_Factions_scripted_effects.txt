@@ -1,0 +1,1983 @@
+# example usage:
+##	set_temp_variable = { faction_id = 1 }
+##	set_temp_variable = { influence_to_add = 10 }
+##	change_faction_influence = yes
+change_faction_influence = {
+	if = {
+		limit = {
+			is_in_array = { active_factions_array = faction_id }
+		}
+		if = {
+			limit = {
+				check_variable = { influence_to_add < 0 }
+			}
+			custom_effect_tooltip = DECREASE_FACTION_INFLUENCE_TT
+		}
+		else = {
+			custom_effect_tooltip = INCREASE_FACTION_INFLUENCE_TT
+		}
+		hidden_effect = {
+			# add influence to selected faction
+			meta_effect = {
+				text = {
+					add_to_variable = { faction_influence_[FACTION] = influence_to_add }
+					clamp_variable = {
+						var = faction_influence_[FACTION]
+						min = 0
+						max = 100
+					}
+				}
+				FACTION = "[?faction_id]"
+			}
+			# adjust other factions' influence accordingly
+			set_temp_variable = { num_of_other_factions_to_influence = active_factions_array^num }
+			subtract_from_temp_variable = { num_of_other_factions_to_influence = 1 }
+			divide_temp_variable = { influence_to_add = num_of_other_factions_to_influence }
+			for_each_loop = {
+				array = active_factions_array
+				value = v
+				if = {
+					limit = {
+						NOT = { check_variable = { v = faction_id } }
+					}
+					meta_effect = {
+						text = {
+							subtract_from_variable = { faction_influence_[FACTION] = influence_to_add }
+							clamp_variable = {
+								var = faction_influence_[FACTION]
+								min = 0
+								max = 100
+							}
+						}
+						FACTION = "[?v]"
+					}
+				}
+			}
+			# make sure the total sum of all factions' influences is 100
+			set_temp_variable = { total_influence = 100 }
+			for_each_loop = {
+				array = active_factions_array
+				value = v
+				meta_effect = {
+					text = {
+						subtract_from_temp_variable = { total_influence = faction_influence_[FACTION] }
+					}
+					FACTION = "[?v]"
+				}
+			}
+			if = {
+				limit = {
+					check_variable = { total_influence > 0 }
+				}
+				meta_effect = {
+					text = {
+						add_to_variable = { faction_influence_[FACTION] = total_influence }
+						clamp_variable = {
+							var = faction_influence_[FACTION]
+							min = 0
+							max = 100
+						}
+					}
+					FACTION = "[?faction_id]"
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { total_influence < 0 }
+				}
+				for_each_loop = {
+					array = active_factions_array
+					value = v
+					if = {
+						limit = {
+							check_variable = { v > 0 }
+						}
+						meta_effect = {
+							text = {
+								add_to_variable = { faction_influence_[FACTION] = total_influence }
+								clamp_variable = {
+									var = faction_influence_[FACTION]
+									min = 0
+									max = 100
+								}
+							}
+							FACTION = "[?v]"
+						}
+						set_temp_variable = { total_influence = 100 }
+						for_each_loop = {
+							array = active_factions_array
+							value = v
+							meta_effect = {
+								text = {
+									subtract_from_temp_variable = { total_influence = faction_influence_[FACTION] }
+								}
+								FACTION = "[?v]"
+							}
+						}
+					}
+				}
+			}
+			# adopt correct idea
+			set_temp_variable = { faction_id_temp_temp = faction_id }
+			for_each_loop = {
+				array = active_factions_array
+				value = v
+				set_temp_variable = { faction_id = v }
+				add_faction_idea = yes
+			}
+			set_temp_variable = { faction_id = faction_id_temp_temp }
+		}
+	}
+}
+
+# example usage:
+##	set_temp_variable = { faction_id = 1 }
+##	set_temp_variable = { loyalty_to_add = 25 }
+##	change_faction_loyalty = yes
+change_faction_loyalty = {
+	if = {
+		limit = {
+			is_in_array = { active_factions_array = faction_id }
+		}
+		if = {
+			limit = {
+				check_variable = { loyalty_to_add < 0 }
+			}
+			custom_effect_tooltip = DECREASE_FACTION_LOYALTY_TT
+		}
+		else = {
+			custom_effect_tooltip = INCREASE_FACTION_LOYALTY_TT
+		}
+		hidden_effect = {
+			# add loyalty to selected faction
+			meta_effect = {
+				text = {
+					add_to_variable = { faction_loyalty_[FACTION] = loyalty_to_add }
+					clamp_variable = {
+						var = faction_loyalty_[FACTION]
+						min = 0
+						max = 100
+					}
+				}
+				FACTION = "[?faction_id]"
+			}
+			# adopt correct idea
+			set_temp_variable = { faction_id_temp_temp = faction_id }
+			for_each_loop = {
+				array = active_factions_array
+				value = v
+				set_temp_variable = { faction_id = v }
+				add_faction_idea = yes
+			}
+			set_temp_variable = { faction_id = faction_id_temp_temp }
+		}
+	}
+}
+
+# example usage:
+##	set_temp_variable = { faction_id = 1 }
+##	add_active_faction = yes
+add_active_faction = {
+	if = {
+		limit = {
+			NOT = { is_in_array = { active_factions_array = faction_id } }
+		}
+		custom_effect_tooltip = ADD_ACTIVE_FACTION_TT
+		add_to_array = { active_factions_array = faction_id }
+		add_faction_idea = yes
+	}
+}
+
+# example usage:
+##	set_temp_variable = { faction_id = 1 }
+##	remove_active_faction = yes
+remove_active_faction = {
+	if = {
+		limit = {
+			is_in_array = { active_factions_array = faction_id }
+			NOT = { check_variable = { faction_in_power = faction_id } }
+		}
+		custom_effect_tooltip = REMOVE_ACTIVE_FACTION_TT
+		hidden_effect = {
+			set_temp_variable = { influence_to_add = -100 }
+			change_faction_influence = yes
+			meta_effect = {
+				text = {
+					clear_variable = faction_influence_[FACTION]
+					clear_variable = faction_loyalty_[FACTION]
+				}
+				FACTION = "[?faction_id]"
+			}
+			remove_from_array = { active_factions_array = faction_id }
+			remove_faction_idea = yes
+		}
+	}
+}
+
+# example usage:
+##	faction_effect_tooltip = yes
+faction_effect_tooltip = {
+	# show_ideas_tooltip for the specific ideas
+	if = {
+		limit = {
+			check_variable = { v = 1 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_1 > 66 }
+				check_variable = { faction_loyalty_1 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_1_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_1 > 66 }
+				check_variable = { faction_loyalty_1 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_1_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_1 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_1_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_1 > 33 }
+				check_variable = { faction_loyalty_1 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_1_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_1 > 33 }
+				check_variable = { faction_loyalty_1 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_1_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_1 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_1_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_1 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_1_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_1 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_1_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_1_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 2 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_2 > 66 }
+				check_variable = { faction_loyalty_2 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_2_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_2 > 66 }
+				check_variable = { faction_loyalty_2 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_2_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_2 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_2_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_2 > 33 }
+				check_variable = { faction_loyalty_2 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_2_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_2 > 33 }
+				check_variable = { faction_loyalty_2 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_2_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_2 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_2_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_2 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_2_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_2 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_2_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_2_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 3 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_3 > 66 }
+				check_variable = { faction_loyalty_3 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_3_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_3 > 66 }
+				check_variable = { faction_loyalty_3 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_3_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_3 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_3_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_3 > 33 }
+				check_variable = { faction_loyalty_3 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_3_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_3 > 33 }
+				check_variable = { faction_loyalty_3 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_3_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_3 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_3_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_3 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_3_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_3 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_3_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_3_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 4 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_4 > 66 }
+				check_variable = { faction_loyalty_4 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_4_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_4 > 66 }
+				check_variable = { faction_loyalty_4 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_4_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_4 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_4_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_4 > 33 }
+				check_variable = { faction_loyalty_4 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_4_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_4 > 33 }
+				check_variable = { faction_loyalty_4 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_4_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_4 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_4_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_4 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_4_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_4 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_4_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_4_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 5 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_5 > 66 }
+				check_variable = { faction_loyalty_5 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_5_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_5 > 66 }
+				check_variable = { faction_loyalty_5 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_5_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_5 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_5_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_5 > 33 }
+				check_variable = { faction_loyalty_5 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_5_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_5 > 33 }
+				check_variable = { faction_loyalty_5 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_5_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_5 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_5_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_5 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_5_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_5 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_5_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_5_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 6 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_6 > 66 }
+				check_variable = { faction_loyalty_6 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_6_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_6 > 66 }
+				check_variable = { faction_loyalty_6 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_6_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_6 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_6_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_6 > 33 }
+				check_variable = { faction_loyalty_6 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_6_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_6 > 33 }
+				check_variable = { faction_loyalty_6 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_6_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_6 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_6_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_6 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_6_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_6 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_6_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_6_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 7 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_7 > 66 }
+				check_variable = { faction_loyalty_7 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_7_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_7 > 66 }
+				check_variable = { faction_loyalty_7 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_7_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_7 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_7_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_7 > 33 }
+				check_variable = { faction_loyalty_7 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_7_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_7 > 33 }
+				check_variable = { faction_loyalty_7 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_7_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_7 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_7_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_7 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_7_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_7 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_7_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_7_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 8 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_8 > 66 }
+				check_variable = { faction_loyalty_8 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_8_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_8 > 66 }
+				check_variable = { faction_loyalty_8 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_8_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_8 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_8_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_8 > 33 }
+				check_variable = { faction_loyalty_8 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_8_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_8 > 33 }
+				check_variable = { faction_loyalty_8 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_8_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_8 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_8_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_8 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_8_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_8 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_8_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_8_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 9 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_9 > 66 }
+				check_variable = { faction_loyalty_9 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_9_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_9 > 66 }
+				check_variable = { faction_loyalty_9 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_9_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_9 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_9_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_9 > 33 }
+				check_variable = { faction_loyalty_9 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_9_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_9 > 33 }
+				check_variable = { faction_loyalty_9 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_9_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_9 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_9_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_9 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_9_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_9 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_9_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_9_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 10 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_10 > 66 }
+				check_variable = { faction_loyalty_10 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_10_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_10 > 66 }
+				check_variable = { faction_loyalty_10 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_10_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_10 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_10_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_10 > 33 }
+				check_variable = { faction_loyalty_10 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_10_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_10 > 33 }
+				check_variable = { faction_loyalty_10 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_10_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_10 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_10_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_10 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_10_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_10 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_10_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_10_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 11 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_11 > 66 }
+				check_variable = { faction_loyalty_11 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_11_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_11 > 66 }
+				check_variable = { faction_loyalty_11 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_11_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_11 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_11_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_11 > 33 }
+				check_variable = { faction_loyalty_11 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_11_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_11 > 33 }
+				check_variable = { faction_loyalty_11 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_11_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_11 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_11_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_11 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_11_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_11 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_11_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_11_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 12 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_12 > 66 }
+				check_variable = { faction_loyalty_12 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_12_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_12 > 66 }
+				check_variable = { faction_loyalty_12 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_12_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_12 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_12_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_12 > 33 }
+				check_variable = { faction_loyalty_12 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_12_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_12 > 33 }
+				check_variable = { faction_loyalty_12 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_12_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_12 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_12_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_12 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_12_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_12 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_12_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_12_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 13 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_13 > 66 }
+				check_variable = { faction_loyalty_13 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_13_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_13 > 66 }
+				check_variable = { faction_loyalty_13 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_13_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_13 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_13_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_13 > 33 }
+				check_variable = { faction_loyalty_13 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_13_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_13 > 33 }
+				check_variable = { faction_loyalty_13 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_13_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_13 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_13_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_13 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_13_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_13 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_13_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_13_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 14 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_14 > 66 }
+				check_variable = { faction_loyalty_14 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_14_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_14 > 66 }
+				check_variable = { faction_loyalty_14 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_14_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_14 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_14_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_14 > 33 }
+				check_variable = { faction_loyalty_14 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_14_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_14 > 33 }
+				check_variable = { faction_loyalty_14 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_14_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_14 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_14_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_14 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_14_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_14 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_14_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_14_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 15 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_15 > 66 }
+				check_variable = { faction_loyalty_15 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_15_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_15 > 66 }
+				check_variable = { faction_loyalty_15 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_15_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_15 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_15_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_15 > 33 }
+				check_variable = { faction_loyalty_15 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_15_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_15 > 33 }
+				check_variable = { faction_loyalty_15 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_15_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_15 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_15_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_15 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_15_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_15 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_15_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_15_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 16 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_16 > 66 }
+				check_variable = { faction_loyalty_16 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_16_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_16 > 66 }
+				check_variable = { faction_loyalty_16 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_16_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_16 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_16_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_16 > 33 }
+				check_variable = { faction_loyalty_16 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_16_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_16 > 33 }
+				check_variable = { faction_loyalty_16 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_16_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_16 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_16_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_16 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_16_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_16 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_16_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_16_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 17 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_17 > 66 }
+				check_variable = { faction_loyalty_17 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_17_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_17 > 66 }
+				check_variable = { faction_loyalty_17 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_17_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_17 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_17_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_17 > 33 }
+				check_variable = { faction_loyalty_17 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_17_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_17 > 33 }
+				check_variable = { faction_loyalty_17 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_17_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_17 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_17_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_17 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_17_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_17 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_17_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_17_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 18 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_18 > 66 }
+				check_variable = { faction_loyalty_18 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_18_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_18 > 66 }
+				check_variable = { faction_loyalty_18 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_18_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_18 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_18_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_18 > 33 }
+				check_variable = { faction_loyalty_18 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_18_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_18 > 33 }
+				check_variable = { faction_loyalty_18 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_18_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_18 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_18_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_18 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_18_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_18 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_18_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_18_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 19 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_19 > 66 }
+				check_variable = { faction_loyalty_19 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_19_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_19 > 66 }
+				check_variable = { faction_loyalty_19 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_19_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_19 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_19_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_19 > 33 }
+				check_variable = { faction_loyalty_19 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_19_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_19 > 33 }
+				check_variable = { faction_loyalty_19 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_19_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_19 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_19_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_19 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_19_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_19 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_19_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_19_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 20 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_20 > 66 }
+				check_variable = { faction_loyalty_20 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_20_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_20 > 66 }
+				check_variable = { faction_loyalty_20 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_20_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_20 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_20_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_20 > 33 }
+				check_variable = { faction_loyalty_20 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_20_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_20 > 33 }
+				check_variable = { faction_loyalty_20 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_20_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_20 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_20_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_20 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_20_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_20 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_20_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_20_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 21 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_21 > 66 }
+				check_variable = { faction_loyalty_21 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_21_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_21 > 66 }
+				check_variable = { faction_loyalty_21 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_21_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_21 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_21_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_21 > 33 }
+				check_variable = { faction_loyalty_21 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_21_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_21 > 33 }
+				check_variable = { faction_loyalty_21 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_21_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_21 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_21_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_21 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_21_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_21 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_21_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_21_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 22 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_22 > 66 }
+				check_variable = { faction_loyalty_22 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_22_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_22 > 66 }
+				check_variable = { faction_loyalty_22 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_22_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_22 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_22_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_22 > 33 }
+				check_variable = { faction_loyalty_22 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_22_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_22 > 33 }
+				check_variable = { faction_loyalty_22 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_22_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_22 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_22_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_22 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_22_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_22 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_22_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_22_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 23 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_23 > 66 }
+				check_variable = { faction_loyalty_23 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_23_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_23 > 66 }
+				check_variable = { faction_loyalty_23 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_23_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_23 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_23_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_23 > 33 }
+				check_variable = { faction_loyalty_23 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_23_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_23 > 33 }
+				check_variable = { faction_loyalty_23 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_23_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_23 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_23_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_23 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_23_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_23 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_23_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_23_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 24 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_24 > 66 }
+				check_variable = { faction_loyalty_24 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_24_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_24 > 66 }
+				check_variable = { faction_loyalty_24 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_24_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_24 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_24_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_24 > 33 }
+				check_variable = { faction_loyalty_24 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_24_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_24 > 33 }
+				check_variable = { faction_loyalty_24 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_24_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_24 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_24_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_24 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_24_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_24 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_24_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_24_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 25 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_25 > 66 }
+				check_variable = { faction_loyalty_25 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_25_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_25 > 66 }
+				check_variable = { faction_loyalty_25 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_25_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_25 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_25_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_25 > 33 }
+				check_variable = { faction_loyalty_25 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_25_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_25 > 33 }
+				check_variable = { faction_loyalty_25 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_25_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_25 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_25_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_25 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_25_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_25 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_25_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_25_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 26 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_26 > 66 }
+				check_variable = { faction_loyalty_26 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_26_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_26 > 66 }
+				check_variable = { faction_loyalty_26 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_26_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_26 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_26_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_26 > 33 }
+				check_variable = { faction_loyalty_26 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_26_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_26 > 33 }
+				check_variable = { faction_loyalty_26 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_26_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_26 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_26_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_26 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_26_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_26 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_26_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_26_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 27 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_27 > 66 }
+				check_variable = { faction_loyalty_27 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_27_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_27 > 66 }
+				check_variable = { faction_loyalty_27 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_27_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_27 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_27_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_27 > 33 }
+				check_variable = { faction_loyalty_27 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_27_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_27 > 33 }
+				check_variable = { faction_loyalty_27 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_27_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_27 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_27_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_27 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_27_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_27 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_27_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_27_low_low
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { v = 28 }
+		}
+		if = {
+			limit = {
+				check_variable = { faction_influence_28 > 66 }
+				check_variable = { faction_loyalty_28 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_28_high_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_28 > 66 }
+				check_variable = { faction_loyalty_28 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_28_high_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_28 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_28_high_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_28 > 33 }
+				check_variable = { faction_loyalty_28 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_28_average_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_28 > 33 }
+				check_variable = { faction_loyalty_28 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_28_average_average
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_influence_28 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_28_average_low
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_28 > 66 }
+			}
+			show_ideas_tooltip = idea_faction_effects_28_low_high
+		}
+		else_if = {
+			limit = {
+				check_variable = { faction_loyalty_28 > 33 }
+			}
+			show_ideas_tooltip = idea_faction_effects_28_low_average
+		}
+		else = {
+			show_ideas_tooltip = idea_faction_effects_28_low_low
+		}
+	}
+}
+
+# example usage:
+## set_temp_variable = { faction_id = 7 }
+## add_faction_idea = yes
+add_faction_idea = {
+	remove_faction_idea = yes
+	# add idea of faction
+	hidden_effect = {
+		meta_effect = {
+			text = {
+				if = {
+					limit = {
+						check_variable = { faction_influence_[FACTION] > 66 }
+						check_variable = { faction_loyalty_[FACTION] > 66 }
+					}
+					add_ideas = idea_faction_effects_[FACTION]_high_high
+				}
+				else_if = {
+					limit = {
+						check_variable = { faction_influence_[FACTION] > 66 }
+						check_variable = { faction_loyalty_[FACTION] > 33 }
+					}
+					add_ideas = idea_faction_effects_[FACTION]_high_average
+				}
+				else_if = {
+					limit = {
+						check_variable = { faction_influence_[FACTION] > 66 }
+					}
+					add_ideas = idea_faction_effects_[FACTION]_high_low
+				}
+				else_if = {
+					limit = {
+						check_variable = { faction_influence_[FACTION] > 33 }
+						check_variable = { faction_loyalty_[FACTION] > 66 }
+					}
+					add_ideas = idea_faction_effects_[FACTION]_average_high
+				}
+				else_if = {
+					limit = {
+						check_variable = { faction_influence_[FACTION] > 33 }
+						check_variable = { faction_loyalty_[FACTION] > 33 }
+					}
+					add_ideas = idea_faction_effects_[FACTION]_average_average
+				}
+				else_if = {
+					limit = {
+						check_variable = { faction_influence_[FACTION] > 33 }
+					}
+					add_ideas = idea_faction_effects_[FACTION]_average_low
+				}
+				else_if = {
+					limit = {
+						check_variable = { faction_loyalty_[FACTION] > 66 }
+					}
+					add_ideas = idea_faction_effects_[FACTION]_low_high
+				}
+				else_if = {
+					limit = {
+						check_variable = { faction_loyalty_[FACTION] > 33 }
+					}
+					add_ideas = idea_faction_effects_[FACTION]_low_average
+				}
+				else = {
+					add_ideas = idea_faction_effects_[FACTION]_low_low
+				}
+			}
+			FACTION = "[?faction_id]"
+		}
+	}
+}
+
+# example usage:
+## set_temp_variable = { faction_id = 7 }
+## remove_faction_idea = yes
+remove_faction_idea = {
+	# remove idea of faction
+	hidden_effect = {
+		set_temp_variable = { faction_id_temp = faction_id }
+		country_event = { id = DH_Faction_Events.1 }
+		set_temp_variable = { faction_id = faction_id_temp }
+	}
+}

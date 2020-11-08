@@ -1,0 +1,31 @@
+
+state={
+	id=920
+	name="STATE_920"
+	resources={
+		#tungsten=1.000
+	}
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			12797 1 
+		}
+		1950.1.1 = {
+			owner = PRC
+		}
+	}
+
+	provinces={
+		531 7911 7397 12882 12797
+	}
+	manpower=7000000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

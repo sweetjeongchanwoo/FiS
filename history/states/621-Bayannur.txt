@@ -1,0 +1,36 @@
+state={
+	id=621
+	name="STATE_621"
+
+	history={
+		owner = SHX
+		victory_points = {
+			10629 2
+		}			
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SHX
+		add_core_of = CHI
+		add_core_of = PRC
+		1944.6.20 = {
+			controller = MEN
+
+		}	
+		1946.1.1 = {
+			controller = SHX
+
+		}	
+		1950.1.1 = {
+			owner = PRC
+
+		}	
+	}
+
+	provinces={
+		2087 10629 12609 12880 
+	}
+	manpower=580000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

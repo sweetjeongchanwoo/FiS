@@ -1,0 +1,82 @@
+﻿l_english:
+#########################################################################
+#  German Strasserist Events
+#########################################################################
+ # Deutschesschlag
+ DH_Germany_Deutschesschlag.1.t:0 "Schleicher Declares a State of Emergency!"
+ DH_Germany_Deutschesschlag.1.d:0 "[FROM.GetNewsIcon]"
+ DH_Germany_Deutschesschlag.1.A:0 "Oh god"
+
+ DH_Germany_Deutschesschlag.1.t:0 "Hugenberg wants more ministerial positions"
+ DH_Germany_Deutschesschlag.1.d:0 ""
+ DH_Germany_Deutschesschlag.1.A:0 "Ok"
+ 
+ DH_Germany_Deutschesschlag.2.t:0 "Hugenberg wants the vice-chancellorship"
+ DH_Germany_Deutschesschlag.2.d:0 ""
+ DH_Germany_Deutschesschlag.2.A:0 "We have no choice but to accept"
+ DH_Germany_Deutschesschlag.2.B:0 "We will not get bullied by that buffoon"
+ 
+ DH_Germany_Deutschesschlag.3.t:0 "DNVP and Stahlhelm defect to the Nazis"
+ DH_Germany_Deutschesschlag.3.d:0 ""
+ DH_Germany_Deutschesschlag.3.A:0 "Oh god"
+ 
+#########################################################################
+#  German Strasserist Focuses
+#########################################################################
+ GER_Deutschesschlag:0 "Deutschesschlag"
+ GER_Deutschesschlag_desc:0 ""
+ GER_Deutschesschlag_tt:0 "§GElections§! will be §Rpostponed§! until the situation in the Reich has §Gstabilized§! A §RState of Emergency§! will be declared\n"
+ 
+ GER_Ensure_Support_of_DNVP:0 "Ensure Support of DNVP"
+ GER_Ensure_Support_of_DNVP_desc:0 ""
+ 
+ GER_Reach_out_to_SPD:0 "Reach out to SPD"
+ GER_Reach_out_to_SPD_desc:0 ""
+ 
+ GER_Nationwide_Martial_Law:0 "Nationwide Martial Law"
+ GER_Nationwide_Martial_Law_desc:0 ""
+ 
+ GER_Workers_Revolution:0 "Worker's Revolution!"
+ GER_Workers_Revolution_desc:0 ""
+ 
+ GER_Maintain_the_Republic:0 "Maintain the Republic!"
+ GER_Maintain_the_Republic_desc:0 ""
+ 
+ GER_Second_National_Revolution:0 "Second National Revolution!"
+ GER_Second_National_Revolution_desc:0 ""
+ 
+ GER_Escalate_the_General_Strike:0 "Escalate the General Strike"
+ GER_Escalate_the_General_Strike_desc:0 ""
+ 
+ GER_Unprincipled_Pact:0 "Unprincipled Pact?"
+ GER_Unprincipled_Pact_desc:0 ""
+ 
+ GER_Arm_Rhine_Paramilitaries:0 "Arm Rhine Paramilitaries"
+ GER_Arm_Rhine_Paramilitaries_desc:0 ""
+ 
+ GER_Keep_the_House_in_Order:0 "Keep the House in Order"
+ GER_Keep_the_House_in_Order_desc:0 ""
+ 
+ GER_Crack_Down_on_the_Reds:0 "Crack Down on the Reds"
+ GER_Crack_Down_on_the_Reds_desc:0 ""
+ 
+ GER_Strike_at_the_Brownshirts:0 "Strike at the Brownshirts"
+ GER_Strike_at_the_Brownshirts_desc:0 ""
+ 
+ GER_Exploit_Militarist_Fervour:0 "Exploit Militarist Fervour"
+ GER_Exploit_Militarist_Fervour_desc:0 ""
+ 
+ GER_Form_the_Prussian_Volunteers:0 "Form the Prussian Volunteers"
+ GER_Form_the_Prussian_Volunteers_desc:0 ""
+ 
+ GER_Establish_Connections_in_the_Reichswehr:0 "Establish Connections in the Reichswehr"
+ GER_Establish_Connections_in_the_Reichswehr_desc:0 ""
+
+#########################################################################
+## German Strasserist Decisions
+#########################################################################
+
+#########################################################################
+## German Strasserist Ideas
+#########################################################################
+

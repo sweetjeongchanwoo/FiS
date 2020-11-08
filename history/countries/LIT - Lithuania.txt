@@ -1,0 +1,67 @@
+﻿################################
+# Lituania - 1933
+################################
+1933.1.1 = {
+	capital = 11
+	set_research_slots = 3
+	set_convoys = 10
+	oob = "LIT_1933"
+	#######################
+	# Tech
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 0
+		Fighter_1933 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1926.5.8"
+		election_frequency = 120
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 2
+		authoritarian = 60
+		democratic = 38
+		socialist = 0
+		communist = 0
+	}
+	#######################
+	# Leaders
+	#######################
+	#  Autocracy
+	create_country_leader = {
+		name = "Antanas Smetona"
+		desc = "POLITICS_ANTANAS_SMETONA_DESC"
+		picture = "P_A_Antanas_Smetona.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = { POSITION_President SUBIDEOLOGY_Authoritarian_Democracy HoS_Weary_Stiff_Neck }
+	}
+	add_ideas = {
+		LIT_HoG_Juozas_Tubelis
+	}
+	
+}
+################################
+# Lituania - 1936
+################################
+1936.1.1 = {
+	oob = "LIT_1936"
+	#######################
+	# Tech
+	#######################	
+	set_technology = {
+		Small_Arms_1935 = 1
+	}
+	#######################
+	# Politics
+	#######################	
+	add_ideas = {
+		one_year_service
+	}	
+}

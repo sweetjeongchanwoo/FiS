@@ -1,0 +1,24 @@
+state={
+	id=1151
+	name="STATE_1151"
+	
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+			4155 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		4155 
+	}
+	manpower=6196
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

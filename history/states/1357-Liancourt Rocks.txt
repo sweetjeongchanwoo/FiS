@@ -1,0 +1,33 @@
+state={
+	id=1357
+	name="STATE_1357"
+
+	history={
+		owner = KJE
+		buildings = {
+			infrastructure = 2
+			14373 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = KJE
+		1946.1.1 = {
+			owner = USA
+
+		}
+		1950.1.1 = {
+			owner = KOR
+
+		}
+
+	}
+
+	provinces={
+		14373 
+	}
+	manpower=50
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

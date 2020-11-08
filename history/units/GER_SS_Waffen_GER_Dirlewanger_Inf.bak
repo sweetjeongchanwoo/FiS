@@ -1,0 +1,31 @@
+﻿division_template = {
+	name = "Waffen-Grenadier-Division der SS (Bandenbekämpfung)"
+
+	regiments = {
+		SS_infantry = { x = 0 y = 0 }
+		SS_infantry = { x = 0 y = 1 }
+		SS_infantry = { x = 0 y = 2 }
+		SS_infantry = { x = 1 y = 0 }
+		SS_infantry = { x = 1 y = 1 }
+		SS_infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 0 } # When upgraded to a division, a Heer regiment was added
+		infantry = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 } # Approximately 1/4 of Grenadier-Regiment 1244 was Volkssturm
+		artillery_battalion = { x = 2 y = 0 }
+		anti_tank_brigade = { x = 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division= {
+		name = "Waffen-Grenadier-Division der SS „Dirlewanger“"
+		location = 11444 # Oranienburg
+		division_template = "Waffen-Grenadier-Division der SS (Bandenbekämpfung)"
+		start_experience_factor = 0.14 # A mix of combat experienced troops and raw recruits fresh from training schools.  Basically gets a tiny boost because the leadership had a lot of experience.
+		start_equipment_factor = 1.00  # The division only had about 6000 troops but it seems unfair to create such a weak unit from a focus
+	}
+}

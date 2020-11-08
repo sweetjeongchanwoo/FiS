@@ -1,0 +1,55 @@
+POL_Issuing_Currency = {
+	icon = placeholder
+
+	picture = placeholder
+	
+	allowed = { 
+	    original_tag = POL
+	}
+	visible = {
+		has_completed_focus = POL_Issue_New_Banknote_Denominations
+	}
+}
+POL_Power_to_the_People = {
+	icon = generic_economy
+	visible = {
+		has_completed_focus = POL_Rural_Eletrification_Drive
+	}
+}
+POL_Defending_the_Fringes = {
+	icon = generic_military
+	visible = {
+		has_completed_focus = POL_Enemies_at_the_Gates
+	}
+}
+POL_Protecting_the_Polish_Heartlands = {
+	icon = generic_military
+	visible = {
+		has_completed_focus = POL_The_Internal_Defense
+	}
+}
+POL_Emergency_Measures = {
+	icon = generic_military
+	visible = {
+		has_completed_focus = POL_The_Emergency
+	}
+}
+POL_Prospect_New_Airfields = {
+	icon = generic_military
+	visible = {
+		has_completed_focus = POL_Modernise_Civil_Aviation
+		NOT = {has_country_flag = POL_Civil_Aviation_Decision_Completed }
+	}
+}
+POL_Infrastructure_Disruption = {
+	icon = generic_military
+	visible = {
+		has_completed_focus = POL_Build_the_Resistance
+	}
+}
+POL_Sabotaging_our_Hardwork = {
+	icon = generic_military
+	visible = {
+		has_completed_focus = POL_Build_the_Resistance
+	}
+}

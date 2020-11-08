@@ -1,0 +1,220 @@
+﻿division_template = {
+	name = "División de Infanteria"		# Infantry Division
+	division_names_group = SPAN_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "División de infantería con artillería" # Infantry Division with Artillery
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_battalion = { x = 1 y = 0 }
+		artillery_battalion = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "División de infantería con antiaérea" # Infantry Division with Anti air
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		anti_air_brigade = { x = 1 y = 0 }
+		anti_air_brigade = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Brigada Montaña"			# Mountain Brigade
+	division_names_group = SPAN_MTN_02
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "División de Caballería"  	# Cavalry Division
+	division_names_group = SPAN_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+}
+
+units = {
+	##### I Cuerpo de Ejército #####
+	division = {
+		name = "III Brigada 'Pellegrini'"
+		location = 12364 # Buenos Aires
+		division_template = "División de infantería con artillería"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "II Brigada 'San Martín'"
+		location = 12364 # Buenos Aires
+		division_template = "División de infantería con artillería"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		name = "II Brigada de Montaña"
+		location = 12364 # Buenos Aires
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "I Brigada 'Ing. Krausse'"
+		location = 12364 # Buenos Aires
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	##### II Cuerpo de Ejército #####
+	division = {
+		name = "VI Brigada de Montaña 'Villegas'"
+		location = 7621 # Mar del Plata
+		division_template = "Brigada Montaña"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.35
+	}
+
+	division = {
+		name = "IV Brigada de Infantería"
+		location = 7621 # Mar del Plata
+		division_template = "División de infantería con antiaérea"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "IX Brigada de Infantería"
+		location = 7621 # Mar del Plata
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	##### III Cuerpo de Ejército #####
+	division = {
+		name = "VI Brigada"
+		location = 7500 # Rosario
+		division_template = "División de Caballería"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "IV Brigada"
+		location = 7500 # Rosario
+		division_template = "División de Caballería"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "IX Brigada"
+		location = 12942 # Cordoba
+		division_template = "División de Caballería"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+}
+##############################################
+## Naval OOB
+##############################################
+units = {
+	fleet = {
+		name = "Armada Argentina"
+		naval_base = 12364 # Buenos Aires
+		task_force = {				
+			name = "Armada de la Republica Argentina"
+			location = 12364 # Buenos Aires
+			ship = { name = "ARA Veinticinco de Mayo" definition = heavy_cruiser equipment = { CA_equipment_1922 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Almirante Brown" definition = heavy_cruiser equipment = { CA_equipment_1922 = { amount = 1 owner = ARG } } }	
+			ship = { name = "ARA Moreno" definition = battleship equipment = { BB_equipment_1900 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Rivadavia" definition = battleship equipment = { BB_equipment_1900 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Independencia" definition = light_cruiser equipment = { CL_equipment_1912 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA La Libertad" definition = light_cruiser equipment = { CL_equipment_1912 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Generale Belgrano" definition = heavy_cruiser equipment = { CA_equipment_1895 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Generale Pueyrredon" definition = heavy_cruiser equipment = { CA_equipment_1895 = { amount = 1 owner = ARG } } }	
+			ship = { name = "Flotilla de Destructores nro. 1" definition = destroyer equipment = { DD_equipment_1922 = { amount = 1 owner = ARG } } }
+			ship = { name = "Flotilla de Destructores nro. 2" definition = destroyer equipment = { DD_equipment_1916 = { amount = 1 owner = ARG } } }
+		}
+		task_force = {				
+			name = "Flotilla de Submarinos nro. 1"
+			location = 12364 # Buenos Aires
+			ship = { name = "Flotilla de Submarinos nro. 1" definition = submarine equipment = { SS_equipment_1912 = { amount = 1 owner = ARG } } }	
+		}
+	}					
+}
+
+air_wings = {
+	### Dirección General de Aeronáutica -- Buenos Aires
+	278 = {
+		# Fighter Air Group -- Dewotine D.21s
+		Fighter_equipment_1933 =  {
+			owner = "ARG" 
+			amount = 18
+		}
+		Naval_Bomber_equipment_1936 = { # Dornier Do J Wal
+			owner = "ARG"
+			amount = 10
+		}
+	}
+}
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1900
+			creator = "ARG"
+		}
+		requested_factories = 1
+		progress = 0.19
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = Fighter_equipment_1933
+			creator = "ARG"
+		}
+		requested_factories = 1
+		progress = 0.44
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "ARG"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 100
+	}
+}

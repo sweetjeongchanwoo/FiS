@@ -1,0 +1,25 @@
+spriteTypes = {
+
+	frameAnimatedSpriteType = {
+		name = "GFX_prod_line_glow_nav"
+		texturefile = "gfx/interface/prod_line_glow_2.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	spriteType = {
+		name = "GFX_naval_production_item"
+		textureFile = "gfx//interface//naval_production_item.dds"
+		#effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
+		name = "GFX_naval_production_line_selected"
+		textureFile = "gfx//interface//naval_production_line_selected.dds"
+	}
+}

@@ -1,0 +1,712 @@
+ideas = {
+#################################################
+### Head of Government
+#################################################
+	Head_of_Government = {
+	# Slobodan Jovanovic
+        YUG_HoG_Slobodan_Jovanovic = {
+            picture = Slobodan_Jovanovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Slobodan_Jovanovic_unavailable }
+            }
+
+
+            traits = { ideology_D HoG_Old_Lawyer }
+        }
+	# Vladko Macek
+        YUG_HoG_Vladko_Macek = {
+            picture = Vladko_Macek
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Vladko_Macek_unavailable }
+            }
+
+
+            traits = { ideology_D HoS_Die_Hard_Reformer }
+        }
+	# Ivan Subasic
+        YUG_HoG_Ivan_Subasic = {
+            picture = Ivan_Subasic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Ivan_Subasic_unavailable }
+            }
+
+
+            traits = { ideology_D HoG_Naive_Optimist }
+        }
+	# Bozidar Puric
+        YUG_HoG_Bozidar_Puric = {
+            picture = Bozidar_Puric
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Bozidar_Puric_unavailable }
+            }
+
+
+            traits = { ideology_D HoS_Insignificant_Layman }
+        }
+	# Milos Trifunovic
+        YUG_HoG_Milos_Trifunovic = {
+            picture = Milos_Trifunovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Milos_Trifunovic_unavailable }
+            }
+
+
+            traits = { ideology_D HoG_Happy_Amateur }
+        }
+	# Dusan Simovic
+        YUG_HoG_Dusan_Simovic = {
+            picture = Dusan_Simovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Dusan_Simovic_unavailable }
+            }
+
+
+            traits = { ideology_D HoG_Old_Airmarshal }
+        }
+	# Zivko Topalovic
+        YUG_HoG_Zivko_Topalovic = {
+            picture = Zivko_Topalovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                S_Minister_Allowed = yes
+                NOT = { has_country_flag = Zivko_Topalovic_unavailable }
+            }
+
+
+            traits = { ideology_S HoG_Happy_Amateur }
+        }
+	# Bogoljub Jevtic
+        YUG_HoG_Bogoljub_Jevtic = {
+            picture = Bogoljub_Jevtic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+				A_Minister_Allowed = yes
+                NOT = { has_country_flag = Bogoljub_Jevtic_unavailable }
+            }
+
+
+            traits = { ideology_A HoG_Silent_Workhorse }
+        }
+	# Milan Srskic
+        YUG_HoG_Milan_Srskic = {
+            picture = Milan_Srskic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Milan_Srskic_unavailable }
+            }
+
+
+            traits = { ideology_A HoG_Political_Protege }
+        }
+	# Nikola Uzunovic
+        YUG_HoG_Nikola_Uzunovic = {
+            picture = Nikola_Uzunovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Nikola_Uzunovic_unavailable }
+            }
+
+
+            traits = { ideology_A HoG_Naive_Optimist }
+        }
+	# Milan Stojadinovic
+        YUG_HoG_Milan_Stojadinovic = {
+            picture = Milan_Stojadinovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Milan_Stojadinovic_unavailable }
+            }
+
+
+            traits = { ideology_A HoG_Flamboyant_Tough_Guy }
+        }
+	# Dragisa Cvetokovic
+        YUG_HoG_Dragisa_Cvetokovic = {
+            picture = Dragisa_Cvetokovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Dragisa_Cvetokovic_unavailable }
+            }
+
+
+            traits = { ideology_A HoG_Happy_Amateur }
+        }
+	# Petar II
+        YUG_HoG_Petar_II = {
+            picture = Petar_II
+            allowed = { tag = YUG }
+            available = { 
+                date > 1941.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Petar_II_unavailable }
+            }
+
+
+            traits = { ideology_D HoG_Naive_Optimist }
+        }
+}
+#################################################
+### Foreign Minister
+#################################################
+	Foreign_Minister = {
+	# Slobodan Jovanovic
+        YUG_FM_Slobodan_Jovanovic = {
+            picture = Slobodan_Jovanovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Slobodan_Jovanovic_unavailable }
+            }
+
+
+            traits = { ideology_D FM_Ideological_Crusader }
+        }
+	# Ivan Subasic
+        YUG_FM_Ivan_Subasic = {
+            picture = Ivan_Subasic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Ivan_Subasic_unavailable }
+            }
+
+
+            traits = { ideology_D FM_Respectable_Compromiser }
+        }
+	# Milan Grol
+        YUG_FM_Milan_Grol = {
+            picture = Milan_Grol
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Milan_Grol_unavailable }
+            }
+
+
+            traits = { ideology_D FM_Respectable_Compromiser }
+        }
+	# Bozidar Puric
+        YUG_FM_Bozidar_Puric = {
+            picture = Bozidar_Puric
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Bozidar_Puric_unavailable }
+            }
+
+
+            traits = { ideology_D FM_Apologetic_Clerk }
+        }
+	# Momcilo Nincic
+        YUG_FM_Momcilo_Nincic = {
+            picture = Momcilo_Nincic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Momcilo_Nincic_unavailable }
+            }
+
+
+            traits = { ideology_D FM_Ideological_Crusader }
+        }
+	# Bogoljub Jevtic
+        YUG_FM_Bogoljub_Jevtic = {
+            picture = Bogoljub_Jevtic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                OR = {
+					A_Minister_Allowed = yes
+					D_Minister_Allowed = yes
+				}
+                NOT = { has_country_flag = Bogoljub_Jevtic_unavailable }
+            }
+
+
+            traits = { ideology_A FM_Great_Compromiser }
+        }
+	# Aleksandar Cincar-Markovic
+        YUG_FM_Aleksandar_C_Markovic = {
+            picture = Aleksandar_C_Markovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Aleksandar_C_Markovic_unavailable }
+            }
+
+
+            traits = { ideology_A FM_Apologetic_Clerk }
+        }
+	# Milan Stojadinovic
+        YUG_FM_Milan_Stojadinovic = {
+            picture = Milan_Stojadinovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Milan_Stojadinovic_unavailable }
+            }
+
+
+            traits = { ideology_A FM_The_Cloak_N_Dagger_Schemer }
+        }
+}
+#################################################
+### Minister of Security
+#################################################
+	Minister_of_Security = {
+	# Slobodan Jovanovic
+        YUG_MoS_Slobodan_Jovanovic = {
+            picture = Slobodan_Jovanovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Slobodan_Jovanovic_unavailable }
+            }
+
+
+            traits = { ideology_D MoS_Silent_Lawyer }
+        }
+	# Vladeta Milicevic
+        YUG_MoS_Vladeta_Milicevic = {
+            picture = Vladeta_Milicevic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Vladeta_Milicevic_unavailable }
+            }
+
+
+            traits = { ideology_D MoS_Secret_Police_Chief }
+        }
+	# Sava Kosanovic
+        YUG_MoS_Sava_Kosanovic = {
+            picture = Sava_Kosanovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Sava_Kosanovic_unavailable }
+            }
+
+
+            traits = { ideology_D MoS_Ruthless_Organizer }
+        }
+	# Srdan Budisavljevic
+        YUG_MoS_Srdan_Budisavljevic = {
+            picture = Srdan_Budisavljevic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Srdan_Budisavljevic_unavailable }
+            }
+
+
+            traits = { ideology_D MoS_Compassionate_Gentleman }
+        }
+	# Anton Korosec
+        YUG_MoS_Anton_Korosec = {
+            picture = Anton_Korosec
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Anton_Korosec_unavailable }
+            }
+
+
+            traits = { ideology_D MoS_Compassionate_Gentleman }
+        }
+	# Dusan Simovic
+        YUG_MoS_Dusan_Simovic = {
+            picture = Dusan_Simovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Dusan_Simovic_unavailable }
+            }
+
+
+            traits = { ideology_D MoS_Ruthless_Organizer }
+        }
+	# Vlada Zecevic
+        YUG_MoS_Vlada_Zecevic = {
+            picture = Vlada_Zecevic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                C_Minister_Allowed = yes
+                NOT = { has_country_flag = Vlada_Zecevic_unavailable }
+            }
+
+
+            traits = { ideology_C MoS_Turncoat }
+        }
+	# Aleksandar Rankovic
+        YUG_MoS_Aleksandar_Rankovic = {
+            picture = Aleksandar_Rankovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                C_Minister_Allowed = yes
+                NOT = { has_country_flag = Aleksandar_Rankovic_unavailable }
+            }
+
+
+            traits = { ideology_C MoS_Secret_Police_Chief }
+        }
+	# Velimir Popovic
+        YUG_MoS_Velimir_Popovic = {
+            picture = Velimir_Popovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Velimir_Popovic_unavailable }
+            }
+
+
+            traits = { ideology_A MoS_Back_Stabber }
+        }
+	# Zivojin Lazic
+        YUG_MoS_Zivojin_Lazic = {
+            picture = Zivojin_Lazic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Zivojin_Lazic_unavailable }
+            }
+
+
+            traits = { ideology_A MoS_Prince_Of_Terror }
+        }
+	# Dragisa Cvetkovic
+        YUG_MoS_Dragisa_Cvetkovic = {
+            picture = Dragisa_Cvetkovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Dragisa_Cvetkovic_unavailable }
+            }
+
+
+            traits = { ideology_A MoS_Silent_Lawyer }
+        }
+	# Milan Acimovic
+        YUG_MoS_Milan_Acimovic = {
+            picture = Milan_Acimovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Milan_Acimovic_unavailable }
+            }
+
+
+            traits = { ideology_A MoS_Crime_Fighter }
+        }
+}
+#################################################
+### Armaments Minister
+#################################################
+	Armaments_Minister = {
+	# Sreten Zujovic
+        YUG_AM_Sreten_Zujovic = {
+            picture = Sreten_Zujovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                C_Minister_Allowed = yes
+                NOT = { has_country_flag = Sreten_Zujovic_unavailable }
+            }
+
+
+            traits = { ideology_C AM_Infantry_Proponent }
+        }
+	# Juraj Sutej
+        YUG_AM_Juraj_Sutej = {
+            picture = Juraj_Sutej
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                D_Minister_Allowed = yes
+                NOT = { has_country_flag = Juraj_Sutej_unavailable }
+            }
+
+
+            traits = { ideology_D AM_Military_Entrepreneur }
+        }
+	# Milorad Dordevic
+        YUG_AM_Milorad_Dordevic = {
+            picture = Milorad_Dordevic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Milorad_Dordevic_unavailable }
+            }
+
+
+            traits = { ideology_A MoS_Reformer }
+        }
+	# Dusan Letica
+        YUG_AM_Dusan_Letica = {
+            picture = Dusan_Letica
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Dusan_Letica_unavailable }
+            }
+
+
+            traits = { ideology_A AM_Infantry_Proponent }
+        }
+	# Milan Stojadinovic
+        YUG_AM_Milan_Stojadinovic = {
+            picture = Milan_Stojadinovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Milan_Stojadinovic_unavailable }
+            }
+
+
+            traits = { ideology_A AM_Balanced_Budget_Economy }
+        }
+	# Vojin Duricic
+        YUG_AM_Vojin_Duricic = {
+            picture = Vojin_Duricic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Vojin_Duricic_unavailable }
+            }
+
+
+            traits = { ideology_A AM_Corrupt_Kleptocrat }
+        }
+}
+#################################################
+### Head of Intelligence
+#################################################
+	Head_of_Intelligence = {
+		
+}
+#################################################
+### Chief of Staff
+#################################################
+	Chief_of_Staff = {
+	# Arso Jovanovic
+        YUG_CoStaff_Arso_Jovanovic = {
+            picture = Arso_Jovanovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                C_Minister_Allowed = yes
+                NOT = { has_country_flag = Arso_Jovanovic_unavailable }
+            }
+
+
+            traits = { ideology_C CoStaff_School_Of_Mass_Combat }
+        }
+	# Koca Popovic
+        YUG_CoStaff_Koca_Popovic = {
+            picture = Koca_Popovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                C_Minister_Allowed = yes
+                NOT = { has_country_flag = Koca_Popovic_unavailable }
+            }
+
+
+            traits = { ideology_C CoStaff_School_Of_Mass_Combat }
+        }
+	# Milan Molovanovic
+        YUG_CoStaff_Milan_Molovanovic = {
+            picture = Milan_Molovanovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Milan_Molovanovic_unavailable }
+            }
+
+
+            traits = { ideology_A CoArmy_Doctrine_Of_Autonomy }
+        }
+	# Milan Nedic
+        YUG_CoStaff_Milan_Nedic = {
+            picture = Milan_Nedic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Milan_Nedic_unavailable }
+            }
+
+
+            traits = { ideology_A CoArmy_Elastic_Defence_Doctrine }
+        }
+	# Ljubomir Maric
+        YUG_CoStaff_Ljubomir_Maric = {
+            picture = Ljubomir_Maric
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Ljubomir_Maric_unavailable }
+            }
+
+
+            traits = { ideology_A CoArmy_Static_Defence_Doctrine }
+        }
+	# Milutin Nedic
+        YUG_CoStaff_Milutin_Nedic = {
+            picture = Milutin_Nedic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Milutin_Nedic_unavailable }
+            }
+
+
+            traits = { ideology_A CoArmy_Guns_And_Butter_Doctrine }
+        }
+	# Dusan Simovic
+        YUG_CoStaff_Dusan_Simovic = {
+            picture = Dusan_Simovic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Dusan_Simovic_unavailable }
+            }
+
+
+            traits = { ideology_A CoArmy_Static_Defence_Doctrine }
+        }
+	# Petar Kosic
+        YUG_CoStaff_Petar_Kosic = {
+            picture = Petar_Kosic
+            allowed = { tag = YUG }
+            available = { 
+                date > 1933.1.1
+                date < 1964.1.1
+                A_Minister_Allowed = yes
+                NOT = { has_country_flag = Petar_Kosic_unavailable }
+            }
+
+
+            traits = { ideology_A CoArmy_Doctrine_Of_Autonomy }
+        }
+}
+#################################################
+### Chief of Army
+#################################################
+	Chief_of_Army = {
+		
+}
+#################################################
+### Chief of Navy
+#################################################
+	Chief_of_Navy = {
+		
+}
+#################################################
+### Chief of Airforce
+#################################################
+	Chief_of_Airforce = {
+		
+	}
+}

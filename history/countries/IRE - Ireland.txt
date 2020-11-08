@@ -1,0 +1,176 @@
+﻿#########################################################################
+# Ireland - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 113
+	set_research_slots = 3
+	set_convoys = 10
+	oob = "IRE_1933"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1933.1.24"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 3
+		democratic = 93
+		socialist = 4
+		communist = 0
+	}
+	set_cosmetic_tag = IRE_ENG
+	add_ideas = {
+		IRE_HoS_Domhnall_Ua_Buachalla
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Eoin O'Duffy"
+		desc = ""
+		picture = "P_F_Eoin_ODuffy.tga"
+		expire = "1965.1.1"
+		ideology = fascism
+		traits = {
+			POSITION_Leader
+			SUBIDEOLOGY_Fascism
+			HoG_Revolutionary_Leader
+		}
+	}
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Gearóid Ó Cuinneagáin"
+		desc = ""
+		picture = ".tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Authoritarian_Democracy
+			HoS_Autocratic_Charmer
+		}
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Éamon de Valera"
+		desc = ""
+		picture = "P_D_Eamon_de_Valera.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Conservatism
+			HoG_Flamboyant_Tough_Guy
+		}
+	}
+	# Socialism
+	create_country_leader = {
+		name = "James Larkin jr."
+		desc = ""
+		picture = ".tga"
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {
+			POSITION_President
+			SUBIDEOLOGY_Socialism
+			HoG_Political_Protege
+		}
+	}
+	# Communism
+	create_country_leader = {
+		name = "Bill Gannon"
+		desc = ""
+		picture = ".tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = {
+			POSITION_General_Secretary
+			SUBIDEOLOGY_Marxism_Leninism
+			HoG_Revolutionary_Leader
+		}
+	}
+	#######################
+	# Generals
+	#######################
+	create_corps_commander = {
+		name = "Michael Costello"
+		portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+		traits = {
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 2
+	}
+}
+
+#########################################################################
+# Ireland - 1936
+#########################################################################
+1936.1.1 = {
+	oob = "IRE_1936"
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1933.1.24"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 3
+		democratic = 93
+		socialist = 4
+		communist = 0
+	}
+}
+
+#########################################################################
+# Ireland - 1939
+#########################################################################
+1939.9.1 = {
+	drop_cosmetic_tag = yes
+	set_cosmetic_tag = IRE_EIRE
+	#######################
+	# Leaders
+	#######################
+	# Democracy
+	create_country_leader = {
+		name = "Éamon de Valera"
+		desc = ""
+		picture = "P_D_Eamon_de_Valera.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = {
+			POSITION_Prime_Minister
+			SUBIDEOLOGY_Conservatism
+			HoG_Flamboyant_Tough_Guy
+		}
+	}
+}
+
+#########################################################################
+# Ireland - 1950
+#########################################################################
+1950.1.1 = {
+	drop_cosmetic_tag = yes
+	dismantle_faction = yes
+}

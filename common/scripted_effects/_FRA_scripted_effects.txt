@@ -1,0 +1,109 @@
+FRA_add_reform_of_the_state_progress = {
+	add_to_variable = { Reform_Progress = reform_progress_to_add }
+	clamp_variable = {
+		var = Reform_Progress
+		min = 0
+		max = 100
+	}
+	set_variable = { fra_reform_of_the_state_progress = Reform_Progress }
+	divide_variable = { fra_reform_of_the_state_progress = 100 }
+	multiply_variable = { fra_reform_of_the_state_progress = 350 }
+	subtract_from_variable = { fra_reform_of_the_state_progress = 350 }
+	round_variable = fra_reform_of_the_state_progress
+}
+#########################################################################
+#  Pacifism
+#########################################################################
+move_pacifism_level_down_one = {
+	if = {
+		limit = {
+			has_idea = FRA_Pacifism_1
+		}
+		swap_ideas = {
+			
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = FRA_Pacifism_2
+		}
+		swap_ideas = {
+			remove_idea = FRA_Pacifism_2
+			add_idea = FRA_Pacifism_1
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = FRA_Pacifism_3
+		}
+		swap_ideas = {
+			remove_idea = FRA_Pacifism_3
+			add_idea = FRA_Pacifism_2
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = FRA_Pacifism_4
+		}
+		swap_ideas = {
+			remove_idea = FRA_Pacifism_4
+			add_idea = FRA_Pacifism_3
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = FRA_Pacifism_5
+		}
+		swap_ideas = {
+			remove_idea = FRA_Pacifism_5
+			add_idea = FRA_Pacifism_4
+		}
+	}
+}
+
+move_pacifism_level_up_one = {
+	if = {
+		limit = {
+			has_idea = FRA_Pacifism_1
+		}
+		swap_ideas = {
+			remove_idea = FRA_Pacifism_1
+			add_idea = FRA_Pacifism_2
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = FRA_Pacifism_2
+		}
+		swap_ideas = {
+			remove_idea = FRA_Pacifism_2
+			add_idea = FRA_Pacifism_3
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = FRA_Pacifism_3
+		}
+		swap_ideas = {
+			remove_idea = FRA_Pacifism_3
+			add_idea = FRA_Pacifism_4
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = FRA_Pacifism_4
+		}
+		swap_ideas = {
+			remove_idea = FRA_Pacifism_4
+			add_idea = FRA_Pacifism_5
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = FRA_Pacifism_5
+		}
+		swap_ideas = {
+			
+		}
+	}
+}

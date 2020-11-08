@@ -1,0 +1,15 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			random_country = {
+				clear_array = global.state_decisions_array
+				add_to_array = { global.state_decisions_array = 1 }
+				add_to_array = { global.state_decisions_array = 2 }
+				add_to_array = { global.state_decisions_array = 3 }
+				add_to_array = { global.state_decisions_array = 4 }
+				add_to_array = { global.state_decisions_array = 5 }
+				add_to_array = { global.state_decisions_array = 6 }
+			}
+		}
+	}
+}

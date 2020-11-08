@@ -1,0 +1,27 @@
+SS_demands = { 
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+		has_government = fascist
+	}
+}
+SS_recruitment = { 
+	allowed = {
+		original_tag = GER
+	}
+
+	available = {
+		
+	}
+
+	visible = {
+		has_government = fascist
+	}
+}
+wehrmacht_demands = {
+	allowed = {
+		original_tag = GER
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=853
+	name="STATE_853"
+
+	impassable = yes
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = LBA
+		1936.1.1 = {
+			owner = ITA
+		}
+		1942.11.22 = {
+			owner = ITA
+			controller = ENG
+		}
+		1944.6.20 = {
+			owner = ENG
+			controller = ENG
+		}
+		1950.1.1 = {
+			owner = LBA
+			controller = LBA
+		}		
+	}
+
+	provinces={
+		4191
+	}
+	manpower=580
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1472
+	name="STATE_1472"
+	resources={
+		steel=35.000
+		tungsten=16.000
+		aluminium=14.000
+	}
+
+	history={
+		owner = NCR
+		victory_points = {
+			4799 10 
+		}
+		victory_points = {
+			10422 2 
+		}
+		victory_points = {
+			4607 1 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = NCR
+		add_claim_by = USA
+
+	}
+
+	provinces={
+		4521 4607 4736 4799 10422 12134 12425 13621 13622 
+	}
+	manpower=91057
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

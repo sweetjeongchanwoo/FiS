@@ -1,0 +1,45 @@
+
+state={
+	id=43
+	name="STATE_43"
+	resources={
+		steel=3.000
+		aluminium=100.000
+	}
+
+	history={
+		owner = HUN
+		1945.1.1 = {
+			controller = SOV
+			HUN = {
+				set_province_controller = 9660
+			}
+		}
+		1946.1.1 = {
+			owner = HUN
+			controller = HUN
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 3
+			air_base = 4
+
+		}
+		victory_points = {
+			9660 20 
+		}
+		victory_points = {
+			6700 2
+		}
+		add_core_of = HUN
+
+	}
+
+	provinces={
+		684 716 6670 6700 6716 9660 11625 
+	}
+	manpower=3210752
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

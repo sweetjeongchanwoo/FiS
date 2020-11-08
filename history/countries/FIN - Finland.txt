@@ -1,0 +1,193 @@
+﻿########################################
+# Finland - 1936
+########################################
+1933.1.1 = {
+	capital = 111
+	set_research_slots = 3
+	set_convoys = 5	
+	oob = "FIN_1933"
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+		Artillery_1910 = 1
+		Anti_Aircraft_Gun_1935 = 1
+		tech_support = 1
+		tech_recon = 1
+		tech_engineers = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		
+		Heavy_Tank_1917 = 1
+		Light_Tank_1926 = 1
+		#Naval Stuff
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		
+		SS_1895 = 1
+		SS_1912 = 1
+		SS_1916 = 1
+		SS_1922 = 1
+		
+		CA_1885 = 1
+		CA_1895 = 1
+		CA_1906 = 1
+		CA_1922 = 1
+		CA_1933 = 1
+		#Air Force
+		Fighter_1933 = 1
+		Tactical_Bomber_1933 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1933.7.1"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 1
+		authoritarian = 8
+		democratic = 88
+		socialist = 2
+		communist = 1
+	}
+	add_ideas = {
+		FIN_sisu_1
+		FIN_memories_of_mantsala_rebellion_1
+		FIN_lingering_depression_1
+		FIN_ban_on_communism
+		# Cabinet
+		FIN_HoG_Toivo_M_Kivimaki	
+		# Laws & Policies
+		one_year_service
+	}
+	#######################
+	# Leaders
+	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Vihtori Kosola"
+		desc = ""
+		picture = "P_F_Vihtori_Kosola.tga"
+		expire = "1965.1.1"
+		ideology = fascism
+		traits = { POSITION_President SUBIDEOLOGY_Clerical_Fascism HoG_Revolutionary_Leader }
+	}
+	# Authoritarian
+	create_country_leader = {
+		name = "Carl Gustaf Emil Mannerheim"
+		desc = ""
+		picture = "P_A_Carl_Gustaf_Emil_Mannerheim.tga"
+		expire = "1965.1.1"
+		ideology = military_dictatorship
+		traits = { POSITION_President SUBIDEOLOGY_Military_Dictatorship HoS_Popular_Figurehead }
+	}
+	# Democracy
+	create_country_leader = {
+		name = "Pehr E. Svinhufvud"
+		desc = "Pehr_Evind_Svinhufvud_desc"
+		picture = "P_D_Pehr_Svinhufvud.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism HoS_Pig_Headed_Isolationist }
+	}
+	# Socialism
+	create_country_leader = {
+		name = "Arvo Tuominen"
+		desc = ""
+		picture = "P_S_Arvo_Tuominen.tga"
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism HoG_Revolutionary_Leader }
+	}
+	# Communism
+	create_country_leader = {
+		name = "Otto Wille Kuusinen"
+		desc = ""
+		picture = "P_C_Otto_Wille_Kuusinen.tga"
+		expire = "1965.1.1"
+		ideology = marxism_leninism
+		traits = { POSITION_Chairman SUBIDEOLOGY_Marxism_Leninism HoG_Flamboyant_Tough_Guy }
+	}
+	#######################
+	# Generals
+	#######################
+	create_corps_commander = {
+		name = "Erik Heinrichs"
+		picture = "M_Erik_Heinrichs.tga"
+		traits = { winter_specialist ranger }
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 2
+	}
+	
+	create_corps_commander = {
+		name = "Vilho Petter Nenonen"
+		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+		traits = { winter_specialist commando }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 1
+		planning_skill = 4
+		logistics_skill = 2
+	}	
+}
+########################################
+# Finland - 1936
+########################################
+1936.1.1 = {
+	oob = "FIN_1936"
+}
+
+########################################
+# Finland - 1939
+########################################
+1939.9.1 = {
+oob = "FIN_1939"
+}
+########################################
+# Finland - 1940
+########################################
+1940.5.10 = {
+oob = "FIN_1940"
+}
+############################################
+# Finland - 1944
+############################################
+1944.6.20 = {
+	oob = "FIN_1944"
+}
+if = {
+	limit = {
+		has_start_date > 1944.06.19
+		has_start_date < 1944.06.21
+	}
+	declare_war_on = {
+		target = SOV
+		type = annex_everything
+	}
+}
+#########################################################################
+# Finland - 1946
+#########################################################################
+1946.1.1 = {
+}

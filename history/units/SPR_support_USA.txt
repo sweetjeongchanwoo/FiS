@@ -1,0 +1,7 @@
+units = {
+    division = {
+		name = "Abraham Lincoln Brigade"
+		location = 3938  # Madrid
+		division_template = "Brigada Internationale"
+	}
+}

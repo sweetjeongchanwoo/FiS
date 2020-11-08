@@ -1,0 +1,105 @@
+﻿1933.1.1 = {
+capital = 608
+
+oob = "NEA_1933"
+
+# Starting tech
+set_technology = {
+	Small_Arms_1916 = 1
+	mass_assault = 1
+}
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascist = 0
+	authoritarian = 100
+	democratic = 0
+	socialist = 0
+	communist = 0
+}
+add_ideas = {
+	NEA_HoG_Wan_Fulin
+}
+create_country_leader = {
+	name = "Zhang Xueliang"
+	desc = ""
+	picture = "P_A_Zhang_Xueliang.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democracy
+	traits = { POSITION_Commander_in_Chief }
+}
+
+}
+1936.1.1 = {
+	capital = 744
+	oob = "NEA_1936"
+}
+	create_field_marshal = {
+		name = "Zhang Xueliang"
+		picture = "M_Zhang_Xueliang.tga"
+		traits = { }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	
+	create_corps_commander = {
+		name = "Lu Zhengcao"
+		picture = "lu_zhengcao.tga"
+		traits = { }
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 3
+	}
+	
+	create_corps_commander = {
+		name = "Liu Doujun"
+		picture = "liu_doujun.tga"
+		traits = { }
+		skill = 1
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 1
+	}
+	
+	create_corps_commander = {
+		name = "Tang Yulin"
+		picture = "tangyulin.tga"
+		traits = { }
+		skill = 1
+		attack_skill = 1
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	
+	create_corps_commander = {
+		name = "Wan Fulin"
+		picture = "wanfulin.tga"
+		traits = { }
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 2
+	}
+	
+	create_corps_commander = {
+		name = "Wang Yizhe"
+		picture = "wangyizhe.tga"
+		traits = { }
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}

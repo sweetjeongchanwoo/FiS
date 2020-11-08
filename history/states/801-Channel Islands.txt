@@ -1,0 +1,39 @@
+
+state={
+	id=801
+	name="STATE_801"
+
+	history={
+		owner = ENG
+		victory_points = {
+			13210 1
+		}
+		buildings = {
+			infrastructure = 4
+			13210 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = ENG
+		1941.6.22 = {
+			owner = ENG
+			controller = GER
+
+		}
+		1946.1.1 = {
+			owner = ENG
+			controller = ENG
+
+		}
+
+	}
+
+	provinces={
+		13210 13594 
+	}
+	manpower=93061
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

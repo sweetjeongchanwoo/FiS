@@ -1,0 +1,102 @@
+﻿#########################################################################
+# Nicargua - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 317
+	set_convoys = 10
+	oob = "NIC_1936"
+	#######################
+	# Research
+	#######################	
+	set_technology = {
+		Small_Arms_1916 = 1
+		Artillery_1910 = 1
+		Fighter_1933 = 1
+		Tactical_Bomber_1933 = 1
+	}
+	#######################
+	# Politics
+	#######################	
+	set_country_flag = monroe_doctrine
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1934.11.8"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 15
+		democratic = 85
+		socialist = 0
+		communist = 0
+	}
+	#######################
+	# Leaders
+	#######################	
+	# Democracy
+	create_country_leader = {
+		name = "Juan Bautista Sacasa"
+		desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
+		picture = "P_D_Juan_Bautista_Sacasa.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism HoS_Benevolent_Gentleman }
+	}
+}
+#########################################################################
+# Nicargua - 1939
+#########################################################################
+1939.9.1 = {
+	#######################
+	# Politics
+	#######################	
+	set_party_name = {
+		ideology = democratic
+		name = NIC_democratic_party_1939 
+		long_name = NIC_democratic_party_1939_long 
+	}
+	set_party_name = {
+		ideology = authoritarian
+		name = NIC_democratic_party_1939 
+		long_name = NIC_democratic_party_1939_long 
+	}
+	#######################
+	# Leaders
+	#######################	
+	# Democracy
+	create_country_leader = {
+		name = "Anastacio G. Somoza"
+		desc = ""
+		picture = "P_D_Anastasio_Somoza_Garcia.tga"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = { POSITION_President SUBIDEOLOGY_Conservatism HoS_Resigned_Generalissimo }
+	}
+}
+#########################################################################
+# Honduras - 1950
+#########################################################################
+1950.1.1 = {
+	#######################
+	# Politics
+	#######################		
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1934.11.8"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	#######################
+	# Leaders
+	#######################	
+	# Authoritarian
+	create_country_leader = {
+		name = "Anastacio G. Somoza"
+		desc = ""
+		picture = "P_D_Anastasio_Somoza_Garcia.tga"
+		expire = "1965.1.1"
+		ideology = military_dictatorship
+		traits = { POSITION_President SUBIDEOLOGY_Military_Dictatorship HoS_Resigned_Generalissimo }
+	}
+}

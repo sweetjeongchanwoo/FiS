@@ -1,0 +1,405 @@
+#	Example:
+#
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		exampel_trigger = yes
+#	}
+#
+#	THIS FILE IS FOR TRIGGERS SPECIFICALLY FOR THE GER TAG
+
+
+independent_war_china_or_china_died = {
+	#has_completed_focus =JAP_intervene_in_china
+	is_puppet = no
+	OR = {
+		has_war_with = event_target:WTT_current_china_leader
+		NOT = {
+			country_exists = event_target:WTT_current_china_leader
+		}
+	}
+}
+
+is_rrc = {
+	AND = {
+		OR = {
+			tag = HPC
+		}
+		has_country_flag = im_rrc_now
+	}
+}
+
+is_owned_by_CHI_PRC_WARLORD_SIK = {
+	OR = {
+		is_owned_by = CHI
+		is_owned_by = PRC
+		is_owned_by = SHX
+		is_owned_by = HCP
+		is_owned_by = SIK
+		is_owned_by = XSM
+		is_owned_by = XIK
+		is_owned_by = SIC
+		is_owned_by = GND
+		is_owned_by = GXC
+		is_owned_by = NEA
+		is_owned_by = TNG
+		is_owned_by = NXM
+		is_owned_by = SHD
+	}
+}
+
+JAP_or_its_puppet_has_full_control_over_prev_states = {
+	OR = {
+		JAP = {
+			has_full_control_of_state = PREV
+		}
+		controller = {
+			is_subject_of = JAP
+			has_full_control_of_state = PREV
+		}
+	}
+}
+
+is_capital_of_japan_puppet = {
+	is_capital = yes
+	owner = {
+		is_subject_of = JAP
+	}
+}
+is_controlled_by_jap_or_its_puppet = {
+	custom_trigger_tooltip = {
+		tooltip = is_controlled_by_jap_or_its_puppet_tt
+		controller = {
+			OR = {
+				is_puppet_of = JAP
+				TAG = JAP
+			}
+		}
+	}
+}
+is_not_controlled_by_jap_or_its_puppet = {
+	custom_trigger_tooltip = {
+		tooltip = is_NOT_controlled_by_jap_or_its_puppet_tt
+		controller = {
+			NOT = {
+				OR = {
+					is_puppet_of = JAP
+					TAG = JAP
+				}
+			}
+		}
+	}
+}
+is_owned_by_jap_or_its_puppet = {
+	custom_trigger_tooltip = {
+		tooltip = is_owned_by_jap_or_its_puppet_tt
+		owner = {
+			OR = {
+				is_puppet_of = JAP
+				TAG = JAP
+			}
+		}
+	}
+}
+is_manchuria_state = {
+	OR = {
+		state = 714
+		state = 715
+		state = 716
+		state = 717
+		state = 610
+		state = 328
+		state = 834
+		state = 835
+		state = 836
+		state = 837
+		state = 838
+		state = 839
+		state = 840
+		state = 841
+	}
+}
+is_manchuria_state_count_triggers = {
+	custom_trigger_tooltip = {
+		tooltip = is_manchuria_state_count_triggers_tt
+		count_triggers = {
+			amount = 3
+			714 = { is_controlled_by_jap_or_its_puppet = yes }
+			715 = { is_controlled_by_jap_or_its_puppet = yes }
+			716 = { is_controlled_by_jap_or_its_puppet = yes }
+			717 = { is_controlled_by_jap_or_its_puppet = yes }
+			610 = { is_controlled_by_jap_or_its_puppet = yes }
+			328 = { is_controlled_by_jap_or_its_puppet = yes }
+			834 = { is_controlled_by_jap_or_its_puppet = yes }
+			835 = { is_controlled_by_jap_or_its_puppet = yes }
+			836 = { is_controlled_by_jap_or_its_puppet = yes }
+			837 = { is_controlled_by_jap_or_its_puppet = yes }
+			838 = { is_controlled_by_jap_or_its_puppet = yes }
+			839 = { is_controlled_by_jap_or_its_puppet = yes }
+			840 = { is_controlled_by_jap_or_its_puppet = yes }
+			841 = { is_controlled_by_jap_or_its_puppet = yes }
+		}
+	}
+
+}
+
+#HOW MANY MAJORS LIKE YOU
+at_least_one_major_like_us = {
+	custom_trigger_tooltip = {
+		tooltip = at_least_one_major_like_us_tt
+		count_triggers = {
+			amount = 1
+			GER = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			USA = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			ENG = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			ITA = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			FRA = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			SOV = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			JAP = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+		}
+	}
+}
+
+at_least_two_major_like_us = {
+	custom_trigger_tooltip = {
+		tooltip = at_least_two_major_like_us_tt
+		count_triggers = {
+			amount = 2
+			GER = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			USA = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			ENG = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			ITA = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			FRA = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			SOV = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			JAP = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+		}
+	}
+}
+
+at_least_three_major_like_us = {
+	custom_trigger_tooltip = {
+		tooltip = at_least_three_major_like_us_tt
+		count_triggers = {
+			amount = 3
+			GER = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			USA = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			ENG = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			ITA = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			FRA = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			SOV = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			JAP = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+		}
+	}
+}
+
+at_least_four_major_like_us = {
+	custom_trigger_tooltip = {
+		tooltip = at_least_four_major_like_us_tt
+		count_triggers = {
+			amount = 4
+			GER = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			USA = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			ENG = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			ITA = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			FRA = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			SOV = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			JAP = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+		}
+	}
+}
+at_least_five_major_like_us = {
+	custom_trigger_tooltip = {
+		tooltip = at_least_five_major_like_us_tt
+		count_triggers = {
+			amount = 5
+			GER = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			USA = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			ENG = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			ITA = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			FRA = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			SOV = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+			JAP = {
+				has_opinion = {
+					target = ROOT
+					value > 59
+				}
+			}
+		}
+	}
+}

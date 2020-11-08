@@ -1,0 +1,26 @@
+state={
+	id=1095
+	name="STATE_1095"
+	
+	history={
+		owner = BUL
+		victory_points = {
+			6857 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = BUL
+		1950.1.1 = {
+			set_province_name = { id = 6857 name = Blagoevgrad }
+		}
+
+	}
+	
+	provinces={
+		6857 9818 
+	}
+	manpower=81978
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

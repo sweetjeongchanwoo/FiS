@@ -1,0 +1,32 @@
+state={
+	id=1339
+	name="STATE_1339"
+
+	history={
+		owner = TIB
+		victory_points = {
+			5033 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = TIB
+		add_core_of = CHI
+		add_core_of = PRC
+		1953.3.7 = {
+			owner = PRC
+
+		}
+
+	}
+
+	provinces={
+		2098 5033 14330 
+	}
+	manpower=902500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

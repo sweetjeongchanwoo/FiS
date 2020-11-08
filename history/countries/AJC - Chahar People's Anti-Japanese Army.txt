@@ -1,0 +1,56 @@
+﻿#########################################################################
+# Northeastern Anti-Japanese United Army
+#########################################################################
+1933.1.1 = {
+	capital = 919
+	set_stability = 0.6
+	set_war_support = 0.6
+	oob = "AJC_1936"
+	set_convoys = 5
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		mass_assault = 1
+		#
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 100
+		democratic = 0
+		socialist = 0
+		communist = 0
+	}
+	#######################
+	# Leaders
+	#######################
+	# Paternal Autocracy
+	create_country_leader = {
+		name = "Anti-Japanese Allied Army"
+		desc = "Anti_Japanese_Allied_Army_desc"
+		picture = "Anti_Japanese_Allied_Army.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = {}
+	}
+	# Communism
+	create_country_leader = {
+		name = "Yang Jingyu"
+		desc = "Jingyu_desc"
+		picture = "P_A_Yang_Chingyu.tga"
+		expire = "1965.1.1"
+		ideology = maoism
+		traits = { POSITION_Commander SUBIDEOLOGY_Maoism hero_of_the_resistance }
+	}
+
+}

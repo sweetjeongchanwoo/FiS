@@ -1,0 +1,39 @@
+﻿capital = 329
+
+oob = "TAN_1936"
+
+# Starting tech
+set_technology = {
+	Small_Arms_1916 = 1
+}
+
+add_ideas = {
+	TAN_HoG_Joseph_Stalin
+	one_year_service
+}
+
+set_politics = {
+	ruling_party = communist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascist = 0
+	authoritarian = 4
+	democratic = 11
+	socialist = 25
+	communist = 60
+}
+####################################################
+# Tannu Tuva Leaders
+####################################################
+# Marxism-Leninism
+create_country_leader = {
+	name = "Salchak Toka"
+	desc = ""
+	picture = "P_C_Salchak_Toka.tga"
+	expire = "1965.1.1"
+	ideology = marxism_leninism
+	traits = {}
+}

@@ -1,0 +1,66 @@
+﻿capital = 1009 #Kuala Lumpur
+
+oob = "MAL_1936"
+
+set_research_slots = 3
+
+# Starting tech
+# clone of UK
+set_technology = {
+	Small_Arms_1916 = 1
+	Small_Arms_1935 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	truck_1936 = 1
+	Artillery_1910 = 1
+	Anti_Aircraft_Gun_1935 = 1
+
+	Fighter_1933 = 1
+	cv_Fighter_1933 = 1
+	Torpedo_bomber_1936 = 1
+	Naval_Bomber_1936 = 1
+	Tactical_Bomber_1933 = 1
+	CAS_1936 = 1
+
+	Trench_Warfare = 1
+
+	transport = 1
+	fleet_in_being = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+}
+set_convoys = 25
+
+if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_to_tech_sharing_group = commonwealth_research
+}
+set_cosmetic_tag = MAL_ENG # British Malaya
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascist = 0
+	authoritarian = 10
+	democratic = 88
+	socialist = 0
+	communist = 2
+}
+create_country_leader = {
+	name = "Shenton Thomas"
+	desc = ""
+	picture = "P_C_Shenton_Thomas.tga"
+	expire = "1953.3.1"
+	ideology = social_conservatism
+	traits = {
+		
+	}
+}
+

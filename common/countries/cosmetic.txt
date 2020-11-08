@@ -1,0 +1,445 @@
+CRO_Ustashe = {
+	color = rgb { 119 85 101 }
+	color_ui = rgb { 119 85 101 }
+}
+UAE_ENG = {
+	color = rgb { 170 10 53 }
+	color_ui = rgb { 200 10 10 }
+}
+DDR_KPD_GCW = {
+	color = rgb { 145 35 35 }
+	color_ui = rgb { 187 19 62 }
+}
+FRG_GCW = {
+	color = rgb { 33 71 138 }
+	color_ui = rgb { 187 19 62 }
+}
+GER_NSDAP_GCW = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
+CSA_USA_LONG = {
+	color = rgb { 29 55 133 }
+	color_ui = rgb { 187 19 62 }
+}
+USA_ASR = {
+	color = rgb { 187 19 62 }
+	color_ui = rgb { 187 19 62 }
+}
+USA_GER_Military = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
+CSA_GER_Military = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
+CAL_GER_Military = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
+MTN_GER_Military = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
+CAN_GER_Military = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
+ENG_GEORGE = {
+	color = rgb { 20 20 117 }
+	color_ui = rgb { 20 20 117 }
+}
+OMA_ENG = {
+	color = rgb { 190 0 10 }
+	color_ui = rgb { 190 0 10 }
+}
+AJC_NAJ = {
+	color = rgb { 201 64 64 }
+	color_ui = rgb { 178 34 34 }
+}
+SOV_RUSFED = {
+	color = rgb { 17 60 150 }
+	color_ui = rgb { 67 127 63 } 
+}
+ITA_FASCISM = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 67 127 63 } 
+}
+JAP_OCCUPIED = {
+	color = rgb { 230 230 230 }
+	color_ui = rgb { 230 230 230 }
+}
+
+CHI_RIGHT_CCW = {
+	color = rgb { 240 157 41 }
+	# color = rgb { 255 173 30 }
+	color_ui = rgb { 18 99 176 }
+}
+GXC_LIANGGUANG = {
+	color = rgb { 77 178 108 }
+	color_ui = rgb { 0 158 96 }
+}
+RNG_LEFT_CCW = {
+	color = rgb { 247 206 91 }
+	# color = rgb { 209 205 119 }
+	# color = rgb { 245 116 29 }
+	color_ui = rgb { 124  152  111 }
+}
+RNG_JAP = {
+    color = rgb { 245 116 29 }
+    color_ui = rgb { 229 181 151 }
+}
+MEN_JAP = {
+    color = rgb { 229 181 151 }
+    color_ui = rgb { 229 181 151 }
+}
+EHB_JAP_NCAC = {
+    color = rgb { 229 181 151 }
+    color_ui = rgb { 229 181 151 }
+}
+SER_GER = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
+DEN_GER = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
+SAF_YELLOW = {
+	color = rgb { 213 138 58 }
+	color_ui = rgb { 245 123 38 }
+}
+SAF_BLUE = {
+	color = rgb { 49 97 160 }
+	color_ui = rgb { 245 123 38 }
+}
+
+PRC_JFS = {
+	color = rgb { 255 10 10 }
+	color_ui = rgb { 245 123 38 }
+}
+
+MAN_REP = {
+	color = rgb { 239 145 99 }
+	color_ui = rgb { 239 145 99 }
+}
+MAN_EMPIRE = {
+	color = rgb { 237 152 18 }
+	color_ui = rgb { 224 139 5 }
+}
+
+MAL_ENG = {
+	color = rgb { 190 0 10 }
+	color_ui = rgb { 190 0 10 }
+}
+
+INS_HOL = {
+    color = rgb { 203 138 74 }
+    color_ui = rgb { 255 179 96 }
+}
+
+RAJ_INDIA = {
+    color = rgb { 252 136 27 }
+    color_ui = rgb { 242 152 55 }
+}
+
+HUN_EMPIRE = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+
+AUS_NOT_WHITE = {	
+	color = rgb { 249 126 98 }
+	color_ui = rgb { 255 164 127 }
+}
+
+NOR_NS = {
+	color = rgb { 204 146 0 }
+	color_ui = rgb { 0 102 204 }
+}
+
+SCA_UNIFIED = {
+	color = rgb { 0 102 204 }
+	color_ui = rgb { 0 102 204 }
+}
+
+NDC_UNIFIED = {
+	color = rgb { 0 76 153 }
+	color_ui = rgb { 0 76 153 }
+}
+
+GCO_UNIFIED = {
+	color = rgb { 255 255 51 }
+	color_ui = rgb { 255 255 51 }
+}
+
+PLC_UNIFIED = {
+	color = rgb { 255 125 160 }
+	color_ui = rgb { 255 125 160 }
+}
+
+UNL_UNIFIED = {
+	color = rgb { 255 128 0 }
+	color_ui = rgb { 255 128 0 }
+}
+
+USC_UNIFIED = {
+	color = rgb { 103 204 255 }
+	color_ui = rgb { 103 204 255 }
+}
+
+BAL_UNIFIED = {
+	color = rgb { 0 102 102 }
+	color_ui = rgb { 0 102 102 }
+}
+
+OTT_UNIFIED = {
+	color = rgb { 158 11 43 }
+	color_ui = rgb { 158 11 43 }
+}
+
+EUR_UNIFIED = {
+	color = rgb { 0 51 153 }
+	color_ui = rgb { 0 51 153 }
+}
+
+MUT_UNIFIED = {
+	color = rgb { 153 153 0 }
+	color_ui = rgb { 153 153 0 }
+}
+
+SPQR_UNIFIED = {
+	color = rgb { 153 0 0 }
+	color_ui = rgb { 153 0 0 }
+}
+
+PER_UNIFIED = {
+	color = rgb { 255 215 0 }
+	color_ui = rgb { 255 215 0 }
+}
+
+BYZ_UNIFIED = {
+	color = rgb { 143 12 125 }
+	color_ui = rgb { 143 12 125 }
+}
+
+ARA_UNIFIED = {
+	color = rgb { 85 102 0 }
+	color_ui = rgb { 85 102 0 }
+}
+
+MAJ_UNIFIED = {
+	color = rgb { 255 51 51 }
+	color_ui = rgb { 255 51 51 }
+}
+
+RAT_UNIFIED = {
+	color = rgb { 255 255 51 }
+	color_ui = rgb { 255 255 51 }
+}
+
+HRE_UNIFIED = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 128 128 128 }
+}
+
+NOR_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+HOL_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+BEL_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+BLR_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+UKR_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+SPR_civil_war = {
+	color = rgb { 200 100 31 }
+	color_ui = rgb { 245 123 38 }
+}
+
+GER_civil_war = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
+
+GER_german_empire = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 115 115 115 }
+}
+
+GER_german_monarchy = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 115 115 115 }
+}
+
+CHI_warlord_leader = {
+	color = hsv { 0.18 0.6 0.9 } #255 244 190
+	color_ui = hsv { 0.18 0.3 0.9 }
+}
+
+JAP_showa_restoration = {
+	color = rgb { 230 230 230 }
+	color_ui = rgb { 230 230 230 }
+}
+
+GER_greater_german_reich = {
+	color = rgb { 54 54 54 }
+	color_ui = rgb { 115 115 115 }
+}
+
+CHI_warlord_PRC = {
+	color = rgb { 245 12 55 }
+	color_ui = rgb { 178 34 60 }
+}
+
+CHI_power_struggle_defeated = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 198 169 248 }
+}
+#### DH Cosmetic Tags
+SOV_LENINGRAD = {
+    color = rgb { 230 0 0 }
+    color_ui = rgb { 230 0 0 }
+}
+GER_OKH_GCW = {
+	color = rgb { 134 122 108 }
+	color_ui = rgb { 115 115 115 }
+}
+GER_WEIMAR = {
+	color = rgb { 134 122 108 }
+	color_ui = rgb { 134 122 108 }
+}
+GER_IMPERIAL_FLAG = {
+	color = rgb { 134 122 108 }
+	color_ui = rgb { 134 122 108 }
+}
+GER_SA = {
+	color = rgb { 107 77 39 }
+	color_ui = rgb { 107 77 39 }
+}
+GER_STRASSER = {
+	color = rgb { 105 25 25 }
+	color_ui = rgb { 38 7 7 }
+}
+AUS_GER = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
+MEN_AUTFED = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 171 190 152 }
+}
+MEN_MILITARY = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 171 190 152 }
+}
+
+MEN_ASSEMBLY = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 171 190 152 }
+}
+
+MEN_mengkukuo = {
+	color = rgb { 239 187 99 }
+	color_ui = rgb { 239 187 99 }
+}
+
+RNG_provisional = {
+	color = rgb { 70  130  180 }
+	color_ui = rgb { 90  150  200 }
+}
+
+RNG_EAH = {
+	color = rgb { 158  189  247 }
+	color_ui = rgb { 158  189  247 }
+}
+
+VIN_FRA = {
+	color = rgb { 6 75 189 }
+	color_ui = rgb { 6 75 189 }
+}
+FRA_COMMUNE = {
+	color = rgb { 60 100 200 }
+	color_ui = rgb { 0 40 190 }
+}
+MEN_EMPIRE = {
+	color = rgb { 71  170  212 }
+	color_ui = rgb { 71  170  212 }
+}
+
+GER_GREATER_KAISERREICH = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 115 115 115 }
+}
+
+PER_PERSIA = {
+	color = rgb { 71  113  97 }
+	color_ui = rgb { 92 147 126 }
+}
+
+SSG = {
+	color = rgb { 110 110 110 }
+	color_ui = rgb { 185 170 167 }
+}
+
+HAT_STATE = {
+	color = rgb { 227 26 26 }
+	color_ui = rgb { 227 26 26 }
+}
+
+#### Soviet SSRs
+UKR_SOV = {
+	color = rgb { 181 25 25 }
+	color_ui = rgb { 181 25 25 }
+}
+
+BLR_SOV_SSR = {
+	color = rgb { 181 25 25 }
+	color_ui = rgb { 181 25 25 }
+}
+EST_SOV_SSR = {
+	color = rgb { 181 25 25 }
+	color_ui = rgb { 181 25 25 }
+}
+LIT_SOV_SSR = {
+	color = rgb { 181 25 25 }
+	color_ui = rgb { 181 25 25 }
+}
+LAT_SOV_SSR = {
+	color = rgb { 181 25 25 }
+	color_ui = rgb { 181 25 25 }
+}
+POL_SOV_SSR = {
+	color = rgb { 181 25 25 }
+	color_ui = rgb { 181 25 25 }
+}
+CZE_SOV_SSR = {
+	color = rgb { 181 25 25 }
+	color_ui = rgb { 181 25 25 }
+}
+BUL_Monarchy = {
+	color = rgb { 6 128 132 }
+	color_ui = rgb { 94 164 130 }
+}
+BUL_Default = {
+	color = rgb { 0 155 117 }
+	# color = rgb { 51 155 0 }
+	color_ui = rgb { 210 147 217 }
+}

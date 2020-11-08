@@ -1,0 +1,48 @@
+﻿################################
+# Liberia - 1933
+################################
+1933.1.1 = {
+	oob = "LIB_1933"
+}
+################################
+# Liberia - 1936
+################################
+1936.1.1 = {
+	oob = "LIB_1936"
+}
+capital = 298
+set_convoys = 10
+# Starting tech
+set_technology = {
+	Small_Arms_1916 = 1
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+set_popularities = {
+	fascist = 0
+	authoritarian = 20
+	democratic = 75
+	socialist = 5
+	communist = 0
+}
+add_ideas = {
+	# Vice President
+	    LIB_HoG_James_Skivring
+	}
+####################################################
+# Liberian Leaders
+####################################################
+# Conservatism
+create_country_leader = {
+	name = "Edwin J. Barclay"
+	desc = ""
+	picture = "Liberia_C_Edwin_Barclay.tga"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
+}

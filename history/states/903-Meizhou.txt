@@ -1,0 +1,46 @@
+
+state={
+	id=903
+	name="STATE_903"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = PRC
+		victory_points = {
+			7141 2 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = CHI
+		add_core_of = GND
+		add_core_of = PRC
+		1936.1.1 = {
+			owner = GND
+
+		}
+		1937.1.1 = {
+			owner = CHI
+
+		}
+		1946.1.1 = {
+			owner = CHI
+
+		}
+		1950.1.1 = {
+			owner = PRC
+
+		}
+
+	}
+
+	provinces={
+		1078 7141 
+	}
+	manpower=684600
+	buildings_max_level_factor=1.000
+	state_category=town
+}

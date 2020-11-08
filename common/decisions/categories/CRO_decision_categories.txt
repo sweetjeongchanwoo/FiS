@@ -1,0 +1,31 @@
+CRO_Yugoslavian_Instability  =  {
+		Icon  =  generic_propaganda
+		
+		Visible  =  {
+		
+		}
+}
+
+CRO_Italian_War = {
+		Icon = generic_propaganda
+		
+		Visible = {
+		
+		}
+}
+
+CRO_The_Gothic_Theory = {
+		Icon = generic_propaganda
+		
+		Visible = {
+		
+		}
+}
+
+CRO_Integrate_Occupied_Territories = {
+		Icon = generic_propaganda
+		
+		Visible = {
+		
+		}
+}

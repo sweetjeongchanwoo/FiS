@@ -1,0 +1,77 @@
+﻿capital = 8
+
+oob = "LUX_1936"
+
+# Starting tech
+set_technology = {
+	Small_Arms_1916 = 1
+	Small_Arms_1935 = 1
+	Artillery_1910 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	Fighter_1933 = 1
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1934.6.3"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	fascist = 0
+	authoritarian = 8
+	democratic = 90
+	socialist = 2
+	communist = 0
+}
+
+add_ideas = {
+	# Cabinet
+	LUX_HoG_Charlotte
+}
+##########################
+# Luxemburg - 1944
+##########################
+1944.6.20 = {
+	oob = "LUX_1944"
+}
+####################################################
+# Luxemburg Leaders
+####################################################
+# Fascism
+create_country_leader = {
+	name = "Damian Kratzenberg"
+	desc = ""
+	picture = "P_F_Damian_Kratzenberg.tga"
+	expire = "1965.1.1"
+	ideology = national_socialism
+	traits = {}
+}
+# Authoritarian
+create_country_leader = {
+	name = "Charlotte"
+	desc = ""
+	picture = "P_A_Charlotte.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democracy
+	traits = {}
+}
+# Democracy
+create_country_leader = {
+	name = "Joseph Bech"
+	desc = "POLITICS_JOSEPH_BECH_DESC"
+	picture = "P_D_Joseph_Bech.tga"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
+}
+# Communism
+create_country_leader = {
+	name = "Charles Marx"
+	desc = ""
+	picture = "P_C_Charles_Marx.tga"
+	expire = "1965.1.1"
+	ideology = marxism_leninism
+	traits = {}
+}

@@ -1,0 +1,253 @@
+﻿l_english: 
+#########################################################################
+# Manchuckuo Events
+#########################################################################
+
+#########################################################################
+# Manchuckuo Focuses
+#########################################################################
+ MAN_Secure_Manchuria:0 "Secure Manchuria"
+ MAN_Secure_Manchuria_desc:0 ""
+
+ MAN_Further_Economic_Development:0 "Further Economic Development"
+ MAN_Further_Economic_Development_desc:0 ""
+
+ MAN_Manchurian_Independence_Movement:0 "Manchurian Independence Movement"
+ MAN_Manchurian_Independence_Movement_desc:0 ""
+
+ MAN_Manchukuo_Imperial_Army:0 "Manchukuo Imperial Army"
+ MAN_Manchukuo_Imperial_Army_desc:0 ""
+
+ MAN_Manchukuo_Imperial_Airforce:0 "Manchukuo Imperial Airforce"
+ MAN_Manchukuo_Imperial_Airforce_desc:0 ""
+
+ MAN_Japanese_Political_Guidance:0 "Japanese Political Guidance"
+ MAN_Japanese_Political_Guidance_desc:0 ""
+
+ MAN_Pacify_Rebels:0 "Pacify Rebels"
+ MAN_Pacify_Rebels_desc:0 ""
+
+ MAN_Legitimize_our_Rule:0 "Legitimize our Rule"
+ MAN_Legitimize_our_Rule_desc:0 ""
+
+ MAN_Power_to_the_Kwantung_Army:0 "Power to the Kwantung Army" 
+ MAN_Power_to_the_Kwantung_Army_desc:0 ""
+
+ MAN_An_Official_Army:0 "An Official Army"
+ MAN_An_Official_Army_desc:0 ""
+
+ MAN_Five_Races_Under_One_Union:0 "Five Races Under One Union"
+ MAN_Five_Races_Under_One_Union_desc:0 ""
+
+ MAN_Equal_Opportunities_for_Minorities:0 "Equal Opportunities for Minorities"
+ MAN_Equal_Opportunities_for_Minorities_desc:0 ""
+
+ MAN_Japanese_Leftists_in_Government:0 "Japanese Leftists in Government"
+ MAN_Japanese_Leftists_in_Government_desc:0 ""
+
+ MAN_Manchurian_Economy:0 "Manchurian Economy"
+ MAN_Manchurian_Economy_desc:0 ""
+
+ MAN_Appoint_Nobusuke_Kishi:0 "Appoint Nobusuke Kishi"
+ MAN_Appoint_Nobusuke_Kishi_desc:0 ""
+
+ MAN_The_Five_Year_Plan:0 "The Five Year Plan"
+ MAN_The_Five_Year_Plan_desc:0 ""
+
+ MAN_Marshal_Private_Capital:0 "Marshal Private Capital"
+ MAN_Marshal_Private_Capital_desc:0 ""
+
+ MAN_Expand_Resource_Prospects:0 "Expand Resource Prospects"
+ MAN_Expand_Resource_Prospects_desc:0 ""
+
+ MAN_Kwantung_Economic_Dominance:0 "Kwantung Economic Dominance" 
+ MAN_Kwantung_Economic_Dominance_desc:0 ""
+
+ MAN_National_Defense_State:0 "National Defense State"
+ MAN_National_Defense_State_desc:0 ""
+
+ MAN_State_Intervention:0 "State Intervention"
+ MAN_State_Intervention_desc:0 ""
+
+ MAN_State_Directed_Economy:0 "State Directed Economy"
+ MAN_State_Directed_Economy_desc:0 ""
+
+ MAN_Collective_Farming:0 "Collective Farming"
+ MAN_Collective_Farming_desc:0 ""
+
+ MAN_Industrial_Capabilities:0 "Industrial Capabilities"
+ MAN_Industrial_Capabilities_desc:0 ""
+
+ MAN_Exploitation_of_Labour:0 "Exploitation of Labour" 
+ MAN_Exploitation_of_Labour_desc:0 ""
+
+ MAN_Build_Ships:0 "Build Ships"
+ MAN_Build_Ships_desc:0 ""
+
+ MAN_Modern_Dockyards:0 "Modern Dockyards"
+ MAN_Modern_Dockyards_desc:0 ""
+
+ MAN_Japanese_Aid:0 "Japanese Aid"
+ MAN_Japanese_Aid_desc:0 ""
+
+ MAN_Japanese_Military_Advisors:0 "Japanese Military Advisors"
+ MAN_Japanese_Military_Advisors_desc:0 ""
+
+ MAN_Formal_Doctrine:0 "Formal Doctrine"
+ MAN_Formal_Doctrine_desc:0 ""
+
+ MAN_Officer_Training:0 "Officer Training"
+ MAN_Officer_Training_desc:0 ""
+
+ MAN_Military_Cooperation:0 "Military Cooperation"
+ MAN_Military_Cooperation_desc:0 ""
+
+ MAN_Soviet_Aid:0 "Soviet Aid"
+ MAN_Soviet_Aid_desc:0 ""
+
+ MAN_Education_for_the_Masses:0 "Education for the Masses"
+ MAN_Education_for_the_Masses_desc:0 ""
+
+ MAN_Work_with_Chinese_Rebels:0 "Work with Chinese Rebels"
+ MAN_Work_with_Chinese_Rebels_desc:0 ""
+
+ MAN_Strenghten_Discipline:0 "Strenghten Discipline"
+ MAN_Strenghten_Discipline_desc:0 ""
+
+ MAN_Organize_Militias:0 "Organize Militias"
+ MAN_Organize_Militias_desc:0 ""
+
+ MAN_Peasent_Army:0 "Peasent Army"
+ MAN_Peasent_Army_desc:0 "
+
+ MAN_White_Russian_Expertise:0 "White Russian Expertise"
+ MAN_White_Russian_Expertise_desc:0 ""
+
+ MAN_Recruit_White_Russian_Officers:0 "Recruit White Russian Officers"
+ MAN_Recruit_White_Russian_Officers_desc:0 ""
+
+ MAN_Reorganize_Army_Command:0 "Reorganize Army Command"
+ MAN_Reorganize_Army_Command_desc:0 ""
+
+ MAN_New_Equipment_Designs:0 "New Equipment Designs"
+ MAN_New_Equipment_Designs_desc:0 ""
+
+ MAN_Grand_Battlplans:0 "Grand Battlplans"
+ MAN_Grand_Battlplans_desc:0 ""
+
+ MAN_Japanese_Pilots:0 "Japanese Pilots"
+ MAN_Japanese_Pilots_desc:0 ""
+
+ MAN_Manchukuo_Air_Defense_HQ:0 "Manchukuo Air Defense HQ"
+ MAN_Manchukuo_Air_Defense_HQ_desc:0 ""
+
+ MAN_Expand_the_Arsenal:0 "Expand the Arsenal"
+ MAN_Expand_the_Arsenal_desc:0 ""
+
+ MAN_Manchukuoan_Pilots:0 "Manchukuoan Pilots"
+ MAN_Manchukuoan_Pilots_desc:0 ""
+
+ MAN_New_Fighter_Squadrons:0 "New Fighter Squadrons"
+ MAN_New_Fighter_Squadrons_desc:0 ""
+
+ MAN_Mukden_Flight_School:0 "Mukden Flight School"
+ MAN_Mukden_Flight_School_desc:0 ""
+
+ MAN_High_Altitude_Interceptors:0 "High Altitude Interceptors"
+ MAN_High_Altitude_Interceptors_desc:0 ""
+
+ MAN_Promote_Manchurian_Identity:0 "Promote Manchurian Identity"
+ MAN_Promote_Manchurian_Identity_desc:0 ""
+
+ MAN_Human_Experimentation:0 "Human Experimentation"
+ MAN_Human_Experimentation_desc:0 ""
+
+ MAN_Replace_the_Chinese_Identity:0 "Replace the Chinese Identity"
+ MAN_Replace_the_Chinese_Identity_desc:0 ""
+
+ MAN_Encourage_Immigration:0 "Encourage Immigration"
+ MAN_Encourage_Immigration_desc:0 ""
+
+ MAN_Learn_from_the_Japanese:0 "Learn from the Japanese"
+ MAN_Learn_from_the_Japanese_desc:0 ""
+
+ MAN_Manchurian_Culture:0 "Manchurian Culture"
+ MAN_Manchurian_Culture_desc:0 ""
+
+ MAN_Manchurian_Education:0 "Manchurian Education"
+ MAN_Manchurian_Education_desc:0 ""
+
+ MAN_Limit_the_Consumer_Economy:0 "Limit the Consumer Economy"
+ MAN_Limit_the_Consumer_Economy_desc:0 ""
+
+ MAN_Expand_Military_Industry:0 "Expand Military Industry"
+ MAN_Expand_Military_Industry_desc:0 ""
+
+ MAN_Market_Opportunities:0 "Market Opportunities"
+ MAN_Market_Opportunities_desc:0 ""
+
+ MAN_Open_the_Shenyang_Arsenal:0 "Open the Shenyang Arsenal"
+ MAN_Open_the_Shenyang_Arsenal_desc:0 ""
+
+ MAN_New_Economic_Plans:0 "New Economic Plans"
+ MAN_New_Economic_Plans_desc:0 ""
+
+ MAN_Talented_Labourers:0 "Talented_Labourers"
+ MAN_Talented_Labourers_desc:0 ""
+
+ MAN_Petroleum_Exploration:0 "Petroleum Exploration"
+ MAN_Petroleum_Exploration_desc:0 ""
+
+ MAN_Manchurian_Japanese_Treaty:0 "Manchurian Japanese Treaty"
+ MAN_Manchurian_Japanese_Treaty_desc:0 ""
+
+ MAN_War_of_Independence:0 "War of Independence"
+ MAN_War_of_Independence_desc:0 ""
+
+ MAN_Japanese_Economic_Cooperation:0 "Japanese Economic Cooperation"
+ MAN_Japanese_Economic_Cooperation_desc:0 ""
+
+ MAN_Redistribute_Japanese_Assets:0 "Redistribute Japanese Assets"
+ MAN_Redistribute_Japanese_Assets_desc:0 ""
+
+ MAN_Reorganize_the_Government:0 "Reorganize the Government"
+ MAN_Reorganize_the_Government_desc:0 ""
+
+ MAN_Centralism:0 "Centralism"
+ MAN_Centralism_desc:0 ""
+
+ MAN_Federalism:0 "Federalism"
+ MAN_Federalism_desc:0 ""
+
+ MAN_Confederalism:0 "Confederalism"
+ MAN_Confederalism_desc:0 ""
+
+ MAN_Focused_Development:0 "Focused Development"
+ MAN_Focused_Development_desc:0 ""
+
+ MAN_Seperation_of_Powers:0 "Seperation of Powers"
+ MAN_Seperation_of_Powers_desc:0 ""
+
+ MAN_Ethnic_Regions:0 "Ethnic Regions"
+ MAN_Ethnic_Regions_desc:0 ""
+
+ MAN_Council_System:0 "Council System"
+ MAN_Council_System_desc:0 ""
+
+ MAN_Special_Economic_Zones:0 "Special Economic Zones"
+ MAN_Special_Economic_Zones_desc:0 ""
+
+ MAN_Executive_Authority:0 "Executive Authority"
+ MAN_Executive_Authority_desc:0 ""
+
+ MAN_Ideological_Indoctrination:0 "Ideological Indoctrination"
+ MAN_Ideological_Indoctrination_desc:0 ""
+
+#########################################################################
+# Manchuckuo Ideas
+######################################################################### 
+ MAN_Kangde_Emperor:0 "Kangde Emperor"
+ MAN_Kangde_Emperor_desc:0 "On 1 March 1932, the Japanese installed Aisin Gioro Puyi as the Chief Executive of Manchukuo, under the reign title Kangde."
+
+ MAN_Collectives_Farms:0 "Collectives Farm"
+ #MAN_Collectives_Farms_desc:0 ""

@@ -1,0 +1,20 @@
+﻿l_english:
+#########################################################################
+# Greece Events
+#########################################################################
+ DH_Greece.1.t:0 "4th of August Coup"
+ DH_Greece.1.d:0 "Our nation has been taken over by military forces! Ioannis Metaxas, a well-known general, has couped our government and declared martial law in an attempt to stabilise our once-proud nation as agrarian unrest culminates into a major strike. These fascists have the full support of our King, who returned last year thanks to a Royalist majority in Parliament. However, our monarch faced a large difficulty, the governmental deadlock between a coalition of Liberals, Agrarians and Republicans and his Royalist faction. To make matters worse, the Communists held 15 seats that they used to enforce their will on the two opposing parties. This new regime follows the path taken by the Italians across the Aegean, but we doubt Mussolini will be any more accommodating to this new dictatorship…"
+ DH_Greece.1.a:0 "The Third Hellenic Civilisation begins!"
+
+#########################################################################
+# Greece Focuses
+#########################################################################
+
+#########################################################################
+# Greece Ideas
+#########################################################################
+ GRE_National_Schism:0 "National Schism"
+ GRE_National_Schism_desc:0 "National Schism"
+
+ GRE_Memories_of_1923:0 "Memories of 1923"
+ GRE_Memories_of_1923_desc:0 "Memories of 1923"

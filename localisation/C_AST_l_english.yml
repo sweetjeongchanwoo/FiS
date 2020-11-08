@@ -1,0 +1,47 @@
+﻿l_english:
+#########################################################################
+#  Australian Political Events
+#########################################################################
+ DH_Australia_Elections.1.t:0 "Australian federal elections, 1937"
+ DH_Australia_Elections.1.d:0 ""
+ DH_Australia_Elections.1.A:0 "Joseph Lyons"
+ DH_Australia_Elections.1.B:0 "John Curtin"
+ AST_1937_Party_A:0 "§YParty§! : United Australia Party"
+ AST_1937_Party_B:0 "§YParty§! : Labor Party"
+
+ DH_Australia_Elections.2.t:0 "Australian federal elections, 1940"
+ DH_Australia_Elections.2.d:0 ""
+ DH_Australia_Elections.2.A:0 "Robert Menzies"
+ DH_Australia_Elections.2.B:0 "John Curtin"
+ AST_1940_Party_A:0 "§YParty§! : United Australia Party"
+ AST_1940_Party_B:0 "§YParty§! : Labor Party"
+ 
+ DH_Australia_Elections.3.t:0 "Australian federal elections, 1943"
+ DH_Australia_Elections.3.d:0 ""
+ DH_Australia_Elections.3.E:0 "Arthur Fadden"
+ DH_Australia_Elections.3.G:0 "John Curtin"
+ AST_1943_Party_A:0 "§YParty§! : Country Party"
+ AST_1943_Party_B:0 "§YParty§! : Labor Party"
+
+ DH_Australia_Elections.4.t:0 "Australian federal elections, 1946"
+ DH_Australia_Elections.4.d:0 "Australian federal elections, 1946"
+ DH_Australia_Elections.4.A:0 "Arthur Fadden"
+ DH_Australia_Elections.4.B:0 "Ben Chifley"
+ AST_1946_Party_A:0 "§YParty§! : Country Party"
+ AST_1946_Party_B:0 "§YParty§! : Labor Party"
+
+ DH_Australia_Politics.1.t:0 "Prime Minister Robert Menzies resigns"
+ DH_Australia_Politics.1.d:0 "[FROM.GetNewsIcon]At an emergency meeting of the Australian Cabinet this morning, Prime Minister Robert Menzies has announced his intention to resign from his office due to the falling lack of support for his position within the party and has instructed Governor-General Lord Gowrie to appoint John Curtin as Prime Minister. This was rejected and a joint UAP-Country Party conference has selected Arthur Fadden as the new Coalition Leader."
+ DH_Australia_Politics.1.A:0 "May he serve long and faithfully"
+ 
+ DH_Australia_Politics.2.t:0 "Prime Minister Arthur Fadden resigns"
+ DH_Australia_Politics.2.d:0 "[FROM.GetNewsIcon]In a Stunning turn of events today the coalition government of the UAP propped up by independents has collapsed. Arthur Fadden proved unable to quell the fears of his backbenchers and independent MP’s in both his government’s policies and their ability to pursue the defence of the Pacific and the Australian Soldiers thrown into meatgrinders abroad. A Labour Government has now been formed and sworn in under Prime Minister John Curtin."
+ DH_Australia_Politics.2.A:0 "Let us see what he can do"
+ 
+ DH_Australia_Politics.3.t:0 "John Curtain dies at the age of 60"
+ DH_Australia_Politics.3.d:0 "[FROM.GetNewsIcon]Prime Minister John Curtin has passed away this morning at the age of 60, the toll of constant travelling to both London and Washington mixed with his pre-existing Heart Disease has proven to be a fatal combination. A Catholic Priest was called to give last rites but Curtin refused to see him having not stepped foot in a Catholic Church for all of his adult life not even for a friends wedding. He leaves behind a lasting legacy ranging from his widespread tax reform and significant expansions of the Australian Social Service systems. Among the many tributes paid to him General Macarthurs stands out the most ‘the preservation of Australia from invasion will be his immemorial monument’. For now his deputy Frank Forde has taken over as Prime Minister."
+ DH_Australia_Politics.3.A:0 "May his soul rest in peace."
+
+ DH_Australia_Politics.4.t:0 "The Liberal Party of Australia is founded"
+ DH_Australia_Politics.4.d:0 "The Liberal Party of Australia is a major political party in Australia. Founded in 1945 to replace the United Australia Party (UAP), the broadly centre-right Liberal Party is one of the two major parties in Australian politics, along with the Australian Labor Party (ALP)."
+ DH_Australia_Politics.4.A:0 "Alright."

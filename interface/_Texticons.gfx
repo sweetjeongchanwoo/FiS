@@ -1,0 +1,371 @@
+spriteTypes = {
+	##########################
+	spriteType = {
+		name = "GFX_air_experience_20x20"
+		texturefile = "gfx/texticons/air_experience_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_army_experience_20x20"
+		texturefile = "gfx/texticons/army_experience_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_hitler_poster"
+		texturefile = "gfx/texticons/hitler_poster.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Rule_Over_the_Danube"
+		texturefile = "gfx/texticons/decision_header_Rule_Over_the_Danube.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Kurdish_Rebellion"
+		texturefile = "gfx/texticons/decision_header_Kurdish_Rebellion.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Long_March"
+		texturefile = "gfx/texticons/decision_header_Long_March.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_RWHG"
+		texturefile = "gfx/texticons/decision_header_RWHG.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Reichsautobahn"
+		texturefile = "gfx/texticons/decision_header_Reichsautobahn.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Positive_Christianity"
+		texturefile = "gfx/texticons/decision_header_Positive_Christianity.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_religion_positive_christianity_20x20"
+		texturefile = "gfx/texticons/religion_positive_christianity_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Unequal_Treaties"
+		texturefile = "gfx/texticons/decision_header_Unequal_Treaties.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Peoples_Tutelage"
+		texturefile = "gfx/texticons/decision_header_Peoples_Tutelage.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Westwall"
+		texturefile = "gfx/texticons/decision_header_Westwall.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Second_Italo_Ethiopian_War"
+		texturefile = "gfx/texticons/decision_header_Second_Italo_Ethiopian_War.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Allgemeine_SS"
+		texturefile = "gfx/texticons/decision_header_Allgemeine_SS.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Guards_Unit"
+		texturefile = "gfx/texticons/decision_header_Guards_Unit.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Italian_High_Command"
+		texturefile = "gfx/texticons/decision_header_Italian_High_Command.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Waffen_SS"
+		texturefile = "gfx/texticons/decision_header_Waffen_SS.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Spanish_Civil_War"
+		texturefile = "gfx/texticons/decision_header_Spanish_Civil_War.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_WPA"
+		texturefile = "gfx/texticons/decision_header_WPA.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Heim_ins_Reich"
+		texturefile = "gfx/texticons/decision_header_Heim_ins_Reich.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Great_Purge"
+		texturefile = "gfx/texticons/decision_header_Great_Purge.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Kirov"
+		texturefile = "gfx/texticons/decision_header_Kirov.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Unemployment"
+		texturefile = "gfx/texticons/decision_header_Unemployment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_Atlantikwall"
+		texturefile = "gfx/texticons/decision_header_Atlantikwall.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_religion_catholic_20x20"
+		texturefile = "gfx/texticons/religion_catholic_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_religion_protestant_20x20"
+		texturefile = "gfx/texticons/religion_protestant_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_religion_atheist_20x20"
+		texturefile = "gfx/texticons/religion_atheist_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_navy_experience_20x20"
+		texturefile = "gfx/texticons/navy_experience_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_ARAB"
+		texturefile = "gfx/texticons/newspaper_title_ARAB.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_AUS_socialist"
+		texturefile = "gfx/texticons/newspaper_title_AUS_socialist.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_BRA"
+		texturefile = "gfx/texticons/newspaper_title_BRA.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_BRA_fascist"
+		texturefile = "gfx/texticons/newspaper_title_BRA_fascist.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_BUL"
+		texturefile = "gfx/texticons/newspaper_title_BUL.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_CHI"
+		texturefile = "gfx/texticons/newspaper_title_CHI.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_CRO"
+		texturefile = "gfx/texticons/newspaper_title_CRO.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_DDR"
+		texturefile = "gfx/texticons/newspaper_title_DDR.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_DEN"
+		texturefile = "gfx/texticons/newspaper_title_DEN.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_ENG"
+		texturefile = "gfx/texticons/newspaper_title_ENG.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_FIN"
+		texturefile = "gfx/texticons/newspaper_title_FIN.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_FRA"
+		texturefile = "gfx/texticons/newspaper_title_FRA.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_FRA_communist"
+		texturefile = "gfx/texticons/newspaper_title_FRA_communist.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_FRA_fascist"
+		texturefile = "gfx/texticons/newspaper_title_FRA_fascist.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_GENERIC"
+		texturefile = "gfx/texticons/newspaper_title_GENERIC.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_GENERIC_communist"
+		texturefile = "gfx/texticons/newspaper_title_GENERIC_communist.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_GENERIC_fascist"
+		texturefile = "gfx/texticons/newspaper_title_GENERIC_fascist.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_GER"
+		texturefile = "gfx/texticons/newspaper_title_GER.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_GER_democratic"
+		texturefile = "gfx/texticons/newspaper_title_GER_democratic.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_GER_communist"
+		texturefile = "gfx/texticons/newspaper_title_GER_communist.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_GER_fascist"
+		texturefile = "gfx/texticons/newspaper_title_GER_fascist.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_GER_SS_fascist"
+		texturefile = "gfx/texticons/newspaper_title_GER_SS_fascist.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_GRE"
+		texturefile = "gfx/texticons/newspaper_title_GRE.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_HUN"
+		texturefile = "gfx/texticons/newspaper_title_HUN.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_IRE"
+		texturefile = "gfx/texticons/newspaper_title_IRE.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_ITA"
+		texturefile = "gfx/texticons/newspaper_title_ITA.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_JAP"
+		texturefile = "gfx/texticons/newspaper_title_JAP.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_JAP_communist"
+		texturefile = "gfx/texticons/newspaper_title_JAP_communist.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_KOR"
+		texturefile = "gfx/texticons/newspaper_title_KOR.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_NOR"
+		texturefile = "gfx/texticons/newspaper_title_NOR.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_POR"
+		texturefile = "gfx/texticons/newspaper_title_POR.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_PRC_communist"
+		texturefile = "gfx/texticons/newspaper_title_PRC_communist.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_ROM"
+		texturefile = "gfx/texticons/newspaper_title_ROM.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_SOV_communist"
+		texturefile = "gfx/texticons/newspaper_title_SOV_communist.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_SOV_RED_ARMY_communist"
+		texturefile = "gfx/texticons/newspaper_title_SOV_RED_ARMY_communist.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_SPA"
+		texturefile = "gfx/texticons/newspaper_title_SPA.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_SWE"
+		texturefile = "gfx/texticons/newspaper_title_SWE.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_newspaper_title_USA"
+		texturefile = "gfx/texticons/newspaper_title_USA.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_flag_Idrisid_Emirate"
+		texturefile = "gfx/texticons/flag_Idrisid_Emirate.dds"
+		legacy_lazy_load = no
+	}
+	########################################
+	### Factions
+	########################################
+	spriteType = {
+		name = "GFX_faction_texticon_TUR_chp"
+		texturefile = "gfx/texticons/faction_TUR_chp.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_faction_texticon_TUR_gerilikciler"
+		texturefile = "gfx/texticons/faction_TUR_gerilikciler.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_faction_texticon_TUR_manda_ve_himayeciler"
+		texturefile = "gfx/texticons/faction_TUR_manda_ve_himayeciler.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_faction_texticon_TUR_seriatcilar"
+		texturefile = "gfx/texticons/faction_TUR_seriatcilar.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_faction_texticon_TUR_turk_ordusu"
+		texturefile = "gfx/texticons/faction_TUR_turk_ordusu.dds"
+		legacy_lazy_load = no
+	}
+}

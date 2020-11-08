@@ -1,0 +1,677 @@
+ideas = {
+#################################################
+### Head of Government
+#################################################
+	Head_of_Government = {
+	# Olafur Thors
+		ICE_HoG_Olafur_Thors = {
+			picture = Olafur_Thors
+			allowed = { tag = ICE }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Olafur_Thors_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Flamboyant_Tough_Guy }
+		}
+	# Bjarni Benediktsson
+		ICE_HoG_Bjarni_Benediktsson = {
+			picture = Bjarni_Benediktsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1963.1.1
+				date < 1971.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Bjarni_Benediktsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Flamboyant_Tough_Guy }
+		}
+	# Jóhann Hafstein
+		ICE_HoG_Johann_Hafstein = {
+			picture = Johann_Hafstein
+			allowed = { tag = ICE }
+			available = {
+				date > 1970.1.1
+				date < 1981.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Johann_Hafstein_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Smiling_Oilman }
+		}
+	# Geir Hallgrimsson
+		ICE_HoG_Geir_Hallgrimsson = {
+			picture = Geir_Hallgrimsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1974.1.1
+				date < 1991.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Geir_Hallgrimsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Happy_Amateur }
+		}
+	# Gunnar Thoroddsen
+		ICE_HoG_Gunnar_Thoroddsen = {
+			picture = Gunnar_Thoroddsen
+			allowed = { tag = ICE }
+			available = {
+				date > 1980.1.1
+				date < 1984.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Gunnar_Thoroddsen_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Political_Protege }
+		}
+	# Thorsteinn Palsson
+		ICE_HoG_Thorsteinn_Palsson = {
+			picture = Thorsteinn_Palsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1983.1.1
+				date < 2020.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Thorsteinn_Palsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Ambitious_Union_Boss }
+		}
+	# Steingrimur Hermannsson
+		ICE_HoG_Steingrimur_Hermannsson = {
+			picture = Steingrimur_Hermannsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1983.1.1
+				date < 2011.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Steingrimur_Hermannsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Silent_Workhorse }
+		}
+	# David Oddsson
+		ICE_HoG_David_Oddsson = {
+			picture = David_Oddsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1991.1.1
+				date < 2020.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = David_Oddsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Old_General }
+		}
+	# Hermann Jonasson
+		ICE_HoG_Hermann_Jonasson = {
+			picture = Hermann_Jonasson
+			allowed = { tag = ICE }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Hermann_Jonasson_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Smiling_Oilman }
+		}
+	# Gylfi Gislason
+		ICE_HoG_Gylfi_Gislason = {
+			picture = Gylfi_Gislason
+			allowed = { tag = ICE }
+			available = {
+				date > 1967.1.1
+				date < 2005.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Gylfi_Gislason_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Old_Airmarshal }
+		}
+	# Ólafur Jóhannesson
+		ICE_HoG_Olafur_Johannesson = {
+			picture = Olafur_Johannesson
+			allowed = { tag = ICE }
+			available = {
+				date > 1971.1.1
+				date < 1985.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Olafur_Johannesson_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Naive_Optimist }
+		}
+	# Benedikt Gröndal
+		ICE_HoG_Benedikt_Grondal = {
+			picture = Benedikt_Grondal
+			allowed = { tag = ICE }
+			available = {
+				date > 1974.1.1
+				date < 2011.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Benedikt_Grondal_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Happy_Amateur }
+		}
+	# Stefan J. Stefansson
+		ICE_HoG_Stefan_J_Stefansson = {
+			picture = Stefan_J_Stefansson
+			allowed = { tag = ICE }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Stefan_J_Stefansson_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Ambitious_Union_Boss }
+		}
+	# Steingrimur Steinthorsson
+		ICE_HoG_Steingrimur_Steinthorsson = {
+			picture = Steingrimur_Steinthorsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1950.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Steingrimur_Steinthorsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Silent_Workhorse }
+		}
+	# Emil Jonsson
+		ICE_HoG_Emil_Jonsson = {
+			picture = Emil_Jonsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1959.1.1
+				date < 1965.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Emil_Jonsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoG_Flamboyant_Tough_Guy }
+		}
+}
+#################################################
+### Foreign Minister
+#################################################
+	Foreign_Minister = {
+	# Olafur Thors
+		ICE_FM_Olafur_Thors = {
+			picture = Olafur_Thors
+			allowed = { tag = ICE }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Olafur_Thors_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_Ideological_Crusader }
+		}
+	# Gudmundur Gudmundsson
+		ICE_FM_Gudmundur_Gudmundsson = {
+			picture = Gudmundur_Gudmundsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1953.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Gudmundur_Gudmundsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_The_Cloak_N_Dagger_Schemer }
+		}
+	# Geir Hallgrimsson
+		ICE_FM_Geir_Hallgrimsson = {
+			picture = Geir_Hallgrimsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1985.1.1
+				date < 1991.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Geir_Hallgrimsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_Great_Compromiser }
+		}
+	# Vilhjalmur Thor
+		ICE_FM_Vilhjalmur_Thor = {
+			picture = Vilhjalmur_Thor
+			allowed = { tag = ICE }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Vilhjalmur_Thor_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_Apologetic_Clerk }
+		}
+	# Stefan J. Stefansson
+		ICE_FM_Stefan_J_Stefansson = {
+			picture = Stefan_J_Stefansson
+			allowed = { tag = ICE }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Stefan_J_Stefansson_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_Great_Compromiser }
+		}
+	# Bjarni Benediktsson
+		ICE_FM_Bjarni_Benediktsson = {
+			picture = Bjarni_Benediktsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Bjarni_Benediktsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D FM_Great_Compromiser }
+		}
+}
+#################################################
+### Minister of Security
+#################################################
+	Minister_of_Security = {
+	# Finnur Jönsson
+		ICE_MoS_Finnur_Jonsson = {
+			picture = Finnur_Jonsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Finnur_Jonsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D MoS_Back_Stabber }
+		}
+	# Einar Arnorsson
+		ICE_MoS_Einar_Arnorsson = {
+			picture = Einar_Arnorsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1953.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Einar_Arnorsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D MoS_Crime_Fighter }
+		}
+	# Knud Dyby
+		ICE_MoS_Knud_Dyby = {
+			picture = Knud_Dyby
+			allowed = { tag = ICE }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Knud_Dyby_unavailable }
+			}
+			
+			
+			traits = { ideology_D MoS_Crime_Fighter }
+		}
+	# Jakob R.V. Møller
+		ICE_MoS_Jakob_RV_Moller = {
+			picture = Jakob_RV_Moller
+			allowed = { tag = ICE }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Jakob_RV_Moller_unavailable }
+			}
+			
+			
+			traits = { ideology_D MoS_Man_Of_The_People }
+		}
+	# Bjarni Benediktsson
+		ICE_MoS_Bjarni_Benediktsson = {
+			picture = Bjarni_Benediktsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Bjarni_Benediktsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D MoS_Compassionate_Gentleman }
+		}
+}
+#################################################
+### Armaments Minister
+#################################################
+	Armaments_Minister = {
+	# Ingvar Palmasson
+		ICE_AM_Ingvar_Palmasson = {
+			picture = Ingvar_Palmasson
+			allowed = { tag = ICE }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Ingvar_Palmasson_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Submarine_Proponent }
+		}
+	# Petur Magnusson
+		ICE_AM_Petur_Magnusson = {
+			picture = Petur_Magnusson
+			allowed = { tag = ICE }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Petur_Magnusson_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Submarine_Proponent }
+		}
+	# Björn Olofsson
+		ICE_AM_Bjorn_Olofsson = {
+			picture = Bjorn_Olofsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1949.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Bjorn_Olofsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Battle_Fleet_Proponent }
+		}
+	# Thorsteinn Palsson
+		ICE_AM_Thorsteinn_Palsson = {
+			picture = Thorsteinn_Palsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1985.1.1
+				date < 2020.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Thorsteinn_Palsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Laissez-faire_Capitalist }
+		}
+	# Einar Thordarsson
+		ICE_AM_Einar_Thordarsson = {
+			picture = Einar_Thordarsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Einar_Thordarsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Infantry_Proponent }
+		}
+	# Johann Th. Josefsson
+		ICE_AM_Johann_Th_Josefsson = {
+			picture = Johann_Th_Josefsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Johann_Th_Josefsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Military_Entrepreneur }
+		}
+	# Eysteinn Jönsson
+		ICE_AM_Eysteinn_Jonsson = {
+			picture = Eysteinn_Jonsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1950.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Eysteinn_Jonsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D AM_Administrative_Genius }
+		}
+}
+#################################################
+### Head of Intelligence
+#################################################
+	Head_of_Intelligence = {
+	# Stefan J. Stefansson
+		ICE_HoI_Stefan_J_Stefansson = {
+			picture = Stefan_J_Stefansson
+			allowed = { tag = ICE }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Stefan_J_Stefansson_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoI_Political_Specialist }
+		}
+	# Jørgen F.T. Lolle
+		ICE_HoI_Jorgen_FT_Lolle = {
+			picture = Jorgen_FT_Lolle
+			allowed = { tag = ICE }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Jorgen_FT_Lolle_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoI_Naval_Intelligence_Specialist }
+		}
+	# Ingvar Palmasson
+		ICE_HoI_Ingvar_Palmasson = {
+			picture = Ingvar_Palmasson
+			allowed = { tag = ICE }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Ingvar_Palmasson_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoI_Naval_Intelligence_Specialist }
+		}
+	# Steingrimur Steinthorsson
+		ICE_HoI_Steingrimur_Steinthorsson = {
+			picture = Steingrimur_Steinthorsson
+			allowed = { tag = ICE }
+			available = {
+				date > 1949.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Steingrimur_Steinthorsson_unavailable }
+			}
+			
+			
+			traits = { ideology_D HoI_Industrial_Specialist }
+		}
+}
+#################################################
+### Chief of Staff
+#################################################
+	Chief_of_Staff = {
+	# Thorkil Sonne
+		ICE_CoStaff_Thorkil_Sonne = {
+			picture = Thorkil_Sonne
+			allowed = { tag = ICE }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Thorkil_Sonne_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoStaff_School_Of_Defence }
+		}
+	# August Arendrup
+		ICE_CoStaff_August_Arendrup = {
+			picture = August_Arendrup
+			allowed = { tag = ICE }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = August_Arendrup_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoStaff_School_Of_Mass_Combat }
+		}
+}
+#################################################
+### Chief of Army
+#################################################
+	Chief_of_Army = {
+	# Walter Ulrich
+		ICE_CoArmy_Walter_Ulrich = {
+			picture = Walter_Ulrich
+			allowed = { tag = ICE }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Walter_Ulrich_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoArmy_Guns_And_Butter_Doctrine }
+		}
+	# Kai Hammerich
+		ICE_CoArmy_Kai_Hammerich = {
+			picture = Kai_Hammerich
+			allowed = { tag = ICE }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Kai_Hammerich_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoArmy_Decisive_Battle_Doctrine }
+		}
+}
+#################################################
+### Chief of Navy
+#################################################
+	Chief_of_Navy = {
+	# Ingvar Palmasson
+		ICE_CoNavy_Ingvar_Palmasson = {
+			picture = Ingvar_Palmasson
+			allowed = { tag = ICE }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Ingvar_Palmasson_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoNavy_Indirect_Approach_Doctrine }
+		}
+	# Paul Ipsen
+		ICE_CoNavy_Paul_Ipsen = {
+			picture = Paul_Ipsen
+			allowed = { tag = ICE }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Ipsen_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoNavy_Open_Seas_Doctrine }
+		}
+}
+#################################################
+### Chief of Airforce
+#################################################
+	Chief_of_Airforce = {
+	# Jakob R.V. Møller
+		ICE_CoAir_Jakob_RV_Moller = {
+			picture = Jakob_RV_Moller
+			allowed = { tag = ICE }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Jakob_RV_Moller_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoAir_Air_Superiority_Doctrine }
+		}
+	# Asger E.V. Grandjean
+		ICE_CoAir_Asger_EV_Grandjean = {
+			picture = Asger_EV_Grandjean
+			allowed = { tag = ICE }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Asger_EV_Grandjean_unavailable }
+			}
+			
+			
+			traits = { ideology_D CoAir_Naval_Aviation_Doctrine }
+		}
+	}
+}

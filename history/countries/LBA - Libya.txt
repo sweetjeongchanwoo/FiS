@@ -1,0 +1,50 @@
+﻿#########################################################################
+# Libya
+#########################################################################
+capital = 448
+set_convoys = 20
+#######################
+# Research
+#######################
+set_technology = {
+	Small_Arms_1916 = 1
+	
+}
+#######################
+# Politics
+#######################
+set_cosmetic_tag = LBA_CYRENAICA
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascist = 0
+	authoritarian = 55
+	democratic = 10
+	socialist = 30
+	communist = 5
+}
+#######################
+# Leaders
+#######################
+# Fascism
+create_country_leader = {
+	name = "Ettore Benito Mussolini"
+	desc = ""
+	picture = "P_F_Benito_Mussolini.dds"
+	ideology = fascism
+	traits = {
+		# protector_of_islam
+	}
+}
+# Autocracy
+create_country_leader = {
+	name = "Idris Senussi"
+	desc = ""
+	picture = "P_A_Idris_Senussi.tga"
+	ideology = monarchism
+	traits = {}
+}

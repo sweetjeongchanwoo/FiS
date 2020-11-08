@@ -1,0 +1,172 @@
+ideas = {
+	
+	country = {
+		
+		SPR_unstable_government = {
+			removal_cost = -1
+			
+			picture = generic_disjointed_gov
+			
+			modifier = {
+				political_power_cost = 0.5
+				
+			}
+		}
+		
+		
+		SPR_iberian_pact = {
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			picture = SPR_iberian_union
+			
+			modifier = {
+				ai_get_ally_desire_factor = -500
+				join_faction_tension = 1
+			}
+			
+		} 
+		
+		SPR_french_intervention = {
+			
+			removal_cost = -1
+			
+			picture = SPR_french_intervention
+			
+		}
+		
+		SPR_british_intervention = {
+			
+			removal_cost = -1
+			
+			picture = SPR_british_intervention
+			
+		}
+		
+		SPR_german_intervention = {
+			
+			removal_cost = -1
+			
+			picture = SPR_german_intervention
+			
+		}
+		
+		SPR_italian_intervention = {
+			
+			removal_cost = -1
+			
+			picture = SPR_italian_intervention
+			
+		}
+		
+		SPR_soviet_intervention = {
+			
+			removal_cost = -1
+			
+			picture =SPR_soviet_intervention
+			
+		}
+		
+		SPR_mexican_intervention = {
+			
+			removal_cost = -1
+			
+			picture = SPR_mexican_intervention
+			
+		}
+		
+		SPR_portuguese_intervention = {
+			
+			removal_cost = -1
+			
+			picture = SPR_portuguese_intervention
+			
+		}
+		SPR_foreign_brigade = {
+			
+			removal_cost = -1
+			
+			picture = SPR_foreign_brigade
+			
+		}
+		
+	}
+
+	
+	high_command = {
+		
+		SPR_jose_miaja = {
+			
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = SPR
+				NOT = { has_government = fascist }
+			}
+			
+			
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		SPR_diego_hidalgo_duran = {
+			
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = SPR
+				NOT = { has_government = fascist }
+			}
+			
+			
+			
+			traits = { army_concealment_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		SPR_miguel_buiza_femandez_palacios = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = SPR
+				NOT = { has_government = fascist }
+			}
+			
+			
+			
+			traits = { navy_screen_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		SPR_antonio_azarola_gresillon = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = SPR
+				NOT = { has_government = fascist }
+			}
+			
+			
+			
+			traits = { navy_fleet_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}

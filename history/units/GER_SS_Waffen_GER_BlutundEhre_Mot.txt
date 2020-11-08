@@ -1,0 +1,9 @@
+﻿units = {
+	division= {
+		name = "SS-Division (mot.) „Blut und Ehre“"
+		location = 495 # Actually trained at Leopoldsburg, Belgium
+		division_template = "SS-Infanterie-Division (mot.)"
+		start_experience_factor = 0.14
+		start_equipment_factor = 1.0 
+	}
+}

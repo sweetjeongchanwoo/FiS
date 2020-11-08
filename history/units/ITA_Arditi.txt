@@ -1,0 +1,24 @@
+﻿﻿##### Arditi Units #####
+units = {
+
+	##### Divisione degli Arditi #####
+	### 
+	division= {	
+		name = "1a Divisione Arditi"
+		location = 9630
+		division_template = "Divisione Alpina"		
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "2a Divisione degli Arditi"
+		location = 11595 
+		division_template = "Divisione Alpina"		
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "3a Divisione degli Arditi"
+		location = 9738 
+		division_template = "Divisione Alpina"	
+		start_experience_factor = 0.5
+	}
+}

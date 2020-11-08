@@ -1,0 +1,63 @@
+﻿l_english:
+#########################################################################
+#  Generic Events
+#########################################################################
+ DH_Generic_Focus_Tree.1.t:0 "Tank Competition"
+ DH_Generic_Focus_Tree.1.desc:0 "A recent study of modern ground combat has shown a critical weakness in our army. Our tanks are severely behind developments in other countries. Our Generals have initiated a crash program to acquire a modern tank as soon as feasible. Since domestic development would take an unacceptable amount of time, it has been decided to purchase a license from abroad. An additional budget has been authorized.\n\nExperts differ on what type of tank would be best suited to modernize our ground forces"
+ DH_Generic_Focus_Tree.1.A:0 "A small, light Tank"
+ DH_Generic_Focus_Tree.1.B:0 "A large, heavy Tank"
+
+ DH_Generic_Focus_Tree.2.t:0 "Light Tank Competition"
+ DH_Generic_Focus_Tree.2.desc_light_tank:0 "Our Generals are looking to procure a new light tank for offensive recon and encirclements, but the Foreign Office has suggested that political and diplomatic concerns should also play a role in deciding which country to buy from."
+ DH_Generic_Focus_Tree.2.desc_light_tank_refused:0 "Citing national security, the [From.GetAdjective] government has refused to release a production license. We may have better chances elsewhere, or we can look at upgrading our existing tanks as an emergency stopgap."
+ DH_Generic_Focus_Tree.2.A:0 "Approach Germany"
+ DH_Generic_Focus_Tree.2.B:0 "Approach Italy"
+ DH_Generic_Focus_Tree.2.C:0 "Approach France"
+ DH_Generic_Focus_Tree.2.D:0 "Approach Britian"
+ DH_Generic_Focus_Tree.2.E:0 "Approach the US"
+ DH_Generic_Focus_Tree.2.F:0 "Use experience gained from the competition to improve our own tanks."
+
+ DH_Generic_Focus_Tree.3.t:0 "Heavy Tank Competition"
+ DH_Generic_Focus_Tree.3.desc_heavy_tank:0 "Our Generals are looking to procure a new heavy tank for offensive spearheads and breaching enemy positions, but the Foreign Office has suggested that political and diplomatic concerns should also play a role in deciding which country to buy from."
+ DH_Generic_Focus_Tree.3.desc_heavy_tank_refused:0 "Citing national security, the [From.GetAdjective] government has refused to release a production license. We may have better chances elsewhere, or we can look at upgrading our existing tanks as an emergency stopgap."
+
+ DH_Generic_Focus_Tree.4.t:0 "[From.GetAdjective] Tank Competition"
+ DH_Generic_Focus_Tree.4.desc:0 "The [From.GetAdjective] Generals are currently holding trials for a new light tank. According to our Generals, our newest model is poised to win. A formal request from the [From.GetAdjective] government is expected shortly. \n\nRepresentatives of the manufacturer are strongly in favor of the sale, but there are national security concerns about selling our most modern equipment to a foreign country. Should we permit the sale to go through?"
+ DH_Generic_Focus_Tree.4.A:0 "Absolutely"
+ DH_Generic_Focus_Tree.4.B:0 "We can't risk any leaks."
+
+ DH_Generic_Focus_Tree.5.desc:0 "The [From.GetAdjective] Generals are currently holding trials for a new heavy tank. According to our Generals, our newest model is poised to win. A formal request from the [From.GetAdjective] government is expected shortly. \n\nRepresentatives of the manufacturer are strongly in favor of the sale, but there are national security concerns about selling our most modern equipment to a foreign country. Should we permit the sale to go through?"
+
+ DH_Generic_Focus_Tree.6.t:0 "Tank Competition completed"
+ DH_Generic_Focus_Tree.6.desc:0 "Following negotiations with the manufacturer and state officials, we have successfully secured a production license for a new tank. An example of the tank has already arrived to train mechanics on its maintainance, and a full set of drawings and blueprints is expected shortly. Production can commence at any time."
+ DH_Generic_Focus_Tree.6.A:0 "Very Good"
+
+ DH_Generic_Focus_Tree.7.t:0 "Ship Competition"
+ DH_Generic_Focus_Tree.7.desc:0 "A recent study of modern naval combat has shown a critical weakness in our navy. Our ships are severely behind developments in other countries. Our Admirals have initiated a crash program to acquire a modern ship as soon as feasible. Since domestic development would take an unacceptable amount of time, it has been decided to purchase a license from abroad. An additional budget has been authorized.\n\nExperts differ on what type of ship would be best suited to modernize our navy"
+ DH_Generic_Focus_Tree.7.A:0 "A Battlecruiser"
+ DH_Generic_Focus_Tree.7.B:0 "A Battleship"
+
+ DH_Generic_Focus_Tree.8.t:0 "Battlecruiser Competition"
+ DH_Generic_Focus_Tree.8.desc_battlecruiser:0 "Our Admirals are looking to procure a new Battlecruiser for naval combat, but the Foreign Office has suggested that political and diplomatic concerns should also play a role in deciding which country to buy from."
+ DH_Generic_Focus_Tree.8.desc_battlecruiser_refused:0 "Citing national security, the [From.GetAdjective] government has refused to release a production license. We may have better chances elsewhere, or we can look at upgrading our existing ships as an emergency stopgap."
+ DH_Generic_Focus_Tree.8.A:0 "Approach Germany"
+ DH_Generic_Focus_Tree.8.B:0 "Approach Italy"
+ DH_Generic_Focus_Tree.8.C:0 "Approach France"
+ DH_Generic_Focus_Tree.8.D:0 "Approach Britian"
+ DH_Generic_Focus_Tree.8.E:0 "Approach the US"
+ DH_Generic_Focus_Tree.8.F:0 "Use experience gained from the competition to improve our own ships."
+
+ DH_Generic_Focus_Tree.9.t:0 "Battleship Competition"
+ DH_Generic_Focus_Tree.9.desc_battleship:0 "Our Admirals are looking to procure a new Battleship for naval combat, but the Foreign Office has suggested that political and diplomatic concerns should also play a role in deciding which country to buy from."
+ DH_Generic_Focus_Tree.9.desc_battleship_refused:0 "Citing national security, the [From.GetAdjective] government has refused to release a production license. We may have better chances elsewhere, or we can look at upgrading our existing ships as an emergency stopgap."
+
+ DH_Generic_Focus_Tree.10.t:0 "[From.GetAdjective] Ship Competition"
+ DH_Generic_Focus_Tree.10.desc:0 "The [From.GetAdjective] Admirals are currently holding trials for a new Battlecruiser. According to our Generals, our newest model is poised to win. A formal request from the [From.GetAdjective] government is expected shortly. \n\nRepresentatives of the manufacturer are strongly in favor of the sale, but there are national security concerns about selling our most modern equipment to a foreign country. Should we permit the sale to go through?"
+ DH_Generic_Focus_Tree.10.A:0 "Absolutely"
+ DH_Generic_Focus_Tree.10.B:0 "We can't risk any leaks."
+
+ DH_Generic_Focus_Tree.11.desc:0 "The [From.GetAdjective] Admirals are currently holding trials for a new Battleship. According to our Generals, our newest model is poised to win. A formal request from the [From.GetAdjective] government is expected shortly. \n\nRepresentatives of the manufacturer are strongly in favor of the sale, but there are national security concerns about selling our most modern equipment to a foreign country. Should we permit the sale to go through?"
+
+ DH_Generic_Focus_Tree.12.t:0 "Ship Competition completed"
+ DH_Generic_Focus_Tree.12.desc:0 "Following negotiations with the manufacturer and state officials, we have successfully secured a production license for a new ship. An example of the ship has already arrived to train mechanics on its maintainance, and a full set of drawings and blueprints is expected shortly. Production can commence at any time."
+ DH_Generic_Focus_Tree.12.A:0 "Very Good"

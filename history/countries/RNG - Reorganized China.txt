@@ -1,0 +1,68 @@
+﻿#########################################################################################
+# Reorganized Nationalist Government of the Republic of China
+#########################################################################################
+1933.1.1 = {
+	capital = 613 # Nanking
+	set_convoys = 10
+	set_stability = 0.4
+	set_war_support = 0.3
+}
+#########################################################################################
+# Reformed Government of China
+#########################################################################################
+1939.1.1 = {
+	capital = 613 # Nanking
+	set_convoys = 10
+	set_stability = 0.4
+	set_war_support = 0.3
+}
+#########################################################################################
+# Reorganized Nationalist Government of the Republic of China
+#########################################################################################
+1944.6.20 = {
+	capital = 613 # Nanking
+
+	oob = "RNG_1944"
+
+	set_convoys = 10
+	set_stability = 0.4
+	set_war_support = 0.3
+
+	add_ideas = {
+	}
+
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1	
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = fascist
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 80
+		authoritarian = 10
+		democratic = 10
+		socialist = 0
+		communist = 0
+	}	
+	set_cosmetic_tag = RNG_JAP
+	#######################
+	# Leaders
+	#######################
+	create_country_leader = {
+		name = "Wang Jingwei"
+		desc = ""
+		picture = "P_F_Wang_Jingwei.tga"
+		expire = "1965.1.1"
+		ideology = fascism
+		traits = {}
+	}
+}

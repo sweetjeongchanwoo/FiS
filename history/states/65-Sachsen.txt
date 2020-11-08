@@ -1,0 +1,60 @@
+
+state={
+	id=65
+	name="STATE_65"
+	resources={
+		steel=90.000
+	}
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 7
+
+		}
+		victory_points = {
+			514 5 
+		}
+		victory_points = {
+			3535 5 
+		}
+		victory_points = {
+			9471 2 
+		}
+		victory_points = {
+			9441 2 
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 2
+				arms_factory = 5
+				industrial_complex = 10
+
+			}
+
+		}
+		1946.1.1 = {
+			owner = SOV
+
+		}
+		1950.1.1 = {
+			owner = DDR
+
+		}
+		1991.1.1 = {
+			owner = FRG
+
+		}
+
+	}
+
+	provinces={
+		514 573 3514 3535 6559 9441 9471 9535 11481 
+	}
+	manpower=4532576
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

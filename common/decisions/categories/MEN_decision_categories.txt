@@ -1,0 +1,13 @@
+MEN_Form_New_Governments = {
+
+	allowed = {
+		tag = MEN
+	}
+}
+
+MEN_Military_Campaign = {
+	
+	allowed = {
+		tag = MEN
+	}
+}

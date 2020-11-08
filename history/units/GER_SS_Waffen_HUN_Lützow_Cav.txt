@@ -1,0 +1,9 @@
+﻿units = {
+	division= {
+		name = "SS-Freiwilligen-Kavallerie-Division „Lützow“"
+		location = 6720 # Actually formed in Bratislava
+		division_template = "SS Kavallerie-Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 1.0 
+	}
+}

@@ -1,0 +1,24 @@
+#########################################################################
+#  Tungan Decision Categories
+#########################################################################
+###########################
+# Ma Zhongying
+###########################
+TNG_Ma_Zhongying = {
+	icon = military_operation
+
+	picture = GFX_decision_category_TNG_Ma_Zhongying
+	
+	scripted_gui = decision_ruler_mood_window
+	
+	allowed = {
+		original_tag = TNG
+	}
+	
+	visible = {
+		has_country_leader = {
+			name = "Ma Zhongying"
+			ruling_only = yes
+		}
+	}
+}

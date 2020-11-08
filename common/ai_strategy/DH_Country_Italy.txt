@@ -1,0 +1,147 @@
+####################################################
+## Italy
+#####################################################
+
+# air_factory_balance
+# alliance
+# antagonize
+# area_priority
+# befriend
+# build_army
+# build_building
+# build_ship
+# conquer
+# contain
+# equipment_production_factor
+# equipment_stockpile
+# garrison
+# ignore
+# influence
+# invade
+# pp_spend_priority
+# protect
+# research_tech
+# role_ratio
+# send_volunteers_desire
+# support
+# template_prio
+# template_xp_reserve 
+# unit_ratio
+
+## ------------------ Foreign Relations -------------------------------------------------------------
+
+# Italian-German Relations
+Italian_German_Relations = {
+	enable = {
+		original_tag = ITA
+		ITA = { has_government = fascist }
+		GER = { has_government = fascist }		
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = befriend
+		id = "GER"
+		value = 50
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 50
+	}	
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = -50
+	}
+	ai_strategy = {
+		type = ignore
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = "GER"
+		value = 200
+	}
+}
+
+# Italian-German Relations (Germany controls Paris)
+Italian_German_Relations_1939 = {
+	enable = {
+		original_tag = ITA
+		ITA = { has_government = fascist }
+		GER = { has_government = fascist }		
+		
+		any_other_country = {
+			OR = {
+				tag = GER
+				is_in_faction_with = GER
+			}
+			has_full_control_of_state = 16 		
+		}
+	}	
+	abort = {
+		always = no
+	}
+
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = -50
+	}	
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 100
+	}
+}
+
+## ------------------ Region Priorities -------------------------------------------------------------
+## German Region Priorities
+German_area_priority = {
+	enable = {
+		original_tag = ITA
+	}
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 200
+	}
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = 25
+	}
+	ai_strategy = {
+		type = area_priority
+		id = south_america
+		value = 25
+	}
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = 25
+	}
+	ai_strategy = {
+		type = area_priority
+		id = pacific
+		value = 25
+	}
+	ai_strategy = {
+		type = area_priority
+		id = oceania
+		value = 25
+	}
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = 150
+	}
+	ai_strategy = {
+		type = area_priority
+		id = africa
+		value = 150
+	}
+}

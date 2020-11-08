@@ -1,0 +1,25 @@
+﻿division_template = {
+	name = "Tungan Cavalry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+
+	}
+}
+units = {
+	division = {
+		name = "1st Tungan Division"
+		location = 10315
+		division_template = "Tungan Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2nd Tungan Division"
+		location = 4973
+		division_template = "Tungan Cavalry Division"
+		start_experience_factor = 0.3
+	}
+}

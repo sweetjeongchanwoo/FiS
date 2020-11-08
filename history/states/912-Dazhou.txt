@@ -1,0 +1,40 @@
+
+state={
+	id=912
+	name="STATE_912"
+
+	history={
+		owner = SIC
+		victory_points = {
+			5048 2 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SIC
+		add_core_of = CHI
+		add_core_of = PRC
+		1936.1.1 = {
+			owner = SIC
+
+		}
+		1939.1.1 = {
+			owner = CHI
+
+		}
+		1950.1.1 = {
+			owner = PRC
+			remove_core_of = SIC
+
+		}
+
+	}
+
+	provinces={
+		2030 2091 5048 7256 12274 
+	}
+	manpower=4508000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

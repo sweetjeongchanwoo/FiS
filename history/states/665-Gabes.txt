@@ -1,0 +1,51 @@
+
+state={
+	id=665
+	name="STATE_665"
+
+	history={
+		owner = FRA
+		victory_points = {
+			7005 2 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = TUN
+		1941.6.22 = {
+			owner = VIC
+			controller = VIC
+
+		}
+		1942.11.22 = {
+			owner = FRA
+			controller = ITA
+			FRA = {
+				set_province_controller = 4992
+				set_province_controller = 9983
+				set_province_controller = 3987
+
+			}
+
+		}
+		1943.7.26 = {
+			owner = FRA
+			controller = FRA
+
+		}
+		1960.1.1 = {
+			owner = TUN
+			controller = TUN
+
+		}
+
+	}
+
+	provinces={
+		1105 3987 4992 7005 9983 10082 11957 12000 13145 13179 
+	}
+	manpower=427824
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

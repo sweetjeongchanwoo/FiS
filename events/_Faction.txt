@@ -1,0 +1,486 @@
+﻿###########################
+# Darkest Hour Events : Faction Stuff
+###########################
+
+add_namespace = DH_Factions
+add_namespace = DH_Factions_Join
+
+#########################################################################
+# Setup the faction flags
+#########################################################################
+country_event = {
+	id = DH_Factions.1
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				is_in_faction_with = ENG
+				is_faction_leader = yes
+			}
+			set_country_flag = is_allies_leader
+		}
+		if = {
+			limit = {
+				is_in_faction_with = ENG
+				is_faction_leader = no
+			}
+			set_country_flag = in_allies_faction
+		}
+		if = {
+			limit = {
+				is_in_faction_with = SOV
+				is_faction_leader = yes
+			}
+			set_country_flag = is_comintern_leader
+		}
+		if = {
+			limit = {
+				is_in_faction_with = SOV
+				is_faction_leader = no
+			}
+			set_country_flag = in_comintern_faction
+		}
+		if = {
+			limit = {
+				is_in_faction_with = GER
+				is_faction_leader = yes
+			}
+			set_country_flag = is_axis_leader
+		}
+		if = {
+			limit = {
+				is_in_faction_with = GER
+				is_faction_leader = no
+			}
+			set_country_flag = in_axis_faction
+		}
+		if = {
+			limit = {
+				is_in_faction_with = JAP
+				is_faction_leader = yes
+			}
+			set_country_flag = is_asia_leader
+		}
+		if = {
+			limit = {
+				is_in_faction_with = JAP
+				is_faction_leader = no
+			}
+			set_country_flag = in_asia_faction
+		}
+		set_global_flag = Axis
+		set_global_flag = Asian
+		set_global_flag = Allies
+		set_global_flag = Comitern
+	}
+
+	option = {
+	}
+}
+
+country_event = {
+	id = DH_Factions.1000
+	title = "Testing Flags"
+	desc = "Flag Test"
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = is_allies_leader
+		has_country_flag = in_allies_faction
+		has_country_flag = is_comintern_leader
+		has_country_flag = in_comintern_faction
+		has_country_flag = is_axis_leader
+		has_country_flag = in_axis_faction
+		has_country_flag = is_asia_leader
+		has_country_flag = in_asia_faction
+		has_country_flag = is_internationale_leader
+		has_country_flag = in_internationale_faction
+	}
+	option = {
+		name = DH_Factions.1000.A
+	}
+}
+#########################################################################
+# When someone leaves a faction make sure the leader has the correct flags
+#########################################################################
+country_event = {
+	id = DH_Factions.2
+
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = is_allies_leader
+		clr_country_flag = in_allies_faction
+		clr_country_flag = is_comintern_leader
+		clr_country_flag = in_comintern_faction
+		clr_country_flag = is_axis_leader
+		clr_country_flag = in_axis_faction
+		clr_country_flag = is_asia_leader
+		clr_country_flag = in_asia_faction
+		clr_country_flag = is_internationale_leader
+		clr_country_flag = in_internationale_faction
+
+		every_other_country = {
+			if = {
+				limit = {
+					has_country_flag = in_allies_faction
+					NOT = { has_country_flag = is_allies_leader }
+					is_faction_leader = yes
+				}
+				set_country_flag = is_allies_leader
+				clr_country_flag = in_allies_faction
+			}
+			if = {
+				limit = {
+					has_country_flag = in_comintern_faction
+					NOT = { has_country_flag = is_comintern_leader }
+					is_faction_leader = yes
+				}
+				set_country_flag = is_comintern_leader
+				clr_country_flag = in_comintern_faction
+			}
+			if = {
+				limit = {
+					has_country_flag = in_axis_faction
+					NOT = { has_country_flag = is_axis_leader }
+					is_faction_leader = yes
+				}
+				set_country_flag = is_axis_leader
+				clr_country_flag = in_axis_faction
+			}
+			if = {
+				limit = {
+					has_country_flag = in_asia_faction
+					NOT = { has_country_flag = is_asia_leader }
+					is_faction_leader = yes
+				}
+				set_country_flag = is_asia_leader
+				clr_country_flag = in_asia_faction
+			}
+			if = {
+				limit = {
+					has_country_flag = in_internationale_faction
+					NOT = { has_country_flag = is_internationale_leader }
+					is_faction_leader = yes
+				}
+				set_country_flag = is_internationale_leader
+				clr_country_flag = in_internationale_faction
+			}
+		}
+	}
+
+	option = {
+	}
+}
+
+#########################################################################
+# on ending a peace conference check to make sure the leaders have the right flag
+#########################################################################
+country_event = {
+	id = DH_Factions.3
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			if = {
+				limit = {
+					has_country_flag = in_allies_faction
+					NOT = { has_country_flag = is_allies_leader }
+					is_faction_leader = yes
+				}
+				set_country_flag = is_allies_leader
+				clr_country_flag = in_allies_faction
+			}
+			if = {
+				limit = {
+					has_country_flag = in_comintern_faction
+					NOT = { has_country_flag = is_comintern_leader }
+					is_faction_leader = yes
+				}
+				set_country_flag = is_comintern_leader
+				clr_country_flag = in_comintern_faction
+			}
+			if = {
+				limit = {
+					has_country_flag = in_axis_faction
+					NOT = { has_country_flag = is_axis_leader }
+					is_faction_leader = yes
+				}
+				set_country_flag = is_axis_leader
+				clr_country_flag = in_axis_faction
+			}
+			if = {
+				limit = {
+					has_country_flag = in_asia_faction
+					NOT = { has_country_flag = is_asia_leader }
+					is_faction_leader = yes
+				}
+				set_country_flag = is_asia_leader
+				clr_country_flag = in_asia_faction
+			}
+			if = {
+				limit = {
+					has_country_flag = in_internationale_faction
+					NOT = { has_country_flag = is_internationale_leader }
+					is_faction_leader = yes
+				}
+				set_country_flag = is_internationale_leader
+				clr_country_flag = in_internationale_faction
+			}
+		}
+		every_country = {
+			limit = { has_country_flag = is_allies_leader }
+			country_event = DH_Factions.4
+		}
+		every_country = {
+			limit = { has_country_flag = is_comintern_leader }
+			country_event = DH_Factions.6
+		}
+		every_country = {
+			limit = { has_country_flag = is_axis_leader }
+			country_event = DH_Factions.8
+		}
+		every_country = {
+			limit = { has_country_flag = is_asia_leader }
+			country_event = DH_Factions.10
+		}
+		every_country = {
+			limit = { has_country_flag = is_internationale_leader }
+			country_event = DH_Factions.12
+		}
+	}
+	option = {}
+}
+
+#########################################################################
+# Make sure all those in a faction have the right flags
+#########################################################################
+#Allies
+country_event = {
+	id = DH_Factions.4
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				is_in_faction_with = ROOT
+				NOT = { tag = ROOT }
+			}
+			country_event = DH_Factions.5
+		}
+	}
+	option = {}
+}
+country_event = {
+	id = DH_Factions.5
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = is_allies_leader
+		clr_country_flag = in_allies_faction
+		clr_country_flag = is_comintern_leader
+		clr_country_flag = in_comintern_faction
+		clr_country_flag = is_axis_leader
+		clr_country_flag = in_axis_faction
+		clr_country_flag = is_asia_leader
+		clr_country_flag = in_asia_faction
+		clr_country_flag = is_internationale_leader
+		clr_country_flag = in_internationale_faction
+
+		set_country_flag = in_allies_faction
+	}
+	option = {}
+}
+#Comintern
+country_event = {
+	id = DH_Factions.6
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				is_in_faction_with = ROOT
+				NOT = { tag = ROOT }
+			}
+			country_event = DH_Factions.7
+		}
+	}
+	option = {}
+}
+country_event = {
+	id = DH_Factions.7
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = is_allies_leader
+		clr_country_flag = in_allies_faction
+		clr_country_flag = is_comintern_leader
+		clr_country_flag = in_comintern_faction
+		clr_country_flag = is_axis_leader
+		clr_country_flag = in_axis_faction
+		clr_country_flag = is_asia_leader
+		clr_country_flag = in_asia_faction
+		clr_country_flag = is_internationale_leader
+		clr_country_flag = in_internationale_faction
+
+		set_country_flag = in_comintern_faction
+	}
+	option = {}
+}
+#Axis
+country_event = {
+	id = DH_Factions.8
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				is_in_faction_with = ROOT
+				NOT = { tag = ROOT }
+			}
+			country_event = DH_Factions.9
+		}
+	}
+	option = {}
+}
+country_event = {
+	id = DH_Factions.9
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = is_allies_leader
+		clr_country_flag = in_allies_faction
+		clr_country_flag = is_comintern_leader
+		clr_country_flag = in_comintern_faction
+		clr_country_flag = is_axis_leader
+		clr_country_flag = in_axis_faction
+		clr_country_flag = is_asia_leader
+		clr_country_flag = in_asia_faction
+		clr_country_flag = is_internationale_leader
+		clr_country_flag = in_internationale_faction
+
+		set_country_flag = in_axis_faction
+	}
+	option = {}
+}
+#Asia
+country_event = {
+	id = DH_Factions.10
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				is_in_faction_with = ROOT
+				NOT = { tag = ROOT }
+			}
+			country_event = DH_Factions.11
+		}
+	}
+	option = {}
+}
+country_event = {
+	id = DH_Factions.11
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = is_allies_leader
+		clr_country_flag = in_allies_faction
+		clr_country_flag = is_comintern_leader
+		clr_country_flag = in_comintern_faction
+		clr_country_flag = is_axis_leader
+		clr_country_flag = in_axis_faction
+		clr_country_flag = is_asia_leader
+		clr_country_flag = in_asia_faction
+		clr_country_flag = is_internationale_leader
+		clr_country_flag = in_internationale_faction
+
+		set_country_flag = in_axis_faction
+	}
+	option = {}
+}
+#Internationale
+country_event = {
+	id = DH_Factions.12
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				is_in_faction_with = ROOT
+				NOT = { tag = ROOT }
+			}
+			country_event = DH_Factions.13
+		}
+	}
+	option = {}
+}
+country_event = {
+	id = DH_Factions.13
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		clr_country_flag = is_allies_leader
+		clr_country_flag = in_allies_faction
+		clr_country_flag = is_comintern_leader
+		clr_country_flag = in_comintern_faction
+		clr_country_flag = is_axis_leader
+		clr_country_flag = in_axis_faction
+		clr_country_flag = is_asia_leader
+		clr_country_flag = in_asia_faction
+		clr_country_flag = is_internationale_leader
+		clr_country_flag = in_internationale_faction
+
+		set_country_flag = in_internationale_faction
+	}
+	option = {}
+}
+
+#########################################################################
+# The Event that the Leader gets when someone wants to join.
+#########################################################################
+country_event = {
+	id = DH_Factions_Join.1
+	title = DH_Factions_Join.1.t
+	desc = DH_Factions_Join.1.d
+	picture = GFX_report_event_001
+
+	is_triggered_only = yes
+
+	option = {#Yes
+		name = DH_Factions_Join.1.a
+		add_to_faction = FROM
+	}
+
+	option = {#No
+		name = DH_Factions_Join.1.b
+	}
+}

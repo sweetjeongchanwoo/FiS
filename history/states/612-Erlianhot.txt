@@ -1,0 +1,39 @@
+state={
+	id=612
+	name="STATE_612"
+
+	history={
+		owner = NEA
+		add_core_of = NEA
+		add_core_of = CHI
+		add_core_of = PRC
+		
+		1936.1.1 = {
+			owner = MEN
+			add_core_of = MEN
+			remove_core_of = NEA
+		}
+		1944.6.20 = {
+			owner = MEN
+			controller = MEN
+		}	
+		1946.1.1 = {
+			owner = PRC
+			controller = PRC
+		}			
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			12448 1 
+		}
+	}
+
+	provinces={
+		1551 1608 1796 4222 4612 4655 7545 10372 11752 12448 
+	}
+	manpower=566000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

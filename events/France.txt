@@ -1,0 +1,4327 @@
+﻿#########################################################################
+# Darkest Hour Events : France
+#########################################################################
+
+add_namespace = DH_France_Turkey
+add_namespace = DH_France
+add_namespace = DH_France_News
+add_namespace = DH_FRA_Establishment_of_Commissariat_au_Plan
+add_namespace = DH_FRA_Establish_French_Regions
+add_namespace = DH_FRA_SFIO_Election
+add_namespace = DH_FRA_Franc_Speculation
+add_namespace = DH_FRA_Reform_of_the_State
+add_namespace = DH_FRA_Reform_of_the_State_Article_6
+add_namespace = DH_FRA_Reform_of_the_State_Article_5
+add_namespace = DH_FRA_Reform_of_the_State_Article_4
+add_namespace = DH_FRA_Reform_of_the_State_Article_8
+add_namespace = DH_FRA_Reform_of_the_State_Outcome
+add_namespace = DH_FRA_Stavisky_Case_Part_1
+add_namespace = DH_FRA_Stavisky_Case_Part_2
+add_namespace = DH_FRA_Stavisky_Case_Part_3
+add_namespace = DH_FRA_Paul_Boncour_Government
+add_namespace = DH_FRA_Servant_Budget
+add_namespace = DH_FRA_National_Lottery
+add_namespace = DH_FRA_Agricultural_Law
+add_namespace = DH_FRA_Crisis_of_the_6_February
+add_namespace = DH_FRA_6_February_Aftermath
+add_namespace = DH_FRA_Milices_Fascistes
+add_namespace = DH_FRA_Front_Populaire_Focus
+add_namespace = DH_FRA_Pre_Matignon_Accord
+add_namespace = DH_FRA_Matignon_Accord
+add_namespace = DH_FRA_Formation_of_Popular_Front
+add_namespace = DH_FRA_Formation_of_Popular_Front_HM
+add_namespace = DH_FRA_PRS_Collapse
+
+#########################################################################
+# Turkey is asking for Hatay
+#########################################################################
+country_event = {
+	id = DH_France_Turkey.1
+	title = DH_France_Turkey.1.t
+	desc = DH_France_Turkey.1.d
+	picture = GFX_report_event_bunker_01
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# For the sake of friendship between our nations
+	option = {
+		name = DH_France_Turkey.1.A
+		TUR = { transfer_state = 803 }
+    }
+	# For the sake of friendship between our nations
+	option = {
+		name = DH_France_Turkey.1.B
+    }	
+}
+
+#########################################################################
+# Tour de France Begins
+#########################################################################
+country_event = {
+	id = DH_France_News.1
+	title = DH_France_News.1.t
+	desc = DH_France_News.1.d
+	picture = GFX_report_FRA_Tour_de_France
+
+	major = yes
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		date > 1936.7.7
+		has_start_date < 1936.7.7
+	}
+
+	option = {
+		name = DH_France_News.1.A
+		news_event = { id = DH_France_News.2 days = 5 }
+	}
+}
+
+#########################################################################
+# Tour de France ends
+#########################################################################
+news_event = {
+	id = DH_France_News.2
+	title = DH_France_News.2.t
+	desc = DH_France_News.2.d
+	picture = GFX_news_FRA_Tour_de_France
+
+	major = yes
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = DH_France_News.2.A
+		trigger = { original_tag = FRA }
+	}
+	option = {
+		name = DH_France_News.2.B
+		trigger = { NOT = { original_tag = FRA } }
+	}
+}
+
+#########################################################################
+# Finishing up the Maginot Line
+#########################################################################
+country_event = {
+	id = DH_France.1
+	title = DH_France.1.t
+	desc = DH_France.1.d
+	picture = GFX_report_FRA_Maginot_Line
+
+	is_triggered_only = yes
+
+	#They might go above it!
+	option = {
+		name = DH_France.1.A
+		ai_chance = {
+			factor = 100
+		}		
+		20 = {
+			if = {
+				limit = {
+					free_building_slots = {
+						building = anti_air_building
+						size > 2
+					}
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 3
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					level = 1
+					province = {
+						id = 678
+						id = 6529
+						id = 9503
+						id = 549
+						id = 3629
+						id = 11502
+						id = 9559
+					}
+				}
+			}
+		}
+	}
+
+	#The might try to breakthrough!
+	option = {
+		name = DH_France.1.B
+		ai_chance = {
+			factor = 99
+		}		
+		20 = {
+			if = {
+				set_building_level = {
+					type = bunker
+					level = 3
+					province = {
+						id = 678
+						id = 6529
+						id = 9503
+						id = 549
+						id = 3629
+						id = 11502
+						id = 9559
+					}
+				}
+			}
+		}
+	}
+}
+
+#########################################################################
+# 1936 Legislative Elections
+#########################################################################
+country_event = {
+	id = DH_France.2
+	title = DH_France.2.t
+	desc = DH_France.2.d
+	picture = GFX_report_FRA_1936_Elections
+
+	fire_only_once = yes	
+	is_triggered_only = yes
+	trigger = {
+		original_tag = FRA
+		date > 1936.1.1
+		has_start_date < 1936.2.1
+	}
+
+	# Leon Blum - Popular Front
+	option = {
+		name = DH_France.2.A
+		ai_chance = { factor = 90 }		
+		set_party_name = { ideology = democratic long_name = "Front Populaire" name = "FP" }
+		create_country_leader = { 
+			name = "Léon Blum" 
+			desc = "" 
+			picture = "P_D_Leon_Blum.tga" 
+			expire = "1965.1.1" 
+			ideology = social_democracy
+			traits = { }
+		}		
+	}
+
+	# Pierre-Étienne Flandin - Droite Parlementaire
+	option = {
+		name = DH_France.2.B
+		ai_chance = { factor = 5 }	
+		trigger = { always = no }
+		create_country_leader = { 
+			name = "Pierre-Étienne Flandin" 
+			desc = "" 
+			picture = "P_D_Pierre_Etienne_Flandin.tga" 
+			expire = "1965.1.1" 
+			ideology = social_conservatism
+			traits = { }
+		}		
+		set_party_name = { ideology = democratic long_name = "Droite Parlementaire" name = "DP" }
+	}
+
+	# Louis Marin - Droite Parlementaire
+	option = {
+		name = DH_France.2.C
+		trigger = { always = no }
+		ai_chance = { factor = 5 }		
+		create_country_leader = { 
+			name = "Louis Marin" 
+			desc = "" 
+			picture = "France_D_Louis_Marin.tga" 
+			expire = "1965.1.1" 
+			ideology = social_conservatism
+			traits = { }
+		}		
+		set_party_name = { ideology = democratic long_name = "Droite Parlementaire" name = "DP" }
+	}	
+}
+
+#########################################################################
+# Maurice Thorez calls for an end of all Strikes
+#########################################################################
+news_event = {
+	id = DH_France.9
+	title = DH_France.9.t
+	desc = DH_France.9.d
+	picture = GFX_news_FRA_Thorez
+
+	is_triggered_only = yes
+
+	#It's over boys
+	option = {
+		name = DH_France.9.A
+		swap_ideas = {
+			remove_idea = FRA_matignon_agreements
+			add_idea = FRA_matignon_agreements_better
+		}
+	}
+}
+
+#########################################################################
+# French Popular Party founded
+#########################################################################
+news_event = {
+	id = DH_France.10
+	title = DH_France.10.t
+	desc = DH_France.10.d
+	picture = GFX_news_FRA_Popular_Party
+
+	trigger = {
+		original_tag = FRA
+		date > 1936.6.28
+		has_start_date < 1936.6.28
+		NOT = {
+			has_government = fascist
+		}
+	}
+	fire_only_once = yes
+
+	#Enemies everywhere
+	option = {
+		name = DH_France.10.A
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.005
+		}
+	}
+}
+
+#########################################################################
+# Jacques Bainville passes away
+#########################################################################
+news_event = {
+	id = DH_France.11
+	title = DH_France.11.t
+	desc = DH_France.11.d
+	picture = GFX_news_FRA_Jacques_Bainville_Funeral
+
+	trigger = {
+		original_tag = FRA
+		date > 1936.2.9
+		has_start_date < 1936.2.9
+	}
+	fire_only_once = yes
+
+	#Random Frnech
+	option = {
+		name = DH_France.11.A
+		news_event = { id = DH_France.12 days = 4 }		
+	}
+}
+
+#########################################################################
+# Léon Blum Attacked and Wounded!
+#########################################################################
+country_event = {
+	id = DH_France.12
+	title = DH_France.12.t
+	desc = DH_France.12.d
+	picture = GFX_news_FRA_Leon_Blum_Attacked
+
+	is_triggered_only = yes
+
+	#Violence
+	option = {
+		name = DH_France.12.A
+		add_stability = -0.05
+		hidden_effect = {
+			country_event = { id = DH_France.14 days = 3 }
+		}
+	}
+}
+
+#########################################################################
+# Leftist Organizations Protest
+#########################################################################
+country_event = {
+	id = DH_France.14
+	title = DH_France.14.t
+	desc = DH_France.14.d
+	picture = GFX_report_FRA_1934_Crisis
+
+	is_triggered_only = yes
+
+	#Dammit mange
+	option = {
+		name = DH_France.14.A
+		add_political_power = -50
+	}
+}
+
+#########################################################################
+# Charles Maurras' Sentence
+#########################################################################
+news_event = {
+	id = DH_France.15
+	title = DH_France.15.t
+	desc = DH_France.15.d
+	picture = GFX_news_FRA_Charles_Maurras_Sentence
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = FRA
+		date > 1936.3.21
+		has_start_date < 1936.3.21
+	}
+
+	#stuff
+	option = {
+		name = DH_France.15.A
+		add_popularity = {
+			ideology = authoritarian
+			popularity = -0.05
+		}
+	}
+}
+
+#########################################################################
+# Viénot Agreements
+#########################################################################
+news_event = {
+	id = DH_France.16
+	title = DH_France.16.t
+	desc = DH_France.16.d
+	picture = GFX_news_FRA_Vienot_Agreements
+
+	trigger = {
+		original_tag = FRA
+		date > 1936.9.9
+		has_start_date < 1936.9.9
+	}
+	fire_only_once = yes
+
+	#stuff
+	option = {
+		name = DH_France.16.A
+	}
+}
+
+#########################################################################
+# Dissolution of the North African Star
+#########################################################################
+country_event = {
+	id = DH_France.17
+	title = DH_France.17.t
+	desc = DH_France.17.d
+	picture = GFX_report_event_bunker_04
+
+	is_triggered_only = yes
+
+	#Dammit mange
+	option = {
+		name = DH_France.17.A
+		add_stability = 0.05
+		add_political_power = 100
+	}
+}
+
+#########################################################################
+# Storm hits the Vendée coast
+#########################################################################
+country_event = {
+	id = DH_France.18
+	title = DH_France.18.t
+	desc = DH_France.18.d
+	picture = GFX_report_event_bunker_04
+
+	trigger = {
+		original_tag = FRA
+		date > 1937.7.13
+		has_start_date < 1937.7.13
+	}
+	fire_only_once = yes
+
+	#Storms
+	option = {
+		name = DH_France.18.A
+		30 = {
+			remove_building = {
+				type = infrastructure
+				level = 1
+			}
+		}
+	}
+}
+
+#########################################################################
+# Inauguration of the Universal Exhibition of Paris
+#########################################################################
+country_event = {
+	id = DH_France.19
+	title = DH_France.19.t
+	desc = DH_France.19.d
+	picture = GFX_report_FRA_Universal_Exhibition_of_Paris
+
+	trigger = {
+		original_tag = FRA
+		date > 1937.5.24
+		has_start_date < 1937.5.24
+	}
+	fire_only_once = yes
+
+	#Welp
+	option = {
+		name = DH_France.19.A
+		add_political_power = 50
+	}
+}
+
+#########################################################################
+# Nationalist riots in Tunisia
+#########################################################################
+country_event = {
+	id = DH_France.21
+	title = DH_France.21.t
+	desc = DH_France.21.d
+	picture = GFX_report_event_south_africa_patrol
+
+	trigger = {
+		original_tag = FRA
+		date > 1938.4.9
+		has_start_date < 1938.4.9
+	}
+	fire_only_once = yes
+
+	#Army
+	option = {
+		name = DH_France.21.A
+		add_stability = -0.02
+		complete_national_focus = FRA_The_Destour_Question
+	}
+}
+
+#########################################################################
+# Édouard Daladier President of the Council
+#########################################################################
+country_event = {
+	id = DH_France.22
+	title = DH_France.22.t
+	desc = DH_France.22.d
+	picture = GFX_report_FRA_Edouard_Daladier
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		date > 1938.4.10
+		has_start_date < 1938.4.10
+		#has_completed_focus =FRA_Victory_of_the_Popular_Front
+	}
+
+	#Army
+	option = {
+		name = DH_France.22.A
+		add_stability = -0.01
+		create_country_leader = {
+			name = "Edouard Daladier"
+			desc = ""
+			picture = "P_D_Edouard_Daladier.tga"
+			expire = "1965.1.1"
+			ideology = social_democracy
+			traits = {
+				POSITION_President
+				SUBIDEOLOGY_Social_Democracy 
+				HoS_Le_Taureau_de_Vaucluse
+				HoS_Appeaser
+			}
+		}		
+	}
+}
+
+#########################################################################
+# End of the Popular Front
+#########################################################################
+country_event = {
+	id = DH_France.23
+	title = DH_France.23.t
+	desc = DH_France.23.d
+	picture = GFX_report_event_bunker_04
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		date > 1938.10.8
+		has_start_date < 1938.10.8
+		#has_completed_focus =FRA_Victory_of_the_Popular_Front
+	}
+
+	#Army
+	option = {
+		name = DH_France.23.A
+		add_stability = -0.05
+	}
+}
+
+#########################################################################
+# Peugeot 202
+#########################################################################
+country_event = {
+	id = DH_France.24
+	title = DH_France.24.t
+	desc = DH_France.24.d
+	picture = GFX_report_FRA_Peugeot_202
+
+	trigger = {
+		original_tag = FRA
+		date > 1939.3.28
+		has_start_date < 1939.3.28
+	}
+	fire_only_once = yes
+
+	#Army
+	option = {
+		name = DH_France.24.A
+		add_political_power = 20
+	}
+}
+
+#########################################################################
+# 150th Bastille Day
+#########################################################################
+country_event = {
+	id = DH_France.25
+	title = DH_France.25.t
+	desc = DH_France.25.d
+	picture = GFX_report_FRA_Bastille_Day
+
+	trigger = {
+		original_tag = FRA
+		date > 1939.7.14
+		has_start_date < 1939.7.14
+	}
+	fire_only_once = yes
+
+	#Army
+	option = {
+		name = DH_France.25.A
+		add_political_power = 50
+	}
+}
+
+#########################################################################
+# Maurice Thorez Deserts to the USSR
+#########################################################################
+country_event = {
+	id = DH_France.26
+	title = DH_France.26.t
+	desc = DH_France.26.d
+	picture = GFX_report_FRA_Maurice_Thorez
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		has_war_with = GER
+		GER = {
+			NOT = {
+				has_war_with = SOV
+			}
+		}
+		NOT = {
+			has_government = communist
+		}
+	}
+
+	#Army
+	option = {
+		name = DH_France.26.A
+	}
+}
+
+#########################################################################
+# Mending The Gap
+#########################################################################
+country_event = {
+	id = DH_France.27
+	title = DH_France.27.t
+	desc = DH_France.27.d
+	picture = GFX_report_event_bunker_04
+
+	is_triggered_only = yes
+
+	#deep reforms
+	option = {
+		name = DH_France.27.A
+		add_political_power = -120
+		add_stability = 0.1
+		24 = {
+			if = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		29 = {
+			if = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		762 = {
+			if = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		763 = {
+			if = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		16 = {
+			if = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		custom_effect_tooltip = mending_the_gap_tt
+	}
+	#second wave reforms
+	option = {
+		name = DH_France.27.B
+		add_political_power = -50
+		add_stability = 0.1
+		24 = {
+			if = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		29 = {
+			if = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		762 = {
+			if = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#Small reforms
+	option = {
+		name = DH_France.27.C
+		29 = {
+			if = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+}
+#########################################################################
+# 16 May SFIO Election
+#########################################################################
+country_event = {
+	id = DH_FRA_SFIO_Election.1
+	title = DH_FRA_SFIO_Election.1.t
+	desc = DH_FRA_SFIO_Election.1.d
+	picture = GFX_report_FRA_SFIO
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = FRA
+		date > 1933.4.16
+		has_start_date < 1933.4.16
+	}
+
+	option = {
+		name = DH_FRA_SFIO_Election.1.A
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+				kill_ideology_leader = socialist
+				create_country_leader = {
+				name = "Léon Blum"
+				desc = ""
+				picture = "P_D_Leon_Blum.tga"
+				expire = "1965.1.1"
+				ideology = socialism
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Socialism
+					HoG_Ambitious_Union_Boss
+				}
+			}
+		}	
+	}	
+	option = {
+		name = DH_FRA_SFIO_Election.1.B
+		hidden_effect = {
+				kill_ideology_leader = socialist
+				create_country_leader = {
+				name = "Pierre Renaudel"
+				desc = ""
+				picture = "P_D_Leon_Blum.tga"
+				expire = "1965.1.1"
+				ideology = socialism
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Socialism
+					HoG_Participiste
+				}
+			}
+		}	
+	}
+}
+#########################################################################
+# Large speculation on the franc
+#########################################################################
+country_event = {
+	id = DH_FRA_Franc_Speculation.1
+	title = DH_FRA_Franc_Speculation.1.t
+	desc = DH_FRA_Franc_Speculation.1.d
+	picture = To_Be_Inserted
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = FRA
+		date > 1935.5.6
+		has_start_date < 1935.5.6
+	}
+
+	option = {
+		name = DH_FRA_Franc_Speculation.1.A
+		set_temp_variable = {
+			money_to_gain = -1000
+		}
+	}	
+}
+#########################################################################
+# Fall of Pierre-Etienne Flandin
+#########################################################################
+country_event = {
+	id = DH_FRA_Franc_Speculation.2
+	title = DH_FRA_Franc_Speculation.2.t
+	desc = DH_FRA_Franc_Speculation.2.d
+	picture = To_Be_Inserted
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = FRA
+		date > 1935.5.20
+		has_start_date < 1935.5.20
+	}
+
+	option = {
+		name = DH_FRA_Franc_Speculation.2.A
+		hidden_effect = {
+			create_country_leader = {
+				name = "Pierre Renaudel"
+				desc = ""
+				picture = "P_D_Leon_Blum.tga"
+				expire = "1965.1.1"
+				ideology = socialism
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Socialism
+					HoG_Ambitious_Union_Boss
+				}
+			}
+		}
+	}
+
+	option = {
+		name = DH_FRA_Franc_Speculation.3.A
+		hidden_effect = {
+			create_country_leader = {
+				name = "Pierre Laval"
+				desc = ""
+				picture = "P_D_Pierre_Laval.tga"
+				expire = "1965.1.1"
+				ideology = social_conservatism
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Conservatism
+					HoG_Flamboyant_Tough_Guy
+				}
+			}
+		}
+		add_stability = 0.05
+	}	
+}
+#########################################################################
+# Establishment of Commissariat au Plan
+#########################################################################
+country_event = {
+	id = DH_FRA_Establishment_of_Commissariat_au_Plan.1
+	title = DH_FRA_Establishment_of_Commissariat_au_Plan.1.t
+	desc = DH_FRA_Establishment_of_Commissariat_au_Plan.1.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Establishment_of_Commissariat_au_Plan.1.A
+		add_ideas = FRA_Commissariat_au_Plan
+	}
+}
+#########################################################################
+# Establishment of the French Regions
+#########################################################################
+country_event = {
+	id = DH_FRA_Establish_French_Regions.1
+	title = DH_FRA_Establish_French_Regions.1.t
+	desc = DH_FRA_Establish_French_Regions.1.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Establish_French_Regions.1.A
+		add_timed_idea = {
+				idea = FRA_The_French_Regions
+				days = 365
+		}
+	}
+}
+#########################################################################
+# The Reform of the State
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State.1
+	title = DH_FRA_Reform_of_the_State.1.t
+	desc = DH_FRA_Reform_of_the_State.1.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State.1.A
+		unlock_decision_category_tooltip = FRA_Reform_of_the_State_category
+	}
+}
+#########################################################################
+# Proposition Accepted
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_6.1
+	title = DH_FRA_Reform_of_the_State_Article_6.1.t
+	desc = DH_FRA_Reform_of_the_State_Article_6.1.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_6.1.A
+	}
+}
+#########################################################################
+# Proposition Refused
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_6.2
+	title = DH_FRA_Reform_of_the_State_Article_6.2.t
+	desc = DH_FRA_Reform_of_the_State_Article_6.2.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_6.2.A
+		country_event = {
+    			id = DH_FRA_Reform_of_the_State_Article_6.4
+		}
+	}
+}
+#########################################################################
+# Article 6
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_6.3
+	title = DH_FRA_Reform_of_the_State_Article_6.3.t
+	desc = DH_FRA_Reform_of_the_State_Article_6.3.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_variable = {
+			var = Reform_Progress
+			value = 0
+		}
+	}
+	
+	#Take it Easy
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_6.3.A
+		add_political_power = -25
+		set_temp_variable = { reform_progress_to_add = 10 }
+		FRA_add_reform_of_the_state_progress = yes
+		custom_effect_tooltip = add_reform_of_the_state_progress_changes_tt
+		country_event = {
+    		id = DH_FRA_Reform_of_the_State_Article_6.1
+		}
+		
+		
+	}
+	#Moderate Deal
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_6.3.B
+
+		set_country_flag = FRA_Reform_of_the_State_Moderate_Deal
+		set_variable = { chanceHigh = random }
+		add_political_power = -50
+		set_temp_variable = { reform_progress_to_add = 20 }
+		custom_effect_tooltip = add_reform_of_the_state_progress_tt
+		if = {
+			#Proposition Accepted
+    		limit = {
+       			check_variable = { chanceHigh < 0.7 }
+			  	has_country_leader = {
+    				name = "Pierre Renaudel"
+    		  		ruling_only = no
+				}
+    		}   
+    		FRA_add_reform_of_the_state_progress = yes
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_6.1
+				}
+			}	
+		}
+		else_if = {
+			#Proposition Accepted
+			limit = {
+				check_variable = { chanceHigh < 0.5}
+			}
+			FRA_add_reform_of_the_state_progress = yes
+			country_event = {
+    			id = DH_FRA_Reform_of_the_State_Article_6.1
+			}	
+		}
+		else = {
+			#Proposition Refused
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_6.2
+				}
+			}
+		}		
+		
+	}
+	#No Deal
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_6.3.C
+		set_country_flag = FRA_Reform_of_the_State_No_Deal
+		set_variable = { chanceLow = random }
+		add_political_power = -75
+
+		set_temp_variable = { reform_progress_to_add = 25 }
+		custom_effect_tooltip = add_reform_of_the_state_progress_tt
+		if = {
+			#Proposition Accepted
+    		limit = {
+       			check_variable = { chanceLow < 0.5 }
+				has_country_leader = {
+    				name = "Pierre Renaudel"
+    		    	ruling_only = no
+				}
+    		}   
+    		FRA_add_reform_of_the_state_progress = yes
+			country_event = {
+    			id = DH_FRA_Reform_of_the_State_Article_6.1
+			}
+			
+		}
+		else_if = {
+			#Proposition Accepted
+			limit = {
+				check_variable = { chanceLow < 0.25 }
+			}
+			FRA_add_reform_of_the_state_progress = yes
+			country_event = {
+    			id = DH_FRA_Reform_of_the_State_Article_6.1
+			}
+		}
+		else = {
+			#Proposition Refused
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_6.2
+				}
+			}
+		}
+	}
+}
+#########################################################################
+# Alter the Deal?
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_6.4
+	title = DH_FRA_Reform_of_the_State_Article_6.4.t
+	desc = DH_FRA_Reform_of_the_State_Article_6.4.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_variable = { chanceS = random }
+	}
+
+	option = {
+		#Opposition accepts PM's post and limited amount of ministers
+		trigger = {
+			check_variable = { chanceS < 0.6}
+			has_country_flag = FRA_Reform_of_the_State_No_Deal
+		}
+		name = DH_FRA_Reform_of_the_State_Article_6.4.A
+		country_event = {
+    		id = DH_FRA_Reform_of_the_State_Article_6.5
+		}
+	}
+	option = {
+		#Opposition accepts only PM's introduction (with No Deal)
+		trigger = {
+			check_variable = { chanceS < 0.9}
+			has_country_flag = FRA_Reform_of_the_State_No_Deal
+		}
+		name = DH_FRA_Reform_of_the_State_Article_6.4.B
+		country_event = {
+			id = DH_FRA_Reform_of_the_State_Article_6.5
+		}
+	}
+	option = {
+		#Opposition accepts only PM's introduction (with Moderate Deal)
+		trigger = {
+			check_variable = { chanceS < 0.9}
+			has_country_flag = FRA_Reform_of_the_State_Moderate_Deal
+		}
+		name = DH_FRA_Reform_of_the_State_Article_6.4.C
+		country_event = {
+			id = DH_FRA_Reform_of_the_State_Article_6.5
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {
+				has_country_flag = FRA_Reform_of_the_State_Moderate_Deal
+				has_country_flag = FRA_Reform_of_the_State_No_Deal
+			}
+		}
+		country_event = {
+    		id = DH_FRA_Reform_of_the_State_Article_6.6
+		}
+	}
+}
+#########################################################################
+# We'll Take what we can get
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_6.5
+	title = DH_FRA_Reform_of_the_State_Article_6.5.t
+	desc = DH_FRA_Reform_of_the_State_Article_6.5.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_6.5.A
+	}
+}
+#########################################################################
+# Perhaps we'll have more luck with other articles
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_6.6
+	title = DH_FRA_Reform_of_the_State_Article_6.6.t
+	desc = DH_FRA_Reform_of_the_State_Article_6.6.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_6.6.A
+	}
+}
+#########################################################################
+# Article 5
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_5.1
+	title = DH_FRA_Reform_of_the_State_Article_5.1.t
+	desc = DH_FRA_Reform_of_the_State_Article_5.1.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	immediate = {
+		clear_variable = chanceS
+		set_variable = {chanceS = random}
+	}
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_5.1.A
+		# If renaudel is leader of SFIO 100% chance
+		if = {
+			limit = {
+				has_country_leader = {
+    				name = "Pierre Renaudel"
+    		    	ruling_only = no
+				}
+			}
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_5.2
+				}
+			}
+			
+		}
+		# If blum is leader of SFIO 50% chance
+		else_if = {
+			limit = {
+				has_country_leader = {
+    				name = "Léon Blum"
+    		   		ruling_only = no
+				}
+				check_variable = {chanceS < 0.5 }
+			}
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_5.2
+				}
+			}
+		}
+		# If blum is leader of SFIO the other 50% chance
+		else = {
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_5.3
+				}
+			}
+		}
+	}
+}
+
+#########################################################################
+# Support of the President
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_5.2
+	title = DH_FRA_Reform_of_the_State_Article_5.2.t
+	desc = DH_FRA_Reform_of_the_State_Article_5.2.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_5.2.A
+		set_country_flag = FRA_Article_5_President_Support
+		country_event = {
+    			id = DH_FRA_Reform_of_the_State_Article_5.4
+		}
+	}
+}
+#########################################################################
+# No Support of the President
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_5.3
+	title = DH_FRA_Reform_of_the_State_Article_5.3.t
+	desc = DH_FRA_Reform_of_the_State_Article_5.3.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	
+	option = {
+		set_country_flag = FRA_Article_5_No_President_Support
+		name = DH_FRA_Reform_of_the_State_Article_5.3.A
+		country_event = {
+    			id = DH_FRA_Reform_of_the_State_Article_5.4
+		}
+	}
+}
+#########################################################################
+# Negotiations with Opposition
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_5.4
+	title = DH_FRA_Reform_of_the_State_Article_5.4.t
+	desc = DH_FRA_Reform_of_the_State_Article_5.4.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	immediate = {
+		clear_variable = chanceS
+		set_variable = {chanceS = random}
+	}
+	
+	#We Need this to Pass
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_5.4.A
+
+		add_political_power = -50
+
+		set_temp_variable = { reform_progress_to_add = 15 }
+		custom_effect_tooltip = add_reform_of_the_state_progress_tt
+
+		if = {
+			limit = {
+				has_country_flag = FRA_Article_5_President_Support
+			}
+			add_political_power = -50
+			FRA_add_reform_of_the_state_progress = yes
+			country_event = {
+    			id = DH_FRA_Reform_of_the_State_Article_5.5
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = FRA_Article_5_No_President_Support
+				check_variable = {chanceS < 0.7 }
+			}
+			add_political_power = -50
+			FRA_add_reform_of_the_state_progress = yes
+			country_event = {
+    			id = DH_FRA_Reform_of_the_State_Article_5.5
+			}
+		}
+		else = {
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_5.6
+				}
+			}
+		}
+	}
+
+	#Reform must be fully completed!
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_5.4.B
+		set_temp_variable = { reform_progress_to_add = 25 }
+		custom_effect_tooltip = add_reform_of_the_state_progress_tt
+
+		clear_variable = chanceS
+
+		set_variable = {chanceS = random}
+		add_political_power = -100
+		if = {
+			limit = {
+				has_country_flag = FRA_Article_5_President_Support
+				check_variable = {chanceS < 0.5 }
+			}
+			add_political_power = -100
+			FRA_add_reform_of_the_state_progress = yes
+			country_event = {
+    			id = DH_FRA_Reform_of_the_State_Article_5.5
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = FRA_Article_5_No_President_Support
+				check_variable = {chanceS < 0.25}
+			}
+			add_political_power = -100
+			FRA_add_reform_of_the_state_progress = yes
+			country_event = {
+    			id = DH_FRA_Reform_of_the_State_Article_5.5
+			}
+		}
+		else = {
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_5.6
+				}
+			}
+		}
+	}
+}
+#########################################################################
+# Hurrah for France
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_5.5
+	title = DH_FRA_Reform_of_the_State_Article_5.5.t
+	desc = DH_FRA_Reform_of_the_State_Article_5.5.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_5.5.A
+		if = {
+			limit = {
+				has_country_flag = FRA_Article_5_No_President_Support
+			}
+			country_event = {
+    			id = DH_FRA_Reform_of_the_State_Article_5.7
+			}
+		}
+	}
+}
+#########################################################################
+# Temporary Setback
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_5.6
+	title = DH_FRA_Reform_of_the_State_Article_5.6.t
+	desc = DH_FRA_Reform_of_the_State_Article_5.6.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_5.6.A
+	}
+}
+#########################################################################
+# President Lebrun resigns!
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_5.7
+	title = DH_FRA_Reform_of_the_State_Article_5.7.t
+	desc = DH_FRA_Reform_of_the_State_Article_5.7.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_5.7.A
+		retire_country_leader = yes
+		country_event = {
+    			id = DH_FRA_Reform_of_the_State_Article_5.8
+		}
+	}
+}
+#########################################################################
+# Senate and Parliament are voting on new President
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_5.8
+	title = DH_FRA_Reform_of_the_State_Article_5.8.t
+	desc = DH_FRA_Reform_of_the_State_Article_5.8.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_5.8.A
+		hidden_effect = {
+			kill_country_leader = yes
+			create_country_leader = {
+				name = "Edouard Daladier"
+				desc = ""
+				picture = "P_D_Edouard_Daladier.tga"
+				expire = "1965.1.1"
+				ideology = social_democracy
+				traits = {
+					POSITION_President
+					SUBIDEOLOGY_Social_Democracy 
+					HoS_Le_Taureau_de_Vaucluse
+					HoS_Appeaser
+				}
+			}
+		}
+	}
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_5.8.B
+		hidden_effect = {
+			kill_country_leader = yes
+			create_country_leader = {
+				name = "Andre Tardieu"
+				desc = ""
+				picture = ""
+				expire = "1965.1.1"
+				ideology = social_democracy
+				traits = {
+					POSITION_President
+					SUBIDEOLOGY_Social_Democracy
+					HoS_Le_Mirabolant
+				}
+			}
+		}
+	}
+}
+
+#########################################################################
+# Article 4
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_4.1
+	title = DH_FRA_Reform_of_the_State_Article_4.1.t
+	desc = DH_FRA_Reform_of_the_State_Article_4.1.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_4.1.A
+		custom_effect_tooltip = DH_FRA_Reform_of_the_State_Article_4.1.A_tt
+		add_political_power = -100
+		country_event = {
+    		id = DH_FRA_Reform_of_the_State_Article_4.2
+		}
+	}
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_4.1.B
+		custom_effect_tooltip = DH_FRA_Reform_of_the_State_Article_4.1.B_tt
+		add_political_power = -50
+
+		if = {
+			limit = {
+				has_country_leader = {
+					name = "Léon Blum"
+					ruling_only = no
+				}
+			}
+			country_event = {
+				id = DH_FRA_Reform_of_the_State_Article_4.5
+			}
+		}
+		else = {
+			country_event = {
+				id = DH_FRA_Reform_of_the_State_Article_4.6
+			}
+		}
+	}
+}
+
+#########################################################################
+# State Councilors unanimously agree!
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_4.2
+	title = DH_FRA_Reform_of_the_State_Article_4.2.t
+	desc = DH_FRA_Reform_of_the_State_Article_4.2.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_4.2.A
+		clear_variable = chanceS
+		set_variable = {chanceS = random }
+		hidden_effect = {
+			#Opposition negotiates
+			if = {
+				limit = {
+					has_country_leader = {
+						name = "Pierre Renaudel"
+						ruling_only = no
+					}
+				}
+				hidden_effect = {
+					country_event = {
+						id = DH_FRA_Reform_of_the_State_Article_4.3
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { chanceS < 0.7 }
+					has_country_leader = {
+						name = "Léon Blum"
+						ruling_only = no
+					}
+				}
+				hidden_effect = {
+					country_event = {
+						id = DH_FRA_Reform_of_the_State_Article_4.3
+					}
+				}
+			}
+			else = {
+				hidden_effect = {
+					country_event = {
+						id = DH_FRA_Reform_of_the_State_Article_4.4
+					}
+				}
+			}
+		}
+	}
+}
+#########################################################################
+# Ensamble, pour la Patrie!
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_4.3
+	title = DH_FRA_Reform_of_the_State_Article_4.3.t
+	desc = DH_FRA_Reform_of_the_State_Article_4.3.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_4.3.A
+		set_temp_variable = { reform_progress_to_add = 15 }
+		custom_effect_tooltip = add_reform_of_the_state_progress_tt
+		FRA_add_reform_of_the_state_progress = yes
+	}
+}
+
+#########################################################################
+# Our efforts werre fruitless!
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_4.4
+	title = DH_FRA_Reform_of_the_State_Article_4.4.t
+	desc = DH_FRA_Reform_of_the_State_Article_4.4.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_4.4.A
+	}
+}
+
+#########################################################################
+# Opposition Refuses!
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_4.5
+	title = DH_FRA_Reform_of_the_State_Article_4.5.t
+	desc = DH_FRA_Reform_of_the_State_Article_4.5.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_4.5.A
+		custom_effect_tooltip = DH_FRA_Reform_of_the_State_Article_4.5.A_tt
+
+		country_event = {
+			id = DH_FRA_Reform_of_the_State_Article_4.7
+		}
+	}
+}
+
+#########################################################################
+# Opposition divided!
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_4.6
+	title = DH_FRA_Reform_of_the_State_Article_4.6.t
+	desc = DH_FRA_Reform_of_the_State_Article_4.6.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_4.6.A
+		custom_effect_tooltip = DH_FRA_Reform_of_the_State_Article_4.6.A_tt
+		country_event = {
+			id = DH_FRA_Reform_of_the_State_Article_4.7
+		}
+	}
+}
+
+#########################################################################
+# We got no choice. Bring Blum to my office.
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_4.7
+	title = DH_FRA_Reform_of_the_State_Article_4.7.t
+	desc = DH_FRA_Reform_of_the_State_Article_4.7.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_4.7.A
+		clear_variable = chanceS
+		set_variable = {chanceS = random }
+		if = {
+			limit = {
+				has_country_leader = {
+					name = "Léon Blum"
+					ruling_only = no
+				}
+				check_variable = {chanceS < 0.7 }
+			}
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_4.8
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_leader = {
+					name = "Pierre Renaudel"
+					ruling_only = no
+				}
+				check_variable = {chanceS > 0.7 }
+			}
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_4.8
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_leader = {
+					name = "Pierre Renaudel"
+					ruling_only = no
+				}
+				check_variable = {chanceS < 0.7 }
+			}
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_4.9
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_leader = {
+					name = "Léon Blum"
+					ruling_only = no
+				}
+				check_variable = {chanceS > 0.7 }
+			}
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_4.9
+				}
+			}
+		}
+	}
+}
+
+#########################################################################
+# Blum is completely unreasonable!
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_4.8
+	title = DH_FRA_Reform_of_the_State_Article_4.8.t
+	desc = DH_FRA_Reform_of_the_State_Article_4.8.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_4.8.A
+		
+	}
+}
+
+#########################################################################
+# Blum-Doumergue agreement
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_4.9
+	title = DH_FRA_Reform_of_the_State_Article_4.9.t
+	desc = DH_FRA_Reform_of_the_State_Article_4.9.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_4.9.A
+		set_temp_variable = { reform_progress_to_add = 25 }
+		custom_effect_tooltip = add_reform_of_the_state_progress_tt
+		FRA_add_reform_of_the_state_progress = yes
+	}
+}
+
+
+#########################################################################
+# Article 8
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_8.1
+	title = DH_FRA_Reform_of_the_State_Article_8.1.t
+	desc = DH_FRA_Reform_of_the_State_Article_8.1.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.1.A
+		if = {
+			limit = {
+				has_country_leader = {
+					name = "Léon Blum"
+					ruling_only = no
+				}
+			}
+			country_event = {
+				id = DH_FRA_Reform_of_the_State_Article_8.3
+			}
+			
+		}
+		else = {
+			country_event = {
+				id = DH_FRA_Reform_of_the_State_Article_8.2
+			}
+		}
+		
+	}
+}
+
+#########################################################################
+# SFIO leadership arrives to Prime Minister's office
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_8.2
+	title = DH_FRA_Reform_of_the_State_Article_8.2.t
+	desc = DH_FRA_Reform_of_the_State_Article_8.2.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.2.A
+		add_political_power = -100
+		custom_effect_tooltip = DH_FRA_Reform_of_the_State_Article_8.2.A_tt
+		country_event = {
+			id = DH_FRA_Reform_of_the_State_Article_8.4
+		}	
+	}
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.2.B
+		add_political_power = -25
+		custom_effect_tooltip = DH_FRA_Reform_of_the_State_Article_8.2.B_tt
+		country_event = {
+			id = DH_FRA_Reform_of_the_State_Article_8.7
+		}
+	}
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.2.C
+		add_political_power = -50
+		custom_effect_tooltip = DH_FRA_Reform_of_the_State_Article_8.2.C_tt
+		country_event = {
+			id = DH_FRA_Reform_of_the_State_Article_8.9
+		}
+	}
+}
+#########################################################################
+# SFIO leadership arrives to Prime Minister's office (Blum is leader path)
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_8.3
+	title = DH_FRA_Reform_of_the_State_Article_8.3.t
+	desc = DH_FRA_Reform_of_the_State_Article_8.3.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.3.A
+		custom_effect_tooltip = DH_FRA_Reform_of_the_State_Article_8.3.A_tt
+		country_event = {
+			id = DH_FRA_Reform_of_the_State_Article_8.4
+		}
+	}
+}
+#########################################################################
+# Tense Negotiations
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_8.4
+	title = DH_FRA_Reform_of_the_State_Article_8.4.t
+	desc = DH_FRA_Reform_of_the_State_Article_8.4.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.4.A
+		clear_variable = chanceS
+		set_variable = {chanceS = random}
+
+		set_country_flag = FRA_Article_8_Concession
+		if = {
+			limit = {
+				has_country_leader = {
+					name = "Léon Blum"
+					ruling_only = no
+				}
+				check_variable = {chanceS < 0.6 }
+			}
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_8.5
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_leader = {
+					name = "Pierre Renaudel"
+					ruling_only = no
+				}
+				check_variable = {chanceS < 0.9 }
+			}
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_8.5
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_8.6
+				}
+			}
+		}
+	}
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.4.B
+		if = {
+			limit = {
+				has_country_leader = {
+					name = "Léon Blum"
+					ruling_only = no
+				}
+				check_variable = {chanceS < 0.1 }
+			}
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_8.5
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_leader = {
+					name = "Pierre Renaudel"
+					ruling_only = no
+				}
+				check_variable = {chanceS < 0.5 }
+			}
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_8.5
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_8.6
+				}
+			}
+		}
+	}
+}
+
+#########################################################################
+# Blum, pressured and outvoiced, gives up
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_8.5
+	title = DH_FRA_Reform_of_the_State_Article_8.5.t
+	desc = DH_FRA_Reform_of_the_State_Article_8.5.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.5.A	
+		if = {
+			limit = {
+				has_country_flag = FRA_Article_8_Concession
+			}
+			set_temp_variable = { reform_progress_to_add = 10 }
+			custom_effect_tooltip = add_reform_of_the_state_progress_tt
+			FRA_add_reform_of_the_state_progress = yes
+		}
+		else = {
+			set_temp_variable = { reform_progress_to_add = 20 }
+			custom_effect_tooltip = add_reform_of_the_state_progress_tt
+			FRA_add_reform_of_the_state_progress = yes
+		}
+	}
+}
+#########################################################################
+# Blum is offended and leaves!
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_8.6
+	title = DH_FRA_Reform_of_the_State_Article_8.6.t
+	desc = DH_FRA_Reform_of_the_State_Article_8.6.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.6.A	
+	}
+}
+#########################################################################
+# Doumergue acts as a mediator between the two factions in SFIO
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_8.7
+	title = DH_FRA_Reform_of_the_State_Article_8.7.t
+	desc = DH_FRA_Reform_of_the_State_Article_8.7.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.7.A	
+		country_event = {
+			id = DH_FRA_Reform_of_the_State_Article_8.8
+		}
+	}
+}
+#########################################################################
+# After seven hours of negotiations Blum and Renaudel both finally agree with the revision!
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_8.8
+	title = DH_FRA_Reform_of_the_State_Article_8.8.t
+	desc = DH_FRA_Reform_of_the_State_Article_8.8.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.8.A	
+		set_temp_variable = { reform_progress_to_add = 5 }
+		custom_effect_tooltip = add_reform_of_the_state_progress_tt
+		FRA_add_reform_of_the_state_progress = yes
+		set_country_flag = FRA_Doumergue_Reform_Completed
+	}
+}
+#########################################################################
+# Renaudel is compliant
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_8.9
+	title = DH_FRA_Reform_of_the_State_Article_8.9.t
+	desc = DH_FRA_Reform_of_the_State_Article_8.9.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.9.A	
+		country_event = {
+			id = DH_FRA_Reform_of_the_State_Article_8.10
+		}
+	}
+}
+#########################################################################
+# Shots that will ring through France!
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_8.10
+	title = DH_FRA_Reform_of_the_State_Article_8.10.t
+	desc = DH_FRA_Reform_of_the_State_Article_8.10.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.10.A	
+		random_list = {
+			#Renaudel survives
+			50 = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_8.11
+				}
+			}
+			#Renaudel dies
+			50 = {
+				country_event = {
+					id = DH_FRA_Reform_of_the_State_Article_8.12
+				}
+			}
+		}
+	}
+}
+#########################################################################
+# Renaudel Survives,much to France's relief!
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_8.11
+	title = DH_FRA_Reform_of_the_State_Article_8.11.t
+	desc = DH_FRA_Reform_of_the_State_Article_8.11.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.11.A
+		set_temp_variable = { reform_progress_to_add = 25 }
+		custom_effect_tooltip = add_reform_of_the_state_progress_tt
+		FRA_add_reform_of_the_state_progress = yes	
+	}
+}
+#########################################################################
+# Tragic Death of France's reformer!
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_8.12
+	title = DH_FRA_Reform_of_the_State_Article_8.12.t
+	desc = DH_FRA_Reform_of_the_State_Article_8.12.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.12.A	
+		kill_ideology_leader = socialist
+		hidden_effect = {
+			create_country_leader = {
+				name = "Léon Blum"
+				desc = ""
+				picture = "P_D_Leon_Blum.tga"
+				expire = "1965.1.1"
+				ideology = socialism
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Socialism
+					HoG_Ambitious_Union_Boss
+				}
+			}
+		}
+		country_event = {
+			id = DH_FRA_Reform_of_the_State_Article_8.13
+		}
+	}
+}
+#########################################################################
+# Laval hints Blum may be responsible for Renaudel's murder!
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_8.13
+	title = DH_FRA_Reform_of_the_State_Article_8.13.t
+	desc = DH_FRA_Reform_of_the_State_Article_8.13.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.13.A	
+		country_event = {
+			id = DH_FRA_Reform_of_the_State_Article_8.14
+		}
+	}
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.13.B	
+		hidden_effect = {
+			country_event = { id = DH_FRA_Reform_of_the_State_Article_8.15 days = 365 }
+		}
+	}
+}
+
+#########################################################################
+# Arrest and trial of Leon Blum
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_8.14
+	title = DH_FRA_Reform_of_the_State_Article_8.14.t
+	desc = DH_FRA_Reform_of_the_State_Article_8.14.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.14.A
+		set_country_flag = FRA_Leon_Blum_Arrested
+		set_country_flag = FRA_Reform_of_the_State_Completed
+		hidden_effect = {
+			create_country_leader = {
+				name = "Vincent Auriol"
+				desc = ""
+				picture = "P_D_Leon_Blum.tga"
+				expire = "1965.1.1"
+				ideology = socialism
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Socialism
+					HoG_Ambitious_Union_Boss
+				}
+			}
+		}
+		add_stability = -0.15
+	}
+}
+#########################################################################
+# Killer and his contractor still not found!
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Article_8.15
+	title = DH_FRA_Reform_of_the_State_Article_8.15.t
+	desc = DH_FRA_Reform_of_the_State_Article_8.15.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Article_8.15.A
+		set_country_flag = FRA_Reform_of_the_State_Completed
+	}
+}
+#########################################################################
+# The Reform is a Success
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Outcome.1
+	title = DH_FRA_Reform_of_the_State_Outcome.1.t
+	desc = DH_FRA_Reform_of_the_State_Outcome.1.d
+	picture = To_Be_Inserted
+	fire_only_once = yes
+
+	trigger = {
+		has_country_flag = FRA_Reform_of_the_State_Completed
+		original_tag = FRA
+		check_variable = {Reform_Progress > 64}
+	}
+
+	option = {
+		trigger = {
+			check_variable = {Reform_Progress < 96}
+		}
+		name = DH_FRA_Reform_of_the_State_Outcome.1.A
+		set_country_flag = FRA_Reform_of_the_State_Success
+		swap_ideas = {
+			remove_idea = FRA_The_Republic_in_Danger
+			add_idea = FRA_The_Republic_in_Danger_2
+		}
+	}
+	option = {
+		trigger = {
+			check_variable = {Reform_Progress > 95}
+		}
+		name = DH_FRA_Reform_of_the_State_Outcome.1.A
+		set_country_flag = FRA_Reform_of_the_State_Success
+		set_country_flag = FRA_Reform_of_the_State_Max
+		swap_ideas = {
+			remove_idea = FRA_The_Republic_in_Danger
+			add_idea = FRA_The_Republic_in_Danger_3
+		}
+	}
+}
+#########################################################################
+# Fall of Gaston Doumergue
+#########################################################################
+country_event = {
+	id = DH_FRA_Reform_of_the_State_Outcome.2
+	title = DH_FRA_Reform_of_the_State_Outcome.2.t
+	desc = DH_FRA_Reform_of_the_State_Outcome.2.d
+	picture = To_Be_Inserted
+	fire_only_once = yes
+
+	trigger = {
+		has_country_flag = FRA_Reform_of_the_State_Completed
+		original_tag = FRA
+		check_variable = {Reform_Progress < 65}
+	}
+
+	option = {
+		name = DH_FRA_Reform_of_the_State_Outcome.2.A
+		set_country_flag = FRA_Reform_of_the_State_Rejected
+	}
+}
+
+#########################################################################
+# Stavisky case revealed
+#########################################################################
+country_event = {
+	id = DH_FRA_Stavisky_Case_Part_1.1
+	title = DH_FRA_Stavisky_Case_Part_1.1.t
+	desc = DH_FRA_Stavisky_Case_Part_1.1.d
+	picture = GFX_report_FRA_Stavisky
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		date > 1933.12.29
+		has_start_date < 1934.12.29
+	}
+	option = {
+		name = DH_FRA_Stavisky_Case_Part_1.1.A
+		add_political_power = -100
+		set_country_flag = FRA_Stavisky_Case_Revealed
+	}
+}
+#########################################################################
+# Alexandre Stavisky is found dead!
+#########################################################################
+country_event = {
+	id = DH_FRA_Stavisky_Case_Part_1.2
+	title = DH_FRA_Stavisky_Case_Part_1.2.t
+	desc = DH_FRA_Stavisky_Case_Part_1.2.d
+	picture = GFX_report_FRA_Stavisky
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		date > 1934.1.8
+		has_start_date < 1934.1.8
+	}
+	option = {
+		name = DH_FRA_Stavisky_Case_Part_1.2.A
+		add_stability = -0.05
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = authoritarian
+			popularity = 0.03
+		}
+	}
+}
+#########################################################################
+# PRS collapse
+#########################################################################
+country_event = {
+	id = DH_FRA_PRS_Collapse.1
+	title = DH_FRA_PRS_Collapse.1.t
+	desc = DH_FRA_PRS_Collapse.1.d
+	picture = GFX_report_FRA_Stavisky
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		date > 1934.1.8
+		has_start_date < 1934.1.8
+	}
+	option = {
+		name = DH_FRA_PRS_Collapse.1.A
+		set_temp_variable = { party_id = 7 }
+		remove_party_from_parliament = yes
+	}
+}
+
+#########################################################################
+# The minister of Colinies dismiss
+#########################################################################
+country_event = {
+	id = DH_FRA_Stavisky_Case_Part_1.3
+	title = DH_FRA_Stavisky_Case_Part_1.3.t
+	desc = DH_FRA_Stavisky_Case_Part_1.3.d
+	picture = GFX_report_FRA_Stavisky
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		date > 1934.1.9
+		has_start_date < 1934.1.9
+	}
+	option = {
+		name = DH_FRA_Stavisky_Case_Part_1.3.A
+		add_political_power = -50
+	}
+}
+#########################################################################
+# Lèon Daudet accuses the President of the Council!
+#########################################################################
+country_event = {
+	id = DH_FRA_Stavisky_Case_Part_2.1
+	title = DH_FRA_Stavisky_Case_Part_2.1.t
+	desc = DH_FRA_Stavisky_Case_Part_2.1.d
+	picture = GFX_report_FRA_Stavisky
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		date > 1934.1.10
+		has_start_date < 1934.1.10
+	}
+	option = {
+		name = DH_FRA_Stavisky_Case_Part_2.1.A
+		set_variable = {Protester_Angry = 1}
+	}
+}
+#########################################################################
+# Aymard and the newspaper "Liberté"
+#########################################################################
+country_event = {
+	id = DH_FRA_Stavisky_Case_Part_2.2
+	title = DH_FRA_Stavisky_Case_Part_2.2.t
+	desc = DH_FRA_Stavisky_Case_Part_2.2.d
+	picture = GFX_report_FRA_Stavisky
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		date > 1934.1.11
+		has_start_date < 1934.1.11
+	}
+	option = {
+		name = DH_FRA_Stavisky_Case_Part_2.2.A
+		ai_chance = {
+			factor = 100
+		}	
+		add_to_variable = {
+			var = Protester_Angry
+			value = 1
+		}
+		add_popularity = {
+			ideology = authoritarian
+			popularity = -0.02
+		}
+	}
+	option = {
+		name = DH_FRA_Stavisky_Case_Part_2.2.B
+		add_popularity = {
+			ideology = authoritarian
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.05
+		}
+	}
+}
+#########################################################################
+# Jean Ybarnegaray calls for a investigative committee
+#########################################################################
+country_event = {
+	id = DH_FRA_Stavisky_Case_Part_2.3
+	title = DH_FRA_Stavisky_Case_Part_2.3.t
+	desc = DH_FRA_Stavisky_Case_Part_2.3.d
+	picture = GFX_report_FRA_Stavisky
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		date > 1934.1.12
+		has_start_date < 1934.1.12
+	}
+	option = {
+		name = DH_FRA_Stavisky_Case_Part_2.3.A
+		ai_chance = {
+			factor = 100
+		}
+		add_to_variable = {
+			var = Protester_Angry
+			value = 1
+		}
+		add_stability = 0.05
+	}
+	option = {
+		name = DH_FRA_Stavisky_Case_Part_2.3.B
+		add_stability = -0.05
+	}
+}
+#########################################################################
+# Demonstration in Paris
+#########################################################################
+country_event = {
+	id = DH_FRA_Stavisky_Case_Part_2.4
+	title = DH_FRA_Stavisky_Case_Part_2.4.t
+	desc = DH_FRA_Stavisky_Case_Part_2.4.d
+	picture = GFX_report_FRA_Stavisky
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		date > 1934.1.26
+		has_start_date < 1934.1.26
+	}
+	option = {
+		name = DH_FRA_Stavisky_Case_Part_2.4.A
+		trigger = {
+			check_variable = {Protester_Angry = 1}
+		}
+		set_country_flag = FRA_low_angry_path
+		add_stability = -0.02
+		add_popularity = {
+			ideology = authoritarian
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.02
+		}
+	}
+	option = {
+		trigger = {
+			check_variable = {Protester_Angry = 2}
+		}
+		set_country_flag = FRA_medium_angry_path
+		add_stability = -0.05
+		add_popularity = {
+			ideology = authoritarian
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = communist
+			popularity = 0.01
+		}
+	}
+	option = {
+		trigger = {
+			check_variable = {Protester_Angry = 3}
+		}
+		set_country_flag = FRA_high_angry_path
+		add_stability = -0.10
+		add_popularity = {
+			ideology = authoritarian
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.10
+		}
+		add_popularity = {
+			ideology = communist
+			popularity = 0.10
+		}
+	}
+}
+#########################################################################
+# Camille Chautemps resigns
+#########################################################################
+country_event = {
+	id = DH_FRA_Stavisky_Case_Part_3.1
+	title = DH_FRA_Stavisky_Case_Part_3.1.t
+	desc = DH_FRA_Stavisky_Case_Part_3.1.d
+	picture = GFX_report_FRA_Stavisky
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		date > 1934.1.27
+		has_start_date < 1934.1.27
+		has_country_leader = {
+			name = "Camille Chautemps"
+			ruling_only = yes
+		}
+	}
+	option = {
+		name = DH_FRA_Stavisky_Case_Part_3.1.A
+		hidden_effect = {
+			create_country_leader = {
+				name = "Vacant Position"
+				desc = ""
+				picture = "P_FRA_Vacant.tga"
+				expire = "1965.1.1"
+				ideology = social_democracy
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Social_Democracy
+				}
+			}
+		}
+		add_stability = -0.05
+		add_political_power = -50
+	}
+}
+#########################################################################
+# Édouard Daladier form a new government
+#########################################################################
+country_event = {
+	id = DH_FRA_Stavisky_Case_Part_3.2
+	title = DH_FRA_Stavisky_Case_Part_3.2.t
+	desc = DH_FRA_Stavisky_Case_Part_3.2.d
+	picture = GFX_report_FRA_Stavisky
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		date > 1934.1.29
+		has_start_date < 1934.1.29
+	}
+	option = {
+		name = DH_FRA_Stavisky_Case_Part_3.2.A
+		hidden_effect = {
+			create_country_leader = {
+				name = "Edouard Daladier"
+				desc = ""
+				picture = "P_D_Edouard_Daladier.tga"
+				expire = "1965.1.1"
+				ideology = social_democracy
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Social_Democracy 
+					HoS_Le_Taureau_de_Vaucluse
+					HoS_Appeaser
+				}
+			}
+		}
+	}
+}
+#########################################################################
+# The case of Jean Chiappe
+#########################################################################
+country_event = {
+	id = DH_FRA_Stavisky_Case_Part_3.3
+	title = DH_FRA_Stavisky_Case_Part_3.3.t
+	desc = DH_FRA_Stavisky_Case_Part_3.3.d
+	picture = GFX_report_FRA_Stavisky
+
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		date > 1934.2.2
+		has_start_date < 1934.2.2
+	}
+	option = {
+		name = DH_FRA_Stavisky_Case_Part_3.3.A
+		hidden_effect = {
+			country_event = { id = DH_FRA_Stavisky_Case_Part_3.4 days = 1 }
+		}
+		add_stability = 0.05
+	}
+	option = {
+		name = DH_FRA_Stavisky_Case_Part_3.3.B
+		hidden_effect = {
+			country_event = { id = DH_FRA_Stavisky_Case_Part_3.5 days = 1 }
+		}
+		add_stability = -0.05
+	}
+}
+#########################################################################
+# Call for demonstration (dangerous)
+#########################################################################
+country_event = {
+	id = DH_FRA_Stavisky_Case_Part_3.4
+	title = DH_FRA_Stavisky_Case_Part_3.4.t
+	desc = DH_FRA_Stavisky_Case_Part_3.4.d
+	picture = GFX_report_FRA_Stavisky
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_Stavisky_Case_Part_3.4.A
+	}
+}
+#########################################################################
+# Call for demonstration (less dangerous)
+#########################################################################
+country_event = {
+	id = DH_FRA_Stavisky_Case_Part_3.5
+	title = DH_FRA_Stavisky_Case_Part_3.5.t
+	desc = DH_FRA_Stavisky_Case_Part_3.5.d
+	picture = GFX_report_FRA_Stavisky
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_Stavisky_Case_Part_3.5.A
+	}
+}
+#########################################################################
+# Paul-Boncour loses the confidence of the Chamber
+#########################################################################
+country_event = {
+	id = DH_FRA_Paul_Boncour_Government.1
+	title = DH_FRA_Paul_Boncour_Government.1.t
+	desc = DH_FRA_Paul_Boncour_Government.1.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_Paul_Boncour_Government.1.A
+		custom_effect_tooltip = FRA_New_PM_Choosen_2_Days
+		hidden_effect = {
+			country_event = { id = DH_FRA_Paul_Boncour_Government.2 days = 2 }
+			create_country_leader = {
+				name = "Vacant Position"
+				desc = ""
+				picture = "P_FRA_Vacant.tga"
+				expire = "1965.1.1"
+				ideology = social_democracy
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Social_Democracy
+				}
+			}
+		}
+	}
+}
+#########################################################################
+# Daladier forms a government
+#########################################################################
+country_event = {
+	id = DH_FRA_Paul_Boncour_Government.2
+	title = DH_FRA_Paul_Boncour_Government.2.t
+	desc = DH_FRA_Paul_Boncour_Government.2.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_Paul_Boncour_Government.2.A
+		set_country_flag = FRA_Paul_Boncour_Completed
+		hidden_effect = {
+			kill_country_leader = yes
+			create_country_leader = {
+				name = "Edouard Daladier"
+				desc = ""
+				picture = "P_D_Edouard_Daladier.tga"
+				expire = "1965.1.1"
+				ideology = social_democracy
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Social_Democracy 
+					HoS_Le_Taureau_de_Vaucluse
+					HoS_Appeaser
+				}
+			}
+		}
+		unlock_decision_category_tooltip = FRA_Negotiations_with_Socialists
+	}
+}
+#########################################################################
+# Socialists do not vote to cut civil servants' budgets
+#########################################################################
+country_event = {
+	id = DH_FRA_Servant_Budget.1
+	title = DH_FRA_Servant_Budget.1.t
+	desc = DH_FRA_Servant_Budget.1.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_Servant_Budget.1.A
+		hidden_effect = {
+			remove_decision = FRA_Personal_Bribes
+			remove_decision = FRA_Bigger_Socialist_reppresentation_in_the_government
+			remove_decision = FRA_Temporary_imporvement_of_workers_rights
+		}
+		set_country_flag = FRA_Servant_Budget_Refused
+		add_political_power = -50
+		country_event = {
+			id = DH_FRA_Servant_Budget.2
+		}
+	}
+}
+#########################################################################
+# Fall of the President of the council Edouard Daladier
+#########################################################################
+country_event = {
+	id = DH_FRA_Servant_Budget.2
+	title = DH_FRA_Servant_Budget.2.t
+	desc = DH_FRA_Servant_Budget.2.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_Servant_Budget.2.A
+		hidden_effect = {
+			create_country_leader = {
+				name = "Vacant Position"
+				desc = ""
+				picture = "P_FRA_Vacant.tga"
+				expire = "1965.1.1"
+				ideology = social_democracy
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Social_Democracy
+				}
+			}
+		}
+		hidden_effect = {
+			country_event = { id = DH_FRA_Servant_Budget.3 days = 2 }
+		}
+	}
+}
+#########################################################################
+# Albert Sarraut forms a government
+#########################################################################
+country_event = {
+	id = DH_FRA_Servant_Budget.3
+	title = DH_FRA_Servant_Budget.3.t
+	desc = DH_FRA_Servant_Budget.3.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_Servant_Budget.3.A
+		hidden_effect = {
+			create_country_leader = {
+				name = "Albert Sarraut"
+				desc = ""
+				picture = "P_D_Albert_Sarraut.tga"
+				expire = "1965.1.1"
+				ideology = social_democracy
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Social_Democracy
+				}
+			}
+		}
+	}
+}
+#########################################################################
+# Socialists vote to cut civil servants' budgets
+#########################################################################
+country_event = {
+	id = DH_FRA_Servant_Budget.4
+	title = DH_FRA_Servant_Budget.4.t
+	desc = DH_FRA_Servant_Budget.4.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_Servant_Budget.4.A
+		set_country_flag = FRA_Servant_Budget_Accepted
+		hidden_effect = {
+			remove_decision = FRA_Personal_Bribes
+			remove_decision = FRA_Bigger_Socialist_reppresentation_in_the_government
+			remove_decision = FRA_Temporary_imporvement_of_workers_rights
+		}
+		add_political_power = 50
+		country_event = {
+			id = DH_FRA_Servant_Budget.5
+		}
+	}
+}
+#########################################################################
+# Cut the Salaries of civil servants
+#########################################################################
+country_event = {
+	id = DH_FRA_Servant_Budget.5
+	title = DH_FRA_Servant_Budget.5.t
+	desc = DH_FRA_Servant_Budget.5.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_Servant_Budget.5.A
+		set_temp_variable = { money_to_gain = 1000 }
+            add_money_with_inflation_included_with_tooltip_effect = yes
+	}
+}
+#########################################################################
+# The Nationa Lottery is created
+#########################################################################
+country_event = {
+	id = DH_FRA_National_Lottery.1
+	title = DH_FRA_National_Lottery.1.t
+	desc = DH_FRA_National_Lottery.1.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_National_Lottery.1.A
+		add_political_power = 50
+		add_stability = 0.03
+		hidden_effect = {
+			country_event = { id = DH_FRA_National_Lottery.2 days = 120 }
+		}
+	}
+}
+#########################################################################
+# First Draw of the National Lottery
+#########################################################################
+country_event = {
+	id = DH_FRA_National_Lottery.2
+	title = DH_FRA_National_Lottery.2.t
+	desc = DH_FRA_National_Lottery.2.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_National_Lottery.2.A
+		add_political_power = 50
+	}
+}
+#########################################################################
+# Agricultural law reorganizing the wheat market
+#########################################################################
+country_event = {
+	id = DH_FRA_Agricultural_Law.1
+	title = DH_FRA_Agricultural_Law.1.t
+	desc = DH_FRA_Agricultural_Law.1.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_Agricultural_Law.1.A
+		swap_ideas = {
+			add_idea = FRA_French_Economic_Reform01
+			remove_idea = FRA_French_Economic_Reform0
+		}		
+	}
+}
+#########################################################################
+# Crisis of the 6 February (Low Path Anger)
+#########################################################################
+country_event = {
+	id = DH_FRA_Crisis_of_the_6_February.1
+	title = DH_FRA_Crisis_of_the_6_February.1.t
+	desc = DH_FRA_Crisis_of_the_6_February.1.d
+	picture = To_Be_Inserted
+	fire_only_once = yes	
+
+	trigger = {
+		date > 1934.2.6
+		original_tag = FRA
+		has_country_flag = FRA_low_angry_path
+	}
+	option = {
+		name = DH_FRA_Crisis_of_the_6_February.1.A	
+		add_stability = -0.05
+		add_popularity = {
+			ideology = authoritarian
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = fascist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = communist
+			popularity = 0.05
+		}
+
+	}
+}
+#########################################################################
+# Crisis of the 6 February (Medium Path Anger)
+#########################################################################
+country_event = {
+	id = DH_FRA_Crisis_of_the_6_February.2
+	title = DH_FRA_Crisis_of_the_6_February.2.t
+	desc = DH_FRA_Crisis_of_the_6_February.2.d
+	picture = To_Be_Inserted
+	fire_only_once = yes
+
+	trigger = {
+		date > 1934.2.6
+		original_tag = FRA
+		has_country_flag = FRA_medium_angry_path
+	}
+	option = {
+		name = DH_FRA_Crisis_of_the_6_February.2.A	
+		add_stability = -0.05
+		hidden_effect = {
+			country_event = { id = DH_FRA_Crisis_of_the_6_February.3 hours = 1 }
+			country_event = { id = DH_FRA_Formation_of_Popular_Front_HM.1 days = 1 }
+		}
+	}
+}
+#########################################################################
+# The leagues announces the installation of a provisional government 
+# at the city hall of Paris (Medium Path Anger)
+#########################################################################
+country_event = {
+	id = DH_FRA_Crisis_of_the_6_February.3
+	title = DH_FRA_Crisis_of_the_6_February.3.t
+	desc = DH_FRA_Crisis_of_the_6_February.3.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Crisis_of_the_6_February.3.A	
+		add_stability = -0.05
+		if = {
+			limit = {
+				has_country_flag = FRA_medium_angry_path
+			}
+			hidden_effect = {
+				country_event = { id = DH_FRA_Crisis_of_the_6_February.4 hours = 1 }
+			}
+		}
+		else = {
+			hidden_effect = {
+				country_event = { id = DH_FRA_Crisis_of_the_6_February.7 hours = 1 }
+			}
+		}
+		
+	}
+}
+#########################################################################
+# Leagues marches to parliament (Medium Path Anger)
+#########################################################################
+country_event = {
+	id = DH_FRA_Crisis_of_the_6_February.4
+	title = DH_FRA_Crisis_of_the_6_February.4.t
+	desc = DH_FRA_Crisis_of_the_6_February.4.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Crisis_of_the_6_February.4.A	
+		add_political_power = -25
+		hidden_effect = {
+			country_event = { id = DH_FRA_Crisis_of_the_6_February.5 hours = 1 }
+		}
+	}
+}
+#########################################################################
+# The demonstration degenerates into a riot (Medium Path Anger)
+#########################################################################
+country_event = {
+	id = DH_FRA_Crisis_of_the_6_February.5
+	title = DH_FRA_Crisis_of_the_6_February.5.t
+	desc = DH_FRA_Crisis_of_the_6_February.5.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+
+	option = {
+		name = DH_FRA_Crisis_of_the_6_February.5.A	
+		add_stability = -0.05
+		16 = {
+			damage_building = {
+				type = infrastructure
+				damage = 0.5
+				province = 9523
+			}
+		}
+		
+	}
+}
+#########################################################################
+# Crisis of the 6 February (High Path Anger)
+#########################################################################
+country_event = {
+	id = DH_FRA_Crisis_of_the_6_February.6
+	title = DH_FRA_Crisis_of_the_6_February.6.t
+	desc = DH_FRA_Crisis_of_the_6_February.6.d
+	picture = To_Be_Inserted
+	fire_only_once = yes
+
+	trigger = {
+		date > 1934.2.6
+		original_tag = FRA
+		has_country_flag = FRA_high_angry_path
+	}
+	option = {
+		name = DH_FRA_Crisis_of_the_6_February.6.A	
+		add_stability = -0.05
+		hidden_effect = {
+			country_event = { id = DH_FRA_Crisis_of_the_6_February.3 hours = 1 }
+			country_event = { id = DH_FRA_Formation_of_Popular_Front_HM.1 days = 1 }
+		}
+	}
+}
+#########################################################################
+# Leagues marches to parliament (High Path Anger)
+#########################################################################
+country_event = {
+	id = DH_FRA_Crisis_of_the_6_February.7
+	title = DH_FRA_Crisis_of_the_6_February.7.t
+	desc = DH_FRA_Crisis_of_the_6_February.7.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_Crisis_of_the_6_February.7.A	
+		add_political_power = -50
+		hidden_effect = {
+			country_event = { id = DH_FRA_Crisis_of_the_6_February.5 hours = 1 }
+		}
+	}
+	option = {
+		name = DH_FRA_Crisis_of_the_6_February.7.B
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+			country_event = { id = DH_FRA_Crisis_of_the_6_February.8 hours = 1 }
+		}
+	}
+}
+#########################################################################
+# De la Rocque arrives in front of the parliament (High Path Anger)
+#########################################################################
+country_event = {
+	id = DH_FRA_Crisis_of_the_6_February.8
+	title = DH_FRA_Crisis_of_the_6_February.8.t
+	desc = DH_FRA_Crisis_of_the_6_February.8.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_Crisis_of_the_6_February.8.A	
+		hidden_effect = {
+			country_event = { id = DH_FRA_Crisis_of_the_6_February.5 hours = 1 }
+		}
+	}
+}
+#########################################################################
+# 6 February Aftermath (Low Path Anger)
+#########################################################################
+country_event = {
+	id = DH_FRA_6_February_Aftermath.1
+	title = DH_FRA_6_February_Aftermath.1.t
+	desc = DH_FRA_6_February_Aftermath.1.d
+	picture = To_Be_Inserted
+	fire_only_once = yes
+
+	trigger = {
+		date > 1934.2.8
+		original_tag = FRA
+		has_country_flag = FRA_low_angry_path
+	}
+	option = {
+		name = DH_FRA_6_February_Aftermath.1.A	
+		add_stability = 0.05
+		add_political_power = 150
+		hidden_effect = {
+			country_event = { id = DH_FRA_6_February_Aftermath.2 days = 3 }
+		}
+		add_ideas = FRA_Violence_Politique
+	}
+}
+#########################################################################
+# Daladier government resign (Low Path Anger)
+#########################################################################
+country_event = {
+	id = DH_FRA_6_February_Aftermath.2
+	title = DH_FRA_6_February_Aftermath.2.t
+	desc = DH_FRA_6_February_Aftermath.2.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_6_February_Aftermath.2.A	
+		retire_country_leader = yes
+		hidden_effect = {
+			create_country_leader = {
+				name = "Vacant Position"
+				desc = ""
+				picture = "P_FRA_Vacant.tga"
+				expire = "1965.1.1"
+				ideology = social_democracy
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Social_Democracy
+				}
+			}
+			country_event = { id = DH_FRA_6_February_Aftermath.3 days = 2 }
+		}
+	}
+}
+#########################################################################
+# Le Gouvernement d'Union National (Low-Medium-High Path Anger)
+#########################################################################
+country_event = {
+	id = DH_FRA_6_February_Aftermath.3
+	title = DH_FRA_6_February_Aftermath.3.t
+	desc = DH_FRA_6_February_Aftermath.3.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_6_February_Aftermath.3.A	
+		hidden_effect = {
+			create_country_leader = {
+				name = "Gaston Doumergue"
+				desc = ""
+				picture = "P_D_Gaston_Doumergue.tga"
+				expire = "1965.1.1"
+				ideology = social_democracy
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Social_Democracy
+				}
+			}
+		}
+		set_country_flag = FRA_February_6_Aftermath
+	}
+}
+#########################################################################
+# 6 February Aftermath (Medium-High Path Anger)
+#########################################################################
+country_event = {
+	id = DH_FRA_6_February_Aftermath.4
+	title = DH_FRA_6_February_Aftermath.4.t
+	desc = DH_FRA_6_February_Aftermath.4.d
+	picture = To_Be_Inserted
+	fire_only_once = yes
+
+	trigger = {
+		date > 1934.2.8
+		original_tag = FRA
+		OR = {
+			has_country_flag = FRA_medium_angry_path
+			has_country_flag = FRA_high_angry_path
+		}
+	}
+	option = {
+		name = DH_FRA_6_February_Aftermath.4.A	
+		hidden_effect = {
+			country_event = { id = DH_FRA_6_February_Aftermath.5 days = 3 }
+		}
+		add_ideas = FRA_Violence_Politique
+	}
+}
+#########################################################################
+# Daladier government collapses (Medium-High Path Anger)
+#########################################################################
+country_event = {
+	id = DH_FRA_6_February_Aftermath.5
+	title = DH_FRA_6_February_Aftermath.5.t
+	desc = DH_FRA_6_February_Aftermath.5.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_6_February_Aftermath.5.A	
+		retire_country_leader = yes
+		hidden_effect = {
+			create_country_leader = {
+				name = "Vacant Position"
+				desc = ""
+				picture = "P_FRA_Vacant.tga"
+				expire = "1965.1.1"
+				ideology = social_democracy
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Social_Democracy
+				}
+			}
+			country_event = { id = DH_FRA_6_February_Aftermath.3 days = 2 }
+		}
+	}
+}
+#########################################################################
+# Marcel Bucard creates Francisme
+#########################################################################
+country_event = {
+	id = DH_FRA_Milices_Fascistes.1
+	title = DH_FRA_Milices_Fascistes.1.t
+	desc = DH_FRA_Milices_Fascistes.1.d
+	picture = GFX_report_FRA_Francisme
+	fire_only_once = yes
+
+	trigger = {
+		date > 1933.9.29
+		has_start_date < 1933.9.29
+		original_tag = FRA
+	}
+	option = {
+		name = DH_FRA_Milices_Fascistes.1.A	
+		add_ideas = FRA_Milices_Fascistes
+	}
+}
+#########################################################################
+# Dissolution of Armed Militias
+#########################################################################
+country_event = {
+	id = DH_FRA_Milices_Fascistes.2
+	title = DH_FRA_Milices_Fascistes.2.t
+	desc = DH_FRA_Milices_Fascistes.2.d
+	picture = GFX_report_FRA_Francisme
+
+	is_triggered_only = yes
+	option = {
+		trigger = {
+			has_country_flag = FRA_low_angry_path
+		}
+		name = DH_FRA_Milices_Fascistes.2.A	
+		remove_ideas = FRA_Milices_Fascistes
+		country_event = {
+			id = DH_FRA_Milices_Fascistes.3
+		}
+		add_stability = 0.05
+	}
+	option = {
+		trigger = {
+			OR = {
+				has_country_flag = FRA_medium_angry_path
+				has_country_flag = FRA_high_angry_path
+			}
+		}
+		name = DH_FRA_Milices_Fascistes.2.B
+		remove_ideas = FRA_Milices_Fascistes
+		add_stability = 0.05
+	}
+}
+#########################################################################
+# Leagues organize into a political party!
+#########################################################################
+country_event = {
+	id = DH_FRA_Milices_Fascistes.3
+	title = DH_FRA_Milices_Fascistes.3.t
+	desc = DH_FRA_Milices_Fascistes.3.d
+	picture = GFX_report_FRA_Francisme
+
+	is_triggered_only = yes
+	option = {
+		name = DH_FRA_Milices_Fascistes.3.A	
+		add_stability = -0.05
+	}
+}
+
+#########################################################################
+# The Fate of the Popular Front
+#########################################################################
+country_event = {
+	id = DH_FRA_Front_Populaire_Focus.1
+	title = DH_FRA_Front_Populaire_Focus.1.t
+	desc = DH_FRA_Front_Populaire_Focus.1.d
+	picture = GFX_report_FRA_Francisme
+
+	is_triggered_only = yes
+	#Front Populaire Continues
+	option = {
+		name = DH_FRA_Front_Populaire_Focus.1.A	
+		if = {
+			limit = {	
+				has_completed_focus = FRA_SFIO_PCF_Government
+			}
+			complete_national_focus = FRA_SFIO_PCF_Government_continue
+		}
+		if = {
+			limit = {	
+				has_completed_focus = FRA_SFIO_PRS_Government
+			}
+			complete_national_focus = FRA_SFIO_PRS_Government_Continue
+		}
+	}
+	#Front Populaire Ends
+	option = {
+		name = DH_FRA_Front_Populaire_Focus.1.B	
+		complete_national_focus = FRA_The_end_of_the_Ruling_party
+	}
+}
+#########################################################################
+# Matignon's Accord
+#########################################################################
+country_event = {
+	id = DH_FRA_Pre_Matignon_Accord.1
+	title = DH_FRA_Pre_Matignon_Accord.1.t
+	desc = DH_FRA_Pre_Matignon_Accord.1.d
+	picture = To_Be_Inserted
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = FRA
+		date > 1936.5.11
+		has_start_date < 1936.5.11
+	}
+	#They will return to the factory in a few weeks
+	option = {
+		name = DH_FRA_Pre_Matignon_Accord.1.A	
+		add_ideas = FRA_Strikes_1
+	}
+}
+country_event = {
+	id = DH_FRA_Pre_Matignon_Accord.2
+	title = DH_FRA_Pre_Matignon_Accord.2.t
+	desc = DH_FRA_Pre_Matignon_Accord.2.d
+	picture = To_Be_Inserted
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = FRA
+		date > 1936.5.24
+		has_start_date < 1936.5.24
+	}
+	#Sad memories for Paris
+	option = {
+		name = DH_FRA_Pre_Matignon_Accord.2.A	
+		swap_ideas = {
+			remove_idea = FRA_Strikes_1
+			add_idea = FRA_Strikes_2
+		}
+	}
+}
+country_event = {
+	id = DH_FRA_Pre_Matignon_Accord.3
+	title = DH_FRA_Pre_Matignon_Accord.3.t
+	desc = DH_FRA_Pre_Matignon_Accord.3.d
+	picture = To_Be_Inserted
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = FRA
+		date > 1936.5.25
+		has_start_date < 1936.5.25
+	}
+	#It's getting worse
+	option = {
+		name = DH_FRA_Pre_Matignon_Accord.3.A	
+		swap_ideas = {
+			remove_idea = FRA_Strikes_2
+			add_idea = FRA_Strikes_3
+		}
+	}
+}
+country_event = {
+	id = DH_FRA_Pre_Matignon_Accord.4
+	title = DH_FRA_Pre_Matignon_Accord.4.t
+	desc = DH_FRA_Pre_Matignon_Accord.4.d
+	picture = To_Be_Inserted
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = FRA
+		date > 1936.5.28
+		has_start_date < 1936.5.28
+	}
+	#It's getting really worse
+	option = {
+		name = DH_FRA_Pre_Matignon_Accord.4.A	
+		swap_ideas = {
+			remove_idea = FRA_Strikes_3
+			add_idea = FRA_Strikes_4
+		}
+	}
+}
+country_event = {
+	id = DH_FRA_Pre_Matignon_Accord.5
+	title = DH_FRA_Pre_Matignon_Accord.5.t
+	desc = DH_FRA_Pre_Matignon_Accord.5.d
+	picture = To_Be_Inserted
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = FRA
+		date > 1936.6.2
+		has_start_date < 1936.6.2
+	}
+	#When I said he had to go back to the factories, it was not to occupy them
+	option = {
+		name = DH_FRA_Pre_Matignon_Accord.5.A	
+		swap_ideas = {
+			remove_idea = FRA_Strikes_4
+			add_idea = FRA_Strikes_5
+		}
+	}
+}
+country_event = {
+	id = DH_FRA_Pre_Matignon_Accord.6
+	title = DH_FRA_Pre_Matignon_Accord.6.t
+	desc = DH_FRA_Pre_Matignon_Accord.6.d
+	picture = To_Be_Inserted
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = FRA
+		date > 1936.6.5
+		has_start_date < 1936.6.5
+	}
+	#We must find a solution quickly
+	option = {
+		name = DH_FRA_Pre_Matignon_Accord.6.A	
+		swap_ideas = {
+			remove_idea = FRA_Strikes_5
+			add_idea = FRA_Strikes_6
+		}
+	}
+}
+#Leon Blum Leader
+country_event = {
+	id = DH_FRA_Pre_Matignon_Accord.7
+	title = DH_FRA_Pre_Matignon_Accord.7.t
+	desc = DH_FRA_Pre_Matignon_Accord.7.d
+	picture = To_Be_Inserted
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = FRA
+		date > 1936.6.5
+		has_start_date < 1936.6.5
+		has_country_leader = {
+			name = "Léon Blum"
+			ruling_only = yes
+		}
+	}
+	#We must find a solution quickly
+	option = {
+		name = DH_FRA_Pre_Matignon_Accord.7.A	
+		set_country_flag = FRA_Government_Acts_on_Protesters
+	}
+}
+#Leon Blum not Leader
+country_event = {
+	id = DH_FRA_Pre_Matignon_Accord.8
+	title = DH_FRA_Pre_Matignon_Accord.8.t
+	desc = DH_FRA_Pre_Matignon_Accord.8.d
+	picture = To_Be_Inserted
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = FRA
+		date > 1936.6.5
+		has_start_date < 1936.6.5
+		NOT = {
+			has_country_leader = {
+				name = "Léon Blum"
+				ruling_only = yes
+			}
+		}
+	}
+	#We must find a solution quickly
+	option = {
+		name = DH_FRA_Pre_Matignon_Accord.8.A	
+		set_country_flag = FRA_Government_Acts_on_Protesters
+	}
+}
+country_event = {
+	id = DH_FRA_Matignon_Accord.1
+	title = DH_FRA_Matignon_Accord.1.t
+	desc = DH_FRA_Matignon_Accord.1.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	#Let's find an agreement to end it all
+	option = {
+		name = DH_FRA_Matignon_Accord.1.A
+		set_variable = {
+			var = FRA_B 
+			value = 10
+		}
+		set_variable = {
+			var = FRA_U
+			value = 10
+		}	
+	}
+}
+country_event = {
+	id = DH_FRA_Matignon_Accord.2
+	title = DH_FRA_Matignon_Accord.2.t
+	desc = DH_FRA_Matignon_Accord.2.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = DH_FRA_Matignon_Accord.3
+				days = 1
+			}
+		}
+	}
+	#Let's do something favorable to the bosses
+	option = {
+		name = DH_FRA_Matignon_Accord.2.A	
+		add_ideas = FRA_Matignon_idea_1
+		add_to_variable = {
+			var = FRA_B
+			value = 2
+		}
+		subtract_from_variable = {
+			var = FRA_U
+			value = 2
+		}
+	}
+	#This will maintain social peace while ensuring good working conditions
+	option = {
+		name = DH_FRA_Matignon_Accord.2.B
+		add_stability = 0.05
+		add_to_variable = {
+			var = FRA_B
+			value = 1
+		}
+		add_to_variable = {
+			var = FRA_U
+			value = 1
+		}	
+	}
+	#Give more power to unions
+	option = {
+		name = DH_FRA_Matignon_Accord.2.C
+		add_ideas = FRA_Matignon_idea_2
+		subtract_from_variable = {
+			var = FRA_B
+			value = 2
+		}
+		add_to_variable = {
+			var = FRA_U
+			value = 2
+		}
+	}
+}
+country_event = {
+	id = DH_FRA_Matignon_Accord.3
+	title = DH_FRA_Matignon_Accord.3.t
+	desc = DH_FRA_Matignon_Accord.3.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = DH_FRA_Matignon_Accord.4
+				days = 1
+			}
+		}
+	}
+	#Let's keep the status quo
+	option = {
+		name = DH_FRA_Matignon_Accord.3.A	
+		add_ideas = FRA_Matignon_idea_3
+		add_to_variable = {
+			var = FRA_B
+			value = 2
+		}
+		subtract_from_variable = {
+			var = FRA_U
+			value = 2
+		}
+	}
+	#Freedom to belong to a union is essential to individual freedoms
+	option = {
+		name = DH_FRA_Matignon_Accord.3.B
+		add_ideas = FRA_Matignon_idea_4
+		subtract_from_variable = {
+			var = FRA_B
+			value = 2
+		}
+		add_to_variable = {
+			var = FRA_U
+			value = 2
+		}	
+	}
+}
+country_event = {
+	id = DH_FRA_Matignon_Accord.4
+	title = DH_FRA_Matignon_Accord.4.t
+	desc = DH_FRA_Matignon_Accord.4.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = DH_FRA_Matignon_Accord.5
+				days = 1
+			}
+		}
+	}
+	#Keep the current model
+	option = {
+		name = DH_FRA_Matignon_Accord.4.A	
+		add_stability = -0.05
+		add_to_variable = {
+			var = FRA_B
+			value = 2
+		}
+		subtract_from_variable = {
+			var = FRA_U
+			value = 2
+		}
+	}
+	#Increase to have a living wage
+	option = {
+		name = DH_FRA_Matignon_Accord.4.B
+		add_ideas = FRA_Matignon_idea_5
+		add_to_variable = {
+			var = FRA_B
+			value = 1
+		}
+		add_to_variable = {
+			var = FRA_U
+			value = 1
+		}	
+	}
+	#Increase in order to have a significant salary
+	option = {
+		name = DH_FRA_Matignon_Accord.4.C
+		add_stability = 0.05
+		add_ideas = FRA_Matignon_idea_6
+		subtract_from_variable = {
+			var = FRA_B
+			value = 2
+		}
+		add_to_variable = {
+			var = FRA_U
+			value = 2
+		}	
+	}
+}
+country_event = {
+	id = DH_FRA_Matignon_Accord.5
+	title = DH_FRA_Matignon_Accord.5.t
+	desc = DH_FRA_Matignon_Accord.5.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = DH_FRA_Matignon_Accord.6
+				days = 1
+			}
+		}
+	}
+	#No staff representative
+	option = {
+		name = DH_FRA_Matignon_Accord.5.A	
+		add_ideas = FRA_Matignon_idea_7
+		add_to_variable = {
+			var = FRA_B
+			value = 2
+		}
+		subtract_from_variable = {
+			var = FRA_U
+			value = 2
+		}
+	}
+	#Only in companies with more than 50 people
+	option = {
+		name = DH_FRA_Matignon_Accord.5.B
+		add_stability = 0.05
+		add_to_variable = {
+			var = FRA_B
+			value = 1
+		}
+		add_to_variable = {
+			var = FRA_U
+			value = 1
+		}	
+	}
+	#Only in companies with more than 10 people
+	option = {
+		name = DH_FRA_Matignon_Accord.5.C
+		add_stability = 0.05
+		add_ideas = FRA_Matignon_idea_8
+		subtract_from_variable = {
+			var = FRA_B
+			value = 2
+		}
+		add_to_variable = {
+			var = FRA_U
+			value = 2
+		}	
+	}
+}
+country_event = {
+	id = DH_FRA_Matignon_Accord.6
+	title = DH_FRA_Matignon_Accord.6.t
+	desc = DH_FRA_Matignon_Accord.6.d
+	picture = To_Be_Inserted
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = DH_FRA_Matignon_Accord.7
+				days = 1
+			}
+		}
+	}
+	#We cannot allow this
+	option = {
+		name = DH_FRA_Matignon_Accord.6.A
+		add_ideas = FRA_Matignon_idea_9	
+		add_stability = -0.1
+		add_to_variable = {
+			var = FRA_B
+			value = 2
+		}
+		subtract_from_variable = {
+			var = FRA_U
+			value = 2
+		}
+	}
+	#The right to strike is a basic right
+	option = {
+		name = DH_FRA_Matignon_Accord.6.B
+		add_stability = 0.05
+		subtract_from_variable = {
+			var = FRA_B
+			value = 2
+		}
+		add_to_variable = {
+			var = FRA_U
+			value = 2
+		}	
+	}
+}
+country_event = {
+	id = DH_FRA_Matignon_Accord.7
+	title = DH_FRA_Matignon_Accord.7.t
+	desc = DH_FRA_Matignon_Accord.7.d
+	picture = To_Be_Inserted
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	#Hope this is all over
+	option = {
+		name = DH_FRA_Matignon_Accord.7.A
+		trigger = {
+			check_variable = {
+				var = FRA_B
+				value = 5
+				compare = less_than
+			}
+			check_variable = {
+				var = FRA_U
+				value = 5
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = FRA_Union_Disagreement
+		add_ideas = FRA_Matignon_Accord
+		set_country_flag = FRA_Desaccord_Syndical_flag
+	}
+	#Hope this is all over
+	option = {
+		name = DH_FRA_Matignon_Accord.7.B
+		trigger = {
+			check_variable = {
+				var = FRA_B
+				value = 5
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = FRA_U
+				value = 5
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = FRA_Matignon_Accord
+		set_country_flag = FRA_Matignon_Accord_flag
+	}
+	#Hope this is all over
+	option = {
+		name = DH_FRA_Matignon_Accord.7.C
+		trigger= {
+			check_variable = {
+				var = FRA_U
+				value = 5
+				compare = less_than
+			}
+			check_variable = {
+				var = FRA_B
+				value = 5
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = FRA_Employer_Disagreement
+		add_ideas = FRA_Matignon_Accord
+		set_country_flag = FRA_Desaccord_Patronal_flag
+	}
+}
+#########################################################################
+# Formation of the Popular Front
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front.1
+	title = DH_FRA_Formation_of_Popular_Front.1.t
+	desc = DH_FRA_Formation_of_Popular_Front.1.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	trigger= {
+		NOT = {has_country_flag = FRA_Leon_Blum_Arrested }
+		has_country_flag = FRA_Doumergue_Reform_Completed
+		has_country_flag = FRA_low_angry_path
+		date > 1934.12.14
+		has_start_date < 1934.12.14	
+	}
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front.1.A
+	}
+}
+#########################################################################
+# A visit from Comrade Blum
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front.2
+	title = DH_FRA_Formation_of_Popular_Front.2.t
+	desc = DH_FRA_Formation_of_Popular_Front.2.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	trigger= {
+		NOT = {has_country_flag = FRA_Leon_Blum_Arrested }
+		has_country_flag = FRA_Doumergue_Reform_Completed
+		date > 1935.1.10
+		has_start_date < 1935.1.10	
+	}
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front.2.A
+		country_event = {
+			id = DH_FRA_Formation_of_Popular_Front.3
+			days = 7
+		}
+	}
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front.2.B
+		set_temp_variable = { party_id = 8 }
+		set_temp_variable = { popularity_to_add = 0.15 }
+		change_party_support = yes
+		country_event = {
+			id = DH_FRA_Formation_of_Popular_Front.4
+			days = 7
+		}
+	}
+}
+#########################################################################
+# Thorez refuses any unity
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front.3
+	title = DH_FRA_Formation_of_Popular_Front.3.t
+	desc = DH_FRA_Formation_of_Popular_Front.3.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front.3.A
+		
+	}
+}
+#########################################################################
+# Blum and Thorez unite against Doumergue gouvernement
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front.4
+	title = DH_FRA_Formation_of_Popular_Front.4.t
+	desc = DH_FRA_Formation_of_Popular_Front.4.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front.4.A
+		
+	}
+}
+#########################################################################
+# A lack of majority
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front.5
+	title = DH_FRA_Formation_of_Popular_Front.5.t
+	desc = DH_FRA_Formation_of_Popular_Front.5.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	trigger= {
+		NOT = {has_country_flag = FRA_Leon_Blum_Arrested }
+		has_country_flag = FRA_Doumergue_Reform_Completed
+		date > 1935.3.5
+		has_start_date < 1935.3.5	
+	}
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front.5.A
+		country_event = {
+			id = DH_FRA_Formation_of_Popular_Front.6
+			days = 30
+		}
+	}
+}
+#########################################################################
+# Splits within the RAD
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front.6
+	title = DH_FRA_Formation_of_Popular_Front.6.t
+	desc = DH_FRA_Formation_of_Popular_Front.6.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front.6.A
+		set_temp_variable = { party_id = 6 } # RAD
+		set_temp_variable = { support_to_add = 0.15 }
+		change_party_support = yes
+		set_temp_variable = { party_id = 6 } # RAD
+		set_temp_variable = { popularity_to_add = -0.1 }
+		add_relative_popularity_to_parliament_party = yes
+		country_event = {
+			id = DH_FRA_Formation_of_Popular_Front.7
+			days = 14
+		}
+	}
+}
+#########################################################################
+# Rebirth of the PRS
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front.7
+	title = DH_FRA_Formation_of_Popular_Front.7.t
+	desc = DH_FRA_Formation_of_Popular_Front.7.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front.7.A
+		set_temp_variable = { party_id = 7 } # PRS
+		add_party_to_parliament = yes
+		set_temp_variable = { party_id = 7 } # PRS
+		set_temp_variable = { popularity_to_add = 0.15 } # PRS
+		add_relative_popularity_to_parliament_party = yes
+		set_temp_variable = { party_id = 7 } # PRS
+		set_temp_variable = { support_to_add = 0.1 }
+		change_party_support = yes
+	}
+}
+#########################################################################
+# Formation of the Popular Front (High-Medium path anger)
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front_HM.1
+	title = DH_FRA_Formation_of_Popular_Front_HM.1.t
+	desc = DH_FRA_Formation_of_Popular_Front_HM.1.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front_HM.1.A
+		country_event = { id = DH_FRA_Formation_of_Popular_Front_HM.2 days = 140 }
+	}
+}
+#########################################################################
+# Thorez calls for left-wing unity!
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front_HM.2
+	title = DH_FRA_Formation_of_Popular_Front_HM.2.t
+	desc = DH_FRA_Formation_of_Popular_Front_HM.2.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front_HM.2.A
+		if = {
+			limit = {
+				has_country_flag = FRA_Leon_Blum_Arrested
+				has_country_flag = FRA_Doumergue_Reform_Completed
+			}
+			country_event = { id = DH_FRA_Formation_of_Popular_Front_HM.3 days = 309 }
+		}
+		else_if = {
+			limit = {
+				NOT = {has_country_flag = FRA_Leon_Blum_Arrested }
+				has_country_flag = FRA_Doumergue_Reform_Completed
+			}
+			country_event = {id = DH_FRA_Formation_of_Popular_Front_HM.11 days = 309 }
+		}
+		else = {
+			country_event = { id = DH_FRA_Formation_of_Popular_Front_HM.8 days = 309 }
+		}
+	}
+}
+#########################################################################
+# Auriol forms an alliance with Thorez
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front_HM.3
+	title = DH_FRA_Formation_of_Popular_Front_HM.3.t
+	desc = DH_FRA_Formation_of_Popular_Front_HM.3.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front_HM.3.A
+		country_event = {id = DH_FRA_Formation_of_Popular_Front_HM.4 days = 33 }
+	}
+}
+#########################################################################
+# Radicals divided!
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front_HM.4
+	title = DH_FRA_Formation_of_Popular_Front_HM.4.t
+	desc = DH_FRA_Formation_of_Popular_Front_HM.4.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front_HM.4.A
+		set_temp_variable = { party_id = 6 } # RAD
+		set_temp_variable = { support_to_add = -0.05 }
+		change_party_support = yes
+		country_event = {id = DH_FRA_Formation_of_Popular_Front_HM.5 days = 7 }
+	}
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front_HM.4.B
+		country_event = {id = DH_FRA_Formation_of_Popular_Front_HM.6 days = 7 }
+	}
+}
+#########################################################################
+# The RAD refuses any alliance with the left!
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front_HM.5
+	title = DH_FRA_Formation_of_Popular_Front_HM.5.t
+	desc = DH_FRA_Formation_of_Popular_Front_HM.5.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front_HM.5.A
+	}
+}
+#########################################################################
+# Radicals join the Rassemblement!
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front_HM.6
+	title = DH_FRA_Formation_of_Popular_Front_HM.6.t
+	desc = DH_FRA_Formation_of_Popular_Front_HM.6.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front_HM.6.A
+		country_event = {id = DH_FRA_Formation_of_Popular_Front_HM.7 days = 34 }
+	}
+}
+#########################################################################
+# Peaceful demonstration of the new Popular Front.
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front_HM.7
+	title = DH_FRA_Formation_of_Popular_Front_HM.7.t
+	desc = DH_FRA_Formation_of_Popular_Front_HM.7.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front_HM.7.A
+	}
+}
+#########################################################################
+# Blum forms an alliance with Thorez
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front_HM.8
+	title = DH_FRA_Formation_of_Popular_Front_HM.8.t
+	desc = DH_FRA_Formation_of_Popular_Front_HM.8.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front_HM.8.A
+		country_event = {id = DH_FRA_Formation_of_Popular_Front_HM.9 days = 33 }
+	}
+}
+#########################################################################
+# Radicals divided!
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front_HM.9
+	title = DH_FRA_Formation_of_Popular_Front_HM.9.t
+	desc = DH_FRA_Formation_of_Popular_Front_HM.9.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front_HM.9.A
+		set_temp_variable = { party_id = 6 } # RAD
+		set_temp_variable = { support_to_add = 0.05 }
+		change_party_support = yes
+		country_event = {id = DH_FRA_Formation_of_Popular_Front_HM.6 days = 7 }
+	}
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front_HM.9.B
+		set_temp_variable = { party_id = 6 } # RAD
+		set_temp_variable = { support_to_add = -0.15 }
+		change_party_support = yes
+		country_event = {id = DH_FRA_Formation_of_Popular_Front_HM.10 days = 7 }
+	}
+}
+#########################################################################
+# The RAD refuses any alliance with the left!
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front_HM.10
+	title = DH_FRA_Formation_of_Popular_Front_HM.10.t
+	desc = DH_FRA_Formation_of_Popular_Front_HM.10.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front_HM.10.A
+	}
+}
+#########################################################################
+# Blum forms an alliance with Thorez against Doumergue's reforms
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front_HM.11
+	title = DH_FRA_Formation_of_Popular_Front_HM.11.t
+	desc = DH_FRA_Formation_of_Popular_Front_HM.11.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front_HM.11.A
+		country_event = {id = DH_FRA_Formation_of_Popular_Front_HM.12 days = 33 }
+	}
+}
+#########################################################################
+# Radicals divided!
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front_HM.12
+	title = DH_FRA_Formation_of_Popular_Front_HM.12.t
+	desc = DH_FRA_Formation_of_Popular_Front_HM.12.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front_HM.12.A
+		set_temp_variable = { party_id = 6 } # RAD
+		set_temp_variable = { support_to_add = -0.1 }
+		change_party_support = yes
+		country_event = {id = DH_FRA_Formation_of_Popular_Front_HM.10 days = 7 }
+	}
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front_HM.12.B
+		country_event = {id = DH_FRA_Formation_of_Popular_Front_HM.13 days = 7 }
+	}
+}
+#########################################################################
+# Radicals join the Rassemblement!
+#########################################################################
+country_event = {
+	id = DH_FRA_Formation_of_Popular_Front_HM.13
+	title = DH_FRA_Formation_of_Popular_Front_HM.13.t
+	desc = DH_FRA_Formation_of_Popular_Front_HM.13.d
+	picture = To_Be_Inserted
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_FRA_Formation_of_Popular_Front_HM.13.A
+		country_event = {id = DH_FRA_Formation_of_Popular_Front_HM.7 days = 34 }
+	}
+}
+
+
+
+
+
+
+
+
+
+

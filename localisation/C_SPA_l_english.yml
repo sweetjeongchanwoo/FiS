@@ -1,0 +1,211 @@
+﻿l_english:
+#########################################################################
+#  Nationalist Spain Leaders
+#########################################################################
+ Francisco_Franco_Bahamonde_desc:0 "The El Caudillo himself, Francisco Franco is a man who wants nothing more than the restoration of the Spanish prestige and glory, which is now lost as a relic of time. \n\nFrancisco Franco's quest for power starts from the very day of his birth, as his Father's family had created a dynasty of Naval Admirals for Spain, producing generations of naval officers, all of which are both loyal to the Crown, yet skilled as grand strategists of naval warfare. Unfortunately for Franco, he wasn't accepted into the Navy, so he had to turn to the alternative - the Army.\n\nFranco was especially successful in the Army, establishing a loyal following of conservative and reactionary officers, willing to follow him and lead Spain back to its true nature. As democracy and republicanism sweeps España, the more followers he gains, especially since the military machinery was filled with reactionary officers.\n\nNow, as El Caudillo, he shall guide Spain through a new era, one where Spain shall no longer bow down to the winds of Liberalism, and instead give way to the fires of Reactionarism and Authoritarianism, whatever it takes..."
+
+#########################################################################
+#  Nationalist Spain Events
+#########################################################################
+ DH_Nationalist_Spain.1.t:0 "Pamplona is secured!"
+ DH_Nationalist_Spain.1.d:0 "Franco in his almighty holiness has taken Pamplona and turned it into an armed camp."
+ DH_Nationalist_Spain.1.A:0 "Our New Headquarters!" 
+
+ DH_Nationalist_Spain.2.t:0 "Right-Wing Militias"
+ DH_Nationalist_Spain.2.d:0 "Do you hear the people scream? Screaming bloody murder at the Republicans? It is the music of a people who will become fascist scum! -King Lear"
+ DH_Nationalist_Spain.2.A:0 "The traditionalists are arming themselves"
+ 
+ DH_Nationalist_Spain.3.t:0 "Quiepo de Llano's Radio"
+ DH_Nationalist_Spain.3.d:0 "Our writers are slacking, I propose we go all Stalin on 'em. -King Lear"
+ DH_Nationalist_Spain.3.A:0 "¡La inspiración anti-republicana!"
+ 
+ DH_Nationalist_Spain.4.t:0 "The Death of Federico the Artist"
+ DH_Nationalist_Spain.4.d:0 "Apparently this guy was killed or something? Idk I'm not a writer and/or amateur Spanish historian. -King Lear"
+ DH_Nationalist_Spain.4.A:0 "The right has been set loose, like a rabid dog" 
+ 
+ DH_Nationalist_Spain.5.t:0 "The Slaughter of Badajoz"
+ DH_Nationalist_Spain.5.d:0 "To absolutely no one's surprise, the Nationalists have killed people. Won't be the last time. -King Lear"
+ DH_Nationalist_Spain.5.A:0 "War Comes with Atrocities" 
+ 
+ DH_Nationalist_Spain.6.t:0 "The Bombing of Guernica"
+ DH_Nationalist_Spain.6.d:0 "The Condor Legion did an oopsie (or maybe it was intentional?) -King Lear"
+ DH_Nationalist_Spain.6.A:0 "The Basques revolted, they deserve nothing less"
+ 
+ DH_Nationalist_Spain.7.t:0 "Emilio Mola's Final flight"
+ DH_Nationalist_Spain.7.d:0 "General Emilio Mola Vidal, the director, has died in an aviation accident. His personal airplane has crashed on a hill close to Alcocer during a storm. His trip was motivated by Republican offensives in La Granja, which motivated him to move from Vitoria to Valladolid to follow the operations more closely. \nCommand of the Northern Army has been assumed by Fidel Dávila, while the Carlist militias mourn his death as a terrible hit to morale. He will be buried in the cemetery of Pamplona."
+ DH_Nationalist_Spain.7.A:0 "Rest in Peace" 
+ DH_Nationalist_Spain.7.B:0 "Franco shall take over." 
+ 
+ DH_Nationalist_Spain.8.t:0 "Franco and his Legion Arrives"
+ DH_Nationalist_Spain.8.d:0 "Francisco Franco Bohemonde himself comes down to save us all from those evil heretics in the CNT-FAI. Long may he reign! -King Lear"
+ DH_Nationalist_Spain.8.A:0 "The man himself has come"
+ 
+ DH_Nationalist_Spain.9.t:0 "Franco Saves Toledo"
+ DH_Nationalist_Spain.9.d:0 "Our writers are slacking, I propose we go all Stalin on 'em. -King Lear"
+ DH_Nationalist_Spain.9.A:0 "Franco rises in Spain"
+ 
+###  Nationalist Civil War Decision Events
+ DH_SPA_CW.1.t:0 "Nationalists Request Equipment"
+ DH_SPA_CW.1.d:0 ""
+ DH_SPA_CW.1.A:0 "We need to deter the rise of Communism!"
+ DH_SPA_CW.1.B:0 "Don't bother"
+ 
+ DH_SPA_CW.2.t:0 "Nationalists need Naval Support"
+ DH_SPA_CW.2.d:0 ""
+ DH_SPA_CW.2.A:0 "Sell them submarines!"
+ DH_SPA_CW.2.B:0 "We shouldn't send them aid"
+ 
+ DH_SPA_CW.3.t:0 "A Spanish Volunteer Corps?"
+ DH_SPA_CW.3.d:0 ""
+ DH_SPA_CW.3.A:0 "Begin the Project!"
+ DH_SPA_CW.3.B:0 "Don't Bother"
+ 
+ DH_SPA_CW.4.t:0 "Advisors from Ethiopia"
+ DH_SPA_CW.4.d:0 ""
+ DH_SPA_CW.4.A:0 "Send them the experts!"
+ DH_SPA_CW.4.B:0 "It's not worth our time"
+ 
+ DH_SPA_CW.5.t:0 "Corpo Truppe Voluntarie"
+ DH_SPA_CW.5.d:0 ""
+ DH_SPA_CW.5.A:0 "Expand the Project!"
+ DH_SPA_CW.5.B:0 "We shouldn't continue"
+ 
+ DH_SPA_CW.6.t:0 "Nationalists Request Further Equipment"
+ DH_SPA_CW.6.d:0 ""
+ DH_SPA_CW.6.A:0 "Anything for our Mediterannean Brothers"
+ DH_SPA_CW.6.B:0 "Don't Bother"
+ 
+ DH_SPA_CW.7.t:0 "Spain Requests Air Support"
+ DH_SPA_CW.7.d:0 ""
+ DH_SPA_CW.7.A:0 "The Condor Legion will be entasked"
+ DH_SPA_CW.7.B:0 "It's not worth our time"
+ 
+ DH_SPA_CW.8.t:0 "Spain Requests Advisors"
+ DH_SPA_CW.8.d:0 ""
+ DH_SPA_CW.8.A:0 "Send Himmler and a few Generals"
+ DH_SPA_CW.8.B:0 "Don't bother"
+ 
+ DH_SPA_CW.9.t:0 "Spanish Nationalists meet with Salazar"
+ DH_SPA_CW.9.d:0 ""
+ DH_SPA_CW.9.A:0 "Nossos amigos Iberianos!"
+ DH_SPA_CW.9.B:0 "Uma mala influencia para o Chefe"
+ 
+#########################################################################
+#  Nationalist Spain Focuses
+#########################################################################
+ SPA_The_Crusade_Begins:0 "The Crusade Begins!"
+ SPA_The_Crusade_Begins_desc:0 "For centuries, our nation has been the apex of what an empire could be. Our territory spanned the entirety of the new world, along with our lone colony in the Philippine islands, all of which brought prosperity and glory to the Spanish crown. Now, as our nation descends into stagnation and political upheaval, we shall take this opportunity and restore power to the imperial throne, and restore the empire that our nation was destined to be. This action of ours is not without opposition, but it is essential as foreign empires are eyeing up our territories to ensure their security on the Iberian Peninsula, turning our people against their own country. It is up to us to mend this behavior, and bring about a new chapter in our history."
+ SPA_Ties_to_the_Reactionary_Powers:0 "Ties to the Reactionary Powers"
+ SPA_Ties_to_the_Reactionary_Powers_desc:0 "Our movement against the radical communist “revolutionaries” has drew sympathies from traditionalist and reactionary powers from all over the world. They see our crusade as the golden opportunity, the opportunity to turn the clock back to a simpler era, an era wherein absolute authority is relegated towards a single individual, bringing peace and prosperity to the end of time. We must take this opportunity to build up our relationships with these foreign powers, and eventually gain the badly needed equipment and supplies to ensure our crusade shall sweep our nation."
+ SPA_Organize_the_Generals:0 "Organize the Generals"
+ SPA_Organize_the_Generals_desc:0 "While the military were the very first supporters of our crusade against the revolutionaries in the government who seek to upend Spain’s heritage, they are disorganized and have varying scales of loyalty, with some having sympathies to the traitorous regime of the socialists. As such, we must organize our generals and purge any disloyal elements within the army. If we don’t, our crusade shall fail."
+ SPA_Smash_Francos_Power:0 "Smash Franco's Power!"
+ SPA_Smash_Francos_Power_desc:0 "One of our military generals, Francisco Franco, has recently attempted to assassinate our leader, Emilio Mola. According to the accounts of Mola, he stated that Franco was the perpetrator, as he himself was the only roadblock to gaining power in our crusade. We must isolate Franco, purge his conspirators, and eventually, when he is no longer notable, we shall execute him. After all, treason and assassination are high crimes of the state, it is merely taking the long route to justice for our leader."
+ SPA_Propel_Franco:0 "Propel Franco"
+ SPA_Propel_Franco_desc:0 "Franco’s ability of managing conservative, as well as radical right-wing groups under the united banner of anti-communism speaks volumes about how great of a statesman and a leader, not just militarily, he has the potential of becoming. Once the civil war that has ravaged our country and smashed our social fabric eventually comes to an end with us, the Nationalists, on top; mighty General Francisco Franco shall have the honors of guiding our nation through a period of painful reconstruction."
+ SPA_Ejercito_de_Africa:0 "Ejército de Africa"
+ SPA_Ejercito_de_Africa_desc:0 "While a sizable portion of our countrymen have supported our cause, the vast majority supported the revolutionaries, especially with their coercive rhetoric that has swayed them to their side. As such, we are often outnumbered by our adversaries, and rebellion ensues in the areas we currently occupy. However, there is a silver lining, our colonies in Africa. The moroccan garrison has pledged their support to our regime, seizing control over colonial territories that belong to the communists. If we were to utilize them, this will be a strategic advantage for us, since we have access to colonial troops."
+ SPA_Engage_in_Concentrated_Offensives:0 "Engage in Concentrated Offensives"
+ SPA_Engage_in_Concentrated_Offensives_desc:0
+ SPA_A_Strong_and_Reliable_Leader:0 "A Strong and Reliable Leader!"
+ SPA_A_Strong_and_Reliable_Leader_desc:0 "As our vision for a New Spain reaches closer to reality, our leadership has remained indecisive, roadblocks to our progress against the revolutionaries and their republican counterparts. Not only that, the Carlists within our leadership have begun to oppose our reign, signalling plots of a potential removal from power. These traitors have nothing, compared to our leader, Francisco Franco.\n\nFranco has led us far and wide, surely more than our predecessors have. His vision for Spain is the embodiment, the Spanish dream of every single soul. When there's war, he brings peace. When there's chaos, he provides security and stability. When there are revolutionaries willing to destroy this peninsula, he brings in guardians to protect the status-quo.\n\nViva la El Caudillo! Viva la España!"
+ SPA_Carlist_Leadership:0 "Carlist Leadership"
+ SPA_Carlist_Leadership_desc:0 "With the consolidation of power after Franco’s death, we must fill the void that was left from the Franco’s faction. Fortunately, we have a potential replacement. The Carlists in our government have approached us, seeking greater power and authority. This request for more power has legitimate basis, considering they are influential in large swaths of our population. Perhaps aligning with the Carlists is not a bad idea. After all, we believe in the same philosophies, it's just that they are more reactionary than us."
+ SPA_Mobilize_the_Spanish_Right:0 "Mobilize the Spanish Right!"
+ SPA_Mobilize_the_Spanish_Right_desc:0 "Every day, our armies are being halted from their advances, blocked from achieving its goals to liberate Spain from revolutionary thought. The blood spilled by the revolutionaries is too much for us to bear, as the amount of men capable of being armed with a rifle is growing thin by the hour. So why is it that our chief adversary in the peninsula so numerous? Ideology. Their men and women are blinded by their perverted ideology of equality, so much so, that they are willing to spill blood for the revolution, regardless of consequence.\n\nAs such, we should fight fire with fire, learn from their unorthodox tactics and utilize them for our advantage. We shall mobilize the reactionaries under the banner of the Falange, and once more, reclaim Spain and save it from revolutionaries ought to destroy the Iberian Peninsula forever."
+ SPA_A_Political_Army:0 "A Political Army!"
+ SPA_A_Political_Army_desc:0 "They say that combining political thought and military force is a recipe for disaster, that an army fueled by ideological fanaticism is a recipe for disaster, as men are blindly following the whims of their leaders, disregarding the concepts of strategy, tactics, and the like.\n\nThat concept died out the moment revolutionaries light their fires around the world, whether it would be in our northern neighbor, to our own homes. Ideology and Military go hand in hand, like fire and fuel. An Army based off politics ensure that by the end of the day, they shall not be enticed by factors such as victory, wealth, and other aspects."
+ SPA_Maintain_a_Professional_Army:0 "Maintain a Professional Army"
+ SPA_Maintain_a_Professional_Army_desc:0 "While we have the men and equipment for our armies, we lack the professionalism and skill in our armies. The Spanish armies need to be professional in order to win in the Civil War against the communist regime. We have the option to ask our fascist German friends to help us train our armies so we can crush our foes in a blink of an eye."
+ SPA_Cuerpo_de_Ejercito_Marroqui:0 "Cuerpo de Ejército Marroquí"
+ SPA_Cuerpo_de_Ejercito_Marroqui_desc:0 "The Civil War is upon us. Victory is the most important thing for our nation and for our regime in the upcoming war against the communists. To make our dream come true we need strong allies, the Moroccans can provide us with great support in the Civil War and bring swift death to the weak and feeble minded regime of the communists."
+ SPA_Meeting_with_the_Foreign_Attaches:0 "Meeting with the Foreign Attaches"
+ SPA_Meeting_with_the_Foreign_Attaches_desc:0 "As victory comes nearer within our grasp, some nations around the world have decided to revoke all their diplomatic relationships with the treacherous socialists and side with the true Spanish state. Of course, for the sake of diplomatic neutrality, they have merely placed attaches as diplomatic representatives, so that they won’t risk being on the losing side of the war for Iberia. Regardless, we must approach these foreign attaches, convince them that we are winning, and they must start investing their resources upon us and not with our enemy."
+ SPA_Seek_International_Recognition:0 "Seek International Recognition"
+ SPA_Seek_International_Recognition_desc:0 "As the proud Spanish capital becomes liberated from the communist yolk, we must look at the future, our international relations. Currently, the so-called “legitimate government” has all the vast majority of diplomatic relations, and we are merely considered as an insurgency, rather than national liberators. However, with the liberation of Madrid, the foreign powers have seen the true facade that the socialists propagate. This very perception is something that we should exploit to our advantage, and finally gain the international recognition we deserve."
+
+#########################################################################
+#  Nationalist Spain Ideas
+#########################################################################
+ ### Nationalist Civil War
+ SPR_civil_war:0 "Spanish Civil War"
+ SPA_la_guerra_civil:0 "¡La Guerra Civil!"
+ SPA_civilwar_army_1:0 "The Army is With Us"
+ SPA_civilwar_army_2:0 "The Army is With Us"
+ SPA_civilwar_army_3:0 "The Army is With Us"
+ SPA_civilwar_church:0 "The Church is With Us"
+ SPA_african_army_1:0 "African Army Leadership"
+ SPA_african_army_2:0 "African Army Leadership"
+ SPA_african_army_3:0 "African Army Leadership"
+ SPA_african_army_4:0 "African Army Leadership"
+ SPA_carlist_leadership:0 "Carlist Leadership"
+ SPA_political_militias_1:0 "Political Militias"
+ SPA_political_militias_2:0 "Political Militias"
+ SPA_military_power_struggles_1:0 "Military Power Struggles"
+ SPA_military_power_struggles_2:0 "Military Power Struggles"
+ mola_surived:0 "Mola survived the assassination attempt"
+
+ ### Nationalist Post-War ###
+ SPA_reconstruction:0 "Reconstruction"
+ SPA_civil_war_scars_1:0 "Scars of the Civil War"
+ SPA_civil_war_scars_2:0 "Scars of the Civil War"
+ SPA_labor_discrimination_idea:0 "Labor Discrimination"
+ SPA_our_camps_idea:0 "Our Camps!"
+ SPA_nazi_specialists_idea:0 "Nazi Specialists"
+ SPA_christian_family_laws_idea:0 "Christian Family Laws"
+ SPA_mass_exile_idea:0 "Mass Exile"
+ SPA_white_terror_1:0 "White Terror"
+ SPA_white_terror_2:0 "White Terror"
+ SPA_white_terror_3:0 "White Terror"
+ SPA_white_terror_4:0 "White Terror"
+ SPA_sindicato_vertical:0 "Sindicato Vertical"
+ SPA_autarky_1:0 "Autarky"
+ SPA_autarky_2:0 "Autarky"
+ SPA_autarky_3:0 "Autarky"
+ SPA_autarky_4:0 "Autarky"
+ SPA_disorganized_army_1:0 "Disorganized Army"
+ SPA_disorganized_army_2:0 "Disorganized Army"
+ SPA_disorganized_army_3:0 "Disorganized Army"
+ SPA_disorganized_army_4:0 "Disorganized Army"
+ SPA_disorganized_army_5:0 "Disorganized Army"
+ SPA_disorganized_army_6:0 "Disorganized Army"
+ SPA_disorganized_army_7:0 "New Spanish Army"
+ SPA_disorganized_army_8:0 "Disorganized Army"
+ SPA_disorganized_army_9:0 "Disorganized Army"
+ SPA_disorganized_army_10:0 "Disorganized Army"
+ SPA_disorganized_army_11:0 "New Spanish Army Army"
+ SPA_disorganized_army_12:0 "Disorganized Army"
+ SPA_disorganized_army_13:0 "Disorganized Army"
+ SPA_disorganized_army_14:0 "Disorganized Army"
+ SPA_disorganized_army_15:0 "Disorganized Army"
+ SPA_disorganized_army_16:0 "Disorganized Army"
+ SPA_disorganized_army_17:0 "New Spanish Army"
+ iberischewall_tooltip:0 "Constructs Level 2 §YCoastal Forts§! along the Atlantic Coast."
+ 
+#########################################################################
+#  Nationalist Spain Decisions
+#########################################################################
+#### Nationalist Spain Civil War ####
+ SPA_foreign_support_category_1:0 "Request Foreign Support"
+ SPA_foreign_support_category_1_desc:0 "If we are to be victorious in our civil war, we must turn to foreign powers to assist us."
+ SPA_foreign_support_category_2:0 "Request Further Support"
+ SPA_foreign_support_category_2_desc:0 "The Republicans are proving difficult to subdue, we must call upon our foreign allies to support us."
+ SPA_request_italian_supplies:0 "Request Supplies from Italy"
+ SPA_request_italian_supplies_desc:0 ""
+ SPA_form_condor_legion:0 "Form the Condor Legion"
+ SPA_request_italian_supplies_desc:0 ""
+ SPA_convince_salazar:0 "Convince Salazar"
+ SPA_convince_salazar_desc:0 ""
+ SPA_regia_marina_support:0 "Support from the Regia Marina"
+ SPA_regia_marina_support_desc:0 ""
+ SPA_corpo_truppe_voluntarie:0 "Corpo Truppe Voluntarie"
+ SPA_corpo_truppe_voluntarie_desc:0 ""
+ SPA_attract_viriatos:0 "Attract Viriatos"
+ SPA_attract_viriatos_desc:0 ""
+ SPA_request_italian_supplies_2:0 "Request Additional Supplies from Italy"
+ SPA_request_italian_supplies_2_desc:0 ""
+ SPA_german_advisors:0 "Invite Advisors from Germany"
+ SPA_german_advisors_desc:0 ""
+ SPA_italian_advisors:0 "Invite Advisors from Italy"
+ SPA_corpo_truppe_voluntarie_2:0 "Expand Corpo Truppe Voluntarie"
+ SPA_corpo_truppe_voluntarie_2_desc:0 ""

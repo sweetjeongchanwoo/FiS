@@ -1,0 +1,1176 @@
+﻿division_template = {
+	name = "Hohei Shidan" 			# Infantry Division
+	division_names_group = JAP_INF_01 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Hōhei to fuhyōshidan" 			# Infantry Division with Artillery
+	division_names_group = JAP_INF_01 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_battalion = { x = 3 y = 0 }
+		artillery_battalion = { x = 3 y = 1 }
+		artillery_battalion = { x = 3 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Dokuritsu Konsei Ryodan" 	# Mixed Division with Tank Brigade
+	division_names_group = JAP_INF_01 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		medium_armor = { x= 2 y = 0 }
+		medium_armor = { x= 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Enjinia to no konseiryodan" 	# Mixed Division with Engineers
+	division_names_group = JAP_INF_01 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		medium_armor = { x= 2 y = 0 }
+		medium_armor = { x= 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Hōhei to no kongō shidan" 			# Mixed Armament Division
+	division_names_group = JAP_INF_01 								
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_battalion = { x = 2 y = 0 }
+		artillery_battalion = { x = 2 y = 1 }
+		artillery_battalion = { x = 2 y = 2 }
+		anti_air_brigade = { x = 3 y = 0 }
+		anti_air_brigade = { x = 3 y = 1 }
+		anti_air_brigade = { x = 3 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Konzai fuhyōshidan"             # Mixed Infantry Division
+	division_names_group = JAP_INF_01 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		cavalry = { x = 3 y = 0 }
+		cavalry = { x = 3 y = 1 }
+		cavalry = { x = 3 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Taikū kongō bumon" 			# Mixed Division with Anti Air
+	division_names_group = JAP_INF_01 								
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		anti_air_brigade = { x = 3 y = 0 }
+		anti_air_brigade = { x = 3 y = 1 }
+		anti_air_brigade = { x = 3 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Hōhei konzai fuhyōshidan" 			# Mixed Division with Artillery
+									
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		artillery_battalion = { x = 3 y = 0 }
+		artillery_battalion = { x = 3 y = 1 }
+		artillery_battalion = { x = 3 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Kihei Shidan" 			# Cavalry Division
+	division_names_group = JAP_CAV_01 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Enjinia to no kihei shidan" 			# Cavalry Division with Engineers
+	division_names_group = JAP_CAV_01 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Sensha-dan to no kihei shidan" 			# Cavalry Division with Tank Brigade
+	division_names_group = JAP_CAV_01 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		medium_armor = { x = 2 y = 0 }
+		medium_armor = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Rikusentai"				# Marine Division
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Chuton-chi Shidan" 			# Garrison Division
+	regiments = {
+		garrison = { x = 0 y = 0 }
+		garrison = { x = 0 y = 1 }
+		garrison = { x = 0 y = 2 }
+		garrison = { x = 1 y = 0 }
+		garrison = { x = 1 y = 1 }
+		garrison = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Minpei-bu" 			# Militia Division
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+##### OOB #####
+units = {
+	##### Kantôgun #####
+	division = { # Dai 2 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4572 # Hsinking (Changchun)
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 7 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 4572 # Hsinking (Changchun)
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 8 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 4572 # Hsinking (Changchun)
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 9 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 4572 # Hsinking (Changchun)
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 10 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 4572 # Hsinking (Changchun)
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 19 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 4572 # Hsinking (Changchun)
+		division_template = "Taikū kongō bumon"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 24 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 4572 # Hsinking (Changchun)
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+
+	division = { # Dai 25 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = 4572 # Hsinking (Changchun)
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+
+	division = { # Dai 26 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 4572 # Hsinking (Changchun)
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+
+	division = { # Dai 28 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = 4572 # Hsinking (Changchun)
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+
+	division = { # Dai 29 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = 4572 # Hsinking (Changchun)
+		division_template = "Dokuritsu Konsei Ryodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		force_equipment_variants = { Tank_equipment_1926 = { owner = "JAP" } }
+	}
+	##### Kihei gurupu #####
+	division = { # Dai 1 Kihei ryodan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7648 # Sili-Yin Qota
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+
+	division = { # Dai 3 Kihei ryodan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 7648 # Sili-Yin Qota
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.55
+	}
+
+	division = { # Dai 4 Kihei ryodan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 7648 # Sili-Yin Qota
+		division_template = "Enjinia to no kihei shidan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	##### Seibu Gun #####
+	division = { # Dai 11 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 9950 # Nagasaki
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 11 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 9950 # Nagasaki
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 12 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 9950 # Nagasaki
+		division_template = "Enjinia to no konseiryodan"
+		start_experience_factor = 0.3
+		force_equipment_variants = { Tank_equipment_1926 = { owner = "JAP" } }
+	}
+
+	division = { # Dai 18 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 9950 # Nagasaki
+		division_template = "Hōhei to fuhyōshidan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 21 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 9950 # Nagasaki
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+
+	division = { # Dai 23 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 9950 # Nagasaki
+		division_template = "Enjinia to no konseiryodan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		force_equipment_variants = { Tank_equipment_1926 = { owner = "JAP" } }
+	}
+
+	division = { # Dai 101 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 101
+		}
+		location = 9950 # Nagasaki
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+
+	division = { # Dai 106 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 106
+		}
+		location = 9950 # Nagasaki
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	##### Shina chutongun #####
+	division = { # Dai 5 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 11822 # Tangshan
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 6 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 11822 # Tangshan
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 20 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 11822 # Tangshan
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 27 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 11822 # Tangshan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	##### Akita Gun #####
+	division = { # Dai 108 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 108
+		}
+		location = 9865 # Akita
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+
+	division = { # Dai 114 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 114
+		}
+		location = 9865 # Akita
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	##### Kanazawa Gun #####
+	division = { # Dai 109 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 109
+		}
+		location = 10032 # Kanazawa
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	##### Tobu gun #####
+	division = { # Dai 3 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10125 # Nagoya
+		division_template = "Hōhei to no kongō shidan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 4 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 10125 # Nagoya
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 13 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 10125 # Nagoya
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+
+	division = { # Dai 15 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 10125 # Nagoya
+		division_template = "Hōhei konzai fuhyōshidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+
+	division = { # Dai 17 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 10125 # Nagoya
+		division_template = "Hōhei konzai fuhyōshidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	##### Tokyo keibi shireibu #####
+	division = { # Dai 1 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1182 # Tokyo
+		division_template = "Hōhei to fuhyōshidan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 14 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 1182 # Tokyo
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 22 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 1182 # Tokyo
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		name = "Konoe Shidan"
+		location = 1182 # Tokyo
+		division_template = "Hōhei to no kongō shidan"
+		start_experience_factor = 0.3
+	}
+
+	division = { # Dai 2 Kihei ryodan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1182 # Tokyo
+		division_template = "Sensha-dan to no kihei shidan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+		force_equipment_variants = { Tank_equipment_1926 = { owner = "JAP" } }
+	}
+	##### Kure Kaigunku #####
+	division = {
+		name = "Kure Rikusentai"
+		location = 1092 # Hiroshima
+		division_template = "Rikusentai"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.1
+	}
+	##### Maizuru Kaigunku #####
+	division = {
+		name = "Maizuru Rikusentai"
+		location = 11960 # Kyoto
+		division_template = "Rikusentai"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.1
+	}
+	##### Sasebo Kaigunku #####
+	division = {
+		name = "Sasebo Rikusentai"
+		location = 9950 #Nagasaki
+		division_template = "Rikusentai"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.1
+	}
+	##### Yokosuka Kaigunku #####
+	division = {
+		name = "Yokosuka Rikusentai"
+		location = 1182 # Tokyo
+		division_template = "Rikusentai"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.1
+	}
+
+	division = {
+		name = "Shanghai Rikusentai"
+		location = 1182 # Tokyo
+		division_template = "Rikusentai"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.17
+	}
+	##### Chuo Gun #####
+	division = { # Dai 16 Hoheishidan
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 11960 # Kyoto
+		division_template = "Konzai fuhyōshidan"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
+	}
+	##### Ryojun Kaigunku #####
+	division = {
+		name = "Ryojun Rikusentai"
+		location = 1150 # Port Arthur
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.17
+	}
+	##### Uchi mouko gun #####
+	division = {
+		name = "Uchi mouko gun"
+		location = 7812 # Wulanhaote
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.3
+	}
+	##### Tobu kahoku gun #####
+	division = {
+		name = "Dai 1 Tai"
+		location = 11822 # Tangshan
+		division_template = "Minpei-bu"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+
+	division = {
+		name = "Dai 2 Tai"
+		location = 11822 # Tangshan
+		division_template = "Minpei-bu"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+
+	division = {
+		name = "Dai 3 Tai"
+		location = 11822 # Tangshan
+		division_template = "Minpei-bu"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+
+	division = {
+		name = "Dai 4 Tai"
+		location = 11822 # Tangshan
+		division_template = "Minpei-bu"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+
+	division = {
+		name = "Kunren tai"
+		location = 11822 # Tangshan
+		division_template = "Minpei-bu"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+
+### IJN ###
+	fleet = {
+		name = "Dai 1 Koku Sentai"
+		naval_base = 9998 #Tokyo
+		task_force = {
+			name = "Dai 1 Koku Sentai"
+			location = 9998 #Tokyo
+			ship = { name = "Akagi" definition = carrier equipment = { CV_equipment_1922 = {amount = 1 owner = JAP} } air_wings = {cv_Fighter_equipment_1933 =  { owner = "JAP" amount = 14 }  cv_CAS_equipment_0 =  { owner = "JAP" amount = 10 } cv_Naval_Bomber_equipment_1936 =  { owner = "JAP" amount = 16 }} }	
+			ship = { name = "Kaga" definition = carrier equipment = { CV_equipment_1922 = {amount = 1 owner = JAP } } air_wings = {cv_Fighter_equipment_1933 =  { owner = "JAP" amount = 14 }  cv_CAS_equipment_0 =  { owner = "JAP" amount = 10 } cv_Naval_Bomber_equipment_1936 =  { owner = "JAP" amount = 16 }} }	
+			ship = { name = "Myoko" definition = heavy_cruiser equipment = { CA_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Ashigara" definition = heavy_cruiser equipment = { CA_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Tama" definition = light_cruiser equipment = { CL_equipment_1912 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Kitakami" definition = light_cruiser equipment = { CL_equipment_1912 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Tatsuta" definition = light_cruiser equipment = { CL_equipment_1912 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Dai 1 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1916 = {amount = 1 owner = JAP } } }	
+		}
+		task_force = {
+			name = "Dai 2 Koku Sentai"
+			location = 9998 #Tokyo
+			ship = { name = "Ryujo" definition = escort_carrier equipment = { CV_equipment_1916 = {amount = 1 owner = JAP} } air_wings = {} }	
+			ship = { name = "Mikuma" definition = heavy_cruiser equipment = { CA_equipment_1933 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Mogami" definition = heavy_cruiser equipment = { CA_equipment_1933 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Yubari" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Isuzu" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Dai 2 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1933 = {amount = 1 owner = JAP } } }			
+			ship = { name = "Dai 3 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1933 = {amount = 1 owner = JAP } } }				
+			ship = { name = "Dai 4 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1933 = {amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "Dai 3 Senkan Sentai"
+			location = 9998 #Tokyo
+			ship = { name = "Haruna" definition = battle_cruiser equipment = { BC_equipment_1933 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Atago" definition = heavy_cruiser equipment = { CA_equipment_1933 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Maya" definition = heavy_cruiser equipment = { CA_equipment_1933 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Dai 11 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = JAP } } }			
+			ship = { name = "Dai 12 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = JAP } } }				
+			ship = { name = "Dai 13 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = JAP } } }		
+			ship = { name = "Dai 14 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "Dai 4 Senkan Sentai"
+			location = 9998 #Tokyo
+			ship = { name = "Fuso" definition = battleship equipment = { BB_equipment_1906 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Yamashiro" definition = battleship equipment = { BB_equipment_1906 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Notoro" definition = escort_carrier equipment = { CV_equipment_1912 = {amount = 1 owner = JAP} } air_wings = {} }	
+			ship = { name = "Aoba" definition = heavy_cruiser equipment = { CA_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Kinugasa" definition = heavy_cruiser equipment = { CA_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Nagara" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Yura" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Dai 15 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1900 = {amount = 1 owner = JAP } } }			
+			ship = { name = "Dai 16 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1900 = {amount = 1 owner = JAP } } }				
+			ship = { name = "Dai 17 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1900 = {amount = 1 owner = JAP } } }	
+		}
+		task_force = {
+			name = "Dai 9 sentai"
+			location = 9998 #Tokyo
+			ship = { name = "Tokiwa" definition = heavy_cruiser equipment = { CA_equipment_1895 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Yakumo" definition = heavy_cruiser equipment = { CA_equipment_1895 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Yahagi" definition = light_cruiser equipment = { CL_equipment_1900 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Hirado" definition = light_cruiser equipment = { CL_equipment_1900 = {amount = 1 owner = JAP } } }		
+			ship = { name = "Dai 22 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1916 = {amount = 1 owner = JAP } } }			
+			ship = { name = "Dai 23 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1916 = {amount = 1 owner = JAP } } }				
+			ship = { name = "Dai 24 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1916 = {amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "Dai 2 Sensui Kantai"
+			location = 9998 #Tokyo
+			ship = { name = "Dai 5 Sensuisentai" definition = submarine equipment = { SS_equipment_1916 = { amount = 1 owner = JAP } } }
+			ship = { name = "Dai 6 Sensuisentai" definition = submarine equipment = { SS_equipment_1912 = { amount = 1 owner = JAP } } }
+			ship = { name = "Dai 7 Sensuisentai" definition = submarine equipment = { SS_equipment_1912 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "Dai 3 Sensui Kantai"
+			location = 9998 #Tokyo
+			ship = { name = "Dai 8 Sensuisentai" definition = submarine equipment = { SS_equipment_1912 = { amount = 1 owner = JAP } } }
+			ship = { name = "Dai 9 Sensuisentai" definition = submarine equipment = { SS_equipment_1912 = { amount = 1 owner = JAP } } }
+			ship = { name = "Dai 10 Sensuisentai" definition = submarine equipment = { SS_equipment_1912 = { amount = 1 owner = JAP } } }
+			ship = { name = "Dai 11 Sensuisentai" definition = submarine equipment = { SS_equipment_1912 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "Dai 3 Yuso Kantai"
+			location = 9998 #Tokyo
+			ship = { name = "Dai 27 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1900 = {amount = 1 owner = JAP } } }	
+		}
+		task_force = {
+			name = "Dai 5 Yuso Kantai"
+			location = 9998 #Tokyo
+			ship = { name = "Dai 29 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1900 = {amount = 1 owner = JAP } } }	
+		}
+	}
+
+	fleet = {
+		name = "Dai 1 Senkan Sentai"
+		naval_base = 1092 #Hiroshima
+		task_force = {
+			name = "Dai 1 Senkan Sentai"
+			location = 1092 #Hiroshima
+			ship = { name = "Nagato" definition = battleship equipment = { BB_equipment_1916 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Hosho" definition = carrier equipment = { CV_equipment_1922 = {amount = 1 owner = JAP} } air_wings = {} }	
+			ship = { name = "Takao" definition = heavy_cruiser equipment = { CA_equipment_1933 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Chokai" definition = heavy_cruiser equipment = { CA_equipment_1933 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Natori" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Kinu" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Dai 5 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1933 = {amount = 1 owner = JAP } } }			
+			ship = { name = "Dai 6 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1933 = {amount = 1 owner = JAP } } }				
+			ship = { name = "Dai 7 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1933 = {amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "Dai 2 Senkan Sentai"
+			location = 1092 #Hiroshima
+			ship = { name = "Ise" definition = battleship equipment = { BB_equipment_1912 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Hyuga" definition = battleship equipment = { BB_equipment_1912 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Kamoi" definition = escort_carrier equipment = { CV_equipment_1912 = {amount = 1 owner = JAP} } air_wings = {} }	
+			ship = { name = "Kako" definition = heavy_cruiser equipment = { CA_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Furutaka" definition = heavy_cruiser equipment = { CA_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Kuma" definition = light_cruiser equipment = { CL_equipment_1912 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Naka" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Dai 8 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = JAP } } }			
+			ship = { name = "Dai 9 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = JAP } } }				
+			ship = { name = "Dai 10 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = JAP } } }	
+		}
+		task_force = {
+			name = "Dai 1 Sensui Kantai"
+			location = 1092 #Hiroshima
+			ship = { name = "Dai 1 Sensuisentai" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = JAP } } }
+			ship = { name = "Dai 2 Sensuisentai" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = JAP } } }
+			ship = { name = "Dai 3 Sensuisentai" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = JAP } } }
+			ship = { name = "Dai 4 Sensuisentai" definition = submarine equipment = { SS_equipment_1922 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "Dai 4 Sensui Kantai"
+			location = 1092 #Hiroshima
+			ship = { name = "I-5" definition = heavy_submarine equipment = { HSS_equipment_1933 = { amount = 1 owner = JAP } } } 
+			ship = { name = "I-6" definition = heavy_submarine equipment = { HSS_equipment_1933 = { amount = 1 owner = JAP } } }
+			ship = { name = "I-7" definition = heavy_submarine equipment = { HSS_equipment_1933 = { amount = 1 owner = JAP } } }
+			ship = { name = "Dai 13 Sensuisentai" definition = submarine equipment = { SS_equipment_1933 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "Dai 4 Yuso Kantai"
+			location = 1092 #Hiroshima
+			ship = { name = "Dai 28 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1900 = {amount = 1 owner = JAP } } }
+		}
+	}
+
+	fleet = {
+		name = "Dai 5 Sentai"
+		naval_base = 7072 #Osaka
+		task_force = {
+			name = "Dai 5 Sentai"
+			location = 7072 #Osaka
+			ship = { name = "Nachi" definition = heavy_cruiser equipment = { CA_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Haguro" definition = heavy_cruiser equipment = { CA_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Kiso" definition = light_cruiser equipment = { CL_equipment_1912 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Oi" definition = light_cruiser equipment = { CL_equipment_1912 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Tenryu" definition = light_cruiser equipment = { CL_equipment_1912 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Sendai" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Abukuma" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Jintsu" definition = light_cruiser equipment = { CL_equipment_1922 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Dai 18 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = JAP } } }			
+			ship = { name = "Dai 19 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "Dai 1 Yuso Kantai"
+			location = 7072 #Osaka
+			ship = { name = "Dai 25 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1922 = {amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "Dai 2 Yuso Kantai"
+			location = 7072 #Osaka
+			ship = { name = "Dai 26 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1900 = {amount = 1 owner = JAP } } }	
+		}
+	}
+
+	fleet = {
+		name = "Dai 7 Sentai"
+		naval_base = 9950 #Nagasaki
+		task_force = {
+			name = "Dai 7 Sentai"
+			location = 9950 #Nagasaki
+			ship = { name = "Asama" definition = heavy_cruiser equipment = { CA_equipment_1895 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Iwate" definition = heavy_cruiser equipment = { CA_equipment_1895 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Izumo" definition = heavy_cruiser equipment = { CA_equipment_1895 = {amount = 1 owner = JAP } } }	
+			ship = { name = "Dai 20 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1916 = {amount = 1 owner = JAP } } }			
+			ship = { name = "Dai 21 Kuchikusentai" definition = destroyer equipment = { DD_equipment_1916 = {amount = 1 owner = JAP } } }	
+		}
+	}
+}
+
+#AIRCRAFT
+air_wings = {
+	### IJA Air Forces ###
+	# 1 Hikodan -- Tokyo
+	282 = { 
+		# 1 Hiko Rentai -- Kawasaki Ki-10
+		Fighter_equipment_1933 = {
+			owner = "JAP" 
+			amount = 72
+		}
+		# 16 Hiko Rentai -- Kawasaki Ki-10
+		Fighter_equipment_1933 = {
+			owner = "JAP" 
+			amount = 72
+		}
+		# 6 Hiko Rentai -- Mitsubishi Ki-2
+		CAS_equipment_1 =  {
+			owner = "JAP" 
+			amount = 54
+		}
+		# 9 Hiko Rentai -- Mitsubishi Ki-1
+		Tactical_Bomber_equipment_1933 =  {
+			owner = "JAP" 
+			amount = 54
+		}
+	}
+
+	# 2 Hikodan -- Dalian
+	716 = {
+		# 3 Hiko Rentai -- Kawasaki Ki-10
+		Fighter_equipment_1933 = {
+			owner = "JAP" 
+			amount = 72
+		}
+		# 5 Hiko Rentai -- Kawasaki Ki-3
+		CAS_equipment_1 =  {
+			owner = "JAP" 
+			amount = 54
+		}
+	}
+
+	# 3 Hikodan -- Taiwan
+	524 = {
+		# 10 Hiko Rentai -- Kawasaki Ki-3
+		CAS_equipment_1 =  {
+			owner = "JAP" 
+			amount = 54
+		}
+
+	}
+
+	### IJN Air Forces ###
+	# 1 Rengo Kokutai -- Taiwan
+	524 = {
+		# Kizarazu Kokutai -- Aichi D1A2
+		cv_CAS_equipment_1 = {
+			owner = "JAP" 
+			amount = 60
+		}
+		# Kanoya Kokutai -- Aichi D1A2
+		cv_CAS_equipment_1 = {
+			owner = "JAP" 
+			amount = 60
+		}
+	}
+
+	# 2 Rengo Kokutai -- Taiwan
+	524 = {
+		# 12 Kokutai -- Nakajima A4N1
+		cv_Fighter_equipment_1933 = {
+			owner = "JAP" 
+			amount = 72
+		}
+		# 13 Kokutai -- Mitsubishi B2M2
+		cv_Naval_Bomber_equipment_1936 = {
+			owner = "JAP" 
+			amount = 48
+		}
+	}
+
+	### Akagi CAG -- Hiroshima (while Akagi is refit)
+	529 = { 
+		cv_Fighter_equipment_1933 =  {
+			owner = "JAP" 
+			amount = 12
+		}
+		cv_CAS_equipment_1 = {
+			owner = "JAP" 
+			amount = 9
+		}
+		cv_Naval_Bomber_equipment_1936 =  {
+			owner = "JAP" 
+			amount = 9
+		}
+
+	}
+}
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1936
+			creator = "JAP"
+		}
+		requested_factories = 4
+		progress = 0.24
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "JAP" 
+		}
+		requested_factories = 3
+		progress = 0.41
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "JAP" 
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = Anti_Aircraft_Gun_equipment_1935
+			creator = "JAP"
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = Light_Tank_equipment_1934
+			creator = "JAP"
+		}
+		requested_factories = 2
+		progress = 0.27
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = Fighter_equipment_1933
+			creator = "JAP" 
+		}
+		requested_factories = 2
+		progress = 0.19
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = Naval_Bomber_equipment_1936
+			creator = "JAP"
+		}
+		requested_factories = 1
+		progress = 0.16
+		efficiency = 50
+	}
+
+
+### Ongoing Naval Production Jan 1 1933 ###
+	add_equipment_production = {				# "Hiei"
+		equipment = {
+			type = BB_equipment_1900
+			creator = "JAP"
+		}
+		requested_factories = 1
+		progress = 0.26
+		amount = 1
+	}
+	
+	add_equipment_production = {				# "Suzuya"
+		equipment = {
+			type = CA_equipment_1906
+			creator = "JAP" 
+		}
+		requested_factories = 1
+		progress = 0.24
+		amount = 1
+	}	
+
+	add_equipment_production = {
+		equipment = {
+			type = DD_equipment_1900
+			creator = "JAP" 
+		}
+		requested_factories = 3
+		progress = 0.75
+		amount = 5
+	}	
+
+	add_equipment_production = {				# "I-172" "I-73" "I-174" "I-175"
+		equipment = {
+			type = SS_equipment_1916
+			creator = "JAP" 
+		}
+		requested_factories = 2
+		progress = 0.81
+		amount = 4
+	}
+
+	add_equipment_production = {				# "I-7" "I-8"
+		equipment = {
+			type = SS_equipment_1912
+			creator = "JAP" 
+		}
+		requested_factories = 1
+		progress = 0.76
+		amount = 1
+	}
+	add_equipment_production = {				# "Ro-34"
+		equipment = {
+			type = SS_equipment_1912
+			creator = "JAP" 
+		}
+		requested_factories = 1
+		progress = 0.84
+		amount = 1
+	}
+}
+

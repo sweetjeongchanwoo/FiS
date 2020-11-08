@@ -1,0 +1,48 @@
+﻿division_template = {
+	name = "División de Infanteria"		# Maintained at reserve levels during peacetime
+	division_names_group = SPAN_INFB_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		anti_air_brigade = { x = 3 y = 0 }
+	}
+}
+
+units = {
+	##### Ejercito de Ecuador #####
+	division = {	# 1a Brigada de Infantería
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12798 # San Francisco de (Quito)
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.2
+	}
+	 ##### navy oob #####
+	 fleet = {
+        name = "Armada del Ecuador"
+        naval_base = 8252 # Santiago de Guay (Guayquil)
+        task_force = {
+            name = "Armada del Ecuador"
+            location = 8252 # Santiago de Guay (Guayquil)
+            ship = { name = "BAE Libertador Bolivar" definition = destroyer equipment = { DD_equipment_1900 = { amount = 1 owner = ECU } } }
+        }       
+    }
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = Small_Arms_equipment_1900
+			creator = "ECU"
+		}
+		requested_factories = 1
+		progress = 0.55
+		efficiency = 100
+	}
+}

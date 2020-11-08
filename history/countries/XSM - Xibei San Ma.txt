@@ -1,0 +1,71 @@
+﻿#########################################################################
+# Xibei San Ma - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 604
+	oob = "XSM_1936"
+	#######################
+	# Research
+	#######################	
+	set_technology = {
+		### Infantry Tech
+		Small_Arms_1900 = 1
+		Small_Arms_1916 = 1
+		Uniform_1914 = 1
+		Uniform_1918 = 1
+		SAW_1914 = 1
+		SAW_1918 = 1
+		Support_Weapons_1905 = 1
+		Support_Weapons_1916 = 1
+		Mortar_1915 = 1
+		Mortar_1918 = 1
+		### Support Company Tech
+	}
+	#######################
+	# Politics
+	#######################	
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascist = 0
+		authoritarian = 100
+		democratic = 0
+		socialist = 0
+		communist = 0
+	}
+	add_ideas = {
+		CXB_HoG_Ma_Bufang
+	}
+	#######################
+	# Leaders
+	#######################		
+	create_country_leader = {
+		name = "Ma Lin"
+		desc = ""
+		picture = "P_A_Ma_Lin.tga"
+		expire = "1965.1.1"
+		ideology = authoritarian_democracy
+		traits = { 
+			POSITION_Civil_Governor
+			SUBIDEOLOGY_Authoritarian_Democracy
+			HoS_Autocratic_Charmer
+		}
+	}
+	#######################
+	# Generals
+	#######################
+	create_field_marshal = {
+		name = "Ma Bufang"
+		picture = "P_A_Ma_Bugang.tga"
+		traits = { offensive_doctrine trait_reckless }
+		skill = 4
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 4
+		logistics_skill = 3
+	}
+}

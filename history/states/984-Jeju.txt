@@ -1,0 +1,36 @@
+state={
+	id=984
+	name="STATE_984"
+	
+	history={
+		owner = KJE
+		victory_points = {
+			1177 2
+		}
+		buildings = {
+			infrastructure = 2
+			1177 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = KJE
+		1946.1.1 = {
+			owner = USA
+
+		}
+		1950.1.1 = {
+			owner = KOR
+
+		}
+
+	}
+	
+	provinces={
+		1177 
+	}
+	manpower=486306
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

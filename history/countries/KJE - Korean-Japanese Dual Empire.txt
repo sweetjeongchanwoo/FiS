@@ -5,7 +5,7 @@
 	capital = 986
 	set_stability = 0.40
 	set_war_support = 0.7
-	oob = "JAP_1933"
+	oob = "KJE_1933"
 	set_research_slots = 5
 	set_convoys = 400
 	
@@ -390,17 +390,17 @@
 	}
 	
 	create_corps_commander = {
-		name = "Umezu Yoshijiro"
-		picture = "M_Yoshijiro_Umezu.tga"
+		name = "송하나"
+		picture = "Portrait_Dva.tga"
 		traits = { 
 			trait_cautious 
-			politically_connected 
+			war_hero 
 		}
-		skill = 3
-		attack_skill = 3
+		skill = 4
+		attack_skill = 4
 		defense_skill = 3
-		planning_skill = 1
-		logistics_skill = 3
+		planning_skill = 2
+		logistics_skill = 4
 	}
 	
 	create_corps_commander = {

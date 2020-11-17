@@ -1,0 +1,58 @@
+
+state={
+	id=1473
+	name="STATE_1473"
+	resources={
+		oil=10.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			 2102 10 
+		}
+		victory_points = {
+			1738 5 
+		}
+		victory_points = {
+			9908 5 
+		}
+		victory_points = {
+			12624 20 
+		}
+		buildings = {
+			infrastructure = 10
+			anti_air_building = 2
+			air_base = 4
+			radar_station = 4
+			arms_factory = 3
+			industrial_complex = 2
+			fuel_silo = 1
+			synthetic_refinery = 1
+			rocket_site = 2
+			nuclear_reactor = 1
+			1738 = {
+				bunker = 3
+			}
+			9908 = {
+				bunker = 3
+			}
+		}
+		add_core_of = USA
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1738 2055 2102 4586 9908 12624 
+	}
+	manpower=1560564
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

@@ -4,16 +4,16 @@ state={
 	name="STATE_753"
 
 	history={
-		owner = SIC
-		add_core_of = SIC
+		owner = GRI
+		add_core_of = GRI
 		add_core_of = CHI
-		add_core_of = PRC
+		add_core_of = SZC
 		1936.1.1 = {
-			owner = SIC
+			owner = GRI
 
 		}
 		1950.1.1 = {
-			owner = PRC
+			owner = GRI
 
 		}
 		buildings = {

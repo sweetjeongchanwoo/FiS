@@ -4,7 +4,7 @@ state={
 	name="STATE_756"
 
 	history={
-		owner = CHI
+		owner = YLE
 		victory_points = {
 			12156 2
 		}
@@ -12,7 +12,7 @@ state={
 			infrastructure = 1
 
 		}
-		add_core_of = CHI
+		add_core_of = YLE
 		add_core_of = PRC
 		1936.1.1 = {
 			owner = NEA

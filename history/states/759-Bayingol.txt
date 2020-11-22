@@ -4,9 +4,9 @@ state={
 	name="STATE_759"
 
 	history={
-		owner = SIK
+		owner = EAW
 		1933.1.1 = {
-			add_core_of = SIK
+			add_core_of = EAW
 			add_core_of = CHI
 			add_core_of = PRC
 			TNG = {

@@ -11,8 +11,8 @@ state={
 		victory_points = {
 			12724 1 
 		}
-			owner = SIC
-			add_core_of = XIK
+			owner = GRI
+			add_core_of = GRI
 			add_core_of = CHI
 			add_core_of = PRC	
 

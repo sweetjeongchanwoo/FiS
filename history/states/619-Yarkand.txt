@@ -9,8 +9,8 @@ state={
 	
 	history={
 		
-		owner = SIK
-		add_core_of = SIK
+		owner = EAW
+		add_core_of = EAW
 		add_core_of = CHI
 		add_core_of = PRC
 		add_core_of = ETS

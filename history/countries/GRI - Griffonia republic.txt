@@ -1,0 +1,65 @@
+﻿#########################################################################
+# Griffonia republic - 1933
+#########################################################################
+1933.1.1 = {
+	capital = 1035
+	set_research_slots = 3
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		tech_support = 1
+		tech_recon = 1
+		tech_mountaineers = 1
+		Artillery_1910 = 1
+		Anti_Aircraft_Gun_1935 = 1
+		Fighter_1933 = 1
+		Fighter_Bomber_1933 = 1
+		Tactical_Bomber_1933 = 1
+		CAS_1936 = 1
+		Strategic_Bomber_1933 = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		Light_Tank_1926 = 1
+		Light_Tank_1934 = 1
+		Light_Tank_1936 = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1935.6.19"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascist = 4
+		authoritarian = 11
+		democratic = 59
+		socialist = 22
+		communist = 4
+	}
+	add_ideas = {
+	}
+	#######################
+	# Leaders
+	#######################
+	# democratic
+	create_country_leader = {
+		name = "알렉산드리나 길다"
+		desc = " 출생: 그리폰스톤 시 987년 10월 13일 알렉산드리나 길다는 그리포니아 제국의 둥지였지만 우울하고 퇴폐적인 도시로 전락한지 오래인 그리폰스톤에서 태어났고 그의 가족은 가난했으나 강인했고 작은 식당을 운영하며 살았습니다. 길다는 이퀘스트리아로 여행을 떠났다가 레인보우 대시와 친구가 되었는데, 레인보우 대시는 앞으로 가장 훌륭한 공군 에이스 중 한 명, 그리고 가장 유력한 장군이 될 포니였습니다. 길다는 이퀘스트리아 여행 후 전혀 다른 그리폰으로 변신해 카리스마 넘치고 책임감 있는 그리폰이 되었습니다. 그녀는 그리포니아 그리폰들이 직면하고 있는 문제가 그리포니아 군주정이 퇴폐적이고 과두정적이라 생각하여 그리포니아 2차 혁명에 가담했습니다. 그리포니아 남부군을 창설한 길다는 게릴라전으로 제국군을 공격했지만 정작 북부 공화군이 붕괴될 위기에 처하자 휘하 대원들을 이끌고 제국 영토를 횡단하는 대횡단을 성공하여 전 그리포니아에 이름을 알렸습니다. 하지만 공화국은 이미 패배 직전의 상태에 몰렸고갑작스럽게 나타난 포탈이 그들이 탈출할 수 있는 유일한 방법이었습니다. 그러나 대피하는 동안 제국군을 저지할 시간을 벌어야 했습니다. 놀랍게도 공화국의 케머스카이 총통이 그 일을 맡았고, 더욱 놀랍게도 길다를 부총통으로 임명했습니다.  며칠간의 치열한 전투 끝에 마지막 호송차가 탈출하여 길다는 자연스럽게 공화국의 총통이 되었습니다."
+		picture = "P_GER_Konstantin_von_Neurath.tga"
+		expire = "1965.1.1"
+		ideology = social_liberalism
+		traits = {
+			
+		}
+	}
+	#######################
+	# Generals
+	#######################
+}

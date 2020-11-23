@@ -320,26 +320,6 @@
 	### Field Marshal
 	### Corps Commander
 	create_corps_commander = {
-		name = "타냐 데그레챠프"
-		picture = "Portrait_Tanya.tga"
-		traits = {
-			organizer
-			brilliant_strategist
-			trait_cautious
-			war_hero
-			commando
-			trickster
-			ranger
-			urban_assault_specialist
-		}
-		skill = 8
-		id = 6
-		attack_skill = 8
-		defense_skill = 7
-		planning_skill = 8
-		logistics_skill = 9
-	}
-	create_corps_commander = {
 		name = "Walter Model"
 		picture = "M_Walther_Model.tga"
 		traits = {

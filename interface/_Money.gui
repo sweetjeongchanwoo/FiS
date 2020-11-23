@@ -180,8 +180,8 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "header"
-					position = { x = 25 y = 25 }
-					font = "hoi_24header"
+					position = { x = 25 y = 21 }
+					font = "bombardier_30"
 					format = center
 					text = "ECONOMY_WINDOW_INCOME_TITLE"
 					maxWidth = 258
@@ -735,8 +735,8 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "header"
-					position = { x = 25 y = 25 }
-					font = "hoi_24header"
+					position = { x = 25 y = 21 }
+					font = "bombardier_30"
 					format = center
 					text = "ECONOMY_WINDOW_EXPENSES_TITLE"
 					maxWidth = 258
@@ -1418,7 +1418,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 36 y = 4 }
+			position = { x = 25 y = 7 }
 			font = "bombardier_30"
 			format = left
 			text = "ECONOMY_WINDOW_TITLE"

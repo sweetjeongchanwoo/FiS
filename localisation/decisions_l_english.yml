@@ -16,4 +16,4 @@
  ADD_DAYS_TO_MISSION:0 "$MISSION|H$ 임무에 $DAYS|H$일 추가"
  REMOVE_DAYS_TO_MISSION:0 "$MISSION|H$ 임무에서 $DAYS|H$일 제거"
  CLICK_TO_TOGGLE_ALL_CATEGORY_DECISION_TRACKING:0 "§G클릭§!으로 이 카테고리의 모든 결정에 대해 알림 상태를 전환합니다."
- banned_communism_flag:0 "공산당을 금지함"
+ banned_communism_flag:0 "공산주의 정당 금지"

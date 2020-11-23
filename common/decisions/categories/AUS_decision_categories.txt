@@ -1,8 +1,0 @@
-###########################
-# Raise Paramilitary Troops
-###########################
-AUS_Raise_Paramilitary_Troops_Category = {
-	visible = {
-		
-	}
-}

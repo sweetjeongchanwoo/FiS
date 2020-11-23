@@ -132,7 +132,7 @@
  TRAINING_HALTED:0 "훈련이 중단되었습니다.\n"
  CANNOT_DELETE_SPECIAL_TEMPLATES:0 "특수 편제를 제거할 수 없습니다."
  DEPLOYMENT_CANNOT_TRAIN_SPECIAL_UNITS:1 "새로운 특수 편제 사단은 훈련할 수 없습니다."
- DEPLOYMENT_EXILE_WITH_NO_CAPITAL:0 "§H망명정부§! 상태에서는 새 사단을 훈련시키려면 §H수도§!를 지배해야 합니다."
+ DEPLOYMENT_EXILE_WITH_NO_CAPITAL:0 "§H망명정부§! 상태에서는 새로운 사단을 훈련시키려면 §H수도§!를 지배해야 합니다."
  CANT_CHANGE_DUE_TO_SPECIAL_FORCES_CAP:0 "특수부대 수용 제한에 도달하여 이 편제를 변경할 수 없습니다."
  NO_SPECIAL_FORCES:0 "이 편제는 어떠한 특수부대도 포함하고 있지 않습니다"
  SPECIAL_FORCES_IN_TEMPLATE:0 "이 편제는 $NUM|Y$개의 특수부대를 포함하고 있습니다"

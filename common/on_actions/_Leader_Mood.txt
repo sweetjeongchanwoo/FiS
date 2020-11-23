@@ -1,9 +1,0 @@
-on_actions = {
-	on_startup = {
-		effect = {
-			TNG = {
-				calculate_leader_mood = yes
-			}
-		}
-	}
-}

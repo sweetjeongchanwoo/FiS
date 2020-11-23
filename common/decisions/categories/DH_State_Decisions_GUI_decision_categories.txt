@@ -1,7 +1,0 @@
-dh_state_decisions_gui_category = {
-	icon = decision_category_ger_mefo_bills
-
-	visible = {
-		always = yes
-	}
-}

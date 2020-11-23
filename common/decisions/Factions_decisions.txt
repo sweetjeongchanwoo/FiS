@@ -1,2 +1,0 @@
-factions_decision_category = {
-}

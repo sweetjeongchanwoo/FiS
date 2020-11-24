@@ -343,3 +343,5 @@ SHX = "countries/shanxi.txt"
 CHI = "countries/republic of china.txt"
 FNG = "countries/fengtain.txt"
 GXC = "countries/Guangdong.txt"
+
+PSY = "countries/Asian.txt"

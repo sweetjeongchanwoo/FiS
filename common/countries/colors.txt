@@ -18,6 +18,10 @@ DAC = {
 	color_ui = rgb { 44 130 167 }
 }
 
+PSY = {
+	color = rgb { 0 120 191 }
+	color_ui = rgb { 0 120 191 }
+}
 #reload countrycolors
 ISR = {
 	color = rgb { 15 123 217 }

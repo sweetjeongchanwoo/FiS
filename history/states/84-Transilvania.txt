@@ -10,14 +10,7 @@ state={
 	state_category = town
 
 	history={
-		owner = ROM
-		1945.1.1 = {
-			controller = SOV
-		}
-		1946.1.1 = {
-			owner = ROM
-			controller = ROM
-		}
+		owner = DAC
 		victory_points = {
 			690 3
 		}
@@ -29,7 +22,7 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 		}
-		add_core_of = ROM
+		add_core_of = DAC
 	}
 
 	provinces={

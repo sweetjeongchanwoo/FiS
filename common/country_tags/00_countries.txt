@@ -1,12 +1,15 @@
 #### Western European Countries
-GER	= "countries/Western European.txt"
+GER = "countries/Western European.txt"
+ARD = "countries/Western European.txt"
+
+
 ENG = "countries/Western European.txt"
-SWE	= "countries/Western European.txt"
-FRA	= "countries/Western European.txt"
-LUX	= "countries/Western European.txt"
-BEL	= "countries/Western European.txt"
-HOL	= "countries/Western European.txt"
-AUS	= "countries/Western European.txt"
+SWE = "countries/Western European.txt"
+FRA = "countries/Western European.txt"
+LUX = "countries/Western European.txt"
+BEL = "countries/Western European.txt"
+HOL = "countries/Western European.txt"
+AUS = "countries/Western European.txt"
 SPR = "countries/Western European.txt"
 ITA = "countries/Western European.txt"
 SWI = "countries/Western European.txt"
@@ -62,6 +65,7 @@ SSB = "countries/Reichskommissariat.txt"
 SSP = "countries/Reichskommissariat.txt"
 
 #### Eastern European Countries
+DAC = "countries/Western European.txt"
 SOV = "countries/Eastern European.txt"
 CZE	= "countries/Eastern European.txt"
 BOH	= "countries/Eastern European.txt"

@@ -3,36 +3,12 @@ state={
 	name="STATE_836"
 
 	history={
-		owner = ROM
+		owner = DAC
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = ROM
-		1941.6.22 = {
-			owner = SOV
-			add_core_of = SOV
-			add_core_of = UKR
-			set_state_name = "Khotyn"
-
-		}
-        1942.11.22 = {
-			controller = ROM
-
-		}
-		1944.6.20 = {
-			controller = SOV
-
-		}
-		1946.1.1 = {
-			remove_core_of = ROM
-
-		}
-		2000.1.1 = {
-			owner = UKR
-			remove_core_of = SOV
-			
-		}
+		add_core_of = DAC
 	}
 
 	provinces={

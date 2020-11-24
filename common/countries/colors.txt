@@ -1,3 +1,23 @@
+# FIS Countries
+NCR = {
+	color = rgb { 240 189 36 }
+	color_ui = rgb { 219 46 20 }
+}
+KJE = {
+	color = rgb { 240 117 94 }
+	color_ui = rgb { 240 117 94 }
+}
+
+ARD = {
+	color = rgb { 75 53 94 }
+	color_ui = rgb { 75 53 94 }
+}
+
+DAC = {
+	color = rgb { 44 130 167 }
+	color_ui = rgb { 44 130 167 }
+}
+
 #reload countrycolors
 ISR = {
 	color = rgb { 15 123 217 }
@@ -8,6 +28,8 @@ KOR = {
 	color = rgb { 34 86 169 }
 	color_ui = rgb { 255 190 127 }
 }
+
+
 PRK = {
 	color = rgb { 204 0 0 }
 	color_ui = rgb { 204 0 0 }
@@ -796,10 +818,6 @@ VIE = {
 	color = rgb { 161 19 0 }
 	color_ui = rgb { 219 46 20 }
 }
-CAL = {
-	color = rgb { 240 189 36 }
-	color_ui = rgb { 219 46 20 }
-}
 EGL = {
 	color = rgb { 168 16 32 }
 	color_ui = rgb { 255 73 121 }
@@ -832,10 +850,6 @@ SPA = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
 }
-EHB = {
-    color = rgb { 229 181 151 }
-    color_ui = rgb { 229 181 151 }
-}
 ############################
 # Ekroths East Asia colors #
 ############################
@@ -845,11 +859,11 @@ JAP = {
 }
 CHI = {
 	color = rgb { 240 157 41 }
-	# color = rgb { 36 97 181 }
+	# color = rgb { 255 173 30 }
 	color_ui = rgb { 18 99 176 }
 }
 SIC = { 
-	# color = rgb { 64 127 181 }
+	# color = rgb { 240 215 105 }
 	color = rgb { 244 196 43 }
 	color_ui = rgb {93 181 227 }
 }
@@ -859,8 +873,7 @@ HNN = {
 }
 
 GUZ = {
-	color = rgb { 80 148 96 }
-	# color = rgb { 114 148 80 }
+	color = rgb { 114 148 80 }
 	color_ui = rgb { 141  220  202 }
 }
 SHD = {
@@ -891,14 +904,12 @@ BAN = {
 }
 
 GND = {
-	color = rgb { 71 110 113 }
-	# color = rgb { 71 113 97 }
+	color = rgb { 71 113 97 }
 	color_ui = rgb { 0 158 96 }
 }
 
 GXC = { 
-	color = rgb { 77 138 125 }
-	# color = rgb { 77 138 108 }
+	color = rgb { 77 138 108 }
 	color_ui = rgb { 0 158 96 }
 }
 XIK = {
@@ -1112,10 +1123,6 @@ GRL = {
 HAT = {
     color = rgb { 0 139 70 }
 	color_ui = rgb { 0 139 70 }
-}
-ADJ = {
-    color = rgb { 65 105 225 }
-	color_ui = rgb { 65 105 225 }
 }
 ###----- Civil War Colors ------
 

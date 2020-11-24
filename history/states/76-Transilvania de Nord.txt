@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = ROM
+		owner = DAC
 		victory_points = {
 			6711 5 
 		}
@@ -21,18 +21,7 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = ROM
-		1941.6.22 = {
-			owner = HUN
-			controller = HUN
-		}
-		1945.1.1 = {
-			controller = SOV
-		}
-		1946.1.1 = {
-			owner = ROM
-			controller = ROM
-		}
+		add_core_of = DAC
 	}
 
 	provinces={

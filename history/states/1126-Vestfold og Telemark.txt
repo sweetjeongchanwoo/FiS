@@ -3,7 +3,7 @@ state={
 	name="STATE_1126"
 	
 	history={
-		owner = NOR
+		owner = SWE
 		victory_points = {
 			9296 1
 		}
@@ -23,16 +23,7 @@ state={
 			}
 
 		}
-		add_core_of = NOR
-		1940.5.10 = {
-			controller = GER
-
-		}
-		1946.1.1 = {
-			controller = NOR
-
-		}
-
+		add_core_of = SWE
 	}
 	
 	provinces={

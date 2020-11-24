@@ -1,5 +1,5 @@
 ﻿#########################################################################
-# Romania - 1933
+#  다키아  대공국 - Principality of Dacia
 #########################################################################
 1933.1.1 = {
 	oob = "ROM_1933"
@@ -41,17 +41,28 @@
 	# Politics
 	#######################
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = authoritarian
 		last_election = "1933.12.20"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		fascist = 5
-		authoritarian = 35
-		democratic = 60
-		socialist = 0
-		communist = 0
+		jucheism = 0
+		authoritarian_communism = 0
+		communism = 0
+		blackdancism = 0
+		liberal_socialism = 0
+		anarchism = 0
+		social_democrat = 0
+		social_liberal = 8
+		liberal_democrat = 12
+		conservatism = 0
+		authoritarian = 70
+		nationalism = 0
+		corporatocrat = 0
+		fascism = 10
+		accelerationism = 0
+		burgundian_system = 0
 	}
 	add_ideas = {
 		# Spirit
@@ -80,7 +91,7 @@
 		desc = ""
 		picture = "P_F_Horia_Sima.tga"
 		expire = "1956.1.1"
-		ideology = legionarism
+		ideology = fascism
 		traits = {
 			SUBIDEOLOGY_Legionarism
 		}
@@ -90,7 +101,7 @@
 		desc = ""
 		picture = "P_F_Corneliu_Zelea_Codreanu.tga"
 		expire = "1956.1.1"
-		ideology = legionarism
+		ideology = fascism
 		traits = {
 			SUBIDEOLOGY_Legionarism
 		}
@@ -101,7 +112,7 @@
 		desc = ""
 		picture = "P_A_Carol_II.tga"
 		expire = "1965.1.1"
-		ideology = monarchism
+		ideology = authoritarian
 		traits = {
 			POSITION_King
 			SUBIDEOLOGY_Monarchism
@@ -115,7 +126,7 @@
 		desc = ""
 		picture = "P_D_Gheorghe_Tatarescu.tga"
 		expire = "1965.1.1"
-		ideology = social_conservatism
+		ideology = liberal_democrat
 		traits = {
 			POSITION_Prime_Minister
 			SUBIDEOLOGY_Conservatism
@@ -127,7 +138,7 @@
 		desc = ""
 		picture = "P_D_Ion_G_Duca.tga"
 		expire = "1953.2.5"
-		ideology = social_conservatism
+		ideology = social_democrat
 		traits = {
 			POSITION_Prime_Minister
 			SUBIDEOLOGY_Conservatism
@@ -139,7 +150,7 @@
 		desc = ""
 		picture = "P_D_Alexandru_Vaida_Voevod.tga"
 		expire = "1953.2.5"
-		ideology = social_conservatism
+		ideology = liberal_democrat
 		traits = {
 			POSITION_Prime_Minister
 			SUBIDEOLOGY_Conservatism
@@ -151,7 +162,7 @@
 		desc = ""
 		picture = "P_D_Iuliu_Maniu.tga"
 		expire = "1953.2.5"
-		ideology = social_conservatism
+		ideology = liberal_democrat
 		traits = {
 			POSITION_Prime_Minister
 			SUBIDEOLOGY_Conservatism
@@ -415,69 +426,6 @@
 	}
 }
 
-#########################################################################
-# Romania - 1936
-#########################################################################
-1936.1.1 = {
-	oob = "ROM_1936"
-	set_technology = {
-		Small_Arms_1935 = 1
-	}
-	#######################
-	# Leaders
-	#######################
-	# Democracy
-	create_country_leader = {
-		name = "Gheorghe Tatarescu"
-		desc = ""
-		picture = "P_D_Gheorghe_Tatarescu.tga"
-		expire = "1965.1.1"
-		ideology = social_conservatism
-		traits = {
-			POSITION_Prime_Minister
-			SUBIDEOLOGY_Conservatism
-			HoG_Silent_Workhorse
-		}
-	}
-}
-
-#########################################################################
-# Romania - 1941
-########################################################################
-1941.6.22 = {
-	set_politics = {
-		ruling_party = authoritarian
-		last_election = "1933.12.20"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		fascist = 20
-		authoritarian = 75
-		democratic = 5
-		socialist = 0
-		communist = 0
-	}
-	#######################
-	# Leaders
-	#######################
-	# Fascism
-	create_country_leader = {
-		name = "Ion Antonescu"
-		desc = ""
-		picture = "P_F_Ion_Antonescu.tga"
-		expire = "1956.1.1"
-		ideology = military_dictatorship
-		traits = {
-			POSITION_ROM_Conducator
-			SUBIDEOLOGY_Military_Dictatorship
-			HoS_Resigned_Generalissimo
-		}
-	}
-	#######################
-	# Diplomacy
-	#######################
-}
 
 if = {
 	limit = {
@@ -516,38 +464,4 @@ if = {
 		target = NOR
 		type = annex_everything
 	}
-}
-
-#########################################################################
-# Romania - 1946
-########################################################################
-1946.1.1 = {
-	#######################
-	# Politics
-	#######################
-	set_cosmetic_tag = ROM_SOV_1946
-	set_politics = {
-		ruling_party = communist
-		last_election = "1935.9.15"
-		election_frequency = 36
-		elections_allowed = no
-	}
-	set_popularities = {
-		fascist = 0
-		authoritarian = 0
-		democratic = 0
-		socialist = 0
-		communist = 100
-	}
-}
-
-#########################################################################
-# Romania - 1950
-########################################################################
-1950.1.1 = {
-	#######################
-	# Politics
-	#######################
-	drop_cosmetic_tag = yes
-	set_cosmetic_tag = ROM_SOV
 }

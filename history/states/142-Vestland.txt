@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = NOR
+		owner = ARD
 		victory_points = {
 			122 5
 		}
@@ -35,15 +35,7 @@ state={
 			}
 
 		}
-		add_core_of = NOR
-		1940.5.10 = {
-			controller = GER
-
-		}
-		1946.1.1 = {
-			controller = NOR
-
-		}
+		add_core_of = ARD
 
 	}
 

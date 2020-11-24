@@ -1,3 +1,5 @@
+###DH###
+
 #### Western European Countries
 GER = "countries/Western European.txt"
 ARD = "countries/Western European.txt"
@@ -315,3 +317,8 @@ SKN = "countries/South American.txt"
 ANT = "countries/South American.txt"
 AGU = "countries/South American.txt"
 BLZ = "countries/South American.txt"
+
+
+###FIS###
+
+PSY = "countries/Asian.txt"

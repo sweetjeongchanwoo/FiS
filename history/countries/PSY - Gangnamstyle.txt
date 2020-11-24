@@ -3,3 +3,24 @@ capital =
 set_research_slots = 3
 set_stability = 0.25
 set_war_support = 0.5
+
+set_politics = {
+	ruling_party = accelerationism
+	last_election = "2012.7.15"
+	election_frequency = 42
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "PSY"
+	desc = "POLITICS_PSY_DESC"
+	#picture = "gfx/leaders/GXC/Portrait_Cen_Chunxuan.dds"
+	expire = "1989.1.1"
+	ideology = national_rejuvenatism
+	traits = {
+	}
+}
+
+set_popularities = {
+	accelerationism = 100
+}

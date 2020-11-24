@@ -2,6 +2,10 @@
 
 united_kingdom_focus:0 "미합중국 중점 계통도"
 
+NCR:0 "뉴 캘리포니아 공화국"
+NCR_ADJ:0 "NCR"
+NCR_DEF:0 "NCR"
+
 ### Cosmetic Tags ###
 NCR_accelerationism:0 "뉴 캘리포니아 예술국"
 NCR_accelerationism_ADJ:0 "NCR 예술국"

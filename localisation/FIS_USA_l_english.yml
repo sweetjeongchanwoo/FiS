@@ -2,6 +2,10 @@
 
 united_kingdom_focus:0 "미합중국 중점 계통도"
 
+USA:0 "미합중국"
+USA_ADJ:0 "미국"
+USA_DEF:0 "미국"
+
 ### Cosmetic Tags ###
 USA_accelerationism:0 "북아메리카 우주국"
 USA_accelerationism_ADJ:0 "미우주국"

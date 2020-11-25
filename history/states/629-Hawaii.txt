@@ -4,7 +4,7 @@ state={
 	name="STATE_629"
 
 	history={
-		owner = USA
+		owner = GAK
 		buildings = {
 			infrastructure = 3
 			air_base = 5
@@ -14,7 +14,7 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = GAK
 		victory_points = {
 			4180 5 
 		}

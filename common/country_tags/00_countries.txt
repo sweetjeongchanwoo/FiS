@@ -322,3 +322,4 @@ BLZ = "countries/South American.txt"
 ###FIS###
 
 PSY = "countries/Asian.txt"
+GAK = "countries/Western European.txt"

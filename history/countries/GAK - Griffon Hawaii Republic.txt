@@ -1,0 +1,42 @@
+capital = 629
+
+oob = "GAK_FIS"
+set_naval_oob = "GAK_FIS_NAVAL"
+
+set_stability = 0.6
+set_war_support = 0.8
+set_research_slots = 4
+
+set_popularities = {
+	jucheism = 0
+	authoritarian_communism = 3
+	communism = 3
+	liberal_socialism = 0
+	social_democrat = 0
+	liberal_democrat = 0
+	social_liberal = 0
+	conservatism = 0
+	authoritarian = 8
+	nationalism = 81
+	corporatocrat = 2
+	fascism = 3
+	blackdancism = 0
+	accelerationism = 0
+	burgundian_system = 0
+	anarchism = 0
+}
+
+set_politics = {
+	ruling_party = nationalism
+	last_election = "1936.12.12"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ots-14 'Groza'"
+	desc = "POLITICS_GROZA_DESC"
+	picture = "gfx/leaders/GAK/Portrait_Girls_Frontline_OTs_14_Groza.tga"
+	expire = "2000.1.1"
+	ideology = nationalism_subtype
+}

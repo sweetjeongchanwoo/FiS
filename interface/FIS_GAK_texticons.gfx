@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GAK_ots_groza"
+		texturefile = "gfx/texticons/GAK_ots_groza.tga"
+		legacy_lazy_load = no
+	}
+}

@@ -1,0 +1,9 @@
+leader_traits = {
+	gentleman = {
+		random = no
+		stability_factor = 0.6
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

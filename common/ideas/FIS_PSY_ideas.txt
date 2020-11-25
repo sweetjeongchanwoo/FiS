@@ -1,0 +1,52 @@
+ideas = {
+	country = {
+		PSY_PSYburger = {
+			#picture =
+			
+			modifier = {
+				MONTHLY_POPULATION = 2
+				conscription_factor = 2
+			}
+		}
+		PSY_PSYience = {
+			#picture =
+			
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		
+		PSY_gangbuk = {
+			#picture =
+			
+			modifier = {
+				stability_factor = -0.42
+			}
+		}
+		
+		PSY_PSYclone = {
+			#picture =
+			
+			modifier = {
+				stability_factor = -0.42
+			}
+		}
+		
+		PSY_gentleman = {
+			#picture =
+			
+			modifier = {
+				accelerationism_drift = 42
+			}
+		}
+		
+		PSY_femi = {
+			#picture =
+			
+			modifier = {
+				stability_factor = -0.1
+				MONTHLY_POPULATION = -2
+			}
+		}
+	}
+}

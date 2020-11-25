@@ -1,9 +1,20 @@
-capital = 
+capital = 868
 
-set_research_slots = 3
+
+
+set_research_slots = 1
 set_stability = 0.25
 set_war_support = 0.5
 
+
+add_ideas = {
+	PSY_PSYburger
+	PSY_PSYience
+	PSY_gangbuk
+	PSY_PSYclone
+	PSY_gentleman
+	PSY_femi
+}
 set_politics = {
 	ruling_party = accelerationism
 	last_election = "2012.7.15"
@@ -14,13 +25,192 @@ set_politics = {
 create_country_leader = {
 	name = "PSY"
 	desc = "POLITICS_PSY_DESC"
-	#picture = "gfx/leaders/GXC/Portrait_Cen_Chunxuan.dds"
+	picture = "gfx/leaders/PSY/portrait/Portrait_PSY.tga"
 	expire = "1989.1.1"
 	ideology = national_rejuvenatism
 	traits = {
+		gentleman
 	}
 }
 
+create_country_leader = {
+	name = "PSY"
+	desc = "POLITICS_PSY_DESC"
+	picture = "gfx/leaders/PSY/portrait/Portrait_PSY.tga"
+	expire = "1989.1.1"
+	ideology = jucheism_subtype
+	traits = {
+		gentleman
+	}
+}
+
+create_country_leader = {
+	name = "PSY"
+	desc = "POLITICS_PSY_DESC"
+	picture = "gfx/leaders/PSY/portrait/Portrait_PSY.tga"
+	expire = "1989.1.1"
+	ideology = authoritarian_communism_subtype
+	traits = {
+		gentleman
+	}
+}
+
+create_country_leader = {
+	name = "PSY"
+	desc = "POLITICS_PSY_DESC"
+	picture = "gfx/leaders/PSY/portrait/Portrait_PSY.tga"
+	expire = "1989.1.1"
+	ideology = communism_subtype
+	traits = {
+		gentleman
+	}
+}
+
+create_country_leader = {
+	name = "PSY"
+	desc = "POLITICS_PSY_DESC"
+	picture = "gfx/leaders/PSY/portrait/Portrait_PSY.tga"
+	expire = "1989.1.1"
+	ideology = liberal_socialism_subtype
+	traits = {
+		gentleman
+	}
+}
+
+create_country_leader = {
+	name = "PSY"
+	desc = "POLITICS_PSY_DESC"
+	picture = "gfx/leaders/PSY/portrait/Portrait_PSY.tga"
+	expire = "1989.1.1"
+	ideology = blackdancism_subtype
+	traits = {
+		gentleman
+	}
+}
+
+create_country_leader = {
+	name = "PSY"
+	desc = "POLITICS_PSY_DESC"
+	picture = "gfx/leaders/PSY/portrait/Portrait_PSY.tga"
+	expire = "1989.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		gentleman
+	}
+}
+
+create_country_leader = {
+	name = "PSY"
+	desc = "POLITICS_PSY_DESC"
+	picture = "gfx/leaders/PSY/portrait/Portrait_PSY.tga"
+	expire = "1989.1.1"
+	ideology = liberal_democrat_subtype
+	traits = {
+		gentleman
+	}
+}
+
+create_country_leader = {
+	name = "PSY"
+	desc = "POLITICS_PSY_DESC"
+	picture = "gfx/leaders/PSY/portrait/Portrait_PSY.tga"
+	expire = "1989.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		gentleman
+	}
+}
+
+create_country_leader = {
+	name = "PSY"
+	desc = "POLITICS_PSY_DESC"
+	picture = "gfx/leaders/PSY/portrait/Portrait_PSY.tga"
+	expire = "1989.1.1"
+	ideology = conservatism_subtype
+	traits = {
+		gentleman
+	}
+}
+
+create_country_leader = {
+	name = "PSY"
+	desc = "POLITICS_PSY_DESC"
+	picture = "gfx/leaders/PSY/portrait/Portrait_PSY.tga"
+	expire = "1989.1.1"
+	ideology = authoritarian_subtype
+	traits = {
+		gentleman
+	}
+}
+
+create_country_leader = {
+	name = "PSY"
+	desc = "POLITICS_PSY_DESC"
+	picture = "gfx/leaders/PSY/portrait/Portrait_PSY.tga"
+	expire = "1989.1.1"
+	ideology = nationalism_subtype
+	traits = {
+		gentleman
+	}
+}
+
+create_country_leader = {
+	name = "PSY"
+	desc = "POLITICS_PSY_DESC"
+	picture = "gfx/leaders/PSY/portrait/Portrait_PSY.tga"
+	expire = "1989.1.1"
+	ideology = corporatocrat_subtype
+	traits = {
+		gentleman
+	}
+}
+
+create_country_leader = {
+	name = "PSY"
+	desc = "POLITICS_PSY_DESC"
+	picture = "gfx/leaders/PSY/portrait/Portrait_PSY.tga"
+	expire = "1989.1.1"
+	ideology = fascism_subtype
+	traits = {
+		gentleman
+	}
+}
+
+create_country_leader = {
+	name = "PSY"
+	desc = "POLITICS_PSY_DESC"
+	picture = "gfx/leaders/PSY/portrait/Portrait_PSY.tga"
+	expire = "1989.1.1"
+	ideology = burgundian_system_subtype
+	traits = {
+		gentleman
+	}
+}
+
+create_country_leader = {
+	name = "정형돈"
+	desc = "POLITICS_HYEONGDON_DESC"
+	picture = "gfx/leaders/PSY/portrait/Portrait_PSY_hyeongdon.tga"
+	expire = "1989.1.1"
+	ideology = anarchism_subtype
+	traits = {
+	}
+}
 set_popularities = {
 	accelerationism = 100
+	jucheism = 0
+	authoritarian_communism = 0
+	communism = 0
+	liberal_socialism = 0
+	social_democrat = 0
+	liberal_democrat = 0
+	social_liberal = 0
+	conservatism = 0
+	authoritarian = 0
+	nationalism = 0
+	corporatocrat = 0
+	fascism = 0
+	burgundian_system = 0
+	blackdancism = 0
+	anarchism = 0
 }

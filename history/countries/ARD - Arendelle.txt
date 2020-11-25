@@ -62,8 +62,8 @@
 		liberal_socialism = 0
 		anarchism = 0
 		social_democrat = 0
-		social_liberal = 10
-		liberal_democrat = 4
+		social_liberal = 0
+		liberal_democrat = 14
 		conservatism = 12
 		authoritarian = 64
 		nationalism = 0

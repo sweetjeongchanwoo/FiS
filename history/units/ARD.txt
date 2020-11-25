@@ -1,0 +1,87 @@
+﻿division_template = {
+	name = "Infanteriet Divisjon"		# These were cadre formations that would have expanded up one level in the event of war (the infantry battalions would each become a regiment filled out with conscripts recalled to active duty).
+	division_names_group = NOR_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 } 
+		cavalry = { x = 1 y = 0 }
+		artillery_battalion = { x = 2 y = 0 } 
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+	}
+}
+division_template = {
+	name = "Binær Divisjon"			# These were cadre formations that would have expanded up one level in the event of war (the infantry battalions would each become a regiment filled out with conscripts recalled to active duty).	
+	division_names_group = NOR_GAR_01
+
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		artillery_battalion_light = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+	}
+}
+
+units = {
+	######## LAND UNITS ########
+	##### Kongelige Norwegan Overkommando #####
+	division = {
+		name = "아렌델 왕립 제1근위여단 '크로커스'"
+		location = 122
+		division_template = "Infanteriet Divisjon"
+		start_experience_factor = 0.54
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "아렌델 왕립 제2근위여단 '올라프'"
+		location = 3114
+		division_template = "Infanteriet Divisjon"
+		start_experience_factor = 0.54
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "아렌델 왕립 제6여단"
+		location = 6145
+		division_template = "아렌델 왕립 내무군"
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.9
+	}
+	
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "1. Kystvaktdistrikt"
+		naval_base = 122
+		task_force = {				
+			name = "1. Kystvaktdistrikt"
+			location = 122 # Narvik
+			ship = { name = "KNM Norge" definition = heavy_cruiser equipment = { CA_equipment_1906 = { amount = 1 owner = ARD } } }				
+			ship = { name = "KNM Eidsvold" definition = heavy_cruiser equipment = { CA_equipment_1906 = { amount = 1 owner = ARD } } }	
+		
+			ship = { name = "1. Destroyereskadre" definition = destroyer equipment = { DD_equipment_1900 = { amount = 1 owner = ARD } } }
+			ship = { name = "2. Destroyereskadre" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = ARD } } }
+			ship = { name = "3. Destroyereskadre" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = ARD } } }
+			ship = { name = "4. Destroyereskadre" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = ARD } } }
+			ship = { name = "5. Destroyereskadre" definition = destroyer equipment = { DD_equipment_1885 = { amount = 1 owner = ARD } } }
+		}
+	}
+	}					
+
+}
+
+air_wings = {
+	### Luftforsvaret
+	1474 = {
+		# Had a handful of Fokker C-Vd bombers in both bomber and recon role, 
+		#   plus Tiger Moth trainers used in various roles. 
+		#   This represents what was active in a combat role
+		Tactical_Bomber_equipment_1933 =  {
+			owner = "ARD" 
+			amount = 18
+		}
+	}
+}

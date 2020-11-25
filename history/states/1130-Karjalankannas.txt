@@ -8,8 +8,8 @@ state={
 			infrastructure = 5
 
 		}
-		add_claim_by = FIN
-		add_claim_by = SWE
+		add_core_of = SOV
+		add_core_of = FIN
 	}
 	
 	provinces={

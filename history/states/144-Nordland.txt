@@ -35,6 +35,7 @@ state={
 
 		}
 		add_core_of = SWE
+		add_core_of = NOR
 	}
 
 	provinces={

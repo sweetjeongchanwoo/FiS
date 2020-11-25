@@ -19,22 +19,7 @@ state={
 
 		}
 		add_core_of = SOV
-		1942.11.22 = {
-			FIN = {
-				set_province_controller = 9074
-				set_province_controller = 6175
-				set_province_controller = 6098
-				set_province_controller = 9119
-				set_province_controller = 11054
-				set_province_controller = 157
-				set_province_controller = 13130
-			}
-
-		}
-		1945.1.1 = {
-			controller = SOV
-
-		}
+		add_core_of = FIN
 
 	}
 

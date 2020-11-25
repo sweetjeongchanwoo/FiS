@@ -160,6 +160,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 11266;13732;sea;2824;-1;-1;-1;-1;;Hebrides
 13641;13640;sea;7452;-1;-1;-1;-1;;Aegean Islands
 1424;4360;sea;8614;-1;-1;-1;-1;;New Foundland-Strait
+3379;6350;sea;8340;-1;-1;-1;-1;;Ireland-British
+7377;6363;sea;3990;-1;-1;-1;-1;;Ireland-British2
 13210;6449;sea;2871;-1;-1;-1;-1;;Channel Isles
 13257;3924;sea;5812;-1;-1;-1;-1;;Dalmatia
 13071;13258;sea;210;-1;-1;-1;-1;;Gran Canaria-Tenerife

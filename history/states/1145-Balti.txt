@@ -3,7 +3,7 @@ state={
 	name="STATE_1145"
 	
 	history={
-		owner = ROM
+		owner = DAC
 		victory_points = {
 			6600 2
 		}
@@ -11,30 +11,9 @@ state={
 			infrastructure = 3
 
 		}
-		add_core_of = ROM
+		add_core_of = DAC
 		add_core_of = MOL
-		1941.6.22 = {
-			owner = SOV
-			add_core_of = SOV
-
-		}
-        1942.11.22 = {
-			controller = ROM
-
-		}
-		1944.6.20 = {
-			controller = SOV
-
-		}
-		1946.1.1 = {
-			remove_core_of = ROM
-
-		}
-		2000.1.1 = {
-			owner = MOL
-			remove_core_of = SOV
-
-		}
+		
 
 	}
 	

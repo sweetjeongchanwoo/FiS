@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = NOR
+		owner = SWE
 		victory_points = {
 			6115 15 
 		}
@@ -31,20 +31,13 @@ state={
 			}
 
 		}
+		add_core_of = SWE
 		add_core_of = NOR
-		1940.5.10 = {
-			controller = GER
-
-		}
-		1946.1.1 = {
-			controller = NOR
-
-		}
 
 	}
 
 	provinces={
-		14 27 144 3007 3059 3171 6080 6115 9103 9204 11037 11078 11151 11184 
+		14 27 144 3007 3171 6080 6115 9103 9204 11037 11078 11151 11184 
 	}
 	manpower=710219
 	buildings_max_level_factor=1.000

@@ -76,17 +76,28 @@
 	# Politics
 	#######################
 	set_politics = {	
-		ruling_party = democratic
+		ruling_party = liberal_democrat
 		last_election = "1932.9.20"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		fascist = 1
-		authoritarian = 0
-		democratic = 91
-		socialist = 5
-		communist = 3
+		jucheism = 0
+		authoritarian_communism = 0
+		communism = 5
+		blackdancism = 0
+		liberal_socialism = 5
+		anarchism = 0
+		social_democrat = 10
+		social_liberal = 10
+		liberal_democrat = 25
+		conservatism = 5
+		authoritarian = 20
+		nationalism = 0
+		corporatocrat = 0
+		fascism = 10
+		accelerationism = 0
+		burgundian_system = 0
 	}
 	add_ideas = {
 		SWE_En_Svensk_Tiger

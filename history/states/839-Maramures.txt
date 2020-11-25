@@ -4,29 +4,14 @@ state={
 	name="STATE_839"
 
 	history={
-		owner = ROM
+		owner = DAC
 		victory_points = {
 			746 2
 		}
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = ROM
-		1941.6.22 = {
-			owner = HUN
-			controller = HUN
-		}
-		1944.6.20 = {
-			owner = HUN
-			controller = HUN
-		}
-		1945.1.1 = {
-			controller = SOV
-		}
-		1946.1.1 = {
-			owner = ROM
-			controller = ROM
-		}
+		add_core_of = DAC
 	}
 
 	provinces={

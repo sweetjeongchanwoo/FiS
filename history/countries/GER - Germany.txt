@@ -144,7 +144,7 @@
 	#######################
 	set_cosmetic_tag = GER_WEIMAR
 	set_politics = {
-		ruling_party = authoritarian
+		ruling_party = liberal_democrat
 		last_election = "1932.11.5"
 		election_frequency = 4
 		elections_allowed = yes
@@ -152,8 +152,7 @@
 	set_popularities = {
 		fascist = 43
 		authoritarian = 8
-		democratic = 31
-		socialist = 2
+		liberal_democrat = 31
 		communist = 16
 	}
 	### Positive Christianity

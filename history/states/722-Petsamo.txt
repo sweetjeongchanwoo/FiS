@@ -4,7 +4,7 @@ state={
 	name="STATE_722"
 
 	history={
-		owner = FIN
+		owner = SWE
 		victory_points = {
 			9140 1
 		}
@@ -17,15 +17,7 @@ state={
 
 		}
 		add_core_of = FIN
-		1945.1.1 = {
-		    owner = SOV
-			controller = SOV
-			add_core_of = SOV
-			remove_core_of = FIN
-			set_state_name = "Pechenga"
-			set_province_name = { id = 9140 name = Pechenga }
-
-		}
+		add_core_of = SWE
 
 	}
 

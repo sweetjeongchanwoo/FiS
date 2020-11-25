@@ -1,0 +1,38 @@
+
+state={
+	id=1475
+	name="STATE_1475"
+	resources={
+		chromium=10.000
+		aluminium=10.000
+		steel=10.000
+	}
+
+	history={
+		owner = ARD
+		victory_points = {
+			14746 20
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			dockyard = 3
+			air_base = 5
+			14746 = {
+				naval_base = 3
+				coastal_bunker = 2
+
+			}
+
+		}
+		add_core_of = ARD
+
+	}
+
+	provinces={ 14746
+		
+	}
+	manpower=160344
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -3,28 +3,13 @@ state={
 	name="STATE_1130"
 	
 	history={
-		owner = FIN
+		owner = SOV
 		buildings = {
 			infrastructure = 5
 
 		}
+		add_core_of = SOV
 		add_core_of = FIN
-		1940.5.10 = {
-			owner = SOV
-			controller = SOV
-			set_state_name = "Kurortny"
-
-		}
-		1942.11.22 = {
-			controller = FIN
-		}
-		1944.6.20 = {
-			controller = SOV
-		}
-		1946.1.1 = {
-			owner = SOV
-			controller = SOV
-		}
 	}
 	
 	provinces={

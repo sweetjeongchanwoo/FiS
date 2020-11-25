@@ -7,14 +7,7 @@ state={
 	}
 
 	history={
-		owner = ROM
-		1945.1.1 = {
-			controller = SOV
-		}
-		1946.1.1 = {
-			owner = ROM
-			controller = ROM
-		}
+		owner = DAC
 		victory_points = {
 			9617 20 
 		}
@@ -33,7 +26,7 @@ state={
 			industrial_complex = 1
 			air_base = 3
 		}
-		add_core_of = ROM
+		add_core_of = DAC
 
 	}
 

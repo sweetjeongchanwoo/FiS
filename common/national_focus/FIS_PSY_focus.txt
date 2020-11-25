@@ -1,0 +1,13 @@
+focus_tree = {
+	id = PSY_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 42
+			tag = PSY
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 30 y = 4000 }
+	shared_focus = PSY_coffe
+}

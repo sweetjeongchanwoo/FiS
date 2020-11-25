@@ -5,7 +5,7 @@ guiTypes = {
 		position = { x=0 y =0 }	
 		size = { 
 			width = 1920 
-			height = 1440 
+			height = 1080
 			min = { width = 100% height = 100% }
 			max = { width = 100% height = 10000 }
 			preserve_aspect_ratio = yes
@@ -39,19 +39,19 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name ="youjosenki_version_label"
-			position = { x = 20 y = 215 }
+			position = { x = -20 y = 225 }
 			textureFile = ""
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
-			text = "YS_MOD_VERSION"
+			text = "FIS_MOD_VERSION"
 			format = centre
 			maxWidth = 448
 		}
 		instantTextBoxType = {
 			name ="vanilla_version_label"
-			position = { x = 20 y = 240 }
+			position = { x = -20 y = 255 }
 			textureFile = ""
-			font = "hoi_24header"
+			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = "COMPATIBLE_GAME_VERSION"
 			format = centre
@@ -79,7 +79,7 @@ guiTypes = {
 	### MAIN MENU PANEL (upperright)
 	containerWindowType = {
 		name ="mainmenu_panel_upperright"
-		position = { x=0 y =-1 }
+		position = { x=1 y =-1 }
 		show_position = { x=-256 y =-1 }
 		animation_type = decelerated
 		animation_time = 1000					
@@ -214,10 +214,10 @@ guiTypes = {
 		Orientation = lower_left
 		Origo = lower_left
 				
-		background = {
-			name = "Background"		
-			quadTextureSprite ="GFX_tiled_window"
-		}
+		#background = {
+		#	name = "Background"		
+		#	quadTextureSprite ="GFX_tiled_window"
+		#}
 			
 		ButtonType = {
 			name = "single_player_button"
@@ -308,7 +308,7 @@ guiTypes = {
 			quadTextureSprite ="reddit"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_REDDIT"
-			web_link = "https://www.reddit.com/r/YoujoSenki/"
+			web_link = "https://gall.dcinside.com/mgallery/board/lists?id=rome"
 		}
 		
 		ButtonType = {
@@ -317,7 +317,7 @@ guiTypes = {
 			quadTextureSprite ="discord"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_DISCORD"
-			web_link = "https://discord.gg/xAyrxRX"
+			web_link = "https://discord.gg/GHB2Wk3"
 		}
 
 		ButtonType = {
@@ -326,7 +326,7 @@ guiTypes = {
 			quadTextureSprite ="workshop"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_WORKSHOP"
-			web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=1304402924"
+			web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id="
 		}
 	}
 	

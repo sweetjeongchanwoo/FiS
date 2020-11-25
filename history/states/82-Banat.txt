@@ -11,14 +11,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = ROM
-		1945.1.1 = {
-			controller = SOV
-		}
-		1946.1.1 = {
-			owner = ROM
-			controller = ROM
-		}
+		owner = DAC
 		victory_points = {
 			9606 3
 		}
@@ -26,7 +19,7 @@ state={
 			infrastructure = 5
 			industrial_complex = 2
 		}
-		add_core_of = ROM
+		add_core_of = DAC
 	}
 
 	provinces={

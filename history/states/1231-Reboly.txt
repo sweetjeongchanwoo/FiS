@@ -9,12 +9,7 @@ state={
 
 		}
 		add_core_of = SOV
-		1942.11.22 = {
-			controller = FIN
-		}
-		1945.1.1 = {
-			controller = SOV
-		}
+		add_core_of = FIN
 	}
 
 	provinces={
